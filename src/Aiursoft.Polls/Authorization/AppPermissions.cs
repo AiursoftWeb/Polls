@@ -66,7 +66,16 @@ public class AppPermissions
                 localizer["Allows viewing the background job dashboard and managing jobs."]),
             new(AppPermissionNames.CanManageGlobalSettings,
                 localizer["Manage Global Settings"],
-                localizer["Allows viewing and modifying global application settings."])
+                localizer["Allows viewing and modifying global application settings."]),
+            new(AppPermissionNames.CanManagePolls,
+                localizer["Manage Polls"],
+                localizer["Allows creating and managing polls."]),
+            new(AppPermissionNames.CanManageTemplates,
+                localizer["Manage Templates"],
+                localizer["Allows creating and managing global poll templates."]),
+            new(AppPermissionNames.CanManageDepartments,
+                localizer["Manage Departments"],
+                localizer["Allows adding, editing, and deleting departments."])
         ];
         return allPermission;
     }

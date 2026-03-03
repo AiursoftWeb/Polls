@@ -1,0 +1,99 @@
+@using Aiursoft.Polls.Entities
+@model Aiursoft.Polls.Models.PollsViewModels.VoteViewModel
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <h1 class="h3 mb-3">@Model.Poll.Title</h1>
+        
+        @if (!string.IsNullOrWhiteSpace(Model.Poll.Content))
+        {
+            <div class="card mb-4">
+                <div class="card-body">
+                    <p class="mb-0">@Model.Poll.Content</p>
+                </div>
+            </div>
+        }
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Cast Your Vote"]</h5>
+                @if (Model.Poll.IsAnonymous)
+                {
+                    <small class="text-muted mt-2 d-block"><i class="align-middle text-warning me-1" data-lucide="shield"></i> @Localizer["This poll is anonymous. Your identity will not be attached to your vote."]</small>
+                }
+            </div>
+            <div class="card-body">
+                <form asp-action="Vote" method="post">
+                    <input type="hidden" asp-for="PollId" />
+                    
+                    @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
+                    {
+                        @foreach (var q in Model.Poll.Questions.OrderBy(x => x.Order))
+                        {
+                            <div class="mb-4">
+                                <h5 class="fw-bold">@q.Title</h5>
+                                @if (q.Type == QuestionType.SingleChoice)
+                                {
+                                    <small class="text-muted mb-2 d-block">@Localizer["Select one option."]</small>
+                                    @foreach (var opt in q.Options ?? new List<Option>())
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Answers[@q.Id]" id="opt_@opt.Id" value="@opt.Id" required>
+                                            <label class="form-check-label" for="opt_@opt.Id">
+                                                @opt.Content
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <small class="text-muted mb-2 d-block">@Localizer["Select one or more options."]</small>
+                                    @* For multiple choice we use checkboxes. Since model binding for dictionary is a bit tricky with multiple same-name inputs, we use a single comma-separated value hidden input updated via JS, or we just rely on standard binding if ASP.NET Core supports it. To be safe, we'll name them uniquely and use a little JS to populate the hidden input. *@
+                                    <input type="hidden" name="Answers[@q.Id]" id="ans_@q.Id" required />
+                                    @foreach (var opt in q.Options ?? new List<Option>())
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input multi-opt-@q.Id" type="checkbox" id="opt_@opt.Id" value="@opt.Id" onchange="updateMultiChoice(@q.Id)">
+                                            <label class="form-check-label" for="opt_@opt.Id">
+                                                @opt.Content
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                            </div>
+                            <hr />
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-danger">@Localizer["This poll has no questions to vote on."]</p>
+                    }
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-success btn-lg">
+                            <i class="align-middle me-2" data-lucide="check"></i> @Localizer["Submit Vote"]
+                        </button>
+                        <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light btn-lg">@Localizer["Cancel"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        function updateMultiChoice(questionId) {
+            const checkboxes = document.querySelectorAll('.multi-opt-' + questionId + ':checked');
+            const values = Array.from(checkboxes).map(cb => cb.value);
+            document.getElementById('ans_' + questionId).value = values.join(',');
+            
+            // Toggle required natively to prevent submission if empty
+            if (values.length > 0) {
+                document.getElementById('ans_' + questionId).removeAttribute('required');
+            } else {
+                document.getElementById('ans_' + questionId).setAttribute('required', 'required');
+            }
+        }
+    </script>
+}

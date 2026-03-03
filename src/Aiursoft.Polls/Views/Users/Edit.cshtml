@@ -57,6 +57,17 @@
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="col-12 mb-3">
+                    <label asp-for="DepartmentId" class="form-label">@Localizer["Department"]</label>
+                    <select asp-for="DepartmentId" class="form-select form-select-lg">
+                        <option value="">@Localizer["(None)"]</option>
+                        @foreach (var dept in Model.AllDepartments ?? new List<Aiursoft.Polls.Entities.Department>())
+                        {
+                            <option value="@dept.Id">@dept.Name</option>
+                        }
+                    </select>
+                    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                </div>
+                <div class="col-12 mb-3">
                     <label asp-for="Password" class="form-label">@Localizer["New Password"]</label>
                     <input asp-for="Password" class="form-control form-control-lg" />
                     <span asp-validation-for="Password" class="text-danger"></span>

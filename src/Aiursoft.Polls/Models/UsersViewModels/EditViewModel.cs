@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using Aiursoft.CSTools.Attributes;
 using Aiursoft.UiStack.Layout;
 using Microsoft.AspNetCore.Mvc;
+using Aiursoft.Polls.Entities;
 
 namespace Aiursoft.Polls.Models.UsersViewModels;
 
@@ -51,4 +52,9 @@ public class EditViewModel : UiStackLayoutViewModel
 
     [Display(Name = "All roles")]
     public List<UserRoleViewModel> AllRoles { get; set; }
+
+    [Display(Name = "Department")]
+    public int? DepartmentId { get; set; }
+
+    public List<Department>? AllDepartments { get; set; }
 }

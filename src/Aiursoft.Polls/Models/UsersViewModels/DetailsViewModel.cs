@@ -21,4 +21,7 @@ public class DetailsViewModel : UiStackLayoutViewModel
 
     [Display(Name = "Permissions")]
     public required List<PermissionDescriptor> Permissions { get; set; }
+
+    [Display(Name = "Department")]
+    public Department? Department { get; set; }
 }

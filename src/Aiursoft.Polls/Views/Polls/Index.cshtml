@@ -1,0 +1,134 @@
+@using Aiursoft.Polls.Entities
+@using Aiursoft.WebTools
+@model Aiursoft.Polls.Models.PollsViewModels.IndexViewModel
+<style>
+    .clickable-row {
+        cursor: pointer;
+    }
+</style>
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Polls Dashboard"]</h3>
+    </div>
+
+    <div class="col-auto ms-auto mt-n1">
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="align-middle" data-lucide="plus"></i> @Localizer["Create a new poll"]
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="card-title text-success"><i class="align-middle me-2" data-lucide="check-square"></i> @Localizer["To-Do Polls"]</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                @if (Model.ToDoPolls.Any())
+                {
+                    @foreach (var poll in Model.ToDoPolls)
+                    {
+                        <a href="@Url.Action("Vote", new { id = poll.Id })" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>@poll.Title</strong>
+                                <div class="text-muted small">@Localizer["Deadline:"] <span data-utc-time="@poll.Deadline.ToHtmlDateTime()"></span></div>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">@Localizer["Vote Now"]</span>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <div class="list-group-item text-muted">@Localizer["No to-do polls right now."]</div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="card-title"><i class="align-middle me-2" data-lucide="clock"></i> @Localizer["My Voting History"]</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                @if (Model.HistoryPolls.Any())
+                {
+                    @foreach (var poll in Model.HistoryPolls)
+                    {
+                        <a href="@Url.Action("Details", new { id = poll.Id })" class="list-group-item list-group-item-action">
+                            <strong>@poll.Title</strong>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <div class="list-group-item text-muted">@Localizer["You haven't participated in any polls yet."]</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title text-primary"><i class="align-middle me-2" data-lucide="settings"></i> @Localizer["Polls I Manage"]</h5>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>@Localizer["Title"]</th>
+                    <th>@Localizer["Status"]</th>
+                    <th>@Localizer["Deadline"]</th>
+                    <th class="text-end">@Localizer["Actions"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model.ManagedPolls)
+                {
+                    <tr class="clickable-row" data-href="@Url.Action("Details", new { id = p.Id })">
+                        <td>@p.Title</td>
+                        <td>
+                            @switch (p.State)
+                            {
+                                case PollState.Draft: <span class="badge bg-secondary">Draft</span> break;
+                                case PollState.Published: <span class="badge bg-success">Published</span> break;
+                                case PollState.Completed: <span class="badge bg-info">Completed</span> break;
+                                case PollState.Suspended: <span class="badge bg-warning">Suspended</span> break;
+                                case PollState.Void: <span class="badge bg-danger">Void</span> break;
+                            }
+                        </td>
+                        <td><span data-utc-time="@p.Deadline.ToHtmlDateTime()"></span></td>
+                        <td class="text-end">
+                            <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">@Localizer["Details"]</a>
+                        </td>
+                    </tr>
+                }
+                @if (!Model.ManagedPolls.Any())
+                {
+                    <tr>
+                        <td colspan="4" class="text-muted text-center pt-3 pb-3">@Localizer["You don't manage any polls."]</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const rows = document.querySelectorAll(".clickable-row");
+            rows.forEach(row => {
+                row.addEventListener("click", function (event) {
+                    const target = event.target;
+                    if (!target.matches('a, a *, button, button *')) {
+                        window.location.href = row.dataset.href;
+                    }
+                });
+            });
+        });
+    </script>
+}

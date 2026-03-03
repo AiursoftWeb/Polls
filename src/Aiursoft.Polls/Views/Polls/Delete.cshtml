@@ -1,0 +1,23 @@
+@model Aiursoft.Polls.Models.PollsViewModels.DeleteViewModel
+
+<h1 class="h3 mb-3">@Localizer["Delete Poll"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0 text-danger">@Localizer["Warning!"]</h5>
+            </div>
+            <div class="card-body">
+                <p>@Localizer["Are you sure you want to delete the poll "] <strong>@Model.Poll.Title</strong>?</p>
+                <form asp-action="Delete">
+                    <input type="hidden" name="Id" value="@Model.Poll.Id" />
+                    <button type="submit" class="btn btn-danger">
+                        <i class="align-middle me-2" data-lucide="trash"></i> @Localizer["Yes, Delete"]
+                    </button>
+                    <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Cancel"]</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

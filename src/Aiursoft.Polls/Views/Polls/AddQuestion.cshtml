@@ -1,0 +1,39 @@
+@using Aiursoft.Polls.Entities
+@model Aiursoft.Polls.Models.PollsViewModels.AddQuestionViewModel
+
+<h1 class="h3 mb-3">@Localizer["Add Question"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Question Details"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="AddQuestion">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    <input type="hidden" asp-for="PollId" />
+
+                    <div class="mb-3">
+                        <label asp-for="Title" class="form-label">@Localizer["Question Title"]</label>
+                        <input asp-for="Title" class="form-control form-control-lg" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Type" class="form-label">@Localizer["Question Type"]</label>
+                        <select asp-for="Type" asp-items="Html.GetEnumSelectList<QuestionType>()" class="form-select form-select-lg"></select>
+                        <span asp-validation-for="Type" class="text-danger"></span>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-2" data-lucide="plus"></i> @Localizer["Add Question"]
+                        </button>
+                        <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-light">@Localizer["Cancel"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

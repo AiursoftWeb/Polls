@@ -1,0 +1,31 @@
+@model Aiursoft.Polls.Models.DepartmentsViewModels.CreateViewModel
+
+<h1 class="h3 mb-3">@Localizer["Create New Department"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Department Details"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label">@Localizer["Department Name"]</label>
+                        <input asp-for="Name" class="form-control form-control-lg" placeholder="@Localizer["Enter department name"]" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-2" data-lucide="plus"></i> @Localizer["Create"]
+                        </button>
+                        <a asp-action="Index" class="btn btn-light">@Localizer["Back to List"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

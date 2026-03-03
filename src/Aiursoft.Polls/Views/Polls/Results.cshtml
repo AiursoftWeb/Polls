@@ -1,0 +1,121 @@
+@using Aiursoft.Polls.Entities
+@using Aiursoft.Polls.Authorization
+@model Aiursoft.Polls.Models.PollsViewModels.DetailsViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Poll Results:"] <span class="text-muted">@Model.Poll.Title</span></h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to Poll"]</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Statistics Board"]</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
+                {
+                    @foreach (var q in Model.Poll.Questions.OrderBy(x => x.Order))
+                    {
+                        var totalVotesForQ = q.Options?.Sum(o => o.Votes?.Count ?? 0) ?? 0;
+                        <div class="mb-5">
+                            <h4 class="fw-bold mb-3">@q.Title</h4>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="bg-light">
+                                        <tr>
+                                            <th style="width: 40%">@Localizer["Option"]</th>
+                                            <th style="width: 40%">@Localizer["Chart"]</th>
+                                            <th style="width: 20%" class="text-end">@Localizer["Votes"]</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var opt in q.Options ?? [])
+                                        {
+                                            var count = opt.Votes?.Count ?? 0;
+                                            var pct = totalVotesForQ > 0 ? (int)Math.Round((double)count / totalVotesForQ * 100) : 0;
+                                            <tr>
+                                                <td>@opt.Content</td>
+                                                <td class="align-middle">
+                                                    <div class="progress" style="height: 20px;">
+                                                        <div class="progress-bar bg-primary" role="progressbar" style="width: @pct%;" aria-valuenow="@pct" aria-valuemin="0" aria-valuemax="100">@pct%</div>
+                                                    </div>
+                                                </td>
+                                                <td class="text-end"><strong>@count</strong> (@pct%)</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted text-center p-4">@Localizer["No data available for this poll."]</p>
+                }
+            </div>
+        </div>
+
+        @if (User.HasClaim(c => c.Type == AppPermissions.Type && c.Value == AppPermissionNames.CanManagePolls) || Model.Poll.CreatedById == User.Claims.FirstOrDefault(c => c.Type == "sub")?.Value)
+        {
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">@Localizer["Detailed Data (Manager Only)"]</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Poll.IsAnonymous)
+                    {
+                        <div class="alert alert-info">
+                            <i class="align-middle me-2" data-lucide="info"></i> @Localizer["This poll was set to anonymous. Voter identities (Usernames) are hidden. Only IP addresses are recorded."]
+                        </div>
+                    }
+                    
+                    <div class="table-responsive">
+                        <table class="table table-sm table-striped">
+                            <thead>
+                                <tr>
+                                    <th>@Localizer["Question"]</th>
+                                    <th>@Localizer["Selected Option"]</th>
+                                    <th>@Localizer["Voter"]</th>
+                                    <th>@Localizer["IP Address"]</th>
+                                    <th>@Localizer["Time (UTC)"]</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var q in Model.Poll.Questions ?? [])
+                                {
+                                    foreach (var o in q.Options ?? [])
+                                    {
+                                        foreach (var v in o.Votes ?? [])
+                                        {
+                                            <tr>
+                                                <td>@q.Title</td>
+                                                <td>@o.Content</td>
+                                                @if (Model.Poll.IsAnonymous)
+                                                {
+                                                    <td class="text-muted">@Localizer["[Anonymous]"]</td>
+                                                }
+                                                else
+                                                {
+                                                    <td>@(v.User?.DisplayName ?? v.UserId ?? Localizer["Guest"].Value)</td>
+                                                }
+                                                <td>@v.IPAddress</td>
+                                                <td><span data-utc-time="@v.CreationTime.ToString("O")"></span></td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

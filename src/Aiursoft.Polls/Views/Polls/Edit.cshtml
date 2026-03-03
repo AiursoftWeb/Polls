@@ -1,0 +1,58 @@
+@model Aiursoft.Polls.Models.PollsViewModels.EditViewModel
+
+<h1 class="h3 mb-3">@Localizer["Edit Poll"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Poll Settings"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="mb-3">
+                        <label asp-for="Title" class="form-label">@Localizer["Poll Title"]</label>
+                        <input asp-for="Title" class="form-control form-control-lg" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Content" class="form-label">@Localizer["Description"]</label>
+                        <textarea asp-for="Content" class="form-control form-control-lg" rows="3"></textarea>
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Deadline" class="form-label">@Localizer["Deadline"]</label>
+                        <input asp-for="Deadline" type="datetime-local" class="form-control form-control-lg" />
+                        <span asp-validation-for="Deadline" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-check form-switch mb-3">
+                        <input asp-for="IsAnonymous" class="form-check-input" type="checkbox">
+                        <label asp-for="IsAnonymous" class="form-check-label">
+                            <strong>@Localizer["Anonymous Voting"]</strong>
+                        </label>
+                    </div>
+
+                    <div class="form-check form-switch mb-3">
+                        <input asp-for="IsPublic" class="form-check-input" type="checkbox">
+                        <label asp-for="IsPublic" class="form-check-label">
+                            <strong>@Localizer["Public Poll"]</strong>
+                        </label>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-2" data-lucide="save"></i> @Localizer["Save Changes"]
+                        </button>
+                        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-light">@Localizer["Cancel"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

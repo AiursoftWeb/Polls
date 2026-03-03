@@ -26,4 +26,9 @@ public static class AppPermissionNames
     public const string CanRebootThisApp = nameof(CanRebootThisApp);
     public const string CanViewBackgroundJobs = nameof(CanViewBackgroundJobs);
     public const string CanManageGlobalSettings = nameof(CanManageGlobalSettings);
+
+    // Polls Management
+    public const string CanManagePolls = nameof(CanManagePolls);
+    public const string CanManageTemplates = nameof(CanManageTemplates);
+    public const string CanManageDepartments = nameof(CanManageDepartments);
 }

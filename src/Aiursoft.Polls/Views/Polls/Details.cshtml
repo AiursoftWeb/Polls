@@ -1,0 +1,128 @@
+@using Aiursoft.Polls.Entities
+@using Aiursoft.Polls.Authorization
+@using Aiursoft.WebTools
+@model Aiursoft.Polls.Models.PollsViewModels.DetailsViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Poll Details:"] <span class="text-muted">@Model.Poll.Title</span></h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        @if (Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow && !Model.HasVoted)
+        {
+            <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-success">@Localizer["Vote Now"]</a>
+        }
+        
+        @if (User.HasClaim(c => c.Type == AppPermissions.Type && c.Value == AppPermissionNames.CanManagePolls))
+        {
+            <a asp-action="Edit" asp-route-id="@Model.Poll.Id" class="btn btn-primary">@Localizer["Edit"]</a>
+            @if (Model.Poll.State == PollState.Draft)
+            {
+                <form asp-action="Publish" method="post" class="d-inline">
+                    <input type="hidden" name="id" value="@Model.Poll.Id" />
+                    <button type="submit" class="btn btn-warning">@Localizer["Publish"]</button>
+                </form>
+            }
+        }
+        
+        @if (Model.Poll.State != PollState.Draft)
+        {
+            <a asp-action="Results" asp-route-id="@Model.Poll.Id" class="btn btn-info">@Localizer["View Results"]</a>
+        }
+        <a asp-action="Index" class="btn btn-light">@Localizer["Back to list"]</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 col-xl-4">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Poll Info"]</h5>
+            </div>
+            <div class="card-body">
+                <p>@Model.Poll.Content</p>
+                <hr />
+                <div><strong>@Localizer["Status:"]</strong> @Model.Poll.State.ToString()</div>
+                <div><strong>@Localizer["Deadline:"]</strong> <span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></div>
+                <div><strong>@Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
+                <div><strong>@Localizer["Anonymous:"]</strong> @(Model.Poll.IsAnonymous ? "Yes" : "No")</div>
+                <div><strong>@Localizer["Public:"]</strong> @(Model.Poll.IsPublic ? "Yes" : "No")</div>
+            </div>
+        </div>
+
+        @if (Model.HasVoted)
+        {
+            <div class="card mb-3 border-success">
+                <div class="card-header bg-success text-white">
+                    <h5 class="card-title mb-0 text-white"><i class="align-middle me-2" data-lucide="check-circle"></i> @Localizer["You Voted"]</h5>
+                </div>
+                <div class="card-body">
+                    <p class="mb-2">@Localizer["Thanks for participating! You submitted your vote on this poll."]</p>
+                    <ul class="list-unstyled mb-0">
+                        @foreach (var vote in Model.UserVotes ?? [])
+                        {
+                            <li>- <strong>@vote.Option?.Question?.Title</strong>: @vote.Option?.Content</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="col-md-8 col-xl-8">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">@Localizer["Questions"]</h5>
+                @if (User.HasClaim(c => c.Type == AppPermissions.Type && c.Value == AppPermissionNames.CanManagePolls) && Model.Poll.State == PollState.Draft)
+                {
+                    <a asp-action="AddQuestion" asp-route-id="@Model.Poll.Id" class="btn btn-sm btn-outline-primary">
+                        <i class="align-middle" data-lucide="plus"></i> @Localizer["Add Question"]
+                    </a>
+                }
+            </div>
+            <div class="list-group list-group-flush">
+                @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
+                {
+                    @foreach (var q in Model.Poll.Questions.OrderBy(x => x.Order))
+                    {
+                        <div class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <strong>Q: @q.Title</strong>
+                                <div>
+                                    <span class="badge bg-secondary me-2">@(q.Type == QuestionType.SingleChoice ? "Single Choice" : "Multiple Choice")</span>
+                                    @if (User.HasClaim(c => c.Type == AppPermissions.Type && c.Value == AppPermissionNames.CanManagePolls) && Model.Poll.State == PollState.Draft)
+                                    {
+                                        <a asp-action="AddOption" asp-route-id="@q.Id" class="btn btn-sm btn-outline-success">@Localizer["Add Option"]</a>
+                                    }
+                                </div>
+                            </div>
+                            
+                            @if (q.Options != null && q.Options.Any())
+                            {
+                                <ul class="list-group mt-2">
+                                    @foreach (var opt in q.Options)
+                                    {
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            @opt.Content
+                                            @* In a real app we might show vote progress bar here if public results are allowed or state is completed *@
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p class="text-muted small mt-2 mb-0">@Localizer["No options added yet."]</p>
+                            }
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="list-group-item text-center p-4">
+                        <p class="text-muted mb-0">@Localizer["No questions have been added to this poll yet."]</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -92,6 +92,9 @@
                                     <span class="badge bg-secondary me-2">@(q.Type == QuestionType.SingleChoice ? "Single Choice" : "Multiple Choice")</span>
                                     @if (User.HasClaim(c => c.Type == AppPermissions.Type && c.Value == AppPermissionNames.CanManagePolls) && Model.Poll.State == PollState.Draft)
                                     {
+                                        <a asp-action="EditQuestion" asp-route-id="@q.Id" class="btn btn-sm btn-outline-primary me-1">
+                                            @Localizer["Edit"]
+                                        </a>
                                         <a asp-action="AddOption" asp-route-id="@q.Id" class="btn btn-sm btn-outline-success">@Localizer["Add Option"]</a>
                                     }
                                 </div>

@@ -293,6 +293,49 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     }
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    public async Task<IActionResult> EditQuestion(int? id)
+    {
+        if (id == null) return NotFound();
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await userManager.GetUserAsync(User);
+        if (question.Poll!.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
+            return Unauthorized();
+
+        return this.StackView(new EditQuestionViewModel
+        {
+            Id = question.Id,
+            PollId = question.PollId,
+            Title = question.Title,
+            Type = question.Type
+        });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> EditQuestion(EditQuestionViewModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == model.Id);
+            if (question == null) return NotFound();
+
+            var user = await userManager.GetUserAsync(User);
+            if (question.Poll!.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
+                return Unauthorized();
+
+            question.Title = model.Title!;
+            question.Type = model.Type;
+
+            await context.SaveChangesAsync();
+            return RedirectToAction(nameof(Details), new { id = question.PollId });
+        }
+        return this.StackView(model);
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     public async Task<IActionResult> AddOption(int? id)
     {
         if (id == null) return NotFound();

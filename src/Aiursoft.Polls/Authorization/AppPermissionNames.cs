@@ -30,5 +30,4 @@ public static class AppPermissionNames
     // Polls Management
     public const string CanManagePolls = nameof(CanManagePolls);
     public const string CanManageTemplates = nameof(CanManageTemplates);
-    public const string CanManageDepartments = nameof(CanManageDepartments);
 }

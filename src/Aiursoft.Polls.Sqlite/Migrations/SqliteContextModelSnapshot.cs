@@ -17,22 +17,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.3");
 
-            modelBuilder.Entity("Aiursoft.Polls.Entities.Department", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Departments");
-                });
-
             modelBuilder.Entity("Aiursoft.Polls.Entities.GlobalSetting", b =>
                 {
                     b.Property<string>("Key")
@@ -107,27 +91,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                     b.HasIndex("CreatedById");
 
                     b.ToTable("Polls");
-                });
-
-            modelBuilder.Entity("Aiursoft.Polls.Entities.PollDepartmentRestriction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("PollId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.HasIndex("PollId");
-
-                    b.ToTable("PollDepartmentRestrictions");
                 });
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.PollRoleRestriction", b =>
@@ -221,9 +184,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                     b.Property<DateTime>("CreationTime")
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("DepartmentId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("DisplayName")
                         .IsRequired()
                         .HasMaxLength(30)
@@ -270,8 +230,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -459,25 +417,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                     b.Navigation("CreatedBy");
                 });
 
-            modelBuilder.Entity("Aiursoft.Polls.Entities.PollDepartmentRestriction", b =>
-                {
-                    b.HasOne("Aiursoft.Polls.Entities.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aiursoft.Polls.Entities.Poll", "Poll")
-                        .WithMany("DepartmentRestrictions")
-                        .HasForeignKey("PollId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Department");
-
-                    b.Navigation("Poll");
-                });
-
             modelBuilder.Entity("Aiursoft.Polls.Entities.PollRoleRestriction", b =>
                 {
                     b.HasOne("Aiursoft.Polls.Entities.Poll", "Poll")
@@ -525,15 +464,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .IsRequired();
 
                     b.Navigation("Poll");
-                });
-
-            modelBuilder.Entity("Aiursoft.Polls.Entities.User", b =>
-                {
-                    b.HasOne("Aiursoft.Polls.Entities.Department", "Department")
-                        .WithMany("Users")
-                        .HasForeignKey("DepartmentId");
-
-                    b.Navigation("Department");
                 });
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Vote", b =>
@@ -604,11 +534,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Aiursoft.Polls.Entities.Department", b =>
-                {
-                    b.Navigation("Users");
-                });
-
             modelBuilder.Entity("Aiursoft.Polls.Entities.Option", b =>
                 {
                     b.Navigation("Votes");
@@ -616,8 +541,6 @@ namespace Aiursoft.Polls.Sqlite.Migrations
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Poll", b =>
                 {
-                    b.Navigation("DepartmentRestrictions");
-
                     b.Navigation("Questions");
 
                     b.Navigation("RoleRestrictions");

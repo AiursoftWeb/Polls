@@ -58,7 +58,7 @@ public class UsersController(
     public async Task<IActionResult> Details(string? id)
     {
         if (id == null) return NotFound();
-        var user = await context.Users.Include(t => t.Department).SingleOrDefaultAsync(t => t.Id == id);
+        var user = await context.Users.SingleOrDefaultAsync(t => t.Id == id);
         if (user == null) return NotFound();
 
         var roleNames = await userManager.GetRolesAsync(user);
@@ -133,7 +133,6 @@ public class UsersController(
 
         var userRoles = await userManager.GetRolesAsync(user);
         var allRoles = await roleManager.Roles.ToListAsync();
-        var allDepartments = await context.Departments.ToListAsync();
 
         var model = new EditViewModel
         {
@@ -143,8 +142,6 @@ public class UsersController(
             DisplayName = user.DisplayName,
             Password = "you-cant-read-it",
             AvatarUrl = user.AvatarRelativePath,
-            DepartmentId = user.DepartmentId,
-            AllDepartments = allDepartments,
             AllRoles = allRoles.Select(role => new UserRoleViewModel
             {
                 RoleName = role.Name!,
@@ -164,7 +161,11 @@ public class UsersController(
     {
         if (!ModelState.IsValid)
         {
-            model.AllDepartments = await context.Departments.ToListAsync();
+            model.AllRoles = (await roleManager.Roles.ToListAsync()).Select(role => new UserRoleViewModel
+            {
+                RoleName = role.Name!,
+                IsSelected = false
+            }).ToList();
             return this.StackView(model);
         }
         var userInDb = await userManager.FindByIdAsync(model.Id);
@@ -174,7 +175,6 @@ public class UsersController(
         userInDb.UserName = model.UserName;
         userInDb.DisplayName = model.DisplayName;
         userInDb.AvatarRelativePath = model.AvatarUrl;
-        userInDb.DepartmentId = model.DepartmentId;
         await userManager.UpdateAsync(userInDb);
 
         if (!string.IsNullOrWhiteSpace(model.Password) && model.Password != "you-cant-read-it")

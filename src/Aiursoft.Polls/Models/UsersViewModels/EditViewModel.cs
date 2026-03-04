@@ -52,9 +52,4 @@ public class EditViewModel : UiStackLayoutViewModel
 
     [Display(Name = "All roles")]
     public List<UserRoleViewModel> AllRoles { get; set; }
-
-    [Display(Name = "Department")]
-    public int? DepartmentId { get; set; }
-
-    public List<Department>? AllDepartments { get; set; }
 }

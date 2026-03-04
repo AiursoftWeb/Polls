@@ -41,19 +41,16 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
         
         var allActivePolls = await context.Polls
             .Include(p => p.RoleRestrictions)
-            .Include(p => p.DepartmentRestrictions)
             .Include(p => p.UserRestrictions)
             .Where(p => p.State == PollState.Published && p.Deadline > DateTime.UtcNow)
             .ToListAsync();
 
-        var todoPolls = allActivePolls.Where(p => 
-            p.IsPublic || 
+        var todoPolls = allActivePolls.Where(p =>
+            p.IsPublic ||
             (p.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) ?? false) ||
-            (p.DepartmentRestrictions?.Any(d => d.DepartmentId == user.DepartmentId) ?? false) ||
             (p.UserRestrictions?.Any(u => u.UserId == user.Id) ?? false) ||
             // If no restrictions, maybe we consider it open to all internal?
-            ((p.RoleRestrictions == null || !p.RoleRestrictions.Any()) && 
-             (p.DepartmentRestrictions == null || !p.DepartmentRestrictions.Any()) && 
+            ((p.RoleRestrictions == null || !p.RoleRestrictions.Any()) &&
              (p.UserRestrictions == null || !p.UserRestrictions.Any()))
         ).ToList();
 
@@ -399,7 +396,6 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             .Include(p => p.Questions!)
             .ThenInclude(q => q.Options)
             .Include(p => p.RoleRestrictions)
-            .Include(p => p.DepartmentRestrictions)
             .Include(p => p.UserRestrictions)
             .SingleOrDefaultAsync(p => p.Id == id);
 
@@ -419,13 +415,11 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             bool allowed = false;
 
             if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.DepartmentRestrictions == null || !poll.DepartmentRestrictions.Any()) &&
                 (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
             {
                 allowed = true;
             }
             else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.DepartmentRestrictions?.Any(d => d.DepartmentId == user.DepartmentId) == true ||
                      poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
             {
                 allowed = true;
@@ -451,7 +445,6 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             .Include(p => p.Questions!)
             .ThenInclude(q => q.Options)
             .Include(p => p.RoleRestrictions)
-            .Include(p => p.DepartmentRestrictions)
             .Include(p => p.UserRestrictions)
             .SingleOrDefaultAsync(p => p.Id == model.PollId);
 
@@ -471,13 +464,11 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             bool allowed = false;
 
             if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.DepartmentRestrictions == null || !poll.DepartmentRestrictions.Any()) &&
                 (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
             {
                 allowed = true;
             }
             else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.DepartmentRestrictions?.Any(d => d.DepartmentId == user.DepartmentId) == true ||
                      poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
             {
                 allowed = true;
@@ -554,20 +545,19 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             .ThenInclude(v => v.User)
             .Include(p => p.CreatedBy)
             .Include(p => p.RoleRestrictions)
-            .Include(p => p.DepartmentRestrictions)
             .Include(p => p.UserRestrictions)
             .SingleOrDefaultAsync(p => p.Id == id);
 
         if (poll == null) return NotFound();
 
         var user = await userManager.GetUserAsync(User);
-        
+
         // Visibility rules for results:
         // 1. Manager/Admin can always see
         // 2. If it's Public, everyone can see
         // 3. Otherwise, check RBAC as with voting
         bool isManager = user != null && (poll.CreatedById == user.Id || User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls));
-        
+
         if (!poll.IsPublic && !isManager)
         {
             if (user == null) return Unauthorized();
@@ -576,13 +566,11 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             bool allowed = false;
 
             if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.DepartmentRestrictions == null || !poll.DepartmentRestrictions.Any()) &&
                 (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
             {
                 allowed = true;
             }
             else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.DepartmentRestrictions?.Any(d => d.DepartmentId == user.DepartmentId) == true ||
                      poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
             {
                 allowed = true;

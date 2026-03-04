@@ -47,21 +47,6 @@
                 </div>
                 <div class="list-group-item">
                     <div class="row">
-                        <strong class="col-sm-3">@Localizer["Department"]</strong>
-                        <div class="col-sm-9">
-                            @if (Model.Department != null)
-                            {
-                                @Model.Department.Name
-                            }
-                            else
-                            {
-                                @Localizer["(None)"]
-                            }
-                        </div>
-                    </div>
-                </div>
-                <div class="list-group-item">
-                    <div class="row">
                         <strong class="col-sm-3">@Localizer["Creation Time"]</strong>
                         <div class="col-sm-9">
                             <label data-utc-time="@Model.User.CreationTime.ToHtmlDateTime()" class="text-monospace"></label>

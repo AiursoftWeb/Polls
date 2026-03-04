@@ -33,6 +33,5 @@ public class Poll
 
     public ICollection<Question>? Questions { get; set; }
     public ICollection<PollRoleRestriction>? RoleRestrictions { get; set; }
-    public ICollection<PollDepartmentRestriction>? DepartmentRestrictions { get; set; }
     public ICollection<PollUserRestriction>? UserRestrictions { get; set; }
 }

@@ -336,6 +336,23 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     }
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteQuestion(int id)
+    {
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await userManager.GetUserAsync(User);
+        if (question.Poll!.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
+            return Unauthorized();
+
+        context.Questions.Remove(question);
+        await context.SaveChangesAsync();
+        return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     public async Task<IActionResult> AddOption(int? id)
     {
         if (id == null) return NotFound();

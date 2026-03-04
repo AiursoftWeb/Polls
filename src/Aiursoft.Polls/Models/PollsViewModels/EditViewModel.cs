@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Aiursoft.UiStack.Layout;
 using Aiursoft.Polls.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace Aiursoft.Polls.Models.PollsViewModels;
 
@@ -30,4 +31,9 @@ public class EditViewModel : UiStackLayoutViewModel
     [Required]
     [Display(Name = "Deadline")]
     public DateTime Deadline { get; set; }
+
+    [Display(Name = "Allowed Roles")]
+    public List<string> SelectedRoles { get; set; } = [];
+
+    public List<IdentityRole> AllRoles { get; set; } = [];
 }

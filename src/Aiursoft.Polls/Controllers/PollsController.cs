@@ -13,7 +13,7 @@ namespace Aiursoft.Polls.Controllers;
 
 [Authorize]
 [LimitPerMin]
-public class PollsController(TemplateDbContext context, UserManager<User> userManager) : Controller
+public class PollsController(TemplateDbContext context, UserManager<User> userManager, RoleManager<IdentityRole> roleManager) : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Features",
@@ -85,7 +85,11 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     public IActionResult Create()
     {
-        return this.StackView(new CreateViewModel());
+        var model = new CreateViewModel
+        {
+            AllRoles = roleManager.Roles.ToList()
+        };
+        return this.StackView(model);
     }
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
@@ -108,8 +112,25 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             };
             context.Polls.Add(poll);
             await context.SaveChangesAsync();
+
+            // Add role restrictions
+            if (model.SelectedRoles != null && model.SelectedRoles.Any())
+            {
+                foreach (var roleId in model.SelectedRoles)
+                {
+                    var restriction = new PollRoleRestriction
+                    {
+                        PollId = poll.Id,
+                        RoleId = roleId
+                    };
+                    context.PollRoleRestrictions.Add(restriction);
+                }
+                await context.SaveChangesAsync();
+            }
+
             return RedirectToAction(nameof(Details), new { id = poll.Id });
         }
+        model.AllRoles = roleManager.Roles.ToList();
         return this.StackView(model);
     }
     
@@ -149,11 +170,13 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null) return NotFound();
-        var poll = await context.Polls.FindAsync(id);
+        var poll = await context.Polls
+            .Include(p => p.RoleRestrictions)
+            .FirstOrDefaultAsync(p => p.Id == id);
         if (poll == null) return NotFound();
 
         var user = await userManager.GetUserAsync(User);
-        if (poll.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext) /* System Admin fallback */)
+        if (poll.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
         {
             return Unauthorized();
         }
@@ -165,7 +188,9 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             Content = poll.Content,
             IsAnonymous = poll.IsAnonymous,
             IsPublic = poll.IsPublic,
-            Deadline = poll.Deadline
+            Deadline = poll.Deadline,
+            SelectedRoles = poll.RoleRestrictions?.Select(r => r.RoleId).ToList() ?? [],
+            AllRoles = roleManager.Roles.ToList()
         });
     }
 
@@ -176,7 +201,9 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     {
         if (ModelState.IsValid)
         {
-            var poll = await context.Polls.FindAsync(model.Id);
+            var poll = await context.Polls
+                .Include(p => p.RoleRestrictions)
+                .FirstOrDefaultAsync(p => p.Id == model.Id);
             if (poll == null) return NotFound();
 
             var user = await userManager.GetUserAsync(User);
@@ -190,10 +217,31 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             poll.IsAnonymous = model.IsAnonymous;
             poll.IsPublic = model.IsPublic;
             poll.Deadline = model.Deadline;
-            
+
+            // Update role restrictions
+            var existingRestrictions = poll.RoleRestrictions?.ToList() ?? [];
+            foreach (var restriction in existingRestrictions)
+            {
+                context.PollRoleRestrictions.Remove(restriction);
+            }
+
+            if (model.SelectedRoles != null && model.SelectedRoles.Any())
+            {
+                foreach (var roleId in model.SelectedRoles)
+                {
+                    var restriction = new PollRoleRestriction
+                    {
+                        PollId = poll.Id,
+                        RoleId = roleId
+                    };
+                    context.PollRoleRestrictions.Add(restriction);
+                }
+            }
+
             await context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = poll.Id });
         }
+        model.AllRoles = roleManager.Roles.ToList();
         return this.StackView(model);
     }
 

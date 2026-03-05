@@ -26,7 +26,7 @@
 
                     <div class="mb-3">
                         <label asp-for="Deadline" class="form-label">@Localizer["Deadline"]</label>
-                        <input asp-for="Deadline" type="datetime-local" class="form-control form-control-lg" />
+                        <input asp-for="Deadline" type="datetime-local" step="1" asp-format="{0:yyyy-MM-ddTHH:mm:ss}" class="form-control form-control-lg" />
                         <span asp-validation-for="Deadline" class="text-danger"></span>
                     </div>
                     

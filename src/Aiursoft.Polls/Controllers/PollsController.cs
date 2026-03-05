@@ -332,6 +332,20 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             };
             context.Questions.Add(req);
             await context.SaveChangesAsync();
+
+            if (model.Options != null && model.Options.Any())
+            {
+                foreach (var optContent in model.Options.Where(o => !string.IsNullOrWhiteSpace(o)))
+                {
+                    context.Options.Add(new Option
+                    {
+                        QuestionId = req.Id,
+                        Content = optContent.Trim()
+                    });
+                }
+                await context.SaveChangesAsync();
+            }
+
             return RedirectToAction(nameof(Details), new { id = poll.Id });
         }
         return this.StackView(model);
@@ -341,7 +355,7 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     public async Task<IActionResult> EditQuestion(int? id)
     {
         if (id == null) return NotFound();
-        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        var question = await context.Questions.Include(q => q.Poll).Include(q => q.Options).SingleOrDefaultAsync(q => q.Id == id);
         if (question == null) return NotFound();
 
         var user = await userManager.GetUserAsync(User);
@@ -353,7 +367,8 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
             Id = question.Id,
             PollId = question.PollId,
             Title = question.Title,
-            Type = question.Type
+            Type = question.Type,
+            Options = question.Options?.Select(o => new QuestionOptionViewModel { Id = o.Id, Content = o.Content }).ToList() ?? []
         });
     }
 
@@ -364,7 +379,7 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
     {
         if (ModelState.IsValid)
         {
-            var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == model.Id);
+            var question = await context.Questions.Include(q => q.Poll).Include(q => q.Options).SingleOrDefaultAsync(q => q.Id == model.Id);
             if (question == null) return NotFound();
 
             var user = await userManager.GetUserAsync(User);
@@ -373,6 +388,35 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
 
             question.Title = model.Title!;
             question.Type = model.Type;
+
+            var existingOptions = question.Options?.ToList() ?? [];
+            var modelOptions = model.Options ?? [];
+
+            // Delete removed options
+            var modelOptionIds = modelOptions.Select(o => o.Id).ToList();
+            var removedOptions = existingOptions.Where(o => !modelOptionIds.Contains(o.Id)).ToList();
+            context.Options.RemoveRange(removedOptions);
+
+            // Add or update options
+            foreach (var optModel in modelOptions.Where(o => !string.IsNullOrWhiteSpace(o.Content)))
+            {
+                if (optModel.Id == 0) // New option
+                {
+                    context.Options.Add(new Option
+                    {
+                        QuestionId = question.Id,
+                        Content = optModel.Content.Trim()
+                    });
+                }
+                else // Existing option
+                {
+                    var existingOpt = existingOptions.FirstOrDefault(o => o.Id == optModel.Id);
+                    if (existingOpt != null)
+                    {
+                        existingOpt.Content = optModel.Content.Trim();
+                    }
+                }
+            }
 
             await context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = question.PollId });
@@ -395,238 +439,5 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
         context.Questions.Remove(question);
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Details), new { id = question.PollId });
-    }
-
-    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> AddOption(int? id)
-    {
-        if (id == null) return NotFound();
-        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
-        if (question == null) return NotFound();
-
-        var user = await userManager.GetUserAsync(User);
-        if (question.Poll!.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
-            return Unauthorized();
-
-        return this.StackView(new AddOptionViewModel { QuestionId = question.Id });
-    }
-
-    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> AddOption(AddOptionViewModel model)
-    {
-        if (ModelState.IsValid)
-        {
-            var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == model.QuestionId);
-            if (question == null) return NotFound();
-
-            var user = await userManager.GetUserAsync(User);
-            if (question.Poll!.CreatedById != user!.Id && !User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext))
-                return Unauthorized();
-
-            var option = new Option
-            {
-                QuestionId = question.Id,
-                Content = model.Content!
-            };
-            context.Options.Add(option);
-            await context.SaveChangesAsync();
-            return RedirectToAction(nameof(Details), new { id = question.PollId });
-        }
-        return this.StackView(model);
-    }
-
-    public async Task<IActionResult> Vote(int? id)
-    {
-        if (id == null) return NotFound();
-        var poll = await context.Polls
-            .Include(p => p.Questions!)
-            .ThenInclude(q => q.Options)
-            .Include(p => p.RoleRestrictions)
-            .Include(p => p.UserRestrictions)
-            .SingleOrDefaultAsync(p => p.Id == id);
-
-        if (poll == null) return NotFound();
-
-        if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
-        {
-            return BadRequest("This poll is not active.");
-        }
-
-        var user = await userManager.GetUserAsync(User);
-        if (!poll.IsPublic)
-        {
-            if (user == null) return Unauthorized();
-
-            var userRoles = await userManager.GetRolesAsync(user);
-            bool allowed = false;
-
-            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
-            {
-                allowed = true;
-            }
-            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
-            {
-                allowed = true;
-            }
-
-            if (!allowed) return Forbid();
-        }
-
-        if (user != null)
-        {
-            bool hasVoted = await context.Votes.AnyAsync(v => v.UserId == user.Id && v.Option!.Question!.PollId == poll.Id);
-            if (hasVoted) return BadRequest("You have already voted.");
-        }
-
-        return this.StackView(new VoteViewModel { PollId = poll.Id, Poll = poll });
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Vote(VoteViewModel model)
-    {
-        var poll = await context.Polls
-            .Include(p => p.Questions!)
-            .ThenInclude(q => q.Options)
-            .Include(p => p.RoleRestrictions)
-            .Include(p => p.UserRestrictions)
-            .SingleOrDefaultAsync(p => p.Id == model.PollId);
-
-        if (poll == null) return NotFound();
-
-        if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
-        {
-            return BadRequest("This poll is not active.");
-        }
-
-        var user = await userManager.GetUserAsync(User);
-        if (!poll.IsPublic)
-        {
-            if (user == null) return Unauthorized();
-
-            var userRoles = await userManager.GetRolesAsync(user);
-            bool allowed = false;
-
-            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
-            {
-                allowed = true;
-            }
-            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
-            {
-                allowed = true;
-            }
-
-            if (!allowed) return Forbid();
-        }
-
-        var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown";
-
-        if (user != null)
-        {
-            bool hasVoted = await context.Votes.AnyAsync(v => v.UserId == user.Id && v.Option!.Question!.PollId == poll.Id);
-            if (hasVoted) return BadRequest("You have already voted.");
-        }
-        else
-        {
-            // Anonymous public vote IP limit check. Limit to 5 per IP per day for this poll.
-            var recentVotes = await context.Votes
-                .Where(v => v.IPAddress == ip && v.Option!.Question!.PollId == poll.Id && v.CreationTime > DateTime.UtcNow.AddDays(-1))
-                .GroupBy(v => v.CreationTime)
-                .CountAsync();
-
-            if (recentVotes >= 5)
-            {
-                return BadRequest("You have reached the maximum number of anonymous votes for this poll today.");
-            }
-        }
-
-        // Validate and insert votes
-        var votes = new List<Vote>();
-        foreach (var answer in model.Answers)
-        {
-            var questionId = answer.Key;
-            var optionIdsStr = answer.Value; // could be comma separated for MultipleChoice
-
-            var question = poll.Questions?.SingleOrDefault(q => q.Id == questionId);
-            if (question == null) continue;
-
-            var selectedOptionIds = optionIdsStr.Split(',').Select(int.Parse).ToList();
-
-            if (question.Type == QuestionType.SingleChoice && selectedOptionIds.Count > 1)
-            {
-                return BadRequest($"Question '{question.Title}' allows only one choice.");
-            }
-
-            foreach (var optId in selectedOptionIds)
-            {
-                if (question.Options?.Any(o => o.Id == optId) == true)
-                {
-                    votes.Add(new Vote
-                    {
-                        OptionId = optId,
-                        UserId = poll.IsAnonymous ? null : user?.Id, // Anonymize if needed
-                        IPAddress = ip
-                    });
-                }
-            }
-        }
-
-        context.Votes.AddRange(votes);
-        await context.SaveChangesAsync();
-
-        return RedirectToAction(nameof(Details), new { id = poll.Id });
-    }
-
-    public async Task<IActionResult> Results(int? id)
-    {
-        if (id == null) return NotFound();
-        var poll = await context.Polls
-            .Include(p => p.Questions!)
-            .ThenInclude(q => q.Options!)
-            .ThenInclude(o => o.Votes!)
-            .ThenInclude(v => v.User)
-            .Include(p => p.CreatedBy)
-            .Include(p => p.RoleRestrictions)
-            .Include(p => p.UserRestrictions)
-            .SingleOrDefaultAsync(p => p.Id == id);
-
-        if (poll == null) return NotFound();
-
-        var user = await userManager.GetUserAsync(User);
-
-        // Visibility rules for results:
-        // 1. Manager/Admin can always see
-        // 2. If it's Public, everyone can see
-        // 3. Otherwise, check RBAC as with voting
-        bool isManager = user != null && (poll.CreatedById == user.Id || User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls));
-
-        if (!poll.IsPublic && !isManager)
-        {
-            if (user == null) return Unauthorized();
-
-            var userRoles = await userManager.GetRolesAsync(user);
-            bool allowed = false;
-
-            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
-                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
-            {
-                allowed = true;
-            }
-            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
-                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
-            {
-                allowed = true;
-            }
-
-            if (!allowed) return Forbid();
-        }
-
-        return this.StackView(new DetailsViewModel { Poll = poll, HasVoted = true, UserVotes = [] }, "Results");
     }
 }

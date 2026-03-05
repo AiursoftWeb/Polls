@@ -20,4 +20,6 @@ public class AddQuestionViewModel : UiStackLayoutViewModel
 
     [Display(Name = "Question Type")]
     public QuestionType Type { get; set; }
+
+    public List<string> Options { get; set; } = [];
 }

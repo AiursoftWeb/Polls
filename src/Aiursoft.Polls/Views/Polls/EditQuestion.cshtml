@@ -27,6 +27,30 @@
                         <span asp-validation-for="Type" class="text-danger"></span>
                     </div>
 
+                    <hr />
+
+                    <div class="mb-3">
+                        <h6 class="card-subtitle text-muted mb-2">@Localizer["Options"]</h6>
+                        <div id="options-container">
+                            @if (Model.Options != null)
+                            {
+                                for (int i = 0; i < Model.Options.Count; i++)
+                                {
+                                    <div class="input-group mb-2 option-item">
+                                        <input type="hidden" name="Options[@i].Id" value="@Model.Options[i].Id" />
+                                        <input type="text" name="Options[@i].Content" value="@Model.Options[i].Content" class="form-control" required placeholder="@Localizer["Option Content"]" />
+                                        <button type="button" class="btn btn-outline-danger remove-option-btn" title="@Localizer["Remove Option"]">
+                                            <i class="align-middle" data-lucide="trash-2"></i>
+                                        </button>
+                                    </div>
+                                }
+                            }
+                        </div>
+                        <button type="button" id="add-option-btn" class="btn btn-sm btn-outline-success mt-2">
+                            <i class="align-middle" data-lucide="plus"></i> @Localizer["Add Option"]
+                        </button>
+                    </div>
+
                     <div class="mt-4">
                         <button type="submit" class="btn btn-primary">
                             <i class="align-middle me-2" data-lucide="save"></i> @Localizer["Save Question"]
@@ -38,3 +62,54 @@
         </div>
     </div>
 </div>
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const addOptionBtn = document.getElementById('add-option-btn');
+            const optionsContainer = document.getElementById('options-container');
+
+            function attachRemoveEvent(button) {
+                button.addEventListener('click', function () {
+                    this.closest('.option-item').remove();
+                    reindexOptions();
+                });
+            }
+
+            function reindexOptions() {
+                const items = optionsContainer.querySelectorAll('.option-item');
+                items.forEach((item, index) => {
+                    const idInput = item.querySelector('input[type="hidden"]');
+                    const contentInput = item.querySelector('input[type="text"]');
+                    if (idInput) idInput.name = `Options[${index}].Id`;
+                    if (contentInput) contentInput.name = `Options[${index}].Content`;
+                });
+            }
+
+            addOptionBtn.addEventListener('click', function () {
+                const index = optionsContainer.querySelectorAll('.option-item').length;
+                const newOptionHtml = `
+                    <div class="input-group mb-2 option-item">
+                        <input type="hidden" name="Options[${index}].Id" value="0" />
+                        <input type="text" name="Options[${index}].Content" class="form-control" required placeholder="@Localizer["Option Content"]" />
+                        <button type="button" class="btn btn-outline-danger remove-option-btn" title="@Localizer["Remove Option"]">
+                            <i class="align-middle" data-lucide="trash-2"></i>
+                        </button>
+                    </div>
+                `;
+                optionsContainer.insertAdjacentHTML('beforeend', newOptionHtml);
+                
+                // Re-initialize lucide icons for the newly added element
+                if (window.lucide) {
+                    window.lucide.createIcons();
+                }
+
+                // Attach remove event to the newly added button
+                const newButtons = optionsContainer.querySelectorAll('.remove-option-btn');
+                attachRemoveEvent(newButtons[newButtons.length - 1]);
+            });
+
+            // Attach remove event to existing buttons
+            document.querySelectorAll('.remove-option-btn').forEach(attachRemoveEvent);
+        });
+    </script>
+}

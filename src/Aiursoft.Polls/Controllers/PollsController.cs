@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Aiursoft.Polls.Authorization;
 using Aiursoft.Polls.Entities;
 using Aiursoft.Polls.Models.PollsViewModels;
@@ -439,5 +440,198 @@ public class PollsController(TemplateDbContext context, UserManager<User> userMa
         context.Questions.Remove(question);
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
+    public async Task<IActionResult> Vote(int? id)
+    {
+        if (id == null) return NotFound();
+        var poll = await context.Polls
+            .Include(p => p.Questions!)
+            .ThenInclude(q => q.Options)
+            .Include(p => p.RoleRestrictions)
+            .Include(p => p.UserRestrictions)
+            .SingleOrDefaultAsync(p => p.Id == id);
+
+        if (poll == null) return NotFound();
+
+        if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
+        {
+            return BadRequest("This poll is not active.");
+        }
+
+        var user = await userManager.GetUserAsync(User);
+        if (!poll.IsPublic)
+        {
+            if (user == null) return Unauthorized();
+
+            var userRoles = await userManager.GetRolesAsync(user);
+            bool allowed = false;
+
+            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
+                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
+            {
+                allowed = true;
+            }
+            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
+                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
+            {
+                allowed = true;
+            }
+
+            if (!allowed) return Forbid();
+        }
+
+        if (user != null)
+        {
+            bool hasVoted = await context.Votes.AnyAsync(v => v.UserId == user.Id && v.Option!.Question!.PollId == poll.Id);
+            if (hasVoted) return BadRequest("You have already voted.");
+        }
+
+        return this.StackView(new VoteViewModel { PollId = poll.Id, Poll = poll });
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Vote(VoteViewModel model)
+    {
+        var poll = await context.Polls
+            .Include(p => p.Questions!)
+            .ThenInclude(q => q.Options)
+            .Include(p => p.RoleRestrictions)
+            .Include(p => p.UserRestrictions)
+            .SingleOrDefaultAsync(p => p.Id == model.PollId);
+
+        if (poll == null) return NotFound();
+
+        if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
+        {
+            return BadRequest("This poll is not active.");
+        }
+
+        var user = await userManager.GetUserAsync(User);
+        if (!poll.IsPublic)
+        {
+            if (user == null) return Unauthorized();
+
+            var userRoles = await userManager.GetRolesAsync(user);
+            bool allowed = false;
+
+            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
+                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
+            {
+                allowed = true;
+            }
+            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
+                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
+            {
+                allowed = true;
+            }
+
+            if (!allowed) return Forbid();
+        }
+
+        var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown";
+
+        if (user != null)
+        {
+            bool hasVoted = await context.Votes.AnyAsync(v => v.UserId == user.Id && v.Option!.Question!.PollId == poll.Id);
+            if (hasVoted) return BadRequest("You have already voted.");
+        }
+        else
+        {
+            // Anonymous public vote IP limit check. Limit to 5 per IP per day for this poll.
+            var recentVotes = await context.Votes
+                .Where(v => v.IPAddress == ip && v.Option!.Question!.PollId == poll.Id && v.CreationTime > DateTime.UtcNow.AddDays(-1))
+                .GroupBy(v => v.CreationTime)
+                .CountAsync();
+
+            if (recentVotes >= 5)
+            {
+                return BadRequest("You have reached the maximum number of anonymous votes for this poll today.");
+            }
+        }
+
+        // Validate and insert votes
+        var votes = new List<Vote>();
+        foreach (var answer in model.Answers)
+        {
+            var questionId = answer.Key;
+            var optionIdsStr = answer.Value; // could be comma separated for MultipleChoice
+
+            var question = poll.Questions?.SingleOrDefault(q => q.Id == questionId);
+            if (question == null) continue;
+
+            var selectedOptionIds = optionIdsStr.Split(',').Select(int.Parse).ToList();
+
+            if (question.Type == QuestionType.SingleChoice && selectedOptionIds.Count > 1)
+            {
+                return BadRequest($"Question '{question.Title}' allows only one choice.");
+            }
+
+            foreach (var optId in selectedOptionIds)
+            {
+                if (question.Options?.Any(o => o.Id == optId) == true)
+                {
+                    votes.Add(new Vote
+                    {
+                        OptionId = optId,
+                        UserId = poll.IsAnonymous ? null : user?.Id, // Anonymize if needed
+                        IPAddress = ip
+                    });
+                }
+            }
+        }
+
+        context.Votes.AddRange(votes);
+        await context.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Details), new { id = poll.Id });
+    }
+
+    public async Task<IActionResult> Results(int? id)
+    {
+        if (id == null) return NotFound();
+        var poll = await context.Polls
+            .Include(p => p.Questions!)
+            .ThenInclude(q => q.Options!)
+            .ThenInclude(o => o.Votes!)
+            .ThenInclude(v => v.User)
+            .Include(p => p.CreatedBy)
+            .Include(p => p.RoleRestrictions)
+            .Include(p => p.UserRestrictions)
+            .SingleOrDefaultAsync(p => p.Id == id);
+
+        if (poll == null) return NotFound();
+
+        var user = await userManager.GetUserAsync(User);
+
+        // Visibility rules for results:
+        // 1. Manager/Admin can always see
+        // 2. If it's Public, everyone can see
+        // 3. Otherwise, check RBAC as with voting
+        bool isManager = user != null && (poll.CreatedById == user.Id || User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls));
+
+        if (!poll.IsPublic && !isManager)
+        {
+            if (user == null) return Unauthorized();
+
+            var userRoles = await userManager.GetRolesAsync(user);
+            bool allowed = false;
+
+            if ((poll.RoleRestrictions == null || !poll.RoleRestrictions.Any()) &&
+                (poll.UserRestrictions == null || !poll.UserRestrictions.Any()))
+            {
+                allowed = true;
+            }
+            else if (poll.RoleRestrictions?.Any(r => userRoles.Contains(r.RoleId)) == true ||
+                     poll.UserRestrictions?.Any(u => u.UserId == user.Id) == true)
+            {
+                allowed = true;
+            }
+
+            if (!allowed) return Forbid();
+        }
+
+        return this.StackView(new DetailsViewModel { Poll = poll, HasVoted = true, UserVotes = [] }, "Results");
     }
 }

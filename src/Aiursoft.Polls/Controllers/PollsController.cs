@@ -380,6 +380,11 @@ public class PollsController(
             if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
 
             var oldDeadline = poll.Deadline;
+            if (model.NewDeadline <= oldDeadline)
+            {
+                ModelState.AddModelError(nameof(model.NewDeadline), "New deadline must be later than the current deadline.");
+                return this.StackView(model);
+            }
             poll.Deadline = model.NewDeadline;
             poll.UpdatedTime = DateTime.UtcNow;
 

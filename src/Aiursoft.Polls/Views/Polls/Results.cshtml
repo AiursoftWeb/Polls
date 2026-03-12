@@ -1,0 +1,106 @@
+@using Aiursoft.Polls.Entities
+@using Aiursoft.WebTools
+@model Aiursoft.Polls.Models.PollsViewModels.ResultsViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Results:"] <span class="text-muted">@Model.Poll.Title</span></h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        @if (Model.CanExport)
+        {
+            <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
+                <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
+            </a>
+        }
+        <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h2 class="text-primary">@Model.TotalSubmissions</h2>
+                <div class="text-muted">@Localizer["Total Submissions"]</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
+                <div class="text-muted">@Localizer["Created By"]</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>
+                <div class="text-muted">@Localizer["Deadline"]</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    var qIndex = 0;
+}
+@foreach (var qr in Model.QuestionResults)
+{
+    qIndex++;
+    <div class="card mb-3">
+        <div class="card-header">
+            <h5 class="card-title mb-0">@qIndex. @qr.Question.Title</h5>
+            <small class="text-muted">@Localizer["Responses:"] @qr.TotalAnswers</small>
+        </div>
+        <div class="card-body">
+            @if (qr.Question.Type == QuestionType.TextResponse)
+            {
+                if (qr.TextResponses.Any())
+                {
+                    <div class="list-group">
+                        @foreach (var text in qr.TextResponses)
+                        {
+                            <div class="list-group-item">@text</div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">@Localizer["No responses yet."]</p>
+                }
+            }
+            else
+            {
+                foreach (var or in qr.OptionResults)
+                {
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>@or.Option.Content @(or.Option.AllowCustomText ? "(Other)" : "")</span>
+                            <span class="text-muted">@or.Count (@or.Percentage%)</span>
+                        </div>
+                        <div class="progress" style="height: 25px;">
+                            <div class="progress-bar" role="progressbar" style="width: @or.Percentage%;" aria-valuenow="@or.Percentage" aria-valuemin="0" aria-valuemax="100">
+                                @or.Percentage%
+                            </div>
+                        </div>
+                        @if (or.CustomTexts.Any())
+                        {
+                            <div class="mt-1 ms-3">
+                                <small class="text-muted">@Localizer["Custom responses:"]</small>
+                                <ul class="list-unstyled ms-2">
+                                    @foreach (var ct in or.CustomTexts)
+                                    {
+                                        <li class="small">— @ct</li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}

@@ -1,0 +1,118 @@
+@using Aiursoft.Polls.Entities
+@model Aiursoft.Polls.Models.PollsViewModels.VoteViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Vote:"] <span class="text-muted">@Model.Poll?.Title</span></h3>
+    </div>
+</div>
+
+@if (Model.Poll?.Description != null)
+{
+    <div class="alert alert-info">@Model.Poll.Description</div>
+}
+
+<form asp-action="Vote" method="post" id="voteForm">
+    <input type="hidden" asp-for="PollId" />
+    <input type="hidden" asp-for="BrowserFingerprint" id="browserFingerprint" />
+
+    @if (Model.Poll?.Questions != null)
+    {
+        var qIndex = 0;
+        foreach (var q in Model.Poll.Questions.OrderBy(x => x.Order))
+        {
+            qIndex++;
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">
+                        @qIndex. @q.Title
+                        @if (q.IsRequired) { <span class="text-danger">*</span> }
+                    </h5>
+                    <small class="text-muted">
+                        @switch (q.Type)
+                        {
+                            case QuestionType.SingleChoice: @Localizer["Select one option"] break;
+                            case QuestionType.MultipleChoice: @Localizer["Select one or more options"] break;
+                            case QuestionType.TextResponse: @Localizer["Enter your response"] break;
+                        }
+                    </small>
+                </div>
+                <div class="card-body">
+                    @switch (q.Type)
+                    {
+                        case QuestionType.SingleChoice:
+                            if (q.Options != null)
+                            {
+                                foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
+                                {
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="SelectedOptions[@q.Id]" value="@opt.Id" id="opt_@opt.Id" />
+                                        <label class="form-check-label" for="opt_@opt.Id">@opt.Content</label>
+                                    </div>
+                                    if (opt.AllowCustomText)
+                                    {
+                                        <div class="ms-4 mb-2">
+                                            <input type="text" class="form-control form-control-sm" name="CustomTexts[@q.Id]" placeholder="@Localizer["Please specify..."]" />
+                                        </div>
+                                    }
+                                }
+                            }
+                            break;
+                        case QuestionType.MultipleChoice:
+                            if (q.Options != null)
+                            {
+                                <input type="hidden" name="SelectedOptions[@q.Id]" id="multiInput_@q.Id" value="" />
+                                foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
+                                {
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input multi-check" type="checkbox" value="@opt.Id" data-question-id="@q.Id" id="opt_@opt.Id" />
+                                        <label class="form-check-label" for="opt_@opt.Id">@opt.Content</label>
+                                    </div>
+                                    if (opt.AllowCustomText)
+                                    {
+                                        <div class="ms-4 mb-2">
+                                            <input type="text" class="form-control form-control-sm" name="CustomTexts[@q.Id]" placeholder="@Localizer["Please specify..."]" />
+                                        </div>
+                                    }
+                                }
+                            }
+                            break;
+                        case QuestionType.TextResponse:
+                            <textarea class="form-control" name="CustomTexts[@q.Id]" rows="3" placeholder="@Localizer["Type your answer here..."]"></textarea>
+                            break;
+                    }
+                </div>
+            </div>
+        }
+    }
+
+    <button type="submit" class="btn btn-success btn-lg">
+        <i class="align-middle" data-lucide="send"></i> @Localizer["Submit Vote"]
+    </button>
+    <a asp-action="Index" class="btn btn-light btn-lg">@Localizer["Cancel"]</a>
+</form>
+
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Browser fingerprint (simple version)
+            var fp = navigator.userAgent + "|" + screen.width + "x" + screen.height + "|" + new Date().getTimezoneOffset();
+            document.getElementById("browserFingerprint").value = btoa(fp).substring(0, 200);
+
+            // Handle multi-choice hidden field
+            document.getElementById("voteForm").addEventListener("submit", function () {
+                var allCheckboxes = document.querySelectorAll(".multi-check");
+                var grouped = {};
+                allCheckboxes.forEach(function (cb) {
+                    var qId = cb.getAttribute("data-question-id");
+                    if (!grouped[qId]) grouped[qId] = [];
+                    if (cb.checked) grouped[qId].push(cb.value);
+                });
+                for (var qId in grouped) {
+                    var hidden = document.getElementById("multiInput_" + qId);
+                    if (hidden) hidden.value = grouped[qId].join(",");
+                }
+            });
+        });
+    </script>
+}

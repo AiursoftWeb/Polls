@@ -495,7 +495,7 @@ public class PollsController(
             await context.SaveChangesAsync();
 
             // Add options (for choice-type questions)
-            if (model.Type != QuestionType.TextResponse && model.Options.Count != 0)
+            if (model.Options.Count != 0)
             {
                 var displayOrder = 0;
                 foreach (var opt in model.Options.Where(o => !string.IsNullOrWhiteSpace(o.Content)))
@@ -568,7 +568,7 @@ public class PollsController(
             question.IsRequired = model.IsRequired;
 
             var existingOptions = question.Options?.ToList() ?? [];
-            var modelOptions = model.Options ?? [];
+            var modelOptions = model.Options;
 
             // Delete removed options
             var modelOptionIds = modelOptions.Select(o => o.Id).ToList();
@@ -715,19 +715,6 @@ public class PollsController(
         {
             switch (question.Type)
             {
-                case QuestionType.TextResponse:
-                    if (model.CustomTexts.TryGetValue(question.Id, out var textResponse) &&
-                        !string.IsNullOrWhiteSpace(textResponse))
-                    {
-                        context.Answers.Add(new Answer
-                        {
-                            SubmissionId = submission.Id,
-                            QuestionId = question.Id,
-                            CustomText = textResponse
-                        });
-                    }
-                    break;
-
                 case QuestionType.SingleChoice:
                     if (model.SelectedOptions.TryGetValue(question.Id, out var singleVal) &&
                         int.TryParse(singleVal, out var singleOptId))
@@ -837,22 +824,11 @@ public class PollsController(
             var qResult = new QuestionResultViewModel
             {
                 Question = question,
-                TotalAnswers = question.Type == QuestionType.TextResponse
-                    ? qAnswers.Count
-                    : qAnswers.Select(a => a.SubmissionId).Distinct().Count()
+                TotalAnswers = qAnswers.Select(a => a.SubmissionId).Distinct().Count()
             };
 
-            if (question.Type == QuestionType.TextResponse)
+            foreach (var option in question.Options ?? [])
             {
-                qResult.TextResponses = qAnswers
-                    .Where(a => !string.IsNullOrWhiteSpace(a.CustomText))
-                    .Select(a => a.CustomText!)
-                    .ToList();
-            }
-            else
-            {
-                foreach (var option in question.Options ?? [])
-                {
                     var optAnswers = qAnswers.Where(a => a.OptionId == option.Id).ToList();
                     qResult.OptionResults.Add(new OptionResultViewModel
                     {
@@ -867,7 +843,6 @@ public class PollsController(
                             .ToList()
                     });
                 }
-            }
 
             questionResults.Add(qResult);
         }
@@ -929,14 +904,8 @@ public class PollsController(
             foreach (var q in questions)
             {
                 var answers = submission.Answers?.Where(a => a.QuestionId == q.Id).ToList() ?? [];
-                if (q.Type == QuestionType.TextResponse)
-                {
-                    var text = answers.FirstOrDefault()?.CustomText ?? "";
-                    row.Add($"\"{text.Replace("\"", "\"\"")}\"");
-                }
-                else
-                {
-                    var parts = answers.Select(a =>
+                
+                var parts = answers.Select(a =>
                     {
                         var content = a.Option?.Content ?? "";
                         if (!string.IsNullOrWhiteSpace(a.CustomText))
@@ -944,7 +913,7 @@ public class PollsController(
                         return content;
                     });
                     row.Add($"\"{string.Join("; ", parts).Replace("\"", "\"\"")}\"");
-                }
+                
             }
 
             sb.AppendLine(string.Join(",", row));

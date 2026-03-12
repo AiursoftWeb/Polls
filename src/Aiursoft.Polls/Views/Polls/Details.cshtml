@@ -1,5 +1,4 @@
 @using Aiursoft.Polls.Entities
-@using Aiursoft.Polls.Authorization
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.DetailsViewModel
 
@@ -139,7 +138,6 @@
                                     <span class="badge bg-secondary me-2">
                                         @if (q.Type == QuestionType.SingleChoice) { @:Single Choice
                                         } else if (q.Type == QuestionType.MultipleChoice) { @:Multiple Choice
-                                        } else if (q.Type == QuestionType.TextResponse) { @:Text Response
                                         }
                                     </span>
                                     @if (Model.CanManage && Model.Poll.State == PollState.Draft)
@@ -157,7 +155,7 @@
                                 </div>
                             </div>
 
-                            @if (q.Type != QuestionType.TextResponse && q.Options != null && q.Options.Any())
+                            @if (q.Options != null && q.Options.Any())
                             {
                                 <ul class="list-group mt-2">
                                     @foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
@@ -171,10 +169,6 @@
                                         </li>
                                     }
                                 </ul>
-                            }
-                            else if (q.Type == QuestionType.TextResponse)
-                            {
-                                <p class="text-muted small mt-2 mb-0"><i class="align-middle" data-lucide="type"></i> @Localizer["Free text response"]</p>
                             }
                             else
                             {

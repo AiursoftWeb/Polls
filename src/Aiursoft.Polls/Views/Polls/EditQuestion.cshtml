@@ -52,6 +52,7 @@
                 <button type="button" class="btn btn-sm btn-outline-secondary" id="addOptionBtn">
                     <i class="align-middle" data-lucide="plus"></i> @Localizer["Add Option"]
                 </button>
+                <p class="text-muted small mt-2">@Localizer["Tip: Checking 'Other' allows the voter to submit additional text information."]</p>
             </div>
 
             <div class="mt-3">
@@ -68,14 +69,6 @@
             var optionIndex = @Model.Options.Count;
             var optionsList = document.getElementById("optionsList");
             var addBtn = document.getElementById("addOptionBtn");
-            var typeSelect = document.getElementById("questionTypeSelect");
-            var optionsSection = document.getElementById("optionsSection");
-
-            function toggleOptionsSection() {
-                optionsSection.style.display = typeSelect.value === "@((int)QuestionType.TextResponse)" ? "none" : "block";
-            }
-            typeSelect.addEventListener("change", toggleOptionsSection);
-            toggleOptionsSection();
 
             addBtn.addEventListener("click", function () {
                 var row = document.createElement("div");

@@ -1,4 +1,3 @@
-@using Aiursoft.Polls.Entities
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.ResultsViewModel
 
@@ -56,50 +55,31 @@
             <small class="text-muted">@Localizer["Responses:"] @qr.TotalAnswers</small>
         </div>
         <div class="card-body">
-            @if (qr.Question.Type == QuestionType.TextResponse)
+            @foreach (var or in qr.OptionResults)
             {
-                if (qr.TextResponses.Any())
-                {
-                    <div class="list-group">
-                        @foreach (var text in qr.TextResponses)
-                        {
-                            <div class="list-group-item">@text</div>
-                        }
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>@or.Option.Content @(or.Option.AllowCustomText ? "(Other)" : "")</span>
+                        <span class="text-muted">@or.Count (@or.Percentage%)</span>
                     </div>
-                }
-                else
-                {
-                    <p class="text-muted">@Localizer["No responses yet."]</p>
-                }
-            }
-            else
-            {
-                foreach (var or in qr.OptionResults)
-                {
-                    <div class="mb-3">
-                        <div class="d-flex justify-content-between mb-1">
-                            <span>@or.Option.Content @(or.Option.AllowCustomText ? "(Other)" : "")</span>
-                            <span class="text-muted">@or.Count (@or.Percentage%)</span>
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: @or.Percentage%;" aria-valuenow="@or.Percentage" aria-valuemin="0" aria-valuemax="100">
+                            @or.Percentage%
                         </div>
-                        <div class="progress" style="height: 25px;">
-                            <div class="progress-bar" role="progressbar" style="width: @or.Percentage%;" aria-valuenow="@or.Percentage" aria-valuemin="0" aria-valuemax="100">
-                                @or.Percentage%
-                            </div>
-                        </div>
-                        @if (or.CustomTexts.Any())
-                        {
-                            <div class="mt-1 ms-3">
-                                <small class="text-muted">@Localizer["Custom responses:"]</small>
-                                <ul class="list-unstyled ms-2">
-                                    @foreach (var ct in or.CustomTexts)
-                                    {
-                                        <li class="small">— @ct</li>
-                                    }
-                                </ul>
-                            </div>
-                        }
                     </div>
-                }
+                    @if (or.CustomTexts.Any())
+                    {
+                        <div class="mt-1 ms-3">
+                            <small class="text-muted">@Localizer["Custom responses:"]</small>
+                            <ul class="list-unstyled ms-2">
+                                @foreach (var ct in or.CustomTexts)
+                                {
+                                    <li class="small">— @ct</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
             }
         </div>
     </div>

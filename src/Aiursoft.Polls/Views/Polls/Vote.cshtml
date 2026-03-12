@@ -12,6 +12,8 @@
     <div class="alert alert-info">@Model.Poll.Description</div>
 }
 
+<div asp-validation-summary="All" class="text-danger mt-2"></div>
+
 <form asp-action="Vote" method="post" id="voteForm">
     <input type="hidden" asp-for="PollId" />
     <input type="hidden" asp-for="BrowserFingerprint" id="browserFingerprint" />
@@ -96,7 +98,7 @@
             document.getElementById("browserFingerprint").value = btoa(fp).substring(0, 200);
 
             // Handle multi-choice hidden field
-            document.getElementById("voteForm").addEventListener("submit", function () {
+            document.getElementById("voteForm").addEventListener("submit", function (e) {
                 var allCheckboxes = document.querySelectorAll(".multi-check");
                 var grouped = {};
                 allCheckboxes.forEach(function (cb) {
@@ -107,6 +109,45 @@
                 for (var qId in grouped) {
                     var hidden = document.getElementById("multiInput_" + qId);
                     if (hidden) hidden.value = grouped[qId].join(",");
+                }
+
+                // Custom text validation
+                var isValid = true;
+                
+                // Clear previous invalid markings
+                document.querySelectorAll('input[type="text"]').forEach(function(input) {
+                    input.classList.remove("is-invalid");
+                });
+
+                // Helper function to check if a specific option requires custom text validation
+                function validateCustomText(inputElement) {
+                    var container = inputElement.closest('.form-check');
+                    if (container && container.nextElementSibling && container.nextElementSibling.classList.contains('ms-4')) {
+                        var customInput = container.nextElementSibling.querySelector('input[type="text"]');
+                        if (customInput && !customInput.value.trim()) {
+                            isValid = false;
+                            customInput.classList.add("is-invalid");
+                        }
+                    }
+                }
+
+                // For single choice
+                document.querySelectorAll('input[type="radio"]:checked').forEach(validateCustomText);
+
+                // For multiple choice
+                document.querySelectorAll('input[type="checkbox"]:checked').forEach(validateCustomText);
+
+                if (!isValid) {
+                    e.preventDefault();
+                    var alertDiv = document.getElementById("clientSideAlert");
+                    if (!alertDiv) {
+                        alertDiv = document.createElement("div");
+                        alertDiv.id = "clientSideAlert";
+                        alertDiv.className = "alert alert-danger mt-2 mb-3";
+                        document.getElementById("voteForm").insertBefore(alertDiv, document.getElementById("voteForm").firstChild);
+                    }
+                    alertDiv.innerText = "Please fill in the required custom text for the options you selected.";
+                    window.scrollTo(0, 0);
                 }
             });
         });

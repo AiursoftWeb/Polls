@@ -699,6 +699,56 @@ public class PollsController(
                 return BadRequest("You have reached the maximum number of anonymous submissions for today.");
         }
 
+        // Validate custom texts (non-empty when checked)
+        foreach (var question in poll.Questions ?? [])
+        {
+            switch (question.Type)
+            {
+                case QuestionType.SingleChoice:
+                    if (model.SelectedOptions.TryGetValue(question.Id, out var singleVal) &&
+                        int.TryParse(singleVal, out var singleOptId))
+                    {
+                        var option = question.Options?.FirstOrDefault(o => o.Id == singleOptId);
+                        if (option != null && option.AllowCustomText)
+                        {
+                            if (!model.CustomTexts.TryGetValue(question.Id, out var customText) || string.IsNullOrWhiteSpace(customText))
+                            {
+                                ModelState.AddModelError(string.Empty, "Please provide additional text for the selected option.");
+                            }
+                        }
+                    }
+                    break;
+
+                case QuestionType.MultipleChoice:
+                    if (model.SelectedOptions.TryGetValue(question.Id, out var multiVal) && !string.IsNullOrWhiteSpace(multiVal))
+                    {
+                        var optionIds = multiVal.Split(',')
+                            .Where(s => int.TryParse(s, out _))
+                            .Select(int.Parse)
+                            .ToList();
+
+                        foreach (var optId in optionIds)
+                        {
+                            var option = question.Options?.FirstOrDefault(o => o.Id == optId);
+                            if (option != null && option.AllowCustomText)
+                            {
+                                if (!model.CustomTexts.TryGetValue(question.Id, out var customText) || string.IsNullOrWhiteSpace(customText))
+                                {
+                                    ModelState.AddModelError(string.Empty, "Please provide additional text for the selected option.");
+                                }
+                            }
+                        }
+                    }
+                    break;
+            }
+        }
+
+        if (!ModelState.IsValid)
+        {
+            model.Poll = poll;
+            return this.SimpleView(model);
+        }
+
         // Create submission
         var submission = new Submission
         {

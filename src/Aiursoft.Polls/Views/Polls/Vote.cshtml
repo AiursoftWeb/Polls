@@ -7,12 +7,65 @@
 }
 
 <style>
-    .voting-container {
-        max-width: 800px;
+    .voting-page-wrapper {
+        display: flex;
+        gap: 2rem;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
     }
 
+    /* Sidebar Navigation */
+    .voting-sidebar {
+        width: 280px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 20px;
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+        padding-right: 10px;
+    }
+
+    .voting-content {
+        flex-grow: 1;
+        min-width: 0; /* Fix flexbox overflow */
+    }
+
+    .nav-indicator {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #dee2e6;
+        display: inline-block;
+        margin-right: 12px;
+        transition: all 0.2s;
+    }
+
+    .list-group-item-action {
+        display: flex;
+        align-items: center;
+        border-radius: 0.5rem !important;
+        margin-bottom: 0.25rem;
+        border: none;
+        padding: 0.75rem 1rem;
+    }
+
+    .list-group-item-action.active {
+        background-color: var(--bs-primary-subtle);
+        color: var(--bs-primary-emphasis);
+        font-weight: 600;
+    }
+
+    .list-group-item-action.active .nav-indicator {
+        background-color: var(--bs-primary);
+        box-shadow: 0 0 0 4px rgba(var(--bs-primary-rgb), 0.2);
+    }
+
+    .list-group-item-action.completed .nav-indicator {
+        background-color: var(--bs-success);
+    }
+
+    /* Main Question Area */
     .question-step {
         display: none;
     }
@@ -91,98 +144,132 @@
         margin-bottom: 1rem;
         padding-left: 3rem;
     }
+
+    @@media (max-width: 992px) {
+        .voting-page-wrapper {
+            flex-direction: column;
+        }
+        .voting-sidebar {
+            width: 100%;
+            position: relative;
+            top: 0;
+            max-height: 200px;
+            margin-bottom: 1rem;
+        }
+    }
 </style>
 
-<div class="voting-container">
-    <div class="d-flex align-items-center gap-3 mb-4">
-        <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
-            <i class="align-middle" data-lucide="x"></i>
-        </a>
-        <div class="progress flex-grow-1" style="height: 8px;">
-            <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+<div class="voting-page-wrapper">
+    <!-- Sidebar / Question List -->
+    <div class="voting-sidebar d-none d-md-block">
+        <div class="mb-3 ps-2">
+            <h5 class="fw-bold">@Localizer["Questions"]</h5>
+            <small class="text-muted">@totalSteps @Localizer["total"]</small>
+        </div>
+        <div class="list-group list-group-flush" id="questionNav">
+            @for (int i = 0; i < questions.Count; i++)
+            {
+                <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")" data-goto-step="@i" id="navItem_@i">
+                    <span class="nav-indicator"></span>
+                    <span class="text-truncate">@(i + 1). @questions[i].Title</span>
+                </button>
+            }
         </div>
     </div>
 
-    <div class="mb-4">
-        <h3>@Model.Poll?.Title</h3>
-        @if (!string.IsNullOrWhiteSpace(Model.Poll?.Description))
-        {
-            <p class="text-muted">@Model.Poll.Description</p>
-        }
-    </div>
+    <div class="voting-content">
+        <!-- Header with Progress -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
+                <i class="align-middle" data-lucide="x"></i>
+            </a>
+            <div class="progress flex-grow-1" style="height: 8px;">
+                <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+            </div>
+            <span class="text-muted small d-md-none"><span id="mobileStepIdx">1</span>/@totalSteps</span>
+        </div>
 
-    <form asp-action="Vote" method="post" id="voteForm">
-        <input type="hidden" asp-for="PollId" />
-        <input type="hidden" asp-for="BrowserFingerprint" id="browserFingerprint" />
+        <div class="mb-4">
+            <h3 class="fw-bold">@Model.Poll?.Title</h3>
+            @if (!string.IsNullOrWhiteSpace(Model.Poll?.Description))
+            {
+                <p class="text-muted">@Model.Poll.Description</p>
+            }
+        </div>
 
-        @for (int i = 0; i < questions.Count; i++)
-        {
-            var q = questions[i];
-            <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
-                <div class="d-flex align-items-center mb-1">
-                    <h4 class="question-title mb-0">@q.Title</h4>
-                    @if (q.Type == QuestionType.SingleChoice)
+        <form asp-action="Vote" method="post" id="voteForm">
+            <input type="hidden" asp-for="PollId" />
+            <input type="hidden" asp-for="BrowserFingerprint" id="browserFingerprint" />
+
+            @for (int i = 0; i < questions.Count; i++)
+            {
+                var q = questions[i];
+                <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
+                    <div class="d-flex align-items-center mb-1">
+                        <h4 class="question-title mb-0">@q.Title</h4>
+                        @if (q.Type == QuestionType.SingleChoice)
+                        {
+                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal ms-2">@Localizer["Single Choice"]</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal ms-2">@Localizer["Multiple Choice"]</span>
+                        }
+                    </div>
+                    <p class="question-subtitle">
+                        @switch (q.Type)
+                        {
+                            case QuestionType.SingleChoice: @Localizer["Select the best option"] break;
+                            case QuestionType.MultipleChoice: @Localizer["Select all that apply"] break;
+                        }
+                        @if (q.IsRequired) { <span class="text-danger">*</span> }
+                    </p>
+                    
+                    <div class="options-list">
+                        @if (q.Options != null)
+                        {
+                            foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
+                            {
+                                <div class="option-card" data-opt-id="@opt.Id" data-question-id="@q.Id" data-has-custom="@opt.AllowCustomText.ToString().ToLower()">
+                                    <div class="selection-indicator"></div>
+                                    <div class="option-content">@opt.Content</div>
+                                </div>
+                                
+                                if (opt.AllowCustomText)
+                                {
+                                    <div class="custom-text-container" id="custom_text_container_@opt.Id">
+                                        <input type="text" 
+                                               class="form-control" 
+                                               name="CustomTexts[@q.Id]" 
+                                               placeholder="@Localizer["Please specify..."]" 
+                                               data-opt-id="@opt.Id" />
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                    
+                    @if (q.Type == QuestionType.MultipleChoice)
                     {
-                        <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal ms-2">@Localizer["Single Choice"]</span>
+                        <input type="hidden" name="SelectedOptions[@q.Id]" id="multiInput_@q.Id" value="" />
                     }
                     else
                     {
-                        <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal ms-2">@Localizer["Multiple Choice"]</span>
+                        <input type="hidden" name="SelectedOptions[@q.Id]" id="singleInput_@q.Id" value="" />
                     }
                 </div>
-                <p class="question-subtitle">
-                    @switch (q.Type)
-                    {
-                        case QuestionType.SingleChoice: @Localizer["Select the best option"] break;
-                        case QuestionType.MultipleChoice: @Localizer["Select all that apply"] break;
-                    }
-                    @if (q.IsRequired) { <span class="text-danger">*</span> }
-                </p>
-                
-                <div class="options-list">
-                    @if (q.Options != null)
-                    {
-                        foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
-                        {
-                            <div class="option-card" data-opt-id="@opt.Id" data-question-id="@q.Id" data-has-custom="@opt.AllowCustomText.ToString().ToLower()">
-                                <div class="selection-indicator"></div>
-                                <div class="option-content">@opt.Content</div>
-                            </div>
-                            
-                            if (opt.AllowCustomText)
-                            {
-                                <div class="custom-text-container" id="custom_text_container_@opt.Id">
-                                    <input type="text" 
-                                           class="form-control" 
-                                           name="CustomTexts[@q.Id]" 
-                                           placeholder="@Localizer["Please specify..."]" 
-                                           data-opt-id="@opt.Id" />
-                                </div>
-                            }
-                        }
-                    }
-                </div>
-                
-                @if (q.Type == QuestionType.MultipleChoice)
-                {
-                    <input type="hidden" name="SelectedOptions[@q.Id]" id="multiInput_@q.Id" value="" />
-                }
-                else
-                {
-                    <input type="hidden" name="SelectedOptions[@q.Id]" id="singleInput_@q.Id" value="" />
-                }
-            </div>
-        }
-    </form>
+            }
+        </form>
 
-    <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
-        <button id="prevBtn" class="btn btn-outline-secondary px-4 d-none">
-            <i class="align-middle me-1" data-lucide="chevron-left"></i> @Localizer["Back"]
-        </button>
-        <div class="flex-grow-1"></div>
-        <button id="nextBtn" class="btn btn-primary px-5" disabled>
-            @Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>
-        </button>
+        <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
+            <button id="prevBtn" class="btn btn-outline-secondary px-4 d-none">
+                <i class="align-middle me-1" data-lucide="chevron-left"></i> @Localizer["Back"]
+            </button>
+            <div class="flex-grow-1"></div>
+            <button id="nextBtn" class="btn btn-primary px-5" disabled>
+                @Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>
+            </button>
+        </div>
     </div>
 </div>
 
@@ -200,15 +287,27 @@
             const prevBtn = document.getElementById('prevBtn');
             const nextBtn = document.getElementById('nextBtn');
             const voteForm = document.getElementById('voteForm');
+            const mobileStepIdx = document.getElementById('mobileStepIdx');
 
             function updateUI() {
                 // Update Progress
                 const progress = ((currentStep) / totalSteps) * 100;
                 progressFill.style.width = progress + '%';
+                if (mobileStepIdx) mobileStepIdx.innerText = currentStep + 1;
 
                 // Show/Hide steps
                 steps.forEach((step, idx) => {
                     step.classList.toggle('active', idx === currentStep);
+                });
+
+                // Update Sidebar
+                document.querySelectorAll('#questionNav .list-group-item').forEach((item, idx) => {
+                    item.classList.toggle('active', idx === currentStep);
+                    
+                    // Mark completed in sidebar
+                    const step = steps[idx];
+                    const isCompleted = validateStep(step);
+                    item.classList.toggle('completed', isCompleted);
                 });
 
                 // Footer Buttons
@@ -226,37 +325,44 @@
 
                 validateCurrentStep();
                 
-                // Re-initialize icons if needed (lucide.replace() is usually called globally, but let's be safe if it's dynamic)
                 if (window.lucide) {
                     window.lucide.createIcons();
                 }
             }
 
-            function validateCurrentStep() {
-                const step = steps[currentStep];
+            function validateStep(step) {
                 const isRequired = step.dataset.required === 'true';
-                
-                let isValid = true;
-                if (isRequired) {
-                    const selected = step.querySelectorAll('.option-card.selected');
-                    if (selected.length === 0) {
-                        isValid = false;
-                    } else {
-                        // Check custom text if needed
-                        selected.forEach(card => {
-                            if (card.dataset.hasCustom === 'true') {
-                                const optId = card.dataset.optId;
-                                const input = step.querySelector(`input[data-opt-id="${optId}"]`);
-                                if (input && !input.value.trim()) {
-                                    isValid = false;
-                                }
-                            }
-                        });
+                if (!isRequired) return true;
+
+                const selected = step.querySelectorAll('.option-card.selected');
+                if (selected.length === 0) return false;
+
+                // Check custom text
+                let customValid = true;
+                selected.forEach(card => {
+                    if (card.dataset.hasCustom === 'true') {
+                        const optId = card.dataset.optId;
+                        const input = step.querySelector(`input[data-opt-id="${optId}"]`);
+                        if (input && !input.value.trim()) {
+                            customValid = false;
+                        }
                     }
-                }
-                
-                nextBtn.disabled = !isValid;
+                });
+                return customValid;
             }
+
+            function validateCurrentStep() {
+                nextBtn.disabled = !validateStep(steps[currentStep]);
+            }
+
+            // Handle Sidebar Navigation Click
+            document.querySelectorAll('[data-goto-step]').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    currentStep = parseInt(this.dataset.gotoStep);
+                    updateUI();
+                    window.scrollTo(0, 0);
+                });
+            });
 
             // Handle Option Selection
             document.querySelectorAll('.option-card').forEach(card => {
@@ -270,7 +376,6 @@
                     if (type === 'SingleChoice') {
                         step.querySelectorAll('.option-card').forEach(c => {
                             c.classList.remove('selected');
-                            // Hide other custom texts
                             const otherOptId = c.dataset.optId;
                             const otherCustom = document.getElementById('custom_text_container_' + otherOptId);
                             if (otherCustom) otherCustom.style.display = 'none';
@@ -298,12 +403,27 @@
                     }
 
                     validateCurrentStep();
+                    
+                    // Update completion status in sidebar immediately
+                    const stepIdx = parseInt(step.dataset.step);
+                    const navItem = document.getElementById('navItem_' + stepIdx);
+                    if (navItem) {
+                        navItem.classList.toggle('completed', validateStep(step));
+                    }
                 });
             });
 
             // Handle Custom Text Input
             document.querySelectorAll('.custom-text-container input').forEach(input => {
-                input.addEventListener('input', validateCurrentStep);
+                input.addEventListener('input', function() {
+                    validateCurrentStep();
+                    const step = this.closest('.question-step');
+                    const stepIdx = parseInt(step.dataset.step);
+                    const navItem = document.getElementById('navItem_' + stepIdx);
+                    if (navItem) {
+                        navItem.classList.toggle('completed', validateStep(step));
+                    }
+                });
                 input.addEventListener('click', e => e.stopPropagation());
             });
 
@@ -313,7 +433,6 @@
                     updateUI();
                     window.scrollTo(0, 0);
                 } else {
-                    // Final Submit
                     nextBtn.disabled = true;
                     nextBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> @Localizer["Submitting..."]';
                     progressFill.style.width = '100%';

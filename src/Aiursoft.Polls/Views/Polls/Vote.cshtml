@@ -15,7 +15,7 @@
         padding: 20px;
     }
 
-    /* Sidebar Navigation */
+    /* Sidebar Navigation with Offcanvas behaviors */
     .voting-sidebar {
         width: 280px;
         flex-shrink: 0;
@@ -23,12 +23,11 @@
         top: 20px;
         max-height: calc(100vh - 40px);
         overflow-y: auto;
-        padding-right: 10px;
     }
 
     .voting-content {
         flex-grow: 1;
-        min-width: 0; /* Fix flexbox overflow */
+        min-width: 0;
     }
 
     .nav-indicator {
@@ -48,11 +47,17 @@
         margin-bottom: 0.25rem;
         border: none;
         padding: 0.75rem 1rem;
+        background: transparent;
+        text-align: left;
+    }
+
+    .list-group-item-action:hover {
+        background-color: rgba(0,0,0,.03);
     }
 
     .list-group-item-action.active {
-        background-color: var(--bs-primary-subtle);
-        color: var(--bs-primary-emphasis);
+        background-color: var(--bs-primary-subtle) !important;
+        color: var(--bs-primary-emphasis) !important;
         font-weight: 600;
     }
 
@@ -145,48 +150,61 @@
         padding-left: 3rem;
     }
 
-    @@media (max-width: 992px) {
-        .voting-page-wrapper {
-            flex-direction: column;
-        }
+    /* Offcanvas overrides for LG */
+    @@media (max-width: 991.98px) {
         .voting-sidebar {
-            width: 100%;
-            position: relative;
-            top: 0;
-            max-height: 200px;
-            margin-bottom: 1rem;
+            width: auto;
+            position: fixed;
         }
     }
 </style>
 
 <div class="voting-page-wrapper">
-    <!-- Sidebar / Question List -->
-    <div class="voting-sidebar d-none d-md-block">
-        <div class="mb-3 ps-2">
-            <h5 class="fw-bold">@Localizer["Questions"]</h5>
-            <small class="text-muted">@totalSteps @Localizer["total"]</small>
+    <!-- Collapsible Sidebar using Offcanvas-lg -->
+    <div class="offcanvas-lg offcanvas-start voting-sidebar shadow-sm shadow-lg-none" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+        <div class="offcanvas-header border-bottom d-lg-none">
+            <h5 class="offcanvas-title fw-bold" id="sidebarMenuLabel">@Localizer["Questions"]</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
         </div>
-        <div class="list-group list-group-flush" id="questionNav">
-            @for (int i = 0; i < questions.Count; i++)
-            {
-                <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")" data-goto-step="@i" id="navItem_@i">
-                    <span class="nav-indicator"></span>
-                    <span class="text-truncate">@(i + 1). @questions[i].Title</span>
-                </button>
-            }
+        <div class="offcanvas-body p-3 p-lg-0">
+            <div class="w-100">
+                <div class="mb-3 ps-2 d-none d-lg-block">
+                    <h5 class="fw-bold">@Localizer["Questions"]</h5>
+                    <small class="text-muted">@totalSteps @Localizer["total"]</small>
+                </div>
+                <div class="list-group list-group-flush" id="questionNav">
+                    @for (int i = 0; i < questions.Count; i++)
+                    {
+                        <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")" 
+                                data-goto-step="@i" 
+                                id="navItem_@i"
+                                data-bs-dismiss="offcanvas"
+                                data-bs-target="#sidebarMenu">
+                            <span class="nav-indicator"></span>
+                            <span class="text-truncate">@(i + 1). @questions[i].Title</span>
+                        </button>
+                    }
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="voting-content">
-        <!-- Header with Progress -->
-        <div class="d-flex align-items-center gap-3 mb-4">
+        <!-- Header with Toggle and Progress -->
+        <div class="d-flex align-items-center gap-2 gap-md-3 mb-4">
+            <button class="btn btn-outline-secondary d-lg-none px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+                <i class="align-middle" data-lucide="menu"></i>
+            </button>
+            
             <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
                 <i class="align-middle" data-lucide="x"></i>
             </a>
+            
             <div class="progress flex-grow-1" style="height: 8px;">
                 <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
             </div>
-            <span class="text-muted small d-md-none"><span id="mobileStepIdx">1</span>/@totalSteps</span>
+            
+            <span class="text-muted small"><span id="mobileStepIdx">1</span>/@totalSteps</span>
         </div>
 
         <div class="mb-4">
@@ -205,15 +223,15 @@
             {
                 var q = questions[i];
                 <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
-                    <div class="d-flex align-items-center mb-1">
+                    <div class="d-flex align-items-center mb-1 flex-wrap gap-2">
                         <h4 class="question-title mb-0">@q.Title</h4>
                         @if (q.Type == QuestionType.SingleChoice)
                         {
-                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal ms-2">@Localizer["Single Choice"]</span>
+                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal">@Localizer["Single Choice"]</span>
                         }
                         else
                         {
-                            <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal ms-2">@Localizer["Multiple Choice"]</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal">@Localizer["Multiple Choice"]</span>
                         }
                     </div>
                     <p class="question-subtitle">
@@ -262,11 +280,11 @@
         </form>
 
         <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
-            <button id="prevBtn" class="btn btn-outline-secondary px-4 d-none">
+            <button id="prevBtn" class="btn btn-outline-secondary px-3 px-md-4 d-none">
                 <i class="align-middle me-1" data-lucide="chevron-left"></i> @Localizer["Back"]
             </button>
             <div class="flex-grow-1"></div>
-            <button id="nextBtn" class="btn btn-primary px-5" disabled>
+            <button id="nextBtn" class="btn btn-primary px-4 px-md-5" disabled>
                 @Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>
             </button>
         </div>
@@ -361,6 +379,13 @@
                     currentStep = parseInt(this.dataset.gotoStep);
                     updateUI();
                     window.scrollTo(0, 0);
+                    
+                    // Force close offcanvas if it's open (for mobile)
+                    const sidebar = document.getElementById('sidebarMenu');
+                    if (window.getComputedStyle(sidebar).position === 'fixed') {
+                        const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
+                        if (bsOffcanvas) bsOffcanvas.hide();
+                    }
                 });
             });
 

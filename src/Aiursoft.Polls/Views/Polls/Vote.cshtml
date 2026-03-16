@@ -119,7 +119,17 @@
         {
             var q = questions[i];
             <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
-                <h4 class="question-title">@q.Title</h4>
+                <div class="d-flex align-items-center mb-1">
+                    <h4 class="question-title mb-0">@q.Title</h4>
+                    @if (q.Type == QuestionType.SingleChoice)
+                    {
+                        <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal ms-2">@Localizer["Single Choice"]</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal ms-2">@Localizer["Multiple Choice"]</span>
+                    }
+                </div>
                 <p class="question-subtitle">
                     @switch (q.Type)
                     {

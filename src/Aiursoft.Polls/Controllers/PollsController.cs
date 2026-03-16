@@ -29,7 +29,7 @@ public class PollsController(
         User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls);
 
     private bool IsCreatorOrAdmin(Poll poll, User user) =>
-        poll.CreatedById == user.Id || User.HasClaim(AppPermissions.Type, AppPermissionNames.CanViewSystemContext);
+        poll.CreatedById == user.Id || HasManagePermission();
 
     private async Task<bool> CanUserAccessPoll(Poll poll, User? user)
     {

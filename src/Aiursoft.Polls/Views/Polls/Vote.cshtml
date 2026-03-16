@@ -7,262 +7,108 @@
 }
 
 <style>
-    :root {
-        --duo-green: #58cc02;
-        --duo-green-dark: #46a302;
-        --duo-green-light: #61e002;
-        --duo-blue: #1899d6;
-        --duo-blue-light: #84d8ff;
-        --duo-blue-bg: #ddf4ff;
-        --duo-gray: #afafaf;
-        --duo-gray-light: #e5e5e5;
-        --duo-text: #3c3c3c;
-        --duo-text-secondary: #777;
-    }
-
     .voting-container {
-        max-width: 600px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        min-height: calc(100vh - 120px);
-        display: flex;
-        flex-direction: column;
     }
 
-    /* Progress bar */
-    .progress-bar-container {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        margin-bottom: 40px;
-    }
-
-    .progress-track {
-        flex-grow: 1;
-        height: 16px;
-        background-color: var(--duo-gray-light);
-        border-radius: 8px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .progress-fill {
-        height: 100%;
-        background-color: var(--duo-green);
-        width: 0%;
-        transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
-        border-radius: 8px;
-    }
-
-    .progress-fill::after {
-        content: '';
-        position: absolute;
-        top: 3px;
-        left: 5px;
-        right: 5px;
-        height: 4px;
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 2px;
-    }
-
-    .close-btn {
-        background: none;
-        border: none;
-        font-size: 24px;
-        color: var(--duo-gray);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        transition: color 0.2s;
-    }
-
-    .close-btn:hover {
-        color: var(--duo-text);
-    }
-
-    /* Question cards */
     .question-step {
         display: none;
-        animation: slideIn 0.4s ease-out;
     }
 
     .question-step.active {
         display: block;
+        animation: fadeIn 0.3s ease-in-out;
     }
 
-    @@keyframes slideIn {
-        from { opacity: 0; transform: translateX(20px); }
-        to { opacity: 1; transform: translateX(0); }
-    }
-
-    .question-title {
-        font-size: 1.75rem;
-        font-weight: 800;
-        margin-bottom: 10px;
-        color: var(--duo-text);
-    }
-
-    .question-subtitle {
-        font-size: 1.1rem;
-        color: var(--duo-text-secondary);
-        margin-bottom: 30px;
-    }
-
-    /* Option cards */
-    .options-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin-bottom: 30px;
+    @@keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
     }
 
     .option-card {
-        border: 2px solid var(--duo-gray-light);
-        border-bottom: 4px solid var(--duo-gray-light);
-        border-radius: 16px;
-        padding: 16px 24px;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-bottom: 0.75rem;
         cursor: pointer;
-        transition: all 0.1s;
+        transition: all 0.2s ease-in-out;
+        background-color: var(--bs-card-bg);
         display: flex;
         align-items: center;
-        gap: 15px;
-        font-size: 1.15rem;
-        font-weight: 700;
-        color: #4b4b4b;
-        user-select: none;
-        background-color: white;
+        gap: 1rem;
     }
 
     .option-card:hover {
-        background-color: #f7f7f7;
-        border-color: #d0d0d0;
-    }
-
-    .option-card:active {
-        border-bottom-width: 2px;
-        transform: translateY(2px);
+        background-color: rgba(0,0,0,.03);
+        transform: translateY(-2px);
+        box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
     }
 
     .option-card.selected {
-        border-color: var(--duo-blue-light);
-        border-bottom-color: var(--duo-blue-light);
-        background-color: var(--duo-blue-bg);
-        color: var(--duo-blue);
+        border-color: var(--bs-primary);
+        background-color: rgba(var(--bs-primary-rgb), 0.05);
     }
 
-    /* Custom text input */
+    .option-card .selection-indicator {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #dee2e6;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .option-card.selected .selection-indicator {
+        border-color: var(--bs-primary);
+        background-color: var(--bs-primary);
+    }
+
+    .option-card.selected .selection-indicator::after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .question-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .question-subtitle {
+        color: var(--bs-secondary-color);
+        margin-bottom: 1.5rem;
+    }
+
     .custom-text-container {
         display: none;
-        margin-top: -8px;
-        margin-bottom: 12px;
-        padding: 0 10px;
-    }
-
-    .custom-text-input {
-        width: 100%;
-        padding: 12px 20px;
-        border: 2px solid var(--duo-gray-light);
-        border-radius: 16px;
-        font-size: 1rem;
-        outline: none;
-        background-color: #fdfdfd;
-        transition: border-color 0.2s;
-    }
-
-    .custom-text-input:focus {
-        border-color: var(--duo-blue-light);
-    }
-
-    /* Footer / Action Bar */
-    .voting-footer {
-        margin-top: auto;
-        padding: 25px 0;
-        border-top: 2px solid var(--duo-gray-light);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .btn-duo {
-        padding: 14px 32px;
-        border-radius: 16px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        border: none;
-        cursor: pointer;
-        transition: all 0.1s;
-        font-size: 0.95rem;
-    }
-
-    .btn-duo-secondary {
-        background-color: white;
-        color: var(--duo-gray);
-        border: 2px solid var(--duo-gray-light);
-        border-bottom: 4px solid var(--duo-gray-light);
-    }
-
-    .btn-duo-secondary:hover:not(:disabled) {
-        background-color: #f7f7f7;
-    }
-
-    .btn-duo-secondary:active:not(:disabled) {
-        border-bottom-width: 2px;
-        transform: translateY(2px);
-    }
-
-    .btn-duo-primary {
-        background-color: var(--duo-green);
-        color: white;
-        border-bottom: 4px solid var(--duo-green-dark);
-        flex-grow: 1;
-        max-width: 240px;
-    }
-
-    .btn-duo-primary:hover:not(:disabled) {
-        background-color: var(--duo-green-light);
-    }
-
-    .btn-duo-primary:active:not(:disabled) {
-        border-bottom-width: 0;
-        transform: translateY(4px);
-    }
-
-    .btn-duo-primary:disabled {
-        background-color: var(--duo-gray-light);
-        border-bottom-color: #ccc;
-        color: var(--duo-gray);
-        cursor: not-allowed;
-    }
-
-    .hidden {
-        display: none !important;
-    }
-
-    @@media (max-width: 576px) {
-        .voting-container {
-            padding: 15px;
-        }
-        .question-title {
-            font-size: 1.5rem;
-        }
-        .btn-duo {
-            padding: 12px 20px;
-        }
+        margin-top: -0.5rem;
+        margin-bottom: 1rem;
+        padding-left: 3rem;
     }
 </style>
 
 <div class="voting-container">
-    <div class="progress-bar-container">
-        <a asp-action="Index" class="close-btn" title="@Localizer["Cancel"]">
+    <div class="d-flex align-items-center gap-3 mb-4">
+        <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
             <i class="align-middle" data-lucide="x"></i>
         </a>
-        <div class="progress-track">
-            <div id="progressFill" class="progress-fill"></div>
+        <div class="progress flex-grow-1" style="height: 8px;">
+            <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
         </div>
+    </div>
+
+    <div class="mb-4">
+        <h3>@Model.Poll?.Title</h3>
+        @if (!string.IsNullOrWhiteSpace(Model.Poll?.Description))
+        {
+            <p class="text-muted">@Model.Poll.Description</p>
+        }
     </div>
 
     <form asp-action="Vote" method="post" id="voteForm">
@@ -273,7 +119,7 @@
         {
             var q = questions[i];
             <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
-                <h2 class="question-title">@q.Title</h2>
+                <h4 class="question-title">@q.Title</h4>
                 <p class="question-subtitle">
                     @switch (q.Type)
                     {
@@ -283,20 +129,21 @@
                     @if (q.IsRequired) { <span class="text-danger">*</span> }
                 </p>
                 
-                <div class="options-grid">
+                <div class="options-list">
                     @if (q.Options != null)
                     {
                         foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
                         {
                             <div class="option-card" data-opt-id="@opt.Id" data-question-id="@q.Id" data-has-custom="@opt.AllowCustomText.ToString().ToLower()">
-                                <span>@opt.Content</span>
+                                <div class="selection-indicator"></div>
+                                <div class="option-content">@opt.Content</div>
                             </div>
                             
                             if (opt.AllowCustomText)
                             {
                                 <div class="custom-text-container" id="custom_text_container_@opt.Id">
                                     <input type="text" 
-                                           class="custom-text-input" 
+                                           class="form-control" 
                                            name="CustomTexts[@q.Id]" 
                                            placeholder="@Localizer["Please specify..."]" 
                                            data-opt-id="@opt.Id" />
@@ -318,10 +165,14 @@
         }
     </form>
 
-    <div class="voting-footer">
-        <button id="prevBtn" class="btn-duo btn-duo-secondary hidden">@Localizer["Back"]</button>
-        <div style="flex-grow: 1"></div>
-        <button id="nextBtn" class="btn-duo btn-duo-primary" disabled>@Localizer["Continue"]</button>
+    <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
+        <button id="prevBtn" class="btn btn-outline-secondary px-4 d-none">
+            <i class="align-middle me-1" data-lucide="chevron-left"></i> @Localizer["Back"]
+        </button>
+        <div class="flex-grow-1"></div>
+        <button id="nextBtn" class="btn btn-primary px-5" disabled>
+            @Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>
+        </button>
     </div>
 </div>
 
@@ -351,15 +202,24 @@
                 });
 
                 // Footer Buttons
-                prevBtn.classList.toggle('hidden', currentStep === 0);
+                if (currentStep === 0) {
+                    prevBtn.classList.add('d-none');
+                } else {
+                    prevBtn.classList.remove('d-none');
+                }
                 
                 if (currentStep === totalSteps - 1) {
-                    nextBtn.innerText = "@Localizer["Finish"]";
+                    nextBtn.innerHTML = '@Localizer["Finish"] <i class="align-middle ms-1" data-lucide="check"></i>';
                 } else {
-                    nextBtn.innerText = "@Localizer["Continue"]";
+                    nextBtn.innerHTML = '@Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>';
                 }
 
                 validateCurrentStep();
+                
+                // Re-initialize icons if needed (lucide.replace() is usually called globally, but let's be safe if it's dynamic)
+                if (window.lucide) {
+                    window.lucide.createIcons();
+                }
             }
 
             function validateCurrentStep() {
@@ -410,6 +270,7 @@
                         
                         if (hasCustom) {
                             document.getElementById('custom_text_container_' + optId).style.display = 'block';
+                            document.getElementById('custom_text_container_' + optId).querySelector('input').focus();
                         }
                     } else {
                         // Multiple Choice
@@ -420,6 +281,9 @@
                         if (hasCustom) {
                             const customContainer = document.getElementById('custom_text_container_' + optId);
                             customContainer.style.display = this.classList.contains('selected') ? 'block' : 'none';
+                            if (this.classList.contains('selected')) {
+                                customContainer.querySelector('input').focus();
+                            }
                         }
                     }
 
@@ -428,7 +292,7 @@
             });
 
             // Handle Custom Text Input
-            document.querySelectorAll('.custom-text-input').forEach(input => {
+            document.querySelectorAll('.custom-text-container input').forEach(input => {
                 input.addEventListener('input', validateCurrentStep);
                 input.addEventListener('click', e => e.stopPropagation());
             });
@@ -437,14 +301,13 @@
                 if (currentStep < totalSteps - 1) {
                     currentStep++;
                     updateUI();
+                    window.scrollTo(0, 0);
                 } else {
                     // Final Submit
                     nextBtn.disabled = true;
-                    nextBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+                    nextBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> @Localizer["Submitting..."]';
                     progressFill.style.width = '100%';
-                    setTimeout(() => {
-                        voteForm.submit();
-                    }, 500);
+                    voteForm.submit();
                 }
             });
 
@@ -452,6 +315,7 @@
                 if (currentStep > 0) {
                     currentStep--;
                     updateUI();
+                    window.scrollTo(0, 0);
                 }
             });
 

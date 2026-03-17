@@ -10,7 +10,7 @@ public class PollOperationLog
     [Key]
     public int Id { get; set; }
 
-    public int PollId { get; set; }
+    public Guid PollId { get; set; }
 
     [ForeignKey(nameof(PollId))]
     public Poll? Poll { get; set; }

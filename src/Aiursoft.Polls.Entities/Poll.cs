@@ -8,7 +8,8 @@ namespace Aiursoft.Polls.Entities;
 public class Poll
 {
     [Key]
-    public int Id { get; set; }
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     [Required]
     [MaxLength(200)]

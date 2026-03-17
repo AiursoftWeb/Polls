@@ -12,7 +12,7 @@ public class EditQuestionViewModel : UiStackLayoutViewModel
     }
 
     public int Id { get; set; }
-    public int PollId { get; set; }
+    public Guid PollId { get; set; }
 
     [Required(ErrorMessage = "The {0} is required.")]
     [Display(Name = "Question Title")]

@@ -111,6 +111,12 @@
                         </td>
                         <td><span data-utc-time="@p.Deadline.ToHtmlDateTime()"></span></td>
                         <td class="text-end">
+                            @if (p.State == PollState.Published && p.Deadline > DateTime.UtcNow)
+                            {
+                                <button type="button" class="btn btn-sm btn-outline-secondary me-1" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = p.Id }, Context.Request.Scheme)')">
+                                    <i class="align-middle" data-lucide="copy"></i>
+                                </button>
+                            }
                             <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">@Localizer["Details"]</a>
                         </td>
                     </tr>
@@ -128,6 +134,14 @@
 
 @section scripts {
     <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Link copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
         document.addEventListener("DOMContentLoaded", function () {
             const rows = document.querySelectorAll(".clickable-row");
             rows.forEach(row => {

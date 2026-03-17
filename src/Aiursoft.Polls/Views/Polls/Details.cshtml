@@ -7,6 +7,12 @@
         <h3>@Localizer["Poll Details:"] <span class="text-muted">@Model.Poll.Title</span></h3>
     </div>
     <div class="col-auto ms-auto text-end mt-n1">
+        @if (Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow)
+        {
+            <button type="button" class="btn btn-outline-secondary" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = Model.Poll.Id }, Context.Request.Scheme)')">
+                <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy Link"]
+            </button>
+        }
         @if (Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow && !Model.HasSubmitted)
         {
             <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-success">@Localizer["Vote Now"]</a>
@@ -187,3 +193,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(function() {
+            alert('Link copied to clipboard!');
+        }, function(err) {
+            console.error('Could not copy text: ', err);
+        });
+    }
+</script>

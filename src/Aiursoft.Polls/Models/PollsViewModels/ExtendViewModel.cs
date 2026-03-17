@@ -10,7 +10,7 @@ public class ExtendViewModel : UiStackLayoutViewModel
         PageTitle = "Extend Poll Deadline";
     }
 
-    public int PollId { get; set; }
+    public Guid PollId { get; set; }
     public string? PollTitle { get; set; }
     public DateTime CurrentDeadline { get; set; }
 

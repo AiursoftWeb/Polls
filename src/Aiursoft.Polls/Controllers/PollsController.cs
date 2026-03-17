@@ -55,7 +55,7 @@ public class PollsController(
         }
     }
 
-    private async Task LogOperationAsync(int pollId, string userId, string action, string? details = null)
+    private async Task LogOperationAsync(Guid pollId, string userId, string action, string? details = null)
     {
         context.PollOperationLogs.Add(new PollOperationLog
         {
@@ -186,7 +186,7 @@ public class PollsController(
 
     // ==================== Details ====================
 
-    public async Task<IActionResult> Details(int? id)
+    public async Task<IActionResult> Details(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls
@@ -230,7 +230,7 @@ public class PollsController(
     // ==================== Edit ====================
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> Edit(int? id)
+    public async Task<IActionResult> Edit(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls
@@ -306,7 +306,7 @@ public class PollsController(
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Publish(int id)
+    public async Task<IActionResult> Publish(Guid id)
     {
         var poll = await context.Polls.FindAsync(id);
         if (poll == null || poll.IsDeleted) return NotFound();
@@ -328,7 +328,7 @@ public class PollsController(
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Terminate(int id)
+    public async Task<IActionResult> Terminate(Guid id)
     {
         var poll = await context.Polls.FindAsync(id);
         if (poll == null || poll.IsDeleted) return NotFound();
@@ -348,7 +348,7 @@ public class PollsController(
     }
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> Extend(int? id)
+    public async Task<IActionResult> Extend(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls.FindAsync(id);
@@ -406,7 +406,7 @@ public class PollsController(
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Invalidate(int id)
+    public async Task<IActionResult> Invalidate(Guid id)
     {
         var poll = await context.Polls.FindAsync(id);
         if (poll == null || poll.IsDeleted) return NotFound();
@@ -426,7 +426,7 @@ public class PollsController(
     // ==================== Delete ====================
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> Delete(int? id)
+    public async Task<IActionResult> Delete(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls.FindAsync(id);
@@ -441,7 +441,7 @@ public class PollsController(
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> DeleteConfirmed(int id)
+    public async Task<IActionResult> DeleteConfirmed(Guid id)
     {
         var poll = await context.Polls.FindAsync(id);
         if (poll != null)
@@ -462,7 +462,7 @@ public class PollsController(
     // ==================== Question Management ====================
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> AddQuestion(int? id)
+    public async Task<IActionResult> AddQuestion(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls.FindAsync(id);
@@ -631,7 +631,7 @@ public class PollsController(
     // ==================== Vote ====================
 
     [AllowAnonymous]
-    public async Task<IActionResult> Vote(int? id)
+    public async Task<IActionResult> Vote(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls
@@ -836,7 +836,7 @@ public class PollsController(
     // ==================== Results ====================
 
     [AllowAnonymous]
-    public async Task<IActionResult> Results(int? id)
+    public async Task<IActionResult> Results(Guid? id)
     {
         if (id == null) return NotFound();
         var poll = await context.Polls
@@ -914,7 +914,7 @@ public class PollsController(
     // ==================== Export CSV ====================
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
-    public async Task<IActionResult> ExportCsv(int id)
+    public async Task<IActionResult> ExportCsv(Guid id)
     {
         var poll = await context.Polls
             .Include(p => p.Questions!.OrderBy(q => q.Order))
@@ -983,7 +983,7 @@ public class PollsController(
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> SendReminder(int id)
+    public async Task<IActionResult> SendReminder(Guid id)
     {
         var poll = await context.Polls
             .Include(p => p.RoleRestrictions)

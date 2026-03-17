@@ -11,7 +11,7 @@ public class AddQuestionViewModel : UiStackLayoutViewModel
         PageTitle = "Add Question to Poll";
     }
 
-    public int PollId { get; set; }
+    public Guid PollId { get; set; }
 
     [Required(ErrorMessage = "The {0} is required.")]
     [Display(Name = "Question Title")]

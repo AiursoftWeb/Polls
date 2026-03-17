@@ -10,7 +10,7 @@ public class VoteViewModel : UiStackLayoutViewModel
         PageTitle = "Submit Vote";
     }
 
-    public int PollId { get; set; }
+    public Guid PollId { get; set; }
     public Poll? Poll { get; set; }
 
     /// <summary>

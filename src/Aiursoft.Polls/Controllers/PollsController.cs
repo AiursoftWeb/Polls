@@ -55,6 +55,41 @@ public class PollsController(
         }
     }
 
+    private async Task<(List<User> eligibleUsers, List<User> pendingUsers)> GetEligibleAndPendingUsers(Poll poll)
+    {
+        var eligibleUsers = new List<User>();
+        if (poll.AccessType == AccessType.RoleBased && poll.RoleRestrictions != null)
+        {
+            var userIds = new HashSet<string>();
+            foreach (var restriction in poll.RoleRestrictions)
+            {
+                var role = await roleManager.FindByIdAsync(restriction.RoleId);
+                if (role?.Name == null) continue;
+                var usersInRole = await userManager.GetUsersInRoleAsync(role.Name);
+                foreach (var u in usersInRole)
+                {
+                    if (userIds.Add(u.Id))
+                    {
+                        eligibleUsers.Add(u);
+                    }
+                }
+            }
+        }
+        else if (poll.AccessType == AccessType.RegisteredOnly)
+        {
+            eligibleUsers = await userManager.Users.ToListAsync();
+        }
+
+        var submittedUserIds = await context.Submissions
+            .Where(s => s.PollId == poll.Id && s.UserId != null)
+            .Select(s => s.UserId!)
+            .Distinct()
+            .ToListAsync();
+
+        var pendingUsers = eligibleUsers.Where(u => !submittedUserIds.Contains(u.Id)).ToList();
+        return (eligibleUsers, pendingUsers);
+    }
+
     private async Task LogOperationAsync(Guid pollId, string userId, string action, string? details = null)
     {
         context.PollOperationLogs.Add(new PollOperationLog
@@ -217,13 +252,24 @@ public class PollsController(
         bool isCreator = user != null && poll.CreatedById == user.Id;
         bool canManage = isCreator || HasManagePermission();
 
+        int pendingCount = 0;
+        int eligibleCount = 0;
+        if (canManage && poll.AccessType != AccessType.Public)
+        {
+            var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
+            eligibleCount = eligible.Count;
+            pendingCount = pending.Count;
+        }
+
         return this.StackView(new DetailsViewModel
         {
             Poll = poll,
             HasSubmitted = hasSubmitted,
             UserSubmission = userSubmission,
             IsCreator = isCreator,
-            CanManage = canManage
+            CanManage = canManage,
+            PendingVotersCount = pendingCount,
+            EligibleVotersCount = eligibleCount
         });
     }
 
@@ -902,12 +948,23 @@ public class PollsController(
             questionResults.Add(qResult);
         }
 
+        int pendingCount = 0;
+        int eligibleCount = 0;
+        if (isManager && poll.AccessType != AccessType.Public)
+        {
+            var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
+            eligibleCount = eligible.Count;
+            pendingCount = pending.Count;
+        }
+
         return this.StackView(new ResultsViewModel
         {
             Poll = poll,
             TotalSubmissions = totalSubmissions,
             QuestionResults = questionResults,
-            CanExport = isManager
+            CanExport = isManager,
+            PendingVotersCount = pendingCount,
+            EligibleVotersCount = eligibleCount
         });
     }
 
@@ -976,6 +1033,32 @@ public class PollsController(
 
         var bytes = Encoding.UTF8.GetPreamble().Concat(Encoding.UTF8.GetBytes(sb.ToString())).ToArray();
         return File(bytes, "text/csv", $"poll-{poll.Id}-results.csv");
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    public async Task<IActionResult> ExportPendingUsers(Guid id)
+    {
+        var poll = await context.Polls
+            .Include(p => p.RoleRestrictions)
+            .SingleOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
+
+        if (poll == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+
+        var (_, pendingUsers) = await GetEligibleAndPendingUsers(poll);
+
+        var sb = new StringBuilder();
+        sb.AppendLine("User ID,Display Name,Email,UserName");
+
+        foreach (var u in pendingUsers)
+        {
+            sb.AppendLine($"{u.Id},\"{u.DisplayName.Replace("\"", "\"\"")}\",\"{u.Email}\",\"{u.UserName}\"");
+        }
+
+        var bytes = Encoding.UTF8.GetPreamble().Concat(Encoding.UTF8.GetBytes(sb.ToString())).ToArray();
+        return File(bytes, "text/csv", $"poll-{poll.Id}-pending-users.csv");
     }
 
     // ==================== Send Reminder ====================

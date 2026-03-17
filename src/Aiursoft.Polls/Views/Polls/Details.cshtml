@@ -80,6 +80,17 @@
                 <div><strong>@Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
                 <div><strong>@Localizer["Access:"]</strong> @Model.Poll.AccessType</div>
                 <div><strong>@Localizer["Result Visibility:"]</strong> @Model.Poll.Visibility</div>
+                @if (Model.CanManage && Model.Poll.AccessType != AccessType.Public)
+                {
+                    <hr />
+                    <div><strong>@Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
+                    <div><strong>@Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
+                    <div class="mt-2">
+                        <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100">
+                            <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending Users"]
+                        </a>
+                    </div>
+                }
             </div>
         </div>
 

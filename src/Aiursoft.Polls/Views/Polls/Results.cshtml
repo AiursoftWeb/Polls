@@ -1,3 +1,4 @@
+@using Aiursoft.Polls.Entities
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.ResultsViewModel
 
@@ -11,13 +12,22 @@
             <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
                 <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
             </a>
+            @if (Model.Poll.AccessType != AccessType.Public)
+            {
+                <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
+                    <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
+                </a>
+            }
         }
         <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
     </div>
 </div>
 
+@{
+    var colWidth = Model.Poll.AccessType == AccessType.Public ? 4 : 3;
+}
 <div class="row mb-3">
-    <div class="col-md-4">
+    <div class="col-md-@colWidth">
         <div class="card">
             <div class="card-body text-center">
                 <h2 class="text-primary">@Model.TotalSubmissions</h2>
@@ -25,7 +35,18 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    @if (Model.Poll.AccessType != AccessType.Public)
+    {
+        <div class="col-md-@colWidth">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h2 class="text-danger">@Model.PendingVotersCount</h2>
+                    <div class="text-muted">@Localizer["Pending Voters"]</div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="col-md-@colWidth">
         <div class="card">
             <div class="card-body text-center">
                 <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
@@ -33,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-@colWidth">
         <div class="card">
             <div class="card-body text-center">
                 <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>

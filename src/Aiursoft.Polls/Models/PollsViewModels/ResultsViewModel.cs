@@ -14,6 +14,8 @@ public class ResultsViewModel : UiStackLayoutViewModel
     public int TotalSubmissions { get; set; }
     public List<QuestionResultViewModel> QuestionResults { get; set; } = [];
     public bool CanExport { get; set; }
+    public int PendingVotersCount { get; set; }
+    public int EligibleVotersCount { get; set; }
 }
 
 public class QuestionResultViewModel

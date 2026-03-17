@@ -86,11 +86,13 @@
                     <div><strong>@Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
                     <div><strong>@Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
                     <div class="mt-2">
+                        <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1">
+                            <i class="align-middle" data-lucide="users"></i> @Localizer["View Voter Status"]
+                        </a>
                         <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100">
                             <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending Users"]
                         </a>
-                    </div>
-                }
+                    </div>                }
             </div>
         </div>
 

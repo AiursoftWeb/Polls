@@ -131,10 +131,8 @@ public class PollsController(
             .ToListAsync();
 
         var todoPolls = allActivePolls.Where(p =>
-            p.AccessType == AccessType.Public ||
-            p.AccessType == AccessType.RegisteredOnly ||
-            (p.AccessType == AccessType.RoleBased &&
-             (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false))
+            p.AccessType == AccessType.RoleBased &&
+            (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
         ).ToList();
 
         // Remove those already submitted by user
@@ -1059,6 +1057,38 @@ public class PollsController(
 
         var bytes = Encoding.UTF8.GetPreamble().Concat(Encoding.UTF8.GetBytes(sb.ToString())).ToArray();
         return File(bytes, "text/csv", $"poll-{poll.Id}-pending-users.csv");
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    public async Task<IActionResult> VoterStatus(Guid id)
+    {
+        var poll = await context.Polls
+            .Include(p => p.RoleRestrictions)
+            .SingleOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
+
+        if (poll == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+
+        var (eligibleUsers, _) = await GetEligibleAndPendingUsers(poll);
+
+        var submissions = await context.Submissions
+            .Where(s => s.PollId == poll.Id && s.UserId != null)
+            .ToDictionaryAsync(s => s.UserId!, s => s.SubmitTime);
+
+        var userStatusList = eligibleUsers.Select(u => new UserStatus
+        {
+            User = u,
+            HasVoted = submissions.ContainsKey(u.Id),
+            VoteTime = submissions.TryGetValue(u.Id, out var time) ? time : null
+        }).ToList();
+
+        return this.StackView(new VoterStatusViewModel
+        {
+            Poll = poll,
+            Users = userStatusList
+        });
     }
 
     // ==================== Send Reminder ====================

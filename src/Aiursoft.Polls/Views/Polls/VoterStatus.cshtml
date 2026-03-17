@@ -1,0 +1,74 @@
+@using Aiursoft.Polls.Models.PollsViewModels
+@using Aiursoft.Polls.Services.FileStorage
+@using Aiursoft.WebTools
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@inject StorageService StorageService
+@model VoterStatusViewModel
+@{
+    ViewData["Title"] = Localizer["Voter Status"];
+}
+
+<div class="container-xl p-0">
+    <div class="row mb-2 mb-xl-3">
+        <div class="col-auto d-none d-sm-block">
+            <h3><strong>@Localizer["Voter Status"]</strong> - @Model.Poll?.Title</h3>
+        </div>
+        <div class="col-auto ms-auto text-end">
+            <a asp-action="Details" asp-route-id="@Model.Poll?.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>@Localizer["User"]</th>
+                                <th>@Localizer["Email"]</th>
+                                <th>@Localizer["Status"]</th>
+                                <th>@Localizer["Submit Time"]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var userStatus in Model.Users.OrderBy(u => u.HasVoted).ThenBy(u => u.User?.DisplayName))
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="@StorageService.RelativePathToInternetUrl(userStatus.User?.AvatarRelativePath ?? Aiursoft.Polls.Entities.User.DefaultAvatarPath)?w=72&square=true" alt="@userStatus.User?.DisplayName" class="rounded-circle me-2" width="32" height="32">
+                                            <span>@userStatus.User?.DisplayName</span>
+                                        </div>
+                                    </td>
+                                    <td>@userStatus.User?.Email</td>
+                                    <td>
+                                        @if (userStatus.HasVoted)
+                                        {
+                                            <span class="badge bg-success">@Localizer["Voted"]</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">@Localizer["Pending"]</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (userStatus.VoteTime.HasValue)
+                                        {
+                                            <span data-utc-time="@userStatus.VoteTime.Value.ToHtmlDateTime()"></span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">-</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

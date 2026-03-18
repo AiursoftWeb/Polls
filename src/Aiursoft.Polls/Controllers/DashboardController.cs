@@ -44,9 +44,7 @@ public class DashboardController(
             .ToListAsync();
 
         var todoPolls = allActivePolls.Where(p =>
-            p.AccessType == AccessType.Public ||
-            p.AccessType == AccessType.RegisteredOnly ||
-            (p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false))
+            p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
         ).ToList();
 
         // Remove those already submitted by user

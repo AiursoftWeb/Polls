@@ -1076,6 +1076,9 @@ public class PollsController(
         if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
             return BadRequest("Can only send reminders for active polls.");
 
+        if (poll.AccessType != AccessType.RoleBased)
+            return BadRequest("Reminders are only supported for RoleBased polls.");
+
         // Queue background job for sending reminders
         backgroundJobQueue.QueueWithDependency<TemplateDbContext>(
             $"reminder-poll-{poll.Id}",
@@ -1085,7 +1088,7 @@ public class PollsController(
                 // Get users who should participate but haven't
                 var targetUserIds = new HashSet<string>();
 
-                if (poll.AccessType == AccessType.RoleBased && poll.RoleRestrictions != null)
+                if (poll.RoleRestrictions != null)
                 {
                     foreach (var restriction in poll.RoleRestrictions)
                     {
@@ -1097,11 +1100,6 @@ public class PollsController(
                             targetUserIds.Add(u.Id);
                         }
                     }
-                }
-                else if (poll.AccessType == AccessType.RegisteredOnly)
-                {
-                    var allUsers = await dbContext.Users.Select(u => u.Id).ToListAsync();
-                    foreach (var uid in allUsers) targetUserIds.Add(uid);
                 }
 
                 // Remove those who already submitted

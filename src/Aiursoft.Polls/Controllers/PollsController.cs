@@ -258,7 +258,7 @@ public class PollsController(
             Description = poll.Description,
             AccessType = poll.AccessType,
             Visibility = poll.Visibility,
-            Deadline = poll.Deadline,
+            Deadline = poll.Deadline.ToSecondPrecision(),
             SelectedRoles = poll.RoleRestrictions?.Select(r => r.RoleId).ToList() ?? [],
             AllRoles = roleManager.Roles.ToList()
         });
@@ -371,8 +371,8 @@ public class PollsController(
         {
             PollId = poll.Id,
             PollTitle = poll.Title,
-            CurrentDeadline = poll.Deadline,
-            NewDeadline = poll.Deadline.AddDays(7)
+            CurrentDeadline = poll.Deadline.ToSecondPrecision(),
+            NewDeadline = poll.Deadline.AddDays(7).ToSecondPrecision()
         });
     }
 

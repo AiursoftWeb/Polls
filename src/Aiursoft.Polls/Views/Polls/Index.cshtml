@@ -1,0 +1,108 @@
+@using Aiursoft.Polls.Entities
+@using Aiursoft.WebTools
+@model Aiursoft.Polls.Models.PollsViewModels.IndexViewModel
+<style>
+    .clickable-row {
+        cursor: pointer;
+    }
+</style>
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Polls Management"]</h3>
+    </div>
+
+    <div class="col-auto ms-auto mt-n1">
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="align-middle" data-lucide="plus"></i> @Localizer["Create a new poll"]
+        </a>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-transparent border-bottom">
+        <h5 class="card-title mb-0"><i class="align-middle me-2 text-primary" data-lucide="settings"></i> @Localizer["Polls I Manage"]</h5>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>@Localizer["Title"]</th>
+                    <th>@Localizer["Status"]</th>
+                    <th>@Localizer["Access"]</th>
+                    <th>@Localizer["Deadline"]</th>
+                    <th class="text-end">@Localizer["Actions"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model.ManagedPolls)
+                {
+                    <tr class="clickable-row" data-href="@Url.Action("Details", new { id = p.Id })">
+                        <td class="fw-bold">@p.Title</td>
+                        <td>
+                            @switch (p.State)
+                            {
+                                case PollState.Draft: <span class="badge bg-secondary">Draft</span> break;
+                                case PollState.Published: <span class="badge bg-success">Published</span> break;
+                                case PollState.Completed: <span class="badge bg-info">Completed</span> break;
+                                case PollState.Terminated: <span class="badge bg-warning">Terminated</span> break;
+                                case PollState.Void: <span class="badge bg-danger">Void</span> break;
+                            }
+                        </td>
+                        <td>
+                            @switch (p.AccessType)
+                            {
+                                case AccessType.Public: <span class="badge bg-success">Public</span> break;
+                                case AccessType.RegisteredOnly: <span class="badge bg-primary">Registered</span> break;
+                                case AccessType.RoleBased: <span class="badge bg-info">Role-Based</span> break;
+                            }
+                        </td>
+                        <td><span data-utc-time="@p.Deadline.ToHtmlDateTime()"></span></td>
+                        <td class="text-end">
+                            @if (p.State == PollState.Published && p.Deadline > DateTime.UtcNow)
+                            {
+                                <button type="button" class="btn btn-sm btn-outline-secondary me-1" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = p.Id }, Context.Request.Scheme)')">
+                                    <i class="align-middle" data-lucide="copy"></i>
+                                </button>
+                            }
+                            <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">@Localizer["Details"]</a>
+                        </td>
+                    </tr>
+                }
+                @if (!Model.ManagedPolls.Any())
+                {
+                    <tr>
+                        <td colspan="5" class="text-muted text-center pt-5 pb-5">
+                            <i class="d-block mb-3 text-muted opacity-50" data-lucide="bar-chart-2" style="width: 48px; height: 48px; margin: 0 auto;"></i>
+                            @Localizer["You don't manage any polls."]
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Link copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const rows = document.querySelectorAll(".clickable-row");
+            rows.forEach(row => {
+                row.addEventListener("click", function (event) {
+                    const target = event.target;
+                    if (!target.matches('a, a *, button, button *')) {
+                        window.location.href = row.dataset.href;
+                    }
+                });
+            });
+        });
+    </script>
+}

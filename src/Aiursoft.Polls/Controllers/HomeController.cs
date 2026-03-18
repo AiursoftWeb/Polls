@@ -1,7 +1,7 @@
 using Aiursoft.Polls.Models.HomeViewModels;
-using Aiursoft.Polls.Services;
-using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Mvc;
+using Aiursoft.WebTools.Attributes;
+using Aiursoft.Polls.Services;
 
 namespace Aiursoft.Polls.Controllers;
 
@@ -10,6 +10,12 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        return this.SimpleView(new IndexViewModel());
+        if (User.Identity?.IsAuthenticated == true)
+        {
+            return RedirectToAction("Index", "Dashboard");
+        }
+        
+        var model = new IndexViewModel();
+        return this.SimpleView(model);
     }
 }

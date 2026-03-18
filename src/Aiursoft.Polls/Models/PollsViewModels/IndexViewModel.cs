@@ -10,7 +10,5 @@ public class IndexViewModel : UiStackLayoutViewModel
         PageTitle = "Polls Dashboard";
     }
 
-    public required List<Poll> ToDoPolls { get; set; }
-    public required List<Poll> HistoryPolls { get; set; }
     public required List<Poll> ManagedPolls { get; set; }
 }

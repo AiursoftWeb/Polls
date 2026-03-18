@@ -107,47 +107,15 @@ public class PollsController(
     [RenderInNavBar(
         NavGroupName = "Features",
         NavGroupOrder = 1,
-        CascadedLinksGroupName = "Polls",
-        CascadedLinksIcon = "bar-chart",
-        CascadedLinksOrder = 2,
-        LinkText = "Dashboard",
-        LinkOrder = 1)]
+        CascadedLinksGroupName = "Dashboard",
+        CascadedLinksIcon = "layout",
+        CascadedLinksOrder = 1,
+        LinkText = "All Polls",
+        LinkOrder = 2)]
     public async Task<IActionResult> Index()
     {
         var user = await GetCurrentUserAsync();
         if (user == null) return Unauthorized();
-
-        var userRoles = await userManager.GetRolesAsync(user);
-        var userRoleIds = new List<string>();
-        foreach (var roleName in userRoles)
-        {
-            var role = await roleManager.FindByNameAsync(roleName);
-            if (role != null) userRoleIds.Add(role.Id);
-        }
-
-        var allActivePolls = await context.Polls
-            .Include(p => p.RoleRestrictions)
-            .Where(p => p.State == PollState.Published && p.Deadline > DateTime.UtcNow && !p.IsDeleted)
-            .ToListAsync();
-
-        var todoPolls = allActivePolls.Where(p =>
-            p.AccessType == AccessType.RoleBased &&
-            (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
-        ).ToList();
-
-        // Remove those already submitted by user
-        var submittedPollIds = await context.Submissions
-            .Where(s => s.UserId == user.Id)
-            .Select(s => s.PollId)
-            .Distinct()
-            .ToListAsync();
-
-        todoPolls = todoPolls.Where(p => !submittedPollIds.Contains(p.Id)).ToList();
-
-        // History
-        var historyPolls = await context.Polls
-            .Where(p => submittedPollIds.Contains(p.Id) && !p.IsDeleted)
-            .ToListAsync();
 
         // Managed Polls (Created by user)
         var managedPolls = await context.Polls
@@ -157,8 +125,6 @@ public class PollsController(
 
         return this.StackView(new IndexViewModel
         {
-            ToDoPolls = todoPolls,
-            HistoryPolls = historyPolls,
             ManagedPolls = managedPolls
         });
     }

@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>มาพร้อมการสนับสนุน Docker เต็มรูปแบบเพื่อให้การปรับใช้เป็นเรื่องง่าย สม่ำเสมอ และเชื่อถือได้</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>เสร็จสิ้น</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>เอกสารประกอบที่ครอบคลุม</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>การตรวจสอบความสอดคล้อง</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>สร้างโพลใหม่</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>กำหนดส่ง:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>พัฒนาเฉพาะในเวลา UTC โดยระบบจะแปลงและแสดงวันที่โดยอัตโนมัติเป็นเขตเวลาท้องถิ่นของผู้ใช้</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>รองรับหลายฐานข้อมูล</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>ประวัติการลงคะแนนของฉัน</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>ขณะนี้ไม่มีโพลที่ต้องทำ</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>การผสานรวม OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>ภาพรวมการสำรวจความคิดเห็น</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>การอนุญาตตามบทบาท RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>นี่คือโปรเจกต์เทมเพลต ซึ่งเป็นจุดเริ่มต้นของการเดินทางของเรา...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>การสำรวจที่ต้องทำ</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>ลงคะแนน</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>ยินดีต้อนรับ</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>ทำไมต้องใช้ Aiursoft Template?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>คุณยังไม่ได้เข้าร่วมโพลใดๆ เลย</value>
   </data>
 
 </root>

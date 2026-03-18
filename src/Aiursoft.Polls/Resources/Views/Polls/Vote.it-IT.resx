@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Back" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continua</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Termina</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>Scelta multipla</value>
+  </data>
+  <data name="Please specify..." xml:space="preserve">
+    <value>Specifica...</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Domande</value>
+  </data>
+  <data name="Select all that apply" xml:space="preserve">
+    <value>Seleziona tutte le opzioni applicabili</value>
+  </data>
+  <data name="Select the best option" xml:space="preserve">
+    <value>Seleziona l&apos;opzione migliore</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>Scelta singola</value>
+  </data>
+  <data name="Submitting..." xml:space="preserve">
+    <value>Invio in corso...</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>totale</value>
+  </data>
+
+</root>

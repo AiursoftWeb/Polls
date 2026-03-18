@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Đi kèm với hỗ trợ Docker đầy đủ để triển khai đơn giản, nhất quán và đáng tin cậy.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Tài liệu Toàn diện</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Xác thực tính nhất quán</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Tạo một cuộc thăm dò mới</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Hạn chót:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Phát triển riêng biệt bằng múi giờ UTC, trong khi hệ thống tự động chuyển đổi và hiển thị ngày tháng theo múi giờ địa phương của người dùng.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Hỗ trợ Đa Cơ sở Dữ liệu</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Lịch sử bỏ phiếu của tôi</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Hiện không có cuộc khảo sát nào cần thực hiện.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Tích hợp OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Tổng quan Khảo sát</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Ủy quyền RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Đây là một dự án mẫu, nơi chúng ta bắt đầu hành trình khám phá...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Khảo sát cần làm</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Bỏ phiếu</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Chào mừng</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Tại sao nên sử dụng Mẫu Aiursoft?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Bạn chưa tham gia bất kỳ cuộc khảo sát nào.</value>
   </data>
 
 </root>

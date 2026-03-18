@@ -79,6 +79,20 @@ public class ViewModelArgsInjector(
         _ = localizer["Not Found"];
         _ = localizer["Permission Details"];
         _ = localizer["Register"];
+    
+        _ = localizer["Add Question to Poll"];
+        _ = localizer["All Polls"];
+        _ = localizer["Create Poll"];
+        _ = localizer["Delete Poll"];
+        _ = localizer["Edit Poll"];
+        _ = localizer["Edit Question"];
+        _ = localizer["Extend Poll Deadline"];
+        _ = localizer["Overview"];
+        _ = localizer["Poll Details"];
+        _ = localizer["Poll Results"];
+        _ = localizer["Polls Dashboard"];
+        _ = localizer["Submit Vote"];
+        _ = localizer["Voter Status"];
     }
 
     public void InjectSimple(

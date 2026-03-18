@@ -21,6 +21,9 @@
       <data name="Access Denied" xml:space="preserve">
     <value>Adgang nægtet</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>Tilføj spørgsmål til undersøgelse</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Administrator</value>
   </data>
@@ -29,6 +32,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Skabelon</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>Alle meningsmålinger</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
@@ -51,6 +57,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klik for at logge ind</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Opret afstemning</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Opret rolle</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Dashboard</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>Slet undersøgelse</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Slet rolle</value>
@@ -69,6 +81,12 @@
   <data name="Directory" xml:space="preserve">
     <value>Mappe</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>Rediger meningsmåling</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>Rediger spørgsmål</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Rediger Rolle</value>
   </data>
@@ -77,6 +95,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Fejl</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>Forlæng afstemningsfristen</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
@@ -111,6 +132,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Ikke fundet</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Oversigt</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Tilladelsesdetaljer</value>
   </data>
@@ -119,6 +143,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Personlig</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Detaljer om meningsmåling</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>Afstemningsresultater</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>Undersøgelser Dashboard</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profil</value>
@@ -141,6 +174,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>Log ud</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>Indsend stemme</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>System</value>
   </data>
@@ -158,6 +194,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>Brugere</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>Vælgers status</value>
   </data>
 
 </root>

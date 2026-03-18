@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access:" xml:space="preserve">
+    <value>Access:</value>
+  </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
+  <data name="Are you sure you want to delete this question?" xml:space="preserve">
+    <value>Are you sure you want to delete this question?</value>
+  </data>
+  <data name="Are you sure you want to invalidate this poll? This is a soft delete." xml:space="preserve">
+    <value>Are you sure you want to invalidate this poll? This is a soft delete.</value>
+  </data>
+  <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
+    <value>Are you sure you want to terminate this poll?</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>Back to list</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copy Link</value>
+  </data>
+  <data name="Created By:" xml:space="preserve">
+    <value>Created By:</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Deadline:</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Eligible Voters:" xml:space="preserve">
+    <value>Eligible Voters:</value>
+  </data>
+  <data name="Export Pending Users" xml:space="preserve">
+    <value>Export Pending Users</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Extend</value>
+  </data>
+  <data name="Invalidate" xml:space="preserve">
+    <value>Invalidate</value>
+  </data>
+  <data name="No options added yet." xml:space="preserve">
+    <value>No options added yet.</value>
+  </data>
+  <data name="No questions have been added to this poll yet." xml:space="preserve">
+    <value>No questions have been added to this poll yet.</value>
+  </data>
+  <data name="Operation Log" xml:space="preserve">
+    <value>Operation Log</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Pending Voters:" xml:space="preserve">
+    <value>Pending Voters:</value>
+  </data>
+  <data name="Poll Details:" xml:space="preserve">
+    <value>Poll Details:</value>
+  </data>
+  <data name="Poll Info" xml:space="preserve">
+    <value>Poll Info</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Remind</value>
+  </data>
+  <data name="Result Visibility:" xml:space="preserve">
+    <value>Result Visibility:</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Thanks for participating! You submitted your response." xml:space="preserve">
+    <value>Thank you for participating! You have submitted your response.</value>
+  </data>
+  <data name="View Results" xml:space="preserve">
+    <value>View Results</value>
+  </data>
+  <data name="View Voter Status" xml:space="preserve">
+    <value>View Voter Status</value>
+  </data>
+  <data name="Vote Now" xml:space="preserve">
+    <value>Vote Now</value>
+  </data>
+  <data name="You Voted" xml:space="preserve">
+    <value>You Voted</value>
+  </data>
+
+</root>

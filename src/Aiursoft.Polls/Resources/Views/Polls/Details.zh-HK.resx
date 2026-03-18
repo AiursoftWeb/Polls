@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access:" xml:space="preserve">
+    <value>存取：</value>
+  </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>新增問題</value>
+  </data>
+  <data name="Are you sure you want to delete this question?" xml:space="preserve">
+    <value>您確定要刪除此問題嗎？</value>
+  </data>
+  <data name="Are you sure you want to invalidate this poll? This is a soft delete." xml:space="preserve">
+    <value>您確定要無效化此投票嗎？這將執行軟刪除。</value>
+  </data>
+  <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
+    <value>你確定要終止此投票嗎？</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>返回列表</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>複製連結</value>
+  </data>
+  <data name="Created By:" xml:space="preserve">
+    <value>創建者：</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>截止日期：</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="Eligible Voters:" xml:space="preserve">
+    <value>合資格選民：</value>
+  </data>
+  <data name="Export Pending Users" xml:space="preserve">
+    <value>匯出待處理用戶</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>延長</value>
+  </data>
+  <data name="Invalidate" xml:space="preserve">
+    <value>無效化</value>
+  </data>
+  <data name="No options added yet." xml:space="preserve">
+    <value>尚未添加任何選項。</value>
+  </data>
+  <data name="No questions have been added to this poll yet." xml:space="preserve">
+    <value>此投票目前尚未添加任何問題。</value>
+  </data>
+  <data name="Operation Log" xml:space="preserve">
+    <value>操作日誌</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Pending Voters:" xml:space="preserve">
+    <value>待處理選民：</value>
+  </data>
+  <data name="Poll Details:" xml:space="preserve">
+    <value>投票詳情：</value>
+  </data>
+  <data name="Poll Info" xml:space="preserve">
+    <value>投票資訊</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>發佈</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>問題</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="Result Visibility:" xml:space="preserve">
+    <value>結果可見性：</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>狀態：</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>終止</value>
+  </data>
+  <data name="Thanks for participating! You submitted your response." xml:space="preserve">
+    <value>感謝您的參與！您已提交回覆。</value>
+  </data>
+  <data name="View Results" xml:space="preserve">
+    <value>查看結果</value>
+  </data>
+  <data name="View Voter Status" xml:space="preserve">
+    <value>檢視選民狀態</value>
+  </data>
+  <data name="Vote Now" xml:space="preserve">
+    <value>立即投票</value>
+  </data>
+  <data name="You Voted" xml:space="preserve">
+    <value>您已投票</value>
+  </data>
+
+</root>

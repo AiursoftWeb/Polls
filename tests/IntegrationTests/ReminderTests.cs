@@ -1,6 +1,5 @@
 using System.Net;
 using Aiursoft.Polls.Entities;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Aiursoft.Polls.Tests.IntegrationTests;
 

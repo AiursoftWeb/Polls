@@ -47,21 +47,48 @@ public abstract class TestBase
 
     protected async Task<string> GetAntiCsrfToken(string url)
     {
-        var response = await Http.GetAsync(url);
-        if (!response.IsSuccessStatusCode)
+        var urlsToTry = new List<string> { url, "/Manage/Index", "/Account/Login", "/Dashboard/Index", "/" };
+        foreach (var tryUrl in urlsToTry)
         {
-            response = await Http.GetAsync("/");
-        }
-        response.EnsureSuccessStatusCode();
-        var html = await response.Content.ReadAsStringAsync();
-        var match = Regex.Match(html,
-            @"<input name=""__RequestVerificationToken"" type=""hidden"" value=""([^""]+)"" />");
-        if (!match.Success)
-        {
-            throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}");
+            var currentUrl = tryUrl;
+            for (var i = 0; i < 3; i++) // Follow up to 3 redirects
+            {
+                var response = await Http.GetAsync(currentUrl);
+                if (response.StatusCode == HttpStatusCode.Redirect || response.StatusCode == HttpStatusCode.MovedPermanently)
+                {
+                    currentUrl = response.Headers.Location?.ToString() ?? "/";
+                    if (!currentUrl.StartsWith("/") && !currentUrl.StartsWith("http"))
+                    {
+                        currentUrl = "/" + currentUrl;
+                    }
+                    continue;
+                }
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var html = await response.Content.ReadAsStringAsync();
+                    // Extremely flexible regex for various attribute orders
+                    var match = Regex.Match(html,
+                        @"<input\s+[^>]*name\s*=\s*""__RequestVerificationToken""[^>]*value\s*=\s*""([^""]+)""[^>]*>", 
+                        RegexOptions.IgnoreCase);
+                    
+                    if (!match.Success)
+                    {
+                        match = Regex.Match(html,
+                            @"<input\s+[^>]*value\s*=\s*""([^""]+)""[^>]*name\s*=\s*""__RequestVerificationToken""[^>]*>", 
+                            RegexOptions.IgnoreCase);
+                    }
+
+                    if (match.Success)
+                    {
+                        return match.Groups[1].Value;
+                    }
+                }
+                break;
+            }
         }
 
-        return match.Groups[1].Value;
+        throw new InvalidOperationException($"Could not find anti-CSRF token on any of the attempted pages starting from: {url}. Tried: {string.Join(", ", urlsToTry)}");
     }
 
     protected async Task<HttpResponseMessage> PostForm(string url, Dictionary<string, string> data, string? tokenUrl = null, bool includeToken = true)

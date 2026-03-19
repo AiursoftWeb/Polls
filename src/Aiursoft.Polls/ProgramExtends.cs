@@ -15,9 +15,7 @@ public static class ProgramExtends
     [ExcludeFromCodeCoverage]
     private static async Task<bool> ShouldSeedAsync(TemplateDbContext dbContext)
     {
-        var haveUsers = await dbContext.Users.AnyAsync();
-        var haveRoles = await dbContext.Roles.AnyAsync();
-        return !haveUsers && !haveRoles;
+        return !await dbContext.Set<Poll>().AnyAsync();
     }
 
     [ExcludeFromCodeCoverage]
@@ -63,14 +61,8 @@ public static class ProgramExtends
         var settingsService = services.GetRequiredService<GlobalSettingsService>();
         await settingsService.SeedSettingsAsync();
 
-        var shouldSeed = await ShouldSeedAsync(db);
-        if (!shouldSeed)
-        {
-            logger.LogInformation("Do not need to seed the database. There are already users or roles present.");
-            return host;
-        }
-
-        logger.LogInformation("Seeding the database with initial data...");
+        // Essential infrastructure seeding should always run
+        logger.LogInformation("Ensuring essential roles and permissions exist...");
         var userManager = services.GetRequiredService<UserManager<User>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
 
@@ -98,16 +90,41 @@ public static class ProgramExtends
 
         if (!await db.Users.AnyAsync(u => u.UserName == "admin"))
         {
+            logger.LogInformation("Creating default admin user...");
             var user = new User
             {
                 UserName = "admin",
                 DisplayName = "Super Administrator",
                 Email = "admin@default.com",
             };
-            _ = await userManager.CreateAsync(user, "admin123");
-            await userManager.AddToRoleAsync(user, "Administrators");
+            var result = await userManager.CreateAsync(user, "admin123");
+            if (result.Succeeded)
+            {
+                await userManager.AddToRoleAsync(user, "Administrators");
+            }
+            else
+            {
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                logger.LogError("Failed to create admin user: {Errors}", errors);
+            }
+        }
+        else
+        {
+             var admin = await userManager.FindByNameAsync("admin");
+             if (admin != null && !await userManager.IsInRoleAsync(admin, "Administrators"))
+             {
+                 await userManager.AddToRoleAsync(admin, "Administrators");
+             }
         }
 
+        var shouldSeed = await ShouldSeedAsync(db);
+        if (!shouldSeed)
+        {
+            return host;
+        }
+
+        logger.LogInformation("Seeding the database with demo data...");
+        // Add business demo data seeding logic here if needed.
         return host;
     }
 }

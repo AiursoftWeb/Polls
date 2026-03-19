@@ -32,20 +32,20 @@
             {
                 <form asp-action="Terminate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to terminate this poll?"]')">
                     <input type="hidden" name="id" value="@Model.Poll.Id" />
-                    <button type="submit" class="btn btn-danger btn-sm">@Localizer["Terminate"]</button>
+                    <button type="submit" class="btn btn-danger">@Localizer["Terminate"]</button>
                 </form>
-                <a asp-action="Extend" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary btn-sm">@Localizer["Extend"]</a>
+                <a asp-action="Extend" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary">@Localizer["Extend"]</a>
                 @if (Model.Poll.AccessType == AccessType.RoleBased)
                 {
                     <form asp-action="SendReminder" method="post" class="d-inline">
                         <input type="hidden" name="id" value="@Model.Poll.Id" />
-                        <button type="submit" class="btn btn-outline-warning btn-sm"><i class="align-middle" data-lucide="bell"></i> @Localizer["Remind"]</button>
+                        <button type="submit" class="btn btn-outline-warning"><i class="align-middle" data-lucide="bell"></i> @Localizer["Remind"]</button>
                     </form>
                 }
             }
             <form asp-action="Invalidate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to invalidate this poll? This is a soft delete."]')">
                 <input type="hidden" name="id" value="@Model.Poll.Id" />
-                <button type="submit" class="btn btn-outline-danger btn-sm">@Localizer["Invalidate"]</button>
+                <button type="submit" class="btn btn-outline-danger">@Localizer["Invalidate"]</button>
             </form>
         }
 

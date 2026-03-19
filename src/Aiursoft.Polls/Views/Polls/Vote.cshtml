@@ -175,8 +175,8 @@
                 <div class="list-group list-group-flush" id="questionNav">
                     @for (int i = 0; i < questions.Count; i++)
                     {
-                        <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")" 
-                                data-goto-step="@i" 
+                        <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")"
+                                data-goto-step="@i"
                                 id="navItem_@i"
                                 data-bs-dismiss="offcanvas"
                                 data-bs-target="#sidebarMenu">
@@ -195,15 +195,15 @@
             <button class="btn btn-outline-secondary d-lg-none px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
                 <i class="align-middle" data-lucide="menu"></i>
             </button>
-            
+
             <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
                 <i class="align-middle" data-lucide="x"></i>
             </a>
-            
+
             <div class="progress flex-grow-1" style="height: 8px;">
                 <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
             </div>
-            
+
             <span class="text-muted small"><span id="mobileStepIdx">1</span>/@totalSteps</span>
         </div>
 
@@ -242,7 +242,7 @@
                         }
                         @if (q.IsRequired) { <span class="text-danger">*</span> }
                     </p>
-                    
+
                     <div class="options-list">
                         @if (q.Options != null)
                         {
@@ -252,21 +252,21 @@
                                     <div class="selection-indicator"></div>
                                     <div class="option-content">@opt.Content</div>
                                 </div>
-                                
+
                                 if (opt.AllowCustomText)
                                 {
                                     <div class="custom-text-container" id="custom_text_container_@opt.Id">
-                                        <input type="text" 
-                                               class="form-control" 
-                                               name="CustomTexts[@q.Id]" 
-                                               placeholder="@Localizer["Please specify..."]" 
+                                        <input type="text"
+                                               class="form-control"
+                                               name="CustomTexts[@q.Id]"
+                                               placeholder="@Localizer["Please specify..."]"
                                                data-opt-id="@opt.Id" />
                                     </div>
                                 }
                             }
                         }
                     </div>
-                    
+
                     @if (q.Type == QuestionType.MultipleChoice)
                     {
                         <input type="hidden" name="SelectedOptions[@q.Id]" id="multiInput_@q.Id" value="" />
@@ -291,6 +291,7 @@
     </div>
 </div>
 
+@* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -321,7 +322,7 @@
                 // Update Sidebar
                 document.querySelectorAll('#questionNav .list-group-item').forEach((item, idx) => {
                     item.classList.toggle('active', idx === currentStep);
-                    
+
                     // Mark completed in sidebar
                     const step = steps[idx];
                     const isCompleted = validateStep(step);
@@ -334,7 +335,7 @@
                 } else {
                     prevBtn.classList.remove('d-none');
                 }
-                
+
                 if (currentStep === totalSteps - 1) {
                     nextBtn.innerHTML = '@Localizer["Finish"] <i class="align-middle ms-1" data-lucide="check"></i>';
                 } else {
@@ -342,7 +343,7 @@
                 }
 
                 validateCurrentStep();
-                
+
                 if (window.lucide) {
                     window.lucide.createIcons();
                 }
@@ -379,7 +380,7 @@
                     currentStep = parseInt(this.dataset.gotoStep);
                     updateUI();
                     window.scrollTo(0, 0);
-                    
+
                     // Force close offcanvas if it's open (for mobile)
                     const sidebar = document.getElementById('sidebarMenu');
                     if (window.getComputedStyle(sidebar).position === 'fixed') {
@@ -407,7 +408,7 @@
                         });
                         this.classList.add('selected');
                         document.getElementById('singleInput_' + questionId).value = optId;
-                        
+
                         if (hasCustom) {
                             document.getElementById('custom_text_container_' + optId).style.display = 'block';
                             document.getElementById('custom_text_container_' + optId).querySelector('input').focus();
@@ -417,7 +418,7 @@
                         this.classList.toggle('selected');
                         const selectedOpts = Array.from(step.querySelectorAll('.option-card.selected')).map(c => c.dataset.optId);
                         document.getElementById('multiInput_' + questionId).value = selectedOpts.join(',');
-                        
+
                         if (hasCustom) {
                             const customContainer = document.getElementById('custom_text_container_' + optId);
                             customContainer.style.display = this.classList.contains('selected') ? 'block' : 'none';
@@ -428,7 +429,7 @@
                     }
 
                     validateCurrentStep();
-                    
+
                     // Update completion status in sidebar immediately
                     const stepIdx = parseInt(step.dataset.step);
                     const navItem = document.getElementById('navItem_' + stepIdx);

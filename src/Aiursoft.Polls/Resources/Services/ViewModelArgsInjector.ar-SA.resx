@@ -21,6 +21,9 @@
       <data name="Access Denied" xml:space="preserve">
     <value>الوصول ممنوع</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>إضافة سؤال إلى الاستطلاع</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>المشرف</value>
   </data>
@@ -29,6 +32,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>قالب Aiursoft</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>جميع الاستطلاعات</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>مجهول</value>
@@ -51,6 +57,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>انقر لتسجيل الدخول</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>إنشاء استطلاع</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>إنشاء دور</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>لوحة التحكم</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>حذف الاستطلاع</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>حذف الدور</value>
@@ -69,6 +81,12 @@
   <data name="Directory" xml:space="preserve">
     <value>دليل</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>تعديل الاستطلاع</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>تعديل السؤال</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>تعديل الدور</value>
   </data>
@@ -77,6 +95,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>خطأ</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>إطالة مهلة التصويت</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>الميزات</value>
@@ -111,6 +132,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>غير موجود</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>نظرة عامة</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>تفاصيل الصلاحيات</value>
   </data>
@@ -119,6 +143,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>شخصي</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>تفاصيل الاستطلاع</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>نتائج الاستطلاع</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>لوحة استطلاعات الرأي</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>الملف الشخصي</value>
@@ -141,6 +174,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>تسجيل الخروج</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>إرسال التصويت</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>النظام</value>
   </data>
@@ -158,6 +194,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>المستخدمون</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>حالة الناخب</value>
   </data>
 
 </root>

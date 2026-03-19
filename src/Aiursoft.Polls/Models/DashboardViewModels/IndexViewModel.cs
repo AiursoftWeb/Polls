@@ -1,4 +1,5 @@
 using Aiursoft.UiStack.Layout;
+using Aiursoft.Polls.Entities;
 
 namespace Aiursoft.Polls.Models.DashboardViewModels;
 
@@ -8,4 +9,7 @@ public class IndexViewModel : UiStackLayoutViewModel
     {
         PageTitle = "Dashboard";
     }
+
+    public List<Poll>? ToDoPolls { get; set; }
+    public List<Poll>? HistoryPolls { get; set; }
 }

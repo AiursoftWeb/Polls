@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Bénéficie d&apos;une prise en charge complète de Docker pour des déploiements simplifiés, cohérents et fiables.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Documentation complète</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Validation de cohérence</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Créer un nouveau sondage</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Date limite :</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Développez exclusivement en UTC, tandis que le système convertit et affiche automatiquement les dates dans le fuseau horaire local de l&apos;utilisateur.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Prise en charge de plusieurs bases de données</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Mon historique de vote</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Aucun sondage à faire pour le moment.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Intégration OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Aperçu des sondages</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Autorisation RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Ceci est un projet modèle, où nous commençons le voyage...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Sondages à faire</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Voter</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bienvenue</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Pourquoi utiliser le modèle Aiursoft ?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Vous n&apos;avez encore participé à aucun sondage.</value>
   </data>
 
 </root>

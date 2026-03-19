@@ -24,6 +24,9 @@
   <data name="Account Settings" xml:space="preserve">
     <value>การตั้งค่าบัญชี</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>เพิ่มคำถามลงในโพล</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>ผู้ดูแลระบบ</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>เทมเพลต Aiursoft</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>โพลทั้งหมด</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>ไม่ระบุชื่อ</value>
@@ -54,6 +60,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>คลิกเพื่อเข้าสู่ระบบ</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>สร้างโพลล์</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>สร้างบทบาท</value>
   </data>
@@ -62,6 +71,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>แดชบอร์ด</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>ลบโพล</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>ลบบทบาท</value>
@@ -72,6 +84,12 @@
   <data name="Directory" xml:space="preserve">
     <value>ไดเรกทอรี</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>แก้ไขโพลล์</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>แก้ไขคำถาม</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>แก้ไขบทบาท</value>
   </data>
@@ -80,6 +98,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>ข้อผิดพลาด</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>ขยายกำหนดการโพล</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>คุณสมบัติ</value>
@@ -114,6 +135,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>ไม่พบ</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>ภาพรวม</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>รายละเอียดสิทธิ์การใช้งาน</value>
   </data>
@@ -122,6 +146,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>ส่วนตัว</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>รายละเอียดการโหวต</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>ผลการสำรวจความคิดเห็น</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>แดชบอร์ดโพลล์</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>โปรไฟล์</value>
@@ -144,6 +177,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>ออกจากระบบ</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>ส่งคะแนนเสียง</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>ระบบ</value>
   </data>
@@ -161,6 +197,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>ผู้ใช้</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>สถานะผู้ลงคะแนน</value>
   </data>
 
 </root>

@@ -24,6 +24,9 @@
   <data name="Account Settings" xml:space="preserve">
     <value>계정 설정</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>설문에 질문 추가</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>관리자</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft 템플릿</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>모든 투표</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>익명</value>
@@ -54,6 +60,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>로그인하려면 클릭</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>투표 생성</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>역할 생성</value>
   </data>
@@ -62,6 +71,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>대시보드</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>투표 삭제</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>역할 삭제</value>
@@ -72,6 +84,12 @@
   <data name="Directory" xml:space="preserve">
     <value>디렉터리</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>설문 수정</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>질문 수정</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>역할 편집</value>
   </data>
@@ -80,6 +98,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>오류</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>투표 마감 연장</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>기능</value>
@@ -114,6 +135,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>찾을 수 없음</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>개요</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>권한 세부 정보</value>
   </data>
@@ -122,6 +146,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>개인</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>투표 세부 정보</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>투표 결과</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>투표 대시보드</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>프로필</value>
@@ -144,6 +177,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>로그아웃</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>투표 제출</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>시스템</value>
   </data>
@@ -161,6 +197,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>사용자</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>투표자 상태</value>
   </data>
 
 </root>

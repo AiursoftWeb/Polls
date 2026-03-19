@@ -24,6 +24,9 @@
   <data name="Account Settings" xml:space="preserve">
     <value>アカウント設定</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>アンケートに質問を追加</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>管理者</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft テンプレート</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>すべての投票</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
@@ -54,6 +60,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>ログインするにはクリック</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>投票を作成</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>ロールの作成</value>
   </data>
@@ -62,6 +71,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>ダッシュボード</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>投票を削除する</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>ロールを削除</value>
@@ -72,6 +84,12 @@
   <data name="Directory" xml:space="preserve">
     <value>ディレクトリ</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>投票を編集</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>質問を編集</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>ロールを編集</value>
   </data>
@@ -80,6 +98,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>エラー</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>投票締切期限を延長する</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>機能</value>
@@ -114,6 +135,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Not Found</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>概要</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>権限の詳細</value>
   </data>
@@ -122,6 +146,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>個人</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>投票の詳細</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>投票結果</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>投票ダッシュボード</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>プロフィール</value>
@@ -144,6 +177,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>サインアウト</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>投票を送信</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>システム</value>
   </data>
@@ -161,6 +197,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>ユーザー</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>投票者ステータス</value>
   </data>
 
 </root>

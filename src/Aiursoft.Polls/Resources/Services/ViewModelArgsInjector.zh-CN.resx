@@ -24,6 +24,9 @@
   <data name="Account Settings" xml:space="preserve">
     <value>账户设置</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>向投票添加问题</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>管理员</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft 模板项目</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>所有投票</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
@@ -54,6 +60,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>点击登录</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>创建投票</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>创建角色</value>
   </data>
@@ -62,6 +71,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>仪表板</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>删除投票</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>删除角色</value>
@@ -72,6 +84,12 @@
   <data name="Directory" xml:space="preserve">
     <value>目录</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>编辑投票</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>编辑问题</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>编辑角色</value>
   </data>
@@ -80,6 +98,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>错误</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>延长投票截止日期</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>功能</value>
@@ -114,6 +135,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>未找到</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>概览</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>权限详情</value>
   </data>
@@ -122,6 +146,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>个人</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>投票详情</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>投票结果</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>投票仪表盘</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>个人资料</value>
@@ -144,6 +177,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>退出登录</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>提交投票</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>系统</value>
   </data>
@@ -161,6 +197,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>用户</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>投票状态</value>
   </data>
 
 </root>

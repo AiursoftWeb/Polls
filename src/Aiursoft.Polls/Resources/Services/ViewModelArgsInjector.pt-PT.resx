@@ -21,6 +21,9 @@
       <data name="Access Denied" xml:space="preserve">
     <value>Acesso Negado</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>Adicionar Pergunta à Enquete</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Administrador</value>
   </data>
@@ -29,6 +32,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Modelo Aiursoft</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>Todas as Votações</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anónimo</value>
@@ -51,6 +57,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Clique para iniciar sessão</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Criar Inquérito</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Criar Função</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Painel de Controle</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>Eliminar Inquérito</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Eliminar Função</value>
@@ -69,6 +81,12 @@
   <data name="Directory" xml:space="preserve">
     <value>Diretório</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>Editar Inquérito</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>Editar Pergunta</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Editar Função</value>
   </data>
@@ -77,6 +95,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Erro</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>Prolongar o Prazo da Enquete</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Funcionalidades</value>
@@ -111,6 +132,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Não Encontrado</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Visão Geral</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Detalhes da Permissão</value>
   </data>
@@ -119,6 +143,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Pessoal</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Detalhes da Inquérito</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>Resultados da Inquérito</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>Painel de Inquéritos</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Perfil</value>
@@ -141,6 +174,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>Terminar sessão</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>Submeter Voto</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>Sistema</value>
   </data>
@@ -158,6 +194,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>Utilizadores</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>Estado do Eleitor</value>
   </data>
 
 </root>

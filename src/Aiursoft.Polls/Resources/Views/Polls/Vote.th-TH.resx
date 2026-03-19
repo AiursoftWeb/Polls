@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Back" xml:space="preserve">
+    <value>ย้อนกลับ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>ดำเนินการต่อ</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>เสร็จสิ้น</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>เลือกได้หลายข้อ</value>
+  </data>
+  <data name="Please specify..." xml:space="preserve">
+    <value>โปรดระบุ...</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>คำถาม</value>
+  </data>
+  <data name="Select all that apply" xml:space="preserve">
+    <value>เลือกทุกข้อที่ใช่</value>
+  </data>
+  <data name="Select the best option" xml:space="preserve">
+    <value>เลือกตัวเลือกที่ดีที่สุด</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>เลือกข้อเดียว</value>
+  </data>
+  <data name="Submitting..." xml:space="preserve">
+    <value>กำลังส่ง...</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>ทั้งหมด</value>
+  </data>
+
+</root>

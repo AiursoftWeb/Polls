@@ -44,6 +44,11 @@ public static class Extensions
         return controller.View(viewName, model);
     }
 
+    public static DateTime ToSecondPrecision(this DateTime dt)
+    {
+        return new DateTime(dt.Year, dt.Month, dt.Day, dt.Hour, dt.Minute, dt.Second, dt.Kind);
+    }
+
     private static (string etag, long length) GetFileHttpProperties(string path)
     {
         var fileInfo = new FileInfo(path);

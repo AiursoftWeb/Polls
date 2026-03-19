@@ -1,0 +1,25 @@
+@using Aiursoft.WebTools
+@model Aiursoft.Polls.Models.PollsViewModels.ExtendViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Extend Poll Deadline"]</h3>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <p>@Localizer["Extending deadline for poll:"] <strong>@Model.PollTitle</strong></p>
+        <p>@Localizer["Current deadline:"] <span data-utc-time="@Model.CurrentDeadline.ToHtmlDateTime()"></span></p>
+        <form asp-action="Extend" method="post">
+            <input type="hidden" asp-for="PollId" />
+            <div class="mb-3">
+                <label asp-for="NewDeadline" class="form-label"></label>
+                <input asp-for="NewDeadline" type="datetime-local" step="1" class="form-control" />
+                <span asp-validation-for="NewDeadline" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">@Localizer["Extend Deadline"]</button>
+            <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-light">@Localizer["Cancel"]</a>
+        </form>
+    </div>
+</div>

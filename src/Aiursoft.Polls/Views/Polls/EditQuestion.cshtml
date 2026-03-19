@@ -1,0 +1,93 @@
+@using Aiursoft.Polls.Entities
+@model Aiursoft.Polls.Models.PollsViewModels.EditQuestionViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Edit Question"]</h3>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="EditQuestion" method="post">
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="PollId" />
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Type" class="form-label"></label>
+                    <select asp-for="Type" asp-items="Html.GetEnumSelectList<QuestionType>()" class="form-select" id="questionTypeSelect"></select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-check mt-4">
+                        <input class="form-check-input" asp-for="IsRequired" />
+                        <label class="form-check-label" asp-for="IsRequired">@Localizer["Required"]</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="optionsSection">
+                <h6>@Localizer["Options"]</h6>
+                <div id="optionsList">
+                    @for (var i = 0; i < Model.Options.Count; i++)
+                    {
+                        <div class="input-group mb-2 option-row">
+                            <input type="hidden" name="Options[@i].Id" value="@Model.Options[i].Id" />
+                            <input type="text" class="form-control" name="Options[@i].Content" value="@Model.Options[i].Content" placeholder="@Localizer["Option text"]" />
+                            <div class="input-group-text">
+                                <input class="form-check-input" type="checkbox" name="Options[@i].AllowCustomText" value="true"
+                                       @(Model.Options[i].AllowCustomText ? "checked" : "") />
+                                <label class="ms-1 small">@Localizer["Other"]</label>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger remove-option-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                            </button>
+                        </div>
+                    }
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary" id="addOptionBtn">
+                    <i class="align-middle" data-lucide="plus"></i> @Localizer["Add Option"]
+                </button>
+                <p class="text-muted small mt-2">@Localizer["Tip: Checking 'Other' allows the voter to submit additional text information."]</p>
+            </div>
+
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">@Localizer["Save"]</button>
+                <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-light">@Localizer["Cancel"]</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var optionIndex = @Model.Options.Count;
+            var optionsList = document.getElementById("optionsList");
+            var addBtn = document.getElementById("addOptionBtn");
+
+            addBtn.addEventListener("click", function () {
+                var row = document.createElement("div");
+                row.className = "input-group mb-2 option-row";
+                row.innerHTML = '<input type="hidden" name="Options[' + optionIndex + '].Id" value="0" />'
+                    + '<input type="text" class="form-control" name="Options[' + optionIndex + '].Content" placeholder="Option text" />'
+                    + '<div class="input-group-text"><input class="form-check-input" type="checkbox" name="Options[' + optionIndex + '].AllowCustomText" value="true" /><label class="ms-1 small">Other</label></div>'
+                    + '<button type="button" class="btn btn-outline-danger remove-option-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>';
+                optionsList.appendChild(row);
+                optionIndex++;
+            });
+
+            optionsList.addEventListener("click", function (e) {
+                var btn = e.target.closest(".remove-option-btn");
+                if (btn) {
+                    btn.closest(".option-row").remove();
+                }
+            });
+        });
+    </script>
+}

@@ -21,6 +21,9 @@
       <data name="Access Denied" xml:space="preserve">
     <value>Доступ запрещён</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>Добавить вопрос в опрос</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Администратор</value>
   </data>
@@ -29,6 +32,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>Все опросы</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Аноним</value>
@@ -51,6 +57,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Нажмите для входа</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Создать опрос</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Создать роль</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Панель управления</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>Удалить опрос</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Удалить роль</value>
@@ -69,6 +81,12 @@
   <data name="Directory" xml:space="preserve">
     <value>Каталог</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>Редактировать опрос</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>Редактировать вопрос</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Редактировать роль</value>
   </data>
@@ -77,6 +95,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>Продлить срок голосования</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Возможности</value>
@@ -111,6 +132,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Не найдено</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Сведения о разрешениях</value>
   </data>
@@ -119,6 +143,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Личное</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Детали опроса</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>Результаты опроса</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>Панель опросов</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Профиль</value>
@@ -141,6 +174,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>Выйти</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>Отправить голос</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>Система</value>
   </data>
@@ -158,6 +194,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>Пользователи</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>Статус избирателя</value>
   </data>
 
 </root>

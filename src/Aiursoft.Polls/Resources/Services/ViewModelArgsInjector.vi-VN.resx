@@ -24,6 +24,9 @@
   <data name="Account Settings" xml:space="preserve">
     <value>Cài đặt Tài khoản</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>Thêm câu hỏi vào cuộc thăm dò</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Quản trị viên</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>Tất cả cuộc khảo sát</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Ẩn danh</value>
@@ -54,6 +60,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Nhấp để đăng nhập</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Tạo Phiếu Khảo Sát</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Tạo Vai Trò</value>
   </data>
@@ -62,6 +71,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Bảng điều khiển</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>Xóa cuộc thăm dò</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Xóa Vai trò</value>
@@ -72,6 +84,12 @@
   <data name="Directory" xml:space="preserve">
     <value>Thư mục</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>Chỉnh sửa khảo sát</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>Chỉnh sửa câu hỏi</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Chỉnh sửa Vai trò</value>
   </data>
@@ -80,6 +98,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Lỗi</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>Kéo dài thời hạn bỏ phiếu</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Tính năng</value>
@@ -114,6 +135,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Không tìm thấy</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Chi tiết quyền hạn</value>
   </data>
@@ -122,6 +146,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Cá nhân</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Chi tiết khảo sát</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>Kết quả bình chọn</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>Bảng điều khiển thăm dò ý kiến</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Hồ sơ</value>
@@ -144,6 +177,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>Đăng xuất</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>Gửi phiếu bầu</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>Hệ thống</value>
   </data>
@@ -161,6 +197,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>Người dùng</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>Tình Trạng Cử Tri</value>
   </data>
 
 </root>

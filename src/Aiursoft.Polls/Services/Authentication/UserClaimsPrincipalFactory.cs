@@ -48,6 +48,23 @@ public class UserClaimsPrincipalFactory(
         var identity = await base.GenerateClaimsAsync(user);
         identity.AddClaim(new Claim(DisplayNameClaimType, user.DisplayName));
         identity.AddClaim(new Claim(AvatarClaimType, user.AvatarRelativePath));
+
+        // Get all roles for the user
+        var roles = await UserManager.GetRolesAsync(user);
+        foreach (var roleName in roles)
+        {
+            var role = await RoleManager.FindByNameAsync(roleName);
+            if (role != null)
+            {
+                // Get all claims for the role and add them to the identity
+                var roleClaims = await RoleManager.GetClaimsAsync(role);
+                foreach (var claim in roleClaims)
+                {
+                    identity.AddClaim(claim);
+                }
+            }
+        }
+
         return identity;
     }
 }

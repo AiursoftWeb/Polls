@@ -21,6 +21,9 @@
       <data name="Access Denied" xml:space="preserve">
     <value>Pääsy estetty</value>
   </data>
+  <data name="Add Question to Poll" xml:space="preserve">
+    <value>Lisää kysymys kyselyyn</value>
+  </data>
   <data name="Admin" xml:space="preserve">
     <value>Ylläpitäjä</value>
   </data>
@@ -29,6 +32,9 @@
   </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft-malli</value>
+  </data>
+  <data name="All Polls" xml:space="preserve">
+    <value>Kaikki kyselyt</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonyymi</value>
@@ -51,6 +57,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klikkaa kirjautuaksesi</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Luo kysely</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Luo rooli</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Hallintapaneeli</value>
+  </data>
+  <data name="Delete Poll" xml:space="preserve">
+    <value>Poista kysely</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Poista rooli</value>
@@ -69,6 +81,12 @@
   <data name="Directory" xml:space="preserve">
     <value>Hakemisto</value>
   </data>
+  <data name="Edit Poll" xml:space="preserve">
+    <value>Muokkaa kyselyä</value>
+  </data>
+  <data name="Edit Question" xml:space="preserve">
+    <value>Muokkaa kysymystä</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Muokkaa roolia</value>
   </data>
@@ -77,6 +95,9 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Virhe</value>
+  </data>
+  <data name="Extend Poll Deadline" xml:space="preserve">
+    <value>Pidentää kyselyn määräaika</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Ominaisuudet</value>
@@ -111,6 +132,9 @@
   <data name="Not Found" xml:space="preserve">
     <value>Ei löytynyt</value>
   </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Yleiskatsaus</value>
+  </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Oikeuksien tiedot</value>
   </data>
@@ -119,6 +143,15 @@
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Henkilökohtainen</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Äänestystiedot</value>
+  </data>
+  <data name="Poll Results" xml:space="preserve">
+    <value>Äänestystulokset</value>
+  </data>
+  <data name="Polls Dashboard" xml:space="preserve">
+    <value>Kyselyjen hallintapaneeli</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profiili</value>
@@ -141,6 +174,9 @@
   <data name="Sign out" xml:space="preserve">
     <value>Kirjaudu ulos</value>
   </data>
+  <data name="Submit Vote" xml:space="preserve">
+    <value>Lähetä ääni</value>
+  </data>
   <data name="System" xml:space="preserve">
     <value>Järjestelmä</value>
   </data>
@@ -158,6 +194,9 @@
   </data>
   <data name="Users" xml:space="preserve">
     <value>Käyttäjät</value>
+  </data>
+  <data name="Voter Status" xml:space="preserve">
+    <value>Äänestäjän tila</value>
   </data>
 
 </root>

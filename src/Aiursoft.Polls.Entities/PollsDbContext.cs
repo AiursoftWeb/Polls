@@ -10,6 +10,13 @@ namespace Aiursoft.Polls.Entities;
 public abstract class TemplateDbContext(DbContextOptions options) : IdentityDbContext<User>(options), ICanMigrate
 {
     public DbSet<GlobalSetting> GlobalSettings => Set<GlobalSetting>();
+    public DbSet<Poll> Polls => Set<Poll>();
+    public DbSet<Question> Questions => Set<Question>();
+    public DbSet<Option> Options => Set<Option>();
+    public DbSet<PollRoleRestriction> PollRoleRestrictions => Set<PollRoleRestriction>();
+    public DbSet<Submission> Submissions => Set<Submission>();
+    public DbSet<Answer> Answers => Set<Answer>();
+    public DbSet<PollOperationLog> PollOperationLogs => Set<PollOperationLog>();
 
     public virtual  Task MigrateAsync(CancellationToken cancellationToken) =>
         Database.MigrateAsync(cancellationToken);

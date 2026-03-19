@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>完全なDockerサポートにより、簡素化された一貫性のある信頼性の高いデプロイを実現します。</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>包括的なドキュメント</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>整合性検証</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>新しい投票を作成する</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>締切：</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>UTCで専用に開発し、システムが自動的に日付をユーザーのローカルタイムゾーンに変換して表示します。</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>複数データベースサポート</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>私の投票履歴</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>現在、投票待ちのアンケートはありません。</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect連携</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>投票概要</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC認可</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>これはテンプレートプロジェクトです。ここから航海が始まります...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>やるべき投票</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>投票</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>ようこそ</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Aiursoftテンプレートを使用する理由</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>まだ投票に参加した履歴がありません。</value>
   </data>
 
 </root>

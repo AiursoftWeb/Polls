@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access:" xml:space="preserve">
+    <value>Доступ:</value>
+  </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Додати запитання</value>
+  </data>
+  <data name="Are you sure you want to delete this question?" xml:space="preserve">
+    <value>Ви впевнені, що хочете видалити це запитання?</value>
+  </data>
+  <data name="Are you sure you want to invalidate this poll? This is a soft delete." xml:space="preserve">
+    <value>Ви впевнені, що хочете анулювати цей опитування? Це м&apos;яке видалення.</value>
+  </data>
+  <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
+    <value>Ви впевнені, що хочете припинити цей опитування?</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>Повернутися до списку</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>Підтвердити дію</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Скопійовано!</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Копіювати посилання</value>
+  </data>
+  <data name="Created By:" xml:space="preserve">
+    <value>Створено:</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Дедлайн:</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="Eligible Voters:" xml:space="preserve">
+    <value>Кваліфіковані виборці:</value>
+  </data>
+  <data name="Export Pending Users" xml:space="preserve">
+    <value>Експортувати очікуючих користувачів</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Розширити</value>
+  </data>
+  <data name="Invalidate" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Посилання скопійовано до буфера обміну!</value>
+  </data>
+  <data name="No options added yet." xml:space="preserve">
+    <value>Поки що не додано жодного варіанту.</value>
+  </data>
+  <data name="No questions have been added to this poll yet." xml:space="preserve">
+    <value>До цього опитування ще не додано жодного питання.</value>
+  </data>
+  <data name="Operation Log" xml:space="preserve">
+    <value>Журнал операцій</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Інше</value>
+  </data>
+  <data name="Pending Voters:" xml:space="preserve">
+    <value>Очікуючі виборці:</value>
+  </data>
+  <data name="Poll Details:" xml:space="preserve">
+    <value>Деталі опитування:</value>
+  </data>
+  <data name="Poll Info" xml:space="preserve">
+    <value>Інформація про опитування</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Опублікувати</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Питання</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Нагадати</value>
+  </data>
+  <data name="Result Visibility:" xml:space="preserve">
+    <value>Видимість результатів:</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Стан:</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>Завершити</value>
+  </data>
+  <data name="Thanks for participating! You submitted your response." xml:space="preserve">
+    <value>Дякуємо за участь! Ви надіслали свою відповідь.</value>
+  </data>
+  <data name="View Results" xml:space="preserve">
+    <value>Переглянути результати</value>
+  </data>
+  <data name="View Voter Status" xml:space="preserve">
+    <value>Переглянути статус виборців</value>
+  </data>
+  <data name="Vote Now" xml:space="preserve">
+    <value>Голосувати зараз</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="You Voted" xml:space="preserve">
+    <value>Ви проголосували</value>
+  </data>
+
+</root>

@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Biedt volledige Docker-ondersteuning voor vereenvoudigde, consistente en betrouwbare implementaties.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Voltooid</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Uitgebreide documentatie</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Consistentievalidatie</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Nieuwe peiling maken</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Deadline:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Ontwikkel uitsluitend in UTC terwijl het systeem data automatisch converteert en weergeeft in de lokale tijdzone van de gebruiker.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Ondersteuning voor meerdere databases</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Mijn stemgeschiedenis</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Op dit moment zijn er geen to-do-enquêtes.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect-integratie</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Overzicht van peilingen</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC-autorisatie</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Dit is een sjabloonproject, waar we de verkenner starten...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>To-do-enquêtes</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Stemmen</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welkom</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Waarom de Aiursoft Template gebruiken?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>U heeft nog niet aan enquêtes deelgenomen.</value>
   </data>
 
 </root>

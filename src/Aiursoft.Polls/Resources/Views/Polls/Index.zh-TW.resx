@@ -24,6 +24,9 @@
   <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>已複製！</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>建立新投票</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Details" xml:space="preserve">
     <value>詳細資訊</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>連結已複製到剪貼簿！</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>我管理的投票</value>

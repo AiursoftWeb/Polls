@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Oferuje pełne wsparcie dla Dockera, co upraszcza, ujednolica i zwiększa niezawodność wdrożeń.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Zakończono</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Kompleksowa Dokumentacja</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Weryfikacja spójności</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Utwórz nową ankietę</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Termin:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Twórz wyłączni w strefie czasowej UTC, podczas gdy system automatycznie konwertuje i wyświetla daty w strefie czasowej użytkownika.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Obsługa wielu baz danych</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Moja historia głosowania</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Brak ankiet do wykonania w tej chwili.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integracja OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Przegląd ankiet</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Autoryzacja RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>To jest projekt szablonu, od którego rozpoczynamy naszą podróż...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Ankiety do zrobienia</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Głosuj</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Witamy</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Dlaczego warto używać szablonu Aiursoft?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Nie wziąłeś jeszcze udziału w żadnej ankiecie.</value>
   </data>
 
 </root>

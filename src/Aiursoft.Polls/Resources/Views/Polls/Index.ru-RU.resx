@@ -24,6 +24,9 @@
   <data name="Actions" xml:space="preserve">
     <value>Действия</value>
   </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Скопировано!</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Создать новый опрос</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Details" xml:space="preserve">
     <value>Подробнее</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Ссылка скопирована в буфер обмена!</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Опросы, которыми я управляю</value>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access:" xml:space="preserve">
+    <value>Acces:</value>
+  </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Adaugă întrebare</value>
+  </data>
+  <data name="Are you sure you want to delete this question?" xml:space="preserve">
+    <value>Ești sigur că dorești să ștergi această întrebare?</value>
+  </data>
+  <data name="Are you sure you want to invalidate this poll? This is a soft delete." xml:space="preserve">
+    <value>Ești sigur că dorești să invalidezi acest sondaj? Aceasta este o ștergere soft.</value>
+  </data>
+  <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
+    <value>Ești sigur că dorești să închei acest sondaj?</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>Înapoi la listă</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>Confirmare acțiune</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiat!</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copiază link</value>
+  </data>
+  <data name="Created By:" xml:space="preserve">
+    <value>Creat de:</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Scadență:</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Eligible Voters:" xml:space="preserve">
+    <value>Votanți eligibili:</value>
+  </data>
+  <data name="Export Pending Users" xml:space="preserve">
+    <value>Exportare utilizatori în așteptare</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Extinde</value>
+  </data>
+  <data name="Invalidate" xml:space="preserve">
+    <value>Invalidare</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Link copiat în clipboard!</value>
+  </data>
+  <data name="No options added yet." xml:space="preserve">
+    <value>Nu s-au adăugat încă opțiuni.</value>
+  </data>
+  <data name="No questions have been added to this poll yet." xml:space="preserve">
+    <value>Nu au fost adăugate întrebări la acest sondaj încă.</value>
+  </data>
+  <data name="Operation Log" xml:space="preserve">
+    <value>Jurnal de operații</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Altele</value>
+  </data>
+  <data name="Pending Voters:" xml:space="preserve">
+    <value>Votanti în așteptare:</value>
+  </data>
+  <data name="Poll Details:" xml:space="preserve">
+    <value>Detalii sondaj:</value>
+  </data>
+  <data name="Poll Info" xml:space="preserve">
+    <value>Informații sondaj</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publicare</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Întrebări</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Trimite reminder</value>
+  </data>
+  <data name="Result Visibility:" xml:space="preserve">
+    <value>Vizibilitatea rezultatelor:</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>Termină</value>
+  </data>
+  <data name="Thanks for participating! You submitted your response." xml:space="preserve">
+    <value>Vă mulțumim că ați participat! Ați trimis răspunsul dumneavoastră.</value>
+  </data>
+  <data name="View Results" xml:space="preserve">
+    <value>Vezi rezultatele</value>
+  </data>
+  <data name="View Voter Status" xml:space="preserve">
+    <value>Vezi starea votanților</value>
+  </data>
+  <data name="Vote Now" xml:space="preserve">
+    <value>Votează acum</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="You Voted" xml:space="preserve">
+    <value>Ai votat</value>
+  </data>
+
+</root>

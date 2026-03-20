@@ -36,6 +36,15 @@
   <data name="Back to list" xml:space="preserve">
     <value>返回列表</value>
   </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>確認操作</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>已複製！</value>
+  </data>
   <data name="Copy Link" xml:space="preserve">
     <value>複製連結</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>無效化</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>連結已複製到剪貼簿！</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>尚未新增任何選項。</value>
@@ -110,6 +122,9 @@
   </data>
   <data name="Vote Now" xml:space="preserve">
     <value>立即投票</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>您已投票</value>

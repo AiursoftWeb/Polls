@@ -36,6 +36,15 @@
   <data name="Back to list" xml:space="preserve">
     <value>Quay lại danh sách</value>
   </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>Xác nhận hành động</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Đã sao chép!</value>
+  </data>
   <data name="Copy Link" xml:space="preserve">
     <value>Sao chép liên kết</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Hủy bỏ</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Chưa có tùy chọn nào được thêm.</value>
@@ -110,6 +122,9 @@
   </data>
   <data name="Vote Now" xml:space="preserve">
     <value>Bỏ phiếu ngay</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Có</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Bạn đã bỏ phiếu</value>

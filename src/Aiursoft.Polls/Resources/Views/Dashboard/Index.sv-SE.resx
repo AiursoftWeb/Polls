@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Levereras med fullt Docker-stöd för förenklad, konsekvent och pålitlig distribution.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Klart</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Omfattande dokumentation</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Konsekvensvalidering</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Skapa en ny omröstning</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Senast:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Utveckla uteslutande i UTC medan systemet automatiskt konverterar och visar datum i användarens lokala tidszon.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Stöd för flera databaser</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Min rösthistorik</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Det finns inga to-do-omröstningar just nu.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect-integration</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Översikt över omröstningar</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC-auktorisering</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Det här är ett mallprojekt, där vi börjar resan...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>To-do-omröstningar</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Rösta</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Välkommen</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Varför använda Aiursoft Template?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Du har inte deltagit i några omröstningar än.</value>
   </data>
 
 </root>

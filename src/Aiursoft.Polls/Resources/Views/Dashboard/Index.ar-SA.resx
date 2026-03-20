@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>يأتي مع دعم كامل لـ Docker لنشر مبسط، متسق، وموثوق.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>مكتملة</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>توثيق شامل</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>التحقق من الاتساق</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>إنشاء استبيان جديد</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>الموعد النهائي:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>طور بشكل حصري باستخدام التوقيت العالمي الموحد (UTC) بينما يقوم النظام تلقائيًا بتحويل وتظهر التواريخ بالتوقيت المحلي للمستخدم.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>دعم قواعد بيانات متعددة</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>تاريخ تصويتي</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>لا توجد استطلاعات للمهام حالياً.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>دمج OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>نظرة عامة على الاستطلاعات</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>الترخيص القائم على الأدوار (RBAC)</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>هذا مشروع قالب، حيث نبدأ رحلة المستكشف...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>تصويتات المهام</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>تصويت</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>مرحباً</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>لماذا نستخدم قالب Aiursoft؟</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>لم تشارك بعد في أي استطلاعات.</value>
   </data>
 
 </root>

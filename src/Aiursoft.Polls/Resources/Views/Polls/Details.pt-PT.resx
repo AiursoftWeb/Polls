@@ -36,6 +36,15 @@
   <data name="Back to list" xml:space="preserve">
     <value>Voltar à lista</value>
   </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>Confirmar Ação</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiado!</value>
+  </data>
   <data name="Copy Link" xml:space="preserve">
     <value>Copiar Link</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Invalidar</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Ligação copiada para a área de transferência!</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Ainda não foram adicionadas opções.</value>
@@ -110,6 +122,9 @@
   </data>
   <data name="Vote Now" xml:space="preserve">
     <value>Votar Agora</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Votou</value>

@@ -36,6 +36,15 @@
   <data name="Back to list" xml:space="preserve">
     <value>リストに戻る</value>
   </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>アクションの確認</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>コピーしました！</value>
+  </data>
   <data name="Copy Link" xml:space="preserve">
     <value>リンクをコピー</value>
   </data>
@@ -59,6 +68,9 @@
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>無効化</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>リンクがクリップボードにコピーされました！</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>まだ選択肢が追加されていません。</value>
@@ -110,6 +122,9 @@
   </data>
   <data name="Vote Now" xml:space="preserve">
     <value>今すぐ投票</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>投票済み</value>

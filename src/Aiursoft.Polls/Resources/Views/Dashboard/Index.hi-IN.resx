@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>पूर्ण Docker समर्थन के साथ आता है, जो सरल, सुसंगत और विश्वसनीय डेप्लॉयमेंट के लिए है।</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>पूर्ण</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>विस्तृत दस्तावेज़ीकरण</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>सुसंगतता प्रमाणीकरण</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>नया सर्वेक्षण बनाएं</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>समय सीमा:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>यूटीसी में विशेष रूप से विकसित करें जबकि सिस्टम स्वचालित रूप से उपयोगकर्ता के स्थानीय समय क्षेत्र में तारीखों को परिवर्तित और प्रदर्शित करता है।</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>एकाधिक डेटाबेस समर्थन</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>मेरी वोटिंग इतिहास</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>अभी कोई टू-डू पोल नहीं हैं।</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>ओपनआईडी कनेक्ट एकीकरण</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>पोलों का अवलोकन</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>आरबीएसी प्राधिकरण</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>यह एक टेम्पलेट प्रोजेक्ट है, जहाँ से हम अपनी यात्रा शुरू करते हैं...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>कार्य सूची पोल्स</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>मतदान करें</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>स्वागत है</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Aiursoft टेम्पलेट क्यों उपयोग करें?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>आपने अभी तक किसी भी मतदान में भाग नहीं लिया है।</value>
   </data>
 
 </root>

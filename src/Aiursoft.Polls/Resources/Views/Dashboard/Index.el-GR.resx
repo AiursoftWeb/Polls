@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Διαθέτει πλήρη υποστήριξη Docker για απλοποιημένες, συνεπείς και αξιόπιστες αναπτύξεις.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Ολοκληρώθηκε</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Πληρέστερη Τεκμηρίωση</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Έλεγχος Συνοχής</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Δημιουργία νέου ερωτηματολογίου</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Προθεσμία:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Αναπτύξτε αποκλειστικά στο UTC, ενώ το σύστημα μετατρέπει και εμφανίζει αυτόματα τις ημερομηνίες στην τοπική ώρα του χρήστη.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Η ψήφισή μου</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Δεν υπάρχουν δημοσκοπήσεις προς εκτέλεση αυτή τη στιγμή.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Ενσωμάτωση OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Επισκόπηση Ψηφοφοριών</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Εξουσιοδότηση RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Έρευνες που εκκρεμούν</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Ψήφος</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Καλώς ορίσατε</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Δεν έχετε συμμετάσχει σε κανένα δημοψήφισμα ακόμα.</value>
   </data>
 
 </root>

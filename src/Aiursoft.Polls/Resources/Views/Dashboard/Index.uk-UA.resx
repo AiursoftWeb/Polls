@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Повністю підтримує Docker для спрощених, стабільних та надійних розгортань.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Документація</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Перевірка сумісності</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Створити нове опитування</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Дедлайн:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Розробляйте виключно в UTC, тоді як система автоматично перетворює та відображає дати у часовому поясі користувача.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Підтримка кількох баз даних</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Моя історія голосування</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Наразі немає опитувань до списку справ.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Інтеграція OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Огляд опитувань</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Авторизація на основі ролей (RBAC)</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Це шаблонний проект, з якого ми розпочинаємо нашу подорож...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Опитування на виконання</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Голосувати</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Ласкаво просимо</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>Чому варто використовувати шаблон Aiursoft?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Ви ще не брали участі в жодних опитуваннях.</value>
   </data>
 
 </root>

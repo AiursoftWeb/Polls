@@ -69,11 +69,20 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Oferă suport complet pentru Docker pentru implementări simplificate, consistente și fiabile.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Finalizat</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Documentație Cuprinzătoare</value>
   </data>
   <data name="Consistency Validation" xml:space="preserve">
     <value>Validare de consistență</value>
+  </data>
+  <data name="Create a new poll" xml:space="preserve">
+    <value>Creează un sondaj nou</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Termen limită:</value>
   </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Dezvoltați exclusiv în UTC, în timp ce sistemul convertește și afișează automat datele în fusul orar local al utilizatorului.</value>
@@ -123,8 +132,17 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Suport pentru Multiple Baze de Date</value>
   </data>
+  <data name="My Voting History" xml:space="preserve">
+    <value>Istoricul meu de voturi</value>
+  </data>
+  <data name="No to-do polls right now." xml:space="preserve">
+    <value>Nu există sondaje de tip &quot;de făcut&quot; în acest moment.</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integrare OpenID Connect</value>
+  </data>
+  <data name="Polls Overview" xml:space="preserve">
+    <value>Prezentare generală sondaje</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Autorizare RBAC</value>
@@ -165,11 +183,20 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Acesta este un proiect tip, de unde începem călătoria...</value>
   </data>
+  <data name="To-Do Polls" xml:space="preserve">
+    <value>Sondaje de făcut</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Votează</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bun venit</value>
   </data>
   <data name="Why use the Aiursoft Template?" xml:space="preserve">
     <value>De ce să folosești Șablonul Aiursoft?</value>
+  </data>
+  <data name="You haven&apos;t participated in any polls yet." xml:space="preserve">
+    <value>Nu ați participat încă la niciun sondaj.</value>
   </data>
 
 </root>

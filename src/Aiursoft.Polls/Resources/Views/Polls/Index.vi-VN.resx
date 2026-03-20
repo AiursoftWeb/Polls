@@ -24,6 +24,9 @@
   <data name="Actions" xml:space="preserve">
     <value>Hành động</value>
   </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Đã sao chép!</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Tạo một cuộc khảo sát mới</value>
   </data>
@@ -32,6 +35,9 @@
   </data>
   <data name="Details" xml:space="preserve">
     <value>Chi tiết</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Các khảo sát tôi quản lý</value>

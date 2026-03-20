@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access:" xml:space="preserve">
+    <value>Dostęp:</value>
+  </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Dodaj pytanie</value>
+  </data>
+  <data name="Are you sure you want to delete this question?" xml:space="preserve">
+    <value>Czy na pewno chcesz usunąć to pytanie?</value>
+  </data>
+  <data name="Are you sure you want to invalidate this poll? This is a soft delete." xml:space="preserve">
+    <value>Czy na pewno chcesz unieważnić tę ankietę? Jest to usunięcie miękkie.</value>
+  </data>
+  <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
+    <value>Czy na pewno chcesz zakończyć tę ankietę?</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>Powrót do listy</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="Confirm Action" xml:space="preserve">
+    <value>Potwierdź akcję</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Skopiowano!</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Kopiuj link</value>
+  </data>
+  <data name="Created By:" xml:space="preserve">
+    <value>Stworzony przez:</value>
+  </data>
+  <data name="Deadline:" xml:space="preserve">
+    <value>Termin:</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="Eligible Voters:" xml:space="preserve">
+    <value>Uprawnieni wyborcy:</value>
+  </data>
+  <data name="Export Pending Users" xml:space="preserve">
+    <value>Eksportuj oczekujących użytkowników</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Rozszerz</value>
+  </data>
+  <data name="Invalidate" xml:space="preserve">
+    <value>Unieważnij</value>
+  </data>
+  <data name="Link copied to clipboard!" xml:space="preserve">
+    <value>Link skopiowany do schowka!</value>
+  </data>
+  <data name="No options added yet." xml:space="preserve">
+    <value>Brak dodanych opcji.</value>
+  </data>
+  <data name="No questions have been added to this poll yet." xml:space="preserve">
+    <value>Brak pytań dodanych do tej ankiety.</value>
+  </data>
+  <data name="Operation Log" xml:space="preserve">
+    <value>Log operacji</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Inne</value>
+  </data>
+  <data name="Pending Voters:" xml:space="preserve">
+    <value>Oczekujący wyborcy:</value>
+  </data>
+  <data name="Poll Details:" xml:space="preserve">
+    <value>Szczegóły ankiety:</value>
+  </data>
+  <data name="Poll Info" xml:space="preserve">
+    <value>Informacje o ankiecie</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Opublikuj</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Pytania</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Pamiętaj</value>
+  </data>
+  <data name="Result Visibility:" xml:space="preserve">
+    <value>Widoczność wyników:</value>
+  </data>
+  <data name="Status:" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>Zakończ</value>
+  </data>
+  <data name="Thanks for participating! You submitted your response." xml:space="preserve">
+    <value>Dziękujemy za udział! Zgłosiłeś swoją odpowiedź.</value>
+  </data>
+  <data name="View Results" xml:space="preserve">
+    <value>Wyświetl wyniki</value>
+  </data>
+  <data name="View Voter Status" xml:space="preserve">
+    <value>Zobacz status wyborców</value>
+  </data>
+  <data name="Vote Now" xml:space="preserve">
+    <value>Głosuj teraz</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Tak</value>
+  </data>
+  <data name="You Voted" xml:space="preserve">
+    <value>Głosowałeś</value>
+  </data>
+
+</root>

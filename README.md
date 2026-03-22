@@ -7,25 +7,11 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fpolls.aiursoft.com)](https://polls.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/polls.svg)](https://hub.docker.com/r/aiursoft/polls)
 
-Polls is a sample project.
+Aiursoft Polls is an enterprise-level, comprehensive voting and survey management system built on ASP.NET Core (.NET 10). It provides organizations with a secure and flexible platform for collecting, managing, and analyzing participant responses.
 
 ![screenshot](./screenshot.png)
 
 Default user name is `admin@default.com` and default password is `admin123`.
-
-## Projects using Aiursoft Polls
-
-* [Stathub](https://gitlab.aiursoft.com/aiursoft/stathub)
-* [MarkToHtml](https://gitlab.aiursoft.com/aiursoft/marktohtml)
-* [MusicTools](https://gitlab.aiursoft.com/aiursoft/musictools)
-* [AnduinOS Home](https://gitlab.aiursoft.com/anduin/AnduinOS-Home)
-* [Manhours](https://gitlab.aiursoft.com/aiursoft/manhours)
-* [Tracer](https://gitlab.aiursoft.com/aiursoft/tracer)
-* [Warp](https://gitlab.aiursoft.com/aiursoft/warp)
-* [AiurDrive](https://gitlab.aiursoft.com/aiursoft/aiurdrive)
-* [EmployeeCenter](https://gitlab.aiursoft.com/aiursoft/employeecenter)
-* [GitMirrorServer](https://gitlab.aiursoft.com/aiursoft/gitmirrorserver)
-* [CppRunner](https://gitlab.aiursoft.com/aiursoft/cpprunner)
 
 ## Try
 

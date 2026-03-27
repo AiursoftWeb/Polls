@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Aiursoft.Polls.Sqlite.Migrations
 {
     [DbContext(typeof(SqliteContext))]
-    [Migration("20260312152221_EnhancePollsDataModel")]
-    partial class EnhancePollsDataModel
+    [Migration("20260327165304_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "10.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "10.0.5");
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Answer", b =>
                 {
@@ -92,9 +92,9 @@ namespace Aiursoft.Polls.Sqlite.Migrations
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Poll", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("AccessType")
                         .HasColumnType("INTEGER");
@@ -158,8 +158,8 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("Timestamp")
                         .HasColumnType("TEXT");
@@ -179,8 +179,8 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("RoleId")
                         .IsRequired()
@@ -207,8 +207,8 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                     b.Property<int>("Order")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -239,8 +239,8 @@ namespace Aiursoft.Polls.Sqlite.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("SubmitTime")
                         .HasColumnType("TEXT");

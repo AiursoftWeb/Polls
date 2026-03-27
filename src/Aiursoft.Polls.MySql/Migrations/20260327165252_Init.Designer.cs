@@ -12,15 +12,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Aiursoft.Polls.MySql.Migrations
 {
     [DbContext(typeof(MySqlContext))]
-    [Migration("20260312152244_EnhancePollsDataModel")]
-    partial class EnhancePollsDataModel
+    [Migration("20260327165252_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.4")
+                .HasAnnotation("ProductVersion", "10.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -101,11 +101,9 @@ namespace Aiursoft.Polls.MySql.Migrations
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Poll", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("char(36)");
 
                     b.Property<int>("AccessType")
                         .HasColumnType("int");
@@ -171,8 +169,8 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
 
                     b.Property<DateTime>("Timestamp")
                         .HasColumnType("datetime(6)");
@@ -194,8 +192,8 @@ namespace Aiursoft.Polls.MySql.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("RoleId")
                         .IsRequired()
@@ -224,8 +222,8 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -258,8 +256,8 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
-                    b.Property<int>("PollId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
 
                     b.Property<DateTime>("SubmitTime")
                         .HasColumnType("datetime(6)");

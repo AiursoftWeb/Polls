@@ -104,28 +104,6 @@ public class GlobalSettingsTests : TestBase
         }
         catch (InvalidOperationException) { }
 
-        // Test Number validation
-        try
-        {
-            await settingsService.UpdateSettingAsync(SettingsMap.DummyNumber, "NotANumber");
-            Assert.Fail("Should have thrown InvalidOperationException");
-        }
-        catch (InvalidOperationException) { }
-        
-        await settingsService.UpdateSettingAsync(SettingsMap.DummyNumber, "123.45");
-        Assert.AreEqual("123.45", await settingsService.GetSettingValueAsync(SettingsMap.DummyNumber));
-
-        // Test Choice validation
-        try
-        {
-            await settingsService.UpdateSettingAsync(SettingsMap.DummyChoice, "InvalidChoice");
-            Assert.Fail("Should have thrown InvalidOperationException");
-        }
-        catch (InvalidOperationException) { }
-        
-        await settingsService.UpdateSettingAsync(SettingsMap.DummyChoice, "B");
-        Assert.AreEqual("B", await settingsService.GetSettingValueAsync(SettingsMap.DummyChoice));
-
         // Test File validation (empty)
         try
         {

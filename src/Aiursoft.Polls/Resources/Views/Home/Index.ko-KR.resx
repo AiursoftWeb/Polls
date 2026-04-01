@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>데스크톱과 모바일 기기 모두에서 훌륭하게 보이는 완전 반응형 레이아웃.</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>스마트폰이나 태블릿에서 완벽하게 작동하는 완전히 반응형인 투표 경험</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>현대적이고, 기능이 풍부하며, 매우 확장 가능한 기반을 제공하여 차세대 웹 애플리케이션을 구축할 수 있습니다.</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>네. 공개, 가입 사용자 전용, 또는 신원 공급자에서 동기화된 특정 역할로 제한되도록 투표 설정을 할 수 있습니다.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft 템플릿으로 더 많은 성과를 이루세요</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>ACID Ready</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Active Directory 통합</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>관리 사이트 포함됨</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>고급 질문 유형</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI 기반 번역</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI 기반 번역</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls 는 완전히 Docker 로 컨테이너화되었습니다. 단일 &apos;docker run&apos; 명령으로 실행하거나 Docker Swarm 또는 Kubernetes 클러스터에 배포하여 고가용성을 확보할 수 있습니다.</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Aiursoft Polls 는 다양한 서비스 전반에 걸친 피드백의 기반입니다. 우리는 단순히 이 코드를 공유하는 것이 아니라, 매일 사용자의 목소리를 듣기 위해 이를 활용합니다.</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>모든 종속성은 자동으로 등록되며 생성자 주입을 통해 항상 사용할 수 있습니다.</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>참가자가 자신에게 적용되는 하나 이상의 옵션을 선택할 수 있습니다.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>분석</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>안두인</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>차단 방지</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>인공지능 번역</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>감사 감사 로그</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>감사 기록</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>자동 의존성 주입</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>관리 권한에 따른 자동 내비게이션 조정</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>자동 역할 동기화</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>자동 동기화</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>자동 시간대 처리</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Docker Swarm 또는 Kubernetes 클러스터에 자동으로 배포합니다.</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Docker Swarm 또는 Kubernetes 클러스터에 자동으로 배포합니다.</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>OpenID 역할을 자동으로 동기화합니다. 통합 규칙 관리.</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>조직 역할을 자동으로 동기화하여 투표 제한을 설정합니다.</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>백그라운드 작업 처리</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>기본</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>초보자 친화적</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>기업용 수준이지만 쉽게 배울 수 있는 네이티브 C#으로 제작됨</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>엄격한 검증 규칙을 사용하여 모든 투표가 유효하고 안전하도록 보장합니다.</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>UTC 코어로 구축되어 모든 시간대에서 투표 종료 시간이 일관되도록 보장합니다.</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>내장된</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>내장된 작업 대기열 GUI</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>소규모 팀을 위한 내장 SQLite 지원 또는 엔터프라이즈 사용을 위해 MySQL 로 확장 가능</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>내장된 사용자 관리</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>투표자를 제한할 수 있나요?</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>결과를 투표가 종료될 때까지 숨기거나, 소유자에게만 비공개로 유지하거나, 모두에게 공개하도록 선택하세요.</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>참가자가 정확히 하나의 옵션을 선택하는 고전적인 라디오 버튼 스타일 질문입니다.</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>클라우드 준비 완료</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Docker 지원을 제공하여 간편하고 일관된 배포가 가능합니다.</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>커버리지 리포트</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>다양한 응답 유형을 지원하는 단일 설문조사에서 여러 질문이 포함된 복잡한 설문조사를 생성하세요.</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>크로스 플랫폼</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>맞춤 개발 필요</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>사용자 지정 도메인</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>배경 작업 대시보드</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>대시보드 웹사이트</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>데이터 내보내기</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>데이터 수집이 흔함</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Day 1 준수성 및 보안.</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Authentik과의 심층 통합 테스트. Okta와 호환 가능.</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Authentik 와의 심층 통합. Okta 와 완전히 호환됩니다.</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>DotLang AI 와의 심층 통합</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>컨테이너 시대를 위해 설계되었습니다. GitLab용 사전 구성된 CI/CD 파이프라인을 포함합니다. 코드를 푸시하고 엄격한 린팅을 통과하며 자동 테스트를 수행한 후, Docker Swarm 또는 Kubernetes로 자동 배포합니다.</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>컨테이너 시대를 위해 설계되었습니다. 사전 구성된 CI/CD 파이프라인이 포함되어 있습니다. 코드를 푸시하고 테스트를 통과한 후 인프라에 자동으로 배포됩니다.</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>개발 &amp; 운영</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Docker를 사용한 간편 배포</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>Excel 또는 기타 도구를 사용한 오프라인 분석을 위해 모든 제출물을 표준 형식으로 다운로드하세요.</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>동적 내비게이션 바</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>투표 시작 전 언제든지 선택 항목을 쉽게 추가, 제거 및 순서를 재조정할 수 있습니다.</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server 및 테스트용 메모리 데이터베이스를 포함하여 데이터베이스 공급자를 쉽게 전환할 수 있습니다.</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server 및 테스트용 인메모리 데이터베이스와 같은 프로바이더 간에 쉽게 전환할 수 있습니다.</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>쉬운 배포</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>메모리 내 데이터베이스, 임시 파일 시스템, 내장된 모킹, 그리고 실제 웹 요청 시뮬레이션을 사용하여 통합 테스트를 쉽게 작성하세요.</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>기업용 기능</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>엔터프라이즈급</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Enterprise plan 전용</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>기업용 준비 완료</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>기업 보안</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>엔터프라이즈 SSO</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core 포함됨</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>폴에 대한 모든 수정 사항은 완전한 투명성과 책임성을 위해 기록됩니다.</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>성공적인 설문을 위한 모든 것이 여기에 있습니다.</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>자주 묻는 질문</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>유연한 API</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>유연한 관리</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>문의 사항이 있거나 문제를 보고하려면</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>모두를 위한</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Aiursoft의 설립자이자 아키텍트</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>아키텍처에서</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>폴 수정 및 관리 작업에 대한 전체 감사 로그</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>완전한 제어</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>전체 RBAC</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>완전 오프라인</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>자세한 답변을 위해 개방형 텍스트 질문을 통해 정성적 피드백을 수집합니다.</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>매번 올바른 데이터를 수집하세요.</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>디자인 단계부터 GDPR 준수. 데이터베이스는 당신이 소유합니다.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>일반 구성</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>일반 Dockerfile 만 제공</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>일반적인 설문 도구들은 종종 비싸고 데이터를 수집합니다. Aiursoft Polls는 직접 호스팅할 수 있는 깔끔하고 빠르며 안전한 대안을 제공합니다. 우리는 단순성과 보안에 집중하므로, 여러분은 질문에만 집중할 수 있습니다.</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD 네이티브</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>글로벌 리치</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>글로벌 스케일</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>대시보드로 이동</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>세분화된 접근 제어</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>세분화된 역할</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>그룹 지원</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>정기적인 작업(예: 정리 및 동기화)을 처리하고 실행 이력 및 로그를 모니터링할 수 있는 포괄적인 GUI를 제공합니다.</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon 포함됨</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>스스로 호스팅하세요. 제3자 추적자나 데이터 수집은 없습니다. 귀하의 투표는 귀하의 네트워크 내에 머뭅니다.</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>어떻게 지원을 받을 수 있나요?</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>배포 방법은 무엇인가요?</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>애플리케이션을 어떻게 배포하나요?</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>IDE 지원</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>신원 인식형</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>포함됨</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>튜토리얼 포함</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>업계 표준 구현. 로크인 없음.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>통합 파일 관리</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>는 무료 소프트웨어입니다</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Aiursoft Polls를 무료로 사용할 수 있나요?</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Aiursoft Template를 무료로 사용할 수 있나요?</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>우리의 성장하는 개발자 커뮤니티에 가입하여 다음 세대의 웹 애플리케이션을 함께 만들어보세요.</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>사용자 프라이버시를 존중하는 도구를 개발하는 성장하는 개발자 커뮤니티에 참여하세요.</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm 준비 완료</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>경량화 및 고속</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>제한됨</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>라인트 체크</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>OpenID Connect를 통해 로그인 (Azure AD 및 Okta 포함)</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>데이터 무결성 유지</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>높은 코드 품질 유지</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MIT 라이선스</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>모바일 퍼스트</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>모델은 데이터 주석을 기반으로 클라이언트 및 서버 측에서 모두 검증됩니다.</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>다중 질문 설문조사</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>다중 시간대 처리</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>다국어 인터페이스</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>복수 선택</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>다중 데이터베이스 공급자 지원</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>음악 도구</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>네이티브</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>CASL 또는 유사한 것이 필요합니다</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>클라우드 벤더에 의존하지 않습니다. 어디서나 언제나 실행 가능합니다.</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>가짜 투표 없음</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>사용 불가</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>지원되지 않음</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>오프라인 사용 가능</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC 및 SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>사용자가 응답을 제출하면 데이터 무결성을 보장하고 이중 투표를 방지하기 위해 해당 응답이 잠깁니다.</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>한 번 클릭 시작</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>언제든지 투표 시작 또는 종료, 질문 및 옵션 관리, 제출 원본 데이터 내보내기</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>오픈 소스</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>최적화된 Docker 및 K8s 설정</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>속도를 최적화하여 약한 네트워크 연결에서도 낮은 지연 시간을 보장합니다.</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>옵션 관리</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>조직 친화적</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM 및 마이그레이션</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>즉시 사용 가능</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>유료</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>유료/제한적</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>권한 검색 및 동기화</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>어디서나, 어떤 언어로든 투표하세요.</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>설문 기능</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>설문 vs. 조사</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>강력한 설문조사.</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>사전 설정 및 테스트 완료</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>자동화된 테스트를 위한 사전 구성된 CI/CD 파이프라인</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>GitLab 전용으로 사전 구성된 CI/CD 파이프라인</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>개발/운영 환경을 위한 사전 구성된 파이프라인</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>중복 투표 및 무단 제출 방지</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>프라이버시 우선</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>개인정보 처리방침</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>개인정보 보호 및 보안</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>독점적</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>품질 게이트</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>문서 읽기</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>실시간</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>실시간 결과</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>신뢰할 수 있는 DB</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>신뢰할 수 있는 결과</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Laravel Socialite 구성 필요</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>반응형 디자인</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>조직의 계층 구조와 역할에 따라 참여를 제한합니다.</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>결과 가시성 제어</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>리뷰</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>풍부한 기능</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>강력한 통합 테스트</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>역할 발견</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>역할 제한</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>역할 기반 액세스</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>역할 기반 투표</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>역할은 자동적으로 신원 제공업체에서 동기화됩니다.</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>인터넷 연결 없이도 실행됩니다.</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>SaaS 전용</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>확장 가능</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>스케줄된 작업 관리</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>어떤 OpenID Connect 공급자와도 원활하게 통합되며, 자동 역할 동기화를 지원합니다.</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>보안 투표</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>셀프 호스팅</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>설정을 통해 설문조사를 공개하거나 등록 사용자에게만 제한하거나 특정 조직 역할에 한정하세요.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>자신 있게 전환하세요</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>간단하고 쉬운</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>단일 선택</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>싱글 컨테이너</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>사용자의 시스템 설정에 자동으로 적응하는 스마트 다크 모드.</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>사용자의 시스템 다크/라이트 선호도를 자동으로 적응하는 스마트 UI</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>각 투표에 참여할 수 있는 역할을 정확히 지정하세요.</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>표준 구현. 컴파일 없이 제공자 전환 가능.</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>표준 OIDC</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>표준 OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>기본 프로젝트에서 경고가 0개인 엄격한 린팅 규칙</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>매개변수 응답마다 엄격한 서버 측 유효성 검사</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>엄격한 단위 테스트</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>엄격한 검증</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>강력한 일관성 있는 린팅</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>구글 정책에 따름</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>MS 정책에 따름</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>제출 잠금</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>28개 언어를 즉시 지원하여 진정한 글로벌 사용자를 위한 환경을 제공합니다.</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>환경 변수와 데이터베이스 기반 설정을 모두 지원하며, 환경 변수에 자동 우선 순위가 부여되어 원활한 오버라이드를 가능하게 합니다.</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>기술 리드</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>텍스트 응답</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>결정적인, 검증된 .NET 엔터프라이즈 기반입니다. 인증(Auth)부터 인공지능(AI)까지, 어려운 부분은 이미 해결했으므로 귀하께서는 그 부분을 신경 쓰지 않아도 됩니다.</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>폴 및 설문조사를 생성하기 위한 결정적이고 오픈소스 솔루션입니다. 팀 피드백부터 대규모 투표에 이르기까지 Aiursoft Polls가 이를 쉽게 만들어 드립니다.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>네비게이션 바는 사용자 역할과 권한에 따라 자동으로 조정됩니다.</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>시간대 인식 필드</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>추적 가능</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>투명한 관리</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>AnduinOS, StatHub, Warp를 포함한 프로덕션 수준의 애플리케이션들에 의해 신뢰받고 있습니다. 우리는 단지 이 코드를 공유하는 것이 아니라, 우리의 전체 비즈니스를 이 코드 위에 운영하고 있습니다.</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Aiursoft 생태계가 신뢰하는</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>사용자 제어</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>통합 환경</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>SaaS의 기반, 모바일 앱의 백엔드, 기업 웹사이트 또는 개인 블로그로 활용하세요. 가능성은 무궁무진합니다.</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>검증된 신원</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>GitHub에서 보기</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>편안하게 투표하세요</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>실시간으로 들어오는 표를 아름답고 읽기 쉬운 차트 및 데이터 요약으로 확인하세요.</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>우리는 사용자 프라이버시를 존중하고 기존 신원 시스템과 원활하게 통합되는 투표 도구를 원했기 때문에 Aiursoft Polls를 구축했습니다. 이는 단순히 투표하는 것에 관한 것이 아니라, 데이터 통제를 희생하지 않고 커뮤니티나 팀과 신뢰할 수 있는 피드백 루프를 구축하는 것입니다.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>환영합니다</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>개발자들의 평가</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>도움을 어디서 찾을 수 있나요?</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>왜 Aiursoft Polls 를 선택해야 하나요?</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>왜 Aiursoft 템플릿을 선택해야 할까요?</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>윈/린/맥</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>네, Aiursoft Polls 는 MIT 라이선스에 따라 완전히 무료이며 오픈소스입니다. 개인 및 상업용 프로젝트에 비용 없이 직접 호스팅할 수 있습니다.</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>네, Aiursoft Template은 MIT 라이선스 하에 완전히 무료이며 오픈 소스입니다. 개인 및 상업 프로젝트에 무료로 사용하실 수 있습니다.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>GitHub Discussions를 통해 커뮤니티 지원을 받거나 더 자세한 내용은 문서를 확인하세요.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>GitHub Discussions를 통해 커뮤니티 지원을 받을 수 있습니다. 저희</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>데이터는 당신이 소유합니다</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>.NET 10 SDK, npm 그리고 Visual Studio나 JetBrains Rider와 같은 선호하는 IDE가 필요합니다. 전체 설정 가이드는 저희 문서에서 확인하실 수 있습니다.</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>귀하의 데이터</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>기업 사용자는 반복적으로 등록할 필요가 없습니다.</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>사용자는 추가 계정이 필요 없습니다. 기존 엔터프라이즈 신원을 사용하세요.</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

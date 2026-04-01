@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Bố cục hoàn toàn thích ứng, hiển thị đẹp mắt trên cả thiết bị máy tính để bàn và thiết bị di động.</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>Trải nghiệm bỏ phiếu hoàn toàn linh hoạt hoạt động hoàn hảo trên mọi điện thoại thông minh hoặc máy tính bảng.</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Một nền tảng hiện đại, giàu tính năng và có khả năng mở rộng cao cho ứng dụng web tiếp theo của bạn.</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Tất nhiên. Bạn có thể đặt cuộc thăm dò công khai, chỉ dành cho người dùng đã đăng ký, hoặc hạn chế cho các vai trò cụ thể được đồng bộ hóa từ nhà cung cấp danh tính của bạn.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Đạt được nhiều hơn với Aiursoft Template</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>Sẵn sàng ACID</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Tích hợp Active Directory</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Bao gồm trang quản trị</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Loại câu hỏi nâng cao</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Dịch thuật bằng AI</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Dịch Thuật Hỗ Trợ Bởi AI</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls đã được đóng gói hoàn toàn bằng Docker. Bạn có thể chạy nó bằng một lệnh &apos;docker run&apos; duy nhất hoặc triển khai nó vào cụm Docker Swarm hoặc Kubernetes để đạt tính khả dụng cao.</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Aiursoft Polls là nền tảng cho phản hồi trên các dịch vụ khác nhau của chúng tôi. Chúng tôi không chỉ chia sẻ mã này; chúng tôi sử dụng nó để lắng nghe người dùng của mình mỗi ngày.</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Tất cả các dependency đều được tự động đăng ký và luôn sẵn sàng thông qua constructor injection.</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>Cho phép người tham gia chọn một hoặc nhiều tùy chọn phù hợp với họ.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Phân tích</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>Chống gian lận</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Dịch thuật Trí tuệ nhân tạo</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>Ghi chép kiểm toán</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>Lịch sử kiểm toán</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Tiêm phụ thuộc Tự động</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Điều chỉnh điều hướng tự động dựa trên quyền quản lý của bạn.</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Đồng bộ vai trò tự động</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>Đồng bộ tự động</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>Xử lý múi giờ tự động</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Tự động triển khai lên các cụm Docker Swarm hoặc Kubernetes.</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Tự động triển khai đến cụm Docker Swarm hoặc Kubernetes của bạn.</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>Tự động đồng bộ vai trò OpenID. Quản lý quy tắc thống nhất.</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>Tự động đồng bộ hóa các vai trò tổ chức của bạn để hạn chế quyền bầu cử.</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>Xử lý công việc nền</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Cơ bản</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>Thân thiện với người mới</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Được xây dựng với C# bản địa cấp doanh nghiệp nhưng dễ học.</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>Được xây dựng với các quy tắc xác minh nghiêm ngặt để đảm bảo mọi phiếu bầu đều hợp lệ và an toàn.</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>Được xây dựng với lõi UTC, đảm bảo thời gian kết thúc cuộc khảo sát nhất quán trên tất cả các múi giờ.</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Tích hợp sẵn</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>Giao diện GUI hàng đợi công việc tích hợp sẵn</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>Hỗ trợ SQLite tích hợp cho các nhóm nhỏ, hoặc mở rộng lên MySQL cho mục đích doanh nghiệp.</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Quản lý Người dùng Tích hợp sẵn</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>Tôi có thể hạn chế ai được phép bỏ phiếu không?</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>Chọn ẩn kết quả cho đến khi cuộc khảo sát kết thúc, giữ chúng riêng tư cho chủ sở hữu, hoặc hiển thị cho tất cả mọi người.</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>Câu hỏi theo kiểu nút chọn radio cổ điển nơi người tham gia chọn chính xác một tùy chọn.</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>Sẵn sàng cho đám mây</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Được tích hợp hỗ trợ Docker để triển khai đơn giản và nhất quán.</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Báo cáo độ bao phủ</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>Tạo các bảng khảo sát phức tạp với nhiều câu hỏi trong một cuộc thăm dò, hỗ trợ nhiều loại phản hồi khác nhau.</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Đa nền tảng</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>Yêu cầu phát triển tùy chỉnh</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Tên miền tùy chỉnh</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Bảng điều khiển cho các tác vụ nền</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>Trang Tổng quan</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>Xuất dữ liệu</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>Thu thập dữ liệu phổ biến</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Tuần lễ 1 Tuân thủ &amp; Bảo mật.</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Kiểm thử tích hợp sâu với Authentik. Hỗ trợ Okta.</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Tích hợp sâu với Authentik. Hoàn toàn tương thích với Okta.</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>Tích hợp sâu với DotLang AI</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>Thiết kế cho thời đại container. Bao gồm các pipeline CI/CD đã được cấu hình sẵn cho GitLab. Đẩy mã nguồn, vượt qua kiểm tra lint nghiêm ngặt, kiểm thử tự động và triển khai lên Docker Swarm hoặc Kubernetes một cách tự động.</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>Được thiết kế cho kỷ nguyên container. Bao gồm các quy trình CI/CD đã được cấu hình sẵn. Đẩy mã, vượt qua các bài kiểm tra và triển khai tự động lên cơ sở hạ tầng của bạn.</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Docker hóa để triển khai dễ dàng</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>Tải xuống tất cả các bài nộp ở định dạng chuẩn để phân tích ngoại tuyến trong Excel hoặc các công cụ khác.</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Thanh Điều Hướng Động</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>Dễ dàng thêm, xóa và sắp xếp lại các tùy chọn cho lựa chọn của bạn bất cứ lúc nào trước khi cuộc bỏ phiếu bắt đầu.</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Chuyển đổi dễ dàng giữa các nhà cung cấp cơ sở dữ liệu, bao gồm SQLite, MySQL, SQL Server và cơ sở dữ liệu trong bộ nhớ để kiểm thử.</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Dễ dàng chuyển đổi giữa các nhà cung cấp như SQLite, MySQL, SQL Server và cơ sở dữ liệu trong bộ nhớ để kiểm thử.</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>Triển khai Dễ dàng</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Viết các bài kiểm thử tích hợp một cách dễ dàng bằng cách sử dụng cơ sở dữ liệu trong bộ nhớ, hệ thống tệp tạm thời, mô phỏng tích hợp sẵn và mô phỏng yêu cầu HTTP thực tế.</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>Tính năng dành cho doanh nghiệp</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>Chuyên nghiệp cho doanh nghiệp</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Chỉ dành cho gói Doanh nghiệp</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Sẵn sàng cho doanh nghiệp</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Bảo mật doanh nghiệp</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>SSO Doanh nghiệp</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Đã bao gồm Entity Framework Core</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>Mọi thay đổi đối với cuộc thăm dò đều được ghi lại để đảm bảo tính minh bạch và trách nhiệm hoàn toàn.</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>Tất cả những gì bạn cần cho các cuộc thăm dò thành công.</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>Câu hỏi thường gặp</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>API linh hoạt</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>Quản lý linh hoạt</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>để có bất kỳ thắc mắc nào hoặc để báo cáo sự cố.</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>Dành cho mọi người.</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Giám đốc sáng lập &amp; Kiến trúc sư tại Aiursoft</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>Từ kiến trúc sư</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Toàn bộ nhật ký kiểm toán cho các thay đổi và hành động quản lý cuộc khảo sát.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Kiểm soát hoàn toàn</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>RBAC đầy đủ</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Hoàn toàn ngoại tuyến</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>Thu thập phản hồi định tính với các câu hỏi văn bản mở để có câu trả lời chi tiết.</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>Thu thập đúng dữ liệu, mỗi lần.</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>Tuân thủ GDPR ngay từ thiết kế. Bạn sở hữu cơ sở dữ liệu.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Cấu hình chung</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Chỉ có Dockerfile chung chung</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>Các công cụ khảo sát chung thường có giá quá cao và thu thập dữ liệu của bạn. Aiursoft Polls cung cấp một giải pháp thay thế sạch sẽ, nhanh chóng và riêng tư mà bạn có thể tự lưu trữ. Chúng tôi tập trung vào sự đơn giản và bảo mật, để bạn có thể tập trung vào các câu hỏi của mình.</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD Native</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>Phạm vi toàn cầu</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>Thang toàn cầu</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Truy cập bảng điều khiển</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>Kiểm soát truy cập chi tiết</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>Vai trò chi tiết</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>Hỗ trợ nhóm</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>Xử lý các công việc lặp lại như dọn dẹp và đồng bộ hóa với một giao diện người dùng toàn diện để theo dõi lịch sử thực thi và nhật ký.</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Đã bao gồm Horizon</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>Tự lưu trữ. Không có bộ theo dõi bên thứ ba, không thu thập dữ liệu. Khảo sát của bạn vẫn nằm trong mạng của bạn.</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Làm thế nào để tôi nhận được hỗ trợ?</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>Làm thế nào để triển khai nó?</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Làm thế nào để tôi triển khai ứng dụng của mình?</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>Hỗ trợ IDE</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>Nhận thức danh tính</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>Đã bao gồm</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Bao gồm Hướng dẫn</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>Giải pháp tiêu chuẩn ngành. Không bị khóa chặt.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Quản lý Tập tin Tích hợp</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>là Phần mềm miễn phí</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Có miễn phí để sử dụng Aiursoft Polls không?</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Có phải Aiursoft Template được sử dụng miễn phí không?</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>Tham gia cộng đồng phát triển đang ngày càng lớn mạnh của chúng tôi để xây dựng thế hệ ứng dụng web tiếp theo.</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>Tham gia cộng đồng các nhà phát triển ngày càng mở rộng của chúng tôi đang xây dựng các công cụ tôn trọng quyền riêng tư của người dùng.</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Sẵn sàng cho K8s / Swarm</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>Nhẹ &amp; Nhanh</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Giới hạn</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Kiểm tra Lint</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>Đăng nhập qua OpenID Connect bao gồm Azure AD và Okta.</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>Duy trì Tính toàn vẹn Dữ liệu</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Duy trì chất lượng mã nguồn cao</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MIT License</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>Ưu tiên di động</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Các mô hình được xác thực ở cả phía khách và phía máy chủ dựa trên các chú thích dữ liệu.</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>Khảo sát đa câu hỏi</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Xử lý nhiều múi giờ</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>Giao diện đa ngôn ngữ</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>Chọn nhiều đáp án</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Hỗ trợ nhiều nhà cung cấp cơ sở dữ liệu</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Công cụ Âm nhạc</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Bản địa</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Cần CASL hoặc tương tự</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Không phụ thuộc vào nhà cung cấp dịch vụ đám mây nào. Chạy ở bất kỳ đâu, bất kỳ lúc nào.</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>Không có phiếu giả</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>Không khả dụng</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>Không hỗ trợ</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Khả năng hoạt động ngoại tuyến</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>Sau khi người dùng gửi phản hồi, câu trả lời sẽ bị khóa để đảm bảo tính toàn vẹn của dữ liệu và ngăn chặn việc bỏ phiếu nhiều lần.</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Một Click Bắt Đầu</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Mở hoặc đóng thăm dò ý kiến bất cứ lúc nào, quản lý câu hỏi và tùy chọn, và xuất dữ liệu gửi thô.</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>Mã nguồn mở</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Cấu hình Docker &amp; K8s đã được tối ưu hóa</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>Tối ưu hóa tốc độ để đảm bảo độ trễ thấp ngay cả trên các kết nối mạng yếu.</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>Quản lý tùy chọn</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>Thân thiện với tổ chức</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM &amp; Di chuyển cơ sở dữ liệu</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Sẵn sàng sử dụng ngay</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Trả phí</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>Trả phí/Hạn chế</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Phát hiện và đồng bộ hóa quyền</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Bỏ phiếu ở bất cứ đâu, bằng bất kỳ ngôn ngữ nào.</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>Tính năng khảo sát</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>Khảo sát vs. Khảo sát trực tuyến</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>Khảo sát mạnh mẽ.</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>Đã được cấu hình sẵn và kiểm thử</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>Quy trình CI/CD đã được cấu hình sẵn để kiểm thử tự động.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Các pipeline CI/CD đã được cấu hình sẵn dành riêng cho GitLab.</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Các quy trình đã được cấu hình sẵn cho môi trường phát triển và sản xuất</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>Ngăn chặn việc bỏ phiếu trùng lặp và các bản gửi trái phép.</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>Ưu tiên quyền riêng tư</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Chính sách bảo mật</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>Riêng tư &amp; Bảo mật</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>Thuộc sở hữu riêng</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>Cổng chất lượng</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>Đọc tài liệu</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>Thời gian thực</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>Kết quả theo thời gian thực</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>Cơ sở dữ liệu đáng tin cậy</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>Kết quả đáng tin cậy</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Yêu cầu cấu hình Laravel Socialite</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Thiết kế đáp ứng</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>Hạn chế tham gia dựa trên phân cấp và vai trò của tổ chức của bạn.</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>Kiểm soát hiển thị kết quả</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Đánh giá</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>Tính năng phong phú</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>Kiểm thử tích hợp mạnh mẽ</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>Khám phá vai trò</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>Hạn chế vai trò</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>Quyền truy cập dựa trên vai trò</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>B bỏ phiếu theo vai trò</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>Vai trò được đồng bộ tự động từ nhà cung cấp danh tính của bạn.</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>Chạy mà không cần kết nối internet.</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>Chỉ có SaaS</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>Khả năng mở rộng</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>Quản lý tác vụ định kỳ</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Tích hợp liền mạch với bất kỳ nhà cung cấp OpenID Connect nào, đồng thời tự động đồng bộ hóa vai trò.</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>Bầu cử an toàn</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>Tự lưu trữ</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>Cấu hình biểu quyết của bạn để công khai, chỉ dành cho người dùng đã đăng ký, hoặc giới hạn cho các vai trò cụ thể trong tổ chức.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Chuyển đổi với sự tự tin</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Đơn giản &amp; Dễ dàng</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>Lựa chọn đơn</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>Một Container</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Chế độ tối thông minh tự động điều chỉnh theo cài đặt hệ thống của người dùng.</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>Giao diện thông minh tự động thích ứng với chế độ tối/sáng của hệ thống người dùng.</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>Chỉ định chính xác các vai trò nào có thể tham gia vào mỗi cuộc thăm dò.</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Thực thi chuẩn. Chuyển đổi nhà cung cấp mà không cần biên dịch.</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>OIDC tiêu chuẩn</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>Standard OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Các quy tắc kiểm tra nghiêm ngặt với 0 cảnh báo trong dự án mặc định.</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>Xác thực nghiêm ngặt ở phía máy chủ cho từng phản hồi duy nhất.</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>Kiểm thử đơn vị nghiêm ngặt</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Xác minh nghiêm ngặt</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Kiểm tra mã nguồn nghiêm ngặt và nhất quán</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>Tuân thủ chính sách của Google</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>Tuân thủ chính sách của MS</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>Khóa lượt gửi</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>Hỗ trợ sẵn 28 ngôn ngữ cho một đối tượng toàn cầu thực sự.</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>Hỗ trợ cả biến môi trường và cài đặt dựa trên cơ sở dữ liệu, với ưu tiên tự động cho biến môi trường để ghi đè một cách liền mạch.</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>Trưởng nhóm Kỹ thuật</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>Phản hồi văn bản</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Nền tảng doanh nghiệp .NET chính xác, đã được kiểm chứng qua thực tế. Từ Xác thực đến Trí tuệ nhân tạo, chúng tôi đã giải quyết những phần khó khăn để bạn không phải lo lắng.</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>Giải pháp nguồn mở, toàn diện để tạo khảo sát và bảng hỏi. Từ phản hồi của nhóm đến các cuộc bỏ phiếu quy mô lớn, Aiursoft Polls giúp bạn thực hiện mọi thứ dễ dàng.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Thanh điều hướng tự động điều chỉnh dựa trên vai trò và quyền của người dùng.</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Các trường nhận thức múi giờ</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>Có thể truy vết</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>Quản lý minh bạch</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Được tin tưởng bởi các ứng dụng sản xuất cấp độ cao, bao gồm AnduinOS, StatHub, và Warp. Chúng tôi không chỉ chia sẻ mã nguồn này; chúng tôi vận hành toàn bộ doanh nghiệp của mình dựa trên nó.</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Được tin tưởng bởi Hệ sinh thái Aiursoft</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>Thuộc quyền kiểm soát của bạn</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>Môi trường thống nhất</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Hãy sử dụng nó làm nền tảng cho SaaS của bạn, backend cho ứng dụng di động, trang web doanh nghiệp, hoặc blog cá nhân. Các khả năng là vô tận.</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>Chứng minh danh tính</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Xem trên GitHub</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>Bình chọn một cách thoải mái</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>Xem phiếu bầu cập nhật trực tiếp với các biểu đồ đẹp mắt, dễ đọc và tóm tắt dữ liệu.</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>Chúng tôi xây dựng Aiursoft Polls vì chúng tôi muốn một công cụ khảo sát tôn trọng quyền riêng tư của người dùng và tích hợp liền mạch với các hệ thống danh tính hiện có của chúng tôi. Đây không chỉ là về bỏ phiếu; đó là về xây dựng một vòng lặp phản hồi đáng tin cậy với cộng đồng hoặc nhóm của bạn mà không hy sinh quyền kiểm soát dữ liệu.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Chào mừng</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Những gì nhà phát triển của chúng tôi nói</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>Tôi có thể tìm sự hỗ trợ ở đâu?</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>Tại sao chọn Aiursoft Polls?</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>Tại sao nên chọn Aiursoft Template?</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Có, Aiursoft Polls hoàn toàn miễn phí và là mã nguồn mở theo Giấy phép MIT. Bạn có thể tự lưu trữ nó cho các dự án cá nhân và thương mại mà không tốn bất kỳ chi phí nào.</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Vâng, Aiursoft Template hoàn toàn miễn phí và mã nguồn mở theo Giấy phép MIT. Bạn có thể sử dụng nó cho các dự án cá nhân và thương mại mà không mất bất kỳ chi phí nào.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>Bạn có thể nhận hỗ trợ từ cộng đồng qua GitHub Discussions hoặc kiểm tra tài liệu của chúng tôi để biết thêm chi tiết.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Bạn có thể nhận hỗ trợ từ cộng đồng thông qua GitHub Discussions. Vui lòng truy cập</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>Bạn sở hữu dữ liệu</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Bạn sẽ cần .NET 10 SDK, npm và IDE yêu thích của bạn, như Visual Studio hoặc JetBrains Rider. Bạn có thể tìm thấy hướng dẫn thiết lập đầy đủ trong tài liệu của chúng tôi.</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>Dữ liệu của bạn</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>Người dùng doanh nghiệp của bạn không cần đăng ký lặp lại.</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>Người dùng của bạn không cần một tài khoản khác. Hãy sử dụng danh tính doanh nghiệp hiện có của bạn.</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

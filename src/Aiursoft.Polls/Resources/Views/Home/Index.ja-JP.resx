@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>デスクトップとモバイルの両方のデバイスで美しく表示される、完全なレスポンシブレイアウト。</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>スマートフォンやタブレットなど、あらゆる端末で完璧に動作する、完全にレスポンシブな投票体験。</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>モダンで機能豊富、かつ高度に拡張可能な基盤を、あなたの次のWebアプリケーションに提供します。</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>はい。 polls を公開、登録ユーザーのみ、またはアイデンティティプロバイダーから同期された特定のロールに限定するように設定できます。</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Templateでさらに多くのことを実現</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>ACID対応</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Active Directory 統合</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>管理サイトが含まれています</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>高度な質問形式</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI 駆動翻訳</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AIによる翻訳</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls は完全に Docker 化されています。&apos;docker run&apos; コマンド一つで実行するか、高可用性のために Docker Swarm や Kubernetes クラスターにデプロイできます。</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Aiursoft Polls は、さまざまなサービスにわたるフィードバックの基盤です。私たちはこのコードを単に共有するだけでなく、毎日ユーザーの声を聞くために使用しています。</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>すべての依存関係は自動的に登録され、コンストラクタインジェクションを通じて常に利用可能です。</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>参加者が自分にとって適用される1つまたは複数のオプションを選択できるようにします。</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>分析</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>アンチチート</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>人工知能翻訳</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>監査ログ</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>監査証跡</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>自動依存性注入</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>権限に基づいた自動ナビゲーション調整</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>自動ロール同期</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>自動同期</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>自動タイムゾーン処理</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Docker Swarm または Kubernetes クラスタに自動的にデプロイする。</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Docker Swarm または Kubernetes クラスターに自動的にデプロイします。</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>OpenIDのロールを自動で同期します。統一されたルール管理。</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>投票制限のために組織のロールを自動的に同期します。</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>バックグラウンドジョブ処理</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>ベーシック</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>初心者向け</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>エンタープライズグレードでありながら、学びやすいネイティブC#で構築されています。</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>厳格な検証ルールによって構築され、すべての投票が有効かつ安全であることを保証します。</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>UTC コアで構築されており、すべてのタイムゾーンで投票終了時刻が統一されています。</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>組み込み</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>内蔵ジョブキュー GUI</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>小規模チームには組み込みの SQLite サポート、企業利用には MySQL へのスケーリングが可能</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>組み込みユーザー管理</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>投票者を制限できますか？</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>投票結果を非表示にする、所有者のみが閲覧できるようにする、または全員に公開するを選択できます。</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>参加者が1つの選択肢のみを選択する、従来のラジオボタン形式の質問</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>クラウド対応</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Dockerサポートを備えており、簡単で一貫性のあるデプロイが可能になります。</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>カバレッジレポート</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>複数の質問を含む1つの投票で複雑なアンケートを作成し、さまざまな回答タイプをサポートします。</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>クロスプラットフォーム</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>カスタム開発が必要です</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>カスタムドメイン</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>バックグラウンドタスクのダッシュボード</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>ダッシュボードウェブサイト</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>データエクスポート</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>データ収集が一般的</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Day 1 コンプライアンス &amp; セキュリティ。</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Authentikとの深い統合テスト。Oktaと互換性あり。</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Authentik と深く統合されています。Okta と完全に互換性があります。</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>DotLang AI との深い統合</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>コンテナ時代に最適化されています。GitLab用の事前設定済みCI/CDパイプラインを備えています。コードをプッシュし、厳密なLintチェックを通過させ、自動テストを行い、Docker SwarmまたはKubernetesに自動デプロイします。</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>コンテナ時代のために設計されました。事前構成された CI/CD パイプラインが含まれています。コードをプッシュし、テストに合格し、インフラストラクチャに自動的にデプロイします。</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>開発 &amp; 本番</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Docker対応でデプロイが簡単</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>標準形式で全ての提出物をダウンロードし、Excelやその他のツールでオフライン分析を行ってください。</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>動的ナビゲーションバー</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>投票開始前にいつでも簡単に選択肢の追加、削除、並べ替えが可能です。</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite、MySQL、SQL Server、およびテスト用のメモリ内データベースを含む、データベースプロバイダー間を簡単に切り替えることができます。</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite、MySQL、SQL Server、およびテスト用のインメモリデータベースなどのプロバイダーを簡単に切り替えられます。</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>簡単デプロイ</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>インメモリデータベース、一時ファイルシステム、組み込みモック、そして現実のHTTPリクエストシミュレーションを使用して、簡単に統合テストを書くことができます。</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>エンタープライズ機能</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>エンタープライズグレード</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>エンタープライズプランのみ</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>エンタープライズ対応</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>エンタープライズセキュリティ</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>エンタープライズ SSO</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core 付属</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>.poll のすべての変更は、完全な透明性と説明責任のためにログに記録されます。</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>成功した投票に必要なすべて。</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>よくある質問</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>柔軟なAPI</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>柔軟な管理</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>お問い合わせや問題の報告はこちらへ。</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>すべての人のために。</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Founder &amp; Architect at Aiursoft</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>アーキテクトから</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>投票の変更および管理操作の完全な監査証跡</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>完全な制御</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>フルRBAC</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>オフライン完全対応</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>詳細な回答を得るために、オープンエンドのテキスト質問を通じて定性的なフィードバックを収集します。</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>正しいデータを、毎回収集しましょう。</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>設計によりGDPR準拠。データベースはあなたが所有します。</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>汎用設定</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>汎用 Dockerfile のみ</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>一般的な調査ツールはしばしば高価すぎ、データを収集します。Aiursoft Pollsは、自分でホストできる、クリーンで高速、かつプライバシーを重視した代替手段を提供します。私たちはシンプルさとセキュリティに注力しているため、あなたは質問に集中できます。</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD ネイティブ</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>グローバルな展開</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>グローバルスケール</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>ダッシュボードへ</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>詳細なアクセス制御</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>細かいロール</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>グループサポート</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>定期的なジョブ（クリーンアップや同期など）を処理し、実行履歴やログのモニタリングが可能な包括的なGUIを提供します。</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon 付属</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>自分でホストしましょう。サードパーティのトラッカーも、データ収集もありません。あなたの投票はあなたのネットワーク内に留まります。</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>サポートを受けるにはどうすればよいですか？</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>どのようにデプロイすればよいですか？</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>アプリケーションをデプロイするにはどうすればよいですか？</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>IDEサポート</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>アイデンティティ対応</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>含まれる</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>チュートリアルを含む</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>業界標準の実装。ロックインなし。</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>統合ファイル管理</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>はフリー・ソフトウェアです</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Aiursoft Polls を使用するには無料ですか？</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Aiursoft Templateは無料で使用できますか？</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>次世代のWebアプリケーションを構築している開発者の増加するコミュニティに参加しましょう。</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>プライバシーを尊重するツールを開発する、成長し続ける開発者コミュニティにご参加ください。</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm 対応済み</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>軽量で高速</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>制限あり</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lintチェック</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>OpenID Connect を介してログイン（Azure AD および Okta を含む）。</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>データ整合性の維持</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>高品質なコードを維持する</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MITライセンス</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>モバイルファースト</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>モデルはデータ注釈に基づいて、クライアントおよびサーバーの両方で検証されます。</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>多質問アンケート</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>複数タイムゾーン処理</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>多言語インターフェース</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>多肢選択</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>複数のデータベースプロバイダーサポート</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>音楽ツール</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>ネイティブ</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>CASL または同等のものが必要です</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>クラウドベンダーへの依存なし。どこでも、いつでも実行可能。</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>偽物の投票なし</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>利用不可</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>未対応</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>オフライン対応</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>ユーザーが回答を送信すると、データの整合性を確保し、二重投票を防ぐためにその回答はロックされます。</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>ワンクリックスタート</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>いつでも投票を開始または終了し、質問と選択肢を管理し、生データのエクスポートを行えます。</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>オープンソース</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>最適化された Docker &amp; K8s 設定</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>速度最適化により、ネットワーク接続が弱い場合でも低レイテンシを確保します。</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>オプション管理</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>組織に優しい</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM &amp; 移行</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>すぐに使える</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>有料</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>有料/制限付き</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>権限の検出と同期</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>どこでも、どんな言語ででも投票してください。</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>投票機能</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>Polls と Surveys の比較</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>強力な投票機能。</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>事前設定済みかつテスト済み</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>自動化テスト用の事前設定済み CI/CD パイプライン</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>GitLab専用に事前設定されたCI/CDパイプライン</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>開発/本番環境用の事前設定済みパイプライン</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>重複投票と不正な提出を防止します。</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>プライバシーファースト</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>プライバシーとセキュリティ</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>独自</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>品質ゲート</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>ドキュメントを読む</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>リアルタイム結果</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>信頼できるDB</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>信頼できる結果</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Laravel Socialite の設定が必要です</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>レスポンシブデザイン</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>組織の階層と役割に基づいて参加を制限します。</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>結果表示制御</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>レビュー</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>豊富な機能</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>堅牢な統合テスト</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>ロールの発見</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>ロール制限</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>ロールベースアクセス</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>ロールベースの投票</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>ロールはIDプロバイダーから自動的に同期されます。</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>インターネット接続は必要ありません。</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>SaaS のみ</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>スケーラブル</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>スケジュールされたタスク管理</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>あらゆるOpenID Connectプロバイダーとシームレスに統合し、自動的なロール同期を実現します。</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>安全な投票</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>セルフホスティング</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>ポルを公開、登録ユーザー限定、または特定の組織ロールに限定するように設定してください。</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>自信を持ってシフト</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>シンプルで簡単</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>シングル選択</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>シングルコンテナ</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>ユーザーのシステム設定に自動的に適応するスマートダークモード。</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>システムの色設定（ダーク/ライト）を自動的に適応するスマートな UI</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>各_poll_でどのロールが参加できるかを正確に指定してください。</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>標準実装。コンパイルなしでプロバイダを切り替えられます。</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>標準 OIDC</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>Standard OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>デフォルトプロジェクトでは厳格なLintルールと0件の警告です。</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>すべてのレスポンスに対する厳格なサーバーサイド検証。</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>厳格なユニットテスト</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>厳格な検証</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>強力で一貫したLintチェック</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>Google のポリシーに準拠</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>MS のポリシーに準拠</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>提出ロック</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>28 言語をすぐにサポートし、真にグローバルなユーザーに対応します。</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>環境変数とデータベースベースの設定の両方をサポートしており、環境変数に自動的に優先順位が与えられ、スムーズな上書きが可能になります。</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>テクニカルリード</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>テキスト回答</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>決定的な、実戦で検証された .NET エンタープライズ基盤。認証から AI まで、難しい部分はすべて解決済みなので、あなたはそれらを心配する必要がありません。</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>polls とアンケート作成のための、決定版のオープンソースソリューション。チームからのフィードバックから大規模な投票まで、Aiursoft Polls で簡単に実現できます。</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>ナビゲーションバーは、ユーザーの役割と権限に基づいて自動的に調整されます。</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>タイムゾーン対応フィールド</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>追跡可能</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>透明な管理</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>AnduinOS、StatHub、Warpを含むプロダクショングレードのアプリケーションに信頼されています。このコードを単に共有するだけでなく、私たちのビジネス全体をこのコードで運用しています。</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Aiursoft エコシステムに信頼されています</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>あなたのコントロール下で</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>統合環境</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>SaaSの基盤として、モバイルアプリのバックエンドとして、コーポレートサイトとして、個人ブログとしてお使いいただけます。可能性は無限大です。</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>認証済みアイデンティティ</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>GitHubで表示</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>快適に投票</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>投票がリアルタイムで届くのを、美しく読みやすいグラフとデータサマリーで確認できます。</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>Aiursoft Pollsは、ユーザーのプライバシーを尊重し、既存のアイデンティティシステムとシームレスに統合される投票ツールを求めて開発しました。これは単なる投票のためではなく、データ管理を犠牲にすることなく、コミュニティやチームとの間で信頼できるフィードバックループを構築するためのものです。</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>ようこそ</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>開発者の声</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>ヘルプはどこで入手できますか？</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>なぜ Aiursoft Polls を選ぶのか？</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>なぜ Aiursoft Template を選ぶのか？</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Windows/Linux/Mac</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>はい、Aiursoft Polls は MIT ライセンスの下で完全に無料でオープンソースです。個人および商用プロジェクトで、無料で自分でホストすることができます。</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>はい、Aiursoft TemplateはMITライセンスの下で完全に無料かつオープンソースです。個人プロジェクトや商用プロジェクトで無償でご利用いただけます。</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>コミュニティサポートは GitHub Discussions で受けたり、詳細についてはドキュメントをご確認ください。</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>GitHub Discussionsでコミュニティサポートを受けることができます。当社の</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>データはあなたのものです</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>.NET 10 SDK、npm、そしてVisual StudioやJetBrains Riderのようなお好みのIDEが必要です。完全なセットアップガイドはドキュメントでご覧いただけます。</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>あなたのデータ</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>企業ユーザーは繰り返し登録する必要がありません。</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>ユーザーは追加のアカウントを必要としません。既存のエンタープライスIDを使用してください。</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>En helt responsiv layout som ser bra ut på både skrivbord och mobila enheter.</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>En helt responsiv röstningsupplevelse som fungerar perfekt på alla smartphones eller surfplattor.</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>En modern, funktionsrik och mycket utbyggbar grund för din nästa webbapplikation.</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Absolut. Du kan ställa in omröstningar att vara publika, endast för registrerade användare, eller begränsade till specifika roller som synkroniseras från din identitetsleverantör.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Uppnå mer med Aiursoft Template</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>ACID-klar</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Integrering med Active Directory</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Administrativ webbplats inbegripen</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Avancerade frågetyper</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI-driven översättning</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI-drivna översättningar</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls är helt dockeriserad. Du kan köra den med ett enda &apos;docker run&apos;-kommando eller distribuera den till ett Docker Swarm- eller Kubernetes-kluster för hög tillgänglighet.</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Aiursoft Polls är grunden för återkoppling över våra olika tjänster. Vi delar inte bara denna kod; vi använder den för att lyssna på våra användare varje dag.</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>Låt deltagare välja en eller flera alternativ som gäller för dem.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analys</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>Antidopning</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Artificiell intelligensöversättning</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>Granskning av loggar</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>Granskningsspår</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Automatisk beroendeinjektion</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Automatiska justeringar av navigering baserat på dina hanteringsrättigheter.</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Automatisk rollsynkronisering</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>Automatisk synkronisering</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>Automatisk tidzonshantering</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Automatiskt distribuera till Docker Swarm- eller Kubernetes-kluster.</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Automatisera deployment till dina Docker Swarm- eller Kubernetes-kluster.</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>Synkronisera OpenID-rullor automatiskt. Enad regelhantering.</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>Synkronisera automatiskt dina organisationsroller för rösträttsbegränsningar.</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>Bakgrundsjobbshantering</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Grundläggande</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>Lätt för nybörjare</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Byggd med enterprise-kvalitet men ändå lätt att lära sig native C#.</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>Byggd med strikta valideringsregler för att säkerställa att varje röst är giltig och säker.</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>Byggd med UTC-kärna, vilket säkerställer att omröstningens sluttider är konsekventa i alla tidszoner.</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Inbyggd</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>Inbyggd GUI för jobbkö</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>Inbyggd SQLite-stöd för små team, eller skala till MySQL för företagsbruk.</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Inbyggd användarhantering</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>Kan jag begränsa vem som kan rösta?</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>Välj att dölja resultat tills omröstningen är över, behåll dem privata för ägaren eller visa dem för alla.</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>Frågor i klassisk radioknappstil där deltagare väljer exakt ett alternativ.</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>Klar för molnet</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Kommer med Docker-stöd för en förbättrad och konsekvent distribution.</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Övergripande rapport</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>Skapa komplexa undersökningar med flera frågor i en enda omröstning, med stöd för olika svarstyper.</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Korsplattform</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>Anpassad utveckling krävs</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Egendefinerad domän</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Instrumentpanel för bakgrundsprocesser</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>Instrumentpanelswebbplats</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>Dataexport</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>Datainsamling är vanligt</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Dag 1:s kompatibilitet och säkerhet.</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Djup integrerad testning med Authentik. Kompatibel med Okta.</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Djup integration med Authentik. Fullt kompatibel med Okta.</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>Djup integration med DotLang AI</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>Utvecklad för container-åldern. Innehåller förkonfigurerade CI/CD-pipelines för GitLab. Skicka kod, klara strikt lintering, automatiserat testning och distribuera till Docker Swarm eller Kubernetes automatiskt.</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>Designad för container-eran. Inkluderar förkonfigurerade CI/CD-pipelines. Skicka kod, bestå tester och deploya automatiskt till din infrastruktur.</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Utveckling &amp; Produktion</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Dockeriserad för enkel distribution</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>Ladda ner alla inlämningar i standardformat för offlineanalys i Excel eller andra verktyg.</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamiskt navigeringsfält</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>Lägg enkelt till, ta bort och ändra ordningen på alternativ för dina val när som helst innan röstningen påbörjas.</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Enkelt växla mellan databasleverantörer, inklusive SQLite, MySQL, SQL Server och en in-minnen-databas för testning.</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>Enkel implementering</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Skriv integrerationstester utan ansträngning med minnesdatabaser, temporära filsystem, inbyggd mockning och simulation av verkliga HTTP-begäranden.</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>Företagsfunktioner</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>Affärsklassad</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Endast företagsplan</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Enterpriseklar</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Företagssäkerhet</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>Företagsenhetlig inloggning</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core ingått</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>Varje ändring av en omröstning loggas för fullständig transparens och ansvar.</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>Allt du behöver för framgångsrika omröstningar.</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>Vanliga frågor</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>Flexibel API</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>Flexibel hantering</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>för frågor eller för att rapportera problem.</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>För alla.</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Grundare &amp; arkitekt vid Aiursoft</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>Från arkitekten</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Full audit trail for poll modifications and management actions.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Full kontroll</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>Full RBAC</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Fullständigt offline</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>Samla in kvalitativ feedback med öppna textfrågor för detaljerade svar.</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>Samla rätt data, varje gång.</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>GDPR-konform från designen. Du äger databasen.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Generisk konfiguration</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Endast generisk Dockerfile</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>Generella verktyg för enkäter är ofta överprissatta och skördar dina data. Aiursoft Polls erbjuder ett rent, snabbt och privat alternativ som du kan värdställa själv. Vi fokuserar på enkelhet och säkerhet, så att du kan fokusera på dina frågor.</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD Native</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>Global räckvidd</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>Global Scale</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Gå till instrumentpanelen</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>Granulär åtkomstkontroll</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>Finkorniga roller</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>Stöd för grupper</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>Hantera återkommande jobb som rengöring och synkronisering med en omfattande GUI för att övervaka utförande historik och loggar.</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon ingår</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>Värd det själv. Inga tredjepartsspårare, ingen datainsamling. Dina undersökningar stannar i ditt nätverk.</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Hur får jag support?</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>Hur deployar jag det?</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Hur distribuerar jag min applikation?</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>IDE-stöd</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>Identitetsmedveten</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>Inkluderat</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Innehåller självstudier</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>Industriell standardimplementering. Inget låsning.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Integrerad filhantering</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>är fri programvara</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Är det gratis att använda Aiursoft Polls?</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Är det gratis att använda Aiursoft Template?</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>Anslut dig till vår växande community av utvecklare som bygger nästa generation av webbapplikationer.</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>Gå med i vår växande community av utvecklare som bygger verktyg som respekterar användarnas integritet.</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm redo</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>Lättviktig &amp; Snabb</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Begränsad</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lintkontroll</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>Logga in via OpenID Connect inklusive Azure AD och Okta.</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>Behåll dataintegriteten</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Behåll hög kodkvalitet</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MIT-licens</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>Mobilanpassat</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Modeller valideras på både klient- och serversidan baserat på dataannotationer.</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>Flerfrågeundersökningar</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Hantering av flera tidszoner</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>Multilingvellt gränssnitt</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>Flervalsfrågor</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Stöd för flera databasleverantörer</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Musikverktyg</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Inbyggd</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Kräver CASL eller liknande</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Ingen beroende på någon molnleverantör. Kör överallt, när som helst.</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>Inga förfalskade röster</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>Inte tillgänglig</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>Stöds inte</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Offline-förmåga</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>När en användare skickar in sitt svar låses det för att säkerställa dataintegritet och förhindra dubbla röster.</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Enkelt klick för att starta</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Öppna eller stäng omröstningar när som helst, hantera frågor och alternativ, och exportera råa inlämningsdata.</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>Öppen källkod</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Optimerad Docker &amp; K8s-konfiguration</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>Optimerad för hastighet för att säkerställa låg latens även på svaga nätverksanslutningar.</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>Alternativhantering</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>Organisationsanpassad</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM &amp; migrationer</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Färdig att använda</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Betald</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>Betald/Begränsad</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Upptäckt och synkronisering av behörigheter</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Rösta var som helst, på vilket språk som helst.</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>Röstandslägen</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>Omröstningar vs. Undersökningar</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>Kraftfull avstämning.</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>Förkonfigurerad och testad</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>Förkonfigurerade CI/CD-pipeliner för automatisk testning.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Förkonfigurerade CI/CD-pipelines specifikt för GitLab.</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Förkonfigurerade pipelines för utveckling/produktion</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>Förhindra dubbla röster och obehöriga inlämningar.</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>Integritet först</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Integritetspolicy</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>Privat &amp; Säker</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>Äganderätt</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>Kvalitetsport</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>Läs dokumentet</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>Resultat i realtid</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>Resultat i realtid</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>Pålitlig DB</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>Pålitliga resultat</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Kräver Laravel Socialite-konfiguration</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Responsiv Design</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>Begränsa deltagande baserat på din organisations hierarki och roller.</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>Styrning av resultatets synlighet</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Recensioner</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>Rika funktioner</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>Robust Integration Testing</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>Rollupptäckt</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>Rollbegränsningar</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>Rollbaserad åtkomst</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>Rösträtt baserad på roller</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>Roller synkroniseras automatiskt från din identitetsleverantör.</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>Körs utan att internetanslutning krävs.</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>Endast molntjänst</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>Skalbar</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>Planerad uppgiftshantering</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>Säker omröstning</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>Självhostning</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>Ställ in dina omröstningar att vara publika, begränsade till registrerade användare eller begränsade till specifika organisationsroller.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Förskjut med självförtroende</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Enkel &amp; Enkel</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>Enkelval</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>En container</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>Smart UI som automatiskt anpassar sig till användarens systeminställningar för mörkt/ljust läge.</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>Specificera exakt vilka roller som kan delta i varje omröstning.</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Standardimplementering. Byt leverantörer utan kompilering.</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>Standard OIDC</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>Standard OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Strikt linteringsregler med 0 varningar i standardprojektet.</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>Sträng server-side validering för varje enskilt svar.</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>Strikt enhetstestning</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Strikt validering</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Strängt konsekvent lintering</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>Underkastad Googles policy</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>Underkastad MS-policy</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>Låsning av inlämningar</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>Stöder 28 språk direkt för en verkligen global publik.</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>Stöder både miljövariabler och databasbaserade inställningar, med automatisk prioritet till miljövariabler för smidiga åsidosättningar.</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>Teknisk ledare</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>Svarsfält</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Den definitiva, testade .NET-fundamentet för företag. Från Auth till AI har vi löst de svåra delarna så att du inte behöver göra det.</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>Den definitiva, open-source-lösningen för att skapa omröstningar och undersökningar. Från teamfeedback till storskaliga omröstningar gör Aiursoft Polls det enkelt.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Fält med tidzonsmedvetenhet</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>Spårbar</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>Öppen hantering</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Tillit av produktionsklara applikationer inklusive AnduinOS, StatHub och Warp. Vi delar inte bara koden; vi kör hela vårt företag på den.</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Området för Aiursoft Ecosystem</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>Under din kontroll</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>Enhetlig miljö</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>Verifierad identitet</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Visa på GitHub</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>Rösta med bekvämlighet</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>Se röster komma in i realtid med vackra, lättlästa diagram och dataöversikter.</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>Vi byggde Aiursoft Polls eftersom vi ville ha ett röstningsverktyg som respekterar användarnas integritet och integreras sömlöst med våra befintliga identitetssystem. Det handlar inte bara om att rösta; det handlar om att bygga en pålitlig feedbackloop med din community eller team utan att offra dataskyddet.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Välkommen</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Vad våra utvecklare säger</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>Var kan jag hitta hjälp?</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>Varför välja Aiursoft Polls?</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>Varför välja Aiursoft Template?</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ja, Aiursoft Polls är helt gratis och öppen källkod under MIT-licensen. Du kan värdprogrammet själv för personliga och kommersiella projekt utan några kostnader.</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>Du kan få community-stöd via GitHub Discussions eller kolla vår dokumentation för mer information.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>Du äger datan</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>Din data</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>Dina företagsanvändare behöver inte registrera sig upprepade gånger.</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>Dina användare behöver inget nytt konto. Använd ditt befintliga företagskonto.</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

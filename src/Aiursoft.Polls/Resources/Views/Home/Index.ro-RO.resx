@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Un layout complet responsive care arată excelent atât pe dispozitive desktop, cât și pe mobile.</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>O experiență de vot complet responsive care funcționează perfect pe orice smartphone sau tabletă.</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>O fundație modernă, bogată în funcționalități și extrem de extensibilă pentru următoarea ta aplicație web.</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Absolut. Puteți seta sondajele să fie publice, disponibile doar utilizatorilor înregistrați sau restricționate la roluri specifice sincronizate din furnizorul dumneavoastră de identitate.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Realizați mai multe cu Aiursoft Template</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>Gata pentru ACID</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Integrare cu Active Directory</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Site de administrare inclus</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Tipuri de întrebări avansate</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Traducere bazată pe IA</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traduceri alimentate de IA</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls este complet containerizat cu Docker. Puteți rula aplicația folosind comanda &apos;docker run&apos; sau o puteți distribui într-un cluster Docker Swarm sau Kubernetes pentru o disponibilitate ridicată.</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Aiursoft Polls este fundația pentru feedback în cadrul diverselor noastre servicii. Nu doar partajăm acest cod; îl folosim pentru a asculta utilizatorii noștri în fiecare zi.</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Toate dependențele sunt înregistrate automat și sunt întotdeauna disponibile prin injectare în constructor.</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>Permiteți participanților să selecteze una sau mai multe opțiuni care le sunt aplicabile.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analiză</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>Anti-Cheat</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Traducere prin Inteligență Artificială</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>Jurnalizare audit</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>Jurnal de audit</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Injectare Automată de Dependințe</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Ajustări automate de navigare bazate pe permisiunile tale de administrare.</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Sincronizare automată a rolurilor</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>Sincronizare automată</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>Gestionare automată a fusului orar</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Deplasare automată în clusteruri Docker Swarm sau Kubernetes.</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Deployare automată în cluster-urile tale Docker Swarm sau Kubernetes.</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>Sincronizare automată a rolurilor OpenID. Gestionează reguli unificate.</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>Sincronizați automat rolurile organizaționale pentru restricții de vot.</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>Procesare sarcini în fundal</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>De bază</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>Prietenos pentru începători</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Creat cu C# nativ de tip enterprise, dar ușor de învățat.</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>Construit cu reguli stricte de validare pentru a se asigura că fiecare vot este valid și sigur.</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>Construit pe baza unui nucleu UTC, asigurând că orele de încheiere a sondajelor sunt consistente în toate fusurile orare.</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Introdus în mod nativ</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>Interfață grafică integrată pentru coada de sarcini</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>Suport SQLite integrat pentru echipe mici, sau scalați la MySQL pentru utilizare în întreprinderi.</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Gestionare Utilizatori Integrată</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>Pot restricționa cine poate vota?</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>Alegeți să ascundeți rezultatele până la încheierea sondajului, să le păstrați private pentru proprietar sau să le afișați tuturor.</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>Întrebări de tip clasic cu butoane radio, unde participanții selectează exact o opțiune.</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>Gata pentru cloud</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Include suport pentru Docker pentru implementări simplificate și consistente.</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Raport acoperire</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>Creați sondaje complexe cu mai multe întrebări într-un singur sondaj, suportând diverse tipuri de răspunsuri.</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Platform Cruce</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>Este necesară dezvoltarea personalizată</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Domeniu personalizat</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Panou de control pentru sarcini în fundal</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>Site-ul Panoului de Control</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>Exportare date</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>Recoltarea datelor este comună</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Conformitate și securitate de ziua 1.</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Testare de integrare profundă cu Authentik. Compatibil cu Okta.</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Integrare profundă cu Authentik. Complet compatibil cu Okta.</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>Integrare profundă cu DotLang AI</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>Creat pentru era containerelor. Include pipe CI/CD preconfigurate pentru GitLab. Încărcați codul, treceți verificarea strictă de linting, testare automată și implementare automată în Docker Swarm sau Kubernetes.</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>Proiectat pentru era containerelor. Include pipeline-uri CI/CD preconfigurate. Încărcați codul, treceți testele și implementați automat în infrastructura dumneavoastră.</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Dockerizat pentru o implementare ușoară</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>Descărcați toate răspunsurile în formate standard pentru analiză offline în Excel sau alte instrumente.</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Bara de Navigare Dinamică</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>Adăugați, eliminați și reordonați ușor opțiunile pentru alegerile dumneavoastră în orice moment înainte de începerea votării.</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Schimba ușor între furnizorii de baze de date, inclusiv SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Comută cu ușurință între furnizori precum SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>Implementare ușoară</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Scrieți testele de integrare fără efort folosind baze de date în memorie, sisteme de fișiere temporare, mocking integrat și simularea cererilor HTTP din lumea reală.</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>Funcționalități Enterprise</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>Calitate Enterprise</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Doar pentru planul Enterprise</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Potrivit pentru întreprinderi</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Securitate Enterprise</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>SSO pentru întreprinderi</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core inclus</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>Fiecare modificare adusă unui sondaj este înregistrată pentru o transparență și o răspundere depline.</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>Tot ce ai nevoie pentru sondaje de succes.</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>Întrebări frecvente</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>API flexibilă</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>Gestiune flexibilă</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>pentru orice întrebări sau pentru a raporta probleme.</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>Pentru toată lumea.</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Founder &amp; Architect la Aiursoft</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>De la Arhitect</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Jurnal complet de audit pentru modificările sondajelor și acțiunile de administrare.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Control total</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>RBAC complet</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Complet Offline</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>Colectați feedback calitativ cu întrebări de tip text deschis pentru răspunsuri detaliate.</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>Strângeți datele corecte, de fiecare dată.</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>Conformitate GDPR prin design. Dețineți baza de date.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Configurație generică</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Doar un Dockerfile generic</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>Instrumentele de sondaj generice sunt adesea supraevaluate și colectează datele tale. Aiursoft Polls oferă o alternativă curată, rapidă și privată pe care o poți găzdui singur. Ne concentrăm pe simplitate și securitate, astfel încât tu să te poți concentra pe întrebările tale.</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD Nativ</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>Răspândire globală</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>Scală globală</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Accesează panoul de control</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>Control acces granular</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>Roluri granulare</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>Suport pentru grupuri</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>Gestionați sarcinile periodice precum curățarea și sincronizarea cu o interfață grafică completă pentru monitorizarea istoricului de execuție și a jurnalelor.</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon inclus</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>Găzduiește-l singur. Fără urmăritori terți, fără colectare de date. Sondajele tale rămân în rețeaua ta.</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Cum pot obține asistență?</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>Cum o deployez?</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Cum îmi implementez aplicația?</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>Suport pentru IDE</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>Conștient de identitate</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>Inclus</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Include tutoriale</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>Implementare standard de industrie. Fără blocare.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Gestionare Integrată a Fișierelor</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>este Software Liber</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Este gratuit să folosești Aiursoft Polls?</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Este gratuit să folosești Aiursoft Template?</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>Alăturați-vă comunității noastre în creștere de dezvoltatori care construiesc următoarea generație de aplicații web.</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>Alătură-te comunității noastre în creștere de dezvoltatori care creează instrumente care respectă confidențialitatea utilizatorilor.</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Gata pentru K8s / Swarm</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>Ușor și rapid</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Limitat</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Verificare Lint</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>Autentificare prin OpenID Connect, inclusiv Azure AD și Okta.</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>Mențineți integritatea datelor</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Menține o Calitate Ridicată a Codului</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>Licența MIT</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>Mobile First</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Modelele sunt validate pe ambele laturi, client și server, pe baza anotărilor de date.</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>Sondaje cu mai multe întrebări</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Gestionarea multi-fuselor orare</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>Interfață multilingvă</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>Alegere multiplă</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Suport pentru mai multe furnizori de baze de date</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Instrumente Muzicale</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Native</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Necesită CASL sau similar</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Fără dependență de niciun furnizor de cloud. Rulează oriunde, oricând.</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>Nicio vot fals</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>Nu este disponibil</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>Nu este suportat</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Capabil offline</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>Odată ce un utilizator își trimite răspunsul, acesta este blocat pentru a asigura integritatea datelor și a preveni votarea dublă.</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Un Click Start</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Deschideți sau închideți sondaje în orice moment, gestionați întrebările și opțiunile și exportați datele brute de submitare.</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>Open Source</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Configurație Docker și K8s optimizată</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>Optimizat pentru viteză pentru a asigura latență redusă chiar și pe conexiuni de rețea slabe.</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>Gestionarea opțiunilor</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>Prietenos pentru organizații</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM și Migrații</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Gata de utilizare imediată</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Plătit</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>Plătit/limitat</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Descoperirea și sincronizarea permisiunilor</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Sondaje oriunde, în orice limbă.</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>Caracteristici sondaj</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>Sondaje vs. Sondaje</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>Sondaje Puternice.</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>Preconfigurat și testat</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>Tehnici CI/CD preconfigurate pentru testare automată.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Pipelines CI/CD preconfigurate specifice pentru GitLab.</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Pipelines preconfigurate pentru dev/prod</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>Prevenți voturile duble și depunerile neautorizate.</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>Prioritate pentru confidențialitate</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Politica de confidențialitate</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>Privat și Sigur</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>Proprietar</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>Portocală de Calitate</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>Citește documentația</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>Rezultate în timp real</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>Rezultate în timp real</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>Bază de date fiabilă</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>Rezultate fiabile</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Necesită configurarea Laravel Socialite</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Design Responsiv</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>Restrictați participarea pe baza ierarhiei și rolurilor organizației dumneavoastră.</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>Controlul vizibilității rezultatelor</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Recenzii</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>Funcții bogate</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>Testare integrată robustă</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>Descoperirea rolurilor</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>Restrângeri de rol</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>Acces bazat pe roluri</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>Votare bazată pe roluri</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>Rolurile sunt sincronizate automat din furnizorul dumneavoastră de identitate.</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>Rulează fără a fi necesară o conexiune la internet.</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>Doar SaaS</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>Scalabil</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>Gestionarea sarcinilor programate</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Integrați fără probleme cu orice furnizor OpenID Connect, cu sincronizare automată a rolurilor.</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>Votare sigură</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>Gazduire proprie</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>Set your polls to be public, restricted to registered users, or limited to specific organization roles.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Mutați cu încredere</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Simplu &amp; Ușor</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>Alegere unică</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>Container unic</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Mod întunecat inteligent care se adaptează automat la setările de sistem ale utilizatorului.</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>Interfață inteligentă care se adaptează automat la preferințele sistemului de întuneric/lumină ale utilizatorului.</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>Specificați exact care roluri pot participa la fiecare sondaj.</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Implementare standard. Schimbă furnizorii fără compilare.</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>OIDC standard</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>OpenID standard</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Reguli stricte de verificare a codului cu 0 avertizări în proiectul implicit.</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>Validare strictă la nivelul serverului pentru fiecare răspuns.</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>Testare unitară strictă</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Validare Strictă</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Linting Strâns Consistent</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>Supus politicii Google</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>Supus politicilor MS</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>Blocarea trimiterii</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>Suportă 28 de limbi din cutie pentru un public cu adevărat global.</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>Suportă atât variabilele de mediu, cât și setările stocate în baza de date, cu prioritate automată acordată variabilelor de mediu pentru actualizări fără probleme.</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>Conducător Tehnic</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>Răspuns text</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Fundamentul definitiv, testat în practică pentru întreprinderi în .NET. De la Autentificare până la Inteligență Artificială, am rezolvat părțile dificile, astfel încât să nu aibă nevoie să le rezolvi tu.</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>Soluția definitivă, open-source pentru crearea de sondaje și chestionare. De la feedback-ul echipei până la votarea la scară largă, Aiursoft Polls face totul ușor.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Câmpuri conștiente de fusul orar</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>Urmărit</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>Gestiune transparentă</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Încrederea aplicațiilor de tip producție, inclusiv AnduinOS, StatHub și Warp. Nu doar împărtășim acest cod; îi folosim pentru întreaga noastră afacere.</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Încredinat de Ecosistemul Aiursoft</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>Sub Controlul Tău</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>Mediu unitar</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Folosește-l ca fundație pentru SaaS-ul tău, ca backend pentru aplicația ta mobilă, ca site corporativ sau ca blog personal. Posibilitățile sunt nelimitate.</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>Identitate verificată</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Vizualizează pe GitHub</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>Votează cu confort</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>Urmărește voturile care ajung în timp real, cu grafice frumoase și ușor de citit și rezumate de date.</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>Am creat Aiursoft Polls pentru că am dorit un instrument de sondare care respectă confidențialitatea utilizatorilor și se integrează perfect cu sistemele noastre existente de identitate. Nu este doar despre votare; este despre construirea unui ciclu de feedback fiabil cu comunitatea sau echipa ta, fără a sacrifica controlul asupra datelor.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bun venit</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Ce spun dezvoltatorii noștri</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>Unde pot găsi ajutor?</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>De ce să alegi Aiursoft Polls?</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>De ce să alegeți Aiursoft Template?</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Da, Aiursoft Polls este complet gratuit și open-source sub licența MIT. îl puteți găzdui singur pentru proiecte personale și comerciale fără niciun cost.</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Da, Aiursoft Template este complet gratuit și open-source sub Licența MIT. Îl puteți utiliza pentru proiecte personale și comerciale fără niciun cost.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>Puteți obține suport din partea comunității prin GitHub Discussions sau puteți consulta documentația noastră pentru mai multe detalii.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Puteți obține suport din partea comunității prin GitHub Discussions. Vă rugăm să vizitați pagina noastră de</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>Tu deții datele</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Vei avea nevoie de .NET 10 SDK, npm și IDE-ul tău preferat, cum ar fi Visual Studio sau JetBrains Rider. Poți găsi ghidul complet de configurare în documentația noastră.</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>Datele Tale</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>Utilizatorii dvs. de enterprise nu trebuie să se înregistreze din nou.</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>Utilizatorii dumneavoastră nu au nevoie de un alt cont. Folosiți-vă identitatea enterprise existentă.</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

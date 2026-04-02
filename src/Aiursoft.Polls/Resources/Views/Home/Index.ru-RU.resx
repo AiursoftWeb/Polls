@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Отчет о покрытии</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>Создать опрос</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>Создавайте сложные опросы с несколькими вопросами в одном опросе, поддерживая различные типы ответов.</value>
   </data>

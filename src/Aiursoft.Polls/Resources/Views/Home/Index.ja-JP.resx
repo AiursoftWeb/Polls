@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>カバレッジレポート</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>アンケートを作成</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>複数の質問を含む1つの投票で複雑なアンケートを作成し、さまざまな回答タイプをサポートします。</value>
   </data>

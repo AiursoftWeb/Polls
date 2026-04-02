@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>एक पूरी तरह से उत्तरदायी लेआउट जो डेस्कटॉप और मोबाइल डिवाइस दोनों पर शानदार दिखता है।</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>एक पूरी तरह से प्रतिक्रियाशील वोटिंग अनुभव जो किसी भी स्मार्टफोन या टैबलेट पर बिल्कुल सही काम करता है।</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>आपके अगले वेब एप्लिकेशन के लिए एक आधुनिक, सुविधा-संपन्न, और अत्यधिक विस्तार योग्य आधारशिला।</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>निश्चित रूप से। आप सर्वेक्षणों को सार्वजनिक, केवल पंजीकृत उपयोगकर्ताओं के लिए, या अपने पहचान प्रदाता से सिंक किए गए विशिष्ट भूमिकाओं तक सीमित करने के लिए सेट कर सकते हैं।</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft टेम्पलेट के साथ और अधिक हासिल करें</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>ACID Ready</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>सक्रिय निर्देशांक एकीकरण</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>प्रशासनिक साइट शामिल है</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>उन्नत प्रश्न प्रकार</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>एआई संचालित अनुवाद</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI-संचालित अनुवाद</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Aiursoft Polls पूरी तरह से Docker के लिए अनुकूलित है। आप इसे एकल &apos;docker run&apos; कमांड के साथ चला सकते हैं या उच्च उपलब्धता के लिए Docker Swarm या Kubernetes क्लस्टर पर डेप्लॉय कर सकते हैं।</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>एयर्सॉफ्ट पोल हमारी विभिन्न सेवाओं में फीडबैक के लिए आधार है। हम केवल इस कोड को साझा नहीं करते; हम रोज़ अपने उपयोगकर्ताओं को सुनने के लिए इसका उपयोग करते हैं।</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>सभी निर्भरताएँ स्वचालित रूप से पंजीकृत होती हैं और कंस्ट्रक्टर इंजेक्शन के माध्यम से हमेशा उपलब्ध रहती हैं।</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>प्रतिभागियों को उन्हें लागू होने वाले एक या अधिक विकल्प चुनने की अनुमति दें।</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>विश्लेषण</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>एंटी-चीट</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>कृत्रिम बुद्धिमत्ता अनुवाद</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>ऑडिट लॉगिंग</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>ऑडिट ट्रेल</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>स्वचालित निर्भरता इंजेक्शन</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>आपके प्रबंधन अनुमतियों के आधार पर स्वचालित नेविगेशन समायोजन।</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>स्वचालित भूमिका सिंक</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>स्वतः समन्वय</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>स्वचालित समय क्षेत्र संभाल</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>डॉकर स्वार्म या कुबरनेटीज़ क्लस्टर्स में स्वचालित डेप्लॉय करें।</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>अपने Docker Swarm या Kubernetes क्लस्टर पर स्वचालित रूप से डिप्लॉय करें।</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>ऑटोमैटिक रूप से OpenID भूमिकाओं को सिंक करें। एकीकृत नियम प्रबंधन।</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>अपने संगठनात्मक पदों को वोटिंग प्रतिबंधों के लिए स्वचालित रूप से सिंक करें।</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>बैकग्राउंड जॉब प्रोसेसिंग</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>मूलभूत</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>शुरुआती उपयोगकर्ता के लिए उपयुक्त</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>एंटरप्राइज-ग्रेड लेकिन आसानी से सीखने वाले नेटिव C# के साथ बनाया गया है।</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>कठोर मान्यता नियमों के साथ निर्मित ताकि प्रत्येक वोट वैध और सुरक्षित रहे।</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>UTC कोर के साथ बनाया गया, यह सुनिश्चित करता है कि सभी समय क्षेत्रों में पोल समाप्ति समय सुसंगत होते हैं।</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>निर्मित-अंदर</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>निर्मित नौकरी कतार GUI</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>छोटी टीमों के लिए इन-बिल्ट SQLite सहायता, या उद्यम उपयोग के लिए MySQL के लिए स्केल करें।</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>अंतर्निहित उपयोगकर्ता प्रबंधन</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>क्या मैं यह प्रतिबंधित कर सकता हूं कि कौन वोट कर सकता है?</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>परिणामों को पोल समाप्त होने तक छिपाने का चयन करें, उन्हें मालिक के लिए निजी रखें, या उन्हें सभी को दिखाएं।</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>ऐसे प्रश्न जिनमें भाग लेने वाले ठीक एक विकल्प का चयन करते हैं, जो क्लासिक रेडियो-बटन शैली के होते हैं।</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>क्लाउड तैयार</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Docker समर्थन के साथ आता है सरल और सुसंगत डेप्लॉयमेंट के लिए।</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>कवरेज रिपोर्ट</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>एक ही पोल में कई प्रश्नों वाले जटिल सर्वेक्षण बनाएं, जिसमें विभिन्न प्रतिक्रिया प्रकारों का समर्थन किया जाता है।</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>क्रॉस प्लेटफॉर्म</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>कस्टम विकास आवश्यक है</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>कस्टम डोमेन</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>पृष्ठभूमि कार्यों के लिए डैशबोर्ड</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>डैशबोर्ड वेबसाइट</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>डेटा निर्यात</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>डेटा संकलन सामान्य है</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>दिन 1 सुरक्षा एवं सुसंगतता।</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Authentik के साथ गहन एकीकरण परीक्षण। Okta के साथ संगत।</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Authentik के साथ गहरी एकीकरण। Okta के साथ पूर्ण संगत।</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>डॉटलैंग एआई के साथ गहरा एकीकरण</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>कंटेनर युग के लिए डिज़ाइन किया गया है। GitLab के लिए पूर्व-सेट किए गए CI/CD पाइपलाइन शामिल हैं। कोड पुश करें, सख्त लिंटिंग पास करें, स्वचालित टेस्ट करें, और डॉकर स्वार्म या कुबरनेटीज़ में स्वचालित रूप से डेप्लॉय करें।</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>कंटेनर युग के लिए डिज़ाइन किया गया। इसमें पूर्व-कॉन्फ़िगर किए गए CI/CD पाइपलाइन शामिल हैं। कोड धकेलें, परीक्षण पास करें, और अपने इंफ्रास्ट्रक्चर पर स्वचालित रूप से डिप्लॉय करें।</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>डेव एंड प्रॉड</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Dockerized for Easy Deployment</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>सभी सबमिशन को मानक प्रारूपों में डाउनलोड करें ताकि Excel या अन्य टूल्स में ऑफलाइन विश्लेषण किया जा सके।</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>डायनामिक नेविगेशन बार</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>मतदान शुरू होने से पहले किसी भी समय अपने विकल्पों को आसानी से जोड़ें, हटाएं और पुनर्व्यवस्थित करें।</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>परीक्षण के लिए आसानी से डेटाबेस प्रदाताओं के बीच स्विच करें, जिसमें SQLite, MySQL, SQL Server और एक इन-मेमोरी डेटाबेस शामिल हैं।</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server जैसे प्रदाताओं और परीक्षण के लिए इन-मेमोरी डेटाबेस के बीच आसानी से स्विच करें।</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>आसान डिप्लॉयमेंट</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>आसानी से इंटीग्रेशन टेस्ट लिखें इन-मेमोरी डेटाबेस, अस्थायी फाइल सिस्टम, बिल्ट-इन मॉकिंग, और वास्तविक दुनिया के HTTP रिक्वेस्ट सिमुलेशन का उपयोग करके।</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>उद्यम सुविधाएं</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>एंटरप्राइज़ ग्रेड</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>केवल एंटरप्राइज़ प्लान</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>एंटरप्राइज रेडी</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>एंटरप्राइज सिक्योरिटी</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>Enterprise SSO</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core शामिल है</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>प्रति पोल संशोधन पूर्ण पारदर्शिता और जवाबदेही के लिए लॉग किया जाता है।</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>सफल पोलिंग के लिए आपको जो भी चाहिए</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>अक्सर पूछे जाने वाले प्रश्न</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>लचीला API</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>लचीला प्रबंधन</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>किसी भी जानकारी के लिए या समस्याओं की रिपोर्ट करने के लिए।</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>सभी के लिए।</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>संस्थापक और वास्तुकार, Aiursoft में</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>आर्किटेक्ट से</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>पOLL संशोधनों और प्रबंधन कार्यों के लिए पूर्ण ऑडिट ट्रेल।</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>पूर्ण नियंत्रण</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>पूर्ण RBAC</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>पूरी तरह से ऑफलाइन</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>विस्तृत उत्तरों के लिए खुले-अंत के पाठ प्रश्नों के साथ गुणात्मक प्रतिक्रिया इकट्ठा करें।</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>सही डेटा एक बार में इकट्ठा करें।</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>GDPR के अनुसार डिज़ाइन किया गया। आप डेटाबेस का स्वामी हैं।</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>सामान्य कॉन्फ़िगरेशन</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>केवल सामान्य Dockerfile</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>सामान्य सर्वेक्षण टूल्स अक्सर महंगे होते हैं और आपके डेटा का उपयोग करते हैं। Aiursoft Polls एक स्वच्छ, तेज़ और निजी विकल्प प्रदान करता है जिसे आप स्वयं होस्ट कर सकते हैं। हम सरलता और सुरक्षा पर ध्यान केंद्रित करते हैं, ताकि आप अपने प्रश्नों पर ध्यान केंद्रित कर सकें।</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>GitLab CI/CD नेटिव</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>वैश्विक पहुंच</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>वैश्विक स्केल</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>डैशबोर्ड पर जाएं</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>सूक्ष्म एक्सेस नियंत्रण</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>सूक्ष्म भूमिकाएं</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>समूह समर्थन</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>नियमित जॉब्स जैसे साफ़ करना और सिंक्रनाइज़ेशन को नियंत्रित करें और निष्पादन इतिहास और लॉग्स के लिए एक व्यापक GUI के साथ निगरानी करें।</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>हॉराइज़न शामिल है</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>इसे खुद होस्ट करें। कोई तीसरे पक्ष के ट्रैकर नहीं, कोई डेटा हार्वेस्टिंग नहीं। आपकी पोल आपके नेटवर्क में ही रहती हैं।</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>मुझे सहायता कैसे मिल सकती है?</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>इसे कैसे डिप्लॉय करें?</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>मैं अपने एप्लिकेशन को कैसे डिप्लॉय करूं?</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>IDE समर्थन</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>पहचान-सचेत</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>शामिल</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>ट्यूटोरियल्स शामिल हैं</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>उद्योग मानक कार्यान्वयन। कोई लॉक-इन नहीं।</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>एकीकृत फ़ाइल प्रबंधन</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>मुक्त सॉफ्टवेयर है</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>क्या Aiursoft Polls का उपयोग मुफ्त है?</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>क्या Aiursoft Template का उपयोग करना मुफ़्त है?</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>हमारे विकासकर्मियों के बढ़ते समुदाय में शामिल हों जो वेब एप्लिकेशन की अगली पीढ़ी के निर्माण में लगे हैं।</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>हमारे बढ़ते डेवलपर्स के समुदाय में शामिल हों जो उपयोगकर्ता की गोपनीयता का सम्मान करते हुए उपकरण बना रहे हैं।</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm तैयार</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>हल्का और तेज़</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>सीमित</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>लिंट चेक</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>OpenID Connect के माध्यम से लॉगिन करें, जिसमें Azure AD और Okta शामिल हैं।</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>डेटा की अखंडता बनाए रखें</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>उच्च कोड गुणवत्ता बनाए रखें</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MIT लाइसेंस</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>मोबाइल-फर्स्ट</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>मॉडल्स को डेटा एनोटेशन्स के आधार पर क्लाइंट और सर्वर दोनों तरफ मान्यता दी जाती है।</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>बहु-प्रश्नीय सर्वेक्षण</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>बहु-समयक्षेत्र प्रबंधन</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>बहुभाषी इंटरफ़ेस</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>बहुविकल्पीय प्रश्न</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Multiple Database Provider Support</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>संगीत उपकरण</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>स्वदेशी</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>CASL या समान की आवश्यकता है</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>किसी भी क्लाउड वेंडर पर निर्भरता नहीं। कहीं भी, कभी भी चलाएं।</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>कोई नकली वोट नहीं</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>उपलब्ध नहीं है</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>समर्थित नहीं</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>ऑफलाइन कैपेबल</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>एक बार जब कोई उपयोगकर्ता अपना उत्तर सबमिट कर देता है, तो यह डेटा की अखंडता सुनिश्चित करने और डबल वोटिंग को रोकने के लिए लॉक कर दिया जाता है।</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>एक क्लिक से शुरू करें</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>किसी भी समय सर्वेक्षण खोलें या बंद करें, प्रश्नों और विकल्पों का प्रबंधन करें, और कच्चे सबमिशन डेटा को निर्यात करें।</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>ओपन सोर्स</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>कमिष्टकृत Docker &amp; K8s कॉन्फ़िगरेशन</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>स्पीड के लिए अनुकूलित ताकि कमजोर नेटवर्क कनेक्शन पर भी कम लैटेंसी सुनिश्चित हो सके।</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>विकल्प प्रबंधन</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>संगठन-अनुकूल</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM और माइग्रेशन</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>बिना किसी कन्फ़िगरेशन के तैयार</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>पैदा</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>पैसा/सीमित</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>अनुमति खोज और सिंक</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>कहीं भी, किसी भी भाषा में मतदान करें।</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>पूल की विशेषताएं</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>पोल्स बनाम सर्वेक्षण</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>शक्तिशाली मतदान।</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>पूर्व-कॉन्फ़िगर और परीक्षित</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>स्व-संरचित CI/CD पाइपलाइन स्वचालित परीक्षण के लिए।</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>गिटलैब के लिए विशेष रूप से पूर्व-संरचित CI/CD पाइपलाइन</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>dev/prod के लिए पूर्व-कॉन्फ़िगर पाइपलाइन्स</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>अनधिकृत सबमिशन और डुप्लिकेट वोटिंग से बचें।</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>प्राइवेसी पहले</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>गोपनीयता नीति</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>निजी और सुरक्षित</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>स्वामित्व वाला</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>गुणवत्ता गेट</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>दस्तावेज़ पढ़ें</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>वास्तविक-समय</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>वास्तविक-समय परिणाम</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>विश्वसनीय डेटाबेस</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>विश्वसनीय परिणाम</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Laravel Socialite कॉन्फ़िगरेशन की आवश्यकता है</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>उत्तरदायी डिज़ाइन</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>आपकी संगठन की पदानुक्रम और भूमिकाओं के आधार पर भागीदारी को सीमित करें।</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>परिणाम दृश्यता नियंत्रण</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>समीक्षाएँ</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>समृद्ध विशेषताएं</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>रॉबस्ट इंटीग्रेशन टेस्टिंग</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>भूमिका खोज</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>भूमिका प्रतिबंध</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>भूमि-आधारित प्रवेश</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>भूमि-आधारित वोटिंग</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>भूमिकाएं आपके पहचान प्रदाता से स्वचालित रूप से सिंक की जाती हैं।</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>कोई इंटरनेट कनेक्शन की आवश्यकता के बिना चलता है।</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>केवल SaaS</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>स्केलेबल</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>योजना बनाई गई कार्य प्रबंधन</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>किसी भी OpenID Connect प्रदाता के साथ सहज एकीकरण, स्वचालित भूमिका सिंक्रनाइज़ेशन के साथ।</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>सुरक्षित वोटिंग</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>स्वयं होस्टिंग</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>अपने सर्वेक्षणों को सार्वजनिक, पंजीकृत उपयोगकर्ताओं तक सीमित, या विशिष्ट संगठन भूमिकाओं तक सीमित करने के लिए सेट करें।</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>आत्मविश्वास के साथ शिफ्ट करें</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>सरल और आसान</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>एकल चयन</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>एकल कंटेनर</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>स्मार्ट डार्क मोड जो स्वचालित रूप से उपयोगकर्ता की सिस्टम सेटिंग्स के अनुकूल हो जाता है।</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>स्मार्ट यूआई जो स्वचालित रूप से उपयोगकर्ता की सिस्टम डार्क/लाइट पसंद के अनुसार अनुकूलित होता है।</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>प्रत्येक मतदान में कौन से पद भाग ले सकते हैं, उसे सटीक रूप से निर्दिष्ट करें।</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>मानक कार्यान्वयन। संकलन के बिना प्रदाताओं को स्विच करें।</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>मानक OIDC</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>मानक OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>डिफ़ॉल्ट प्रोजेक्ट में 0 चेतावनियाँ के साथ सख्त लिंटिंग नियम।</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>प्रत्येक एकल प्रतिक्रिया के लिए कठोर सर्वर-साइड सत्यापन।</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>कठोर यूनिट परीक्षण</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>कठोर सत्यापन</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>तीव्र और सुसंगत लिंटिंग</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>गूगल नीति के अधीन</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>MS नीति के अधीन</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>समर्पण लॉकिंग</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>28 भाषाओं का समर्थन तुरंत किया जाता है, जो वास्तव में वैश्विक दर्शकों के लिए है।</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>पर्यावरण चर और डेटाबेस-आधारित सेटिंग्स दोनों का समर्थन करता है, जिसमें पर्यावरण चरों को बिना किसी दिक्कत के अपडेट करने के लिए स्वचालित प्राथमिकता दी जाती है।</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>तकनीकी लीड</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>पाठ प्रतिक्रिया</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>निर्णायक, युद्ध-परीक्षित .NET उद्यम स्थापना। प्राथमिकता से एआई तक, हमने कठिन हिस्सों को हल कर दिया है ताकि आपको इसकी आवश्यकता न हो।</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>पोल और सर्वेक्षण बनाने के लिए निश्चित, ओपन-सोर्स समाधान। टीम की प्रतिक्रिया से लेकर बड़े पैमाने पर वोटिंग तक, Aiursoft Polls इसे आसान बनाता है।</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>नेविगेशन बार स्वचालित रूप से उपयोगकर्ता की भूमिकाओं और अनुमतियों के आधार पर समायोजित होता है।</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>समय क्षेत्र-जागरूक क्षेत्र</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>पता लगाया जा सकता है</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>पारदर्शी प्रबंधन</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>उत्पादन-ग्रेड एप्लिकेशन जैसे AnduinOS, StatHub, और Warp द्वारा विश्वास किया गया। हम सिर्फ इस कोड को साझा नहीं करते; हम अपने पूरे व्यवसाय को इस पर चलाते हैं।</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Aiursoft पारिस्थितिकी तंत्र द्वारा विश्वसनीय</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>आपके नियंत्रण में</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>एकीकृत वातावरण</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>इसे अपने SaaS की नींव के रूप में, अपने मोबाइल ऐप के लिए बैकएंड के रूप में, एक कॉर्पोरेट वेबसाइट के रूप में, या एक व्यक्तिगत ब्लॉग के रूप में उपयोग करें। संभावनाएं अनंत हैं।</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>सत्यापित पहचान</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>GitHub पर देखें</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>सुविधाजनक रूप से वोट करें</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>लाइव वोटों को सुंदर और पढ़ने में आसान चार्ट और डेटा सारांश के साथ देखें।</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>हमने Aiursoft Polls इसलिए बनाया क्योंकि हम एक ऐसा पोलिंग टूल चाहते थे जो उपयोगकर्ताओं की गोपनीयता का सम्मान करे और हमारे मौजूद पहचान प्रणालियों के साथ बिना किसी बाधा के एकीकृत हो। यह केवल वोटिंग के बारे में नहीं है; यह आपके समुदाय या टीम के साथ डेटा नियंत्रण को समर्पित किए बिना एक विश्वसनीय फीडबैक लूप बनाने के बारे में है।</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>स्वागत है</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>हमारे डेवलपर्स क्या कहते हैं</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>मदद कहाँ पा सकता हूँ?</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>Aiursoft Polls क्यों चुनें?</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>Aiursoft टेम्प्लेट क्यों चुनें?</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>विंडोज़/लिनक्स/मैक</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>हाँ, Aiursoft Polls पूरी तरह से मुफ्त और खुला स्रोत है जो MIT लाइसेंस के तहत उपलब्ध है। आप इसे निजी और वाणिज्यिक परियोजनाओं के लिए स्वयं होस्ट कर सकते हैं, बिना किसी खर्च के।</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>हाँ, Aiursoft Template MIT लाइसेंस के तहत पूरी तरह से मुफ़्त और ओपन-सोर्स है। आप इसे किसी भी लागत के बिना व्यक्तिगत और व्यावसायिक परियोजनाओं के लिए उपयोग कर सकते हैं।</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>आप GitHub Discussions के माध्यम से समुदाय सहायता प्राप्त कर सकते हैं या अधिक विवरण के लिए हमारे दस्तावेज़ों की जांच कर सकते हैं।</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>आप GitHub Discussions के माध्यम से सामुदायिक सहायता प्राप्त कर सकते हैं। कृपया हमारे</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>आपका डेटा आपका है</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>आपको .NET 10 SDK, npm और अपना पसंदीदा IDE, जैसे Visual Studio या JetBrains Rider की आवश्यकता होगी। आप हमारे दस्तावेज़ीकरण में पूर्ण सेटअप गाइड पा सकते हैं।</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>आपका डेटा</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>आपके एंटरप्राइज उपयोगकर्ता को बार-बार पंजीकरण की आवश्यकता नहीं है।</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>आपके उपयोगकर्ताओं को दूसरा खाता नहीं चाहिए। अपने मौजूदा एंटरप्राइज पहचान का उपयोग करें।</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Övergripande rapport</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>Skapa en omröstning</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>Skapa komplexa undersökningar med flera frågor i en enda omröstning, med stöd för olika svarstyper.</value>
   </data>

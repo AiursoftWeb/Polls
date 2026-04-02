@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Dækningsoversigt</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>Opret en afstemning</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>Opret komplekse undersøgelser med flere spørgsmål i én afstemning, der understøtter forskellige svartyper.</value>
   </data>

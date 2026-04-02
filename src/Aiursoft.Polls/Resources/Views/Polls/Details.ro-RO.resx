@@ -24,6 +24,9 @@
   <data name="Add Question" xml:space="preserve">
     <value>Adaugă întrebare</value>
   </data>
+  <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest sondaj? Aceasta este o ștergere moale.</value>
+  </data>
   <data name="Are you sure you want to delete this question?" xml:space="preserve">
     <value>Ești sigur că dorești să ștergi această întrebare?</value>
   </data>
@@ -53,6 +56,9 @@
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Scadență:</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Șterge</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Edit</value>

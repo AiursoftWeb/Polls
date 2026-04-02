@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Coverage Rapport</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>Poll maken</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>Maak complexe enquêtes met meerdere vragen in één peiling, met ondersteuning voor diverse reactietypes.</value>
   </data>

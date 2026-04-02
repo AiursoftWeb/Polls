@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Rapporto copertura</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>Crea un sondaggio</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>Crea sondaggi complessi con più domande in un unico sondaggio, supportando vari tipi di risposta.</value>
   </data>

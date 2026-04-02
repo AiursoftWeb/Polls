@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>覆盖率报告</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>创建投票</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>在单个投票中创建包含多个问题的复杂调查，支持各种响应类型。</value>
   </data>

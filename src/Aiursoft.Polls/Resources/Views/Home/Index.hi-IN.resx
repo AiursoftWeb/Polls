@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>कवरेज रिपोर्ट</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>पOLL बनाएं</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>एक ही पोल में कई प्रश्नों वाले जटिल सर्वेक्षण बनाएं, जिसमें विभिन्न प्रतिक्रिया प्रकारों का समर्थन किया जाता है।</value>
   </data>

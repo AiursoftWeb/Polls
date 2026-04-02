@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>تقرير التغطية</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>إنشاء استبيان</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>إنشاء استطلاعات معقدة تحتوي على أسئلة متعددة في استبيان واحد، مع دعم أنواع استجابة متنوعة.</value>
   </data>

@@ -24,6 +24,9 @@
   <data name="Add Question" xml:space="preserve">
     <value>新增問題</value>
   </data>
+  <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
+    <value>確定要刪除此投票嗎？此為軟刪除。</value>
+  </data>
   <data name="Are you sure you want to delete this question?" xml:space="preserve">
     <value>您確定要刪除此問題嗎？</value>
   </data>
@@ -53,6 +56,9 @@
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>截止日期：</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>

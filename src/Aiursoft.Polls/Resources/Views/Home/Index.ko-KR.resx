@@ -252,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>커버리지 리포트</value>
   </data>
+  <data name="Create a poll" xml:space="preserve">
+    <value>폴 생성하기</value>
+  </data>
   <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
     <value>다양한 응답 유형을 지원하는 단일 설문조사에서 여러 질문이 포함된 복잡한 설문조사를 생성하세요.</value>
   </data>

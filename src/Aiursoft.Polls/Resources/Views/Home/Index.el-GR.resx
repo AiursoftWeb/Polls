@@ -33,14 +33,29 @@
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Μια πλήρως ανταποκρινόμενη διάταξη που φαίνεται εξαιρετική τόσο σε επιτραπέζιους υπολογιστές όσο και σε κινητές συσκευές.</value>
   </data>
+  <data name="A fully responsive voting experience that works perfectly on any smartphone or tablet." xml:space="preserve">
+    <value>Μια πλήρως ανταποκρινόμενη εμπειρία ψηφοφορίας που λειτουργεί άψογα σε οποιαδήποτε smartphone ή tablet.</value>
+  </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Απόλυτα. Μπορείτε να ορίσετε τα δημοσκοπήσεις να είναι δημόσιες, μόνο για εγγεγραμμένους χρήστες, ή περιορισμένες σε συγκεκριμένους ρόλους συγχρονισμένους από τον πάροχο ταυτότητά σας.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
   </data>
+  <data name="ACID Ready" xml:space="preserve">
+    <value>Έτοιμο για ACID</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Ενσωμάτωση Active Directory</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Περιλαμβάνεται το site διαχείρισης</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Προηγμένοι Τύποι Ερωτήσεων</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Μετάφραση με Βάση την Τεχνητή Νοημοσύνη</value>
@@ -51,6 +66,15 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
   </data>
+  <data name="Aiursoft Polls" xml:space="preserve">
+    <value>Aiursoft Polls</value>
+  </data>
+  <data name="Aiursoft Polls is fully dockerized. You can run it with a single &apos;docker run&apos; command or deploy it to a Docker Swarm or Kubernetes cluster for high availability." xml:space="preserve">
+    <value>Το Aiursoft Polls είναι πλήρως dockerized. Μπορείτε να το εκτελέσετε με μία εντολή &apos;docker run&apos; ή να το εγκαταστήσετε σε ένα cluster Docker Swarm ή Kubernetes για υψηλή διαθεσιμότητα.</value>
+  </data>
+  <data name="Aiursoft Polls is the foundation for feedback across our various services. We don&apos;t just share this code; we use it to listen to our users every day." xml:space="preserve">
+    <value>Το Aiursoft Polls αποτελεί τη βάση για τη λήψη ανατροφοδότησης σε διάφορες υπηρεσίες μας. Δεν μοιραζόμαστε απλώς αυτόν τον κώδικα· τον χρησιμοποιούμε για να ακούμε τους χρήστες μας κάθε μέρα.</value>
+  </data>
   <data name="Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template</value>
   </data>
@@ -60,14 +84,29 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Όλες οι εξαρτήσεις εγγράφονται αυτόματα και είναι πάντα διαθέσιμες μέσω της εισαγωγής από κατασκευαστή.</value>
   </data>
+  <data name="Allow participants to select one or more options that apply to them." xml:space="preserve">
+    <value>Επιτρέψτε στους συμμετέχοντες να επιλέξουν μία ή περισσότερες επιλογές που ισχύουν για αυτούς.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Αναλυτικά</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anti-Cheat" xml:space="preserve">
+    <value>Αντι-Απάτη</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Μετάφραση της Τεχνητής Νοημοσύνης</value>
+  </data>
+  <data name="Audit Logging" xml:space="preserve">
+    <value>Καταγραφή ελέγχου</value>
+  </data>
+  <data name="Audit Trail" xml:space="preserve">
+    <value>Αρχείο Ελέγχου</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -87,8 +126,14 @@
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Αυτόματη Ενσωμάτωση Εξαρτήσεων</value>
   </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Αυτόματες προσαρμογές πλοήγησης με βάση τα δικαιώματα διαχείρισής σας.</value>
+  </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Αυτόματη συγχρονισμός ρόλων</value>
+  </data>
+  <data name="Automatic Sync" xml:space="preserve">
+    <value>Αυτόματη Συγχρονισμός</value>
   </data>
   <data name="Automatic Time Zone Handling" xml:space="preserve">
     <value>Αυτόματη Διαχείριση Ζώνης Ώρας</value>
@@ -105,11 +150,20 @@
   <data name="Automatically deploy to Docker Swarm or Kubernetes clusters." xml:space="preserve">
     <value>Αυτόματη αποστολή σε κόμβους Docker Swarm ή Kubernetes.</value>
   </data>
+  <data name="Automatically deploy to your Docker Swarm or Kubernetes clusters." xml:space="preserve">
+    <value>Αυτόματη εγκατάσταση στο Docker Swarm ή στους συρμούς Kubernetes.</value>
+  </data>
   <data name="Automatically sync OpenID roles. Unified Rule management." xml:space="preserve">
     <value>Αυτόματη συγχρονισμός ρόλων OpenID. Ομοιομορφισμός διαχείρισης κανόνων.</value>
   </data>
+  <data name="Automatically sync your organizational roles for voting restrictions." xml:space="preserve">
+    <value>Συγχρονίστε αυτόματα τους ρόλους της οργάνωσής σας για περιορισμούς ψηφοφορίας.</value>
+  </data>
   <data name="Background Job Processing" xml:space="preserve">
     <value>Επεξεργασία Υπόβαθρο Εργασίας</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Βασικό</value>
   </data>
   <data name="Beginner Friendly" xml:space="preserve">
     <value>Φιλικό για αρχάριους</value>
@@ -132,6 +186,12 @@
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Κατασκευασμένο με επιχειρηματικής τάξης αλλά εύκολο στη μάθηση φυσικό C#.</value>
   </data>
+  <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
+    <value>Δημιουργήθηκε με αυστηρούς κανόνες επικύρωσης για να διασφαλιστεί ότι κάθε ψήφος είναι έγκυρη και ασφαλής.</value>
+  </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>Κατασκευασμένο με πυρήνα UTC, εξασφαλίζοντας ότι οι ώρες λήξης των δημοσκοπήσεων είναι συνεπείς σε όλες τις ζώνες ώρας.</value>
+  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Ενσωματωμένο</value>
   </data>
@@ -144,8 +204,23 @@
   <data name="Built-in Job Queue GUI" xml:space="preserve">
     <value>Ενσωματωμένο GUI για ουρά εργασιών</value>
   </data>
+  <data name="Built-in SQLite support for small teams, or scale to MySQL for enterprise use." xml:space="preserve">
+    <value>Ενσωματωμένη υποστήριξη SQLite για μικρές ομάδες, ή κλιμάκωση σε MySQL για επιχειρηματική χρήση.</value>
+  </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
+  </data>
+  <data name="Can I restrict who can vote?" xml:space="preserve">
+    <value>Μπορώ να περιορίσω ποιοι μπορούν να ψηφίσουν;</value>
+  </data>
+  <data name="Choose to hide results until the poll ends, keep them private to the owner, or show them to everyone." xml:space="preserve">
+    <value>Επιλέξτε να αποκρύψετε τα αποτελέσματα μέχρι να ολοκληρωθεί η ψηφοφορία, να τα διατηρήσετε ιδιωτικά για τον ιδιοκτήτη ή να τα εμφανίσετε σε όλους.</value>
+  </data>
+  <data name="Classic radio-button style questions where participants select exactly one option." xml:space="preserve">
+    <value>Ερωτήσεις στυλ κλασικού κουμπιού επιλογής όπου οι συμμετέχοντες επιλέγουν ακριβώς μία επιλογή.</value>
+  </data>
+  <data name="Cloud Ready" xml:space="preserve">
+    <value>Έτοιμο για Cloud</value>
   </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Διαθέτει υποστήριξη για Docker για απλούς και συνεκτικούς τρόπους μεταφοράς.</value>
@@ -177,6 +252,9 @@
   <data name="Coverage Report" xml:space="preserve">
     <value>Αναφορά κάλυψης</value>
   </data>
+  <data name="Create complex surveys with multiple questions in a single poll, supporting various response types." xml:space="preserve">
+    <value>Δημιουργήστε σύνθετες έρευνες με πολλαπλές ερωτήσεις σε μία ψηφοφορία, υποστηρίζοντας διάφορους τύπους απαντήσεων.</value>
+  </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Διαπλατφορμικό</value>
   </data>
@@ -186,11 +264,20 @@
   <data name="Custom development required" xml:space="preserve">
     <value>Απαιτείται προσαρμοσμένη ανάπτυξη</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Προσαρμοσμένο Όνομα Δομενίου</value>
+  </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Πίνακας ελέγχου για εργασίες στο παρασκήνιο</value>
   </data>
   <data name="Dashboard Website" xml:space="preserve">
     <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
+  </data>
+  <data name="Data Export" xml:space="preserve">
+    <value>Εξαγωγή Δεδομένων</value>
+  </data>
+  <data name="Data harvesting common" xml:space="preserve">
+    <value>Η συλλογή δεδομένων είναι συνηθισμένη</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Ημέρα 1 Συμμόρφωση &amp; Ασφάλεια.</value>
@@ -200,6 +287,9 @@
   </data>
   <data name="Deep integration testing with Authentik. Compatible with Okta." xml:space="preserve">
     <value>Ακριβής δοκιμή ενσωμάτωσης με Authentik. Συμβατό με Okta.</value>
+  </data>
+  <data name="Deep integration with Authentik. Fully compatible with Okta." xml:space="preserve">
+    <value>Βαθιά ενσωμάτωση με το Authentik. Πλήρης συμβατότητα με το Okta.</value>
   </data>
   <data name="Deep integration with DotLang AI" xml:space="preserve">
     <value>Βαθιά ολοκλήρωση με το DotLang AI</value>
@@ -212,6 +302,9 @@
   </data>
   <data name="Designed for the container era. Includes pre-configured CI/CD pipelines for GitLab. Push code, pass strictly linting, auto-test, and deploy to Docker Swarm or Kubernetes automatically." xml:space="preserve">
     <value>Σχεδιάστηκε για την εποχή των container. Συμπεριλαμβάνει προ-διαμορφωμένους CI/CD pipelines για το GitLab. Ανεβάστε κώδικα, περάστε το στριμούλι, αυτόματη δοκιμή και αυτόματη εγκατάσταση σε Docker Swarm ή Kubernetes.</value>
+  </data>
+  <data name="Designed for the container era. Includes pre-configured CI/CD pipelines. Push code, pass tests, and deploy to your infrastructure automatically." xml:space="preserve">
+    <value>Σχεδιασμένο για την εποχή των containers. Περιλαμβάνει προ-ρυθμισμένες ροές εργασίας CI/CD. Ωθήστε τον κώδικα, περάστε τις δοκιμές και αναπτύξτε αυτόματα στην υποδομή σας.</value>
   </data>
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
@@ -237,14 +330,23 @@
   <data name="Dockerized for Easy Deployment" xml:space="preserve">
     <value>Dockerized for Easy Deployment</value>
   </data>
+  <data name="Download all submissions in standard formats for offline analysis in Excel or other tools." xml:space="preserve">
+    <value>Κατεβάστε όλες τις υποβολές σε τυπικές μορφές για ανάλυση εκτός σύνδεσης στο Excel ή σε άλλα εργαλεία.</value>
+  </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Δυναμική Γραμμή Πλοήγησης</value>
+  </data>
+  <data name="Easily add, remove, and reorder options for your choices at any time before voting starts." xml:space="preserve">
+    <value>Προσθέστε, αφαιρέστε και αναδιατάξετε εύκολα τις επιλογές των επιλογών σας ανά πάσα στιγμή πριν ξεκινήσει η ψηφοφορία.</value>
   </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Εύκολη αλλαγή μεταξύ προμηθευτών βάσης δεδομένων, συμπεριλαμβανομένου του SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
   </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Εύκολη εναλλαγή μεταξύ παρόχων όπως SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
+  </data>
+  <data name="Easy Deployment" xml:space="preserve">
+    <value>Εύκολη Εγκατάσταση</value>
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Εύκολα γράψτε δοκιμές ενοποίησης χρησιμοποιώντας βάσεις δεδομένων στη μνήμη, προσωρινά συστήματα αρχείων, ενσωματωμένη μοκινγκ και πραγματικές εξελίξεις HTTP αιτήσεων.</value>
@@ -261,14 +363,29 @@
   <data name="Enterprise Features" xml:space="preserve">
     <value>Επαγγελματικά Χαρακτηριστικά</value>
   </data>
+  <data name="Enterprise Grade" xml:space="preserve">
+    <value>Κατηγορίας Επιχειρήσεων</value>
+  </data>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Μόνο για το επιχειρηματικό πλάνο</value>
+  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Έτοιμο για Επιχειρήσεις</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Επιχειρηματική Ασφάλεια</value>
   </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>Επιχειρηματικό SSO</value>
+  </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Περιλαμβάνεται το Entity Framework Core</value>
+  </data>
+  <data name="Every modification to a poll is logged for full transparency and accountability." xml:space="preserve">
+    <value>Κάθε τροποποίηση σε μια ψηφοφορία καταγράφεται για πλήρη διαφάνεια και λογοδοσία.</value>
+  </data>
+  <data name="Everything you need for successful polling." xml:space="preserve">
+    <value>Όλα όσα χρειάζεστε για επιτυχημένες ψηφοφορίες.</value>
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>Συχνές Ερωτήσεις</value>
@@ -294,8 +411,14 @@
   <data name="Flexible API" xml:space="preserve">
     <value>Ευέλικτη API</value>
   </data>
+  <data name="Flexible Management" xml:space="preserve">
+    <value>Εύκαμπτη Διαχείριση</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
+  </data>
+  <data name="For Everyone." xml:space="preserve">
+    <value>Για Όλους.</value>
   </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Ιδρυτής &amp; Αρχιτέκτονας στο Aiursoft</value>
@@ -318,6 +441,12 @@
   <data name="From the Architect" xml:space="preserve">
     <value>Από τον Αρχιτέκτονα</value>
   </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Πλήρες αρχείο ελέγχου για τροποποιήσεις και ενέργειες διαχείρισης των δημοσκοπήσεων.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Πλήρης έλεγχος</value>
+  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>Πλήρης RBAC</value>
   </data>
@@ -330,17 +459,32 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Πλήρως Αποσυνδεδεμένο</value>
   </data>
+  <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
+    <value>Συλλέξτε ποιοτικά σχόλια με ερωτήσεις ανοιχτού κειμένου για αναλυτικές απαντήσεις.</value>
+  </data>
+  <data name="Gather the right data, every time." xml:space="preserve">
+    <value>Συλλέξτε τα σωστά δεδομένα, κάθε φορά.</value>
+  </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>Συμμόρφωση με το GDPR από σχεδιασμό. Εσείς κατέχετε τη βάση δεδομένων.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Γενική ρύθμιση</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Μόνο γενικό αρχείο Dockerfile</value>
   </data>
+  <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
+    <value>Τα γενικά εργαλεία ερευνών συχνά είναι υπερβολικά ακριβά και συλλέγουν τα δεδομένα σας. Το Aiursoft Polls προσφέρει μια καθαρή, γρήγορη και ιδιωτική εναλλακτική που μπορείτε να φιλοξενήσετε μόνοι σας. Εστιάζουμε στην απλότητα και την ασφάλεια, ώστε εσείς να εστιάσετε στις ερωτήσεις σας.</value>
+  </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
   </data>
   <data name="GitLab CI/CD Native" xml:space="preserve">
     <value>Γεννήθηκε GitLab CI/CD</value>
+  </data>
+  <data name="Global Reach" xml:space="preserve">
+    <value>Παγκόσμια Εμβέλεια</value>
   </data>
   <data name="Global Scale" xml:space="preserve">
     <value>Διεθνές Κλίμακα</value>
@@ -350,6 +494,15 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Μετάβαση στον πίνακα ελέγχου</value>
+  </data>
+  <data name="Granular Access Control" xml:space="preserve">
+    <value>Λεπτομερής Έλεγχος Πρόσβασης</value>
+  </data>
+  <data name="Granular roles" xml:space="preserve">
+    <value>Λεπτομερής διαχείριση δικαιωμάτων</value>
+  </data>
+  <data name="Groups support" xml:space="preserve">
+    <value>Υποστήριξη ομάδων</value>
   </data>
   <data name="Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs." xml:space="preserve">
     <value>Διαχείριση επαναλαμβανόμενων εργασιών όπως καθαρισμός και συγχρονισμός με ολοκληρωμένη διεπαφή χρήστη για την παρακολούθηση της ιστορίας εκτέλεσης και των καταγραφών.</value>
@@ -375,8 +528,14 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Συμπεριλαμβάνεται το Horizon</value>
   </data>
+  <data name="Host it yourself. No third-party trackers, no data harvesting. Your polls stay in your network." xml:space="preserve">
+    <value>Φιλοξενήστε το μόνοι σας. Χωρίς τρίτους παρακολουθητές, χωρίς συλλογή δεδομένων. Οι ψηφοφορίες σας παραμένουν στο δίκτυό σας.</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Πώς μπορώ να λάβω υποστήριξη;</value>
+  </data>
+  <data name="How do I deploy it?" xml:space="preserve">
+    <value>Πώς να το αναπτύξω;</value>
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
@@ -387,6 +546,9 @@
   <data name="IDE Support" xml:space="preserve">
     <value>Υποστήριξη IDE</value>
   </data>
+  <data name="Identity Aware" xml:space="preserve">
+    <value>Αισθητήρια Ταυτότητας</value>
+  </data>
   <data name="Included" xml:space="preserve">
     <value>Συμπεριλαμβανόμενο</value>
   </data>
@@ -395,6 +557,9 @@
   </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Περιλαμβάνει Οδηγούς</value>
+  </data>
+  <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
+    <value>Εφαρμογή με πρότυπο βιομηχανίας. Μηδενική δέσμευση.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Ενσωματωμένη Διαχείριση Αρχείων</value>
@@ -408,6 +573,9 @@
   <data name="is Free Software" xml:space="preserve">
     <value>είναι Ελεύθερο Λογισμικό</value>
   </data>
+  <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
+    <value>Είναι δωρεάν η χρήση των Aiursoft Polls;</value>
+  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Είναι δωρεάν η χρήση του Aiursoft Template;</value>
   </data>
@@ -420,11 +588,26 @@
   <data name="Join our growing community of developers building the next generation of web applications." xml:space="preserve">
     <value>Συμμετάσχετε στην αναπτυσσόμενη κοινότητα αναπτυσσόμενων που δημιουργούν την επόμενη γενιά εφαρμογών για το διαδίκτυο.</value>
   </data>
+  <data name="Join our growing community of developers building tools that respect user privacy." xml:space="preserve">
+    <value>Γίνετε μέλος της αναπτυσσόμενης κοινότητας προγραμματιστών που δημιουργούν εργαλεία που σέβονται την ιδιωτικότητα των χρηστών.</value>
+  </data>
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Έτοιμος για K8s / Swarm</value>
   </data>
+  <data name="Lightweight &amp; Fast" xml:space="preserve">
+    <value>Ελαφρύ &amp; Γρήγορο</value>
+  </data>
+  <data name="Limited" xml:space="preserve">
+    <value>Περιορισμένη</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Ελέγχους Lint</value>
+  </data>
+  <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
+    <value>Σύνδεση μέσω OpenID Connect, συμπεριλαμβανομένων των Azure AD και Okta.</value>
+  </data>
+  <data name="Maintain Data Integrity" xml:space="preserve">
+    <value>Διατήρηση Ακεραιότητας Δεδομένων</value>
   </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Διατηρήστε Υψηλή Ποιότητα Κώδικα</value>
@@ -441,11 +624,23 @@
   <data name="MIT License" xml:space="preserve">
     <value>MIT License</value>
   </data>
+  <data name="Mobile First" xml:space="preserve">
+    <value>Πρωταρχική Σχεδίαση για Κινητά</value>
+  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Τα μοντέλα ελέγχονται στην πλευρά του πελάτη και του διακομιστή βάσει των σημειώσεων δεδομένων.</value>
   </data>
+  <data name="Multi-Question Polls" xml:space="preserve">
+    <value>Δημοσκοπήσεις Πολλαπλών Ερωτήσεων</value>
+  </data>
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Χειρισμός Πολλαπλών Ζωνών Ώρας</value>
+  </data>
+  <data name="Multilingual Interface" xml:space="preserve">
+    <value>Πολυγλωσσικό Διεπαφή</value>
+  </data>
+  <data name="Multiple Choice" xml:space="preserve">
+    <value>Πολλαπλής Επιλογής</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Παροχέων Βάσης Δεδομένων</value>
@@ -458,6 +653,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Εργαλεία Μουσικής</value>
+  </data>
+  <data name="Native" xml:space="preserve">
+    <value>Φυτά</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Απαιτείται το CASL ή παρόμοιο</value>
@@ -504,14 +702,29 @@
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Χωρίς εξάρτηση από κάποιον πάροχο cloud. Εκτελέστε παντού, παντότε.</value>
   </data>
+  <data name="No Fake Votes" xml:space="preserve">
+    <value>Όχι ψεύτικες ψήφοι</value>
+  </data>
+  <data name="Not available" xml:space="preserve">
+    <value>Δεν διατίθεται</value>
+  </data>
+  <data name="Not supported" xml:space="preserve">
+    <value>Δεν υποστηρίζεται</value>
+  </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Εκτός Σύνδεσης Εφοδιασμένο</value>
   </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
   </data>
+  <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
+    <value>Μόλις ο χρήστης υποβάλει την απάντησή του, αυτή κλειδώνει για να διασφαλιστεί η ακεραιότητα των δεδομένων και να αποφευχθεί η διπλή ψήφος.</value>
+  </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Μία κλικ για έναρξη</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Άνοιγμα ή κλείσιμο ερωτηματολογίων ανά πάσα στιγμή, διαχείριση ερωτήσεων και επιλογών, και εξαγωγή ακατέργαστων δεδομένων υποβολών.</value>
   </data>
   <data name="Open Source" xml:space="preserve">
     <value>Ανοιχτού Κώδικα</value>
@@ -522,23 +735,68 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Βελτιστοποιημένη διαμόρφωση Docker &amp; K8s</value>
   </data>
+  <data name="Optimized for speed to ensure low latency even on weak network connections." xml:space="preserve">
+    <value>Βελτιστοποιημένο για ταχύτητα ώστε να διασφαλίζεται χαμηλή καθυστέρηση ακόμη και σε αδύναμες συνδέσεις δικτύου.</value>
+  </data>
+  <data name="Option Management" xml:space="preserve">
+    <value>Διαχείριση Επιλογών</value>
+  </data>
+  <data name="Organization Friendly" xml:space="preserve">
+    <value>Φιλικό προς την οργάνωση</value>
+  </data>
   <data name="ORM &amp; Migrations" xml:space="preserve">
     <value>ORM &amp; Μεταναστεύσεις</value>
   </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Έτοιμο προς χρήση</value>
   </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Πληρωμένο</value>
+  </data>
+  <data name="Paid/Limited" xml:space="preserve">
+    <value>Πληρωμένο/Περιορισμένο</value>
+  </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Ανακάλυψη και συγχρονισμός δικαιωμάτων</value>
   </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Ψηφοφορήστε οπουδήποτε, σε οποιαδήποτε γλώσσα.</value>
+  </data>
+  <data name="Poll Features" xml:space="preserve">
+    <value>Λειτουργίες Ψηφοφορίας</value>
+  </data>
+  <data name="Polls vs. Surveys" xml:space="preserve">
+    <value>Ψηφοφορίες vs. Έρευνες</value>
+  </data>
+  <data name="Powerful Polling." xml:space="preserve">
+    <value>Ισχυρή Διεξαγωγή Δημοσκοπήσεων.</value>
+  </data>
   <data name="Pre-configured and tested" xml:space="preserve">
     <value>Προ-ρυθμισμένο και δοκιμασμένο</value>
+  </data>
+  <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
+    <value>Προδιαμορφωμένες γραμμές εργασιών CI/CD για αυτοματοποιημένη δοκιμή.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Προκαθορισμένα CI/CD pipelines ειδικά για το GitLab.</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Προκαθορισμένες διαδρομές για dev/prod</value>
+  </data>
+  <data name="Prevent duplicate voting and unauthorized submissions." xml:space="preserve">
+    <value>Αποφύγετε την ψήφιση με διπλότυπα και τις μη εξουσιοδοτημένες καταχωρήσεις.</value>
+  </data>
+  <data name="Privacy First" xml:space="preserve">
+    <value>Προτεραιότητα στην Προστασία Δεδομένων</value>
+  </data>
+  <data name="Privacy Policy" xml:space="preserve">
+    <value>Πολιτική Απορρήτου</value>
+  </data>
+  <data name="Private &amp; Secure" xml:space="preserve">
+    <value>Ιδιωτικό &amp; Ασφαλές</value>
+  </data>
+  <data name="Proprietary" xml:space="preserve">
+    <value>Ιδιοκτησιακό</value>
   </data>
   <data name="Quality Gate" xml:space="preserve">
     <value>Ποιότητα Πύλης</value>
@@ -549,6 +807,18 @@
   <data name="Read the document" xml:space="preserve">
     <value>Διαβάστε το έγγραφο</value>
   </data>
+  <data name="Real-time" xml:space="preserve">
+    <value>Πραγματικού χρόνου</value>
+  </data>
+  <data name="Real-time Results" xml:space="preserve">
+    <value>Αποτελέσματα σε πραγματικό χρόνο</value>
+  </data>
+  <data name="Reliable DB" xml:space="preserve">
+    <value>Αξιόπιστη ΒΔ</value>
+  </data>
+  <data name="Reliable Results" xml:space="preserve">
+    <value>Αξιόπιστα Αποτελέσματα</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Απαιτεί ρύθμιση Laravel Socialite</value>
   </data>
@@ -558,14 +828,44 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Αποκρισιμό Σχεδιασμό</value>
   </data>
+  <data name="Restict participation based on your organization&apos;s hierarchy and roles." xml:space="preserve">
+    <value>Περιορίστε τη συμμετοχή με βάση την ιεραρχία και τους ρόλους της οργάνωσής σας.</value>
+  </data>
+  <data name="Result Visibility Control" xml:space="preserve">
+    <value>Έλεγχος Ορατότητας Αποτελεσμάτων</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Κριτικές</value>
+  </data>
+  <data name="Rich Features" xml:space="preserve">
+    <value>Πλούσια Χαρακτηριστικά</value>
   </data>
   <data name="Robust Integration Testing" xml:space="preserve">
     <value>Ενισχυμένος Έλεγχος Ολοκλήρωσης</value>
   </data>
+  <data name="Role Discovery" xml:space="preserve">
+    <value>Ανακάλυψη Ρόλων</value>
+  </data>
+  <data name="Role Restrictions" xml:space="preserve">
+    <value>Περιορισμοί Ρόλων</value>
+  </data>
+  <data name="Role-Based Access" xml:space="preserve">
+    <value>Πρόσβαση με βάση τους ρόλους</value>
+  </data>
+  <data name="Role-Based Voting" xml:space="preserve">
+    <value>Ψηφοφορία με βάση τους ρόλους</value>
+  </data>
+  <data name="Roles are automatically synchronized from your identity provider." xml:space="preserve">
+    <value>Οι ρόλοι συγχρονίζονται αυτόματα από τον πάροχο ταυτοποίησής σας.</value>
+  </data>
   <data name="Runs without any internet connection required." xml:space="preserve">
     <value>Λειτουργεί χωρίς να απαιτείται σύνδεση στο διαδίκτυο.</value>
+  </data>
+  <data name="SaaS Only" xml:space="preserve">
+    <value>Μόνο ως SaaS</value>
+  </data>
+  <data name="Scalable" xml:space="preserve">
+    <value>Κλιμακωτό</value>
   </data>
   <data name="Scheduled Task Management" xml:space="preserve">
     <value>Διαχείριση Προγραμματισμένων Εργασιών</value>
@@ -573,11 +873,23 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
   </data>
+  <data name="Secure Voting" xml:space="preserve">
+    <value>Ασφαλής Ψηφοφορία</value>
+  </data>
+  <data name="Self Hosting" xml:space="preserve">
+    <value>Αυτόνομη φιλοξενία</value>
+  </data>
+  <data name="Set your polls to be public, restricted to registered users, or limited to specific organization roles." xml:space="preserve">
+    <value>Ορίστε τα δελτία σας να είναι δημόσια, περιορισμένα σε εγγεγραμμένους χρήστες ή περιορισμένα σε συγκεκριμένους ρόλους της οργάνωσης.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Μετακινηθείτε με αυτοπεποίθηση</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Απλό και εύκολο</value>
+  </data>
+  <data name="Single Choice" xml:space="preserve">
+    <value>Επιλογή μονής απάντησης</value>
   </data>
   <data name="Single Container" xml:space="preserve">
     <value>Μοναδικός Εγκαταστάτης</value>
@@ -591,8 +903,17 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>Έξυπνη διεπαφή που προσαρμόζεται αυτόματα στις ρυθμίσεις σκότους/φωτός του συστήματος του χρήστη.</value>
+  </data>
+  <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
+    <value>Ορίστε ακριβώς ποιοι ρόλοι μπορούν να συμμετέχουν σε κάθε ψηφοφορία.</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Πρότυπη υλοποίηση. Αλλάξτε προμηθευτές χωρίς μεταγλώττιση.</value>
+  </data>
+  <data name="Standard OIDC" xml:space="preserve">
+    <value>Πρότυπο OIDC</value>
   </data>
   <data name="Standard OpenID" xml:space="preserve">
     <value>Standard OpenID</value>
@@ -621,11 +942,29 @@
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Αυστηροί κανόνες lint με 0 προειδοποιήσεις στο προκαθορισμένο έργο.</value>
   </data>
+  <data name="Strict server-side validation for every single response." xml:space="preserve">
+    <value>Αυστηρός έλεγχος στο server για κάθε μεμονωμένη απάντηση.</value>
+  </data>
   <data name="Strict Unit Testing" xml:space="preserve">
     <value>Αυστηρός Έλεγχος Μονάδας</value>
   </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Αυστηρή Επαλήθευση</value>
+  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Ισχυρή και Συνεπής Έλεγχος Κώδικα</value>
+  </data>
+  <data name="Subject to Google policy" xml:space="preserve">
+    <value>Υπόκειται στην πολιτική της Google</value>
+  </data>
+  <data name="Subject to MS policy" xml:space="preserve">
+    <value>Υπόκειται στην πολιτική της MS</value>
+  </data>
+  <data name="Submission Locking" xml:space="preserve">
+    <value>Κλείδωμα Υποβολής</value>
+  </data>
+  <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
+    <value>Υποστηρίζει 28 γλώσσες έτοιμες προς χρήση για μια πραγματικά παγκόσμια κοινότητα.</value>
   </data>
   <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
     <value>Υποστηρίζει και τις δύο μεταβλητές περιβάλλοντος και ρυθμίσεις που βασίζονται σε βάση δεδομένων, με αυτόματη προτεραιότητα προς τις μεταβλητές περιβάλλοντος για ομαλή αντικατάσταση.</value>
@@ -639,8 +978,14 @@
   <data name="Technical Lead" xml:space="preserve">
     <value>Τεχνικός Υπεύθυνος</value>
   </data>
+  <data name="Text Response" xml:space="preserve">
+    <value>Κείμενο</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Η αποφασιστική, δοκιμασμένη στην πράξη βάση επιχειρηματικών εφαρμογών .NET. Από την Αυθεντικοποίηση μέχρι την Τεχνητή Νοημοσύνη, έχουμε λύσει τα δύσκολα μέρη, ώστε να μην χρειαστεί να τα κάνετε εσείς.</value>
+  </data>
+  <data name="The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy." xml:space="preserve">
+    <value>Η οριστική, ανοιχτού κώδικα λύση για τη δημιουργία δημοσκοπήσεων και ερωτηματολογίων. Από την ανατροφοδότηση της ομάδας έως τη μαζική ψηφοφορία, το Aiursoft Polls το κάνει εύκολο.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
@@ -660,8 +1005,20 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Πεδία ευαισθητοποιημένα σε ζώνη ώρας</value>
   </data>
+  <data name="Traceable" xml:space="preserve">
+    <value>Ιχνηλατότητα</value>
+  </data>
+  <data name="Transparent Management" xml:space="preserve">
+    <value>Διαφανής Διαχείριση</value>
+  </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Εμπιστεύεται εφαρμογές προσαρμοσμένες για παραγωγή, συμπεριλαμβανομένων AnduinOS, StatHub και Warp. Δεν μοιραζόμαστε απλώς αυτόν τον κώδικα· τρέχουμε την επιχείρησή μας εντελώς με αυτόν.</value>
+  </data>
+  <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
+    <value>Εμπιστοσύνη από το οικοσύστημα Aiursoft</value>
+  </data>
+  <data name="Under Your Control" xml:space="preserve">
+    <value>Υπό τον έλεγχό σας</value>
   </data>
   <data name="Unified Env" xml:space="preserve">
     <value>Ομοστατικό Περιβάλλον</value>
@@ -675,8 +1032,23 @@
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Χρησιμοποιήστε το ως θεμέλιο για το SaaS σας, ως backend για την εφαρμογή του κινητού σας, ως εταιρική ιστοσελίδα ή ως προσωπικό ιστολόγιο. Οι δυνατότητες είναι ατελείωτες.</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
+  <data name="Verified Identity" xml:space="preserve">
+    <value>Επαληθευμένη Ταυτότητα</value>
+  </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Προβολή στο GitHub</value>
+  </data>
+  <data name="Vote Comfortably" xml:space="preserve">
+    <value>Ψηφίστε άνετα</value>
+  </data>
+  <data name="Watch votes come in live with beautiful, easy-to-read charts and data summaries." xml:space="preserve">
+    <value>Παρακολουθήστε τις ψήφους να καταφτάνουν ζωντανά με όμορφα, εύκολα αναγνώσιμα διαγράμματα και συνοπτικά δεδομένα.</value>
+  </data>
+  <data name="We built Aiursoft Polls because we wanted a polling tool that respects user privacy and integrates seamlessly with our existing identity systems. It&apos;s not just about voting; it&apos;s about building a reliable feedback loop with your community or team without sacrificing data control." xml:space="preserve">
+    <value>Δημιουργήσαμε το Aiursoft Polls επειδή θέλαμε ένα εργαλείο ψηφοφορίας που σέβεται την ιδιωτικότητα των χρηστών και ενσωματώνεται άψογα με τα υπάρχοντα συστήματα ταυτότητάς μας. Δεν αφορά απλώς την ψηφοφορία· αφορά τη δημιουργία ενός αξιόπιστου βρόχου ανατροφοδότησης με την κοινότητά σας ή την ομάδα σας χωρίς να θυσιάζεται ο έλεγχος των δεδομένων.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Καλώς ήρθατε</value>
@@ -687,6 +1059,12 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Τι λένε οι προγραμματιστές μας</value>
   </data>
+  <data name="Where can I find help?" xml:space="preserve">
+    <value>Πού μπορώ να βρω βοήθεια;</value>
+  </data>
+  <data name="Why choose Aiursoft Polls?" xml:space="preserve">
+    <value>Γιατί να επιλέξετε τα Aiursoft Polls;</value>
+  </data>
   <data name="Why choose Aiursoft Template?" xml:space="preserve">
     <value>Γιατί να επιλέξετε το Aiursoft Template;</value>
   </data>
@@ -696,17 +1074,32 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Yes, Aiursoft Polls is completely free and open-source under the MIT License. You can host it yourself for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ναι, το Aiursoft Polls είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το φιλοξενήσετε μόνοι σας για προσωπικά και εμπορικά έργα χωρίς κανένα κόστος.</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions or check our documentation for more details." xml:space="preserve">
+    <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των GitHub Discussions ή να ελέγξετε την τεκμηρίωσή μας για περισσότερες λεπτομέρειες.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των Συζητήσεων GitHub. Παρακαλούμε επισκεφτείτε την</value>
   </data>
+  <data name="You own the data" xml:space="preserve">
+    <value>Κατέχετε τα δεδομένα</value>
+  </data>
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Θα χρειαστείτε το .NET 10 SDK, το npm και το αγαπημένο σας περιβάλλον ανάπτυξης (IDE), όπως το Visual Studio ή το JetBrains Rider. Μπορείτε να βρείτε τον πλήρη οδηγό ρύθμισης στην τεκμηρίωσή μας.</value>
   </data>
+  <data name="Your Data" xml:space="preserve">
+    <value>Τα Δεδομένα Σας</value>
+  </data>
   <data name="Your enterprise users don&apos;t need to register repeatedly." xml:space="preserve">
     <value>Οι χρήστες της επιχείρησής σας δεν χρειάζεται να εγγραφούν εκ νέου.</value>
+  </data>
+  <data name="Your users don&apos;t need another account. Use your existing enterprise identity." xml:space="preserve">
+    <value>Οι χρήστες σας δεν χρειάζονται άλλο λογαριασμό. Χρησιμοποιήστε την υπάρχουσα ταυτότητα της επιχείρησής σας.</value>
   </data>
   <data name="Yubikey &amp; TOTP" xml:space="preserve">
     <value>Yubikey &amp; TOTP</value>

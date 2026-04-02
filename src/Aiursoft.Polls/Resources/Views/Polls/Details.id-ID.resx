@@ -66,7 +66,7 @@
   <data name="Extend" xml:space="preserve">
     <value>Perpanjang</value>
   </data>
-  <data name="Invalidate" xml:space="preserve">
+  <data name="Delete" xml:space="preserve">
     <value>Invalidate</value>
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">

@@ -43,9 +43,9 @@
                     </form>
                 }
             }
-            <form asp-action="Invalidate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to invalidate this poll? This is a soft delete."]')">
+            <form asp-action="Invalidate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to delete this poll? This is a soft delete."]')">
                 <input type="hidden" name="id" value="@Model.Poll.Id" />
-                <button type="submit" class="btn btn-outline-danger">@Localizer["Invalidate"]</button>
+                <button type="submit" class="btn btn-outline-danger">@Localizer["Delete"]</button>
             </form>
         }
 

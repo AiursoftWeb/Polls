@@ -20,8 +20,8 @@
                 </h1>
                 <p class="text-lg text-white-50">@Localizer["The definitive, open-source solution for creating polls and surveys. From team feedback to large-scale voting, Aiursoft Polls makes it easy."]</p>
                 <div class="my-4">
-                    <a class="btn btn-primary btn-lg btn-pill" href="https://template-docs.aiursoft.com/en/Tutorial/before.html">
-                        <i class="align-middle" data-lucide="rocket"></i> @Localizer["Start a new project"]
+                    <a asp-controller="Polls" asp-action="Create" class="btn btn-primary btn-lg btn-pill">
+                        <i class="align-middle" data-lucide="rocket"></i> @Localizer["Create a poll"]
                     </a>
                     <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-primary btn-lg btn-pill">
                         <i class="align-middle" data-lucide="grid"></i> @Localizer["Go to dashboard"]
@@ -469,103 +469,6 @@
     </div>
 </section>
 
-                    <section class="immersive-section position-relative w-100 overflow-hidden d-flex align-items-center border-top border-white-10">
-
-                        <div class="immersive-bg">
-                            <div class="bg-image-wrapper">
-                                 <a asp-controller="Polls" asp-action="Index">
-                                     <img src="~/images/running_lint.webp" alt="High Quality Results" class="img-fluid object-fit-cover w-100 h-100">
-                                 </a>
-                            </div>
-                            <div class="bg-overlay"></div>
-                        </div>
-
-                        <div class="container position-relative z-2 py-5">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-6 col-md-12">
-
-                                    <div class="mb-5 text-start ps-lg-4">
-                                        <div class="d-inline-flex align-items-center px-3 py-1 mb-3 rounded-pill border border-white-10 bg-dark-glass-sm backdrop-blur">
-                                            <span class="text-success me-2"><i class="fas fa-check-double"></i></span>
-                                            <span class="text-gray-300 small fw-medium text-uppercase tracking-wider">@Localizer["Reliable Results"]</span>
-                                        </div>
-                                        <h2 class="display-4 fw-bold text-white mb-3">
-                                            <span class="text-primary">@Localizer["Maintain Data Integrity"]</span><br>
-                                            @Localizer["Strict Validation"]
-                                        </h2>
-                                        <p class="lead text-gray-400 fs-5">
-                                            @Localizer["Built with strict validation rules to ensure every vote is valid and secure."]
-                                        </p>
-                                    </div>
-
-                                    <div class="row g-3 ps-lg-4">
-
-                                        @* Card 1: Anti-Cheat *@
-                                        <div class="col-md-6">
-                                            <div class="card bg-dark-glass border-white-10 h-100 hover-lift">
-                                                <div class="card-body p-4">
-                                                    <div class="icon-box-sm bg-warning-subtle text-warning rounded-3 me-3 mb-3">
-                                                        <i class="fas fa-shield-virus fa-lg"></i>
-                                                    </div>
-                                                    <h5 class="fw-bold text-white fs-6">@Localizer["Anti-Cheat"]</h5>
-                                                    <p class="text-gray-400 mb-0 lh-sm"> @Localizer["Prevent duplicate voting and unauthorized submissions."]</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        @* Card 2: Server-Side Validation *@
-                                        <div class="col-md-6">
-                                             <div class="card bg-dark-glass border-white-10 h-100 hover-lift">
-                                                <div class="card-body p-4">
-                                                    <div class="icon-box-sm bg-primary-subtle text-primary rounded-3 me-3 mb-3">
-                                                        <i class="fas fa-user-check fa-lg"></i>
-                                                    </div>
-                                                    <h5 class="fw-bold text-white fs-6">@Localizer["Secure Voting"]</h5>
-                                                    <p class="text-gray-400 mb-0 lh-sm"> @Localizer["Strict server-side validation for every single response."]</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        @* Card 3: Operation Logs *@
-                                        <div class="col-12">
-                                            <div class="card bg-dark-glass border-white-10 h-100 hover-lift">
-                                                <div class="card-body p-4 d-flex align-items-center">
-                                                    <div class="icon-box-sm bg-white-10 text-white rounded-3 me-3">
-                                                        <i class="fas fa-clipboard-check"></i>
-                                                    </div>
-                                                    <div>
-                                                        <h5 class="fw-bold text-white mb-1 fs-6"> @Localizer["Transparent Management"]</h5>
-                                                        <p class="text-gray-400 mb-0">@Localizer["Full audit trail for poll modifications and management actions."]</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <div class="card bg-dark-glass border-white-10 h-100 hover-lift text-center py-2">
-                                                <div class="card-body p-2">
-                                                    <i class="fas fa-microchip text-danger mb-2 fs-5"></i>
-                                                    <div class="text-gray-300 fw-bold" style="font-size: 0.75rem">@Localizer["Scalable"]</div>
-                                                    <div class="text-gray-500">@Localizer["Cloud Ready"]</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="card bg-dark-glass border-white-10 h-100 hover-lift text-center py-2">
-                                                <div class="card-body p-2">
-                                                    <i class="fas fa-database text-success mb-2 fs-5"></i>
-                                                    <div class="text-gray-300 fw-bold" style="font-size: 0.75rem">@Localizer["Reliable DB"]</div>
-                                                    <div class="text-gray-500">@Localizer["ACID Ready"]</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
 <section class="py-6 bg-light">
     <div class="container">
         <div class="mb-5 text-center px-4">
@@ -609,14 +512,6 @@
                         <td><i class="fas fa-times-circle text-danger" data-bs-toggle="tooltip" title="@Localizer["Proprietary"]"></i></td>
                     </tr>
                     <tr>
-                        <td class="text-start fw-medium">@Localizer["Privacy Policy"]</td>
-                        <td><i class="fas fa-check-circle text-success" data-bs-toggle="tooltip" title="@Localizer["You own the data"]"></i></td>
-                        <td><i class="fas fa-exclamation-circle text-warning" data-bs-toggle="tooltip" title="@Localizer["Subject to MS policy"]"></i></td>
-                        <td><i class="fas fa-exclamation-circle text-warning" data-bs-toggle="tooltip" title="@Localizer["Subject to Google policy"]"></i></td>
-                        <td><i class="fas fa-exclamation-circle text-warning" data-bs-toggle="tooltip" title="@Localizer["Data harvesting common"]"></i></td>
-                        <td><i class="fas fa-exclamation-circle text-warning" data-bs-toggle="tooltip" title="@Localizer["Data harvesting common"]"></i></td>
-                    </tr>
-                    <tr>
                         <td class="text-start fw-medium">@Localizer["Active Directory Integration"]</td>
                         <td><i class="fas fa-check-circle text-success" data-bs-toggle="tooltip" title="@Localizer["Standard OIDC"]"></i></td>
                         <td><i class="fas fa-check-circle text-success" data-bs-toggle="tooltip" title="@Localizer["Native"]"></i></td>
@@ -651,53 +546,11 @@
     </div>
 </section>
 
-<section class="py-6 bg-white">
-    <div class="container position-relative z-3">
-        <div class="row">
-            <div class="col-md-12 mx-auto text-center">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-9 mx-auto">
-                        <div class="mb-4">
-                            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Usage"]</span>
-                            <h2 class="h1 mb-3">@Localizer["Trusted by the Aiursoft Ecosystem"]</h2>
-                            <p class="text-muted fs-lg">
-                                @Localizer["Aiursoft Polls is the foundation for feedback across our various services. We don't just share this code; we use it to listen to our users every day."]
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 py-3">
-                        <a href="https://stathub.aiursoft.com/" target="_blank">
-                            <img gallery src="https://stathub.aiursoft.com/images/screenshot.png" class="img-fluid" loading="lazy" alt="StatHub" />
-                        </a>
-                        <h4 class="mt-3">StatHub</h4>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <a href="https://musictools.aiursoft.com/" target="_blank">
-                            <img gallery src="https://musictools.aiursoft.com/images/screenshot.png" class="img-fluid" loading="lazy" alt="Music Tools"/>
-                        </a>
-                        <h4 class="mt-3">Music Tools</h4>
-                    </div>
-                    <div class="col-md-4 py-3">
-                        <a href="https://marktohtml.aiursoft.com/" target="_blank">
-                            <img gallery src="https://marktohtml.aiursoft.com/images/screenshot.png" class="img-fluid" loading="lazy" alt="Markdown To HTML"/>
-                        </a>
-                        <h4 class="mt-3">Markdown To HTML</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section class="immersive-section position-relative w-100 overflow-hidden d-flex align-items-center border-top border-white-10">
 
     <div class="immersive-bg-right">
         <div class="bg-image-wrapper clean-wrapper">
-             <a href="https://github.com/aiursoftweb/Aiursoft.Polls" target="_blank">
+             <a href="https://github.com/aiursoftweb/polls" target="_blank">
                  <img src="~/images/gitlab_pipelines.webp" alt="Shift with confidence" class="img-fluid object-fit-cover w-100 h-100">
              </a>
         </div>
@@ -970,81 +823,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="immersive-section position-relative w-100 overflow-hidden d-flex align-items-center border-top border-white-10">
-
-    <div class="immersive-bg">
-        <div class="bg-image-wrapper clean-wrapper">
-             <a href="https://github.com/aiursoftweb/Aiursoft.Polls" target="_blank">
-                 <img src="~/images/github.webp" alt="GitHub Repository" class="img-fluid object-fit-cover w-100 h-100">
-             </a>
-        </div>
-        <div class="bg-overlay"></div>
-    </div>
-
-    <div class="container position-relative z-2 py-5">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-6 col-md-12">
-
-                <div class="mb-5 text-start ps-lg-4">
-                    <div class="d-inline-flex align-items-center px-3 py-1 mb-3 rounded-pill border border-white-10 bg-dark-glass-sm backdrop-blur">
-                        <span class="text-white me-2"><i class="fab fa-github"></i></span>
-                        <span class="text-gray-300 small fw-medium text-uppercase tracking-wider">@Localizer["Free Software"]</span>
-                    </div>
-                    <h2 class="display-4 fw-bold text-white mb-3">
-                        <span class="text-primary">@Localizer["Aiursoft Polls"]</span><br>
-                        @Localizer["is Free Software"]
-                    </h2>
-                    <p class="lead text-gray-400 fs-5">
-                        @Localizer["Full stack open source. Completely free software, no paid features. Built entirely on open standards."]
-                    </p>
-                     <p class="text-gray-400">
-                         @Localizer["Join our growing community of developers building tools that respect user privacy."]
-                    </p>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-                        <span class="badge bg-success-subtle text-success border border-success-subtle p-2">
-                            <i class="fas fa-balance-scale me-1"></i> @Localizer["MIT License"]
-                        </span>
-                        <span class="badge bg-info-subtle text-info border border-info-subtle p-2">
-                            <i class="fas fa-store me-1"></i> @Localizer["Free for Commercial Use"]
-                        </span>
-                        <span class="badge bg-warning-subtle text-warning border border-warning-subtle p-2">
-                            <i class="fas fa-code me-1"></i> @Localizer["Full Stack Open Source"]
-                        </span>
-                    </div>
-
-                    <div class="mt-4">
-                        <a href="https://github.com/aiursoftweb/Aiursoft.Polls" target="_blank" class="btn btn-primary btn-lg btn-pill">
-                            <i class="fab fa-github me-2"></i> @Localizer["View on GitHub"]
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="py-6">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
-                <h2 class="h1 mb-3">
-                    @Localizer["Join our community and start building today!"]
-                </h2>
-                <a href="https://github.com/aiursoftweb/template/discussions" class="align-middle btn btn-dark btn-pill btn-lg mt-n1" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                    <span class="ms-1">@Localizer["Join Discussions"]</span>
-                </a>
-                <a href="https://template-docs.aiursoft.com/en/Tutorial/before.html" class="align-middle btn btn-primary btn-pill btn-lg mt-n1" target="_blank">
-                    <i class="fa-solid fa-rocket"></i>
-                    <span class="ms-1">@Localizer["Start a new project"]</span>
-                </a>
             </div>
         </div>
     </div>

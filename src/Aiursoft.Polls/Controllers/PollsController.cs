@@ -1,9 +1,9 @@
 using System.Text;
+using Aiursoft.Canon.TaskQueue;
 using Aiursoft.Polls.Authorization;
 using Aiursoft.Polls.Entities;
 using Aiursoft.Polls.Models.PollsViewModels;
 using Aiursoft.Polls.Services;
-using Aiursoft.Polls.Services.BackgroundJobs;
 using Aiursoft.UiStack.Navigation;
 using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Authorization;
@@ -19,7 +19,7 @@ public class PollsController(
     TemplateDbContext context,
     UserManager<User> userManager,
     RoleManager<IdentityRole> roleManager,
-    BackgroundJobQueue backgroundJobQueue) : Controller
+    ServiceTaskQueue taskQueue) : Controller
 {
     // ==================== Helper Methods ====================
 
@@ -1080,7 +1080,7 @@ public class PollsController(
             return BadRequest("Reminders are only supported for RoleBased polls.");
 
         // Queue background job for sending reminders
-        backgroundJobQueue.QueueWithDependency<TemplateDbContext>(
+        taskQueue.QueueWithDependency<TemplateDbContext>(
             $"reminder-poll-{poll.Id}",
             $"Send reminders for poll: {poll.Title}",
             async dbContext =>

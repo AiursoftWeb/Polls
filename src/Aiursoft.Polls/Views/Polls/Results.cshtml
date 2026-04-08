@@ -74,7 +74,7 @@
 }
 else
 {
-    @if (Model.CanExport)
+    if (Model.CanExport)
     {
         var colWidth = Model.Poll.AccessType == AccessType.Public ? 4 : 3;
         <div class="row mb-3">
@@ -116,10 +116,8 @@ else
         </div>
     }
 
-    @{
-        var qIndex = 0;
-    }
-    @foreach (var qr in Model.QuestionResults)
+    var qIndex = 0;
+    foreach (var qr in Model.QuestionResults)
     {
         qIndex++;
         <div class="card mb-3">
@@ -172,9 +170,12 @@ else
             </div>
         </div>
     }
+}
 
-    @* ReSharper disable once Razor.SectionNotResolved *@
-    @section scripts {
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    @if (Model.IsAuthorized)
+    {
         <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
         <script>
             $(function () {

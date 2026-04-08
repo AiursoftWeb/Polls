@@ -28,6 +28,9 @@ public class CreateViewModel : UiStackLayoutViewModel
     [Display(Name = "Result Visibility")]
     public ResultVisibility Visibility { get; set; } = ResultVisibility.CreatorOnly;
 
+    [Display(Name = "Anonymous Poll")]
+    public bool IsAnonymous { get; set; }
+
     [Required]
     [Display(Name = "Deadline")]
     public DateTime Deadline { get; set; } = DateTime.UtcNow.AddDays(7).ToSecondPrecision();

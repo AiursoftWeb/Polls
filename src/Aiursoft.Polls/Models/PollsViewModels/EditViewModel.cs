@@ -29,6 +29,9 @@ public class EditViewModel : UiStackLayoutViewModel
     [Display(Name = "Result Visibility")]
     public ResultVisibility Visibility { get; set; }
 
+    [Display(Name = "Anonymous Poll")]
+    public bool IsAnonymous { get; set; }
+
     [Required]
     [Display(Name = "Deadline")]
     public DateTime Deadline { get; set; }

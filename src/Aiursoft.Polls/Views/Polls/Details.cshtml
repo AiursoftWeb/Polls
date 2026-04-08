@@ -83,6 +83,7 @@
                 <div><strong>@Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
                 <div><strong>@Localizer["Access:"]</strong> @Model.Poll.AccessType</div>
                 <div><strong>@Localizer["Result Visibility:"]</strong> @Model.Poll.Visibility</div>
+                <div><strong>@Localizer["Anonymous:"]</strong> @(Model.Poll.IsAnonymous ? Localizer["Yes"] : Localizer["No"])</div>
                 @if (Model.CanManage && Model.Poll.AccessType != AccessType.Public)
                 {
                     <hr />
@@ -99,7 +100,7 @@
             </div>
         </div>
 
-        @if (Model.HasSubmitted && Model.UserSubmission != null)
+        @if (Model.HasSubmitted && Model.UserSubmission != null && Model.Poll.IsAnonymous == false)
         {
             <div class="card mb-3 border-success">
                 <div class="card-header bg-success text-white">

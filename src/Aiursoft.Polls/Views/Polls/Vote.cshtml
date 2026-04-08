@@ -209,6 +209,13 @@
 
         <div class="mb-4">
             <h3 class="fw-bold">@Model.Poll?.Title</h3>
+            @if (Model.Poll?.IsAnonymous == true)
+            {
+                <div class="alert alert-info py-2 mb-3">
+                    <i class="align-middle me-2" data-lucide="shield-check"></i>
+                    <strong>@Localizer["Anonymous Poll:"]</strong> @Localizer["Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private."]
+                </div>
+            }
             @if (!string.IsNullOrWhiteSpace(Model.Poll?.Description))
             {
                 <p class="text-muted">@Model.Poll.Description</p>

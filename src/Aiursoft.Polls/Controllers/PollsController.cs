@@ -154,10 +154,12 @@ public class PollsController(
                 Description = model.Description,
                 AccessType = model.AccessType,
                 Visibility = model.Visibility,
+                IsAnonymous = model.IsAnonymous,
                 Deadline = model.Deadline,
                 CreatedById = user!.Id,
                 State = PollState.Draft
             };
+
             context.Polls.Add(poll);
             await context.SaveChangesAsync();
 
@@ -258,6 +260,7 @@ public class PollsController(
             Description = poll.Description,
             AccessType = poll.AccessType,
             Visibility = poll.Visibility,
+            IsAnonymous = poll.IsAnonymous,
             Deadline = poll.Deadline.ToSecondPrecision(),
             SelectedRoles = poll.RoleRestrictions?.Select(r => r.RoleId).ToList() ?? [],
             AllRoles = roleManager.Roles.ToList()
@@ -283,9 +286,9 @@ public class PollsController(
             poll.Description = model.Description;
             poll.AccessType = model.AccessType;
             poll.Visibility = model.Visibility;
+            poll.IsAnonymous = model.IsAnonymous;
             poll.Deadline = model.Deadline;
             poll.UpdatedTime = DateTime.UtcNow;
-
             // Update role restrictions
             var existingRestrictions = poll.RoleRestrictions?.ToList() ?? [];
             context.PollRoleRestrictions.RemoveRange(existingRestrictions);
@@ -818,9 +821,9 @@ public class PollsController(
         var submission = new Submission
         {
             PollId = poll.Id,
-            UserId = user?.Id,
-            IpAddress = ip,
-            BrowserFingerprint = model.BrowserFingerprint
+            UserId = poll.IsAnonymous ? null : user?.Id,
+            IpAddress = poll.IsAnonymous ? null : ip,
+            BrowserFingerprint = poll.IsAnonymous ? null : model.BrowserFingerprint
         };
         context.Submissions.Add(submission);
         await context.SaveChangesAsync();
@@ -1009,7 +1012,15 @@ public class PollsController(
         var questions = poll.Questions?.OrderBy(q => q.Order).ToList() ?? [];
 
         // Header
-        var headers = new List<string> { "Submission ID", "User", "IP Address", "Submit Time" };
+        var headers = new List<string>();
+        if (!poll.IsAnonymous)
+        {
+            headers.Add("Submission ID");
+            headers.Add("User");
+            headers.Add("IP Address");
+        }
+        headers.Add("Submit Time");
+
         foreach (var q in questions)
         {
             headers.Add($"\"{q.Title.Replace("\"", "\"\"")}\"");
@@ -1019,13 +1030,14 @@ public class PollsController(
         // Rows
         foreach (var submission in submissions)
         {
-            var row = new List<string>
+            var row = new List<string>();
+            if (!poll.IsAnonymous)
             {
-                submission.Id.ToString(),
-                $"\"{(submission.User?.DisplayName ?? "Anonymous").Replace("\"", "\"\"")}\"",
-                $"\"{submission.IpAddress}\"",
-                submission.SubmitTime.ToString("u")
-            };
+                row.Add(submission.Id.ToString());
+                row.Add($"\"{(submission.User?.DisplayName ?? "Anonymous").Replace("\"", "\"\"")}\"");
+                row.Add($"\"{submission.IpAddress}\"");
+            }
+            row.Add(submission.SubmitTime.ToString("u"));
 
             foreach (var q in questions)
             {

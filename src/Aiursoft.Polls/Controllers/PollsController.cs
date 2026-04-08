@@ -638,6 +638,56 @@ public class PollsController(
         return RedirectToAction(nameof(Details), new { id = question.PollId });
     }
 
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> MoveQuestionUp(int id)
+    {
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Unauthorized();
+
+        var previousQuestion = await context.Questions
+            .Where(q => q.PollId == question.PollId && q.Order < question.Order)
+            .OrderByDescending(q => q.Order)
+            .FirstOrDefaultAsync();
+
+        if (previousQuestion != null)
+        {
+            (question.Order, previousQuestion.Order) = (previousQuestion.Order, question.Order);
+            await context.SaveChangesAsync();
+        }
+
+        return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> MoveQuestionDown(int id)
+    {
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Unauthorized();
+
+        var nextQuestion = await context.Questions
+            .Where(q => q.PollId == question.PollId && q.Order > question.Order)
+            .OrderBy(q => q.Order)
+            .FirstOrDefaultAsync();
+
+        if (nextQuestion != null)
+        {
+            (question.Order, nextQuestion.Order) = (nextQuestion.Order, question.Order);
+            await context.SaveChangesAsync();
+        }
+
+        return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
     // ==================== Vote ====================
 
     [AllowAnonymous]

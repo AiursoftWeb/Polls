@@ -218,6 +218,11 @@ public class PollsController(
         bool isCreator = user != null && poll.CreatedById == user.Id;
         bool canManage = isCreator || HasManagePermission();
 
+        if (!canManage)
+        {
+            return Forbid();
+        }
+
         int pendingCount = 0;
         int eligibleCount = 0;
         if (canManage && poll.AccessType != AccessType.Public)
@@ -889,9 +894,6 @@ public class PollsController(
         }
 
         await context.SaveChangesAsync();
-
-        if (user != null)
-            return RedirectToAction(nameof(Details), new { id = poll.Id });
 
         return RedirectToAction(nameof(Results), new { id = poll.Id });
     }

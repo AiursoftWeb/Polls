@@ -43,16 +43,6 @@ public class DashboardController(
             .Where(p => p.State == PollState.Published && p.Deadline > DateTime.UtcNow && !p.IsDeleted)
             .ToListAsync();
 
-        var todoPolls = allActivePolls.Where(p =>
-            !p.IsAnonymous && p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
-        ).ToList();
-
-        var activeAnonymousPolls = allActivePolls.Where(p =>
-            p.IsAnonymous && (p.AccessType == AccessType.Public ||
-                             (p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)) ||
-                             p.AccessType == AccessType.RegisteredOnly)
-        ).ToList();
-
         // Remove those already submitted by user
         var submittedPollIds = await context.Submissions
             .Where(s => s.UserId == user.Id)
@@ -60,7 +50,13 @@ public class DashboardController(
             .Distinct()
             .ToListAsync();
 
-        todoPolls = todoPolls.Where(p => !submittedPollIds.Contains(p.Id)).ToList();
+        var todoPolls = allActivePolls
+            .Where(p => !submittedPollIds.Contains(p.Id))
+            .Where(p => 
+                p.AccessType == AccessType.Public ||
+                p.AccessType == AccessType.RegisteredOnly ||
+                (p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false))
+            ).ToList();
 
         // History
         var historyPolls = await context.Polls
@@ -72,7 +68,6 @@ public class DashboardController(
         return this.StackView(new IndexViewModel
         {
             ToDoPolls = todoPolls,
-            ActiveAnonymousPolls = activeAnonymousPolls,
             HistoryPolls = historyPolls
         });
     }

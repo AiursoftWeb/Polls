@@ -47,36 +47,6 @@
     <div class="col-md-6 mb-4">
         <div class="card h-100 shadow-sm border-0">
             <div class="card-header bg-transparent">
-                <h5 class="card-title mb-0"><i class="align-middle me-2 text-info" data-lucide="shield"></i> @Localizer["Anonymous Polls"]</h5>
-            </div>
-            <div class="list-group list-group-flush">
-                @if (Model.ActiveAnonymousPolls != null && Model.ActiveAnonymousPolls.Any())
-                {
-                    @foreach (var poll in Model.ActiveAnonymousPolls)
-                    {
-                        <a asp-controller="Polls" asp-action="Vote" asp-route-id="@poll.Id" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center p-3">
-                            <div>
-                                <div class="fw-bold">@poll.Title</div>
-                                <div class="text-muted small">@Localizer["Deadline:"] <span data-utc-time="@poll.Deadline.ToHtmlDateTime()"></span></div>
-                            </div>
-                            <span class="badge bg-info rounded-pill">@Localizer["Vote"]</span>
-                        </a>
-                    }
-                }
-                else
-                {
-                    <div class="list-group-item text-muted p-4 text-center">
-                        <i class="mb-2 d-block text-muted opacity-50" data-lucide="shield-off" style="width: 40px; height: 40px; margin: 0 auto;"></i>
-                        @Localizer["No anonymous polls available."]
-                    </div>
-                }
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-6 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-            <div class="card-header bg-transparent">
                 <h5 class="card-title mb-0"><i class="align-middle me-2 text-primary" data-lucide="clock"></i> @Localizer["My Voting History"]</h5>
             </div>
             <div class="list-group list-group-flush">

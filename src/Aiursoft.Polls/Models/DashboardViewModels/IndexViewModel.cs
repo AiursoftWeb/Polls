@@ -11,6 +11,5 @@ public class IndexViewModel : UiStackLayoutViewModel
     }
 
     public List<Poll>? ToDoPolls { get; set; }
-    public List<Poll>? ActiveAnonymousPolls { get; set; }
     public List<Poll>? HistoryPolls { get; set; }
 }

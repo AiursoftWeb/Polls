@@ -19,51 +19,56 @@
                     <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
                 </a>
             }
+            <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
         }
-        <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+        else
+        {
+            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light">@Localizer["Back to dashboard"]</a>
+        }
     </div>
 </div>
 
-@{
+@if (Model.CanExport)
+{
     var colWidth = Model.Poll.AccessType == AccessType.Public ? 4 : 3;
-}
-<div class="row mb-3">
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2 class="text-primary">@Model.TotalSubmissions</h2>
-                <div class="text-muted">@Localizer["Total Submissions"]</div>
-            </div>
-        </div>
-    </div>
-    @if (Model.Poll.AccessType != AccessType.Public)
-    {
+    <div class="row mb-3">
         <div class="col-md-@colWidth">
             <div class="card">
                 <div class="card-body text-center">
-                    <h2 class="text-danger">@Model.PendingVotersCount</h2>
-                    <div class="text-muted">@Localizer["Pending Voters"]</div>
+                    <h2 class="text-primary">@Model.TotalSubmissions</h2>
+                    <div class="text-muted">@Localizer["Total Submissions"]</div>
                 </div>
             </div>
         </div>
-    }
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
-                <div class="text-muted">@Localizer["Created By"]</div>
+        @if (Model.Poll.AccessType != AccessType.Public)
+        {
+            <div class="col-md-@colWidth">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="text-danger">@Model.PendingVotersCount</h2>
+                        <div class="text-muted">@Localizer["Pending Voters"]</div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="col-md-@colWidth">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
+                    <div class="text-muted">@Localizer["Created By"]</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-@colWidth">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>
+                    <div class="text-muted">@Localizer["Deadline"]</div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>
-                <div class="text-muted">@Localizer["Deadline"]</div>
-            </div>
-        </div>
-    </div>
-</div>
+}
 
 @{
     var qIndex = 0;

@@ -918,17 +918,28 @@ public class PollsController(
         var isManager = isCreator || (user != null && HasManagePermission());
 
         // Check visibility
+        var isAuthorized = true;
         switch (poll.Visibility)
         {
             case ResultVisibility.CreatorOnly when !isManager:
-                return Forbid();
+                isAuthorized = false;
+                break;
             case ResultVisibility.Participants when !isManager:
                 if (user == null) return Challenge();
                 var hasSubmitted = await context.Submissions.AnyAsync(s => s.UserId == user.Id && s.PollId == poll.Id);
-                if (!hasSubmitted) return Forbid();
+                if (!hasSubmitted) isAuthorized = false;
                 break;
             case ResultVisibility.Public:
                 break;
+        }
+
+        if (!isAuthorized)
+        {
+            return this.StackView(new ResultsViewModel
+            {
+                Poll = poll,
+                IsAuthorized = false
+            });
         }
 
         // Build result data

@@ -16,6 +16,7 @@ public class ResultsViewModel : UiStackLayoutViewModel
     public bool CanExport { get; set; }
     public int PendingVotersCount { get; set; }
     public int EligibleVotersCount { get; set; }
+    public bool IsAuthorized { get; set; } = true;
 }
 
 public class QuestionResultViewModel

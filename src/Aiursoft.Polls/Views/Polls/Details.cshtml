@@ -167,6 +167,8 @@
                     for (var i = 0; i < questions.Count; i++)
                     {
                         var q = questions[i];
+                        var index = i;
+                        var isLast = i == questions.Count - 1;
                         <div class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <strong>Q: @q.Title @(q.IsRequired ? "*" : "")</strong>
@@ -180,13 +182,13 @@
                                     {
                                         <form asp-action="MoveQuestionUp" method="post" class="d-inline">
                                             <input type="hidden" name="id" value="@q.Id" />
-                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(i == 0 ? "disabled" : "") title="@Localizer["Move Up"]">
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(index == 0 ? "disabled" : "") title="@Localizer["Move Up"]">
                                                 <i class="align-middle" data-lucide="arrow-up"></i>
                                             </button>
                                         </form>
                                         <form asp-action="MoveQuestionDown" method="post" class="d-inline">
                                             <input type="hidden" name="id" value="@q.Id" />
-                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(i == questions.Count - 1 ? "disabled" : "") title="@Localizer["Move Down"]">
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(isLast ? "disabled" : "") title="@Localizer["Move Down"]">
                                                 <i class="align-middle" data-lucide="arrow-down"></i>
                                             </button>
                                         </form>

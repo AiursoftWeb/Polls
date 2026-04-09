@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>Hinweis zur anonymen Umfrage:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Zurück zu den Details</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Eingereicht am</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>Diese Umfrage ist anonym. Das System zeichnet nicht auf, welcher Benutzer welche Antwort abgegeben hat. Daher werden alle Benutzer in dieser Liste als „Ausstehend&quot; angezeigt, und der „Wählerstatus&quot; kann nicht verfolgt werden.</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Benutzer</value>

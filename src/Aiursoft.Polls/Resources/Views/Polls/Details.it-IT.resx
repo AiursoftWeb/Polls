@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Aggiungi domanda</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Anonimo:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Anonimo: Identità e indirizzo IP NON verranno registrati.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Sei sicuro di voler eliminare questo sondaggio? Si tratta di un eliminazione soft.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link copiato negli appunti!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Sposta in basso</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Sposta in alto</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Nessuna opzione aggiunta ancora.</value>

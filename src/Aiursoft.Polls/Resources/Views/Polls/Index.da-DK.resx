@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link kopieret til udklipsholder!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Mine afstemninger</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>De afstemninger, jeg styrer</value>
   </data>

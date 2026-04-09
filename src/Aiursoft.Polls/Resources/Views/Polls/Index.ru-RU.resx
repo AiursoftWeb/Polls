@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Ссылка скопирована в буфер обмена!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Мои опросы</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Опросы, которыми я управляю</value>
   </data>

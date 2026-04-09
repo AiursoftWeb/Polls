@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>ประกาศการสำรวจแบบไม่ระบุชื่อ:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>กลับไปยังรายละเอียด</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>เวลาส่ง</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>การสำรวจนี้เป็นการไม่ระบุตัวตน ระบบจะไม่บันทึกว่าผู้ใช้รายใดส่งคำตอบใด ดังนั้น ผู้ใช้ทุกคนจะแสดงเป็น &apos;รอการตรวจสอบ&apos; ในรายการนี้ และไม่สามารถติดตาม &apos;สถานะผู้ลงคะแนน&apos; ได้</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>ผู้ใช้</value>

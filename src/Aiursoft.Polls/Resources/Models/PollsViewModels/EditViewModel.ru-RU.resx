@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Разрешенные роли</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Анонимный опрос</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Дедлайн</value>
   </data>

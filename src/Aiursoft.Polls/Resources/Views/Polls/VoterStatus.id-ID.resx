@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>Pemberitahuan Jajak Pendapat Anonim:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Kembali ke detail</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Waktu Pengiriman</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>Pemungutan suara ini bersifat anonim. Sistem tidak mencatat pengguna mana yang mengirimkan respons mana. Oleh karena itu, semua pengguna akan muncul sebagai &apos;Menunggu&apos; dalam daftar ini, dan &apos;Status Pemilih&apos; tidak dapat dilacak.</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Pengguna</value>

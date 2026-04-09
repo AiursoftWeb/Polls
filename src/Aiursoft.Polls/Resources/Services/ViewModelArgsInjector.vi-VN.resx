@@ -132,6 +132,9 @@
   <data name="Manage" xml:space="preserve">
     <value>Quản lý</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Thăm dò ý kiến của tôi</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Không tìm thấy</value>
   </data>
@@ -155,6 +158,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>Bảng điều khiển thăm dò ý kiến</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>Quản lý Khảo sát</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Hồ sơ</value>

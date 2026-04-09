@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>Повідомлення про анонімне опитування:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Повернутися до деталей</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Час подання</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>Цей опитування є анонімним. Система не фіксує, який користувач надав яку відповідь. Отже, усі користувачі відображатимуться як «Очікується» у цьому списку, і «Статус виборця» неможливо відстежувати.</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Користувач</value>

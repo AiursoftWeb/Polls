@@ -129,6 +129,9 @@
   <data name="Manage" xml:space="preserve">
     <value>إدارة</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>استطلاعاتي</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>غير موجود</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>لوحة استطلاعات الرأي</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>إدارة الاستطلاعات</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>الملف الشخصي</value>

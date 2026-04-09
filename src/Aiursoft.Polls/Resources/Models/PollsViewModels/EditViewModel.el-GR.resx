@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Επιτρεπόμενοι Ρόλοι</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Ανώνυμη ψηφοφορία</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Τελευταία Ημερομηνία</value>
   </data>

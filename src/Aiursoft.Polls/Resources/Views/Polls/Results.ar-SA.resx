@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>عودة إلى لوحة التحكم</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>العودة إلى التفاصيل</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>الردود:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>النتائج خاصة</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>النتائج:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>العودة إلى لوحة التحكم</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>قام منشئ هذا الاستبيان باختيار جعل النتائج خاصة. يمكن فقط للمنشئ والمديرين المصرح لهم عرض النتيجة التفصيلية.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>النتائج الخاصة بهذا الاستطلاع متاحة فقط لمن شاركوا فيها. يرجى تقديم صوتك أولاً لعرض النتائج الحالية.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>إجمالي المشاركات</value>

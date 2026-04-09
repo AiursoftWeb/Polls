@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>अनुमति प्राप्त भूमिकाएँ</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>गुमनाम सर्वेक्षण</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>अंतिम तिथि</value>
   </data>

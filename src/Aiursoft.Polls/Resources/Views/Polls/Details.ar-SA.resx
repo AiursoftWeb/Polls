@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>إضافة سؤال</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>مجهول:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>مجهول: لن يتم تسجيل الهوية وعنوان IP.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>هل أنت متأكد من رغبتك في حذف هذا الاستبيان؟ هذا حذف ناعم.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>تم نسخ الرابط إلى الحافظة!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>نقل لأسفل</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>تحريك للأعلى</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>لم تُضَف أي خيارات بعد.</value>

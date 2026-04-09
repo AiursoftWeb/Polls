@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>Terug naar dashboard</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Terug naar details</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Antwoorden:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Resultaten zijn privé</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Resultaten:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Terug naar dashboard</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>De maker van deze peiling heeft ervoor gekozen om de resultaten privé te houden. Alleen de maker en geautoriseerde beheerders kunnen de gedetailleerde uitkomst bekijken.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>De resultaten van deze enquête zijn alleen zichtbaar voor personen die hebben deelgenomen. Dien uw stem in om de huidige resultaten te bekijken.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Totaal aantal inzendingen</value>

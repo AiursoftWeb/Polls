@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>添加问题</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>匿名：</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>匿名：身份和 IP 地址将不会被记录。</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>您确定要删除此投票吗？这将执行软删除。</value>
   </data>
@@ -71,6 +77,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>链接已复制到剪贴板！</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>向下移动</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>上移</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>暂无选项。</value>

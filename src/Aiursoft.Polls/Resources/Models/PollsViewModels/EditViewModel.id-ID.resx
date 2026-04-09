@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Peran yang Diizinkan</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Jajak Pendapat Anonim</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Batas Waktu</value>
   </data>

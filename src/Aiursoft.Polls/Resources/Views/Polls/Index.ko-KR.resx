@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>링크가 클립보드에 복사되었습니다!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>내 설문지</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>내가 관리하는 투표</value>
   </data>

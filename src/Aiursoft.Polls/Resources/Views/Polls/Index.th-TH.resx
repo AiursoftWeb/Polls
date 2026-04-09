@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>แบบสำรวจของฉัน</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>การสำรวจที่ฉันจัดการ</value>
   </data>

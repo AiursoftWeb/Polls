@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>Επιτρεπόμενοι Ρόλοι</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>Ανώνυμη ψηφοφορία (η βάση δεδομένων δεν θα καταγράφει πληροφορίες χρηστών)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>

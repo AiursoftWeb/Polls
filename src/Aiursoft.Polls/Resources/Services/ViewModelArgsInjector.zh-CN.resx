@@ -132,6 +132,9 @@
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>我的投票</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>未找到</value>
   </data>
@@ -155,6 +158,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>投票仪表盘</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>投票管理</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>个人资料</value>

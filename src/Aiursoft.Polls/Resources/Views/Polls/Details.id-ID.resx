@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Tambah Pertanyaan</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Anonim:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Anonim: Identitas dan IP TIDAK akan direkam.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Apakah Anda yakin ingin menghapus jajak pendapat ini? Ini adalah penghapusan lunak.</value>
   </data>
@@ -74,6 +80,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Tautan disalin ke papan klip!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Pindah ke Bawah</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Pindahkan ke Atas</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Belum ada opsi yang ditambahkan.</value>

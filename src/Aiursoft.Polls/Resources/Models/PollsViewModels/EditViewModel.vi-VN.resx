@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Vai trò được phép</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Khảo sát ẩn danh</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
   </data>

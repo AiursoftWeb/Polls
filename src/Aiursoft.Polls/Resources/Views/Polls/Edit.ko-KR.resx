@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>허용된 역할</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>익명 설문 (데이터베이스는 사용자 정보를 기록하지 않습니다)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>

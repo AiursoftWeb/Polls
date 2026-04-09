@@ -36,6 +36,9 @@
   <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
     <value>Allows modification of user details such as email and roles, and can also reset user passwords.</value>
   </data>
+  <data name="Allows super admins to manage any poll created by any user." xml:space="preserve">
+    <value>Allows super admins to manage any poll created by any user.</value>
+  </data>
   <data name="Allows the permanent deletion of roles." xml:space="preserve">
     <value>Allows the permanent deletion of roles.</value>
   </data>
@@ -83,6 +86,9 @@
   </data>
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Grants permission to restart the application instance. May cause service interruptions, but all settings and cache will be reloaded.</value>
+  </data>
+  <data name="Manage All Polls" xml:space="preserve">
+    <value>Manage All Polls</value>
   </data>
   <data name="Manage Global Settings" xml:space="preserve">
     <value>Manage Global Settings</value>

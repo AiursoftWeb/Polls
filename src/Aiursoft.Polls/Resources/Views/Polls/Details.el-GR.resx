@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Προσθήκη Ερώτησης</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Ανώνυμος:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Ανώνυμα: Ταυτότητα και IP δεν θα καταγραφούν.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το ερωτηματολόγιο; Αυτή είναι μια διαγραφή με την έννοια της αναστολής.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Το σύνδεσμο αντιγράφηκε στο πρόχειρο!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Μετακίνηση προς τα κάτω</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Μετακίνηση προς τα πάνω</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Δεν έχουν προστεθεί ακόμη επιλογές.</value>

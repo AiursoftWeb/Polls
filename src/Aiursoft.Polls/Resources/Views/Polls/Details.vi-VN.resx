@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Thêm câu hỏi</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Ẩn danh:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Anonymous: Danh tính và địa chỉ IP sẽ KHÔNG được ghi lại.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Bạn có chắc chắn muốn xóa bỏ cuộc khảo sát này không? Đây là xóa mềm.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Di chuyển xuống</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Di chuyển lên</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Chưa có tùy chọn nào được thêm.</value>

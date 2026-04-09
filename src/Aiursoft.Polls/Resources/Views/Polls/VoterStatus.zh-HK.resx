@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>匿名投票通知：</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>返回詳情</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>提交時間</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>此投票為匿名。系統不會記錄哪位用戶提交了哪項回應。因此，此列表中的所有用戶均顯示為「待處理」，且無法追蹤「投票者狀態」。</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>用戶</value>

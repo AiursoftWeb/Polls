@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>บทบาทที่ได้รับอนุญาต</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>แบบสอบถามแบบไม่ระบุชื่อ</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>กำหนดส่ง</value>
   </data>

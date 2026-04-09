@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>允许的角色</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>匿名投票</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
   </data>

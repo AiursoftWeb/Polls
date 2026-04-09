@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>บทบาทที่ได้รับอนุญาต</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>การสำรวจแบบไม่ระบุชื่อ (ฐานข้อมูลจะไม่บันทึกข้อมูลผู้ใช้)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>

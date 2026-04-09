@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>Volver al panel</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Volver a los detalles</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Respuestas:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Los resultados son privados</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Resultados:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Volver al panel</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>El creador de esta encuesta ha optado por mantener los resultados privados. Solo el creador y los administradores autorizados pueden ver el resultado detallado.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>Los resultados de esta encuesta solo son visibles para quienes han participado. Por favor, emita su voto primero para ver los resultados actuales.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Total de envíos</value>

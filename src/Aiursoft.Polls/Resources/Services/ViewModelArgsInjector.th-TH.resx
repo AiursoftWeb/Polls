@@ -132,6 +132,9 @@
   <data name="Manage" xml:space="preserve">
     <value>จัดการ</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>แบบสำรวจของฉัน</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>ไม่พบ</value>
   </data>
@@ -155,6 +158,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>แดชบอร์ดโพลล์</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>การจัดการการโหวต</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>โปรไฟล์</value>

@@ -129,6 +129,9 @@
   <data name="Manage" xml:space="preserve">
     <value>Gestisci</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>I miei sondaggi</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Non trovato</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>Cruscotto Sondaggi</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>Gestione sondaggi</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profilo</value>

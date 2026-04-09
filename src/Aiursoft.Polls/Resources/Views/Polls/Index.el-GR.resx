@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Το σύνδεσμο αντιγράψατε στο πρόχειρο!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Οι Έρευνές μου</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Ψήφοι που διαχειρίζομαι</value>
   </data>

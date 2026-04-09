@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>गोपनीय सर्वेक्षण सूचना:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>विस्तार पर वापस</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>समय जमा करें</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>यह मतदान गुमनाम है। सिस्टम रिकॉर्ड नहीं करता कि किस उपयोगकर्ता ने कौन सा उत्तर दिया है। इसलिए, इस सूची में सभी उपयोगकर्ता &apos;लंबित&apos; के रूप में दिखाई देंगे, और &apos;मतदाता स्थिति&apos; को ट्रैक नहीं किया जा सकता।</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>उपयोगकर्ता</value>

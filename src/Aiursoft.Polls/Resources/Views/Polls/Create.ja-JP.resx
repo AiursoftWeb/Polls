@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>許可されたロール</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>匿名投票（データベースはユーザー情報を記録しません）</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>

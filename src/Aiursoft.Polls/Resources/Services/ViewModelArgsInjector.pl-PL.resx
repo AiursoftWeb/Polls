@@ -129,6 +129,9 @@
   <data name="Manage" xml:space="preserve">
     <value>Zarządzaj</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Moje ankiety</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Nie znaleziono</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>Pulpit Ankiet</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>Zarządzanie ankietami</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profil</value>

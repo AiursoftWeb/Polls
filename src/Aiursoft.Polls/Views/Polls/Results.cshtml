@@ -55,18 +55,9 @@
                             @Localizer["The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results."]
                         }
                     </p>
-                    @if (Model.Poll.Visibility == ResultVisibility.Participants && Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow)
-                    {
-                        <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-primary px-4">
-                            <i class="align-middle me-1" data-lucide="send"></i> @Localizer["Vote Now to See Results"]
-                        </a>
-                    }
-                    else
-                    {
-                        <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-secondary">
-                            <i class="align-middle me-1" data-lucide="arrow-left"></i> @Localizer["Return to Dashboard"]
-                        </a>
-                    }
+                    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary px-4">
+                        <i class="align-middle me-1" data-lucide="arrow-left"></i> @Localizer["Return to Dashboard"]
+                    </a>
                 </div>
             </div>
         </div>

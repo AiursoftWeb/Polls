@@ -52,6 +52,7 @@ public class DashboardController(
 
         var todoPolls = allActivePolls
             .Where(p => !submittedPollIds.Contains(p.Id))
+            .Where(p => !p.IsAnonymous) // Anonymous polls cannot be tracked, so don't show them in To-Do list.
             .Where(p => 
                 p.AccessType == AccessType.Public ||
                 p.AccessType == AccessType.RegisteredOnly ||

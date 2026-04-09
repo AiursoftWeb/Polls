@@ -97,7 +97,19 @@ public static class AuthenticationExtensions
             {
                 options.AddPolicy(
                     name: permission.Key,
-                    policy => policy.RequireClaim(AppPermissions.Type, permission.Key));
+                    policy =>
+                    {
+                        if (permission.Key == AppPermissionNames.CanManagePolls)
+                        {
+                            policy.RequireAssertion(context =>
+                                context.User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls) ||
+                                context.User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManageAllPolls));
+                        }
+                        else
+                        {
+                            policy.RequireClaim(AppPermissions.Type, permission.Key);
+                        }
+                    });
             }
         });
         return services;

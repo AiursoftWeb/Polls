@@ -107,11 +107,11 @@ public class PollsController(
     [RenderInNavBar(
         NavGroupName = "Features",
         NavGroupOrder = 1,
-        CascadedLinksGroupName = "Dashboard",
-        CascadedLinksIcon = "layout",
+        CascadedLinksGroupName = "Polls Management",
+        CascadedLinksIcon = "settings",
         CascadedLinksOrder = 1,
-        LinkText = "All Polls",
-        LinkOrder = 2)]
+        LinkText = "My Managed Polls",
+        LinkOrder = 1)]
     public async Task<IActionResult> Index()
     {
         var user = await GetCurrentUserAsync();
@@ -126,6 +126,30 @@ public class PollsController(
         return this.StackView(new IndexViewModel
         {
             ManagedPolls = managedPolls
+        });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManageAllPolls)]
+    [RenderInNavBar(
+        NavGroupName = "Features",
+        NavGroupOrder = 1,
+        CascadedLinksGroupName = "Polls Management",
+        CascadedLinksIcon = "settings",
+        CascadedLinksOrder = 1,
+        LinkText = "All Polls",
+        LinkOrder = 2)]
+    public async Task<IActionResult> All()
+    {
+        var allPolls = await context.Polls
+            .Include(p => p.CreatedBy)
+            .Where(p => !p.IsDeleted)
+            .OrderByDescending(p => p.CreationTime)
+            .ToListAsync();
+
+        return this.StackView(new IndexViewModel
+        {
+            ManagedPolls = allPolls,
+            PageTitle = "All Polls Management"
         });
     }
 

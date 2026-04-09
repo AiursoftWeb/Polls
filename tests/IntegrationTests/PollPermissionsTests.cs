@@ -100,5 +100,16 @@ public class PollPermissionsTests : TestBase
         });
         var detailsResponseA = await Http.GetAsync($"/Polls/Details/{pollAId}");
         Assert.AreEqual(HttpStatusCode.OK, detailsResponseA.StatusCode);
+
+        // 8. Test access to /Polls/All
+        // User A (regular manager) should be forbidden
+        var allResponseA = await Http.GetAsync("/Polls/All");
+        Assert.AreEqual(HttpStatusCode.Found, allResponseA.StatusCode); // Redirect to 403
+        Assert.IsTrue(allResponseA.Headers.Location?.OriginalString.Contains("/Error/Code403"));
+
+        // Admin (super admin) should succeed
+        await LoginAsAdmin();
+        var allResponseAdmin = await Http.GetAsync("/Polls/All");
+        Assert.AreEqual(HttpStatusCode.OK, allResponseAdmin.StatusCode);
     }
 }

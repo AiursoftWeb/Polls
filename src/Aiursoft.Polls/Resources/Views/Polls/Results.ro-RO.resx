@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>Înapoi la panoul de control</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Înapoi la detalii</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Răspunsuri:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Rezultatele sunt private</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Rezultate:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Înapoi la panou</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>Creatorul acestui sondaj a ales să păstreze rezultatele private. Doar creatorul și managerii autorizați pot vizualiza rezultatele detaliate.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>Rezultatele acestui sondaj sunt vizibile doar pentru cei care au participat. Vă rugăm să vă depuneți votul mai întâi pentru a vedea rezultatele curente.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Total Submissions</value>

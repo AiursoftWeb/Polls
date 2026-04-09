@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>تم نسخ الرابط إلى الحافظة!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>استطلاعاتي</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>الاستطلاعات التي أديرها</value>
   </data>

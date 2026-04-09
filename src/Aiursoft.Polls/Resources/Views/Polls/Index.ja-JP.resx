@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>マイ投票</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>私が管理する投票</value>
   </data>

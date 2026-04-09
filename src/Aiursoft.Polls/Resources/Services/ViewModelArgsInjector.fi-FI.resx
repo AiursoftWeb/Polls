@@ -129,6 +129,9 @@
   <data name="Manage" xml:space="preserve">
     <value>Hallinnoi</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Omat kyselyni</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Ei löytynyt</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>Kyselyjen hallintapaneeli</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>Kyselyiden hallinta</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profiili</value>

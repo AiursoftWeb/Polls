@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Lägg till fråga</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Anonym:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Anonym: Identitet och IP kommer INTE att registreras.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Är du säker på att du vill ta bort denna omröstning? Detta är en mjuk borttagning.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Länken har kopierats till urklipp!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Flytta ner</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Flytta upp</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Inga alternativ har lagts till än.</value>

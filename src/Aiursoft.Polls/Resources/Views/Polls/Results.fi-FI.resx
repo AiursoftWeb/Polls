@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>Takaisin hallintapaneeliin</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Takaisin yksityiskohtiin</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Vastaukset:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Tulokset ovat yksityisiä</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Tulokset:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Palaa kojelautaan</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>Tämän kyselyn tekijä on päättänyt pitää tulokset yksityisinä. Vain tekijä ja valtuutetut hallinnoijat voivat tarkastella yksityiskohtaista lopputulosta.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>Tämän äänestyksen tulokset ovat nähtävissä vain niille, jotka ovat osallistuneet. Jotta voit nähdä nykyiset tulokset, äänestä ensin.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Yhteensä lähetettyjä</value>

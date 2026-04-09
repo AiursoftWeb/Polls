@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>Sallitut roolit</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>Anonyymi kysely (tietokanta ei tallenna käyttäjätietoja)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
   </data>

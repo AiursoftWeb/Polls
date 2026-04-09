@@ -36,6 +36,9 @@
   <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
     <value>允许修改用户详细信息（如邮箱和角色），并可重置用户密码。</value>
   </data>
+  <data name="Allows super admins to manage any poll created by any user." xml:space="preserve">
+    <value>允许超级管理员管理任何用户创建的投票。</value>
+  </data>
   <data name="Allows the permanent deletion of roles." xml:space="preserve">
     <value>允许永久删除角色。</value>
   </data>
@@ -83,6 +86,9 @@
   </data>
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>授予重启应用程序实例的权限。可能导致服务中断，但所有设置和缓存都将重新加载。</value>
+  </data>
+  <data name="Manage All Polls" xml:space="preserve">
+    <value>管理所有投票</value>
   </data>
   <data name="Manage Global Settings" xml:space="preserve">
     <value>管理全局设置</value>

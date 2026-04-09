@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>अनुमति प्राप्त भूमिकाएं</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>गोपनीय सर्वेक्षण (डेटाबेस उपयोगकर्ता जानकारी रिकॉर्ड नहीं करेगा)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
   </data>

@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Funções Permitidas</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Votação Anónima</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Prazo</value>
   </data>

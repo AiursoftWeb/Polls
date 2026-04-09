@@ -24,6 +24,12 @@
   <data name="Add Question" xml:space="preserve">
     <value>Додати запитання</value>
   </data>
+  <data name="Anonymous:" xml:space="preserve">
+    <value>Анонімність:</value>
+  </data>
+  <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
+    <value>Анонімно: особисті дані та IP-адреса НЕ будуть записані.</value>
+  </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Ви впевнені, що хочете видалити цей опитування? Це м&apos;яке видалення.</value>
   </data>
@@ -77,6 +83,12 @@
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Посилання скопійовано до буфера обміну!</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Перемістити вниз</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Підняти вгору</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Поки що не додано жодного варіанту.</value>

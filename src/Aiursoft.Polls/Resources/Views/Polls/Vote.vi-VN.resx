@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back" xml:space="preserve">
+      <data name="Anonymous Poll:" xml:space="preserve">
+    <value>Khảo sát ẩn danh:</value>
+  </data>
+  <data name="Back" xml:space="preserve">
     <value>Quay lại</value>
   </data>
   <data name="Cancel" xml:space="preserve">
@@ -53,6 +56,9 @@
   </data>
   <data name="total" xml:space="preserve">
     <value>tổng số</value>
+  </data>
+  <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
+    <value>Bản sắc, địa chỉ IP và dấu vân tay trình duyệt của bạn sẽ KHÔNG được ghi lại. Lá phiếu của bạn hoàn toàn riêng tư.</value>
   </data>
 
 </root>

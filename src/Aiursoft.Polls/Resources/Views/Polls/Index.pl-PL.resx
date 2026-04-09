@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link skopiowany do schowka!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Moje ankiety</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Prowadzone przeze mnie ankiety</value>
   </data>

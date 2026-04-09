@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tilladte roller</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Anonym afstemning</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Frist</value>
   </data>

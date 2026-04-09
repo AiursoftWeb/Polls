@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>허용된 역할</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>익명 투표</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>마감기한</value>
   </data>

@@ -93,6 +93,9 @@ public class ViewModelArgsInjector(
         _ = localizer["Polls Dashboard"];
         _ = localizer["Submit Vote"];
         _ = localizer["Voter Status"];
+    
+        _ = localizer["My Polls"];
+        _ = localizer["Polls Management"];
     }
 
     public void InjectSimple(

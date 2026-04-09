@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>На головну</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Повернутися до деталей</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Відповіді:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Результати є приватними</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Результати:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Повернутися до панелі керування</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>Творець цього опитування вирішив залишити результати приватними. Детальні результати можуть переглядати лише творець та уповноважені менеджери.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>Результати цього опитування доступні лише для тих, хто взяв у ньому участь. Будь ласка, спочатку подайте свій голос, щоб побачити поточні результати.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Загальна кількість подань</value>

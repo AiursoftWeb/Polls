@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Back to dashboard" xml:space="preserve">
+    <value>Tilbage til dashboard</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Tilbage til detaljer</value>
   </data>
   <data name="Created By" xml:space="preserve">
@@ -45,8 +48,20 @@
   <data name="Responses:" xml:space="preserve">
     <value>Svar:</value>
   </data>
+  <data name="Results are Private" xml:space="preserve">
+    <value>Resultaterne er private</value>
+  </data>
   <data name="Results:" xml:space="preserve">
     <value>Resultater:</value>
+  </data>
+  <data name="Return to Dashboard" xml:space="preserve">
+    <value>Tilbage til dashboard</value>
+  </data>
+  <data name="The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome." xml:space="preserve">
+    <value>Opretteren af denne afstemning har valgt at holde resultaterne private. Kun opretteren og autoriserede ledere kan se de detaljerede resultater.</value>
+  </data>
+  <data name="The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results." xml:space="preserve">
+    <value>Resultaterne af denne afstemning er kun synlige for dem, der har deltaget. Indsend venligst din stemme først for at se de aktuelle resultater.</value>
   </data>
   <data name="Total Submissions" xml:space="preserve">
     <value>Samlet antal indsendelser</value>

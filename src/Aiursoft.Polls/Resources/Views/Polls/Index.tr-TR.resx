@@ -39,6 +39,9 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Bağlantı panoya kopyalandı!</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Anketlerim</value>
+  </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Yönettiğim Anketler</value>
   </data>

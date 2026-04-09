@@ -36,6 +36,9 @@
   <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
     <value>Consente la modifica dei dettagli utente come email e ruoli, e può anche reimpostare le password degli utenti.</value>
   </data>
+  <data name="Allows super admins to manage any poll created by any user." xml:space="preserve">
+    <value>Consente agli amministratori principali di gestire qualsiasi sondaggio creato da qualsiasi utente.</value>
+  </data>
   <data name="Allows the permanent deletion of roles." xml:space="preserve">
     <value>Consente l&apos;eliminazione permanente dei ruoli.</value>
   </data>
@@ -83,6 +86,9 @@
   </data>
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Concede il permesso di riavviare l&apos;istanza dell&apos;applicazione. Potrebbe causare interruzioni della disponibilità, ma tutte le impostazioni e la cache verranno ricaricate.</value>
+  </data>
+  <data name="Manage All Polls" xml:space="preserve">
+    <value>Gestisci tutti i sondaggi</value>
   </data>
   <data name="Manage Global Settings" xml:space="preserve">
     <value>Gestisci Impostazioni Globali</value>

@@ -21,6 +21,9 @@
       <data name="Allowed Roles" xml:space="preserve">
     <value>Дозволені ролі</value>
   </data>
+  <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
+    <value>Анонімний опитування (база даних не зберігатиме інформацію про користувачів)</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>

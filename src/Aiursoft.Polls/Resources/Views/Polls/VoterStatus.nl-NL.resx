@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to details" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>Aanwijzing over anonieme peiling:</value>
+  </data>
+  <data name="Back to details" xml:space="preserve">
     <value>Terug naar details</value>
   </data>
   <data name="Email" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Inzendtijd</value>
+  </data>
+  <data name="This poll is anonymous. The system does not record which user submitted which response. Therefore, all users will appear as &apos;Pending&apos; in this list, and &apos;Voter Status&apos; cannot be tracked." xml:space="preserve">
+    <value>Deze peiling is anoniem. Het systeem registreert niet welke gebruiker welke reactie heeft ingediend. Daarom zullen alle gebruikers als &apos;Wachtend&apos; in deze lijst verschijnen en kan de &apos;Status van de kiezer&apos; niet worden gevolgd.</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>

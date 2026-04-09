@@ -132,6 +132,9 @@
   <data name="Manage" xml:space="preserve">
     <value>관리</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>내 투표</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>찾을 수 없음</value>
   </data>
@@ -155,6 +158,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>투표 대시보드</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>설문지 관리</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>프로필</value>

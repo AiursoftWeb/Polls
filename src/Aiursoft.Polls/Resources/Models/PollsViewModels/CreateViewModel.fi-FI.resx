@@ -24,6 +24,9 @@
   <data name="Allowed Roles" xml:space="preserve">
     <value>Sallitut roolit</value>
   </data>
+  <data name="Anonymous Poll" xml:space="preserve">
+    <value>Anonyymi kysely</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Määräaika</value>
   </data>

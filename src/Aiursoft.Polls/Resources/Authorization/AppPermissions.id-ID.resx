@@ -36,6 +36,9 @@
   <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
     <value>Memungkinkan modifikasi detail pengguna seperti email dan peran, serta dapat mengatur ulang kata sandi pengguna.</value>
   </data>
+  <data name="Allows super admins to manage any poll created by any user." xml:space="preserve">
+    <value>Memungkinkan super admin mengelola poll apa pun yang dibuat oleh pengguna mana pun.</value>
+  </data>
   <data name="Allows the permanent deletion of roles." xml:space="preserve">
     <value>Memungkinkan penghapusan permanen peran.</value>
   </data>
@@ -83,6 +86,9 @@
   </data>
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Memberikan izin untuk memulai ulang instance aplikasi. Dapat menyebabkan gangguan ketersediaan, tetapi semua pengaturan dan cache akan dimuat ulang.</value>
+  </data>
+  <data name="Manage All Polls" xml:space="preserve">
+    <value>Kelola Semua Polling</value>
   </data>
   <data name="Manage Global Settings" xml:space="preserve">
     <value>Kelola Pengaturan Global</value>

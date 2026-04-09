@@ -129,6 +129,9 @@
   <data name="Manage" xml:space="preserve">
     <value>Керування</value>
   </data>
+  <data name="My Polls" xml:space="preserve">
+    <value>Мої опитування</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Не знайдено</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="Polls Dashboard" xml:space="preserve">
     <value>Панель опитувань</value>
+  </data>
+  <data name="Polls Management" xml:space="preserve">
+    <value>Керування опитуваннями</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Профіль</value>

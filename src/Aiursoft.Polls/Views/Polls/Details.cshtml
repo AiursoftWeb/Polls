@@ -83,23 +83,35 @@
                 <div><strong>@Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
                 <div><strong>@Localizer["Access:"]</strong> @Model.Poll.AccessType</div>
                 <div><strong>@Localizer["Result Visibility:"]</strong> @Model.Poll.Visibility</div>
-                @if (Model.CanManage && Model.Poll.AccessType != AccessType.Public)
+                <div><strong>@Localizer["Anonymous:"]</strong> @(Model.Poll.IsAnonymous ? Localizer["Yes"] : Localizer["No"])</div>
+                @if (Model.Poll.IsAnonymous)
+                {
+                    <div class="alert alert-info py-2 mt-2 mb-0 small">
+                        <i class="align-middle me-1" data-lucide="shield-check"></i>
+                        @Localizer["Anonymous: Identity and IP will NOT be recorded."]
+                    </div>
+                }
+                @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased && !Model.Poll.IsAnonymous)
                 {
                     <hr />
                     <div><strong>@Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
                     <div><strong>@Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
+                }
+                @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased)
+                {
                     <div class="mt-2">
-                        <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1">
+                        <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1 @(Model.Poll.IsAnonymous ? "disabled" : "")">
                             <i class="align-middle" data-lucide="users"></i> @Localizer["View Voter Status"]
                         </a>
-                        <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100">
+                        <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100 @(Model.Poll.IsAnonymous ? "disabled" : "")">
                             <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending Users"]
                         </a>
-                    </div>                }
+                    </div>
+                }
             </div>
         </div>
 
-        @if (Model.HasSubmitted && Model.UserSubmission != null)
+        @if (Model.HasSubmitted && Model.UserSubmission != null && Model.Poll.IsAnonymous == false)
         {
             <div class="card mb-3 border-success">
                 <div class="card-header bg-success text-white">
@@ -151,8 +163,12 @@
             <div class="list-group list-group-flush">
                 @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
                 {
-                    @foreach (var q in Model.Poll.Questions.OrderBy(x => x.Order))
+                    var questions = Model.Poll.Questions.OrderBy(x => x.Order).ToList();
+                    for (var i = 0; i < questions.Count; i++)
                     {
+                        var q = questions[i];
+                        var index = i;
+                        var isLast = i == questions.Count - 1;
                         <div class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <strong>Q: @q.Title @(q.IsRequired ? "*" : "")</strong>
@@ -164,6 +180,18 @@
                                     </span>
                                     @if (Model.CanManage && Model.Poll.State == PollState.Draft)
                                     {
+                                        <form asp-action="MoveQuestionUp" method="post" class="d-inline">
+                                            <input type="hidden" name="id" value="@q.Id" />
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(index == 0 ? "disabled" : "") title="@Localizer["Move Up"]">
+                                                <i class="align-middle" data-lucide="arrow-up"></i>
+                                            </button>
+                                        </form>
+                                        <form asp-action="MoveQuestionDown" method="post" class="d-inline">
+                                            <input type="hidden" name="id" value="@q.Id" />
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(isLast ? "disabled" : "") title="@Localizer["Move Down"]">
+                                                <i class="align-middle" data-lucide="arrow-down"></i>
+                                            </button>
+                                        </form>
                                         <a asp-action="EditQuestion" asp-route-id="@q.Id" class="btn btn-sm btn-outline-primary me-1">
                                             @Localizer["Edit"]
                                         </a>

@@ -69,7 +69,10 @@ public class AppPermissions
                 localizer["Allows viewing and modifying global application settings."]),
             new(AppPermissionNames.CanManagePolls,
                 localizer["Manage Polls"],
-                localizer["Allows creating, editing, publishing, and managing polls."])
+                localizer["Allows creating, editing, publishing, and managing polls."]),
+            new(AppPermissionNames.CanManageAllPolls,
+                localizer["Manage All Polls"],
+                localizer["Allows super admins to manage any poll created by any user."])
         ];
         return allPermission;
     }

@@ -43,10 +43,6 @@ public class DashboardController(
             .Where(p => p.State == PollState.Published && p.Deadline > DateTime.UtcNow && !p.IsDeleted)
             .ToListAsync();
 
-        var todoPolls = allActivePolls.Where(p =>
-            p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
-        ).ToList();
-
         // Remove those already submitted by user
         var submittedPollIds = await context.Submissions
             .Where(s => s.UserId == user.Id)
@@ -54,7 +50,12 @@ public class DashboardController(
             .Distinct()
             .ToListAsync();
 
-        todoPolls = todoPolls.Where(p => !submittedPollIds.Contains(p.Id)).ToList();
+        var todoPolls = allActivePolls
+            .Where(p => !submittedPollIds.Contains(p.Id))
+            .Where(p => !p.IsAnonymous) // Anonymous polls cannot be tracked, so don't show them in To-Do list.
+            .Where(p => 
+                p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
+            ).ToList();
 
         // History
         var historyPolls = await context.Polls

@@ -54,7 +54,7 @@
                 {
                     @foreach (var poll in Model.HistoryPolls)
                     {
-                        <a asp-controller="Polls" asp-action="Details" asp-route-id="@poll.Id" class="list-group-item list-group-item-action p-3">
+                        <a asp-controller="Polls" asp-action="Results" asp-route-id="@poll.Id" class="list-group-item list-group-item-action p-3">
                             <div class="fw-bold text-dark">@poll.Title</div>
                             <small class="text-muted">@Localizer["Completed"]</small>
                         </a>

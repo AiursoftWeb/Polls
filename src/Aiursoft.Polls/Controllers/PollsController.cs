@@ -26,7 +26,7 @@ public class PollsController(
     private async Task<User?> GetCurrentUserAsync() => await userManager.GetUserAsync(User);
 
     private bool HasManagePermission() =>
-        User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManagePolls);
+        User.HasClaim(AppPermissions.Type, AppPermissionNames.CanManageAllPolls);
 
     private bool IsCreatorOrAdmin(Poll poll, User user) =>
         poll.CreatedById == user.Id || HasManagePermission();
@@ -58,6 +58,8 @@ public class PollsController(
     private async Task<(List<User> eligibleUsers, List<User> pendingUsers)> GetEligibleAndPendingUsers(Poll poll)
     {
         var eligibleUsers = new List<User>();
+        // Only RoleBased polls have a defined list of eligible voters
+        // RegisteredOnly polls are open to all registered users, so we can't track pending voters
         if (poll.AccessType == AccessType.RoleBased && poll.RoleRestrictions != null)
         {
             var userIds = new HashSet<string>();
@@ -74,10 +76,6 @@ public class PollsController(
                     }
                 }
             }
-        }
-        else if (poll.AccessType == AccessType.RegisteredOnly)
-        {
-            eligibleUsers = await userManager.Users.ToListAsync();
         }
 
         var submittedUserIds = await context.Submissions
@@ -107,11 +105,11 @@ public class PollsController(
     [RenderInNavBar(
         NavGroupName = "Features",
         NavGroupOrder = 1,
-        CascadedLinksGroupName = "Dashboard",
-        CascadedLinksIcon = "layout",
+        CascadedLinksGroupName = "Polls Management",
+        CascadedLinksIcon = "settings",
         CascadedLinksOrder = 1,
-        LinkText = "All Polls",
-        LinkOrder = 2)]
+        LinkText = "My Polls",
+        LinkOrder = 1)]
     public async Task<IActionResult> Index()
     {
         var user = await GetCurrentUserAsync();
@@ -126,6 +124,30 @@ public class PollsController(
         return this.StackView(new IndexViewModel
         {
             ManagedPolls = managedPolls
+        });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManageAllPolls)]
+    [RenderInNavBar(
+        NavGroupName = "Features",
+        NavGroupOrder = 1,
+        CascadedLinksGroupName = "Polls Management",
+        CascadedLinksIcon = "settings",
+        CascadedLinksOrder = 1,
+        LinkText = "All Polls",
+        LinkOrder = 2)]
+    public async Task<IActionResult> All()
+    {
+        var allPolls = await context.Polls
+            .Include(p => p.CreatedBy)
+            .Where(p => !p.IsDeleted)
+            .OrderByDescending(p => p.CreationTime)
+            .ToListAsync();
+
+        return this.StackView(new IndexViewModel
+        {
+            ManagedPolls = allPolls,
+            PageTitle = "All Polls"
         });
     }
 
@@ -154,10 +176,12 @@ public class PollsController(
                 Description = model.Description,
                 AccessType = model.AccessType,
                 Visibility = model.Visibility,
+                IsAnonymous = model.IsAnonymous,
                 Deadline = model.Deadline,
                 CreatedById = user!.Id,
                 State = PollState.Draft
             };
+
             context.Polls.Add(poll);
             await context.SaveChangesAsync();
 
@@ -216,9 +240,14 @@ public class PollsController(
         bool isCreator = user != null && poll.CreatedById == user.Id;
         bool canManage = isCreator || HasManagePermission();
 
+        if (!canManage)
+        {
+            return Forbid();
+        }
+
         int pendingCount = 0;
         int eligibleCount = 0;
-        if (canManage && poll.AccessType != AccessType.Public)
+        if (canManage && poll.AccessType == AccessType.RoleBased)
         {
             var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
             eligibleCount = eligible.Count;
@@ -249,7 +278,7 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         return this.StackView(new EditViewModel
         {
@@ -258,6 +287,7 @@ public class PollsController(
             Description = poll.Description,
             AccessType = poll.AccessType,
             Visibility = poll.Visibility,
+            IsAnonymous = poll.IsAnonymous,
             Deadline = poll.Deadline.ToSecondPrecision(),
             SelectedRoles = poll.RoleRestrictions?.Select(r => r.RoleId).ToList() ?? [],
             AllRoles = roleManager.Roles.ToList()
@@ -277,15 +307,15 @@ public class PollsController(
             if (poll == null) return NotFound();
 
             var user = await GetCurrentUserAsync();
-            if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+            if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
             poll.Title = model.Title!;
             poll.Description = model.Description;
             poll.AccessType = model.AccessType;
             poll.Visibility = model.Visibility;
+            poll.IsAnonymous = model.IsAnonymous;
             poll.Deadline = model.Deadline;
             poll.UpdatedTime = DateTime.UtcNow;
-
             // Update role restrictions
             var existingRestrictions = poll.RoleRestrictions?.ToList() ?? [];
             context.PollRoleRestrictions.RemoveRange(existingRestrictions);
@@ -322,7 +352,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         if (poll.State != PollState.Draft)
             return BadRequest("Only draft polls can be published.");
@@ -344,7 +374,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         if (poll.State != PollState.Published)
             return BadRequest("Only published polls can be terminated.");
@@ -365,7 +395,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         return this.StackView(new ExtendViewModel
         {
@@ -387,7 +417,7 @@ public class PollsController(
             if (poll == null || poll.IsDeleted) return NotFound();
 
             var user = await GetCurrentUserAsync();
-            if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+            if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
             var oldDeadline = poll.Deadline;
             if (model.NewDeadline <= oldDeadline)
@@ -422,7 +452,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         poll.State = PollState.Void;
         poll.IsDeleted = true;
@@ -443,7 +473,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         return this.StackView(new DeleteViewModel { Poll = poll });
     }
@@ -457,7 +487,7 @@ public class PollsController(
         if (poll != null)
         {
             var user = await GetCurrentUserAsync();
-            if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+            if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
             // Soft delete
             poll.State = PollState.Void;
@@ -479,7 +509,7 @@ public class PollsController(
         if (poll == null || poll.IsDeleted) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         return this.StackView(new AddQuestionViewModel { PollId = poll.Id });
     }
@@ -495,7 +525,7 @@ public class PollsController(
             if (poll == null || poll.IsDeleted) return NotFound();
 
             var user = await GetCurrentUserAsync();
-            if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+            if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
             var order = await context.Questions.Where(q => q.PollId == poll.Id).CountAsync();
             var question = new Question
@@ -542,7 +572,7 @@ public class PollsController(
         if (question == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Forbid();
 
         return this.StackView(new EditQuestionViewModel
         {
@@ -576,7 +606,7 @@ public class PollsController(
             if (question == null) return NotFound();
 
             var user = await GetCurrentUserAsync();
-            if (!IsCreatorOrAdmin(question.Poll!, user!)) return Unauthorized();
+            if (!IsCreatorOrAdmin(question.Poll!, user!)) return Forbid();
 
             question.Title = model.Title!;
             question.Type = model.Type;
@@ -631,10 +661,60 @@ public class PollsController(
         if (question == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Forbid();
 
         context.Questions.Remove(question);
         await context.SaveChangesAsync();
+        return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> MoveQuestionUp(int id)
+    {
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Forbid();
+
+        var previousQuestion = await context.Questions
+            .Where(q => q.PollId == question.PollId && q.Order < question.Order)
+            .OrderByDescending(q => q.Order)
+            .FirstOrDefaultAsync();
+
+        if (previousQuestion != null)
+        {
+            (question.Order, previousQuestion.Order) = (previousQuestion.Order, question.Order);
+            await context.SaveChangesAsync();
+        }
+
+        return RedirectToAction(nameof(Details), new { id = question.PollId });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> MoveQuestionDown(int id)
+    {
+        var question = await context.Questions.Include(q => q.Poll).SingleOrDefaultAsync(q => q.Id == id);
+        if (question == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(question.Poll!, user!)) return Forbid();
+
+        var nextQuestion = await context.Questions
+            .Where(q => q.PollId == question.PollId && q.Order > question.Order)
+            .OrderBy(q => q.Order)
+            .FirstOrDefaultAsync();
+
+        if (nextQuestion != null)
+        {
+            (question.Order, nextQuestion.Order) = (nextQuestion.Order, question.Order);
+            await context.SaveChangesAsync();
+        }
+
         return RedirectToAction(nameof(Details), new { id = question.PollId });
     }
 
@@ -768,9 +848,9 @@ public class PollsController(
         var submission = new Submission
         {
             PollId = poll.Id,
-            UserId = user?.Id,
-            IpAddress = ip,
-            BrowserFingerprint = model.BrowserFingerprint
+            UserId = poll.IsAnonymous ? null : user?.Id,
+            IpAddress = poll.IsAnonymous ? null : ip,
+            BrowserFingerprint = poll.IsAnonymous ? null : model.BrowserFingerprint
         };
         context.Submissions.Add(submission);
         await context.SaveChangesAsync();
@@ -837,9 +917,6 @@ public class PollsController(
 
         await context.SaveChangesAsync();
 
-        if (user != null)
-            return RedirectToAction(nameof(Details), new { id = poll.Id });
-
         return RedirectToAction(nameof(Results), new { id = poll.Id });
     }
 
@@ -863,17 +940,28 @@ public class PollsController(
         var isManager = isCreator || (user != null && HasManagePermission());
 
         // Check visibility
+        var isAuthorized = true;
         switch (poll.Visibility)
         {
             case ResultVisibility.CreatorOnly when !isManager:
-                return Forbid();
+                isAuthorized = false;
+                break;
             case ResultVisibility.Participants when !isManager:
                 if (user == null) return Challenge();
                 var hasSubmitted = await context.Submissions.AnyAsync(s => s.UserId == user.Id && s.PollId == poll.Id);
-                if (!hasSubmitted) return Forbid();
+                if (!hasSubmitted) isAuthorized = false;
                 break;
             case ResultVisibility.Public:
                 break;
+        }
+
+        if (!isAuthorized)
+        {
+            return this.StackView(new ResultsViewModel
+            {
+                Poll = poll,
+                IsAuthorized = false
+            });
         }
 
         // Build result data
@@ -914,7 +1002,7 @@ public class PollsController(
 
         int pendingCount = 0;
         int eligibleCount = 0;
-        if (isManager && poll.AccessType != AccessType.Public)
+        if (isManager && poll.AccessType == AccessType.RoleBased)
         {
             var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
             eligibleCount = eligible.Count;
@@ -945,7 +1033,7 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         var submissions = await context.Submissions
             .Include(s => s.Answers!)
@@ -959,7 +1047,15 @@ public class PollsController(
         var questions = poll.Questions?.OrderBy(q => q.Order).ToList() ?? [];
 
         // Header
-        var headers = new List<string> { "Submission ID", "User", "IP Address", "Submit Time" };
+        var headers = new List<string>();
+        if (!poll.IsAnonymous)
+        {
+            headers.Add("Submission ID");
+            headers.Add("User");
+            headers.Add("IP Address");
+        }
+        headers.Add("Submit Time");
+
         foreach (var q in questions)
         {
             headers.Add($"\"{q.Title.Replace("\"", "\"\"")}\"");
@@ -969,13 +1065,14 @@ public class PollsController(
         // Rows
         foreach (var submission in submissions)
         {
-            var row = new List<string>
+            var row = new List<string>();
+            if (!poll.IsAnonymous)
             {
-                submission.Id.ToString(),
-                $"\"{(submission.User?.DisplayName ?? "Anonymous").Replace("\"", "\"\"")}\"",
-                $"\"{submission.IpAddress}\"",
-                submission.SubmitTime.ToString("u")
-            };
+                row.Add(submission.Id.ToString());
+                row.Add($"\"{(submission.User?.DisplayName ?? "Anonymous").Replace("\"", "\"\"")}\"");
+                row.Add($"\"{submission.IpAddress}\"");
+            }
+            row.Add(submission.SubmitTime.ToString("u"));
 
             foreach (var q in questions)
             {
@@ -1009,7 +1106,7 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         var (_, pendingUsers) = await GetEligibleAndPendingUsers(poll);
 
@@ -1035,7 +1132,7 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         var (eligibleUsers, _) = await GetEligibleAndPendingUsers(poll);
 
@@ -1071,7 +1168,7 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         var user = await GetCurrentUserAsync();
-        if (!IsCreatorOrAdmin(poll, user!)) return Unauthorized();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
 
         if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
             return BadRequest("Can only send reminders for active polls.");

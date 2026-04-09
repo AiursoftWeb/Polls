@@ -34,6 +34,12 @@
                     <span asp-validation-for="Deadline" class="text-danger"></span>
                 </div>
             </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" asp-for="IsAnonymous" />
+                    <label class="form-check-label" asp-for="IsAnonymous">@Localizer["Anonymous Poll (Database will not record user information)"]</label>
+                </div>
+            </div>
             <div class="mb-3" id="roleSection" style="display: none;">
                 <label class="form-label">@Localizer["Allowed Roles"]</label>
                 @foreach (var role in Model.AllRoles)

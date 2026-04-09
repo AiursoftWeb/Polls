@@ -26,6 +26,8 @@ public class Poll
 
     public ResultVisibility Visibility { get; set; } = ResultVisibility.CreatorOnly;
 
+    public bool IsAnonymous { get; set; }
+
     public DateTime Deadline { get; set; }
 
     public DateTime CreationTime { get; init; } = DateTime.UtcNow;

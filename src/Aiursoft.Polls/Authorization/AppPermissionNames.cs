@@ -29,4 +29,5 @@ public static class AppPermissionNames
 
     // Poll Management
     public const string CanManagePolls = nameof(CanManagePolls);
+    public const string CanManageAllPolls = nameof(CanManageAllPolls);
 }

@@ -8,238 +8,282 @@
         <h3>@Localizer["Results:"] <span class="text-muted">@Model.Poll.Title</span></h3>
     </div>
     <div class="col-auto ms-auto text-end mt-n1">
-        @if (Model.CanExport)
+        @if (Model.IsAuthorized)
         {
-            <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
-                <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
-            </a>
-            @if (Model.Poll.AccessType != AccessType.Public)
+            @if (Model.CanExport)
             {
-                <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
-                    <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
+                <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
+                    <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
                 </a>
+                @if (Model.Poll.AccessType == AccessType.RoleBased)
+                {
+                    <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
+                        <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
+                    </a>
+                }
+                <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+            }
+            else
+            {
+                <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light">@Localizer["Back to dashboard"]</a>
             }
         }
-        <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+        else
+        {
+            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light">@Localizer["Back to dashboard"]</a>
+        }
     </div>
 </div>
 
-@{
-    var colWidth = Model.Poll.AccessType == AccessType.Public ? 4 : 3;
-}
-<div class="row mb-3">
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2 class="text-primary">@Model.TotalSubmissions</h2>
-                <div class="text-muted">@Localizer["Total Submissions"]</div>
+@if (!Model.IsAuthorized)
+{
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm border-warning">
+                <div class="card-body text-center py-5">
+                    <div class="mb-4">
+                        <i class="align-middle text-warning" data-lucide="lock" style="width: 64px; height: 64px;"></i>
+                    </div>
+                    <h2 class="card-title h3 mb-3">@Localizer["Results are Private"]</h2>
+                    <p class="card-text text-muted mb-4 mx-auto" style="max-width: 500px;">
+                        @if (Model.Poll.Visibility == ResultVisibility.CreatorOnly)
+                        {
+                            @Localizer["The creator of this poll has chosen to keep the results private. Only the creator and authorized managers can view the detailed outcome."]
+                        }
+                        else if (Model.Poll.Visibility == ResultVisibility.Participants)
+                        {
+                            @Localizer["The results of this poll are only visible to those who have participated. Please submit your vote first to see the current results."]
+                        }
+                    </p>
+                    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary px-4">
+                        <i class="align-middle me-1" data-lucide="arrow-left"></i> @Localizer["Return to Dashboard"]
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    @if (Model.Poll.AccessType != AccessType.Public)
+}
+else
+{
+    if (Model.CanExport)
     {
-        <div class="col-md-@colWidth">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h2 class="text-danger">@Model.PendingVotersCount</h2>
-                    <div class="text-muted">@Localizer["Pending Voters"]</div>
+        var colWidth = Model.Poll.AccessType == AccessType.Public ? 4 : 3;
+        <div class="row mb-3">
+            <div class="col-md-@colWidth">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="text-primary">@Model.TotalSubmissions</h2>
+                        <div class="text-muted">@Localizer["Total Submissions"]</div>
+                    </div>
+                </div>
+            </div>
+            @if (Model.Poll.AccessType == AccessType.RoleBased)
+            {
+                <div class="col-md-@colWidth">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h2 class="text-danger">@Model.PendingVotersCount</h2>
+                            <div class="text-muted">@Localizer["Pending Voters"]</div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="col-md-@colWidth">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
+                        <div class="text-muted">@Localizer["Created By"]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-@colWidth">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>
+                        <div class="text-muted">@Localizer["Deadline"]</div>
+                    </div>
                 </div>
             </div>
         </div>
     }
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2>@(Model.Poll.CreatedBy?.DisplayName ?? "System")</h2>
-                <div class="text-muted">@Localizer["Created By"]</div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-@colWidth">
-        <div class="card">
-            <div class="card-body text-center">
-                <h2><span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></h2>
-                <div class="text-muted">@Localizer["Deadline"]</div>
-            </div>
-        </div>
-    </div>
-</div>
 
-@{
     var qIndex = 0;
-}
-@foreach (var qr in Model.QuestionResults)
-{
-    qIndex++;
-    <div class="card mb-3">
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <h5 class="card-title mb-0">@qIndex. @qr.Question.Title</h5>
-            <small class="text-muted">@Localizer["Responses:"] @qr.TotalAnswers</small>
-        </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-lg-7">
-                    @foreach (var or in qr.OptionResults)
-                    {
-                        <div class="mb-3">
-                            <div class="d-flex justify-content-between mb-1">
-                                <span>@or.Option.Content @(or.Option.AllowCustomText ? "(Other)" : "")</span>
-                                <span class="text-muted">@or.Count (@or.Percentage%)</span>
-                            </div>
-                            <div class="progress" style="height: 10px;">
-                                <div class="progress-bar" role="progressbar" style="width: @or.Percentage%;" aria-valuenow="@or.Percentage" aria-valuemin="0" aria-valuemax="100">
+    foreach (var qr in Model.QuestionResults)
+    {
+        qIndex++;
+        <div class="card mb-3">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">@qIndex. @qr.Question.Title</h5>
+                <small class="text-muted">@Localizer["Responses:"] @qr.TotalAnswers</small>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        @foreach (var or in qr.OptionResults)
+                        {
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>@or.Option.Content @(or.Option.AllowCustomText ? "(Other)" : "")</span>
+                                    <span class="text-muted">@or.Count (@or.Percentage%)</span>
                                 </div>
-                            </div>
-                            @if (or.CustomTexts.Any())
-                            {
-                                <div class="mt-1 ms-3">
-                                    <small class="text-muted">@Localizer["Custom responses:"]</small>
-                                    <ul class="list-unstyled ms-2">
-                                        @foreach (var ct in or.CustomTexts)
-                                        {
-                                            <li class="small">— @ct</li>
-                                        }
-                                    </ul>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar" role="progressbar" style="width: @or.Percentage%;" aria-valuenow="@or.Percentage" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
                                 </div>
-                            }
-                        </div>
-                    }
-                </div>
-                <div class="col-lg-5">
-                    @if (qr.TotalAnswers > 0)
-                    {
-                        <div id="chart-@qr.Question.Id" style="width: 100%; height: 350px;"></div>
-                    }
-                    else
-                    {
-                        <div class="h-100 d-flex align-items-center justify-content-center text-muted">
-                            @Localizer["No data to display"]
-                        </div>
-                    }
+                                @if (or.CustomTexts.Any())
+                                {
+                                    <div class="mt-1 ms-3">
+                                        <small class="text-muted">@Localizer["Custom responses:"]</small>
+                                        <ul class="list-unstyled ms-2">
+                                            @foreach (var ct in or.CustomTexts)
+                                            {
+                                                <li class="small">— @ct</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
+                    <div class="col-lg-5">
+                        @if (qr.TotalAnswers > 0)
+                        {
+                            <div id="chart-@qr.Question.Id" style="width: 100%; height: 350px;"></div>
+                        }
+                        else
+                        {
+                            <div class="h-100 d-flex align-items-center justify-content-center text-muted">
+                                @Localizer["No data to display"]
+                            </div>
+                        }
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    }
 }
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
-    <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script>
-        $(function () {
-            @foreach (var qr in Model.QuestionResults.Where(q => q.TotalAnswers > 0))
-            {
-                <text>
-                (function () {
-                    var chartDom = document.getElementById('chart-@qr.Question.Id');
-                    if (!chartDom) return;
-                    var myChart = echarts.init(chartDom);
-                    var option;
+    @if (Model.IsAuthorized)
+    {
+        <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+        <script>
+            $(function () {
+                @foreach (var qr in Model.QuestionResults.Where(q => q.TotalAnswers > 0))
+                {
+                    <text>
+                    (function () {
+                        var chartDom = document.getElementById('chart-@qr.Question.Id');
+                        if (!chartDom) return;
+                        var myChart = echarts.init(chartDom);
+                        var option;
 
-                    @if (qr.Question.Type == QuestionType.SingleChoice)
-                    {
-                        <text>
-                        option = {
-                            tooltip: {
-                                trigger: 'item',
-                                formatter: '{b}: {c} ({d}%)'
-                            },
-                            legend: {
-                                orient: 'horizontal',
-                                bottom: '0',
-                                show: true
-                            },
-                            series: [
-                                {
-                                    name: '@JavaScriptEncoder.Default.Encode(qr.Question.Title)',
-                                    type: 'pie',
-                                    radius: ['40%', '70%'],
-                                    avoidLabelOverlap: true,
-                                    itemStyle: {
-                                        borderRadius: 10,
-                                        borderColor: '#fff',
-                                        borderWidth: 2
-                                    },
-                                    label: {
-                                        show: false,
-                                        position: 'center'
-                                    },
-                                    emphasis: {
-                                        label: {
-                                            show: true,
-                                            fontSize: '20',
-                                            fontWeight: 'bold'
-                                        }
-                                    },
-                                    labelLine: {
-                                        show: false
-                                    },
-                                    data: [
-                                        @foreach (var or in qr.OptionResults)
-                                        {
-                                            <text>{ value: @or.Count, name: '@JavaScriptEncoder.Default.Encode(or.Option.Content)' },</text>
-                                        }
-                                    ]
-                                }
-                            ]
-                        };
-                        </text>
-                    }
-                    else
-                    {
-                        <text>
-                        option = {
-                            tooltip: {
-                                trigger: 'axis',
-                                axisPointer: {
-                                    type: 'shadow'
-                                }
-                            },
-                            grid: {
-                                left: '3%',
-                                right: '4%',
-                                bottom: '3%',
-                                containLabel: true
-                            },
-                            xAxis: {
-                                type: 'value',
-                                boundaryGap: [0, 0.01]
-                            },
-                            yAxis: {
-                                type: 'category',
-                                data: [
-                                    @foreach (var or in qr.OptionResults.AsEnumerable().Reverse())
+                        @if (qr.Question.Type == QuestionType.SingleChoice)
+                        {
+                            <text>
+                            option = {
+                                tooltip: {
+                                    trigger: 'item',
+                                    formatter: '{b}: {c} ({d}%)'
+                                },
+                                legend: {
+                                    orient: 'horizontal',
+                                    bottom: '0',
+                                    show: true
+                                },
+                                series: [
                                     {
-                                        <text>'@JavaScriptEncoder.Default.Encode(or.Option.Content)',</text>
+                                        name: '@JavaScriptEncoder.Default.Encode(qr.Question.Title)',
+                                        type: 'pie',
+                                        radius: ['40%', '70%'],
+                                        avoidLabelOverlap: true,
+                                        itemStyle: {
+                                            borderRadius: 10,
+                                            borderColor: '#fff',
+                                            borderWidth: 2
+                                        },
+                                        label: {
+                                            show: false,
+                                            position: 'center'
+                                        },
+                                        emphasis: {
+                                            label: {
+                                                show: true,
+                                                fontSize: '20',
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        labelLine: {
+                                            show: false
+                                        },
+                                        data: [
+                                            @foreach (var or in qr.OptionResults)
+                                            {
+                                                <text>{ value: @or.Count, name: '@JavaScriptEncoder.Default.Encode(or.Option.Content)' },</text>
+                                            }
+                                        ]
                                     }
                                 ]
-                            },
-                            series: [
-                                {
-                                    name: 'Count',
-                                    type: 'bar',
+                            };
+                            </text>
+                        }
+                        else
+                        {
+                            <text>
+                            option = {
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: {
+                                        type: 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    left: '3%',
+                                    right: '4%',
+                                    bottom: '3%',
+                                    containLabel: true
+                                },
+                                xAxis: {
+                                    type: 'value',
+                                    boundaryGap: [0, 0.01]
+                                },
+                                yAxis: {
+                                    type: 'category',
                                     data: [
                                         @foreach (var or in qr.OptionResults.AsEnumerable().Reverse())
                                         {
-                                            <text>@or.Count,</text>
+                                            <text>'@JavaScriptEncoder.Default.Encode(or.Option.Content)',</text>
                                         }
-                                    ],
-                                    itemStyle: {
-                                        color: '#3b7ddd'
+                                    ]
+                                },
+                                series: [
+                                    {
+                                        name: 'Count',
+                                        type: 'bar',
+                                        data: [
+                                            @foreach (var or in qr.OptionResults.AsEnumerable().Reverse())
+                                            {
+                                                <text>@or.Count,</text>
+                                            }
+                                        ],
+                                        itemStyle: {
+                                            color: '#3b7ddd'
+                                        }
                                     }
-                                }
-                            ]
-                        };
-                        </text>
-                    }
+                                ]
+                            };
+                            </text>
+                        }
 
-                    myChart.setOption(option);
-                    window.addEventListener('resize', function () {
-                        myChart.resize();
-                    });
-                })();
-                </text>
-            }
-        });
-    </script>
+                        myChart.setOption(option);
+                        window.addEventListener('resize', function () {
+                            myChart.resize();
+                        });
+                    })();
+                    </text>
+                }
+            });
+        </script>
+    }
 }

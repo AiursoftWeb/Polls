@@ -58,6 +58,8 @@ public class PollsController(
     private async Task<(List<User> eligibleUsers, List<User> pendingUsers)> GetEligibleAndPendingUsers(Poll poll)
     {
         var eligibleUsers = new List<User>();
+        // Only RoleBased polls have a defined list of eligible voters
+        // RegisteredOnly polls are open to all registered users, so we can't track pending voters
         if (poll.AccessType == AccessType.RoleBased && poll.RoleRestrictions != null)
         {
             var userIds = new HashSet<string>();
@@ -74,10 +76,6 @@ public class PollsController(
                     }
                 }
             }
-        }
-        else if (poll.AccessType == AccessType.RegisteredOnly)
-        {
-            eligibleUsers = await userManager.Users.ToListAsync();
         }
 
         var submittedUserIds = await context.Submissions
@@ -249,7 +247,7 @@ public class PollsController(
 
         int pendingCount = 0;
         int eligibleCount = 0;
-        if (canManage && poll.AccessType != AccessType.Public)
+        if (canManage && poll.AccessType == AccessType.RoleBased)
         {
             var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
             eligibleCount = eligible.Count;
@@ -1004,7 +1002,7 @@ public class PollsController(
 
         int pendingCount = 0;
         int eligibleCount = 0;
-        if (isManager && poll.AccessType != AccessType.Public)
+        if (isManager && poll.AccessType == AccessType.RoleBased)
         {
             var (eligible, pending) = await GetEligibleAndPendingUsers(poll);
             eligibleCount = eligible.Count;

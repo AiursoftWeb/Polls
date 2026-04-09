@@ -15,7 +15,7 @@
                 <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
                     <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
                 </a>
-                @if (Model.Poll.AccessType != AccessType.Public)
+                @if (Model.Poll.AccessType == AccessType.RoleBased)
                 {
                     <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
                         <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
@@ -77,7 +77,7 @@ else
                     </div>
                 </div>
             </div>
-            @if (Model.Poll.AccessType != AccessType.Public)
+            @if (Model.Poll.AccessType == AccessType.RoleBased)
             {
                 <div class="col-md-@colWidth">
                     <div class="card">

@@ -91,13 +91,13 @@
                         @Localizer["Anonymous: Identity and IP will NOT be recorded."]
                     </div>
                 }
-                @if (Model.CanManage && Model.Poll.AccessType != AccessType.Public && !Model.Poll.IsAnonymous)
+                @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased && !Model.Poll.IsAnonymous)
                 {
                     <hr />
                     <div><strong>@Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
                     <div><strong>@Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
                 }
-                @if (Model.CanManage && Model.Poll.AccessType != AccessType.Public)
+                @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased)
                 {
                     <div class="mt-2">
                         <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1 @(Model.Poll.IsAnonymous ? "disabled" : "")">

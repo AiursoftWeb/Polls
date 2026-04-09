@@ -110,7 +110,7 @@ public class PollsController(
         CascadedLinksGroupName = "Polls Management",
         CascadedLinksIcon = "settings",
         CascadedLinksOrder = 1,
-        LinkText = "My Managed Polls",
+        LinkText = "My Polls",
         LinkOrder = 1)]
     public async Task<IActionResult> Index()
     {
@@ -149,7 +149,7 @@ public class PollsController(
         return this.StackView(new IndexViewModel
         {
             ManagedPolls = allPolls,
-            PageTitle = "All Polls Management"
+            PageTitle = "All Polls"
         });
     }
 

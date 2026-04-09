@@ -7,7 +7,7 @@ public class IndexViewModel : UiStackLayoutViewModel
 {
     public IndexViewModel()
     {
-        PageTitle = "Polls Dashboard";
+        PageTitle = "My Polls";
     }
 
     public required List<Poll> ManagedPolls { get; set; }

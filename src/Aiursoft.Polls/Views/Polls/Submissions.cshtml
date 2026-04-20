@@ -39,7 +39,7 @@
                                         <div class="d-flex align-items-center">
                                             @if (submission.User != null)
                                             {
-                                                <img src="@StorageService.RelativePathToInternetUrl(submission.User.AvatarRelativePath ?? User.DefaultAvatarPath)?w=72&square=true" alt="@submission.User.DisplayName" class="rounded-circle me-2" width="32" height="32">
+                                                <img src="@StorageService.RelativePathToInternetUrl(submission.User.AvatarRelativePath)?w=72&square=true" alt="@submission.User.DisplayName" class="rounded-circle me-2" width="32" height="32">
                                                 <span>@submission.User.DisplayName</span>
                                             }
                                             else

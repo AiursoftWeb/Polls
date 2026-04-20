@@ -1140,6 +1140,59 @@ public class PollsController(
     }
 
     [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    public async Task<IActionResult> Submissions(Guid id)
+    {
+        var poll = await context.Polls
+            .SingleOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
+
+        if (poll == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
+
+        var submissions = await context.Submissions
+            .Include(s => s.User)
+            .Where(s => s.PollId == id)
+            .OrderByDescending(s => s.SubmitTime)
+            .ToListAsync();
+
+        return this.StackView(new SubmissionsViewModel
+        {
+            Poll = poll,
+            Submissions = submissions
+        });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
+    public async Task<IActionResult> SubmissionDetail(int id)
+    {
+        var submission = await context.Submissions
+            .Include(s => s.User)
+            .Include(s => s.Answers!)
+            .ThenInclude(a => a.Option)
+            .SingleOrDefaultAsync(s => s.Id == id);
+
+        if (submission == null) return NotFound();
+
+        var poll = await context.Polls
+            .Include(p => p.Questions!)
+            .ThenInclude(q => q.Options)
+            .SingleOrDefaultAsync(p => p.Id == submission.PollId && !p.IsDeleted);
+
+        if (poll == null) return NotFound();
+
+        var user = await GetCurrentUserAsync();
+        if (!IsCreatorOrAdmin(poll, user!)) return Forbid();
+
+        return this.StackView(new SubmissionDetailViewModel
+        {
+            Poll = poll,
+            Submission = submission,
+            Questions = poll.Questions?.OrderBy(q => q.Order).ToList() ?? []
+        });
+    }
+
+    [Authorize(Policy = AppPermissionNames.CanManagePolls)]
     public async Task<IActionResult> ExportPendingUsers(Guid id)
     {
         var poll = await context.Polls

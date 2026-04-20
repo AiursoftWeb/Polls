@@ -1,0 +1,90 @@
+@using Aiursoft.Polls.Models.PollsViewModels
+@using Aiursoft.WebTools
+@inject IViewLocalizer Localizer
+@model SubmissionDetailViewModel
+@{
+    ViewData["Title"] = Localizer["Submission Details"];
+}
+
+<div class="container-xl p-0">
+    <div class="row mb-2 mb-xl-3">
+        <div class="col-auto">
+            <h3><strong>@Localizer["Submission Details"]</strong> - @Model.Poll?.Title</h3>
+        </div>
+        <div class="col-auto ms-auto text-end">
+            <a asp-action="Submissions" asp-route-id="@Model.Poll?.Id" class="btn btn-light">@Localizer["Back to list"]</a>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="card-title mb-0">@Localizer["Voter Information"]</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <strong>@Localizer["User:"]</strong>
+                    @if (Model.Submission?.User != null)
+                    {
+                        @Model.Submission.User.DisplayName
+                    }
+                    else
+                    {
+                        <span class="text-muted">@Localizer["Anonymous"]</span>
+                    }
+                </div>
+                <div class="col-md-4">
+                    <strong>@Localizer["Submit Time:"]</strong>
+                    <span data-utc-time="@(Model.Submission?.SubmitTime.ToHtmlDateTime())"></span>
+                </div>
+                <div class="col-md-4">
+                    <strong>@Localizer["IP Address:"]</strong>
+                    @(string.IsNullOrEmpty(Model.Submission?.IpAddress) ? "-" : Model.Submission.IpAddress)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @foreach (var question in Model.Questions)
+    {
+        var userAnswers = Model.Submission?.Answers?.Where(a => a.QuestionId == question.Id).ToList() ?? [];
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">@question.Title</h5>
+
+                <div class="list-group">
+                    @foreach (var option in (question.Options ?? []).OrderBy(o => o.DisplayOrder))
+                    {
+                        var answer = userAnswers.FirstOrDefault(a => a.OptionId == option.Id);
+                        var isSelected = answer != null;
+                        
+                        <div class="list-group-item @(isSelected ? "list-group-item-info" : "") d-flex justify-content-between align-items-center">
+                            <div>
+                                @if (isSelected)
+                                {
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                }
+                                else
+                                {
+                                    <i class="bi bi-circle me-2 text-muted"></i>
+                                }
+                                @option.Content
+                                
+                                @if (isSelected && !string.IsNullOrWhiteSpace(answer?.CustomText))
+                                {
+                                    <div class="mt-2 ms-4 p-2 bg-light border rounded">
+                                        <strong>@Localizer["Answer:"]</strong> @answer.CustomText
+                                    </div>
+                                }
+                            </div>
+                            @if (isSelected)
+                            {
+                                <span class="badge bg-primary rounded-pill">@Localizer["Selected"]</span>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

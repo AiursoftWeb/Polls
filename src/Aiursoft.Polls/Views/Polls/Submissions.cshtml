@@ -1,0 +1,77 @@
+@using Aiursoft.Polls.Models.PollsViewModels
+@using Aiursoft.Polls.Services.FileStorage
+@using Aiursoft.WebTools
+@inject IViewLocalizer Localizer
+@inject StorageService StorageService
+@model SubmissionsViewModel
+@{
+    ViewData["Title"] = Localizer["Submissions"];
+}
+
+<div class="container-xl p-0">
+    <div class="row mb-2 mb-xl-3">
+        <div class="col-auto d-none d-sm-block">
+            <h3><strong>@Localizer["Submissions"]</strong> - @Model.Poll?.Title</h3>
+        </div>
+        <div class="col-auto ms-auto text-end">
+            <a asp-action="Details" asp-route-id="@Model.Poll?.Id" class="btn btn-light">@Localizer["Back to details"]</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>@Localizer["User"]</th>
+                                <th>@Localizer["Submit Time"]</th>
+                                <th>@Localizer["IP Address"]</th>
+                                <th>@Localizer["Action"]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var submission in Model.Submissions)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            @if (submission.User != null)
+                                            {
+                                                <img src="@StorageService.RelativePathToInternetUrl(submission.User.AvatarRelativePath ?? User.DefaultAvatarPath)?w=72&square=true" alt="@submission.User.DisplayName" class="rounded-circle me-2" width="32" height="32">
+                                                <span>@submission.User.DisplayName</span>
+                                            }
+                                            else
+                                            {
+                                                <i class="bi bi-person-circle fs-3 me-2 text-secondary"></i>
+                                                <span>@Localizer["Anonymous"]</span>
+                                            }
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span data-utc-time="@submission.SubmitTime.ToHtmlDateTime()"></span>
+                                    </td>
+                                    <td>
+                                        @(string.IsNullOrEmpty(submission.IpAddress) ? "-" : submission.IpAddress)
+                                    </td>
+                                    <td>
+                                        <a asp-action="SubmissionDetail" asp-route-id="@submission.Id" class="btn btn-outline-primary btn-sm">
+                                            <i class="bi bi-eye me-1"></i> @Localizer["View Details"]
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                            @if (!Model.Submissions.Any())
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center text-muted">@Localizer["No submissions found."]</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

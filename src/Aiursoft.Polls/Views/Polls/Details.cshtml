@@ -103,6 +103,9 @@
                         <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1 @(Model.Poll.IsAnonymous ? "disabled" : "")">
                             <i class="align-middle" data-lucide="users"></i> @Localizer["View Voter Status"]
                         </a>
+                        <a asp-action="Submissions" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary btn-sm w-100 mb-1">
+                            <i class="align-middle" data-lucide="list"></i> @Localizer["View Submissions"]
+                        </a>
                         <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100 @(Model.Poll.IsAnonymous ? "disabled" : "")">
                             <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending Users"]
                         </a>

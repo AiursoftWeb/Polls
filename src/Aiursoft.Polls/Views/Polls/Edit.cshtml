@@ -39,6 +39,8 @@
                 <div class="form-check">
                     <input class="form-check-input" asp-for="IsAnonymous" />
                     <label class="form-check-label" asp-for="IsAnonymous">@Localizer["Anonymous Poll (Database will not record user information)"]</label>
+                    <i class="bi bi-question-circle text-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                       title="@Localizer["<b>Cost of Anonymity:</b><br/>1. <b>Privacy:</b> No UserID, IP, or Fingerprint is stored.<br/>2. <b>Tracking:</b> You cannot see who has voted or not.<br/>3. <b>Dashboard:</b> This poll will not show in users' To-Do list.<br/>4. <b>Security:</b> Cannot strictly prevent duplicate votes from the same device/person."]"></i>
                 </div>
             </div>
             <div class="mb-3" id="roleSection" style="display: none;">
@@ -62,6 +64,11 @@
 @section scripts {
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+
             const select = document.getElementById("accessTypeSelect");
             const roleSection = document.getElementById("roleSection");
             function toggleRoles() {

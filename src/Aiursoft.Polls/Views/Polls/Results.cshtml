@@ -220,7 +220,7 @@ else
                                         data: [
                                             @foreach (var or in qr.OptionResults)
                                             {
-                                                <text>{ value: @or.Count, name: '@JavaScriptEncoder.Default.Encode(or.Option.Content)' },</text>
+                                                <text>{ value: @or.Count, name: '@JavaScriptEncoder.Default.Encode(or.Option.Content.Length > 20 ? or.Option.Content[..20] + "..." : or.Option.Content)' },</text>
                                             }
                                         ]
                                     }
@@ -253,7 +253,7 @@ else
                                     data: [
                                         @foreach (var or in qr.OptionResults.AsEnumerable().Reverse())
                                         {
-                                            <text>'@JavaScriptEncoder.Default.Encode(or.Option.Content)',</text>
+                                            <text>'@JavaScriptEncoder.Default.Encode(or.Option.Content.Length > 20 ? or.Option.Content[..20] + "..." : or.Option.Content)',</text>
                                         }
                                     ]
                                 },

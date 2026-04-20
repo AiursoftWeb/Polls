@@ -88,29 +88,6 @@ public class PollVoteUXTests : TestBase
         return pollId;
     }
 
-    private Guid ExtractGuid(string? url)
-    {
-        if (string.IsNullOrEmpty(url)) return Guid.Empty;
-        
-        // Try to find a GUID in the URL using Regex, but be more flexible
-        var match = System.Text.RegularExpressions.Regex.Match(url, @"[a-fA-F0-9]{8}-?([a-fA-F0-9]{4}-?){3}[a-fA-F0-9]{12}");
-        if (match.Success)
-        {
-            return Guid.Parse(match.Value);
-        }
-
-        // Fallback to splitting
-        var parts = url.Split('/', '?', '&', '=');
-        foreach (var part in parts)
-        {
-            if (Guid.TryParse(part, out var result))
-            {
-                return result;
-            }
-        }
-        return Guid.Empty;
-    }
-
     private async Task PublishPoll(Guid pollId)
     {
         await PostForm($"/Polls/Publish/{pollId}", new Dictionary<string, string>());

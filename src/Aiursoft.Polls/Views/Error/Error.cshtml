@@ -27,7 +27,11 @@
                 <h1 class="h3 mb-3">@Localizer[Model.PageTitle ?? "Error"]</h1>
 
                 <p class="lead">
-                    @if (Model.ErrorCode == 400)
+                    @if (!string.IsNullOrEmpty(Model.Message))
+                    {
+                        @Localizer[Model.Message]
+                    }
+                    else if (Model.ErrorCode == 400)
                     {
                         @Localizer["Your browser sent a request that this server could not understand."]
                     }

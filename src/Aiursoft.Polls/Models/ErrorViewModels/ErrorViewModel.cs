@@ -20,4 +20,6 @@ public class ErrorViewModel: UiStackLayoutViewModel
 
     [Display(Name = "Return URL")]
     public string? ReturnUrl { get; set; }
+
+    public string? Message { get; set; }
 }

@@ -1,0 +1,31 @@
+@model Aiursoft.Polls.Models.PollsViewModels.PollMessageViewModel
+
+<div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+        <div class="card shadow-sm border-0 mt-5">
+            <div class="card-body text-center p-4 p-sm-5">
+                <div class="mb-4">
+                    <i class="align-middle @Model.IconColor" data-lucide="@Model.Icon" style="width: 64px; height: 64px;"></i>
+                </div>
+
+                <h1 class="h3 mb-3">@Localizer[Model.Message]</h1>
+
+                <p class="lead text-muted mb-4 mx-auto" style="max-width: 500px;">
+                    @Localizer[Model.SubMessage]
+                </p>
+
+                <div class="mt-4">
+                    @if (!string.IsNullOrEmpty(Model.ButtonUrl))
+                    {
+                        <a href="@Model.ButtonUrl" class="btn btn-primary btn-lg px-4">
+                             @Localizer[Model.ButtonText ?? "Continue"]
+                        </a>
+                    }
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary btn-lg px-4 ms-2">
+                        <i class="align-middle me-1" data-lucide="home"></i> @Localizer["Back to Home"]
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

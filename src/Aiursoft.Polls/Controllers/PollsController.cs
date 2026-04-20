@@ -732,8 +732,29 @@ public class PollsController(
 
         if (poll == null) return NotFound();
 
-        if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
-            return BadRequest("This poll is not active.");
+        if (poll.State != PollState.Published)
+        {
+            return this.SimpleView(new PollMessageViewModel
+            {
+                Message = "This poll is not yet open.",
+                SubMessage = "The creator has not yet published this poll. Please come back later.",
+                Icon = "calendar",
+                IconColor = "text-info"
+            }, "PollMessage");
+        }
+
+        if (poll.Deadline <= DateTime.UtcNow)
+        {
+            return this.SimpleView(new PollMessageViewModel
+            {
+                Message = "This poll has ended.",
+                SubMessage = "The deadline for this poll has passed. You can no longer submit your response.",
+                Icon = "clock",
+                IconColor = "text-warning",
+                ButtonText = "View Results",
+                ButtonUrl = Url.Action(nameof(Results), new { id = poll.Id })
+            }, "PollMessage");
+        }
 
         var user = await GetCurrentUserAsync();
 
@@ -747,7 +768,10 @@ public class PollsController(
         if (user != null)
         {
             var hasSubmitted = await context.Submissions.AnyAsync(s => s.UserId == user.Id && s.PollId == poll.Id);
-            if (hasSubmitted) return BadRequest("You have already submitted your response.");
+            if (hasSubmitted)
+            {
+                return RedirectToAction(nameof(Results), new { id = poll.Id });
+            }
         }
 
         return this.SimpleView(new VoteViewModel { PollId = poll.Id, Poll = poll });
@@ -767,7 +791,15 @@ public class PollsController(
         if (poll == null) return NotFound();
 
         if (poll.State != PollState.Published || poll.Deadline <= DateTime.UtcNow)
-            return BadRequest("This poll is not active.");
+        {
+            return this.SimpleView(new PollMessageViewModel
+            {
+                Message = "This poll is not active.",
+                SubMessage = "The poll might be a draft or has already closed.",
+                Icon = "alert-circle",
+                IconColor = "text-warning"
+            }, "PollMessage");
+        }
 
         var user = await GetCurrentUserAsync();
         if (!await CanUserAccessPoll(poll, user))
@@ -782,7 +814,10 @@ public class PollsController(
         if (user != null)
         {
             var hasSubmitted = await context.Submissions.AnyAsync(s => s.UserId == user.Id && s.PollId == poll.Id);
-            if (hasSubmitted) return BadRequest("You have already submitted your response.");
+            if (hasSubmitted)
+            {
+                return RedirectToAction(nameof(Results), new { id = poll.Id });
+            }
         }
         else
         {
@@ -791,7 +826,15 @@ public class PollsController(
                 .Where(s => s.IpAddress == ip && s.PollId == poll.Id && s.SubmitTime > DateTime.UtcNow.AddDays(-1) && s.UserId == null)
                 .CountAsync();
             if (recentAnonymous >= 5)
-                return BadRequest("You have reached the maximum number of anonymous submissions for today.");
+            {
+                return this.SimpleView(new PollMessageViewModel
+                {
+                    Message = "Maximum submissions reached.",
+                    SubMessage = "You have reached the maximum number of anonymous submissions for today. Please register an account to submit more.",
+                    Icon = "alert-triangle",
+                    IconColor = "text-danger"
+                }, "PollMessage");
+            }
         }
 
         // Validate custom texts (non-empty when checked)

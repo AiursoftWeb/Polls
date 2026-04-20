@@ -12,13 +12,14 @@ public class ErrorController : Controller
 {
     [Route("Error/Code{code:int}")]
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Code(int code, [FromQuery] string? returnUrl = null)
+    public IActionResult Code(int code, [FromQuery] string? returnUrl = null, [FromQuery] string? message = null)
     {
         var model = new ErrorViewModel
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier,
             ErrorCode = code,
-            ReturnUrl = returnUrl
+            ReturnUrl = returnUrl,
+            Message = message
         };
 
         switch (code)

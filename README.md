@@ -1,4 +1,4 @@
-# Polls - A sample project
+# Polls
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/aiursoftweb/polls/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/polls/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/polls/-/pipelines)

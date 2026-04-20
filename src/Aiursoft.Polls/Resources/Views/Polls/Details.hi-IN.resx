@@ -135,6 +135,9 @@
   <data name="View Results" xml:space="preserve">
     <value>परिणाम देखें</value>
   </data>
+  <data name="View Submissions" xml:space="preserve">
+    <value>समर्पण देखें</value>
+  </data>
   <data name="View Voter Status" xml:space="preserve">
     <value>मतदाता स्थिति देखें</value>
   </data>

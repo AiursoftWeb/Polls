@@ -135,6 +135,9 @@
   <data name="View Results" xml:space="preserve">
     <value>Sonuçları Görüntüle</value>
   </data>
+  <data name="View Submissions" xml:space="preserve">
+    <value>Gönderimleri Görüntüle</value>
+  </data>
   <data name="View Voter Status" xml:space="preserve">
     <value>Oylayıcı Durumunu Görüntüle</value>
   </data>

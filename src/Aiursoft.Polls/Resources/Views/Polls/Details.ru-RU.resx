@@ -135,6 +135,9 @@
   <data name="View Results" xml:space="preserve">
     <value>Просмотр результатов</value>
   </data>
+  <data name="View Submissions" xml:space="preserve">
+    <value>Просмотр заявок</value>
+  </data>
   <data name="View Voter Status" xml:space="preserve">
     <value>Просмотр статуса избирателей</value>
   </data>

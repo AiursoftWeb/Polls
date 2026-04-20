@@ -135,6 +135,9 @@
   <data name="View Results" xml:space="preserve">
     <value>結果を表示</value>
   </data>
+  <data name="View Submissions" xml:space="preserve">
+    <value>提出内容を表示</value>
+  </data>
   <data name="View Voter Status" xml:space="preserve">
     <value>投票者ステータスを表示</value>
   </data>

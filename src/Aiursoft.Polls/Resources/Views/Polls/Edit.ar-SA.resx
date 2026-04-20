@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Allowed Roles" xml:space="preserve">
+      <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
+    <value>&lt;b&gt;تكلفة السرية:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;الخصوصية:&lt;/b&gt; لا يتم تخزين معرّف المستخدم أو عنوان IP أو بصمة الجهاز.&lt;br/&gt;2. &lt;b&gt;التتبع:&lt;/b&gt; لا يمكنك معرفة من صوّت ومن لم يصوّت.&lt;br/&gt;3. &lt;b&gt;لوحة التحكم:&lt;/b&gt; لن يظهر هذا الاستطلاع في قائمة المهام للمستخدمين.&lt;br/&gt;4. &lt;b&gt;الأمان:&lt;/b&gt; لا يمكن منع التصويت المكرر من نفس الجهاز أو الشخص بشكل صارم.</value>
+  </data>
+  <data name="Allowed Roles" xml:space="preserve">
     <value>الأدوار المسموح بها</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">

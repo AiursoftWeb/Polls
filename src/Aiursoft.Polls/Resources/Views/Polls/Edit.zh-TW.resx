@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Allowed Roles" xml:space="preserve">
+      <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
+    <value>&lt;b&gt;匿名化的代價：&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;隱私：&lt;/b&gt;不會儲存使用者 ID、IP 位址或指紋。&lt;br/&gt;2. &lt;b&gt;追蹤：&lt;/b&gt;您無法查看誰已投票或尚未投票。&lt;br/&gt;3. &lt;b&gt;儀表板：&lt;/b&gt;此投票不會顯示在用戶的待辦事項清單中。&lt;br/&gt;4. &lt;b&gt;安全性：&lt;/b&gt;無法嚴格防止來自同一裝置或個人的重複投票。</value>
+  </data>
+  <data name="Allowed Roles" xml:space="preserve">
     <value>允許的角色</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">

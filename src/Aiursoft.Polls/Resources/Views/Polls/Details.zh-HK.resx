@@ -135,6 +135,9 @@
   <data name="View Results" xml:space="preserve">
     <value>查看結果</value>
   </data>
+  <data name="View Submissions" xml:space="preserve">
+    <value>查看提交</value>
+  </data>
   <data name="View Voter Status" xml:space="preserve">
     <value>檢視選民狀態</value>
   </data>

@@ -4,6 +4,11 @@ namespace Aiursoft.Polls.Models.PollsViewModels;
 
 public class PollMessageViewModel : UiStackLayoutViewModel
 {
+    public PollMessageViewModel()
+    {
+        PageTitle = "Poll Message";
+    }
+
     public required string Message { get; set; }
     public required string SubMessage { get; set; }
     public string Icon { get; set; } = "info";

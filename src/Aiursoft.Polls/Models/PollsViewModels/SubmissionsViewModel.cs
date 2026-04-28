@@ -5,6 +5,11 @@ namespace Aiursoft.Polls.Models.PollsViewModels;
 
 public class SubmissionsViewModel : UiStackLayoutViewModel
 {
+    public SubmissionsViewModel()
+    {
+        PageTitle = "Submissions";
+    }
+
     public Poll? Poll { get; set; }
     public List<Submission> Submissions { get; set; } = [];
 }

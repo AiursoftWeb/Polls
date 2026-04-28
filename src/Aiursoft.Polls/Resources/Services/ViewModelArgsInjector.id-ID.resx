@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Detail Poll</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Pesan Polling</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Hasil Polling</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Keluar</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Rincian Pengiriman</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Pengiriman</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Kirim Suara</value>

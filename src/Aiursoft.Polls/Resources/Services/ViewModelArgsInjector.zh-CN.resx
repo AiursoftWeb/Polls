@@ -153,6 +153,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>投票详情</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>投票消息</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>投票结果</value>
   </data>
@@ -182,6 +185,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>退出登录</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>提交详情</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>提交内容</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>提交投票</value>

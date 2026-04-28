@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Detalhes da Pesquisa</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Mensagem da Enquete</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Resultados da Pesquisa</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Sair</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Detalhes da Submissão</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Submissões</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Enviar Voto</value>

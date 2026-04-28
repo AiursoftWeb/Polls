@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Деталі опитування</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Повідомлення опитування</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Результати опитування</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Вийти</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Деталі подання</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Подання</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Надіслати голос</value>

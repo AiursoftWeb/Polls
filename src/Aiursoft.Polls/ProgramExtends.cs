@@ -97,7 +97,7 @@ public static class ProgramExtends
                 DisplayName = "Super Administrator",
                 Email = "admin@default.com",
             };
-            var result = await userManager.CreateAsync(user, "admin123");
+            var result = await userManager.CreateAsync(user, "Admin@123456!");
             if (result.Succeeded)
             {
                 await userManager.AddToRoleAsync(user, "Administrators");

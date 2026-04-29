@@ -96,6 +96,10 @@ public class ViewModelArgsInjector(
     
         _ = localizer["My Polls"];
         _ = localizer["Polls Management"];
+    
+        _ = localizer["Poll Message"];
+        _ = localizer["Submission Details"];
+        _ = localizer["Submissions"];
     }
 
     public void InjectSimple(

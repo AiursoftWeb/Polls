@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>تفاصيل الاستطلاع</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>رسالة التصويت</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>نتائج الاستطلاع</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>تسجيل الخروج</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>تفاصيل الإرسال</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>الإرسالات</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>إرسال التصويت</value>

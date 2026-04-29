@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Äänestystiedot</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Kyselyviesti</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Äänestystulokset</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Kirjaudu ulos</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Lähetystiedot</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Lähetetyt</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Lähetä ääni</value>

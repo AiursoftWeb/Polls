@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Omröstningsdetaljer</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Omröstningsmeddelande</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Omställningsresultat</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Logga ut</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Inlämningsdetaljer</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Inlämningar</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Skicka röst</value>

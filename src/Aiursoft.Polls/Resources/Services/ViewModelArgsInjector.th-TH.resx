@@ -153,6 +153,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>รายละเอียดการโหวต</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>ข้อความสำรวจความคิดเห็น</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>ผลการสำรวจความคิดเห็น</value>
   </data>
@@ -182,6 +185,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>ออกจากระบบ</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>รายละเอียดการส่ง</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>การส่งผลงาน</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>ส่งคะแนนเสียง</value>

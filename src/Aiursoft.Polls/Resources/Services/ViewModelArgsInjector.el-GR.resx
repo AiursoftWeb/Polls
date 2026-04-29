@@ -150,6 +150,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>Λεπτομέρειες Ψηφοφορίας</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>Μήνυμα Πλει ψαλφιστικης</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>Αποτελέσματα Ψηφοφορίας</value>
   </data>
@@ -179,6 +182,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Αποσύνδεση</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>Λεπτομέρειες Υποβολής</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Υποβολές</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>Υποβολή Ψήφου</value>

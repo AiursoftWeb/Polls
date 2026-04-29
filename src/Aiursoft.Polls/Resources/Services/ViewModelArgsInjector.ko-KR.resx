@@ -153,6 +153,9 @@
   <data name="Poll Details" xml:space="preserve">
     <value>투표 세부 정보</value>
   </data>
+  <data name="Poll Message" xml:space="preserve">
+    <value>투표 메시지</value>
+  </data>
   <data name="Poll Results" xml:space="preserve">
     <value>투표 결과</value>
   </data>
@@ -182,6 +185,12 @@
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>로그아웃</value>
+  </data>
+  <data name="Submission Details" xml:space="preserve">
+    <value>제출 세부 정보</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>제출물</value>
   </data>
   <data name="Submit Vote" xml:space="preserve">
     <value>투표 제출</value>

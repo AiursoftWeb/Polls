@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Accesso</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Accesso:</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Aggiungi domanda</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Anonimo</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Anonimo:</value>
@@ -57,8 +63,14 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Copia collegamento</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>Creato da</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Creato da:</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Scadenza</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Scadenza:</value>
@@ -68,6 +80,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Modifica</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>Votanti idonei</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Elettori Ammessi:</value>
@@ -102,8 +117,14 @@
   <data name="Other" xml:space="preserve">
     <value>Altro</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>Votanti in attesa</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Votanti in attesa:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Dettagli sondaggio</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>Dettagli sondaggio:</value>
@@ -114,14 +135,23 @@
   <data name="Publish" xml:space="preserve">
     <value>Pubblica</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>D:</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Domande</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Ricorda</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Visibilità dei risultati</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Visibilità dei risultati:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stato</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Stato:</value>

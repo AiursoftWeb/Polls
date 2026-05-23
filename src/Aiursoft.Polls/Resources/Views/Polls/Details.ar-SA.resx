@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>الوصول</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>الوصول:</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>إضافة سؤال</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>مجهول</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>مجهول:</value>
@@ -57,8 +63,14 @@
   <data name="Copy Link" xml:space="preserve">
     <value>نسخ الرابط</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>منشئ بواسطة</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>تم الإنشاء بواسطة:</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>الموعد النهائي</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>الموعد النهائي:</value>
@@ -68,6 +80,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>تعديل</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>المصوتون المؤهلون</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>المُصوتون المؤهلون:</value>
@@ -102,8 +117,14 @@
   <data name="Other" xml:space="preserve">
     <value>أخرى</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>المصوتون المعلقون</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>الناخبون المعلقون:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>تفاصيل الاستطلاع</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>تفاصيل الاستبيان:</value>
@@ -114,14 +135,23 @@
   <data name="Publish" xml:space="preserve">
     <value>نشر</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>سؤال:</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>الأسئلة</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>تذكير</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>رؤية النتائج</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>ظهور النتائج:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>الحالة:</value>

@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Quyền truy cập</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Quyền truy cập:</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Thêm câu hỏi</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Ẩn danh</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Ẩn danh:</value>
@@ -57,8 +63,14 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Sao chép liên kết</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Do bởi:</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Hạn chót</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Hạn chót:</value>
@@ -68,6 +80,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Chỉnh sửa</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>Người đủ điều kiện bỏ phiếu</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Phổ thông cử tri:</value>
@@ -102,8 +117,14 @@
   <data name="Other" xml:space="preserve">
     <value>Khác</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>Người chờ phê duyệt</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Người bầu chờ xử lý:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Chi tiết Khảo sát</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>Chi tiết cuộc thăm dò:</value>
@@ -114,14 +135,23 @@
   <data name="Publish" xml:space="preserve">
     <value>Công bố</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>Câu hỏi:</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Câu hỏi</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Nhắc nhở</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Khả năng hiển thị kết quả</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Khả năng hiển thị kết quả:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Trạng thái</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Trạng thái:</value>

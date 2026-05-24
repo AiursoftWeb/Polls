@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>存取</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>存取：</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>新增問題</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>匿名</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>匿名：</value>
@@ -57,8 +63,14 @@
   <data name="Copy Link" xml:space="preserve">
     <value>複製連結</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>創建者</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>創建者：</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>截止日期</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>截止日期：</value>
@@ -68,6 +80,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>合資格選民</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>合資格選民：</value>
@@ -102,8 +117,14 @@
   <data name="Other" xml:space="preserve">
     <value>其他</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>待審閱選民</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>待處理選民：</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>投票詳情</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>投票詳情：</value>
@@ -114,14 +135,23 @@
   <data name="Publish" xml:space="preserve">
     <value>發佈</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>問：</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>問題</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>提醒</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>結果可見性</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>結果可見性：</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>狀態</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>狀態：</value>

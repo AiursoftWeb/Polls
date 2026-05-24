@@ -1,25 +1,33 @@
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.ExtendViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Extend Poll Deadline"]</h3>
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <a asp-action="Details" asp-route-id="@Model.PollId" class="text-decoration-none text-muted small mb-2 d-inline-block">
+            ← @Localizer["Back to Poll"]
+        </a>
+        <h4 class="mb-0">⏰ @Localizer["Extend Poll Deadline"]</h4>
     </div>
 </div>
 
 <div class="card">
     <div class="card-body">
-        <p>@Localizer["Extending deadline for poll:"] <strong>@Model.PollTitle</strong></p>
-        <p>@Localizer["Current deadline:"] <span data-utc-time="@Model.CurrentDeadline.ToHtmlDateTime()"></span></p>
+        <div class="alert alert-light border mb-4">
+            <strong>📝 @Model.PollTitle</strong>
+            <br />
+            <small class="text-muted">📅 @Localizer["Current deadline:"] <span data-utc-time="@Model.CurrentDeadline.ToHtmlDateTime()"></span></small>
+        </div>
         <form asp-action="Extend" method="post">
             <input type="hidden" asp-for="PollId" />
-            <div class="mb-3">
-                <label asp-for="NewDeadline" class="form-label"></label>
+            <div class="mb-4">
+                <label asp-for="NewDeadline" class="form-label fw-semibold small">📅 @Localizer["New Deadline"]</label>
                 <input asp-for="NewDeadline" type="datetime-local" step="1" class="form-control" />
-                <span asp-validation-for="NewDeadline" class="text-danger"></span>
+                <span asp-validation-for="NewDeadline" class="text-danger small"></span>
             </div>
-            <button type="submit" class="btn btn-primary">@Localizer["Extend Deadline"]</button>
-            <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-light">@Localizer["Cancel"]</a>
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">⏰ @Localizer["Extend Deadline"]</button>
+                <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
+            </div>
         </form>
     </div>
 </div>

@@ -3,34 +3,27 @@
 @using System.Text.Encodings.Web
 @model Aiursoft.Polls.Models.PollsViewModels.ResultsViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Results:"] <span class="text-muted">@Model.Poll.Title</span></h3>
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <h4 class="mb-0">📊 @Localizer["Results:"] <span class="text-muted">@Model.Poll.Title</span></h4>
     </div>
-    <div class="col-auto ms-auto text-end mt-n1">
-        @if (Model.IsAuthorized)
+    <div class="d-flex flex-wrap gap-2 mt-2 mt-sm-0">
+        @if (Model.IsAuthorized && Model.CanExport)
         {
-            @if (Model.CanExport)
+            <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary btn-sm">
+                📥 @Localizer["Export CSV"]
+            </a>
+            @if (Model.Poll.AccessType == AccessType.RoleBased)
             {
-                <a asp-action="ExportCsv" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
-                    <i class="align-middle" data-lucide="download"></i> @Localizer["Export CSV"]
+                <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-secondary btn-sm">
+                    📥 @Localizer["Export Pending"]
                 </a>
-                @if (Model.Poll.AccessType == AccessType.RoleBased)
-                {
-                    <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success">
-                        <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending"]
-                    </a>
-                }
-                <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-light">@Localizer["Back to details"]</a>
             }
-            else
-            {
-                <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light">@Localizer["Back to dashboard"]</a>
-            }
+            <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-outline-secondary btn-sm">← @Localizer["Back to details"]</a>
         }
         else
         {
-            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light">@Localizer["Back to dashboard"]</a>
+            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-secondary btn-sm">← @Localizer["Back to dashboard"]</a>
         }
     </div>
 </div>

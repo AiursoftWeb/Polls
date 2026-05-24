@@ -1,9 +1,12 @@
 @using Aiursoft.Polls.Entities
 @model Aiursoft.Polls.Models.PollsViewModels.CreateViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Create Poll"]</h3>
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <a asp-action="Index" class="text-decoration-none text-muted small mb-2 d-inline-block">
+            ← @Localizer["Back to Polls"]
+        </a>
+        <h4 class="mb-0">✨ @Localizer["Create Poll"]</h4>
     </div>
 </div>
 
@@ -11,50 +14,56 @@
     <div class="card-body">
         <form asp-action="Create" method="post">
             <div class="mb-3">
-                <label asp-for="Title" class="form-label"></label>
+                <label asp-for="Title" class="form-label fw-semibold small"></label>
                 <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
+                <span asp-validation-for="Title" class="text-danger small"></span>
             </div>
             <div class="mb-3">
-                <label asp-for="Description" class="form-label"></label>
+                <label asp-for="Description" class="form-label fw-semibold small"></label>
                 <textarea asp-for="Description" class="form-control" rows="3"></textarea>
             </div>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <label asp-for="AccessType" class="form-label"></label>
+                    <label asp-for="AccessType" class="form-label fw-semibold small">🔒 @Localizer["Access Type"]</label>
                     <select asp-for="AccessType" asp-items="Html.GetEnumSelectList<AccessType>()" class="form-select" id="accessTypeSelect"></select>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <label asp-for="Visibility" class="form-label"></label>
+                    <label asp-for="Visibility" class="form-label fw-semibold small">👁️ @Localizer["Result Visibility"]</label>
                     <select asp-for="Visibility" asp-items="Html.GetEnumSelectList<ResultVisibility>()" class="form-select"></select>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <label asp-for="Deadline" class="form-label"></label>
+                    <label asp-for="Deadline" class="form-label fw-semibold small">📅 @Localizer["Deadline"]</label>
                     <input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
-                    <span asp-validation-for="Deadline" class="text-danger"></span>
+                    <span asp-validation-for="Deadline" class="text-danger small"></span>
                 </div>
             </div>
             <div class="mb-3">
                 <div class="form-check">
                     <input class="form-check-input" asp-for="IsAnonymous" />
-                    <label class="form-check-label" asp-for="IsAnonymous">@Localizer["Anonymous Poll (Database will not record user information)"]</label>
+                    <label class="form-check-label" asp-for="IsAnonymous">🕶️ @Localizer["Anonymous Poll (Database will not record user information)"]</label>
                     <i class="bi bi-question-circle text-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
                        title="@Localizer["<b>Cost of Anonymity:</b><br/>1. <b>Privacy:</b> No UserID, IP, or Fingerprint is stored.<br/>2. <b>Tracking:</b> You cannot see who has voted or not.<br/>3. <b>Dashboard:</b> This poll will not show in users' To-Do list.<br/>4. <b>Security:</b> Cannot strictly prevent duplicate votes from the same device/person."]"></i>
                 </div>
             </div>
-            <div class="mb-3" id="roleSection" style="display: none;">
-                <label class="form-label">@Localizer["Allowed Roles"]</label>
-                @foreach (var role in Model.AllRoles)
-                {
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="SelectedRoles" value="@role.Id" id="role_@role.Id"
-                               checked="@(Model.SelectedRoles.Contains(role.Id) ? "checked" : null)" />
-                        <label class="form-check-label" for="role_@role.Id">@role.Name</label>
+            <div class="mb-4" id="roleSection" style="display: none;">
+                <label class="form-label fw-semibold small">👥 @Localizer["Allowed Roles"]</label>
+                <div class="card bg-light">
+                    <div class="card-body py-2">
+                        @foreach (var role in Model.AllRoles)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="SelectedRoles" value="@role.Id" id="role_@role.Id"
+                                       checked="@(Model.SelectedRoles.Contains(role.Id) ? "checked" : null)" />
+                                <label class="form-check-label" for="role_@role.Id">@role.Name</label>
+                            </div>
+                        }
                     </div>
-                }
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">@Localizer["Create"]</button>
-            <a asp-action="Index" class="btn btn-light">@Localizer["Cancel"]</a>
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">✨ @Localizer["Create"]</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
+            </div>
         </form>
     </div>
 </div>

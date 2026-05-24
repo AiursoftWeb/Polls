@@ -2,113 +2,158 @@
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.DetailsViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Poll Details:"] <span class="text-muted">@Model.Poll.Title</span></h3>
-    </div>
-    <div class="col-auto ms-auto text-end mt-n1">
-        @if (Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow)
-        {
-            <button type="button" class="btn btn-outline-secondary" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = Model.Poll.Id }, Context.Request.Scheme)')">
-                <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy Link"]
-            </button>
-        }
-        @if (Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow && !Model.HasSubmitted)
-        {
-            <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-success">@Localizer["Vote Now"]</a>
-        }
+@{
+    var isActive = Model.Poll.State == PollState.Published && Model.Poll.Deadline > DateTime.UtcNow;
+    var isDraft = Model.Poll.State == PollState.Draft;
+}
 
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <a asp-action="Index" class="text-decoration-none text-muted small mb-2 d-inline-block">
+            ← @Localizer["Back to Polls"]
+        </a>
+        <h4 class="mb-0">@Localizer["Poll Details"]</h4>
+    </div>
+    <div class="d-flex flex-wrap align-items-center gap-2 mt-2 mt-sm-0">
         @if (Model.CanManage)
         {
-            <a asp-action="Edit" asp-route-id="@Model.Poll.Id" class="btn btn-primary">@Localizer["Edit"]</a>
-            @if (Model.Poll.State == PollState.Draft)
-            {
-                <form asp-action="Publish" method="post" class="d-inline">
-                    <input type="hidden" name="id" value="@Model.Poll.Id" />
-                    <button type="submit" class="btn btn-warning">@Localizer["Publish"]</button>
-                </form>
-            }
-            @if (Model.Poll.State == PollState.Published)
-            {
-                <form asp-action="Terminate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to terminate this poll?"]')">
-                    <input type="hidden" name="id" value="@Model.Poll.Id" />
-                    <button type="submit" class="btn btn-danger">@Localizer["Terminate"]</button>
-                </form>
-                <a asp-action="Extend" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary">@Localizer["Extend"]</a>
-                @if (Model.Poll.AccessType == AccessType.RoleBased)
-                {
-                    <form asp-action="SendReminder" method="post" class="d-inline">
-                        <input type="hidden" name="id" value="@Model.Poll.Id" />
-                        <button type="submit" class="btn btn-outline-warning"><i class="align-middle" data-lucide="bell"></i> @Localizer["Remind"]</button>
-                    </form>
-                }
-            }
-            <form asp-action="Invalidate" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to delete this poll? This is a soft delete."]')">
-                <input type="hidden" name="id" value="@Model.Poll.Id" />
-                <button type="submit" class="btn btn-outline-danger">@Localizer["Delete"]</button>
-            </form>
+            <a asp-action="Edit" asp-route-id="@Model.Poll.Id" class="btn btn-primary">
+                ✏️ @Localizer["Edit"]
+            </a>
         }
-
         @if (Model.Poll.State != PollState.Draft)
         {
-            <a asp-action="Results" asp-route-id="@Model.Poll.Id" class="btn btn-info">@Localizer["View Results"]</a>
+            <a asp-action="Results" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary">
+                📊 @Localizer["View Results"]
+            </a>
         }
-        <a asp-action="Index" class="btn btn-light">@Localizer["Back to list"]</a>
+        @if (isActive)
+        {
+            <button type="button" class="btn btn-outline-secondary" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = Model.Poll.Id }, Context.Request.Scheme)')">
+                🔗 @Localizer["Copy Link"]
+            </button>
+            if (!Model.HasSubmitted)
+            {
+                <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-success">
+                    🗳️ @Localizer["Vote Now"]
+                </a>
+            }
+        }
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-4 col-xl-4">
-        <div class="card mb-3">
-            <div class="card-header">
-                <h5 class="card-title mb-0">@Localizer["Poll Info"]</h5>
-            </div>
+    <div class="col-lg-4">
+        <div class="card mb-4">
             <div class="card-body">
-                @if (!string.IsNullOrEmpty(Model.Poll.Description))
-                {
-                    <p>@Model.Poll.Description</p>
-                    <hr />
-                }
-                <div><strong>@Localizer["Status:"]</strong>
+                <div class="d-flex align-items-center gap-2 mb-3">
+                    <h5 class="card-title mb-0">@Model.Poll.Title</h5>
                     @switch (Model.Poll.State)
                     {
-                        case PollState.Draft: <span class="badge bg-secondary">Draft</span> break;
-                        case PollState.Published: <span class="badge bg-success">Published</span> break;
-                        case PollState.Completed: <span class="badge bg-info">Completed</span> break;
-                        case PollState.Terminated: <span class="badge bg-warning">Terminated</span> break;
-                        case PollState.Void: <span class="badge bg-danger">Void</span> break;
+                        case PollState.Draft: <span class="badge rounded-pill bg-secondary">📝 Draft</span> break;
+                        case PollState.Published: <span class="badge rounded-pill bg-success">✅ Published</span> break;
+                        case PollState.Completed: <span class="badge rounded-pill bg-info">🏁 Completed</span> break;
+                        case PollState.Terminated: <span class="badge rounded-pill bg-warning text-dark">⏹️ Terminated</span> break;
+                        case PollState.Void: <span class="badge rounded-pill bg-danger">🚫 Void</span> break;
                     }
                 </div>
-                <div><strong>@Localizer["Deadline:"]</strong> <span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></div>
-                <div><strong>@Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
-                <div><strong>@Localizer["Access:"]</strong> @Model.Poll.AccessType</div>
-                <div><strong>@Localizer["Result Visibility:"]</strong> @Model.Poll.Visibility</div>
-                <div><strong>@Localizer["Anonymous:"]</strong> @(Model.Poll.IsAnonymous ? Localizer["Yes"] : Localizer["No"])</div>
-                @if (Model.Poll.IsAnonymous)
+
+                @if (!string.IsNullOrEmpty(Model.Poll.Description))
                 {
-                    <div class="alert alert-info py-2 mt-2 mb-0 small">
-                        <i class="align-middle me-1" data-lucide="shield-check"></i>
-                        @Localizer["Anonymous: Identity and IP will NOT be recorded."]
+                    <p class="text-muted mb-3">@Model.Poll.Description</p>
+                }
+                else
+                {
+                    <p class="text-muted fst-italic mb-3">@Localizer["No description provided."]</p>
+                }
+
+                <div class="vstack gap-2 small">
+                    <div><strong>📅 @Localizer["Deadline:"]</strong> <span data-utc-time="@Model.Poll.Deadline.ToHtmlDateTime()"></span></div>
+                    <div><strong>👤 @Localizer["Created By:"]</strong> @(Model.Poll.CreatedBy?.DisplayName ?? "System")</div>
+                    <div><strong>🔒 @Localizer["Access:"]</strong> @Model.Poll.AccessType</div>
+                    <div><strong>👁️ @Localizer["Result Visibility:"]</strong> @Model.Poll.Visibility</div>
+                    <div>
+                        <strong>🕶️ @Localizer["Anonymous:"]</strong>
+                        @(Model.Poll.IsAnonymous ? Localizer["Yes"] : Localizer["No"])
+                        @if (Model.Poll.IsAnonymous)
+                        {
+                            <div class="alert alert-light border py-2 mt-2 mb-0 small">
+                                🛡️ @Localizer["Anonymous: Identity and IP will NOT be recorded."]
+                            </div>
+                        }
                     </div>
-                }
-                @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased && !Model.Poll.IsAnonymous)
-                {
-                    <hr />
-                    <div><strong>@Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
-                    <div><strong>@Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
-                }
+                </div>
+
                 @if (Model.CanManage && Model.Poll.AccessType == AccessType.RoleBased)
                 {
-                    <div class="mt-2">
-                        <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id" class="btn btn-outline-info btn-sm w-100 mb-1 @(Model.Poll.IsAnonymous ? "disabled" : "")">
-                            <i class="align-middle" data-lucide="users"></i> @Localizer["View Voter Status"]
-                        </a>
-                        <a asp-action="Submissions" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary btn-sm w-100 mb-1">
-                            <i class="align-middle" data-lucide="list"></i> @Localizer["View Submissions"]
-                        </a>
-                        <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id" class="btn btn-outline-success btn-sm w-100 @(Model.Poll.IsAnonymous ? "disabled" : "")">
-                            <i class="align-middle" data-lucide="download"></i> @Localizer["Export Pending Users"]
-                        </a>
+                    <hr />
+                    <div class="small">
+                        @if (!Model.Poll.IsAnonymous)
+                        {
+                            <div><strong>👥 @Localizer["Eligible Voters:"]</strong> @Model.EligibleVotersCount</div>
+                            <div><strong>⏳ @Localizer["Pending Voters:"]</strong> <span class="text-danger">@Model.PendingVotersCount</span></div>
+                        }
+                        <div class="d-grid gap-1 mt-2">
+                            <a asp-action="VoterStatus" asp-route-id="@Model.Poll.Id"
+                               class="btn btn-outline-secondary btn-sm @(Model.Poll.IsAnonymous ? "disabled" : "")">
+                                👥 @Localizer["View Voter Status"]
+                            </a>
+                            <a asp-action="Submissions" asp-route-id="@Model.Poll.Id" class="btn btn-outline-secondary btn-sm">
+                                📋 @Localizer["View Submissions"]
+                            </a>
+                            <a asp-action="ExportPendingUsers" asp-route-id="@Model.Poll.Id"
+                               class="btn btn-outline-secondary btn-sm @(Model.Poll.IsAnonymous ? "disabled" : "")">
+                                📥 @Localizer["Export Pending Users"]
+                            </a>
+                        </div>
+                    </div>
+                }
+
+                @if (Model.CanManage)
+                {
+                    <hr />
+                    <div>
+                        <small class="text-muted text-uppercase fw-semibold">⚙️ @Localizer["Management"]</small>
+                        <div class="d-flex flex-wrap gap-1 mt-2">
+                            @if (isDraft)
+                            {
+                                <form asp-action="Publish" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@Model.Poll.Id" />
+                                    <button type="submit" class="btn btn-success btn-sm">🚀 @Localizer["Publish"]</button>
+                                </form>
+                            }
+                            @if (isActive)
+                            {
+                                <a asp-action="Extend" asp-route-id="@Model.Poll.Id" class="btn btn-outline-secondary btn-sm">⏰ @Localizer["Extend"]</a>
+                                @if (Model.Poll.AccessType == AccessType.RoleBased)
+                                {
+                                    <form asp-action="SendReminder" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@Model.Poll.Id" />
+                                        <button type="submit" class="btn btn-outline-secondary btn-sm">🔔 @Localizer["Remind"]</button>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div>
+                        <small class="text-muted text-uppercase fw-semibold">⚠️ @Localizer["Danger Zone"]</small>
+                        <div class="d-flex flex-wrap gap-1 mt-2">
+                            @if (isActive)
+                            {
+                                <form asp-action="Terminate" method="post" class="d-inline"
+                                      onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to terminate this poll?"]')">
+                                    <input type="hidden" name="id" value="@Model.Poll.Id" />
+                                    <button type="submit" class="btn btn-outline-danger btn-sm">⏹️ @Localizer["Terminate"]</button>
+                                </form>
+                            }
+                            <form asp-action="Invalidate" method="post" class="d-inline"
+                                  onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to delete this poll? This is a soft delete."]')">
+                                <input type="hidden" name="id" value="@Model.Poll.Id" />
+                                <button type="submit" class="btn btn-outline-danger btn-sm">🗑️ @Localizer["Delete"]</button>
+                            </form>
+                        </div>
                     </div>
                 }
             </div>
@@ -116,16 +161,16 @@
 
         @if (Model.HasSubmitted && Model.UserSubmission != null && Model.Poll.IsAnonymous == false)
         {
-            <div class="card mb-3 border-success">
-                <div class="card-header bg-success text-white">
-                    <h5 class="card-title mb-0 text-white"><i class="align-middle me-2" data-lucide="check-circle"></i> @Localizer["You Voted"]</h5>
+            <div class="card mb-4 border-success">
+                <div class="card-header bg-success bg-opacity-10 text-success border-success d-flex align-items-center gap-2">
+                    ✅ <strong>@Localizer["You Voted"]</strong>
                 </div>
                 <div class="card-body">
-                    <p class="mb-2">@Localizer["Thanks for participating! You submitted your response."]</p>
-                    <ul class="list-unstyled mb-0">
+                    <p class="mb-2 small text-muted">@Localizer["Thanks for participating! You submitted your response."]</p>
+                    <ul class="list-unstyled mb-0 small">
                         @foreach (var answer in Model.UserSubmission.Answers ?? [])
                         {
-                            <li>- <strong>@answer.Question?.Title</strong>: @(answer.Option?.Content ?? answer.CustomText)</li>
+                            <li class="mb-1">• <strong>@answer.Question?.Title</strong>: @(answer.Option?.Content ?? answer.CustomText)</li>
                         }
                     </ul>
                 </div>
@@ -134,17 +179,22 @@
 
         @if (Model.CanManage && Model.Poll.OperationLogs != null && Model.Poll.OperationLogs.Any())
         {
-            <div class="card mb-3">
-                <div class="card-header">
-                    <h5 class="card-title mb-0">@Localizer["Operation Log"]</h5>
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center gap-2">
+                    📜 <strong>@Localizer["Operation Log"]</strong>
                 </div>
                 <div class="list-group list-group-flush" style="max-height: 300px; overflow-y: auto;">
                     @foreach (var log in Model.Poll.OperationLogs.OrderByDescending(l => l.Timestamp))
                     {
-                        <div class="list-group-item small">
-                            <strong>@log.Action</strong>
-                            <div class="text-muted">@log.Details</div>
-                            <div class="text-muted"><span data-utc-time="@log.Timestamp.ToHtmlDateTime()"></span></div>
+                        <div class="list-group-item py-2 small">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-semibold">@log.Action</span>
+                                <span class="text-muted"><span data-utc-time="@log.Timestamp.ToHtmlDateTime()"></span></span>
+                            </div>
+                            @if (!string.IsNullOrEmpty(log.Details))
+                            {
+                                <div class="text-muted">@log.Details</div>
+                            }
                         </div>
                     }
                 </div>
@@ -152,92 +202,108 @@
         }
     </div>
 
-    <div class="col-md-8 col-xl-8">
-        <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <h5 class="card-title mb-0">@Localizer["Questions"]</h5>
-                @if (Model.CanManage && Model.Poll.State == PollState.Draft)
+    <div class="col-lg-8">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0">📝 @Localizer["Questions"]</h5>
+            @if (Model.CanManage && isDraft)
+            {
+                <a asp-action="AddQuestion" asp-route-id="@Model.Poll.Id" class="btn btn-outline-primary btn-sm">
+                    ＋ @Localizer["Add Question"]
+                </a>
+            }
+        </div>
+
+        @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
+        {
+            var questions = Model.Poll.Questions.OrderBy(x => x.Order).ToList();
+            <div class="vstack gap-3">
+                @for (var i = 0; i < questions.Count; i++)
                 {
-                    <a asp-action="AddQuestion" asp-route-id="@Model.Poll.Id" class="btn btn-sm btn-outline-primary">
-                        <i class="align-middle" data-lucide="plus"></i> @Localizer["Add Question"]
-                    </a>
-                }
-            </div>
-            <div class="list-group list-group-flush">
-                @if (Model.Poll.Questions != null && Model.Poll.Questions.Any())
-                {
-                    var questions = Model.Poll.Questions.OrderBy(x => x.Order).ToList();
-                    for (var i = 0; i < questions.Count; i++)
-                    {
-                        var q = questions[i];
-                        var index = i;
-                        var isLast = i == questions.Count - 1;
-                        <div class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <strong>Q: @q.Title @(q.IsRequired ? "*" : "")</strong>
+                    var q = questions[i];
+                    var index = i;
+                    var isLast = i == questions.Count - 1;
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
                                 <div>
-                                    <span class="badge bg-secondary me-2">
-                                        @if (q.Type == QuestionType.SingleChoice) { @:Single Choice
-                                        } else if (q.Type == QuestionType.MultipleChoice) { @:Multiple Choice
+                                    <h6 class="mb-1">
+                                        Q@(i + 1): @q.Title
+                                        @if (q.IsRequired)
+                                        {
+                                            <span class="text-danger">*</span>
+                                        }
+                                    </h6>
+                                    <span class="badge rounded-pill bg-light text-dark border">
+                                        @if (q.Type == QuestionType.SingleChoice)
+                                        {
+                                            @:⚪ Single Choice
+                                        }
+                                        else if (q.Type == QuestionType.MultipleChoice)
+                                        {
+                                            @:☑️ Multiple Choice
                                         }
                                     </span>
-                                    @if (Model.CanManage && Model.Poll.State == PollState.Draft)
-                                    {
+                                </div>
+                                @if (Model.CanManage && isDraft)
+                                {
+                                    <div class="d-flex gap-1">
                                         <form asp-action="MoveQuestionUp" method="post" class="d-inline">
                                             <input type="hidden" name="id" value="@q.Id" />
-                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(index == 0 ? "disabled" : "") title="@Localizer["Move Up"]">
-                                                <i class="align-middle" data-lucide="arrow-up"></i>
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary" @(index == 0 ? "disabled" : "") title="@Localizer["Move Up"]">
+                                                ↑
                                             </button>
                                         </form>
                                         <form asp-action="MoveQuestionDown" method="post" class="d-inline">
                                             <input type="hidden" name="id" value="@q.Id" />
-                                            <button type="submit" class="btn btn-sm btn-outline-secondary me-1" @(isLast ? "disabled" : "") title="@Localizer["Move Down"]">
-                                                <i class="align-middle" data-lucide="arrow-down"></i>
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary" @(isLast ? "disabled" : "") title="@Localizer["Move Down"]">
+                                                ↓
                                             </button>
                                         </form>
-                                        <a asp-action="EditQuestion" asp-route-id="@q.Id" class="btn btn-sm btn-outline-primary me-1">
-                                            @Localizer["Edit"]
+                                        <a asp-action="EditQuestion" asp-route-id="@q.Id" class="btn btn-sm btn-outline-primary">
+                                            ✏️
                                         </a>
-                                        <form asp-action="DeleteQuestion" method="post" class="d-inline ms-1" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to delete this question?"]')">
+                                        <form asp-action="DeleteQuestion" method="post" class="d-inline" onsubmit="return confirmAction(event, '@Localizer["Are you sure you want to delete this question?"]')">
                                             <input type="hidden" name="id" value="@q.Id" />
                                             <button type="submit" class="btn btn-sm btn-outline-danger">
-                                                <i class="align-middle" data-lucide="trash"></i>
+                                                🗑️
                                             </button>
                                         </form>
-                                    }
-                                </div>
+                                    </div>
+                                }
                             </div>
 
                             @if (q.Options != null && q.Options.Any())
                             {
-                                <ul class="list-group mt-2">
+                                <div class="vstack gap-1">
                                     @foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
                                     {
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            @opt.Content
+                                        <div class="d-flex justify-content-between align-items-center bg-light rounded px-3 py-2">
+                                            <span>@opt.Content</span>
                                             @if (opt.AllowCustomText)
                                             {
-                                                <span class="badge bg-info">@Localizer["Other"]</span>
+                                                <span class="badge rounded-pill bg-info">✏️ @Localizer["Other"]</span>
                                             }
-                                        </li>
+                                        </div>
                                     }
-                                </ul>
+                                </div>
                             }
                             else
                             {
-                                <p class="text-muted small mt-2 mb-0">@Localizer["No options added yet."]</p>
+                                <p class="text-muted small mb-0">@Localizer["No options added yet."]</p>
                             }
                         </div>
-                    }
-                }
-                else
-                {
-                    <div class="list-group-item text-center p-4">
-                        <p class="text-muted mb-0">@Localizer["No questions have been added to this poll yet."]</p>
                     </div>
                 }
             </div>
-        </div>
+        }
+        else
+        {
+            <div class="card">
+                <div class="card-body text-center py-5">
+                    <p class="text-muted mb-0">📭 @Localizer["No questions have been added to this poll yet."]</p>
+                </div>
+            </div>
+        }
     </div>
 </div>
 

@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>自由なテキスト入力を許可する</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>投票に戻る</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>

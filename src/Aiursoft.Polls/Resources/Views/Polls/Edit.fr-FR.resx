@@ -21,17 +21,29 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Coût de l&apos;anonymat :&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Vie privée :&lt;/b&gt; Aucun UserID, IP ou empreinte numérique n&apos;est enregistré.&lt;br/&gt;2. &lt;b&gt;Suivi :&lt;/b&gt; Vous ne pouvez pas voir qui a voté ou non.&lt;br/&gt;3. &lt;b&gt;Tableau de bord :&lt;/b&gt; Ce sondage n&apos;apparaîtra pas dans la liste des tâches des utilisateurs.&lt;br/&gt;4. &lt;b&gt;Sécurité :&lt;/b&gt; Il n&apos;est pas possible d&apos;empêcher strictement les votes multiples provenant du même appareil ou de la même personne.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Type d&apos;accès</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Rôles autorisés</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Sondage anonyme (la base de données n&apos;enregistre pas les informations de l&apos;utilisateur)</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Retour au sondage</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Date limite</value>
+  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Modifier le sondage</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Visibilité des résultats</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Enregistrer</value>

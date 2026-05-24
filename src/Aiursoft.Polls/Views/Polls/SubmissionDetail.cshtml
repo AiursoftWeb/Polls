@@ -3,15 +3,14 @@
 @inject IViewLocalizer Localizer
 @model SubmissionDetailViewModel
 
-<div class="container-xl p-0">
-    <div class="row mb-2 mb-xl-3">
-        <div class="col-auto">
-            <h3><strong>@Localizer["Submission Details"]</strong> - @Model.Poll?.Title</h3>
-        </div>
-        <div class="col-auto ms-auto text-end">
-            <a asp-action="Submissions" asp-route-id="@Model.Poll?.Id" class="btn btn-light">@Localizer["Back to list"]</a>
-        </div>
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <a asp-action="Submissions" asp-route-id="@Model.Poll?.Id" class="text-decoration-none text-muted small mb-2 d-inline-block">
+            ← @Localizer["Back to list"]
+        </a>
+        <h4 class="mb-0">📋 <strong>@Localizer["Submission Details"]</strong> — @Model.Poll?.Title</h4>
     </div>
+</div>
 
     <div class="card mb-4">
         <div class="card-header">

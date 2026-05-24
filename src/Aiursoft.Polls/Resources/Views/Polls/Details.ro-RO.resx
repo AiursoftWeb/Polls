@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Acces</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Acces:</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Adaugă întrebare</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Anonim</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Anonim:</value>
@@ -57,8 +63,14 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Copiază link</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>Creat de</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Creat de:</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Termen limită</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Scadență:</value>
@@ -68,6 +80,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Edit</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>Votanti eligibili</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Votanți eligibili:</value>
@@ -102,8 +117,14 @@
   <data name="Other" xml:space="preserve">
     <value>Altele</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>Votanți în așteptare</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Votanti în așteptare:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Detalii sondaj</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>Detalii sondaj:</value>
@@ -114,14 +135,23 @@
   <data name="Publish" xml:space="preserve">
     <value>Publicare</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>Întrebare:</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Întrebări</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Trimite reminder</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Vizibilitate rezultate</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Vizibilitatea rezultatelor:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stare</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Status:</value>

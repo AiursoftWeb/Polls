@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;匿名性の代償:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;プライバシー:&lt;/b&gt; ユーザーID、IP、または指紋は保存されません。&lt;br/&gt;2. &lt;b&gt;追跡:&lt;/b&gt; 誰が投票したか、または投票していないかを確認できません。&lt;br/&gt;3. &lt;b&gt;ダッシュボード:&lt;/b&gt; このアンケートはユーザーの ToDo リストに表示されません。&lt;br/&gt;4. &lt;b&gt;セキュリティ:&lt;/b&gt; 同じデバイス/人物からの重複投票を厳密に防止することはできません。</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>アクセス種別</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>許可されたロール</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>匿名投票（データベースはユーザー情報を記録しません）</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>アンケート一覧に戻る</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>投票を作成</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>締切</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>結果の表示</value>
   </data>
 
 </root>

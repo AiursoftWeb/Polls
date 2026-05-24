@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>Добавить вариант</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Назад к опросу</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
   </data>

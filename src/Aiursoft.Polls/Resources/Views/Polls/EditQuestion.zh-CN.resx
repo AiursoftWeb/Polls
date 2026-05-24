@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>添加选项</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>

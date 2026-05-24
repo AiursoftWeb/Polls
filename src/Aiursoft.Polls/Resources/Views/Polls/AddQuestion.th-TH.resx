@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>อนุญาตให้กรอกข้อความเองได้</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>กลับไปยังแบบสำรวจ</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>

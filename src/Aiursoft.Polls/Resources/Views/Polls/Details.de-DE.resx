@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Zugriff</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Zugriff:</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Frage hinzufügen</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Anonym</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Anonym:</value>
@@ -45,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Zurück zur Liste</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Zurück zu den Umfragen</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
@@ -57,8 +66,17 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Link kopieren</value>
   </data>
+  <data name="Created By" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Erstellt von:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Gefahrenzone</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Frist</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Frist:</value>
@@ -68,6 +86,9 @@
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Bearbeiten</value>
+  </data>
+  <data name="Eligible Voters" xml:space="preserve">
+    <value>Berechtigte Wähler</value>
   </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Berechtigte Wähler:</value>
@@ -84,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link in die Zwischenablage kopiert!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Verwaltung</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Nach unten verschieben</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Nach oben</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Keine Beschreibung angegeben.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Noch keine Optionen hinzugefügt.</value>
@@ -102,8 +129,14 @@
   <data name="Other" xml:space="preserve">
     <value>Sonstiges</value>
   </data>
+  <data name="Pending Voters" xml:space="preserve">
+    <value>Ausstehende Wähler</value>
+  </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Ausstehende Wähler:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Umfrage-Details</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>Umfragendetails:</value>
@@ -114,14 +147,23 @@
   <data name="Publish" xml:space="preserve">
     <value>Veröffentlichen</value>
   </data>
+  <data name="Q:" xml:space="preserve">
+    <value>Fr.:</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Fragen</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Erinnern</value>
   </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Ergebnis-Sichtbarkeit</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Sichtbarkeit der Ergebnisse:</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Status:</value>

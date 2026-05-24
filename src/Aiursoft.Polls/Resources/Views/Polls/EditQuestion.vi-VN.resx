@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>Thêm tùy chọn</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Quay lại Bỏ phiếu</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
   </data>

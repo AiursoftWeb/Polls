@@ -21,17 +21,29 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;匿名化的代价：&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;隐私：&lt;/b&gt;不存储用户 ID、IP 地址或设备指纹。&lt;br/&gt;2. &lt;b&gt;追踪：&lt;/b&gt;无法查看投票者身份。&lt;br/&gt;3. &lt;b&gt;仪表盘：&lt;/b&gt;此投票不会显示在用户的待办事项列表中。&lt;br/&gt;4. &lt;b&gt;安全：&lt;/b&gt;无法严格防止同一设备或人员重复投票。</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>访问类型</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>允许的角色</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>匿名投票（数据库不会记录用户信息）</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>编辑投票</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>结果可见性</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>

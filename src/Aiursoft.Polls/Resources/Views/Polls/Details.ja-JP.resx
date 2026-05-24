@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>リストに戻る</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>アンケート一覧へ戻る</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>作成者:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>危険ゾーン</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>締切</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>管理</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>下へ移動</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>移動</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>説明はありません。</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>まだ選択肢が追加されていません。</value>

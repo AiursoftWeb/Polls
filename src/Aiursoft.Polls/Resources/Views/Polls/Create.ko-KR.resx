@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;익명성의 대가:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;개인정보:&lt;/b&gt; UserID, IP, 지문 정보가 저장되지 않습니다.&lt;br/&gt;2. &lt;b&gt;추적:&lt;/b&gt; 누가 투표했는지 알 수 없습니다.&lt;br/&gt;3. &lt;b&gt;대시보드:&lt;/b&gt; 이 투표는 사용자의 할 일 목록에 표시되지 않습니다.&lt;br/&gt;4. &lt;b&gt;보안:&lt;/b&gt; 동일한 기기나 사용자의 중복 투표를 완전히 방지할 수 없습니다.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>접근 유형</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>허용된 역할</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>익명 설문조사 (데이터베이스는 사용자 정보를 기록하지 않습니다)</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>설문 목록으로 돌아가기</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>투표 생성</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>결과 공개 범위</value>
   </data>
 
 </root>

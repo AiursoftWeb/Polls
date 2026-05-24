@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>Añadir opción</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>← Volver a la encuesta</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>

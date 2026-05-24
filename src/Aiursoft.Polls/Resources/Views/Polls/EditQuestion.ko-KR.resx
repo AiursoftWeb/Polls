@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>옵션 추가</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>투표로 돌아가기</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>

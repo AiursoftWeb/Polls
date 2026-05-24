@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>返回列表</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>創建者：</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>危險區域</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>連結已複製到剪貼簿！</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>管理</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>向下移動</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>上移</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>未提供描述。</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>尚未添加任何選項。</value>

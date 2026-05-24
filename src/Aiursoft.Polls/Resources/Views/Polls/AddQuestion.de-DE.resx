@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Benutzerdefinierten Text zulassen</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Zurück zur Umfrage</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>

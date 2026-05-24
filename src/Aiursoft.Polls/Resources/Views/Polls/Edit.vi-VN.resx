@@ -21,17 +21,29 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Chi phí của sự ẩn danh:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Quyền riêng tư:&lt;/b&gt; Không lưu trữ UserID, IP hoặc Dấu vân tay.&lt;br/&gt;2. &lt;b&gt;Theo dõi:&lt;/b&gt; Bạn không thể biết ai đã bỏ phiếu và ai chưa.&lt;br/&gt;3. &lt;b&gt;Bảng điều khiển:&lt;/b&gt; Cuộc thăm dò này sẽ không hiển thị trong danh sách Việc cần làm của người dùng.&lt;br/&gt;4. &lt;b&gt;Bảo mật:&lt;/b&gt; Không thể nghiêm ngặt ngăn chặn việc bỏ phiếu trùng lặp từ cùng một thiết bị/người.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Loại truy cập</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Vai trò được phép</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Khảo sát ẩn danh (Cơ sở dữ liệu sẽ không ghi lại thông tin người dùng)</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Quay lại Bỏ phiếu</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
   </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Hạn chót</value>
+  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Chỉnh sửa khảo sát</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Hiển thị Kết quả</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Lưu</value>

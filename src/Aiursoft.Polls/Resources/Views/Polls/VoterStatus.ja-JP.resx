@@ -24,6 +24,9 @@
   <data name="Back to details" xml:space="preserve">
     <value>詳細に戻る</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>投票に戻る</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>メール</value>
   </data>

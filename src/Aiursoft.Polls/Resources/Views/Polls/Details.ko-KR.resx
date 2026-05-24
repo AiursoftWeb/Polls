@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>목록으로 돌아가기</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>투표 목록으로 돌아가기</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>생성자:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>위험 구역</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>마감일</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>링크가 클립보드에 복사되었습니다!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>관리</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>아래로 이동</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>위로 이동</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>설명이 제공되지 않았습니다.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>아직 옵션이 추가되지 않았습니다.</value>

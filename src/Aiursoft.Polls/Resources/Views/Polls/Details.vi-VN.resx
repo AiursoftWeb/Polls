@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Quay lại danh sách</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Quay lại Bỏ phiếu</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Do bởi:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Vùng Nguy Hiểm</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Di chuyển xuống</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Di chuyển lên</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Không có mô tả.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Chưa có tùy chọn nào được thêm.</value>

@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Zurück zur Liste</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Zurück zu den Umfragen</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Erstellt von:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Gefahrenzone</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Frist</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link in die Zwischenablage kopiert!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Verwaltung</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Nach unten verschieben</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Nach oben</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Keine Beschreibung angegeben.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Noch keine Optionen hinzugefügt.</value>

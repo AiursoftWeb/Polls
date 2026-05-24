@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Cho phép nhập văn bản tùy chỉnh</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Quay lại Bỏ phiếu</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
   </data>

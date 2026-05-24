@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Разрешить произвольный текст</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>← Назад к опросу</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
   </data>

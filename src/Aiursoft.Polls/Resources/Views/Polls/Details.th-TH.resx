@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>กลับสู่รายการ</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>กลับไปที่แบบสำรวจ</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>สร้างโดย:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>โซนอันตราย</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>กำหนดเวลา</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>การจัดการ</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>เลื่อนลง</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>ย้ายขึ้น</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>ไม่มีการให้คำอธิบาย</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>ยังไม่มีตัวเลือกที่เพิ่มเข้ามา</value>

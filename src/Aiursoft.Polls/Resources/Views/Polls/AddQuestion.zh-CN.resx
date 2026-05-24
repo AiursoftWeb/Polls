@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>允许自定义文本</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>

@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Custo do Anonimato:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacidade:&lt;/b&gt; Nenhum UserID, IP ou Fingerprint é armazenado.&lt;br/&gt;2. &lt;b&gt;Rastreio:&lt;/b&gt; Não é possível ver quem votou ou não.&lt;br/&gt;3. &lt;b&gt;Painel de Controlo:&lt;/b&gt; Esta enquete não aparecerá na lista de tarefas dos utilizadores.&lt;br/&gt;4. &lt;b&gt;Segurança:&lt;/b&gt; Não é possível impedir estritamente votos duplicados do mesmo dispositivo/pessoa.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Tipo de Acesso</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Funções Permitidas</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Enquete Anónima (a base de dados não registará informações do utilizador)</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Voltar aos Inquéritos</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Criar Inquérito</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Prazo</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Visibilidade dos resultados</value>
   </data>
 
 </root>

@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Zezwalaj na własny tekst</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Wróć do ankiety</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anuluj</value>
   </data>

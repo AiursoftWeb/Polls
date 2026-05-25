@@ -21,17 +21,29 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Kosten van anonimiteit:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; Geen UserID, IP of vingerafdruk wordt opgeslagen.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; U kunt niet zien wie wel of niet heeft gestemd.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; Deze enquête verschijnt niet in de takenlijst van gebruikers.&lt;br/&gt;4. &lt;b&gt;Beveiliging:&lt;/b&gt; Dubbele stemmen van hetzelfde apparaat of dezelfde persoon kunnen niet strikt worden voorkomen.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Toegangstype</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Toegestane rollen</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonieme poll (database slaat geen gebruikersgegevens op)</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Terug naar de peiling</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Einddatum</value>
+  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Poll bewerken</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Resultaatweergave</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Opslaan</value>

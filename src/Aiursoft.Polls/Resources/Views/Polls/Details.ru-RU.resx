@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Вернуться к списку</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Назад к опросам</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Создано пользователем:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Опасная зона</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Срок</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Ссылка скопирована в буфер обмена!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Управление</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Переместить вниз</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Переместить вверх</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Описание отсутствует.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Варианты еще не добавлены.</value>

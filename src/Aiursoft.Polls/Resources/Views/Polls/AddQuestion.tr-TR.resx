@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Özel metin izni ver</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Ankete dön</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>

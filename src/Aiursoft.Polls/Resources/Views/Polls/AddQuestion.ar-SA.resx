@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>السماح بنص مخصص</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>العودة إلى الاستطلاع</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>

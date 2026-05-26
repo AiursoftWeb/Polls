@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Kostnaden för anonymitet:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Integritet:&lt;/b&gt; Ingen UserID, IP eller Fingerprint sparas.&lt;br/&gt;2. &lt;b&gt;Spårning:&lt;/b&gt; Du kan inte se vem som har röstat eller inte.&lt;br/&gt;3. &lt;b&gt;Översikt:&lt;/b&gt; Denna omröstning visas inte i användarnas att-göra-lista.&lt;br/&gt;4. &lt;b&gt;Säkerhet:&lt;/b&gt; Kan inte strikt förhindra dubbletröster från samma enhet/person.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Åtkomsttyp</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tillåtna roller</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonym omröstning (Databasen sparar inte användarinformation)</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Tillbaka till omröstningar</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Skapa omröstning</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Frist</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Resultatynlighet</value>
   </data>
 
 </root>

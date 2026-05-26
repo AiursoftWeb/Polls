@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Aangepaste tekst toestaan</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Terug naar peiling</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>

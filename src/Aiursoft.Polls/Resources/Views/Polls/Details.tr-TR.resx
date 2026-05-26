@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Listeye dön</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Anketlere Dön</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Oluşturan:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Tehlikeli Bölge</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Son Tarih</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Bağlantı panoya kopyalandı!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Yönetim</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Aşağı Taşı</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Yukarı Taşı</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Açıklama sağlanmadı.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Henüz seçenek eklenmedi.</value>

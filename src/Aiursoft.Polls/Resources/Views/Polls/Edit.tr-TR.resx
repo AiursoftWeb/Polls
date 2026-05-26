@@ -21,17 +21,29 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Anonimlik Maliyeti:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Gizlilik:&lt;/b&gt; Kullanıcı Kimliği, IP veya Parmak İzi kaydedilmez.&lt;br/&gt;2. &lt;b&gt;Takip:&lt;/b&gt; Kimin oy kullandığını göremezsiniz.&lt;br/&gt;3. &lt;b&gt;Kontrol Paneli:&lt;/b&gt; Bu anket, kullanıcıların Yapılacaklar Listesinde gösterilmez.&lt;br/&gt;4. &lt;b&gt;Güvenlik:&lt;/b&gt; Aynı cihazdan veya kişiden gelen tekrarlanan oyları kesin olarak engellenemez.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Erişim Türü</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>İzin Verilen Rollere</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonim Anket (Veritabanı kullanıcı bilgilerini kaydetmeyecektir)</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Ankete Dön</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Son Tarih</value>
+  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Anketi Düzenle</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Sonuç Görünürlüğü</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Kaydet</value>

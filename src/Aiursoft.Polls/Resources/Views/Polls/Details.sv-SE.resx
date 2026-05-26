@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Tillbaka till listan</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Tillbaka till omröstningar</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Skapad av:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Faru zon</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Senaste datum</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Länken har kopierats till urklipp!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Hantering</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Flytta ner</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Flytta upp</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Ingen beskrivning har angetts.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Inga alternativ har lagts till än.</value>

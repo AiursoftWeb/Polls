@@ -27,6 +27,9 @@
   <data name="Back to details" xml:space="preserve">
     <value>Powrót do szczegółów</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Powrót do ankiety</value>
+  </data>
   <data name="IP Address" xml:space="preserve">
     <value>Adres IP</value>
   </data>

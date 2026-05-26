@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Цена анонимности:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Конфиденциальность:&lt;/b&gt; Не сохраняется UserID, IP или отпечаток.&lt;br/&gt;2. &lt;b&gt;Отслеживание:&lt;/b&gt; Вы не сможете увидеть, кто голосовал, а кто нет.&lt;br/&gt;3. &lt;b&gt;Панель управления:&lt;/b&gt; Этот опрос не появится в списке задач пользователей.&lt;br/&gt;4. &lt;b&gt;Безопасность:&lt;/b&gt; Нельзя строго предотвратить повторные голосования с одного устройства/от одного человека.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Тип доступа</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Разрешенные роли</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Анонимный опрос (База данных не будет записывать информацию о пользователе)</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Назад к опросам</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Создать опрос</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Видимость результатов</value>
   </data>
 
 </root>

@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>العودة إلى القائمة</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>العودة إلى الاستطلاعات</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>تم الإنشاء بواسطة:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>منطقة الخطر</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>الموعد النهائي</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>تم نسخ الرابط إلى الحافظة!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>الإدارة</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>نقل لأسفل</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>تحريك للأعلى</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>لم يتم توفير وصف.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>لم تُضَف أي خيارات بعد.</value>

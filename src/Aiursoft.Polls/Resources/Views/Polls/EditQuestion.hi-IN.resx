@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>विकल्प जोड़ें</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>वापस मतदान पर</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
   </data>

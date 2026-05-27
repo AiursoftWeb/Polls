@@ -24,6 +24,9 @@
   <data name="Back to details" xml:space="preserve">
     <value>विस्तार पर वापस</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>पोल पर वापस जाएँ</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>ईमेल</value>
   </data>

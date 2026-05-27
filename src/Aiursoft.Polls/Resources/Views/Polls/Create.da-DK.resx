@@ -21,11 +21,17 @@
       <data name="&lt;b&gt;Cost of Anonymity:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privacy:&lt;/b&gt; No UserID, IP, or Fingerprint is stored.&lt;br/&gt;2. &lt;b&gt;Tracking:&lt;/b&gt; You cannot see who has voted or not.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; This poll will not show in users&apos; To-Do list.&lt;br/&gt;4. &lt;b&gt;Security:&lt;/b&gt; Cannot strictly prevent duplicate votes from the same device/person." xml:space="preserve">
     <value>&lt;b&gt;Omkostninger ved anonymitet:&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;Privatliv:&lt;/b&gt; Ingen UserID, IP eller Fingerprint gemmes.&lt;br/&gt;2. &lt;b&gt;Sporing:&lt;/b&gt; Du kan ikke se, hvem der har stemt eller ikke.&lt;br/&gt;3. &lt;b&gt;Dashboard:&lt;/b&gt; Denne afstemning vises ikke i brugernes To-Do-liste.&lt;br/&gt;4. &lt;b&gt;Sikkerhed:&lt;/b&gt; Kan ikke strengt forhindre gentagne stemmer fra samme enhed/person.</value>
   </data>
+  <data name="Access Type" xml:space="preserve">
+    <value>Adgangstype</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tilladte roller</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonym undersøgelse (Databasen optager ikke brugeroplysninger)</value>
+  </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Tilbage til afstemninger</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
@@ -35,6 +41,12 @@
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Opret afstemning</value>
+  </data>
+  <data name="Deadline" xml:space="preserve">
+    <value>Frist</value>
+  </data>
+  <data name="Result Visibility" xml:space="preserve">
+    <value>Resultatsynlighed</value>
   </data>
 
 </root>

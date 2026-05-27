@@ -27,6 +27,9 @@
   <data name="Back to details" xml:space="preserve">
     <value>Επιστροφή στις λεπτομέρειες</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Πίσω στην ψηφοφορία</value>
+  </data>
   <data name="IP Address" xml:space="preserve">
     <value>Διεύθυνση IP</value>
   </data>

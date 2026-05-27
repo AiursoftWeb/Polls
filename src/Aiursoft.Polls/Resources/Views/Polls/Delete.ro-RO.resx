@@ -21,6 +21,9 @@
       <data name="Are you sure you want to delete this poll?" xml:space="preserve">
     <value>Ești sigur că vrei să ștergi acest sondaj?</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Înapoi la sondaj</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anulează</value>
   </data>

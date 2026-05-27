@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Permiteți text personalizat</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Înapoi la sondaj</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anulare</value>
   </data>

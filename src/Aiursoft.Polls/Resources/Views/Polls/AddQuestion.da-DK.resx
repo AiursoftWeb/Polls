@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Tillad tilpasset tekst</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Tilbage til afstemningen</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
   </data>

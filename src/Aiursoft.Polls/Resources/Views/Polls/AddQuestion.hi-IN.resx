@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>अनुकूल पाठ की अनुमति दें</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>मतदान पर वापस जाएं</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
   </data>

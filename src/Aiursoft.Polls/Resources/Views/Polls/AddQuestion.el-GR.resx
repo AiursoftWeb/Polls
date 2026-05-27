@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Επιτρέψτε προσαρμοσμένο κείμενο</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Πίσω στην Ψηφοφορία</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>

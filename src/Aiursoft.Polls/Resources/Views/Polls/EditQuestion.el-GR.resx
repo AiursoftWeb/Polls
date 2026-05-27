@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>Προσθήκη Επιλογής</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Πίσω στη δημοσκόπηση</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>

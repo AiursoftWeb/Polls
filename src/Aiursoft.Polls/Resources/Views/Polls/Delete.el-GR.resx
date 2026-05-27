@@ -21,6 +21,9 @@
       <data name="Are you sure you want to delete this poll?" xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το δημοψήφισμα;</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Επιστροφή στην ψηφοφορία</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>

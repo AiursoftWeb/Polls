@@ -21,6 +21,9 @@
       <data name="Are you sure you want to delete this poll?" xml:space="preserve">
     <value>Apakah Anda yakin ingin menghapus jajak pendapat ini?</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Kembali ke Polling</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Batal</value>
   </data>

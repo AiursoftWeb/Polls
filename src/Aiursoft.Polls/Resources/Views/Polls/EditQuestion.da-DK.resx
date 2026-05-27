@@ -21,6 +21,9 @@
       <data name="Add Option" xml:space="preserve">
     <value>Tilføj mulighed</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Tilbage til afstemning</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
   </data>

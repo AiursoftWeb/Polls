@@ -51,6 +51,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Înapoi la listă</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Înapoi la Sondaje</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anulează</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Creat de:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zonă de Pericol</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Termen limită</value>
@@ -99,11 +105,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link copiat în clipboard!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Administrare</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Mutare jos</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Mutare în sus</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Nicio descriere furnizată.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Nu s-au adăugat încă opțiuni.</value>

@@ -45,6 +45,9 @@
   <data name="Back to list" xml:space="preserve">
     <value>Повернутися до списку</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Назад до опитувань</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>
@@ -59,6 +62,9 @@
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Створено:</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Небезпечна зона</value>
   </data>
   <data name="Deadline:" xml:space="preserve">
     <value>Дедлайн:</value>
@@ -84,11 +90,17 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Посилання скопійовано до буфера обміну!</value>
   </data>
+  <data name="Management" xml:space="preserve">
+    <value>Управління</value>
+  </data>
   <data name="Move Down" xml:space="preserve">
     <value>Перемістити вниз</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Підняти вгору</value>
+  </data>
+  <data name="No description provided." xml:space="preserve">
+    <value>Опис не надано.</value>
   </data>
   <data name="No options added yet." xml:space="preserve">
     <value>Поки що не додано жодного варіанту.</value>
@@ -104,6 +116,9 @@
   </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Очікуючі виборці:</value>
+  </data>
+  <data name="Poll Details" xml:space="preserve">
+    <value>Деталі опитування</value>
   </data>
   <data name="Poll Details:" xml:space="preserve">
     <value>Деталі опитування:</value>

@@ -27,6 +27,9 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Salli mukautettu teksti</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Takaisin äänestykseen</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
   </data>

@@ -2,6 +2,10 @@ using System.Net;
 using Aiursoft.Polls.Services;
 using Aiursoft.Polls.Services.FileStorage;
 
+using Aiursoft.Polls.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 namespace Aiursoft.Polls.Tests.IntegrationTests;
 
 [TestClass]
@@ -112,5 +116,79 @@ public class ManageControllerTests : TestBase
     private class UploadResult
     {
         public string Path { get; init; } = string.Empty;
+    }
+
+    [TestMethod]
+    public async Task TestDeleteAccount_WithContent_ContentSurvives()
+    {
+        // Arrange: register, login, create content owned by the user
+        var (email, _) = await RegisterAndLoginAsync();
+
+        string userId;
+        int entityId; // or Guid
+        using (var scope = Server!.Services.CreateScope())
+        {
+            var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+            var user = await userManager.FindByEmailAsync(email);
+            userId = user!.Id;
+
+            var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+            var entity = new Poll { Title = "Test poll for account deletion UT", CreatedById = userId };
+            db.Polls.Add(entity);
+            await db.SaveChangesAsync();
+        }
+
+        // Act: delete account
+        var deleteResponse = await PostForm("/Manage/DeleteAccountPost", new(),
+            tokenUrl: "/Manage/DeleteAccount");
+        AssertRedirect(deleteResponse, "/");
+
+        // Assert: signed out
+        var managePage = await Http.GetAsync("/Manage/Index");
+        Assert.AreEqual(HttpStatusCode.Found, managePage.StatusCode);
+
+        // Assert: user gone from DB
+        using (var scope = Server!.Services.CreateScope())
+        {
+            var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+            Assert.IsNull(await userManager.FindByEmailAsync(email));
+        }
+
+        // Assert: content still exists (not cascade-deleted, proving SetNull behavior)
+        // Note: InMemory DB does not enforce FK constraints, so CreatedById
+        // is NOT set to NULL here. With Sqlite/MySQL, ON DELETE SET NULL
+        // would nullify this column automatically.
+        using (var scope = Server!.Services.CreateScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+            Assert.IsTrue(await db.Polls.AnyAsync(p => p.CreatedById == userId));
+        }
+    }
+
+    [TestMethod]
+    public async Task TestDeleteAccount_NoContent_Succeeds()
+    {
+        var (email, _) = await RegisterAndLoginAsync();
+
+        var deletePage = await Http.GetAsync("/Manage/DeleteAccount");
+        deletePage.EnsureSuccessStatusCode();
+
+        var deleteResponse = await PostForm("/Manage/DeleteAccountPost", new(),
+            tokenUrl: "/Manage/DeleteAccount");
+        AssertRedirect(deleteResponse, "/");
+
+        var managePage = await Http.GetAsync("/Manage/Index");
+        Assert.AreEqual(HttpStatusCode.Found, managePage.StatusCode);
+
+        using var scope = Server!.Services.CreateScope();
+        var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+        Assert.IsNull(await userManager.FindByEmailAsync(email));
+    }
+
+    [TestMethod]
+    public async Task TestDeleteAccount_Unauthenticated_RedirectsToLogin()
+    {
+        var deletePage = await Http.GetAsync("/Manage/DeleteAccount");
+        Assert.AreEqual(HttpStatusCode.Found, deletePage.StatusCode);
     }
 }

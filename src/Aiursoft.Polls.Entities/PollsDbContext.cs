@@ -23,4 +23,21 @@ public abstract class TemplateDbContext(DbContextOptions options) : IdentityDbCo
 
     public virtual  Task<bool> CanConnectAsync() =>
         Database.CanConnectAsync();
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        builder.Entity<Poll>()
+            .HasOne(p => p.CreatedBy)
+            .WithMany()
+            .HasForeignKey(p => p.CreatedById)
+            .OnDelete(DeleteBehavior.SetNull);
+
+        builder.Entity<Submission>()
+            .HasOne(s => s.User)
+            .WithMany()
+            .HasForeignKey(s => s.UserId)
+            .OnDelete(DeleteBehavior.SetNull);
+    }
 }

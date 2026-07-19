@@ -17,7 +17,7 @@ namespace Aiursoft.Polls.MySql.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.5")
+                .HasAnnotation("ProductVersion", "10.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -523,7 +523,8 @@ namespace Aiursoft.Polls.MySql.Migrations
                 {
                     b.HasOne("Aiursoft.Polls.Entities.User", "CreatedBy")
                         .WithMany()
-                        .HasForeignKey("CreatedById");
+                        .HasForeignKey("CreatedById")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("CreatedBy");
                 });
@@ -587,7 +588,8 @@ namespace Aiursoft.Polls.MySql.Migrations
 
                     b.HasOne("Aiursoft.Polls.Entities.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Poll");
 

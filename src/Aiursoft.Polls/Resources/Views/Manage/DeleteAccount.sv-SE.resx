@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Any polls you created will become &apos;headless&apos; (ownerless) but will remain active for users to participate in." xml:space="preserve">
+    <value>Alla undersökningar du skapat blir &apos;huvudlösa&apos; (ägarlösa) men förblir aktiva så att användare kan delta.</value>
+  </data>
+  <data name="Any submissions (votes) you have cast will be converted into anonymous votes to preserve the integrity of the poll results." xml:space="preserve">
+    <value>All inlämningar (röster) du har avgett kommer att konverteras till anonyma röster för att bevara integriteten hos omröstningsresultaten.</value>
+  </data>
+  <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort ditt konto?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Faraområdet</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Ta bort konto</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>Ta bort kontodata</value>
+  </data>
+  <data name="Please note:" xml:space="preserve">
+    <value>Observera:</value>
+  </data>
+  <data name="This action will permanently erase your profile and identity from our servers. This action cannot be undone." xml:space="preserve">
+    <value>Denna åtgärd tar bort din profil och identitet permanent från våra servrar. Denna åtgärd kan inte ångras.</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>Ja, radera mitt konto</value>
+  </data>
+
+</root>

@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>儀表板</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>刪除帳號</value>
+  </data>
   <data name="Delete Poll" xml:space="preserve">
     <value>刪除投票</value>
   </data>

@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Dashboard</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Konto löschen</value>
+  </data>
   <data name="Delete Poll" xml:space="preserve">
     <value>Umfrage löschen</value>
   </data>

@@ -100,6 +100,8 @@ public class ViewModelArgsInjector(
         _ = localizer["Poll Message"];
         _ = localizer["Submission Details"];
         _ = localizer["Submissions"];
+    
+        _ = localizer["Delete Account"];
     }
 
     public void InjectSimple(

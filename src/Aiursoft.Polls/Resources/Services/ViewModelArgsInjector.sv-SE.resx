@@ -69,6 +69,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Instrumentbräda</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Ta bort konto</value>
+  </data>
   <data name="Delete Poll" xml:space="preserve">
     <value>Radera omröstning</value>
   </data>

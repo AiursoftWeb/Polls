@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>ダッシュボード</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>アカウントを削除</value>
+  </data>
   <data name="Delete Poll" xml:space="preserve">
     <value>投票を削除する</value>
   </data>

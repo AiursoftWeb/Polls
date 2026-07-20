@@ -69,6 +69,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Gösterge Paneli</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Hesabı Sil</value>
+  </data>
   <data name="Delete Poll" xml:space="preserve">
     <value>Anketi Sil</value>
   </data>

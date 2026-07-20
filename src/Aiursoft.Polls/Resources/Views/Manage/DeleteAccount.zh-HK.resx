@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Any polls you created will become &apos;headless&apos; (ownerless) but will remain active for users to participate in." xml:space="preserve">
+    <value>您建立嘅任何投票會變成「無主」（冇擁有者），但會繼續開放俾用戶參與。</value>
+  </data>
+  <data name="Any submissions (votes) you have cast will be converted into anonymous votes to preserve the integrity of the poll results." xml:space="preserve">
+    <value>您投出的所有票項將轉換為匿名投票，以確保民調結果的完整性。</value>
+  </data>
+  <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>你確定要刪除你的帳戶嗎？</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>危險區域</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>刪除帳戶</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>刪除帳戶資料</value>
+  </data>
+  <data name="Please note:" xml:space="preserve">
+    <value>請注意：</value>
+  </data>
+  <data name="This action will permanently erase your profile and identity from our servers. This action cannot be undone." xml:space="preserve">
+    <value>此操作將永久從我們的伺服器中刪除您的個人資料和身份。此操作無法撤銷。</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>確認，刪除我的帳戶</value>
+  </data>
+
+</root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Any polls you created will become &apos;headless&apos; (ownerless) but will remain active for users to participate in." xml:space="preserve">
+    <value>Tous les sondages que vous avez créés deviendront « sans propriétaire » (orphelins) mais resteront actifs pour que les utilisateurs puissent y participer.</value>
+  </data>
+  <data name="Any submissions (votes) you have cast will be converted into anonymous votes to preserve the integrity of the poll results." xml:space="preserve">
+    <value>Toutes les soumissions (votes) que vous avez émises seront converties en votes anonymes afin de préserver l&apos;intégrité des résultats du sondage.</value>
+  </data>
+  <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir supprimer votre compte ?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zone de danger</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Supprimer le compte</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>Supprimer les données du compte</value>
+  </data>
+  <data name="Please note:" xml:space="preserve">
+    <value>Veuillez noter :</value>
+  </data>
+  <data name="This action will permanently erase your profile and identity from our servers. This action cannot be undone." xml:space="preserve">
+    <value>Cette action effacera définitivement votre profil et votre identité de nos serveurs. Cette action est irréversible.</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>Oui, supprimez mon compte</value>
+  </data>
+
+</root>

@@ -160,7 +160,7 @@ else
 @section scripts {
     @if (Model.IsAuthorized)
     {
-        <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+        <script src="~/node_modules/echarts/dist/echarts.min.js" asp-append-version="true"></script>
         <script>
             $(function () {
                 @foreach (var qr in Model.QuestionResults.Where(q => q.TotalAnswers > 0))

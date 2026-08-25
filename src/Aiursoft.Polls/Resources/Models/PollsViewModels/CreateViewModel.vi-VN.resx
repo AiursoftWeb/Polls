@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Loại Truy Cập</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Cho phép nộp bài nhiều lần</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Vai trò được phép</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>Mô tả</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>Số câu mỗi lần thi (0 = tất cả)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Khả năng hiển thị kết quả</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Trộn các lựa chọn</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Xáo trộn câu hỏi</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} là bắt buộc.</value>

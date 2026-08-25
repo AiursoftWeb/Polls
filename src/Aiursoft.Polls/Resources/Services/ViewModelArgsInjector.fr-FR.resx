@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Résultat de l&apos;examen</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Prolonger la date limite du sondage</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Gérer</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Gérer les parts d&apos;examen</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mes Sondages</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Informations système</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Passer l&apos;examen</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Modèle</value>

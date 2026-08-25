@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>오류</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>시험 결과</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>투표 마감 연장</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>관리</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>시험 공유 관리</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>내 투표</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>시스템 정보</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>시험 보기</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>템플릿</value>

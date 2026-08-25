@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Σφάλμα</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Αποτέλεσμα Εξέτασης</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Επέκταση Προθεσμίας Ψηφοφορίας</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Διαχείριση</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Διαχείριση Κοινής Χρήσης Εξετάσεων</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Οι δικές μου ψηφοφορίες</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Πληροφορίες Συστήματος</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Παράδοση Εξετάσεως</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Πρότυπο</value>

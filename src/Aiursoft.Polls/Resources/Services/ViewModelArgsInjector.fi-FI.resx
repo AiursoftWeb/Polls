@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Virhe</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Tutkintitulos</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Pidentää kyselyn määräaika</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Hallinnoi</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Hallitse tenttijakoja</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Omat kyselyni</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Järjestelmän tiedot</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Suorita tentti</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Malli</value>

@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>All changes saved</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonymous Poll:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Answered questions are shown in green.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Answers are saved automatically.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Back</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Finish</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Multiple Choice</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; final submission will retry.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>On-call licence assessment</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Please specify...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Question navigator</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Questions</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Ready to submit?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Save failed; final submission will retry.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Saving…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Select all that apply</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Single Choice</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Submit exam</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Submitting...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Submitting…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Time remaining</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>You can still review and change your answers before submitting.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private.</value>

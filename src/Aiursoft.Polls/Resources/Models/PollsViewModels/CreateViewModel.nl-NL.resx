@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Toegangstype</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Herhaalde pogingen toestaan</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Toegestane rollen</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>Beschrijving</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>Vragen per poging (0 = alle)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Zichtbaarheid van resultaten</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Opties shuffelen</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Vulgaar vragen</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} is vereist.</value>

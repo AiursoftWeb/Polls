@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>エラー</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>試験結果</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>投票締切期限を延長する</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>試験共有の管理</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>マイポーリング</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>システム情報</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>試験を受ける</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>テンプレート</value>

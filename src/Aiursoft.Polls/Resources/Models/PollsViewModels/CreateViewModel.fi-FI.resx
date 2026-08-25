@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Käyttöoikeustyyppi</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Salli toistuvat yritykset</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Sallitut roolit</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>Kuvaus</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>Kysymyksiä per yritys (0 = kaikki)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Tulosten näkyvyys</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Sekoita vaihtoehdot</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Sekoita kysymykset</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} on pakollinen.</value>

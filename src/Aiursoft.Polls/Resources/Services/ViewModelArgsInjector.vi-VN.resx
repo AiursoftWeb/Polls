@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>Lỗi</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Kết quả thi</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Kéo dài thời hạn bỏ phiếu</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Quản lý</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Quản lý chia sẻ bài thi</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Thăm dò ý kiến của tôi</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Thông tin Hệ thống</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Làm Bài Thi</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Mẫu</value>

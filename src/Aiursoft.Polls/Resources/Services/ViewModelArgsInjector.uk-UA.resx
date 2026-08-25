@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Помилка</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Результат іспиту</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Подовжити термін голосування</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Керування</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Керування спільним доступом до іспитів</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Мої опитування</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Інформація про систему</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Пройти іспит</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Шаблон</value>

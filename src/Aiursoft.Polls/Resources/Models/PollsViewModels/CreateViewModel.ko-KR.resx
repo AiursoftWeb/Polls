@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>접근 유형</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>반복 응시 허용</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>허용된 역할</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>설명</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>시도당 질문 수 (0 = 전체)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>결과 표시 여부</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>옵션 섞기</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>문제 섞기</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0}(이)가 필요합니다.</value>

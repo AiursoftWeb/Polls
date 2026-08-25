@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>ข้อผิดพลาด</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>ผลการสอบ</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>ขยายกำหนดการโพล</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>จัดการ</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>จัดการการแชร์ข้อสอบ</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>แบบสำรวจของฉัน</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>ข้อมูลระบบ</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>ทำข้อสอบ</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>แม่แบบ</value>

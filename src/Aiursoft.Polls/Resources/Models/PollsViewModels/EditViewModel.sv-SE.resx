@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Åtkomsttyp</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Tillåt upprepade försök</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tillåtna roller</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Synlighet för resultat</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Blanda om svarsalternativen</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Blanda frågor</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} är obligatoriskt.</value>

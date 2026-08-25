@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>ประเภทการเข้าถึง</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>อนุญาตให้ทำซ้ำได้</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>บทบาทที่อนุญาต</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>การแสดงผลผลสำรวจ</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>สลับตัวเลือก</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>สุ่มคำถาม</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>จำเป็นต้องระบุ {0}</value>

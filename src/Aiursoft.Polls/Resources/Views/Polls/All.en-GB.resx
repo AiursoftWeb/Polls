@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Access</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Actions</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>All exams</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>All Polls</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Audience</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Copied!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Create a new poll</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Create exam</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Creator</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Details</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Exam</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>exams</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link copied to clipboard!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>No exams found</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>No polls found in the system.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Organisation exams</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Organisation exams will appear here.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>questions</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Review every assessment across the organisation.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

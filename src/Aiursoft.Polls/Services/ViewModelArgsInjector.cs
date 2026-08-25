@@ -102,6 +102,10 @@ public class ViewModelArgsInjector(
         _ = localizer["Submissions"];
     
         _ = localizer["Delete Account"];
+    
+        _ = localizer["Exam Result"];
+        _ = localizer["Manage Exam Shares"];
+        _ = localizer["Take Exam"];
     }
 
     public void InjectSimple(

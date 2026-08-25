@@ -21,5 +21,7 @@ public class Option
 
     public int DisplayOrder { get; set; }
 
+    public bool IsCorrect { get; set; }
+
     public bool AllowCustomText { get; set; }
 }

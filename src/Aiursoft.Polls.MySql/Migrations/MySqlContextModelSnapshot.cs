@@ -17,7 +17,7 @@ namespace Aiursoft.Polls.MySql.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.10")
+                .HasAnnotation("ProductVersion", "10.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -54,6 +54,106 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.ToTable("Answers");
                 });
 
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptOption", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AttemptQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<int>("DisplayOrder")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("SourceOptionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AttemptQuestionId");
+
+                    b.ToTable("AttemptOptions");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DisplayOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Explanation")
+                        .HasMaxLength(4000)
+                        .HasColumnType("varchar(4000)");
+
+                    b.Property<bool>("IsRequired")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("SourceQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SubmissionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SubmissionId");
+
+                    b.ToTable("AttemptQuestions");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptSelection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AttemptOptionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AttemptQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SubmissionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AttemptOptionId");
+
+                    b.HasIndex("AttemptQuestionId");
+
+                    b.HasIndex("SubmissionId", "AttemptQuestionId", "AttemptOptionId")
+                        .IsUnique();
+
+                    b.ToTable("AttemptSelections");
+                });
+
             modelBuilder.Entity("Aiursoft.Polls.Entities.GlobalSetting", b =>
                 {
                     b.Property<string>("Key")
@@ -86,6 +186,9 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.Property<int>("DisplayOrder")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("tinyint(1)");
+
                     b.Property<int>("QuestionId")
                         .HasColumnType("int");
 
@@ -105,6 +208,9 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.Property<int>("AccessType")
                         .HasColumnType("int");
 
+                    b.Property<bool>("AllowRepeatedSubmissions")
+                        .HasColumnType("tinyint(1)");
+
                     b.Property<string>("CreatedById")
                         .HasColumnType("varchar(255)");
 
@@ -118,6 +224,17 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .HasMaxLength(2000)
                         .HasColumnType("varchar(2000)");
 
+                    b.Property<int>("DurationMinutes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FailMessage")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("varchar(2000)");
+
+                    b.Property<decimal>("FullScore")
+                        .HasColumnType("decimal(10,2)");
+
                     b.Property<bool>("IsAnonymous")
                         .HasColumnType("tinyint(1)");
 
@@ -125,6 +242,29 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .HasColumnType("tinyint(1)");
 
                     b.Property<bool>("IsTemplate")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<decimal>("OverSelectionScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<decimal>("PartialScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("PassMessage")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("varchar(2000)");
+
+                    b.Property<decimal>("PassingScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<int>("QuestionsPerAttempt")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("ShuffleOptions")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("ShuffleQuestions")
                         .HasColumnType("tinyint(1)");
 
                     b.Property<int>("State")
@@ -146,6 +286,44 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.HasIndex("CreatedById");
 
                     b.ToTable("Polls");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.PollAssignment", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("AssignedRoleId")
+                        .HasMaxLength(450)
+                        .HasColumnType("varchar(450)");
+
+                    b.Property<string>("AssignedUserId")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AssignedRoleId");
+
+                    b.HasIndex("AssignedUserId");
+
+                    b.HasIndex("PollId", "AssignedRoleId")
+                        .IsUnique();
+
+                    b.HasIndex("PollId", "AssignedUserId")
+                        .IsUnique();
+
+                    b.ToTable("PollAssignments", t =>
+                        {
+                            t.HasCheckConstraint("CK_PollAssignments_ExactlyOneRecipient", "(AssignedUserId IS NOT NULL AND AssignedRoleId IS NULL) OR (AssignedUserId IS NULL AND AssignedRoleId IS NOT NULL)");
+                        });
                 });
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.PollOperationLog", b =>
@@ -208,6 +386,47 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.ToTable("PollRoleRestrictions");
                 });
 
+            modelBuilder.Entity("Aiursoft.Polls.Entities.PollShare", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("Permission")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("PollId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("SharedWithRoleId")
+                        .HasMaxLength(450)
+                        .HasColumnType("varchar(450)");
+
+                    b.Property<string>("SharedWithUserId")
+                        .HasMaxLength(64)
+                        .HasColumnType("varchar(64)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SharedWithRoleId");
+
+                    b.HasIndex("SharedWithUserId");
+
+                    b.HasIndex("PollId", "SharedWithRoleId")
+                        .IsUnique();
+
+                    b.HasIndex("PollId", "SharedWithUserId")
+                        .IsUnique();
+
+                    b.ToTable("PollShares", t =>
+                        {
+                            t.HasCheckConstraint("CK_PollShares_ExactlyOneRecipient", "(SharedWithUserId IS NOT NULL AND SharedWithRoleId IS NULL) OR (SharedWithUserId IS NULL AND SharedWithRoleId IS NOT NULL)");
+                        });
+                });
+
             modelBuilder.Entity("Aiursoft.Polls.Entities.Question", b =>
                 {
                     b.Property<int>("Id")
@@ -215,6 +434,10 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Explanation")
+                        .HasMaxLength(4000)
+                        .HasColumnType("varchar(4000)");
 
                     b.Property<bool>("IsRequired")
                         .HasColumnType("tinyint(1)");
@@ -248,18 +471,54 @@ namespace Aiursoft.Polls.MySql.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("AttemptNumber")
+                        .HasColumnType("int");
+
                     b.Property<string>("BrowserFingerprint")
                         .HasMaxLength(200)
                         .HasColumnType("varchar(200)");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<decimal>("FullScore")
+                        .HasColumnType("decimal(10,2)");
 
                     b.Property<string>("IpAddress")
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
+                    b.Property<decimal>("MaxScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<decimal>("OverSelectionScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<decimal>("PartialScore")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<bool>("Passed")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<decimal>("PassingScore")
+                        .HasColumnType("decimal(10,2)");
+
                     b.Property<Guid>("PollId")
                         .HasColumnType("char(36)");
 
+                    b.Property<decimal>("Score")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<DateTime>("StartedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("SubmitTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("SubmittedAt")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("UserId")
@@ -508,6 +767,55 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.Navigation("Submission");
                 });
 
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptOption", b =>
+                {
+                    b.HasOne("Aiursoft.Polls.Entities.AttemptQuestion", "AttemptQuestion")
+                        .WithMany("Options")
+                        .HasForeignKey("AttemptQuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AttemptQuestion");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptQuestion", b =>
+                {
+                    b.HasOne("Aiursoft.Polls.Entities.Submission", "Submission")
+                        .WithMany("AttemptQuestions")
+                        .HasForeignKey("SubmissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Submission");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptSelection", b =>
+                {
+                    b.HasOne("Aiursoft.Polls.Entities.AttemptOption", "AttemptOption")
+                        .WithMany()
+                        .HasForeignKey("AttemptOptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Aiursoft.Polls.Entities.AttemptQuestion", "AttemptQuestion")
+                        .WithMany()
+                        .HasForeignKey("AttemptQuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Aiursoft.Polls.Entities.Submission", "Submission")
+                        .WithMany("AttemptSelections")
+                        .HasForeignKey("SubmissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AttemptOption");
+
+                    b.Navigation("AttemptQuestion");
+
+                    b.Navigation("Submission");
+                });
+
             modelBuilder.Entity("Aiursoft.Polls.Entities.Option", b =>
                 {
                     b.HasOne("Aiursoft.Polls.Entities.Question", "Question")
@@ -527,6 +835,31 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("CreatedBy");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.PollAssignment", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", "AssignedRole")
+                        .WithMany()
+                        .HasForeignKey("AssignedRoleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Aiursoft.Polls.Entities.User", "AssignedUser")
+                        .WithMany()
+                        .HasForeignKey("AssignedUserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Aiursoft.Polls.Entities.Poll", "Poll")
+                        .WithMany("Assignments")
+                        .HasForeignKey("PollId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AssignedRole");
+
+                    b.Navigation("AssignedUser");
+
+                    b.Navigation("Poll");
                 });
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.PollOperationLog", b =>
@@ -565,6 +898,31 @@ namespace Aiursoft.Polls.MySql.Migrations
                     b.Navigation("Poll");
 
                     b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("Aiursoft.Polls.Entities.PollShare", b =>
+                {
+                    b.HasOne("Aiursoft.Polls.Entities.Poll", "Poll")
+                        .WithMany("Shares")
+                        .HasForeignKey("PollId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", "SharedWithRole")
+                        .WithMany()
+                        .HasForeignKey("SharedWithRoleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Aiursoft.Polls.Entities.User", "SharedWithUser")
+                        .WithMany()
+                        .HasForeignKey("SharedWithUserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Poll");
+
+                    b.Navigation("SharedWithRole");
+
+                    b.Navigation("SharedWithUser");
                 });
 
             modelBuilder.Entity("Aiursoft.Polls.Entities.Question", b =>
@@ -647,13 +1005,22 @@ namespace Aiursoft.Polls.MySql.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Aiursoft.Polls.Entities.AttemptQuestion", b =>
+                {
+                    b.Navigation("Options");
+                });
+
             modelBuilder.Entity("Aiursoft.Polls.Entities.Poll", b =>
                 {
+                    b.Navigation("Assignments");
+
                     b.Navigation("OperationLogs");
 
                     b.Navigation("Questions");
 
                     b.Navigation("RoleRestrictions");
+
+                    b.Navigation("Shares");
 
                     b.Navigation("Submissions");
                 });
@@ -666,6 +1033,10 @@ namespace Aiursoft.Polls.MySql.Migrations
             modelBuilder.Entity("Aiursoft.Polls.Entities.Submission", b =>
                 {
                     b.Navigation("Answers");
+
+                    b.Navigation("AttemptQuestions");
+
+                    b.Navigation("AttemptSelections");
                 });
 #pragma warning restore 612, 618
         }

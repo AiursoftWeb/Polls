@@ -1,94 +1,114 @@
 @using Aiursoft.Polls.Entities
 @model Aiursoft.Polls.Models.PollsViewModels.EditQuestionViewModel
 
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-    <div>
-        <a asp-action="Details" asp-route-id="@Model.PollId" class="text-decoration-none text-muted small mb-2 d-inline-block">
-            ← @Localizer["Back to Poll"]
-        </a>
-        <h4 class="mb-0">✏️ @Localizer["Edit Question"]</h4>
-    </div>
-</div>
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
+}
 
-<div class="card">
-    <div class="card-body">
-        <form asp-action="EditQuestion" method="post">
-            <input type="hidden" asp-for="Id" />
-            <input type="hidden" asp-for="PollId" />
-            <div class="mb-3">
-                <label asp-for="Title" class="form-label fw-semibold small"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger small"></span>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <label asp-for="Type" class="form-label fw-semibold small"></label>
-                    <select asp-for="Type" asp-items="Html.GetEnumSelectList<QuestionType>()" class="form-select" id="questionTypeSelect"></select>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="form-check mt-4">
-                        <input class="form-check-input" asp-for="IsRequired" />
-                        <label class="form-check-label" asp-for="IsRequired">❗ @Localizer["Required"]</label>
+<div class="exam-ui">
+    <div class="exam-page-header">
+        <div>
+            <a asp-action="Details" asp-route-id="@Model.PollId" class="exam-back-link"><i data-lucide="arrow-left"></i> @Localizer["Back to exam"]</a>
+            <div class="exam-kicker"><i data-lucide="list-pen"></i> @Localizer["Question builder"]</div>
+            <h1 class="h3">@Localizer["Edit question"]</h1>
+            <p class="text-muted mb-0 mt-1">@Localizer["Refine the prompt, answer choices and learning guidance."]</p>
+        </div>
+    </div>
+
+    <form asp-action="EditQuestion" method="post" id="questionForm">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="PollId" />
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="row g-4">
+            <div class="col-xl-8">
+                <section class="exam-card mb-4">
+                    <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="message-square-text"></i></span>@Localizer["Question prompt"]</h2></div>
+                    <div class="card-body"><textarea asp-for="Title" class="form-control form-control-lg" rows="3" autofocus></textarea><span asp-validation-for="Title" class="text-danger small"></span></div>
+                </section>
+
+                <section class="exam-card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between gap-3">
+                        <div><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="list-checks"></i></span>@Localizer["Answer options"]</h2><p class="exam-subtitle">@Localizer["Mark every correct option. Their displayed order can be randomized during an attempt."]</p></div>
+                        <button type="button" class="btn btn-outline-primary btn-sm flex-shrink-0" id="addOptionBtn"><i class="align-middle me-1" data-lucide="plus"></i>@Localizer["Add option"]</button>
                     </div>
-                </div>
-            </div>
-
-            <div id="optionsSection">
-                <h6>📝 @Localizer["Options"]</h6>
-                <div id="optionsList">
-                    @for (var i = 0; i < Model.Options.Count; i++)
-                    {
-                        <div class="input-group mb-2 option-row">
-                            <input type="hidden" name="Options[@i].Id" value="@Model.Options[i].Id" />
-                            <input type="text" class="form-control" name="Options[@i].Content" value="@Model.Options[i].Content" placeholder="@Localizer["Option text"]" />
-                            <div class="input-group-text">
-                                <input class="form-check-input" type="checkbox" name="Options[@i].AllowCustomText" value="true"
-                                       @(Model.Options[i].AllowCustomText ? "checked" : "") />
-                                <label class="ms-1 small">@Localizer["Other"]</label>
-                            </div>
-                            <button type="button" class="btn btn-outline-danger remove-option-btn">✕</button>
+                    <div class="card-body">
+                        <div id="optionsList" class="vstack gap-2">
+                            @for (var i = 0; i < Model.Options.Count; i++)
+                            {
+                                var optionLabel = i < 26 ? ((char)('A' + i)).ToString() : (i + 1).ToString();
+                                <div class="exam-option-editor option-row" data-index="@i">
+                                    <input type="hidden" name="Options[@i].Id" value="@Model.Options[i].Id" />
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="option-grip"><i data-lucide="grip-vertical"></i></span>
+                                        <span class="exam-option-index option-letter">@optionLabel</span>
+                                        <input type="text" class="form-control" name="Options[@i].Content" value="@Model.Options[i].Content" placeholder="@Localizer["Option text"]" />
+                                        <button type="button" class="btn btn-sm btn-outline-danger remove-option-btn" title="@Localizer["Remove option"]"><i data-lucide="x"></i></button>
+                                    </div>
+                                    <div class="d-flex flex-wrap align-items-center gap-3 border-top mt-2 pt-2 ms-5">
+                                        <div class="form-check mb-0"><input class="form-check-input correct-option" type="checkbox" name="Options[@i].IsCorrect" value="true" id="correct_@i" checked="@(Model.Options[i].IsCorrect ? "checked" : null)" /><label class="form-check-label small fw-semibold" for="correct_@i">@Localizer["Correct answer"]</label></div>
+                                    </div>
+                                </div>
+                            }
                         </div>
-                    }
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary" id="addOptionBtn">
-                    ＋ @Localizer["Add Option"]
-                </button>
-                <p class="text-muted small mt-2">💡 @Localizer["Tip: Checking 'Other' allows the voter to submit additional text information."]</p>
+                    </div>
+                </section>
+
+                <section class="exam-card">
+                    <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="lightbulb"></i></span>@Localizer["Explanation"]</h2><p class="exam-subtitle">@Localizer["Shown only when the employee is not fully correct."]</p></div>
+                    <div class="card-body"><textarea asp-for="Explanation" class="form-control" rows="5"></textarea><span asp-validation-for="Explanation" class="text-danger small"></span></div>
+                </section>
             </div>
 
-            <div class="d-flex gap-2 mt-3">
-                <button type="submit" class="btn btn-primary">💾 @Localizer["Save"]</button>
-                <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
-            </div>
-        </form>
-    </div>
+            <aside class="col-xl-4">
+                <div style="position: sticky; top: 1.5rem;">
+                    <section class="exam-card mb-4">
+                        <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="settings-2"></i></span>@Localizer["Question settings"]</h2></div>
+                        <div class="card-body"><div class="mb-3"><label asp-for="Type" class="form-label">@Localizer["Answer type"]</label><select asp-for="Type" asp-items="Html.GetEnumSelectList<QuestionType>()" class="form-select" id="questionTypeSelect"></select></div><div class="exam-toggle form-check form-switch"><input asp-for="IsRequired" class="form-check-input" /><label asp-for="IsRequired" class="form-check-label fw-semibold"></label><div class="small text-muted mt-1">@Localizer["Require an answer before submission."]</div></div></div>
+                    </section>
+                    <div class="alert alert-warning alert-outline-coloured mb-4"><div class="alert-icon"><i data-lucide="history"></i></div><div class="alert-message"><strong>@Localizer["History stays intact"]</strong><span class="d-block small">@Localizer["Existing attempts keep their original snapshot. This version is used for future attempts."]</span></div></div>
+                    <section class="exam-card"><div class="card-body"><div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-lg"><i class="align-middle me-1" data-lucide="save"></i>@Localizer["Save question"]</button><a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-outline-secondary">@Localizer["Cancel"]</a></div></div></section>
+                </div>
+            </aside>
+        </div>
+    </form>
 </div>
+
+<template id="optionTemplate">
+    <div class="exam-option-editor option-row" data-index="__INDEX__">
+        <input type="hidden" name="Options[__INDEX__].Id" value="0" />
+        <div class="d-flex align-items-center gap-2"><span class="option-grip"><i data-lucide="grip-vertical"></i></span><span class="exam-option-index option-letter">__LETTER__</span><input type="text" class="form-control" name="Options[__INDEX__].Content" placeholder="@Localizer["Option text"]" /><button type="button" class="btn btn-sm btn-outline-danger remove-option-btn" title="@Localizer["Remove option"]"><i data-lucide="x"></i></button></div>
+        <div class="d-flex flex-wrap align-items-center gap-3 border-top mt-2 pt-2 ms-5"><div class="form-check mb-0"><input class="form-check-input correct-option" type="checkbox" name="Options[__INDEX__].IsCorrect" value="true" id="correct___INDEX__" /><label class="form-check-label small fw-semibold" for="correct___INDEX__">@Localizer["Correct answer"]</label></div></div>
+    </div>
+</template>
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var optionIndex = @Model.Options.Count;
-            var optionsList = document.getElementById("optionsList");
-            var addBtn = document.getElementById("addOptionBtn");
-
-            addBtn.addEventListener("click", function () {
-                var row = document.createElement("div");
-                row.className = "input-group mb-2 option-row";
-                row.innerHTML = '<input type="hidden" name="Options[' + optionIndex + '].Id" value="0" />'
-                    + '<input type="text" class="form-control" name="Options[' + optionIndex + '].Content" placeholder="Option text" />'
-                    + '<div class="input-group-text"><input class="form-check-input" type="checkbox" name="Options[' + optionIndex + '].AllowCustomText" value="true" /><label class="ms-1 small">Other</label></div>'
-                    + '<button type="button" class="btn btn-outline-danger remove-option-btn">✕</button>';
-                optionsList.appendChild(row);
-                optionIndex++;
-            });
-
-            optionsList.addEventListener("click", function (e) {
-                var btn = e.target.closest(".remove-option-btn");
-                if (btn) {
-                    btn.closest(".option-row").remove();
-                }
-            });
-        });
+        (() => {
+            let optionIndex = @Model.Options.Count;
+            const list = document.getElementById('optionsList');
+            const type = document.getElementById('questionTypeSelect');
+            const template = document.getElementById('optionTemplate').innerHTML;
+            function optionLetter(index) { return index < 26 ? String.fromCharCode(65 + index) : String(index + 1); }
+            function refreshRemoveButtons() { const disabled = list.querySelectorAll('.option-row').length <= 2; list.querySelectorAll('.remove-option-btn').forEach(button => button.disabled = disabled); }
+            function reindexRows() {
+                list.querySelectorAll('.option-row').forEach((row, index) => {
+                    row.dataset.index = index;
+                    row.querySelector('.option-letter').textContent = optionLetter(index);
+                    row.querySelectorAll('[name]').forEach(input => input.name = input.name.replace(/Options\[\d+\]/, `Options[${index}]`));
+                    row.querySelectorAll('[id]').forEach(input => input.id = input.id.replace(/_(\d+)$/, `_${index}`));
+                    row.querySelectorAll('label[for]').forEach(label => label.htmlFor = label.htmlFor.replace(/_(\d+)$/, `_${index}`));
+                });
+                optionIndex = list.querySelectorAll('.option-row').length;
+            }
+            function enforceSingleChoice(changed) { if (type.value === '@((int)QuestionType.SingleChoice)' && changed.checked) list.querySelectorAll('.correct-option').forEach(input => { if (input !== changed) input.checked = false; }); }
+            document.getElementById('addOptionBtn').addEventListener('click', () => { list.insertAdjacentHTML('beforeend', template.replaceAll('__INDEX__', optionIndex).replaceAll('__LETTER__', optionLetter(optionIndex))); optionIndex++; refreshRemoveButtons(); if (window.lucide) window.lucide.createIcons(); });
+            list.addEventListener('click', event => { const button = event.target.closest('.remove-option-btn'); if (button && !button.disabled) { button.closest('.option-row').remove(); reindexRows(); refreshRemoveButtons(); } });
+            list.addEventListener('change', event => { if (event.target.classList.contains('correct-option')) enforceSingleChoice(event.target); });
+            type.addEventListener('change', () => { if (type.value === '@((int)QuestionType.SingleChoice)') { const checked = [...list.querySelectorAll('.correct-option:checked')]; checked.slice(1).forEach(input => input.checked = false); } });
+            document.getElementById('questionForm').addEventListener('submit', reindexRows);
+            refreshRemoveButtons();
+        })();
     </script>
 }

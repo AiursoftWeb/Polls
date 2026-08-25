@@ -19,6 +19,7 @@ public class ReminderTests : TestBase
             { "Description", "A public test poll" },
             { "AccessType", ((int)AccessType.Public).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
+            { "PassingScore", "4" },
             { "Deadline", DateTime.UtcNow.AddDays(7).ToString("O") }
         });
         
@@ -31,6 +32,7 @@ public class ReminderTests : TestBase
             pollIdString = pollIdString.Split("id=")[1].Split("&")[0];
         }
         var pollId = Guid.Parse(pollIdString!);
+        await AddValidExamQuestion(pollId);
 
         // 2. Publish it (reminders only work on published polls)
         var publishResponse = await PostForm($"/Polls/Publish/{pollId}", new Dictionary<string, string>
@@ -70,6 +72,7 @@ public class ReminderTests : TestBase
             { "Description", "A registered-only test poll" },
             { "AccessType", ((int)AccessType.RegisteredOnly).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
+            { "PassingScore", "4" },
             { "Deadline", DateTime.UtcNow.AddDays(7).ToString("O") }
         });
         
@@ -81,6 +84,7 @@ public class ReminderTests : TestBase
             pollIdString = pollIdString.Split("id=")[1].Split("&")[0];
         }
         var pollId = Guid.Parse(pollIdString!);
+        await AddValidExamQuestion(pollId);
 
         // 2. Publish it
         var publishResponse = await PostForm($"/Polls/Publish/{pollId}", new Dictionary<string, string>
@@ -132,6 +136,7 @@ public class ReminderTests : TestBase
             { "Description", "A role-based test poll" },
             { "AccessType", ((int)AccessType.RoleBased).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
+            { "PassingScore", "4" },
             { "Deadline", DateTime.UtcNow.AddDays(7).ToString("O") },
             { "SelectedRoles", roleId }
         });
@@ -144,6 +149,7 @@ public class ReminderTests : TestBase
             pollIdString = pollIdString.Split("id=")[1].Split("&")[0];
         }
         var pollId = Guid.Parse(pollIdString!);
+        await AddValidExamQuestion(pollId);
 
         // 2. Publish it
         var publishResponse = await PostForm($"/Polls/Publish/{pollId}", new Dictionary<string, string>
@@ -168,5 +174,20 @@ public class ReminderTests : TestBase
         }, tokenUrl: $"/Polls/Details/{pollId}");
         Assert.AreEqual(HttpStatusCode.Found, reminderResponse.StatusCode);
         AssertRedirect(reminderResponse, $"/Polls/Details/{pollId}");
+    }
+
+    private async Task AddValidExamQuestion(Guid pollId)
+    {
+        var response = await PostForm("/Polls/AddQuestion", new Dictionary<string, string>
+        {
+            { "PollId", pollId.ToString() },
+            { "Title", "License question" },
+            { "Type", ((int)QuestionType.SingleChoice).ToString() },
+            { "IsRequired", "true" },
+            { "Options[0].Content", "Correct" },
+            { "Options[0].IsCorrect", "true" },
+            { "Options[1].Content", "Incorrect" }
+        });
+        Assert.AreEqual(HttpStatusCode.Found, response.StatusCode);
     }
 }

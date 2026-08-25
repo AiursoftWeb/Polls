@@ -1,0 +1,125 @@
+@model Aiursoft.Polls.Models.PollsViewModels.AttemptResultViewModel
+@{
+    Layout = null;
+    var resultClass = Model.Attempt.Passed ? "success" : "danger";
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@Localizer["Exam result"] · @Model.Poll.Title</title>
+    <link rel="stylesheet" href="/UIStack/dist/css/app.css" />
+    <link rel="stylesheet" href="/styles/exam.css" />
+</head>
+<body class="exam-ui bg-light">
+    <main class="container py-4 py-lg-5" style="max-width: 960px;">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="exam-back-link mb-0">
+                <i data-lucide="arrow-left"></i> @Localizer["Back to exam"]
+            </a>
+            <span class="text-muted small">@Localizer["Attempt"] #@Model.Attempt.AttemptNumber</span>
+        </div>
+
+        <section class="exam-card mb-4">
+            <div class="card-body text-center py-5 px-3">
+                <div class="exam-kicker justify-content-center mb-3">
+                    <i data-lucide="@(Model.Attempt.Passed ? "badge-check" : "circle-alert")"></i>
+                    @(Model.Attempt.Passed ? Localizer["Assessment passed"] : Localizer["Assessment not passed"])
+                </div>
+                <div class="exam-score-orb @resultClass mb-4">
+                    <div class="display-5 fw-bold exam-score">@Model.Attempt.Score</div>
+                    <div class="text-muted small">/ @Model.Attempt.MaxScore</div>
+                </div>
+                <h1 class="h3 mb-2">@Model.Poll.Title</h1>
+                <p class="text-muted mb-4">@Localizer["Passing score"]: <strong class="text-body">@Model.Attempt.PassingScore</strong></p>
+
+                <div class="alert alert-@resultClass alert-outline-coloured text-start mx-auto mb-4" style="max-width: 42rem;" role="alert">
+                    <div class="alert-icon"><i data-lucide="@(Model.Attempt.Passed ? "check-circle-2" : "heart-handshake")"></i></div>
+                    <div class="alert-message">
+                        <strong>@(Model.Attempt.Passed ? Localizer["Congratulations"] : Localizer["Keep going"])</strong>
+                        <span class="d-block small">@(Model.Attempt.Passed ? Model.Poll.PassMessage : Model.Poll.FailMessage)</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <a asp-action="Vote" asp-route-id="@Model.Poll.Id" class="btn btn-primary">
+                        <i class="align-middle me-1" data-lucide="rotate-ccw"></i> @Localizer["Take again"]
+                    </a>
+                    <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="btn btn-outline-secondary">
+                        @Localizer["Exam overview"]
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex align-items-end justify-content-between gap-3 mb-3">
+            <div>
+                <div class="exam-kicker"><i data-lucide="scan-search"></i> @Localizer["Review"]</div>
+                <h2 class="h4 mb-0">@Localizer["Answer review"]</h2>
+            </div>
+            <span class="text-muted small">@Model.Questions.Count @Localizer["questions"]</span>
+        </div>
+
+        <div class="vstack gap-3">
+            @for (var i = 0; i < Model.Questions.Count; i++)
+            {
+                var result = Model.Questions[i];
+                var options = result.Question.Options?.OrderBy(o => o.DisplayOrder).ToList() ?? [];
+                <section class="exam-question">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-start gap-3 mb-3">
+                            <div class="exam-question-number">@(i + 1)</div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex flex-wrap align-items-start justify-content-between gap-2">
+                                    <h3 class="h5 lh-base mb-0">@result.Question.Title</h3>
+                                    <span class="fw-bold exam-score text-@(result.IsFullyCorrect ? "success" : "danger")">@result.Score @Localizer["points"]</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-@(result.IsFullyCorrect ? "success" : "danger") alert-outline-coloured mb-3" role="alert">
+                            <div class="alert-icon"><i data-lucide="@(result.IsFullyCorrect ? "check" : "x")"></i></div>
+                            <div class="alert-message">
+                                <strong>@(result.IsFullyCorrect ? Localizer["Correct"] : Localizer["Needs review"])</strong>
+                                <span class="d-block small">@(result.IsFullyCorrect ? Localizer["Your answer is fully correct."] : Localizer["Review the explanation below and try again when ready."])</span>
+                            </div>
+                        </div>
+
+                        <div class="vstack gap-2">
+                            @for (var optionIndex = 0; optionIndex < options.Count; optionIndex++)
+                            {
+                                var option = options[optionIndex];
+                                var isSelected = result.SelectedOptionIds.Contains(option.Id);
+                                var optionLabel = optionIndex < 26 ? ((char)('A' + optionIndex)).ToString() : (optionIndex + 1).ToString();
+                                <div class="exam-option @(isSelected ? "is-selected" : string.Empty)">
+                                    <span class="exam-option-index">@optionLabel</span>
+                                    <span class="flex-grow-1">@option.Content</span>
+                                    @if (isSelected)
+                                    {
+                                        <span class="small fw-semibold text-primary d-inline-flex align-items-center gap-1">
+                                            <i data-lucide="check" style="width: 14px; height: 14px;"></i> @Localizer["Your choice"]
+                                        </span>
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        @if (!result.IsFullyCorrect && !string.IsNullOrWhiteSpace(result.Question.Explanation))
+                        {
+                            <div class="alert alert-warning alert-outline-coloured mt-3 mb-0" role="alert">
+                                <div class="alert-icon"><i data-lucide="lightbulb"></i></div>
+                                <div class="alert-message">
+                                    <strong>@Localizer["Explanation"]</strong>
+                                    <span class="d-block small">@result.Question.Explanation</span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </section>
+            }
+        </div>
+    </main>
+    <script src="/UIStack/dist/js/app.js"></script>
+</body>
+</html>

@@ -15,6 +15,8 @@ public class DetailsViewModel : UiStackLayoutViewModel
     public Submission? UserSubmission { get; set; }
     public bool IsCreator { get; set; }
     public bool CanManage { get; set; }
+    public bool CanEdit { get; set; }
+    public bool CanManageShares { get; set; }
     public int PendingVotersCount { get; set; }
     public int EligibleVotersCount { get; set; }
 }

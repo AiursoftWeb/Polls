@@ -1,0 +1,160 @@
+@using Aiursoft.Polls.Entities
+@model Aiursoft.Polls.Models.PollsViewModels.ManageSharesViewModel
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
+}
+
+<div class="exam-ui">
+    <div class="exam-page-header">
+        <div>
+            <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="exam-back-link">
+                <i data-lucide="arrow-left"></i> @Localizer["Back to exam"]
+            </a>
+            <div class="exam-kicker"><i data-lucide="share-2"></i> @Localizer["Collaboration"]</div>
+            <h1 class="h3">@Localizer["Share exam"]</h1>
+            <p class="text-muted mb-0 mt-1">@Model.Poll.Title</p>
+        </div>
+    </div>
+
+    <div class="alert alert-info alert-outline-coloured mb-4" role="alert">
+        <div class="alert-icon"><i data-lucide="shield-check"></i></div>
+        <div class="alert-message">
+            <strong>@Localizer["Sharing is separate from assignment"]</strong>
+            <span class="d-block small">@Localizer["Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access."]</span>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <section class="exam-card">
+                <div class="card-header">
+                    <h2 class="exam-section-title">
+                        <span class="section-icon"><i data-lucide="user-plus"></i></span>
+                        @Localizer["Add collaborator"]
+                    </h2>
+                    <p class="exam-subtitle">@Localizer["Share with one employee or one role at a time."]</p>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddShare" asp-route-id="@Model.Poll.Id" method="post">
+                        <div class="btn-group w-100 mb-3" role="group" aria-label="@Localizer["Recipient type"]">
+                            <input type="radio" class="btn-check" name="recipientKind" id="recipientEmployee" value="employee" checked />
+                            <label class="btn btn-outline-primary" for="recipientEmployee"><i class="align-middle me-1" data-lucide="user"></i>@Localizer["Employee"]</label>
+                            <input type="radio" class="btn-check" name="recipientKind" id="recipientRole" value="role" />
+                            <label class="btn btn-outline-primary" for="recipientRole"><i class="align-middle me-1" data-lucide="users"></i>@Localizer["Role"]</label>
+                        </div>
+
+                        <div class="mb-3" id="employeeRecipient">
+                            <label class="form-label fw-semibold small">@Localizer["Employee"]</label>
+                            <select name="TargetUserId" id="targetUser" class="form-select">
+                                <option value="">@Localizer["Select an employee..."]</option>
+                                @foreach (var user in Model.AvailableUsers)
+                                {
+                                    <option value="@user.Id">@user.DisplayName (@user.Email)</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3 d-none" id="roleRecipient">
+                            <label class="form-label fw-semibold small">@Localizer["Role"]</label>
+                            <select name="TargetRoleId" id="targetRole" class="form-select" disabled>
+                                <option value="">@Localizer["Select a role..."]</option>
+                                @foreach (var role in Model.AvailableRoles)
+                                {
+                                    <option value="@role.Id">@role.Name</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold small">@Localizer["Permission"]</label>
+                            <select name="Permission" asp-items="Html.GetEnumSelectList<SharePermission>()" class="form-select"></select>
+                            <div class="form-text">@Localizer["Read-only can inspect results. Editable can also change exam settings and questions."]</div>
+                        </div>
+                        <button class="btn btn-primary w-100">
+                            <i class="align-middle me-1" data-lucide="share"></i> @Localizer["Share exam"]
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-lg-7">
+            <section class="exam-card">
+                <div class="card-header d-flex align-items-center justify-content-between gap-3">
+                    <div>
+                        <h2 class="exam-section-title">
+                            <span class="section-icon"><i data-lucide="users-round"></i></span>
+                            @Localizer["Current collaborators"]
+                        </h2>
+                        <p class="exam-subtitle">@Model.ExistingShares.Count @Localizer["active shares"]</p>
+                    </div>
+                </div>
+                @if (Model.ExistingShares.Any())
+                {
+                    <div class="list-group list-group-flush">
+                        @foreach (var share in Model.ExistingShares)
+                        {
+                            var recipient = share.SharedWithUser?.DisplayName ?? Model.AvailableRoles.FirstOrDefault(r => r.Id == share.SharedWithRoleId)?.Name ?? Localizer["Unknown recipient"].Value;
+                            var isUser = share.SharedWithUserId != null;
+                            <div class="list-group-item px-4 py-3">
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+                                    <div class="d-flex align-items-center gap-3 min-w-0">
+                                        <div class="exam-question-number"><i data-lucide="@(isUser ? "user" : "users")"></i></div>
+                                        <div class="min-w-0">
+                                            <div class="fw-semibold text-truncate">@recipient</div>
+                                            <div class="text-muted small d-flex align-items-center gap-1">
+                                                <i data-lucide="@(share.Permission == SharePermission.Editable ? "pencil" : "eye")" style="width: 13px; height: 13px;"></i>
+                                                @(share.Permission == SharePermission.Editable ? Localizer["Can edit"] : Localizer["Read only"])
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form asp-action="RemoveShare" asp-route-id="@share.Id" method="post">
+                                        <button class="btn btn-outline-danger btn-sm" title="@Localizer["Remove access"]">
+                                            <i class="align-middle" data-lucide="trash-2"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="exam-empty">
+                        <div class="exam-empty-icon"><i data-lucide="user-round-x"></i></div>
+                        <h3 class="h5">@Localizer["No collaborators"]</h3>
+                        <p class="text-muted mb-0">@Localizer["Only you can manage this exam right now."]</p>
+                    </div>
+                }
+            </section>
+        </div>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script>
+        (() => {
+            const employeeRadio = document.getElementById('recipientEmployee');
+            const roleRadio = document.getElementById('recipientRole');
+            const employeeSection = document.getElementById('employeeRecipient');
+            const roleSection = document.getElementById('roleRecipient');
+            const userSelect = document.getElementById('targetUser');
+            const roleSelect = document.getElementById('targetRole');
+
+            function updateRecipientType() {
+                const useEmployee = employeeRadio.checked;
+                employeeSection.classList.toggle('d-none', !useEmployee);
+                roleSection.classList.toggle('d-none', useEmployee);
+                userSelect.disabled = !useEmployee;
+                roleSelect.disabled = useEmployee;
+                if (useEmployee) roleSelect.value = '';
+                else userSelect.value = '';
+            }
+
+            employeeRadio.addEventListener('change', updateRecipientType);
+            roleRadio.addEventListener('change', updateRecipientType);
+            updateRecipientType();
+        })();
+    </script>
+}

@@ -1,488 +1,251 @@
 @using Aiursoft.Polls.Entities
 @model Aiursoft.Polls.Models.PollsViewModels.VoteViewModel
-
 @{
-    var questions = Model.Poll?.Questions?.OrderBy(x => x.Order).ToList() ?? [];
-    var totalSteps = questions.Count;
+    Layout = null;
+    var questions = Model.Attempt?.AttemptQuestions?.OrderBy(q => q.DisplayOrder).ToList() ?? [];
 }
-
-<style>
-    .voting-page-wrapper {
-        display: flex;
-        gap: 2rem;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    /* Sidebar Navigation with Offcanvas behaviors */
-    .voting-sidebar {
-        width: 280px;
-        flex-shrink: 0;
-        position: sticky;
-        top: 20px;
-        max-height: calc(100vh - 40px);
-        overflow-y: auto;
-    }
-
-    .voting-content {
-        flex-grow: 1;
-        min-width: 0;
-    }
-
-    .nav-indicator {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: #dee2e6;
-        display: inline-block;
-        margin-right: 12px;
-        transition: all 0.2s;
-    }
-
-    .list-group-item-action {
-        display: flex;
-        align-items: center;
-        border-radius: 0.5rem !important;
-        margin-bottom: 0.25rem;
-        border: none;
-        padding: 0.75rem 1rem;
-        background: transparent;
-        text-align: left;
-    }
-
-    .list-group-item-action:hover {
-        background-color: rgba(0,0,0,.03);
-    }
-
-    .list-group-item-action.active {
-        background-color: var(--bs-primary-subtle) !important;
-        color: var(--bs-primary-emphasis) !important;
-        font-weight: 600;
-    }
-
-    .list-group-item-action.active .nav-indicator {
-        background-color: var(--bs-primary);
-        box-shadow: 0 0 0 4px rgba(var(--bs-primary-rgb), 0.2);
-    }
-
-    .list-group-item-action.completed .nav-indicator {
-        background-color: var(--bs-success);
-    }
-
-    /* Main Question Area */
-    .question-step {
-        display: none;
-    }
-
-    .question-step.active {
-        display: block;
-        animation: fadeIn 0.3s ease-in-out;
-    }
-
-    @@keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-
-    .option-card {
-        border: 1px solid rgba(0,0,0,.125);
-        border-radius: 0.5rem;
-        padding: 1rem;
-        margin-bottom: 0.75rem;
-        cursor: pointer;
-        transition: all 0.2s ease-in-out;
-        background-color: var(--bs-card-bg);
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .option-card:hover {
-        background-color: rgba(0,0,0,.03);
-        transform: translateY(-2px);
-        box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
-    }
-
-    .option-card.selected {
-        border-color: var(--bs-primary);
-        background-color: rgba(var(--bs-primary-rgb), 0.05);
-    }
-
-    .option-card .selection-indicator {
-        width: 20px;
-        height: 20px;
-        border: 2px solid #dee2e6;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-    }
-
-    .option-card.selected .selection-indicator {
-        border-color: var(--bs-primary);
-        background-color: var(--bs-primary);
-    }
-
-    .option-card.selected .selection-indicator::after {
-        content: '';
-        width: 8px;
-        height: 8px;
-        background-color: white;
-        border-radius: 50%;
-    }
-
-    .question-title {
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-    }
-
-    .question-subtitle {
-        color: var(--bs-secondary-color);
-        margin-bottom: 1.5rem;
-    }
-
-    .custom-text-container {
-        display: none;
-        margin-top: -0.5rem;
-        margin-bottom: 1rem;
-        padding-left: 3rem;
-    }
-
-    /* Offcanvas overrides for LG */
-    @@media (max-width: 991.98px) {
-        .voting-sidebar {
-            width: auto;
-            position: fixed;
-        }
-    }
-</style>
-
-<div class="voting-page-wrapper">
-    <!-- Collapsible Sidebar using Offcanvas-lg -->
-    <div class="offcanvas-lg offcanvas-start voting-sidebar shadow-sm shadow-lg-none" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
-        <div class="offcanvas-header border-bottom d-lg-none">
-            <h5 class="offcanvas-title fw-bold" id="sidebarMenuLabel">@Localizer["Questions"]</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body p-3 p-lg-0">
-            <div class="w-100">
-                <div class="mb-3 ps-2 d-none d-lg-block">
-                    <h5 class="fw-bold">@Localizer["Questions"]</h5>
-                    <small class="text-muted">@totalSteps @Localizer["total"]</small>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@Model.Poll?.Title</title>
+    <link rel="stylesheet" href="/UIStack/dist/css/app.css" />
+    <link rel="stylesheet" href="/styles/exam.css" />
+    <style>
+        body { background: #f4f6f9; }
+        .exam-focus-header { background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(14px); }
+        .exam-focus-shell { max-width: 1180px; margin: 0 auto; padding: 1.5rem 1rem 5rem; }
+        .exam-navigator { position: sticky; top: 7.5rem; }
+        .exam-number-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .45rem; max-height: 22rem; overflow-y: auto; }
+        .exam-number-link { display: flex; align-items: center; justify-content: center; aspect-ratio: 1; border: 1px solid var(--bs-border-color); border-radius: .5rem; color: var(--bs-secondary-color); background: var(--bs-body-bg); font-size: .75rem; font-weight: 700; text-decoration: none; }
+        .exam-number-link:hover { border-color: var(--bs-primary); color: var(--bs-primary); }
+        .exam-number-link.answered { border-color: rgba(var(--bs-success-rgb), .5); color: var(--bs-success); background: rgba(var(--bs-success-rgb), .09); }
+        .question-card { scroll-margin-top: 8rem; }
+        @@media (max-width: 991.98px) { .exam-focus-shell { padding-top: 1rem; } }
+    </style>
+</head>
+<body class="exam-ui">
+    <header class="exam-focus-header sticky-top border-bottom shadow-sm">
+        <div class="container-fluid py-3" style="max-width: 1180px;">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+                <div class="d-flex align-items-center gap-3 overflow-hidden">
+                    <div class="exam-question-number d-none d-sm-inline-flex"><i data-lucide="shield-check"></i></div>
+                    <div class="overflow-hidden">
+                        <div class="text-muted small">@Localizer["On-call license assessment"]</div>
+                        <div class="fw-bold text-truncate">@Model.Poll?.Title</div>
+                    </div>
                 </div>
-                <div class="list-group list-group-flush" id="questionNav">
-                    @for (int i = 0; i < questions.Count; i++)
+                <div class="text-end flex-shrink-0">
+                    <div class="text-muted small d-flex align-items-center justify-content-end gap-1">
+                        <i data-lucide="clock-3" style="width: 14px; height: 14px;"></i> @Localizer["Time remaining"]
+                    </div>
+                    <div class="exam-timer text-danger" id="countdown">--:--</div>
+                </div>
+            </div>
+            <div class="progress mt-2" style="height: 5px;">
+                <div class="progress-bar" id="timeProgress" role="progressbar" style="width: 100%;"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="exam-focus-shell">
+        <div class="alert alert-primary alert-outline-coloured mb-4" role="alert">
+            <div class="alert-icon"><i data-lucide="info"></i></div>
+            <div class="alert-message d-flex flex-wrap align-items-center justify-content-between gap-2">
+                <div>
+                    <strong>@Localizer["Attempt"] #@Model.Attempt?.AttemptNumber</strong>
+                    <span class="d-block small text-muted">@questions.Count @Localizer["questions"] · @Model.Poll?.DurationMinutes @Localizer["minutes"] · @Localizer["Answers are saved automatically."]</span>
+                </div>
+                <div class="small"><strong id="answeredCount">0</strong> / @questions.Count @Localizer["answered"]</div>
+            </div>
+        </div>
+
+        <details class="exam-card mb-3 d-lg-none">
+            <summary class="card-body fw-semibold">@Localizer["Question navigator"]</summary>
+            <div class="card-body border-top pt-3">
+                <div class="exam-number-grid">
+                    @for (var i = 0; i < questions.Count; i++)
                     {
-                        <button type="button" class="list-group-item list-group-item-action @(i == 0 ? "active" : "")"
-                                data-goto-step="@i"
-                                id="navItem_@i"
-                                data-bs-dismiss="offcanvas"
-                                data-bs-target="#sidebarMenu">
-                            <span class="nav-indicator"></span>
-                            <span class="text-truncate">@(i + 1). @questions[i].Title</span>
-                        </button>
+                        <a href="#question-@questions[i].Id" class="exam-number-link" data-nav-question="@questions[i].Id">@(i + 1)</a>
                     }
                 </div>
             </div>
-        </div>
-    </div>
+        </details>
 
-    <div class="voting-content">
-        <!-- Header with Toggle and Progress -->
-        <div class="d-flex align-items-center gap-2 gap-md-3 mb-4">
-            <button class="btn btn-outline-secondary d-lg-none px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
-                <i class="align-middle" data-lucide="menu"></i>
-            </button>
-
-            <a asp-action="Index" class="btn btn-link p-0 text-secondary" title="@Localizer["Cancel"]">
-                <i class="align-middle" data-lucide="x"></i>
-            </a>
-
-            <div class="progress flex-grow-1" style="height: 8px;">
-                <div id="progressFill" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
-            </div>
-
-            <span class="text-muted small"><span id="mobileStepIdx">1</span>/@totalSteps</span>
-        </div>
-
-        <div class="mb-4">
-            <h3 class="fw-bold">@Model.Poll?.Title</h3>
-            @if (Model.Poll?.IsAnonymous == true)
-            {
-                <div class="alert alert-info py-2 mb-3">
-                    <i class="align-middle me-2" data-lucide="shield-check"></i>
-                    <strong>@Localizer["Anonymous Poll:"]</strong> @Localizer["Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private."]
-                </div>
-            }
-            @if (!string.IsNullOrWhiteSpace(Model.Poll?.Description))
-            {
-                <p class="text-muted">@Model.Poll.Description</p>
-            }
-        </div>
-
-        <form asp-action="Vote" method="post" id="voteForm">
+        <form asp-action="Vote" method="post" id="examForm">
             <input type="hidden" asp-for="PollId" />
-            <input type="hidden" asp-for="BrowserFingerprint" id="browserFingerprint" />
+            <input type="hidden" asp-for="AttemptId" />
 
-            @for (int i = 0; i < questions.Count; i++)
-            {
-                var q = questions[i];
-                <div class="question-step @(i == 0 ? "active" : "")" data-step="@i" data-required="@q.IsRequired.ToString().ToLower()" data-type="@q.Type">
-                    <div class="d-flex align-items-center mb-1 flex-wrap gap-2">
-                        <h4 class="question-title mb-0">@q.Title</h4>
-                        @if (q.Type == QuestionType.SingleChoice)
-                        {
-                            <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle fw-normal">@Localizer["Single Choice"]</span>
-                        }
-                        else
-                        {
-                            <span class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle fw-normal">@Localizer["Multiple Choice"]</span>
-                        }
+            <div class="row g-4">
+                <aside class="col-lg-3 d-none d-lg-block">
+                    <div class="exam-card exam-navigator">
+                        <div class="card-header">
+                            <h2 class="exam-section-title">
+                                <span class="section-icon"><i data-lucide="layout-grid"></i></span>
+                                @Localizer["Questions"]
+                            </h2>
+                            <p class="exam-subtitle">@Localizer["Answered questions are shown in green."]</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="exam-number-grid">
+                                @for (var i = 0; i < questions.Count; i++)
+                                {
+                                    <a href="#question-@questions[i].Id" class="exam-number-link" data-nav-question="@questions[i].Id">@(i + 1)</a>
+                                }
+                            </div>
+                            <div class="border-top mt-3 pt-3 small text-muted" id="saveState">
+                                <i class="align-middle me-1" data-lucide="cloud-check"></i>
+                                @Localizer["All changes saved"]
+                            </div>
+                        </div>
                     </div>
-                    <p class="question-subtitle">
-                        @switch (q.Type)
-                        {
-                            case QuestionType.SingleChoice: @Localizer["Select the best option"] break;
-                            case QuestionType.MultipleChoice: @Localizer["Select all that apply"] break;
-                        }
-                        @if (q.IsRequired) { <span class="text-danger">*</span> }
-                    </p>
+                </aside>
 
-                    <div class="options-list">
-                        @if (q.Options != null)
-                        {
-                            foreach (var opt in q.Options.OrderBy(o => o.DisplayOrder))
-                            {
-                                <div class="option-card" data-opt-id="@opt.Id" data-question-id="@q.Id" data-has-custom="@opt.AllowCustomText.ToString().ToLower()">
-                                    <div class="selection-indicator"></div>
-                                    <div class="option-content">@opt.Content</div>
+                <div class="col-lg-9">
+                    @for (var i = 0; i < questions.Count; i++)
+                    {
+                        var question = questions[i];
+                        var selected = Model.Attempt?.AttemptSelections?
+                            .Where(s => s.AttemptQuestionId == question.Id)
+                            .Select(s => s.AttemptOptionId)
+                            .ToHashSet() ?? [];
+                        var options = question.Options?.OrderBy(o => o.DisplayOrder).ToList() ?? [];
+
+                        <section id="question-@question.Id" class="exam-question question-card mb-4" data-question-id="@question.Id">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-start gap-3 mb-4">
+                                    <div class="exam-question-number">@(i + 1)</div>
+                                    <div>
+                                        <h2 class="h5 mb-2 lh-base">@question.Title</h2>
+                                        <div class="text-muted small d-flex align-items-center gap-1">
+                                            <i data-lucide="@(question.Type == QuestionType.SingleChoice ? "circle-dot" : "list-checks")" style="width: 14px; height: 14px;"></i>
+                                            @(question.Type == QuestionType.SingleChoice ? Localizer["Select one option"] : Localizer["Select all applicable options"])
+                                        </div>
+                                    </div>
                                 </div>
 
-                                if (opt.AllowCustomText)
-                                {
-                                    <div class="custom-text-container" id="custom_text_container_@opt.Id">
-                                        <input type="text"
-                                               class="form-control"
-                                               name="CustomTexts[@q.Id]"
-                                               placeholder="@Localizer["Please specify..."]"
-                                               data-opt-id="@opt.Id" />
-                                    </div>
-                                }
-                            }
-                        }
+                                <input type="hidden" name="SelectedOptions[@question.Id]" class="selection-value" value="@string.Join(',', selected)" />
+                                <div class="vstack gap-2">
+                                    @for (var optionIndex = 0; optionIndex < options.Count; optionIndex++)
+                                    {
+                                        var option = options[optionIndex];
+                                        var inputType = question.Type == QuestionType.SingleChoice ? "radio" : "checkbox";
+                                        var optionLabel = optionIndex < 26 ? ((char)('A' + optionIndex)).ToString() : (optionIndex + 1).ToString();
+                                        <label class="exam-option">
+                                            <input type="@inputType"
+                                                   class="form-check-input me-3 answer-input"
+                                                   name="question_@question.Id"
+                                                   value="@option.Id"
+                                                   checked="@(selected.Contains(option.Id) ? "checked" : null)" />
+                                            <span class="exam-option-index">@optionLabel</span>
+                                            <span>@option.Content</span>
+                                        </label>
+                                    }
+                                </div>
+                            </div>
+                        </section>
+                    }
+
+                    <div class="exam-action-bar">
+                        <div class="exam-card">
+                            <div class="card-body d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-3">
+                                <div>
+                                    <strong>@Localizer["Ready to submit?"]</strong>
+                                    <div class="text-muted small">@Localizer["You can still review and change answers before submitting."]</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg px-4" id="submitButton">
+                                    @Localizer["Submit exam"] <i class="align-middle ms-1" data-lucide="send"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
-                    @if (q.Type == QuestionType.MultipleChoice)
-                    {
-                        <input type="hidden" name="SelectedOptions[@q.Id]" id="multiInput_@q.Id" value="" />
-                    }
-                    else
-                    {
-                        <input type="hidden" name="SelectedOptions[@q.Id]" id="singleInput_@q.Id" value="" />
-                    }
                 </div>
-            }
+            </div>
         </form>
+    </main>
 
-        <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
-            <button id="prevBtn" class="btn btn-outline-secondary px-3 px-md-4 d-none">
-                <i class="align-middle me-1" data-lucide="chevron-left"></i> @Localizer["Back"]
-            </button>
-            <div class="flex-grow-1"></div>
-            <button id="nextBtn" class="btn btn-primary px-4 px-md-5" disabled>
-                @Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>
-            </button>
-        </div>
-    </div>
-</div>
-
-@* ReSharper disable once Razor.SectionNotResolved *@
-@section scripts {
+    <script src="/UIStack/dist/js/app.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Browser fingerprint
-            var fp = navigator.userAgent + "|" + screen.width + "x" + screen.height + "|" + new Date().getTimezoneOffset();
-            document.getElementById("browserFingerprint").value = btoa(fp).substring(0, 200);
+        (() => {
+            const form = document.getElementById('examForm');
+            const expiresAt = new Date('@Model.Attempt?.ExpiresAt.ToString("O")').getTime();
+            const startedAt = new Date('@Model.Attempt?.StartedAt.ToString("O")').getTime();
+            const total = expiresAt - startedAt;
+            const saveState = document.getElementById('saveState');
+            let submitting = false;
 
-            const totalSteps = @totalSteps;
-            let currentStep = 0;
-            const steps = document.querySelectorAll('.question-step');
-            const progressFill = document.getElementById('progressFill');
-            const prevBtn = document.getElementById('prevBtn');
-            const nextBtn = document.getElementById('nextBtn');
-            const voteForm = document.getElementById('voteForm');
-            const mobileStepIdx = document.getElementById('mobileStepIdx');
-
-            function updateUI() {
-                // Update Progress
-                const progress = ((currentStep) / totalSteps) * 100;
-                progressFill.style.width = progress + '%';
-                if (mobileStepIdx) mobileStepIdx.innerText = currentStep + 1;
-
-                // Show/Hide steps
-                steps.forEach((step, idx) => {
-                    step.classList.toggle('active', idx === currentStep);
+            function updateAnsweredState() {
+                let answered = 0;
+                document.querySelectorAll('.question-card').forEach(card => {
+                    const hasAnswer = card.querySelectorAll('.answer-input:checked').length > 0;
+                    document.querySelectorAll(`[data-nav-question="${card.dataset.questionId}"]`).forEach(link => link.classList.toggle('answered', hasAnswer));
+                    if (hasAnswer) answered++;
                 });
+                document.getElementById('answeredCount').textContent = answered;
+            }
 
-                // Update Sidebar
-                document.querySelectorAll('#questionNav .list-group-item').forEach((item, idx) => {
-                    item.classList.toggle('active', idx === currentStep);
-
-                    // Mark completed in sidebar
-                    const step = steps[idx];
-                    const isCompleted = validateStep(step);
-                    item.classList.toggle('completed', isCompleted);
-                });
-
-                // Footer Buttons
-                if (currentStep === 0) {
-                    prevBtn.classList.add('d-none');
-                } else {
-                    prevBtn.classList.remove('d-none');
-                }
-
-                if (currentStep === totalSteps - 1) {
-                    nextBtn.innerHTML = '@Localizer["Finish"] <i class="align-middle ms-1" data-lucide="check"></i>';
-                } else {
-                    nextBtn.innerHTML = '@Localizer["Continue"] <i class="align-middle ms-1" data-lucide="chevron-right"></i>';
-                }
-
-                validateCurrentStep();
-
-                if (window.lucide) {
-                    window.lucide.createIcons();
+            function updateTimer() {
+                const remaining = Math.max(0, expiresAt - Date.now());
+                const seconds = Math.floor(remaining / 1000);
+                const hours = Math.floor(seconds / 3600);
+                const minutes = Math.floor((seconds % 3600) / 60);
+                const secs = seconds % 60;
+                document.getElementById('countdown').textContent =
+                    (hours ? String(hours).padStart(2, '0') + ':' : '') +
+                    String(minutes).padStart(2, '0') + ':' +
+                    String(secs).padStart(2, '0');
+                document.getElementById('timeProgress').style.width = Math.max(0, remaining / total * 100) + '%';
+                if (remaining <= 0 && !submitting) {
+                    submitting = true;
+                    form.submit();
                 }
             }
 
-            function validateStep(step) {
-                const isRequired = step.dataset.required === 'true';
-                if (!isRequired) return true;
+            updateTimer();
+            updateAnsweredState();
+            setInterval(updateTimer, 1000);
 
-                const selected = step.querySelectorAll('.option-card.selected');
-                if (selected.length === 0) return false;
-
-                // Check custom text
-                let customValid = true;
-                selected.forEach(card => {
-                    if (card.dataset.hasCustom === 'true') {
-                        const optId = card.dataset.optId;
-                        const input = step.querySelector(`input[data-opt-id="${optId}"]`);
-                        if (input && !input.value.trim()) {
-                            customValid = false;
-                        }
+            document.querySelectorAll('.answer-input').forEach(input => input.addEventListener('change', async event => {
+                const card = event.target.closest('.question-card');
+                const selected = [...card.querySelectorAll('.answer-input:checked')].map(x => Number(x.value));
+                card.querySelector('.selection-value').value = selected.join(',');
+                updateAnsweredState();
+                if (saveState) saveState.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>@Localizer["Saving…"]';
+                try {
+                    const response = await fetch('@Url.Action("SaveAttemptAnswer", "Polls")', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'RequestVerificationToken': form.querySelector('input[name="__RequestVerificationToken"]').value
+                        },
+                        body: JSON.stringify({
+                            attemptId: @Model.AttemptId,
+                            attemptQuestionId: Number(card.dataset.questionId),
+                            optionIds: selected
+                        })
+                    });
+                    if (response.status === 409) {
+                        submitting = true;
+                        form.submit();
+                        return;
                     }
-                });
-                return customValid;
-            }
-
-            function validateCurrentStep() {
-                nextBtn.disabled = !validateStep(steps[currentStep]);
-            }
-
-            // Handle Sidebar Navigation Click
-            document.querySelectorAll('[data-goto-step]').forEach(btn => {
-                btn.addEventListener('click', function() {
-                    currentStep = parseInt(this.dataset.gotoStep);
-                    updateUI();
-                    window.scrollTo(0, 0);
-
-                    // Force close offcanvas if it's open (for mobile)
-                    const sidebar = document.getElementById('sidebarMenu');
-                    if (window.getComputedStyle(sidebar).position === 'fixed') {
-                        const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
-                        if (bsOffcanvas) bsOffcanvas.hide();
-                    }
-                });
-            });
-
-            // Handle Option Selection
-            document.querySelectorAll('.option-card').forEach(card => {
-                card.addEventListener('click', function() {
-                    const step = this.closest('.question-step');
-                    const type = step.dataset.type;
-                    const questionId = this.dataset.questionId;
-                    const optId = this.dataset.optId;
-                    const hasCustom = this.dataset.hasCustom === 'true';
-
-                    if (type === 'SingleChoice') {
-                        step.querySelectorAll('.option-card').forEach(c => {
-                            c.classList.remove('selected');
-                            const otherOptId = c.dataset.optId;
-                            const otherCustom = document.getElementById('custom_text_container_' + otherOptId);
-                            if (otherCustom) otherCustom.style.display = 'none';
-                        });
-                        this.classList.add('selected');
-                        document.getElementById('singleInput_' + questionId).value = optId;
-
-                        if (hasCustom) {
-                            document.getElementById('custom_text_container_' + optId).style.display = 'block';
-                            document.getElementById('custom_text_container_' + optId).querySelector('input').focus();
-                        }
-                    } else {
-                        // Multiple Choice
-                        this.classList.toggle('selected');
-                        const selectedOpts = Array.from(step.querySelectorAll('.option-card.selected')).map(c => c.dataset.optId);
-                        document.getElementById('multiInput_' + questionId).value = selectedOpts.join(',');
-
-                        if (hasCustom) {
-                            const customContainer = document.getElementById('custom_text_container_' + optId);
-                            customContainer.style.display = this.classList.contains('selected') ? 'block' : 'none';
-                            if (this.classList.contains('selected')) {
-                                customContainer.querySelector('input').focus();
-                            }
-                        }
-                    }
-
-                    validateCurrentStep();
-
-                    // Update completion status in sidebar immediately
-                    const stepIdx = parseInt(step.dataset.step);
-                    const navItem = document.getElementById('navItem_' + stepIdx);
-                    if (navItem) {
-                        navItem.classList.toggle('completed', validateStep(step));
-                    }
-                });
-            });
-
-            // Handle Custom Text Input
-            document.querySelectorAll('.custom-text-container input').forEach(input => {
-                input.addEventListener('input', function() {
-                    validateCurrentStep();
-                    const step = this.closest('.question-step');
-                    const stepIdx = parseInt(step.dataset.step);
-                    const navItem = document.getElementById('navItem_' + stepIdx);
-                    if (navItem) {
-                        navItem.classList.toggle('completed', validateStep(step));
-                    }
-                });
-                input.addEventListener('click', e => e.stopPropagation());
-            });
-
-            nextBtn.addEventListener('click', function() {
-                if (currentStep < totalSteps - 1) {
-                    currentStep++;
-                    updateUI();
-                    window.scrollTo(0, 0);
-                } else {
-                    nextBtn.disabled = true;
-                    nextBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> @Localizer["Submitting..."]';
-                    progressFill.style.width = '100%';
-                    voteForm.submit();
+                    if (saveState) saveState.innerHTML = response.ok
+                        ? '<i class="align-middle me-1" data-lucide="cloud-check"></i>@Localizer["All changes saved"]'
+                        : '<i class="align-middle me-1 text-warning" data-lucide="cloud-alert"></i>@Localizer["Save failed; final submission will retry."]';
+                    if (window.lucide) window.lucide.createIcons();
+                } catch {
+                    if (saveState) saveState.textContent = '@Localizer["Offline; final submission will retry."]';
                 }
-            });
+            }));
 
-            prevBtn.addEventListener('click', function() {
-                if (currentStep > 0) {
-                    currentStep--;
-                    updateUI();
-                    window.scrollTo(0, 0);
-                }
+            form.addEventListener('submit', () => {
+                submitting = true;
+                const button = document.getElementById('submitButton');
+                button.disabled = true;
+                button.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>@Localizer["Submitting…"]';
             });
-
-            // Initial UI state
-            updateUI();
-        });
+        })();
     </script>
-}
+</body>
+</html>

@@ -1,89 +1,202 @@
 @using Aiursoft.Polls.Entities
 @model Aiursoft.Polls.Models.PollsViewModels.CreateViewModel
 
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-    <div>
-        <a asp-action="Index" class="text-decoration-none text-muted small mb-2 d-inline-block">
-            ← @Localizer["Back to Polls"]
-        </a>
-        <h4 class="mb-0">✨ @Localizer["Create Poll"]</h4>
-    </div>
-</div>
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
+}
 
-<div class="card">
-    <div class="card-body">
-        <form asp-action="Create" method="post">
-            <div class="mb-3">
-                <label asp-for="Title" class="form-label fw-semibold small"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger small"></span>
-            </div>
-            <div class="mb-3">
-                <label asp-for="Description" class="form-label fw-semibold small"></label>
-                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <label asp-for="AccessType" class="form-label fw-semibold small">🔒 @Localizer["Access Type"]</label>
-                    <select asp-for="AccessType" asp-items="Html.GetEnumSelectList<AccessType>()" class="form-select" id="accessTypeSelect"></select>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <label asp-for="Visibility" class="form-label fw-semibold small">👁️ @Localizer["Result Visibility"]</label>
-                    <select asp-for="Visibility" asp-items="Html.GetEnumSelectList<ResultVisibility>()" class="form-select"></select>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <label asp-for="Deadline" class="form-label fw-semibold small">📅 @Localizer["Deadline"]</label>
-                    <input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
-                    <span asp-validation-for="Deadline" class="text-danger small"></span>
-                </div>
-            </div>
-            <div class="mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" asp-for="IsAnonymous" />
-                    <label class="form-check-label" asp-for="IsAnonymous">🕶️ @Localizer["Anonymous Poll (Database will not record user information)"]</label>
-                    <i class="bi bi-question-circle text-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
-                       title="@Localizer["<b>Cost of Anonymity:</b><br/>1. <b>Privacy:</b> No UserID, IP, or Fingerprint is stored.<br/>2. <b>Tracking:</b> You cannot see who has voted or not.<br/>3. <b>Dashboard:</b> This poll will not show in users' To-Do list.<br/>4. <b>Security:</b> Cannot strictly prevent duplicate votes from the same device/person."]"></i>
-                </div>
-            </div>
-            <div class="mb-4" id="roleSection" style="display: none;">
-                <label class="form-label fw-semibold small">👥 @Localizer["Allowed Roles"]</label>
-                <div class="card bg-light">
-                    <div class="card-body py-2">
-                        @foreach (var role in Model.AllRoles)
-                        {
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="SelectedRoles" value="@role.Id" id="role_@role.Id"
-                                       checked="@(Model.SelectedRoles.Contains(role.Id) ? "checked" : null)" />
-                                <label class="form-check-label" for="role_@role.Id">@role.Name</label>
-                            </div>
-                        }
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex gap-2">
-                <button type="submit" class="btn btn-primary">✨ @Localizer["Create"]</button>
-                <a asp-action="Index" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
-            </div>
-        </form>
+<div class="exam-ui">
+    <div class="exam-page-header">
+        <div>
+            <a asp-action="Index" class="exam-back-link"><i data-lucide="arrow-left"></i> @Localizer["Back to exams"]</a>
+            <div class="exam-kicker"><i data-lucide="sparkles"></i> @Localizer["New assessment"]</div>
+            <h1 class="h3">@Localizer["Create exam"]</h1>
+            <p class="text-muted mb-0 mt-1">@Localizer["Start with the essentials. Questions are added after the exam is created."]</p>
+        </div>
     </div>
+
+    <form asp-action="Create" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="row g-4">
+            <div class="col-xl-8">
+                <section class="exam-card exam-form-section">
+                    <div class="card-header">
+                        <h2 class="exam-section-title"><span class="section-icon"><i data-lucide="file-text"></i></span>@Localizer["Exam identity"]</h2>
+                        <p class="exam-subtitle">@Localizer["Give employees enough context to understand what this assessment is for."]</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="Title" class="form-label"></label>
+                            <input asp-for="Title" class="form-control form-control-lg" placeholder="@Localizer["On-call license assessment"]" autofocus />
+                            <span asp-validation-for="Title" class="text-danger small"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Description" class="form-label"></label>
+                            <textarea asp-for="Description" class="form-control" rows="4" placeholder="@Localizer["Explain the purpose, scope and any preparation employees should complete."]"></textarea>
+                            <span asp-validation-for="Description" class="text-danger small"></span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="exam-card exam-form-section">
+                    <div class="card-header">
+                        <h2 class="exam-section-title"><span class="section-icon"><i data-lucide="gauge"></i></span>@Localizer["Attempt essentials"]</h2>
+                        <p class="exam-subtitle">@Localizer["The settings employees need to understand before starting."]</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label asp-for="QuestionsPerAttempt" class="form-label">@Localizer["Questions per attempt"]</label>
+                                <div class="input-group"><span class="input-group-text"><i data-lucide="list-checks"></i></span><input asp-for="QuestionsPerAttempt" class="form-control" /></div>
+                                <div class="form-text">@Localizer["Use 0 to include every question."]</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label asp-for="DurationMinutes" class="form-label">@Localizer["Time limit"]</label>
+                                <div class="input-group"><span class="input-group-text"><i data-lucide="timer"></i></span><input asp-for="DurationMinutes" class="form-control" /><span class="input-group-text">@Localizer["min"]</span></div>
+                            </div>
+                            <div class="col-md-4">
+                                <label asp-for="PassingScore" class="form-label">@Localizer["Passing score"]</label>
+                                <div class="input-group"><span class="input-group-text"><i data-lucide="trophy"></i></span><input asp-for="PassingScore" class="form-control" /></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="Deadline" class="form-label"></label>
+                                <input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
+                                <span asp-validation-for="Deadline" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="AccessType" class="form-label">@Localizer["Who can take this exam"]</label>
+                                <select asp-for="AccessType" asp-items="Html.GetEnumSelectList<AccessType>()" class="form-select" id="accessTypeSelect"></select>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="exam-card exam-form-section d-none" id="roleSection">
+                    <div class="card-header">
+                        <h2 class="exam-section-title"><span class="section-icon"><i data-lucide="users"></i></span>@Localizer["Allowed roles"]</h2>
+                        <p class="exam-subtitle">@Localizer["Every employee in a selected role can take the exam."]</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="exam-selection-panel">
+                            @foreach (var role in Model.AllRoles)
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="SelectedRoles" value="@role.Id" id="role_@role.Id" checked="@(Model.SelectedRoles.Contains(role.Id) ? "checked" : null)" />
+                                    <label class="form-check-label" for="role_@role.Id">@role.Name</label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </section>
+
+                <section class="exam-card exam-form-section d-none" id="assignmentSection">
+                    <div class="card-header">
+                        <h2 class="exam-section-title"><span class="section-icon"><i data-lucide="user-check"></i></span>@Localizer["Assignments"]</h2>
+                        <p class="exam-subtitle">@Localizer["Assign the exam directly to employees, roles, or both."]</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-7">
+                                <label class="form-label">@Localizer["Employees"]</label>
+                                <div class="exam-selection-panel">
+                                    @foreach (var employee in Model.AllUsers)
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="SelectedUserIds" value="@employee.Id" id="employee_@employee.Id" />
+                                            <label class="form-check-label" for="employee_@employee.Id"><strong>@employee.DisplayName</strong><span class="d-block small text-muted">@employee.Email</span></label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <label class="form-label">@Localizer["Roles"]</label>
+                                <div class="exam-selection-panel">
+                                    @foreach (var role in Model.AllRoles)
+                                    {
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" name="SelectedAssignmentRoleIds" value="@role.Id" id="assigned_role_@role.Id" /><label class="form-check-label" for="assigned_role_@role.Id">@role.Name</label></div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <details class="exam-card exam-form-section">
+                    <summary class="card-header d-flex align-items-center justify-content-between" style="cursor: pointer;">
+                        <span>
+                            <span class="exam-section-title"><span class="section-icon"><i data-lucide="sliders-horizontal"></i></span>@Localizer["Advanced options"]</span>
+                            <span class="exam-subtitle ms-5">@Localizer["Scoring, randomization, result visibility and feedback messages."]</span>
+                        </span>
+                        <i data-lucide="chevron-down"></i>
+                    </summary>
+                    <div class="card-body border-top">
+                        <h3 class="h6 mb-3">@Localizer["Scoring model"]</h3>
+                        <div class="row g-3">
+                            <div class="col-md-4"><label asp-for="FullScore" class="form-label">@Localizer["Fully correct"]</label><input asp-for="FullScore" class="form-control" /></div>
+                            <div class="col-md-4"><label asp-for="PartialScore" class="form-label">@Localizer["Correct subset"]</label><input asp-for="PartialScore" class="form-control" /></div>
+                            <div class="col-md-4"><label asp-for="OverSelectionScore" class="form-label">@Localizer["Includes a wrong option"]</label><input asp-for="OverSelectionScore" class="form-control" /></div>
+                        </div>
+                        <div class="alert alert-info alert-outline-coloured mt-3 mb-4">
+                            <div class="alert-icon"><i data-lucide="info"></i></div>
+                            <div class="alert-message small">@Localizer["Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score."]</div>
+                        </div>
+
+                        <h3 class="h6 border-top pt-4 mb-3">@Localizer["Attempt behavior"]</h3>
+                        <div class="row g-3">
+                            <div class="col-md-4"><div class="exam-toggle form-check form-switch"><input asp-for="ShuffleQuestions" class="form-check-input" /><label asp-for="ShuffleQuestions" class="form-check-label fw-semibold"></label><div class="small text-muted mt-1">@Localizer["Randomize sampled question order."]</div></div></div>
+                            <div class="col-md-4"><div class="exam-toggle form-check form-switch"><input asp-for="ShuffleOptions" class="form-check-input" /><label asp-for="ShuffleOptions" class="form-check-label fw-semibold"></label><div class="small text-muted mt-1">@Localizer["Randomize choices independently."]</div></div></div>
+                            <div class="col-md-4"><div class="exam-toggle form-check form-switch"><input asp-for="AllowRepeatedSubmissions" class="form-check-input" /><label asp-for="AllowRepeatedSubmissions" class="form-check-label fw-semibold"></label><div class="small text-muted mt-1">@Localizer["Allow another fresh attempt."]</div></div></div>
+                        </div>
+
+                        <h3 class="h6 border-top pt-4 mt-4 mb-3">@Localizer["Results and feedback"]</h3>
+                        <div class="mb-3"><label asp-for="Visibility" class="form-label"></label><select asp-for="Visibility" asp-items="Html.GetEnumSelectList<ResultVisibility>()" class="form-select"></select></div>
+                        <div class="row g-3">
+                            <div class="col-md-6"><label asp-for="PassMessage" class="form-label">@Localizer["Pass message"]</label><textarea asp-for="PassMessage" class="form-control" rows="3"></textarea></div>
+                            <div class="col-md-6"><label asp-for="FailMessage" class="form-label">@Localizer["Fail message"]</label><textarea asp-for="FailMessage" class="form-control" rows="3"></textarea></div>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <aside class="col-xl-4">
+                <div style="position: sticky; top: 1.5rem;">
+                    <div class="alert alert-primary alert-outline-coloured mb-4" role="alert">
+                        <div class="alert-icon"><i data-lucide="route"></i></div>
+                        <div class="alert-message">
+                            <strong>@Localizer["What happens next"]</strong>
+                            <span class="d-block small">@Localizer["After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish."]</span>
+                        </div>
+                    </div>
+                    <section class="exam-card">
+                        <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="check-circle-2"></i></span>@Localizer["Create draft"]</h2></div>
+                        <div class="card-body">
+                            <p class="text-muted small">@Localizer["The exam remains private and editable until you publish it."]</p>
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg"><i class="align-middle me-1" data-lucide="arrow-right"></i>@Localizer["Create and add questions"]</button>
+                                <a asp-action="Index" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </aside>
+        </div>
+    </form>
 </div>
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-            tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl);
-            });
-
-            const select = document.getElementById("accessTypeSelect");
-            const roleSection = document.getElementById("roleSection");
-            function toggleRoles() {
-                roleSection.style.display = select.value === "@((int)AccessType.RoleBased)" ? "block" : "none";
+        (() => {
+            const select = document.getElementById('accessTypeSelect');
+            const roleSection = document.getElementById('roleSection');
+            const assignmentSection = document.getElementById('assignmentSection');
+            function updateAudience() {
+                roleSection.classList.toggle('d-none', select.value !== '@((int)AccessType.RoleBased)');
+                assignmentSection.classList.toggle('d-none', select.value !== '@((int)AccessType.Assigned)');
             }
-            select.addEventListener("change", toggleRoles);
-            toggleRoles();
-        });
+            select.addEventListener('change', updateAudience);
+            updateAudience();
+        })();
     </script>
 }

@@ -32,6 +32,23 @@ public class EditViewModel : UiStackLayoutViewModel
     [Display(Name = "Anonymous Poll")]
     public bool IsAnonymous { get; set; }
 
+    [Range(0, int.MaxValue)] public int QuestionsPerAttempt { get; set; }
+    [Display(Name = "Shuffle questions")]
+    public bool ShuffleQuestions { get; set; }
+
+    [Display(Name = "Shuffle options")]
+    public bool ShuffleOptions { get; set; }
+
+    [Display(Name = "Allow repeated attempts")]
+    public bool AllowRepeatedSubmissions { get; set; }
+    [Range(1, 10080)] public int DurationMinutes { get; set; }
+    [Range(typeof(decimal), "0", "1000000")] public decimal FullScore { get; set; }
+    [Range(typeof(decimal), "0", "1000000")] public decimal PartialScore { get; set; }
+    [Range(typeof(decimal), "0", "1000000")] public decimal OverSelectionScore { get; set; }
+    [Range(typeof(decimal), "0", "1000000")] public decimal PassingScore { get; set; }
+    [Required, MaxLength(2000)] public string PassMessage { get; set; } = string.Empty;
+    [Required, MaxLength(2000)] public string FailMessage { get; set; } = string.Empty;
+
     [Required]
     [Display(Name = "Deadline")]
     public DateTime Deadline { get; set; }
@@ -40,4 +57,7 @@ public class EditViewModel : UiStackLayoutViewModel
     public List<string> SelectedRoles { get; set; } = [];
 
     public List<IdentityRole> AllRoles { get; set; } = [];
+    public List<string> SelectedUserIds { get; set; } = [];
+    public List<string> SelectedAssignmentRoleIds { get; set; } = [];
+    public List<User> AllUsers { get; set; } = [];
 }

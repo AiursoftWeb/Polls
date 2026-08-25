@@ -1,117 +1,123 @@
 @using Aiursoft.Polls.Entities
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.IndexViewModel
-<style>
-    .clickable-row {
-        cursor: pointer;
-    }
-</style>
 
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-    <div>
-        <h4 class="mb-0">📋 @Localizer["My Polls"]</h4>
-    </div>
-    <div class="mt-2 mt-sm-0">
-        <a asp-action="Create" class="btn btn-primary">
-            ✨ @Localizer["Create a new poll"]
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
+}
+
+<div class="exam-ui">
+    <div class="exam-page-header">
+        <div>
+            <div class="exam-kicker"><i data-lucide="graduation-cap"></i> @Localizer["Assessment center"]</div>
+            <h1 class="h3">@Localizer["Exams"]</h1>
+            <p class="text-muted mb-0 mt-1">@Localizer["Create, assign and review employee assessments from one place."]</p>
+        </div>
+        <a asp-action="Create" class="btn btn-primary shadow-sm">
+            <i class="align-middle me-1" data-lucide="plus"></i> @Localizer["Create exam"]
         </a>
     </div>
-</div>
 
-<div class="card">
-    <div class="card-header d-flex align-items-center gap-2">
-        📋 <strong>@Localizer["My Polls"]</strong>
-    </div>
-    <div class="table-responsive">
-        <table class="table table-hover mb-0">
-            <thead>
-                <tr>
-                    <th>@Localizer["Title"]</th>
-                    <th>@Localizer["Status"]</th>
-                    <th>@Localizer["Access"]</th>
-                    <th>@Localizer["Deadline"]</th>
-                    <th class="text-end">@Localizer["Actions"]</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var p in Model.ManagedPolls)
+    @if (Model.ManagedPolls.Any())
+    {
+        <div class="row g-3">
+            @foreach (var poll in Model.ManagedPolls)
+            {
+                var stateClass = poll.State switch
                 {
-                    <tr class="clickable-row" data-href="@Url.Action("Details", new { id = p.Id })">
-                        <td class="fw-bold">@p.Title</td>
-                        <td>
-                            @switch (p.State)
+                    PollState.Draft => "text-secondary",
+                    PollState.Published => "text-success",
+                    PollState.Completed => "text-info",
+                    PollState.Terminated => "text-warning",
+                    PollState.Void => "text-danger",
+                    _ => "text-secondary"
+                };
+                var stateText = poll.State switch
+                {
+                    PollState.Draft => Localizer["Draft"],
+                    PollState.Published => Localizer["Published"],
+                    PollState.Completed => Localizer["Completed"],
+                    PollState.Terminated => Localizer["Terminated"],
+                    PollState.Void => Localizer["Void"],
+                    _ => Localizer[poll.State.ToString()]
+                };
+                var accessText = poll.AccessType switch
+                {
+                    AccessType.Public => Localizer["Public"],
+                    AccessType.RegisteredOnly => Localizer["Registered employees"],
+                    AccessType.RoleBased => Localizer["Role based"],
+                    AccessType.Assigned => Localizer["Assigned employees"],
+                    _ => Localizer[poll.AccessType.ToString()]
+                };
+
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="exam-list-item d-flex flex-column">
+                        <div class="d-flex align-items-start justify-content-between gap-3 mb-3">
+                            <div class="exam-question-number"><i data-lucide="clipboard-check"></i></div>
+                            <div class="exam-state-label @stateClass">
+                                <span class="exam-state-dot"></span>
+                                @stateText
+                            </div>
+                        </div>
+                        <h2 class="h5 mb-2">@poll.Title</h2>
+                        <p class="text-muted small flex-grow-1 mb-4">
+                            @(string.IsNullOrWhiteSpace(poll.Description) ? Localizer["No description provided."] : poll.Description)
+                        </p>
+                        <div class="exam-meta border-top pt-3 mb-3">
+                            <span><i data-lucide="users"></i> @accessText</span>
+                            <span><i data-lucide="list-checks"></i> @poll.QuestionsPerAttempt @Localizer["questions"]</span>
+                            <span><i data-lucide="timer"></i> @poll.DurationMinutes @Localizer["minutes"]</span>
+                            <span><i data-lucide="calendar-clock"></i> <span data-utc-time="@poll.Deadline.ToHtmlDateTime()"></span></span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <a asp-action="Details" asp-route-id="@poll.Id" class="btn btn-primary btn-sm flex-grow-1">
+                                @Localizer["Open exam"] <i class="align-middle ms-1" data-lucide="arrow-right"></i>
+                            </a>
+                            @if (poll.State == PollState.Published && poll.Deadline > DateTime.UtcNow)
                             {
-                                case PollState.Draft: <span class="badge bg-secondary">Draft</span> break;
-                                case PollState.Published: <span class="badge bg-success">Published</span> break;
-                                case PollState.Completed: <span class="badge bg-info">Completed</span> break;
-                                case PollState.Terminated: <span class="badge bg-warning">Terminated</span> break;
-                                case PollState.Void: <span class="badge bg-danger">Void</span> break;
-                            }
-                        </td>
-                        <td>
-                            @switch (p.AccessType)
-                            {
-                                case AccessType.Public: <span class="badge bg-success">Public</span> break;
-                                case AccessType.RegisteredOnly: <span class="badge bg-primary">Registered</span> break;
-                                case AccessType.RoleBased: <span class="badge bg-info">Role-Based</span> break;
-                            }
-                        </td>
-                        <td><span data-utc-time="@p.Deadline.ToHtmlDateTime()"></span></td>
-                        <td class="text-end">
-                            @if (p.State == PollState.Published && p.Deadline > DateTime.UtcNow)
-                            {
-                                <button type="button" class="btn btn-sm btn-outline-secondary me-1" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = p.Id }, Context.Request.Scheme)')">
+                                <button type="button" class="btn btn-outline-secondary btn-sm"
+                                        title="@Localizer["Copy link"]"
+                                        onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = poll.Id }, Context.Request.Scheme)')">
                                     <i class="align-middle" data-lucide="copy"></i>
                                 </button>
                             }
-                            <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">@Localizer["Details"]</a>
-                        </td>
-                    </tr>
-                }
-                @if (!Model.ManagedPolls.Any())
-                {
-                    <tr>
-                        <td colspan="5" class="text-muted text-center pt-5 pb-5">
-                            <i class="d-block mb-3 text-muted opacity-50" data-lucide="bar-chart-2" style="width: 48px; height: 48px; margin: 0 auto;"></i>
-                            @Localizer["You don't manage any polls."]
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="exam-card">
+            <div class="exam-empty">
+                <div class="exam-empty-icon"><i data-lucide="clipboard-plus"></i></div>
+                <h2 class="h5">@Localizer["No exams yet"]</h2>
+                <p class="text-muted mx-auto" style="max-width: 32rem;">@Localizer["Create your first employee assessment, add questions, then assign it to people or roles."]</p>
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="align-middle me-1" data-lucide="plus"></i> @Localizer["Create exam"]
+                </a>
+            </div>
+        </div>
+    }
 </div>
 
-
 @* ReSharper disable once Razor.SectionNotResolved *@
-
 @section scripts {
     <script src="~/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script>
         function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
-                Swal.fire({
+            navigator.clipboard.writeText(text).then(function () {
+                if (typeof window.Swal === 'undefined') return;
+                window.Swal.fire({
                     title: '@Localizer["Copied!"]',
                     text: '@Localizer["Link copied to clipboard!"]',
                     icon: 'success',
-                    timer: 2000,
+                    timer: 1800,
                     showConfirmButton: false
                 });
-            }, function(err) {
-                console.error('Could not copy text: ', err);
             });
         }
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const rows = document.querySelectorAll(".clickable-row");
-            rows.forEach(row => {
-                row.addEventListener("click", function (event) {
-                    const target = event.target;
-                    if (!target.matches('a, a *, button, button *')) {
-                        window.location.href = row.dataset.href;
-                    }
-                });
-            });
-        });
     </script>
 }

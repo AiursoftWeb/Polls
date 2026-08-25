@@ -1,33 +1,20 @@
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.ExtendViewModel
 
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-    <div>
-        <a asp-action="Details" asp-route-id="@Model.PollId" class="text-decoration-none text-muted small mb-2 d-inline-block">
-            ← @Localizer["Back to Poll"]
-        </a>
-        <h4 class="mb-0">⏰ @Localizer["Extend Poll Deadline"]</h4>
-    </div>
-</div>
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles { <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" /> }
 
-<div class="card">
-    <div class="card-body">
-        <div class="alert alert-light border mb-4">
-            <strong>📝 @Model.PollTitle</strong>
-            <br />
-            <small class="text-muted">📅 @Localizer["Current deadline:"] <span data-utc-time="@Model.CurrentDeadline.ToHtmlDateTime()"></span></small>
+<div class="exam-ui mx-auto" style="max-width: 720px;">
+    <div class="exam-page-header"><div><a asp-action="Details" asp-route-id="@Model.PollId" class="exam-back-link"><i data-lucide="arrow-left"></i>@Localizer["Back to exam"]</a><div class="exam-kicker"><i data-lucide="calendar-plus"></i>@Localizer["Schedule"]</div><h1 class="h3">@(Model.ReactivatesExam ? Localizer["Reopen exam"] : Localizer["Extend deadline"])</h1></div></div>
+    <div class="alert alert-info alert-outline-coloured mb-4"><div class="alert-icon"><i data-lucide="calendar-clock"></i></div><div class="alert-message"><strong>@Model.PollTitle</strong><span class="d-block small">@Localizer["Current deadline"]: <span data-utc-time="@Model.CurrentDeadline.ToHtmlDateTime()"></span></span></div></div>
+    <section class="exam-card">
+        <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="clock-3"></i></span>@Localizer["New availability"]</h2><p class="exam-subtitle">@(Model.ReactivatesExam ? Localizer["Choose a future deadline. Saving will reopen the exam for new attempts."] : Localizer["Choose a later date and time for starting new attempts."])</p></div>
+        <div class="card-body">
+            <form asp-action="Extend" method="post">
+                <input type="hidden" asp-for="PollId" />
+                <div class="mb-4"><label asp-for="NewDeadline" class="form-label fw-semibold">@Localizer["New deadline"]</label><input asp-for="NewDeadline" type="datetime-local" step="1" class="form-control form-control-lg" /><span asp-validation-for="NewDeadline" class="text-danger small"></span></div>
+                <div class="d-flex flex-column flex-sm-row justify-content-end gap-2"><a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-outline-secondary">@Localizer["Cancel"]</a><button type="submit" class="btn btn-primary"><i class="align-middle me-1" data-lucide="calendar-check"></i>@(Model.ReactivatesExam ? Localizer["Reopen exam"] : Localizer["Save new deadline"])</button></div>
+            </form>
         </div>
-        <form asp-action="Extend" method="post">
-            <input type="hidden" asp-for="PollId" />
-            <div class="mb-4">
-                <label asp-for="NewDeadline" class="form-label fw-semibold small">📅 @Localizer["New Deadline"]</label>
-                <input asp-for="NewDeadline" type="datetime-local" step="1" class="form-control" />
-                <span asp-validation-for="NewDeadline" class="text-danger small"></span>
-            </div>
-            <div class="d-flex gap-2">
-                <button type="submit" class="btn btn-primary">⏰ @Localizer["Extend Deadline"]</button>
-                <a asp-action="Details" asp-route-id="@Model.PollId" class="btn btn-outline-secondary">@Localizer["Cancel"]</a>
-            </div>
-        </form>
-    </div>
+    </section>
 </div>

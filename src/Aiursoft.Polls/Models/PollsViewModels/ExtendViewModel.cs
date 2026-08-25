@@ -13,6 +13,7 @@ public class ExtendViewModel : UiStackLayoutViewModel
     public Guid PollId { get; set; }
     public string? PollTitle { get; set; }
     public DateTime CurrentDeadline { get; set; }
+    public bool ReactivatesExam { get; set; }
 
     [Required]
     [Display(Name = "New Deadline")]

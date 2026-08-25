@@ -1,119 +1,43 @@
 @using Aiursoft.Polls.Entities
 @using Aiursoft.WebTools
 @model Aiursoft.Polls.Models.PollsViewModels.IndexViewModel
-<style>
-    .clickable-row {
-        cursor: pointer;
-    }
-</style>
-
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-    <div>
-        <h4 class="mb-0">📋 @Localizer["All Polls"]</h4>
-    </div>
-    <div class="mt-2 mt-sm-0">
-        <a asp-action="Create" class="btn btn-primary">
-            ✨ @Localizer["Create a new poll"]
-        </a>
-    </div>
-</div>
-
-<div class="card">
-    <div class="card-header d-flex align-items-center gap-2">
-        📋 <strong>@Localizer["System Polls"]</strong>
-    </div>
-    <div class="table-responsive">
-        <table class="table table-hover mb-0">
-            <thead>
-                <tr>
-                    <th>@Localizer["Title"]</th>
-                    <th>@Localizer["Creator"]</th>
-                    <th>@Localizer["Status"]</th>
-                    <th>@Localizer["Access"]</th>
-                    <th>@Localizer["Deadline"]</th>
-                    <th class="text-end">@Localizer["Actions"]</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var p in Model.ManagedPolls)
-                {
-                    <tr class="clickable-row" data-href="@Url.Action("Details", new { id = p.Id })">
-                        <td class="fw-bold">@p.Title</td>
-                        <td>@(p.CreatedBy?.DisplayName ?? "System")</td>
-                        <td>
-                            @switch (p.State)
-                            {
-                                case PollState.Draft: <span class="badge bg-secondary">Draft</span> break;
-                                case PollState.Published: <span class="badge bg-success">Published</span> break;
-                                case PollState.Completed: <span class="badge bg-info">Completed</span> break;
-                                case PollState.Terminated: <span class="badge bg-warning">Terminated</span> break;
-                                case PollState.Void: <span class="badge bg-danger">Void</span> break;
-                            }
-                        </td>
-                        <td>
-                            @switch (p.AccessType)
-                            {
-                                case AccessType.Public: <span class="badge bg-success">Public</span> break;
-                                case AccessType.RegisteredOnly: <span class="badge bg-primary">Registered</span> break;
-                                case AccessType.RoleBased: <span class="badge bg-info">Role-Based</span> break;
-                            }
-                        </td>
-                        <td><span data-utc-time="@p.Deadline.ToHtmlDateTime()"></span></td>
-                        <td class="text-end">
-                            @if (p.State == PollState.Published && p.Deadline > DateTime.UtcNow)
-                            {
-                                <button type="button" class="btn btn-sm btn-outline-secondary me-1" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = p.Id }, Context.Request.Scheme)')">
-                                    <i class="align-middle" data-lucide="copy"></i>
-                                </button>
-                            }
-                            <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">@Localizer["Details"]</a>
-                        </td>
-                    </tr>
-                }
-                @if (!Model.ManagedPolls.Any())
-                {
-                    <tr>
-                        <td colspan="6" class="text-muted text-center pt-5 pb-5">
-                            <i class="d-block mb-3 text-muted opacity-50" data-lucide="bar-chart-2" style="width: 48px; height: 48px; margin: 0 auto;"></i>
-                            @Localizer["No polls found in the system."]
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-</div>
-
 
 @* ReSharper disable once Razor.SectionNotResolved *@
+@section styles { <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" /> }
 
-@section scripts {
-    <script src="~/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
-    <script>
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
-                Swal.fire({
-                    title: '@Localizer["Copied!"]',
-                    text: '@Localizer["Link copied to clipboard!"]',
-                    icon: 'success',
-                    timer: 2000,
-                    showConfirmButton: false
-                });
-            }, function(err) {
-                console.error('Could not copy text: ', err);
-            });
-        }
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const rows = document.querySelectorAll(".clickable-row");
-            rows.forEach(row => {
-                row.addEventListener("click", function (event) {
-                    const target = event.target;
-                    if (!target.matches('a, a *, button, button *')) {
-                        window.location.href = row.dataset.href;
+<div class="exam-ui">
+    <div class="exam-page-header">
+        <div><div class="exam-kicker"><i data-lucide="building-2"></i>@Localizer["Administration"]</div><h1 class="h3">@Localizer["All exams"]</h1><p class="text-muted mb-0 mt-1">@Localizer["Review every assessment across the organization."]</p></div>
+        <a asp-action="Create" class="btn btn-primary"><i class="align-middle me-1" data-lucide="plus"></i>@Localizer["Create exam"]</a>
+    </div>
+    <section class="exam-card">
+        <div class="card-header"><h2 class="exam-section-title"><span class="section-icon"><i data-lucide="library-big"></i></span>@Localizer["Organization exams"]</h2><p class="exam-subtitle">@Model.ManagedPolls.Count @Localizer["exams"]</p></div>
+        @if (Model.ManagedPolls.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead><tr><th class="ps-4">@Localizer["Exam"]</th><th>@Localizer["Owner"]</th><th>@Localizer["Status"]</th><th>@Localizer["Audience"]</th><th>@Localizer["Deadline"]</th><th class="text-end pe-4">@Localizer["Action"]</th></tr></thead>
+                    <tbody>
+                    @foreach (var poll in Model.ManagedPolls)
+                    {
+                        var stateClass = poll.State switch { PollState.Published => "text-success", PollState.Completed => "text-info", PollState.Terminated => "text-warning", PollState.Void => "text-danger", _ => "text-secondary" };
+                        var accessText = poll.AccessType switch { AccessType.Public => Localizer["Public"], AccessType.RegisteredOnly => Localizer["Registered employees"], AccessType.RoleBased => Localizer["Role based"], AccessType.Assigned => Localizer["Assigned"], _ => Localizer[poll.AccessType.ToString()] };
+                        <tr>
+                            <td class="ps-4"><div class="fw-semibold">@poll.Title</div><div class="text-muted small">@poll.QuestionsPerAttempt @Localizer["questions"] · @poll.DurationMinutes @Localizer["minutes"]</div></td>
+                            <td>@(poll.CreatedBy?.DisplayName ?? Localizer["System"].Value)</td>
+                            <td><span class="exam-state-label @stateClass"><span class="exam-state-dot"></span>@Localizer[poll.State.ToString()]</span></td>
+                            <td><span class="d-inline-flex align-items-center gap-1"><i data-lucide="users" style="width: 14px; height: 14px;"></i>@accessText</span></td>
+                            <td><span data-utc-time="@poll.Deadline.ToHtmlDateTime()"></span></td>
+                            <td class="text-end pe-4"><a asp-action="Details" asp-route-id="@poll.Id" class="btn btn-outline-primary btn-sm">@Localizer["Open"]</a></td>
+                        </tr>
                     }
-                });
-            });
-        });
-    </script>
-}
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="exam-empty"><div class="exam-empty-icon"><i data-lucide="inbox"></i></div><h3 class="h5">@Localizer["No exams found"]</h3><p class="text-muted mb-0">@Localizer["Organization exams will appear here."]</p></div>
+        }
+    </section>
+</div>

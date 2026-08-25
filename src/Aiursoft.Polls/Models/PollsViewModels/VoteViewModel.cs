@@ -7,11 +7,13 @@ public class VoteViewModel : UiStackLayoutViewModel
 {
     public VoteViewModel()
     {
-        PageTitle = "Submit Vote";
+        PageTitle = "Take Exam";
     }
 
     public Guid PollId { get; set; }
     public Poll? Poll { get; set; }
+    public int AttemptId { get; set; }
+    public Submission? Attempt { get; set; }
 
     /// <summary>
     /// Key: QuestionId, Value: list of selected option IDs (comma separated for multi-choice)

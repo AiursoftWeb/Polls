@@ -18,6 +18,9 @@ public class AddQuestionViewModel : UiStackLayoutViewModel
     [MaxLength(500, ErrorMessage = "The {0} must be at max {1} characters long.")]
     public string? Title { get; set; }
 
+    [MaxLength(4000)]
+    public string? Explanation { get; set; }
+
     [Display(Name = "Question Type")]
     public QuestionType Type { get; set; }
 
@@ -31,4 +34,5 @@ public class OptionInputModel
 {
     public string Content { get; set; } = string.Empty;
     public bool AllowCustomText { get; set; }
+    public bool IsCorrect { get; set; }
 }

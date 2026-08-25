@@ -19,6 +19,9 @@ public class Question
     [MaxLength(500)]
     public required string Title { get; set; }
 
+    [MaxLength(4000)]
+    public string? Explanation { get; set; }
+
     public QuestionType Type { get; set; }
 
     public bool IsRequired { get; set; } = true;

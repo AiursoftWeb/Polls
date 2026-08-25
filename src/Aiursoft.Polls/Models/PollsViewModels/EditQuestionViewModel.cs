@@ -19,6 +19,9 @@ public class EditQuestionViewModel : UiStackLayoutViewModel
     [MaxLength(500, ErrorMessage = "The {0} must be at max {1} characters long.")]
     public string? Title { get; set; }
 
+    [MaxLength(4000)]
+    public string? Explanation { get; set; }
+
     [Display(Name = "Question Type")]
     public QuestionType Type { get; set; }
 

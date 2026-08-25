@@ -54,6 +54,7 @@ public class Startup : IWebStartup
         services.AddHttpClient();
         services.AddAssemblyDependencies(typeof(Startup).Assembly);
         services.AddSingleton<NavigationState<Startup>>();
+        services.AddScoped<Services.ExamAttemptService>();
 
         // Background job queue
         services.AddTaskQueueEngine();
@@ -61,6 +62,8 @@ public class Startup : IWebStartup
         services.RegisterBackgroundJob<Services.BackgroundJobs.DummyJob>();
         var orphanAvatarCleanupJob = services.RegisterBackgroundJob<Services.BackgroundJobs.OrphanAvatarCleanupJob>();
         services.RegisterScheduledTask(registration: orphanAvatarCleanupJob, period: TimeSpan.FromHours(6), startDelay: TimeSpan.FromMinutes(5));
+        var expiredAttemptJob = services.RegisterBackgroundJob<Services.BackgroundJobs.ExpiredExamAttemptJob>();
+        services.RegisterScheduledTask(registration: expiredAttemptJob, period: TimeSpan.FromMinutes(1), startDelay: TimeSpan.FromMinutes(1));
 
         // Controllers and localization
         services.AddControllersWithViews()

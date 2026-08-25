@@ -26,7 +26,39 @@ public class Submission
     [MaxLength(200)]
     public string? BrowserFingerprint { get; set; }
 
-    public DateTime SubmitTime { get; init; } = DateTime.UtcNow;
+    public int AttemptNumber { get; set; } = 1;
+
+    public AttemptStatus Status { get; set; } = AttemptStatus.InProgress;
+
+    public DateTime StartedAt { get; init; } = DateTime.UtcNow;
+
+    public DateTime ExpiresAt { get; set; }
+
+    public DateTime? SubmittedAt { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal Score { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal MaxScore { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal FullScore { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal PartialScore { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal OverSelectionScore { get; set; }
+
+    [Column(TypeName = "decimal(10,2)")]
+    public decimal PassingScore { get; set; }
+
+    public bool Passed { get; set; }
+
+    public DateTime SubmitTime { get; set; } = DateTime.UtcNow;
 
     public ICollection<Answer>? Answers { get; set; }
+    public ICollection<AttemptQuestion>? AttemptQuestions { get; set; }
+    public ICollection<AttemptSelection>? AttemptSelections { get; set; }
 }

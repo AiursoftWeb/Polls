@@ -40,12 +40,13 @@ public class DashboardController(
 
         var allActivePolls = await context.Polls
             .Include(p => p.RoleRestrictions)
+            .Include(p => p.Assignments)
             .Where(p => p.State == PollState.Published && p.Deadline > DateTime.UtcNow && !p.IsDeleted)
             .ToListAsync();
 
         // Remove those already submitted by user
         var submittedPollIds = await context.Submissions
-            .Where(s => s.UserId == user.Id)
+            .Where(s => s.UserId == user.Id && s.Status != AttemptStatus.InProgress)
             .Select(s => s.PollId)
             .Distinct()
             .ToListAsync();
@@ -53,9 +54,15 @@ public class DashboardController(
         var todoPolls = allActivePolls
             .Where(p => !submittedPollIds.Contains(p.Id))
             .Where(p => !p.IsAnonymous) // Anonymous polls cannot be tracked, so don't show them in To-Do list.
-            .Where(p => 
-                p.AccessType == AccessType.RoleBased && (p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false)
-            ).ToList();
+            .Where(p => p.AccessType switch
+            {
+                AccessType.Public => true,
+                AccessType.RegisteredOnly => true,
+                AccessType.RoleBased => p.RoleRestrictions?.Any(r => userRoleIds.Contains(r.RoleId)) ?? false,
+                AccessType.Assigned => p.Assignments?.Any(a => a.AssignedUserId == user.Id ||
+                    (a.AssignedRoleId != null && userRoleIds.Contains(a.AssignedRoleId))) ?? false,
+                _ => false
+            }).ToList();
 
         // History
         var historyPolls = await context.Polls

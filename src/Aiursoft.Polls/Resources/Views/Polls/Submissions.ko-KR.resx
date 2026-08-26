@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>익명</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>응시</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>시도 횟수</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>상세 정보로 돌아가기</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>투표로 돌아가기</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>상세 시도 로그</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>직원 성과</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>직원 결과</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>직원이 처음 제출한 후 여기에 점수가 표시됩니다.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>최고 점수</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>완료된 모든 응시의 최고 점수와 점수 추이.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP 주소</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>제출된 항목이 없습니다.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>아직 제출 내역이 없습니다</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>시간순으로 정리된 전체 제출 기록을 확인하세요.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>합격률</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>합격</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>성적</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>점수</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>점수 이력</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>제출</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>제출 시간</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>제출됨</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>사용자</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>보기</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>상세 보기</value>

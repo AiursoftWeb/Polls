@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>익명 평가</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>익명 투표 안내:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>상세 정보로 돌아가기</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>투표로 돌아가기</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>대상자</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>이메일</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>사원</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>신원이 기록되지 않으므로 참가자의 완료 여부를 정확히 추적할 수 없습니다.</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>최근 제출</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>참여자 상태</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>참여</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>대기 중</value>

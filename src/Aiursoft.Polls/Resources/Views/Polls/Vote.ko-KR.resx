@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>모든 변경 사항이 저장되었습니다</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>익명 투표:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>답변됨</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>답변한 문제는 녹색으로 표시됩니다.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>답변은 자동으로 저장됩니다.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>시도</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>이전</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>완료</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>분</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>다중 선택</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>오프라인 상태입니다. 최종 제출 시 다시 시도됩니다.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>온콜 자격증 평가</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>구체적으로 입력해 주세요...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>문제 탐색기</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>질문</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>제출할 준비가 되셨나요?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>저장이 실패했습니다. 최종 제출 시 다시 시도됩니다.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>저장 중…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>해당하는 항목을 모두 선택하세요</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>단일 선택</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>시험 제출</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>제출 중...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>제출 중…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>남은 시간</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>총</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>제출하기 전에 답을 검토하고 변경할 수 있습니다.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>귀하의 신원, IP 주소 및 브라우저 지문은 기록되지 않습니다. 귀하의 투표는 완전히 비공개입니다.</value>

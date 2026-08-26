@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>접근 권한</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>작업</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>작업</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>관리</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>전체 시험</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>전체 투표</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>대상</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>복사됨!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>새로운 투표 만들기</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>시험 만들기</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>크리에이터</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>상세 정보</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>시험</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>시험</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>링크가 클립보드에 복사되었습니다!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>시험이 없습니다</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>시스템에 투표가 없습니다.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>조직 시험</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>조직 시험이 여기에 표시됩니다.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>소유자</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>문항</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>조직 전체의 모든 평가를 검토하세요.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>상태</value>

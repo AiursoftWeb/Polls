@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>작업</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>평가 센터</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>복사됨!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>링크 복사</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>새 투표 생성</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>시험 만들기</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>첫 번째 직원 평가를 만들고, 질문을 추가한 다음 사람이나 역할에 할당하세요.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>한 곳에서 직원 평가 생성, 배정 및 검토를 수행하세요.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>마감일</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>세부 정보</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>시험</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>링크가 클립보드에 복사되었습니다!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>분</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>내 설문지</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>아직 시험이 없습니다</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>시험 열기</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>내가 관리하는 투표</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>투표 관리</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>문항</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>상태</value>

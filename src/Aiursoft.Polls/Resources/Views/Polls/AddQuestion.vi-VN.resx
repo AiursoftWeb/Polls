@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Cho phép nhập văn bản tùy chỉnh</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Các lựa chọn câu trả lời</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Loại câu trả lời</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Đặt một câu hỏi chính xác...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Mẹo biên soạn</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Tránh các manh mối dựa trên độ dài hoặc cách diễn đạt của các lựa chọn. Giữ cho mỗi lựa chọn song song và không gây mơ hồ.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Quay lại bài thi</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Đáp án đúng</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Giải thích lý lẽ và nguyên lý hoạt động đằng sau câu trả lời...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Giải thích</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Đánh dấu mọi lựa chọn đúng. Thứ tự hiển thị của chúng có thể được xáo trộn ngẫu nhiên trong quá trình làm bài.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Văn bản tùy chọn</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Khác</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Trình tạo câu hỏi</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Câu hỏi</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Cài đặt câu hỏi</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Xóa tùy chọn</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Yêu cầu phải trả lời trước khi nộp.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Bắt buộc</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Chỉ hiển thị khi nhân viên không trả lời đúng hoàn toàn.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Mẹo: Chọn &apos;Khác&apos; cho phép cử tri nhập thêm thông tin văn bản.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Viết một câu hỏi rõ ràng, đánh dấu các đáp án đúng và thêm hướng dẫn cho các đáp án sai.</value>
   </data>
 
 </root>

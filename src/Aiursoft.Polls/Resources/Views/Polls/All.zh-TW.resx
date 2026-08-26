@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>存取</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>操作</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>所有考試</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>所有投票</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>受眾</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>已複製！</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>建立新投票</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>建立考試</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>建立者</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>詳細資料</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>考試</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>考試</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>連結已複製到剪貼簿！</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>找不到測驗</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>系統中找不到任何投票。</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>組織考試</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>組織考試將顯示在這裡。</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>題目</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>檢視組織內的每項評量。</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>狀態</value>

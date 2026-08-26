@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>所有變更已儲存</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>匿名投票：</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>已回答的問題會以綠色顯示。</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>答案會自動儲存。</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>嘗試</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>返回</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>完成</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>複選</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>離線；最終提交將重新嘗試。</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>值班執照評估</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>請指定...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>題目導覽</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>問題</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>準備提交了嗎？</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>儲存失敗；最終提交時將重試。</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>儲存中…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>選擇所有適用的選項</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>單選</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>提交考試</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>提交中...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>正在提交…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>剩餘時間</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>總計</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>在提交前，您仍可檢視並修改答案。</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>您的身份、IP 位址及瀏覽器指紋將不會被記錄。您的投票完全保密。</value>

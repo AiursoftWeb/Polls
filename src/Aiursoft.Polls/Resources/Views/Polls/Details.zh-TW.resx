@@ -24,8 +24,23 @@
   <data name="Access:" xml:space="preserve">
     <value>存取：</value>
   </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>活動記錄</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>新增並檢視問題，待考試準備完成後再發布。</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>新增第一個問題</value>
+  </data>
   <data name="Add Question" xml:space="preserve">
     <value>新增問題</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>進階計分與隨機化</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
@@ -35,6 +50,9 @@
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>匿名：身份和 IP 將不會被記錄。</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>答案解析</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>確定要刪除此投票嗎？此為軟刪除。</value>
@@ -48,14 +66,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>您確定要終止此投票嗎？</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>嘗試</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>返回考試列表</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>返回列表</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>返回投票列表</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>新增第一題選擇題以建立考試。</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>選擇新的截止期限，並允許員工開始新的嘗試。</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>協作者</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>確認操作</value>
@@ -66,11 +99,23 @@
   <data name="Copy Link" xml:space="preserve">
     <value>複製連結</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>複製參與者連結</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>正確</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>部分正確</value>
+  </data>
   <data name="Created By" xml:space="preserve">
     <value>建立者</value>
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>建立者：</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>目前截止日期</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>危險區域</value>
@@ -84,8 +129,20 @@
   <data name="Delete" xml:space="preserve">
     <value>刪除</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>刪除考試</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>時長</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>
+  </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>編輯問題</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>符合資格</value>
   </data>
   <data name="Eligible Voters" xml:space="preserve">
     <value>符合資格的選民</value>
@@ -93,11 +150,38 @@
   <data name="Eligible Voters:" xml:space="preserve">
     <value>符合資格的選民：</value>
   </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>員工成績</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>員工可以在截止時間前開始新的限時考試。</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>考試總覽</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>考試已發布</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>考試設定</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>匯出待參與員工</value>
+  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>匯出待處理使用者</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>延長</value>
+  </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>延長截止期限</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>完整作答</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>將考試從一般視圖中隱藏。這是一種軟刪除。</value>
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>無效化</value>
@@ -105,14 +189,35 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>連結已複製到剪貼簿！</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>管理考試的開放狀態與生命週期。</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>滿分</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>更多參與工具</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>更多問題操作</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>向下移動</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>向上移動</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>目前無法進行新的嘗試。</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>尚未提供說明。</value>
@@ -123,11 +228,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>此投票尚未新增任何問題。</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>尚無問題</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>通知尚未完成考試的員工。</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>開放此考試供受指派的員工參加。</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>操作日誌</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>其他</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>參與者狀態</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>參與</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>及格分數</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>待處理</value>
   </data>
   <data name="Pending Voters" xml:space="preserve">
     <value>待審 voters</value>
@@ -147,14 +276,26 @@
   <data name="Publish" xml:space="preserve">
     <value>發布</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>發布考試</value>
+  </data>
   <data name="Q:" xml:space="preserve">
     <value>問：</value>
   </data>
   <data name="Questions" xml:space="preserve">
     <value>問題</value>
   </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>本次考試的題目</value>
+  </data>
   <data name="Remind" xml:space="preserve">
     <value>提醒</value>
+  </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>重新開啟考試</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>重複嘗試</value>
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果可見性</value>
@@ -162,17 +303,50 @@
   <data name="Result Visibility:" xml:space="preserve">
     <value>結果可見性：</value>
   </data>
+  <data name="Results" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>檢視作答</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>檢視設定</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>每次嘗試抽選</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>發送提醒</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>選項隨機化</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>隨機排列題目</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>狀態</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>狀態：</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>停止新的考試嘗試，同時保留考試及其結果。</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>終止</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>終止考試</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>感謝您的參與！您已成功提交回覆。</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>這些操作會停止存取權限，或將考試從一般視圖中移除。</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>無法發布考試</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>查看結果</value>
@@ -186,11 +360,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>立即投票</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>選取錯誤選項</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>是</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>您已投票</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>您的最新分數</value>
   </data>
 
 </root>

@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>存取類型</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>進階選項</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>建立考試後，請加入選擇題、標記正確答案、檢視評分設定，然後發佈。</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>允許再次重新作答。</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>允許的角色</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>匿名投票（資料庫將不會記錄使用者資訊）</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>任何非空的正確子集都會獲得相同的部分分數。選擇任何錯誤選項則使用錯誤選項分數。</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>將考試直接指派給員工、角色，或兩者皆可。</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>指派</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>作答行為</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>考試設定</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>返回考試</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>返回投票列表</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>部分正確</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>建立</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>建立並新增題目</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>建立草稿</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>建立考試</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>建立投票</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>員工</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>所有選取角色中的員工都可以參加考試。</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>考試資訊</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>說明目的、範圍，以及員工應完成的準備工作。</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>失敗訊息</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>完全正確</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>提供員工足夠的背景資訊，讓他們了解此評估的目的。</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>包含錯誤選項</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>新增評量</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>待命許可證評估</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>通過訊息</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>及格分數</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>每次試題數量</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>獨立隨機排列選項。</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>隨機排列抽樣問題順序。</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果可見性</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>結果與回饋</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>評分模式</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>評分、隨機化、結果可見性與回饋訊息。</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>先填寫基本資訊。建立考試後即可新增題目。</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>考試在發布前將保持私人狀態且可編輯。</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>員工在開始前需要了解的設定。</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>時間限制</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>輸入 0 以包含所有問題。</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>接下來會發生什麼事</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>誰可以參加此考試</value>
   </data>
 
 </root>

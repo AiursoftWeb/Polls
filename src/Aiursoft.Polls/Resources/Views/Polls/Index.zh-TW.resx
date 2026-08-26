@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>評估中心</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>已複製！</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>複製連結</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>建立新投票</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>建立考試</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>建立您的第一份員工評估，加入問題，然後將其指派給人員或角色。</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>在同一個地方建立、指派及審閱員工評量。</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>詳細資訊</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>考試</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>連結已複製到剪貼簿！</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>我的投票</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>尚無考試</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>開啟考試</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>我管理的投票</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>投票管理</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>題</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>狀態</value>

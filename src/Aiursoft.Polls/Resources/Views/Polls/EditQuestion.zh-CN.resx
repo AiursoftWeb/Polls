@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>添加选项</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>答案选项</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>答案类型</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>返回考试</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>返回投票</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>正确答案</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>编辑问题</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>已有的答题记录将保留其原始快照。此版本仅用于未来的答题。</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>解析</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>历史记录保持不变</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>请标记所有正确选项。作答时，选项的显示顺序可能会随机打乱。</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>选项文本</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>其他</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>题目编辑器</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>题目描述</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>题目设置</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>优化题目、选项和学习指导。</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>移除选项</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>提交前必须作答。</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>必填</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>保存题目</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>仅在员工未完全答对时显示。</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>提示：勾选“其他”允许投票人提交额外的文本信息。</value>

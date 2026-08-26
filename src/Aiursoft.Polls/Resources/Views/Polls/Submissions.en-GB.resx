@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonymous</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Attempts</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Back to details</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Back to exam</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Back to Poll</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Detailed attempt log</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Employee performance</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Employee results</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Employee scores will appear here after their first submission.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Highest score</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Highest score and score progression across every completed attempt.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP Address</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>No submissions found.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>No submissions yet</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Open the complete chronological submission ledger.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Pass rate</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Passed</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Score history</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Submissions</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Submission Time</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>User</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>View Details</value>

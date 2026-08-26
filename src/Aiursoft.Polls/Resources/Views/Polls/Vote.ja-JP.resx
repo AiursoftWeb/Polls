@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>すべての変更が保存されました</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>匿名アンケート：</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>回答済み</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>回答済みの問題は緑色で表示されます。</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>回答は自動的に保存されます。</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>受験</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>戻る</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>完了</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>複数選択</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>オフラインです。最終送信時に再試行します。</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>オンコールライセンス評価</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>ご指定ください...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>問題ナビゲーター</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>質問</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>提出しますか？</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>保存に失敗しました。最終送信時に再試行します。</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>保存中…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>該当するものをすべて選択してください</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>単一選択</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>試験を提出</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>提出中...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>送信中…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>残り時間</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>合計</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>提出前に回答を確認・変更することができます。</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>あなたの身元、IP アドレス、およびブラウザの指紋は記録されません。あなたの投票は完全にプライバシーが守られます。</value>

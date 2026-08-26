@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>アクセス種別</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>詳細オプション</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>試験を作成した後、選択問題を追加し、正解をマークし、採点設定を確認して、公開してください。</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>新しい試行を許可します。</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>許可されたロール</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>匿名投票（データベースはユーザー情報を記録しません）</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>空でない正解の部分集合はすべて同じ部分点を与えられます。不正解の選択肢を1つでも選択すると、不正解の選択肢の点数が適用されます。</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>試験を従業員、役割、またはその両方に直接割り当てます。</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>割り当て</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>試行設定</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>受験設定</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>試験一覧へ戻る</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>アンケート一覧に戻る</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>正解部分選択</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>作成</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>作成して問題を追加</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>下書きを作成</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>試験を作成</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>投票を作成</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>締切</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>選択した役割のすべての従業員が試験を受けられます。</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>試験情報</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>目的、範囲、および従業員が事前に準備すべき事項を説明してください。</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>不合格メッセージ</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>全問正解</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>この評価の目的を理解できるよう、従業員に必要な背景情報を提供してください。</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>誤った選択肢を含む場合</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>新しい評価</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>オンコール資格評価</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>合格メッセージ</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>合格点</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>1回あたりの問題数</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>選択肢を独立してシャッフルします。</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>抽出した問題の順序をランダム化します。</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果の表示</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>結果とフィードバック</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>採点モデル</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>採点、ランダム化、結果の表示、フィードバックメッセージ。</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>まず基本情報を入力してください。問題は試験作成後に追加されます。</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>公開するまで、試験は非公開のまま編集できます。</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>開始前に従業員が理解すべき設定。</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>時間制限</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>0 を入力すると、すべての問題が含まれます。</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>次に起こること</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>この試験を受けられる対象</value>
   </data>
 
 </root>

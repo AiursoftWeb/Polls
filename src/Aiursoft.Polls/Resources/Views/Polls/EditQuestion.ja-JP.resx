@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>オプションを追加</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>選択肢</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>回答形式</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>試験に戻る</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>投票に戻る</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>正解</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>質問を編集</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>既存の試行は元のスナップショットを保持します。このバージョンは将来の試行に使用されます。</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>解説</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>履歴はそのまま保持されます</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>正しい選択肢をすべてマークしてください。表示順序は試行中にランダムに並べ替えられる場合があります。</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>選択肢のテキスト</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>その他</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>問題作成</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>設問</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>問題設定</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>問題文、解答の選択肢、学習ガイダンスを調整します。</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>選択肢を削除</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>提出前に回答が必要です。</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>必須</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>問題を保存</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>従業員が完全に正しくない場合にのみ表示されます。</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>ヒント：「その他」を選択すると、投票者は追加のテキスト情報を送信できます。</value>

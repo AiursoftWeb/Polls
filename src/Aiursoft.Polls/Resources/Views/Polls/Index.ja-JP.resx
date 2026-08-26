@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>評価センター</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>コピーしました！</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>リンクをコピー</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>新しい投票を作成</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>試験を作成</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>最初の従業員評価を作成し、質問を追加してから、人やロールに割り当てましょう。</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>1つの場所から、従業員の評価を作成、割り当て、レビューできます。</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>期限</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>詳細</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>試験</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>マイ投票</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>試験はまだありません</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>試験を開く</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>私が管理する投票</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>投票管理</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>問</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>ステータス</value>

@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>匿名测评</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>匿名投票须知：</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>返回详情</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>返回考试</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>返回投票</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>符合条件</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>电子邮件</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>员工</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>员工</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>未记录身份，因此无法准确追踪参与者的完成状态。</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>最近提交</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>参与状态</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>参与情况</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>待处理</value>

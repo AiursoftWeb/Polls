@@ -24,11 +24,35 @@
   <data name="Access Type" xml:space="preserve">
     <value>访问类型</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>高级选项</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>允许再次全新尝试。</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>允许的角色</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>匿名投票（数据库不会记录用户信息）</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>任何非空的正确子集都会获得相同的部分得分。选择任何错误选项都会使用错误选项得分。</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>将考试直接分配给员工、角色或两者。</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>指派</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>作答行为</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>作答要点</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>返回考试</value>
   </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>返回投票</value>
@@ -36,17 +60,104 @@
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>已完成的尝试将保留其原始的试题和评分快照。</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>向每位员工展示的核心规则。</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>部分正确</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>编辑考试</value>
   </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>编辑投票</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>员工</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>所选角色中的每位员工均可参加考试。</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>考试信息</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>失败消息</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>完全正确</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>包含错误选项</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>在保持精确评分控制的同时，让员工体验保持专注。</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>通过消息</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>及格分数</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>每次考试题数</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>独立随机化选项。</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>随机化抽题顺序。</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>结果可见性</value>
   </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>结果与反馈</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>发布或继续进行中的考试前，请仔细检查受众范围和评分设置。</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>角色</value>
+  </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>评分更改会影响后续尝试</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>评分模型</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>评分、随机化、结果可见性和反馈消息。</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>员工在开始之前看到的标题和背景信息。</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>时间限制</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>输入 0 将包含所有题目。</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>谁可以参加此考试</value>
   </data>
 
 </root>

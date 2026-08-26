@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="active shares" xml:space="preserve">
+    <value>active shares</value>
+  </data>
+  <data name="Add collaborator" xml:space="preserve">
+    <value>Add collaborator</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Back to exam</value>
+  </data>
+  <data name="Collaboration" xml:space="preserve">
+    <value>Collaboration</value>
+  </data>
+  <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
+    <value>Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access.</value>
+  </data>
+  <data name="Current collaborators" xml:space="preserve">
+    <value>Current collaborators</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="No collaborators" xml:space="preserve">
+    <value>No collaborators</value>
+  </data>
+  <data name="Only you can manage this exam right now." xml:space="preserve">
+    <value>Only you can manage this exam at the moment.</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="Read-only can inspect results. Editable can also change exam settings and questions." xml:space="preserve">
+    <value>Read-only can inspect results. Editable can also change exam settings and questions.</value>
+  </data>
+  <data name="Recipient type" xml:space="preserve">
+    <value>Recipient type</value>
+  </data>
+  <data name="Remove access" xml:space="preserve">
+    <value>Remove access</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Select a role..." xml:space="preserve">
+    <value>Select a role...</value>
+  </data>
+  <data name="Select an employee..." xml:space="preserve">
+    <value>Select an employee...</value>
+  </data>
+  <data name="Share exam" xml:space="preserve">
+    <value>Share exam</value>
+  </data>
+  <data name="Share with one employee or one role at a time." xml:space="preserve">
+    <value>Share with one employee or one role at a time.</value>
+  </data>
+  <data name="Sharing is separate from assignment" xml:space="preserve">
+    <value>Sharing is separate from assignment</value>
+  </data>
+
+</root>

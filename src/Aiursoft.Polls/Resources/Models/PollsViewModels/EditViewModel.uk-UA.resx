@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Тип доступу</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Дозволити повторні спроби</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Дозволені ролі</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Видимість результатів</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Перемішати варіанти</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Перемішати питання</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} є обов&apos;язковим.</value>

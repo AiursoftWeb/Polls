@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>アクセス種別</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>繰り返し受験を許可</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>許可されたロール</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果の可視性</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>選択肢のシャッフル</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>問題をシャッフル</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} は必須です。</value>

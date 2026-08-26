@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Тип доступа</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Разрешить повторные попытки</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Разрешенные роли</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Видимость результатов</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Перемешать варианты</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Перемешивать вопросы</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>Поле {0} обязательно для заполнения.</value>

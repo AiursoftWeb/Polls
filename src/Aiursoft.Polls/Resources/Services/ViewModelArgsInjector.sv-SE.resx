@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Fel</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Examresultat</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Förläng omröstningens tidsfrist</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Hantera</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Hantera examensdelningar</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mina omröstningar</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Systeminformation</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Gör prov</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Mall</value>

@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>प्रवेश प्रकार</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>दोहराए गए प्रयासों की अनुमति दें</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>अनुमति प्राप्त भूमिकाएँ</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>विवरण</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>प्रति प्रयास प्रश्न (0 = सभी)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>परिणाम दृश्यता</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>विकल्पों को हिलाएँ</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>प्रश्नों को हिलाएं</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} आवश्यक है।</value>

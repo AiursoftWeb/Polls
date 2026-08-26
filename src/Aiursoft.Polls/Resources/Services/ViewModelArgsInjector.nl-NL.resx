@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Fout</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Examenresultaat</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Verleng de stemtermijn</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Beheren</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Examdeeltjes beheren</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mijn polls</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Systeeminformatie</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Examen maken</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Sjabloon</value>

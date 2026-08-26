@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>ประเภทการเข้าถึง</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>อนุญาตให้ทำซ้ำได้</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>บทบาทที่ได้รับอนุญาต</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>คำอธิบาย</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>จำนวนคำถามต่อการสอบ (0 = ทั้งหมด)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>การแสดงผลผลลัพธ์</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>สลับตัวเลือก</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>สลับคำถาม</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} เป็นข้อบังคับ</value>

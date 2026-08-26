@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Jenis Akses</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Izinkan percobaan berulang</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Peran yang Diizinkan</value>
   </data>
@@ -35,6 +38,12 @@
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Visibilitas Hasil</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Acak opsi</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Acak pertanyaan</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} diperlukan.</value>

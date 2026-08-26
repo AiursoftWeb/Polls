@@ -99,6 +99,9 @@
   <data name="Error" xml:space="preserve">
     <value>Kesalahan</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Hasil Ujian</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Perpanjang Batas Waktu Polling</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Kelola</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Kelola Berbagi Ujian</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>Survei Saya</value>
@@ -200,6 +206,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Informasi Sistem</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Kerjakan Ujian</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Template</value>

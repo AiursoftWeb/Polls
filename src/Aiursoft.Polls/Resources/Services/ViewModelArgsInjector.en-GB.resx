@@ -102,6 +102,9 @@
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
+  <data name="Exam Result" xml:space="preserve">
+    <value>Exam Result</value>
+  </data>
   <data name="Extend Poll Deadline" xml:space="preserve">
     <value>Extend Poll Deadline</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Manage</value>
+  </data>
+  <data name="Manage Exam Shares" xml:space="preserve">
+    <value>Manage Exam Shares</value>
   </data>
   <data name="My Polls" xml:space="preserve">
     <value>My Polls</value>
@@ -203,6 +209,9 @@
   </data>
   <data name="System Info" xml:space="preserve">
     <value>System Information</value>
+  </data>
+  <data name="Take Exam" xml:space="preserve">
+    <value>Take Exam</value>
   </data>
   <data name="Template" xml:space="preserve">
     <value>Template</value>

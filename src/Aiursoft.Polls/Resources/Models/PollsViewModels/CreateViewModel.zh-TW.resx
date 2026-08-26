@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>存取類型</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>允許重複作答</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>允許的角色</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>說明</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>每次作答的題目數（0 = 全部）</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果可見性</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>隨機排序選項</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>隨機出題</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>必須填寫 {0}。</value>

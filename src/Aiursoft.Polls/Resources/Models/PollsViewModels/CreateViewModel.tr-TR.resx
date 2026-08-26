@@ -21,6 +21,9 @@
       <data name="Access Type" xml:space="preserve">
     <value>Erişim Türü</value>
   </data>
+  <data name="Allow repeated attempts" xml:space="preserve">
+    <value>Tekrar denemeye izin ver</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>İzin Verilen Roller</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Description" xml:space="preserve">
     <value>Açıklama</value>
   </data>
+  <data name="Questions per Attempt (0 = all)" xml:space="preserve">
+    <value>Deneme Başına Soru Sayısı (0 = tümü)</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Sonuç Görünürlüğü</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Seçenekleri karıştır</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Soruları karıştır</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} gereklidir.</value>

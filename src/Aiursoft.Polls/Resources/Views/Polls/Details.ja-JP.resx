@@ -24,8 +24,23 @@
   <data name="Access:" xml:space="preserve">
     <value>アクセス：</value>
   </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>アクティビティログ</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>問題を追加・確認し、試験が準備できたら公開してください。</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>最初の質問を追加</value>
+  </data>
   <data name="Add Question" xml:space="preserve">
     <value>質問を追加</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>高度な採点とランダム化</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
@@ -35,6 +50,9 @@
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>匿名: 氏名およびIPアドレスは記録されません。</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>解答説明</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>このアンケートを削除してもよろしいですか？これはソフト削除です。</value>
@@ -48,14 +66,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>この投票を終了してもよろしいですか？</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>挑戦</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>試験一覧に戻る</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>リストに戻る</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>アンケート一覧へ戻る</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>最初の選択式問題を追加して試験を作成してください。</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>新しい期限を設定し、従業員が新たに受験を開始できるようにします。</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>共同作成者</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>アクションの確認</value>
@@ -66,11 +99,23 @@
   <data name="Copy Link" xml:space="preserve">
     <value>リンクをコピー</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>参加者リンクをコピー</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>正解</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>一部正解</value>
+  </data>
   <data name="Created By" xml:space="preserve">
     <value>作成者</value>
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>作成者:</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>現在の期限</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>危険ゾーン</value>
@@ -84,8 +129,20 @@
   <data name="Delete" xml:space="preserve">
     <value>削除</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>試験を削除</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>時間</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>編集</value>
+  </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>質問を編集</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>対象者</value>
   </data>
   <data name="Eligible Voters" xml:space="preserve">
     <value>投票対象者</value>
@@ -93,11 +150,38 @@
   <data name="Eligible Voters:" xml:space="preserve">
     <value>有権者：</value>
   </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>従業員の結果</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>従業員は締切まで新しい時間制限付きの受験を開始できます。</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>試験概要</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>試験が公開されました</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>試験設定</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>保留中の従業員をエクスポート</value>
+  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>保留中のユーザーをエクスポート</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>期限延長</value>
+  </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>締切を延長</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>完全正解</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>通常のビューから試験を非表示にします。これは論理削除です。</value>
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>無効化</value>
@@ -105,14 +189,35 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>利用可能性と試験ライフサイクルを管理します。</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>参加ツールの詳細</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>その他の質問操作</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>下へ移動</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>移動</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>現在、新しい受験は利用できません。</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>説明はありません。</value>
@@ -123,11 +228,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>まだこの投票に質問が追加されていません。</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>まだ質問はありません</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>試験を完了していない従業員に通知します。</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>割り当てられた従業員にこの試験を公開します。</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>操作ログ</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>その他</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>参加者ステータス</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>参加</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>合格点</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>保留中</value>
   </data>
   <data name="Pending Voters" xml:space="preserve">
     <value>保留中の有権者</value>
@@ -147,14 +276,26 @@
   <data name="Publish" xml:space="preserve">
     <value>公開</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>試験を公開</value>
+  </data>
   <data name="Q:" xml:space="preserve">
     <value>Q:</value>
   </data>
   <data name="Questions" xml:space="preserve">
     <value>質問</value>
   </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>本試験の問題</value>
+  </data>
   <data name="Remind" xml:space="preserve">
     <value>リマインダー</value>
+  </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>試験を再開</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>再受験</value>
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>結果の表示</value>
@@ -162,17 +303,50 @@
   <data name="Result Visibility:" xml:space="preserve">
     <value>結果の可視性：</value>
   </data>
+  <data name="Results" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>回答を確認</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>設定を確認</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>1回の試行あたり無作為に選択</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>リマインダーを送信</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>選択肢のシャッフル</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>問題をシャッフル</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>ステータス</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>ステータス:</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>試験とその結果を保持したまま、新しい試行を停止します。</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>終了</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>試験を終了</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>ご参加ありがとうございます！回答を送信しました。</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>これらの操作を行うとアクセスが停止されるか、通常の表示から試験が削除されます。</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>試験の公開に失敗しました</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>結果を表示</value>
@@ -186,11 +360,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>今すぐ投票</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>誤った選択肢が選択された</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>はい</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>投票済み</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>最新のスコア</value>
   </data>
 
 </root>

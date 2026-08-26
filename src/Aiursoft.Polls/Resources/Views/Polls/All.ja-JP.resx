@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>アクセス</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>操作</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>アクション</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>すべての試験</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>すべての投票</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>対象者</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>コピーしました!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>新しい投票を作成</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>試験を作成</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>作成者</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>詳細</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>試験</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>試験</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>試験が見つかりません</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>システムに投票は見つかりませんでした。</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>組織の試験</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>組織の試験がここに表示されます。</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>問題</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>組織全体のすべての評価をレビューします。</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>ステータス</value>

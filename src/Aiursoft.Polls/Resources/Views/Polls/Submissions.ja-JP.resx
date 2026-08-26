@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>試行</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>試行回数</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>詳細に戻る</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>試験に戻る</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>アンケートに戻る</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>詳細な試行ログ</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>従業員の成績</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>従業員の成績</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>従業員が初めて提出すると、ここにスコアが表示されます。</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>最高得点</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>全試行における最高得点と得点の推移</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP アドレス</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>提出物が見つかりません。</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>まだ提出はありません</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>時系列の提出記録の完全版を開く</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>合格率</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>合格</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>スコア</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>スコア履歴</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>提出</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>提出時間</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>提出済み</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>ユーザー</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>表示</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>詳細を表示</value>

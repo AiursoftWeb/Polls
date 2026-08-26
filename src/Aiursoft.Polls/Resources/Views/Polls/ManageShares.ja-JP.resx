@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="active shares" xml:space="preserve">
+    <value>アクティブな共有</value>
+  </data>
+  <data name="Add collaborator" xml:space="preserve">
+    <value>協作者を追加</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>試験に戻る</value>
+  </data>
+  <data name="Collaboration" xml:space="preserve">
+    <value>共同作業</value>
+  </data>
+  <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
+    <value>共同作業者は試験をレビューまたは編集できます。受験が割り当てられた従業員は、解答やスコア管理へのアクセスを一切受け取ることはありません。</value>
+  </data>
+  <data name="Current collaborators" xml:space="preserve">
+    <value>現在の共同作業メンバー</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="No collaborators" xml:space="preserve">
+    <value>共同編集者はいません</value>
+  </data>
+  <data name="Only you can manage this exam right now." xml:space="preserve">
+    <value>現在、この試験を管理できるのはあなただけです。</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>権限</value>
+  </data>
+  <data name="Read-only can inspect results. Editable can also change exam settings and questions." xml:space="preserve">
+    <value>読み取り専用では結果の閲覧のみが可能です。編集可能では、試験の設定や問題の変更も可能です。</value>
+  </data>
+  <data name="Recipient type" xml:space="preserve">
+    <value>受信者のタイプ</value>
+  </data>
+  <data name="Remove access" xml:space="preserve">
+    <value>アクセス権を削除</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="Select a role..." xml:space="preserve">
+    <value>ロールを選択...</value>
+  </data>
+  <data name="Select an employee..." xml:space="preserve">
+    <value>従業員を選択...</value>
+  </data>
+  <data name="Share exam" xml:space="preserve">
+    <value>試験を共有</value>
+  </data>
+  <data name="Share with one employee or one role at a time." xml:space="preserve">
+    <value>一度に1人の従業員または1つの役割と共有します。</value>
+  </data>
+  <data name="Sharing is separate from assignment" xml:space="preserve">
+    <value>共有は割り当てとは別物です</value>
+  </data>
+
+</root>

@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>อนุญาตให้กรอกข้อความเองได้</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>ตัวเลือกคำตอบ</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>ประเภทคำตอบ</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>ตั้งคำถามที่ชัดเจนและเฉพาะเจาะจง...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>เคล็ดลับการเขียน</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>หลีกเลี่ยงเบาะแสที่มาจากความยาวหรือถ้อยคำของตัวเลือก ให้แต่ละตัวเลือกมีความสอดคล้องและไม่มีความกำกวม</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>กลับไปที่การสอบ</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>กลับไปยังแบบสำรวจ</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>คำตอบที่ถูกต้อง</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>อธิบายเหตุผลและหลักการทำงานเบื้องหลังคำตอบ...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>คำอธิบาย</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>ทำเครื่องหมายที่ตัวเลือกที่ถูกต้องทุกข้อ ลำดับการแสดงอาจถูกสุ่มใหม่ระหว่างการทำข้อสอบ</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>ข้อความตัวเลือก</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>อื่นๆ</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>เครื่องมือสร้างคำถาม</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>คำถาม</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>การตั้งค่าคำถาม</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>ต้องตอบคำถามก่อนส่งแบบทดสอบ</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>บังคับ</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>แสดงเฉพาะเมื่อพนักงานตอบไม่ถูกทุกข้อ</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>เคล็ดลับ: การเลือก &apos;อื่น&apos; จะให้ผู้ลงคะแนนสามารถส่งข้อมูลข้อความเพิ่มเติมได้</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>เขียนคำถามที่ชัดเจน ระบุตัวเลือกที่ถูกต้อง และเพิ่มคำแนะนำสำหรับคำตอบที่ไม่ถูกต้อง</value>
   </data>
 
 </root>

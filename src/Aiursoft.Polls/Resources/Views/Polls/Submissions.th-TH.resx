@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>ไม่ระบุชื่อ</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>ครั้งที่ทำข้อสอบ</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>จำนวนครั้งที่ทำ</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>กลับไปยังรายละเอียด</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>กลับไปที่การสอบ</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>กลับไปที่โพล</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>บันทึกการสอบแบบละเอียด</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>ผลการปฏิบัติงานของพนักงาน</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>ผลการปฏิบัติงานของพนักงาน</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>คะแนนของพนักงานจะแสดงที่นี่หลังจากการส่งงานครั้งแรก</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>คะแนนสูงสุด</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>คะแนนสูงสุดและการพัฒนาคะแนนตลอดทุกการสอบที่เสร็จสมบูรณ์</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>ที่อยู่ IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>ไม่พบการส่งข้อมูล</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>ยังไม่มีคำตอบที่ส่งมา</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>เปิดดูบันทึกการส่งงานตามลำดับเวลาฉบับเต็ม</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>อัตราการผ่าน</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>ผ่าน</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>ผลการดำเนินงาน</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>คะแนน</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>ประวัติคะแนน</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>การส่งข้อมูล</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>เวลาส่ง</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>ส่งเมื่อ</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>ผู้ใช้</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>ดู</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>ดูรายละเอียด</value>

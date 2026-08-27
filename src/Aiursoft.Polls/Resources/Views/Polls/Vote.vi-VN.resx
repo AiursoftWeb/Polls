@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Tất cả các thay đổi đã được lưu</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Khảo sát ẩn danh:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Các câu hỏi đã trả lời được hiển thị bằng màu xanh lá cây.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Câu trả lời được tự động lưu.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Quay lại</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Hoàn thành</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Chọn nhiều</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Ngoại tuyến; lần gửi cuối sẽ được thử lại.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Đánh giá giấy phép trực</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Vui lòng chỉ định...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Điều hướng câu hỏi</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Các câu hỏi</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Sẵn sàng nộp bài?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Lưu thất bại; lần gửi cuối cùng sẽ thử lại.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Đang lưu…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Chọn tất cả các phương án phù hợp</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Chọn một đáp án</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Nộp bài thi</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Đang gửi...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Đang gửi…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Thời gian còn lại</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>tổng số</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Bạn vẫn có thể xem lại và thay đổi câu trả lời trước khi nộp bài.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Bản sắc, địa chỉ IP và dấu vân tay trình duyệt của bạn sẽ KHÔNG được ghi lại. Lá phiếu của bạn hoàn toàn riêng tư.</value>

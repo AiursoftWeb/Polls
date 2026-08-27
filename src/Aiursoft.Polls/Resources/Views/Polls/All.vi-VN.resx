@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Quyền truy cập</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Thao tác</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Hành động</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Tất cả các bài kiểm tra</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Tất cả các cuộc khảo sát</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Đối tượng</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Đã sao chép!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Tạo một cuộc thăm dò mới</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Tạo bài kiểm tra</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Người tạo</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Chi tiết</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Bài thi</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>bài kiểm tra</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Đã sao chép liên kết vào bộ nhớ tạm!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Không tìm thấy bài kiểm tra nào</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Không tìm thấy cuộc khảo sát nào trong hệ thống.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Bài thi của tổ chức</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Các bài kiểm tra của tổ chức sẽ hiển thị tại đây.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Chủ sở hữu</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>câu hỏi</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Xem lại tất cả các bài đánh giá trong toàn tổ chức.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Trạng thái</value>

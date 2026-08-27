@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>접근 유형</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>고급 옵션</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>시험을 만든 후, 선택형 문항을 추가하고 정답을 표시한 다음 채점 설정을 검토하여 게시하세요.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>새로운 시도를 한 번 더 허용합니다.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>허용된 역할</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>익명 설문조사 (데이터베이스는 사용자 정보를 기록하지 않습니다)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>비어 있지 않은 올바른 부분 집합은 모두 동일한 부분 점수를 받습니다. 오답을 선택하면 오답 점수가 적용됩니다.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>직원, 역할, 또는 둘 다를 직접 선택하여 시험을 배정하세요.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>배정</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>응답 동작</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>응시 기본 사항</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>시험 목록으로 돌아가기</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>설문 목록으로 돌아가기</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>부분 정답</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>생성</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>문제 생성 및 추가</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>초안 생성</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>시험 만들기</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>투표 생성</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>마감일</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>선택된 역할의 모든 직원이 시험을 볼 수 있습니다.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>시험 정보</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>시험의 목적, 범위, 그리고 직원이 준비해야 할 사항을 설명하세요.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>실패 메시지</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>정답</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>직원들이 이 평가의 목적을 이해할 수 있도록 충분한 배경 정보를 제공하세요.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>오답 선택지 포함</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>새 평가</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>온콜 라이선스 평가</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>합격 메시지</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>합격 점수</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>응시당 문제 수</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>선택지를 독립적으로 무작위로 섞습니다.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>추출된 문제 순서를 무작위로 변경합니다.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>결과 공개 범위</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>결과 및 피드백</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>채점 모델</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>채점, 무작위화, 결과 표시 및 피드백 메시지.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>기본 사항부터 시작하세요. 시험이 생성된 후에 문제가 추가됩니다.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>시험은 게시하기 전까지 비공개로 유지되며 편집할 수 있습니다.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>시작 전에 직원이 이해해야 하는 설정입니다.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>시간 제한</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>모든 문제를 포함하려면 0을 입력하세요.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>다음 단계</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>이 시험에 응시할 수 있는 대상</value>
   </data>
 
 </root>

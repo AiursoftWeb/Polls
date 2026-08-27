@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="active shares" xml:space="preserve">
+    <value>활성 공유</value>
+  </data>
+  <data name="Add collaborator" xml:space="preserve">
+    <value>협업자 추가</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
+  </data>
+  <data name="Collaboration" xml:space="preserve">
+    <value>협업</value>
+  </data>
+  <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
+    <value>협업자는 시험을 검토하거나 편집할 수 있습니다. 응시를 위해 지정된 직원에게는 정답이나 점수 관리에 대한 접근 권한이 부여되지 않습니다.</value>
+  </data>
+  <data name="Current collaborators" xml:space="preserve">
+    <value>현재 협업자</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="No collaborators" xml:space="preserve">
+    <value>협업자가 없습니다</value>
+  </data>
+  <data name="Only you can manage this exam right now." xml:space="preserve">
+    <value>현재는 오직 귀하만이 이 시험을 관리할 수 있습니다.</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>권한</value>
+  </data>
+  <data name="Read-only can inspect results. Editable can also change exam settings and questions." xml:space="preserve">
+    <value>읽기 전용은 결과를 조회할 수 있습니다. 편집 가능은 시험 설정과 문제도 변경할 수 있습니다.</value>
+  </data>
+  <data name="Recipient type" xml:space="preserve">
+    <value>수신자 유형</value>
+  </data>
+  <data name="Remove access" xml:space="preserve">
+    <value>접근 권한 제거</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Select a role..." xml:space="preserve">
+    <value>역할을 선택하세요...</value>
+  </data>
+  <data name="Select an employee..." xml:space="preserve">
+    <value>직원 선택...</value>
+  </data>
+  <data name="Share exam" xml:space="preserve">
+    <value>시험 공유</value>
+  </data>
+  <data name="Share with one employee or one role at a time." xml:space="preserve">
+    <value>한 번에 직원 한 명 또는 역할 하나와 공유하세요.</value>
+  </data>
+  <data name="Sharing is separate from assignment" xml:space="preserve">
+    <value>공유는 할당과 별개입니다</value>
+  </data>
+
+</root>

@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>사용자 정의 텍스트 허용</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>정답 선택지</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>정답 유형</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>정확한 질문을 하나만 입력하세요...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>문제 작성 팁</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>옵션의 길이나 표현에 기반한 단서를 피하세요. 각 옵션을 평행하고 모호하지 않게 작성하세요.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>투표로 돌아가기</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>정답</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>정답에 대한 추론과 원리를 설명하세요...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>모든 정답 옵션을 표시하세요. 응시 시 표시 순서는 무작위로 변경될 수 있습니다.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>옵션 텍스트</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>기타</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>문제 작성기</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>질문 내용</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>문제 설정</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>옵션 삭제</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>제출 전에 답변을 필수로 설정합니다.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>필수</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>직원이 완전히 정답을 맞히지 못한 경우에만 표시됩니다.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>팁: &apos;기타&apos;를 선택하면 투표자가 추가 텍스트 정보를 제출할 수 있습니다.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>명확한 질문을 작성하고, 정답을 표시하며, 오답에 대한 설명을 추가하세요.</value>
   </data>
 
 </root>

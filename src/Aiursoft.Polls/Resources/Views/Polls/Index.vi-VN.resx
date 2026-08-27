@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Hành động</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Trung tâm đánh giá</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Đã sao chép!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Sao chép liên kết</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Tạo một cuộc khảo sát mới</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Tạo bài thi</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Tạo bài đánh giá nhân viên đầu tiên của bạn, thêm câu hỏi, rồi giao bài cho mọi người hoặc các vai trò.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Tạo, phân công và xem xét các bài đánh giá nhân viên tại một nơi duy nhất.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Chi tiết</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Bài thi</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Khảo sát của tôi</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Chưa có bài kiểm tra nào</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Mở bài kiểm tra</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Các khảo sát tôi quản lý</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Quản lý khảo sát</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>câu hỏi</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Trạng thái</value>

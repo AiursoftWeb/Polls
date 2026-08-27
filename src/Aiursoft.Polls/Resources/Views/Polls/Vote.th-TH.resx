@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนแปลงทั้งหมดแล้ว</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>การสำรวจแบบไม่ระบุชื่อ:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>ตอบแล้ว</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>คำถามที่ตอบแล้วจะแสดงเป็นสีเขียว</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>คำตอบจะถูกบันทึกอัตโนมัติ</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>ย้อนกลับ</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>เสร็จสิ้น</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>นาที</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>เลือกได้หลายข้อ</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>ออฟไลน์; การส่งครั้งสุดท้ายจะลองใหม่อีกครั้ง</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>การประเมินใบอนุญาต On-call</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>โปรดระบุ...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>ตัวนำทางข้อสอบ</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>คำถาม</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>พร้อมส่งหรือยัง?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>การบันทึกล้มเหลว การส่งครั้งสุดท้ายจะลองใหม่</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>กำลังบันทึก…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>เลือกทุกข้อที่ใช่</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>เลือกข้อเดียว</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>ส่งข้อสอบ</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>กำลังส่ง...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>กำลังส่ง…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>เวลาที่เหลือ</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>ทั้งหมด</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>คุณยังสามารถตรวจทานและเปลี่ยนแปลงคำตอบได้ก่อนส่งคำตอบ</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>ตัวตน, ที่อยู่ IP, และลายนิ้วมือเบราว์เซอร์ของคุณจะไม่ถูกบันทึก การลงคะแนนของคุณเป็นความส่วนตัวอย่างสมบูรณ์</value>

@@ -24,8 +24,23 @@
   <data name="Access:" xml:space="preserve">
     <value>Quyền truy cập:</value>
   </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>Nhật ký hoạt động</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>Thêm và xem lại các câu hỏi, sau đó xuất bản khi đề thi đã sẵn sàng.</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>Thêm câu hỏi đầu tiên</value>
+  </data>
   <data name="Add Question" xml:space="preserve">
     <value>Thêm câu hỏi</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>Chấm điểm và trộn ngẫu nhiên nâng cao</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Ẩn danh</value>
@@ -35,6 +50,9 @@
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>Anonymous: Danh tính và địa chỉ IP sẽ KHÔNG được ghi lại.</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>Giải thích đáp án</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Bạn có chắc chắn muốn xóa bỏ cuộc khảo sát này không? Đây là xóa mềm.</value>
@@ -48,14 +66,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>Bạn có chắc chắn muốn kết thúc cuộc khảo sát này không?</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Lượt thi</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Quay lại danh sách bài thi</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>Quay lại danh sách</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>Xây dựng bài thi bằng cách thêm câu hỏi trắc nghiệm đầu tiên.</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>Chọn thời hạn mới và cho phép nhân viên bắt đầu các lượt làm bài mới.</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>Người cộng tác</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>Xác nhận hành động</value>
@@ -66,11 +99,23 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Sao chép liên kết</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>Sao chép liên kết người tham gia</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>Chính xác</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Bộ con đúng</value>
+  </data>
   <data name="Created By" xml:space="preserve">
     <value>Người tạo</value>
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Do bởi:</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>Hạn chót hiện tại</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Vùng Nguy Hiểm</value>
@@ -84,8 +129,20 @@
   <data name="Delete" xml:space="preserve">
     <value>Xóa</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>Xóa bài kiểm tra</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Thời lượng</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Chỉnh sửa</value>
+  </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>Sửa câu hỏi</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Đủ điều kiện</value>
   </data>
   <data name="Eligible Voters" xml:space="preserve">
     <value>Người đủ điều kiện bỏ phiếu</value>
@@ -93,11 +150,38 @@
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Phổ thông cử tri:</value>
   </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Kết quả nhân viên</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>Nhân viên có thể bắt đầu một lượt thi có thời hạn mới cho đến khi hết hạn.</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>Tổng quan bài thi</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>Đã xuất bản bài kiểm tra</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>Cấu hình bài thi</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Xuất khẩu nhân viên đang chờ xử lý</value>
+  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Xuất người dùng đang chờ</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>Kéo dài</value>
+  </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>Kéo dài hạn chót</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>Câu trả lời đầy đủ</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>Ẩn bài kiểm tra khỏi các chế độ xem thông thường. Đây là xóa mềm.</value>
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Hủy bỏ</value>
@@ -105,14 +189,35 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Liên kết đã được sao chép vào bộ nhớ tạm!</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>Quản lý tính khả dụng và vòng đời của kỳ thi.</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>Quản lý</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>Công cụ tham gia bổ sung</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>Thêm thao tác câu hỏi</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>Di chuyển xuống</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Di chuyển lên</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>Hiện không có lượt thử mới nào.</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>Không có mô tả.</value>
@@ -123,11 +228,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>Chưa có câu hỏi nào được thêm vào cuộc khảo sát này.</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>Chưa có câu hỏi nào</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>Thông báo cho nhân viên chưa hoàn thành bài thi.</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>Mở bài thi này cho các nhân viên được phân công.</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>Nhật ký hoạt động</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>Khác</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Chủ sở hữu</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Trạng thái người tham gia</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Sự tham gia</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Điểm đạt</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Đang chờ</value>
   </data>
   <data name="Pending Voters" xml:space="preserve">
     <value>Người chờ phê duyệt</value>
@@ -147,14 +276,26 @@
   <data name="Publish" xml:space="preserve">
     <value>Công bố</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>Công bố bài kiểm tra</value>
+  </data>
   <data name="Q:" xml:space="preserve">
     <value>Câu hỏi:</value>
   </data>
   <data name="Questions" xml:space="preserve">
     <value>Câu hỏi</value>
   </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>câu hỏi trong bài kiểm tra này</value>
+  </data>
   <data name="Remind" xml:space="preserve">
     <value>Nhắc nhở</value>
+  </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>Mở lại bài thi</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>Thử lại nhiều lần</value>
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Khả năng hiển thị kết quả</value>
@@ -162,17 +303,50 @@
   <data name="Result Visibility:" xml:space="preserve">
     <value>Khả năng hiển thị kết quả:</value>
   </data>
+  <data name="Results" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>Xem lại lượt thi</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>Xem lại cài đặt</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>được chọn ngẫu nhiên cho mỗi lượt</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>Gửi lời nhắc</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Xáo trộn đáp án</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Xáo trộn câu hỏi</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Trạng thái</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Trạng thái:</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>Dừng các lần thi mới nhưng vẫn giữ nguyên kỳ thi và kết quả của nó.</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>Kết thúc</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>Kết thúc kỳ thi</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>Cảm ơn bạn đã tham gia! Bạn đã gửi câu trả lời của mình.</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>Các thao tác này ngăn chặn quyền truy cập hoặc xóa bài kiểm tra khỏi các chế độ xem thông thường.</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>Không thể phát hành bài kiểm tra</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>Xem Kết Quả</value>
@@ -186,11 +360,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>Bỏ phiếu ngay</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>Đã chọn phương án sai</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>Có</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Bạn đã bỏ phiếu</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>Điểm mới nhất của bạn</value>
   </data>
 
 </root>

@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Ẩn danh</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Lượt thi</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Số lần thi</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Quay lại chi tiết</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Quay lại bài thi</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Nhật ký chi tiết các lần thi</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Hiệu suất nhân viên</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Kết quả của nhân viên</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Điểm của nhân viên sẽ hiển thị tại đây sau lần nộp bài đầu tiên của họ.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Điểm cao nhất</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Điểm cao nhất và sự tiến bộ của điểm số qua mỗi lần thử hoàn thành.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>Địa chỉ IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Không tìm thấy bản nộp nào.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Chưa có bài nộp nào</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Mở sổ đăng ký nộp bài theo thứ tự thời gian đầy đủ.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Tỷ lệ đạt</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Đạt</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Hiệu suất</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Lịch sử điểm số</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Dữ liệu gửi</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Thời gian gửi</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Đã nộp</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Người dùng</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Xem</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Xem chi tiết</value>

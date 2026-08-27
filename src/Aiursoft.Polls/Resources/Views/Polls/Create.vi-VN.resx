@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>Loại truy cập</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Tùy chọn nâng cao</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>Sau khi tạo bài thi, thêm các câu hỏi trắc nghiệm, đánh dấu đáp án đúng, xem xét cấu hình chấm điểm, sau đó công bố.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Cho phép làm lại một lần nữa.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Vai trò được phép</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Khảo sát ẩn danh (Cơ sở dữ liệu sẽ không ghi lại thông tin người dùng)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Mọi tập hợp con đúng khác rỗng đều nhận cùng một điểm từng phần. Việc chọn bất kỳ phương án sai nào sẽ áp dụng điểm dành cho phương án sai.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Phân công bài kiểm tra trực tiếp cho nhân viên, vai trò hoặc cả hai.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Gán nhiệm vụ</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Hành vi làm bài</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Cấu hình thi thử</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Quay lại bài thi</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Tập con đúng</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>Tạo</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>Tạo và thêm câu hỏi</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>Tạo bản nháp</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Tạo bài kiểm tra</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Tạo cuộc thăm dò</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Mọi nhân viên thuộc vai trò được chọn đều có thể tham gia bài kiểm tra.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Thông tin bài thi</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>Mô tả mục đích, phạm vi và bất kỳ công việc chuẩn bị nào mà nhân viên cần hoàn thành.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Thông báo khi không đạt</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Đúng hoàn toàn</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>Cung cấp cho nhân viên đủ ngữ cảnh để hiểu mục đích của bài đánh giá này.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Chứa phương án sai</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>Bài đánh giá mới</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Đánh giá giấy phép trực hỗ trợ</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Thông báo đạt</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Điểm đạt</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Câu hỏi mỗi lượt thi</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Xáo trộn các lựa chọn một cách độc lập.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Xáo trộn thứ tự câu hỏi được chọn.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Hiển thị kết quả</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Kết quả và phản hồi</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Mô hình chấm điểm</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Chấm điểm, randomization, hiển thị kết quả và thông tin phản hồi.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>Bắt đầu với những điều cơ bản. Các câu hỏi sẽ được thêm vào sau khi bài kiểm tra được tạo.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>Bài thi sẽ giữ nguyên trạng thái riêng tư và có thể chỉnh sửa cho đến khi bạn công bố.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>Các cài đặt mà nhân viên cần hiểu trước khi bắt đầu.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Giới hạn thời gian</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Nhập 0 để bao gồm tất cả câu hỏi.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>Điều gì xảy ra tiếp theo</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Ai có thể làm bài thi này</value>
   </data>
 
 </root>

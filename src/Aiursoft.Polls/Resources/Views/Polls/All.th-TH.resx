@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>การเข้าถึง</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>การจัดการ</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>การดำเนินการ</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>การจัดการ</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>การสอบทั้งหมด</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>แบบสำรวจทั้งหมด</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>ผู้เข้าร่วม</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>คัดลอกแล้ว!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>สร้างโพลใหม่</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>สร้างข้อสอบ</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>ผู้สร้าง</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>รายละเอียด</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>การสอบ</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>การสอบ</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>นาที</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>ไม่พบข้อสอบ</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>ไม่พบการสำรวจในระบบ</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>การสอบขององค์กร</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>การสอบขององค์กรจะแสดงที่นี่</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>ผู้รับผิดชอบ</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>คำถาม</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>ตรวจสอบการประเมินทั้งหมดทั่วทั้งองค์กร</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>สถานะ</value>

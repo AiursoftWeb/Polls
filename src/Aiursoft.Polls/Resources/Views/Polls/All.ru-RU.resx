@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Доступ</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Действия</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Администрирование</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Все экзамены</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Все опросы</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Аудитория</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Скопировано!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Создать новый опрос</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Создать экзамен</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Создатель</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Подробнее</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Экзамен</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>экзаменов</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Ссылка скопирована в буфер обмена!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Экзамены не найдены</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Опросов в системе не найдено.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Экзамены организации</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Здесь появятся экзамены организации.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>вопросов</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Просматривайте все оценки по всей организации.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Статус</value>

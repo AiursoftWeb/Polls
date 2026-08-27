@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Добавить вариант</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Варианты ответов</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Тип ответа</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Вернуться к экзамену</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад к опросу</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Правильный ответ</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Редактировать вопрос</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Существующие попытки сохраняют свой исходный снимок. Эта версия используется для будущих попыток.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Пояснение</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>История сохраняется</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Отметьте все правильные варианты. Порядок их отображения может быть случайным при прохождении теста.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Текст варианта</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Другое</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Конструктор вопросов</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Формулировка вопроса</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Настройки вопроса</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Уточните формулировку вопроса, варианты ответов и учебные рекомендации.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Удалить вариант</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Требуется ответ перед отправкой.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Обязательно</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Сохранить</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Сохранить вопрос</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Отображается только в том случае, если ответ сотрудника не является полностью правильным.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Совет: выбор варианта «Другое» позволяет избирателю ввести дополнительный текстовый ответ.</value>

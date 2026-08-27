@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Аноним</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Попытка</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Попытки</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Назад к деталям</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Вернуться к экзамену</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад к опросу</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Подробный журнал попыток</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Производительность сотрудников</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Результаты сотрудников</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Оценки сотрудников появятся здесь после их первой подачи.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Сотрудники</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Наивысший балл</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Наивысший балл и динамика результатов по всем завершённым попыткам.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-адрес</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Нет найденных заявок.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Отправленных работ пока нет</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Откройте полный хронологический журнал представлений.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Процент сдачи</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Пройдено</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>История оценок</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Заявки</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Время отправки</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Пользователь</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Просмотр</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Посмотреть детали</value>

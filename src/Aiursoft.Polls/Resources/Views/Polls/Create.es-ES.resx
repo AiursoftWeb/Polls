@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>Tipo de acceso</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Opciones avanzadas</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>Tras crear el examen, añade preguntas de opción múltiple, marca las respuestas correctas, revisa la configuración de puntuación y, a continuación, publícalo.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Permitir un nuevo intento.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Roles permitidos</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Encuesta anónima (la base de datos no registrará la información del usuario)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Cualquier subconjunto correcto no vacío recibe la misma puntuación parcial. Seleccionar cualquier opción incorrecta aplica la puntuación de opción incorrecta.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Asigne el examen directamente a empleados, roles o a ambos.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Asignaciones</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Comportamiento de los intentos</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Datos esenciales del intento</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Volver a los exámenes</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Volver a las encuestas</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Subconjunto correcto</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>Crear</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>Crear y añadir preguntas</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>Crear borrador</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Crear examen</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Crear encuesta</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>Fecha límite</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Empleados</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Cada empleado de un rol seleccionado puede realizar el examen.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Identidad del examen</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>Explique el propósito, el alcance y la preparación que los empleados deben completar.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Mensaje de error</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Completamente correcto</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>Proporcione a los empleados el contexto necesario para entender el propósito de esta evaluación.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Incluye una opción incorrecta</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>Nueva evaluación</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Evaluación de licencia de guardia</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Mensaje de superación</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Puntuación aprobatoria</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Preguntas por intento</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Aleatoriza las opciones de forma independiente.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Aleatorizar el orden de las preguntas seleccionadas.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Visibilidad de resultados</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Resultados y retroalimentación</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Modelo de puntuación</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Puntuación, aleatorización, visibilidad de resultados y mensajes de retroalimentación.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>Comience con lo esencial. Las preguntas se añaden después de crear el examen.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>El examen permanece privado y editable hasta que lo publiques.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>La configuración que los empleados deben comprender antes de comenzar.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Límite de tiempo</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Use 0 para incluir todas las preguntas.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>Qué sucede a continuación</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Quién puede realizar este examen</value>
   </data>
 
 </root>

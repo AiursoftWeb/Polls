@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonyme</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Tentative</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Tentatives</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Retour aux détails</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Retour à l&apos;examen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Retour au sondage</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Journal détaillé des tentatives</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employé</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Performance des employés</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Résultats des employés</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Les scores des employés s&apos;afficheront ici après leur première soumission.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Meilleur score</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Meilleur score et progression des scores sur toutes les tentatives terminées.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>Adresse IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Aucune soumission trouvée.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Aucune soumission pour le moment</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Ouvrir le registre chronologique complet des soumissions.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Taux de réussite</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Réussis</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Historique des scores</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Soumissions</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Heure de soumission</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Soumis</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Utilisateur</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Afficher</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Voir les détails</value>

@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Accès</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Actions</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Tous les examens</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Tous les sondages</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Public</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Copié !</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Créer un nouveau sondage</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Créer un examen</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Créateur</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Détails</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Examen</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>examens</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Lien copié dans le presse-papiers !</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Aucun examen trouvé</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Aucun sondage trouvé dans le système.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Examens de l&apos;organisation</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Les examens de l&apos;organisation s&apos;afficheront ici.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>questions</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Consultez chaque évaluation de l&apos;organisation.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Statut</value>

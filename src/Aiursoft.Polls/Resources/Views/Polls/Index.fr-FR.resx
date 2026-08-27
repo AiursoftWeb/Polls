@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Actions</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Centre d&apos;évaluation</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Copié !</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Copier le lien</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Créer un nouveau sondage</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Créer un examen</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Créez votre première évaluation d&apos;employé, ajoutez des questions, puis assignez-la à des personnes ou des rôles.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Créez, attribuez et consultez les évaluations des employés depuis un seul endroit.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Date limite</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Détails</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Examens</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Lien copié dans le presse-papiers !</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mes sondages</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Aucun examen pour le moment</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Ouvrir l&apos;examen</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Sondages que je gère</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Gestion des sondages</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>questions</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Statut</value>

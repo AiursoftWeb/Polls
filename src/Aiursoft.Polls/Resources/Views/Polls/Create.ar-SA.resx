@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>نوع الوصول</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>الخيارات المتقدمة</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>بعد إنشاء الاختبار، أضف أسئلة الاختيار من متعدد، وحدد الإجابات الصحيحة، وراجع إعدادات احتساب الدرجات، ثم انشره.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>السماح بمحاولة جديدة أخرى.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>الأدوار المسموح بها</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>تصويت مجهول (لن يسجل قاعدة البيانات معلومات المستخدم)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>يحصل أي مجموعة فرعية صحيحة غير فارغة على نفس الدرجة الجزئية. اختيار أي خيار خاطئ يستوجب تطبيق درجة الخيار الخاطئ.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>أسند الاختبار مباشرة إلى الموظفين أو الأدوار أو كلاهما.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>التكليفات</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>سلوك المحاولة</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>أساسيات المحاولة</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>العودة إلى الاختبارات</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>العودة إلى الاستطلاعات</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>المجموعة الفرعية الصحيحة</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>إنشاء</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>إنشاء وإضافة الأسئلة</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>إنشاء مسودة</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>إنشاء اختبار</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>إنشاء استبيان</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>الموعد النهائي</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>الموظفون</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>يمكن لأي موظف في دور مُحدَّد أداء الامتحان.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>هوية الاختبار</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>اشرح الغرض والنطاق وأي استعدادات يجب على الموظفين إتمامها.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>رسالة الفشل</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>إجابة صحيحة تمامًا</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>وفّر للموظفين سياقًا كافيًا لفهم الغرض من هذا التقييم.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>يشمل خيارًا خاطئًا</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>تقييم جديد</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>تقييم ترخيص المناوبة</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>رسالة النجاح</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>الدرجة النهائية للنجاح</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>عدد الأسئلة لكل محاولة</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>أعد ترتيب الخيارات بشكل مستقل.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>ترتيب الأسئلة المختارة عشوائيًا.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>رؤية النتائج</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>النتائج والتغذية الراجعة</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>الأدوار</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>نموذج التقييم</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>التقييم، العشوائية، وضوح النتائج، ورسائل الملاحظات.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>ابدأ بالأساسيات. تُضاف الأسئلة بعد إنشاء الاختبار.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>تبقى الامتحان خاصًا وقابلًا للتعديل حتى تقوم بنشره.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>الإعدادات التي يحتاج الموظفون إلى فهمها قبل البدء.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>الحد الزمني</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>استخدم 0 لتضمين كل سؤال.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>ماذا يحدث بعد ذلك</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>من يمكنه أداء هذا الاختبار</value>
   </data>
 
 </root>

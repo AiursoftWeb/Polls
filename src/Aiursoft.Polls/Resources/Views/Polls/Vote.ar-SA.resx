@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>تم حفظ جميع التغييرات</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>تصويت مجهول:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>مُجيب</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>تظهر الأسئلة المُجاب عنها باللون الأخضر.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>تُحفظ الإجابات تلقائيًا.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>محاولة</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>التالي</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>إنهاء</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>اختيار متعدد</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>غير متصل؛ ستتم إعادة محاولة الإرسال النهائي.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>تقييم ترخيص الخدمة الفورية</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>يرجى التحديد...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>مُتنقّل الأسئلة</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>الأسئلة</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>هل أنت مستعد للإرسال؟</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>فشل الحفظ؛ سيتم إعادة المحاولة عند الإرسال النهائي.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>جارٍ الحفظ…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>اختر كل ما ينطبق</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>اختيار واحد</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>إرسال الاختبار</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>جاري الإرسال...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>جارٍ الإرسال…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>الوقت المتبقي</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>إجمالي</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>لا يزال بإمكانك مراجعة الإجابات وتغييرها قبل الإرسال.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>لن يتم تسجيل هويتك، عنوان IP، وبصمة المتصفح الخاص بك. تصويتك خاص تماماً.</value>

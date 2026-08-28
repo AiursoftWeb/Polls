@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Permitir texto personalizado</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Opções de resposta</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Tipo de resposta</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Faça uma pergunta precisa...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Dica de criação</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Evite dar pistas com base no tamanho ou na redação das opções. Mantenha cada opção paralela e sem ambiguidades.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Voltar à prova</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Voltar à Enquete</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Resposta correta</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Explique o raciocínio e o princípio operacional por trás da resposta...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Explicação</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Marque todas as opções corretas. A ordem de exibição pode ser aleatorizada durante uma tentativa.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Texto da opção</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Outro</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Criador de perguntas</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Configurações da pergunta</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Remover opção</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Exigir uma resposta antes do envio.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Obrigatório</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Exibida apenas quando o colaborador não estiver totalmente correto.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Dica: Marcar &quot;Outro&quot; permite que o eleitor envie informações de texto adicionais.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Escreva um enunciado claro, marque as alternativas corretas e adicione orientações para as respostas incorretas.</value>
   </data>
 
 </root>

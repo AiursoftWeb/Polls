@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Azioni</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Centro di valutazione</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Copiato!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Copia link</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Crea un nuovo sondaggio</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Crea esame</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Crea la tua prima valutazione dei dipendenti, aggiungi delle domande e assegnala a persone o ruoli.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Crea, assegna e valuta le valutazioni dei dipendenti da un unico posto.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Scadenza</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Dettagli</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Esami</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link copiato negli appunti!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuti</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>I miei sondaggi</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Nessun esame per ora</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Apri esame</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Sondaggi che gestisco</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Gestione Sondaggi</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>domande</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Stato</value>

@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Acties</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Beoordelingscentrum</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Gekopieerd!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Link kopiëren</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Nieuwe peiling maken</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Examen maken</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Maak je eerste medewerkerbeoordeling, voeg vragen toe en wijs deze toe aan personen of rollen.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Maak, wijs en beoordeel medewerkerbeoordelingen vanuit één plek.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Vervaldatum</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Details</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Examens</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link gekopieerd naar klembord!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuten</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mijn polls</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Nog geen examens</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Open examen</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Polls die ik beheer</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Pollsbeheer</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>vragen</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

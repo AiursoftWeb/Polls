@@ -24,11 +24,35 @@
   <data name="Access Type" xml:space="preserve">
     <value>Åtkomsttyp</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Avancerade alternativ</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Tillåt ett nytt försök.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tillåtna roller</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonym omröstning (databasen sparar inte användarinformation)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Varje icke-tom korrekt delmängd får samma delpoäng. Om något felaktigt alternativ väljs används poängen för felaktigt alternativ.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Tilldela provet direkt till anställda, roller eller båda.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Uppdrag</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Beteende vid försök</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Grundläggande inställningar för försök</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tillbaka till examinationen</value>
   </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tillbaka till omröstningen</value>
@@ -36,17 +60,104 @@
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>
   </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>Slutförda försök behåller sina ursprungliga ögonblicksbilder av frågor och poängsättning.</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>Kärnregler som visas för varje anställd.</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Rätt delmängd</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Inlösningsdag</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Redigera prov</value>
   </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Redigera omröstning</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>All anställda i en vald roll kan göra provet.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Examensidentitet</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Felmeddelande</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Fullt korrekt</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Inkluderar ett felaktigt alternativ</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>Håll medarbetarupplevelsen fokuserad samtidigt som du bibehåller exakt poängkontroll.</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Betygsmeddelande</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Godkänt resultat</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Frågor per försök</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Blanda om svarsalternativen oberoende.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Blanda ordningen på de utvalda frågorna.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Resultatsynlighet</value>
   </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Resultat och feedback</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>Granska målgrupp och poängsättning noggrant innan du publicerar eller fortsätter en aktiv examination.</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
   <data name="Save" xml:space="preserve">
     <value>Spara</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Spara ändringar</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>Poängsättningsändringar påverkar framtida försök</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Poängsättningsmodell</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Poängsättning, slumpning, synlighet av resultat och feedbackmeddelanden.</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>Titeln och sammanhanget som anställda ser innan de börjar.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Tidsbegränsning</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Använd 0 för att inkludera alla frågor.</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Vem kan ta denna examen</value>
   </data>
 
 </root>

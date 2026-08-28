@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anônimo</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Tentativa</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Tentativas</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Voltar aos detalhes</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Voltar para a prova</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Voltar à Enquete</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Registro detalhado de tentativas</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Desempenho dos colaboradores</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Resultados dos funcionários</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>As notas dos funcionários aparecerão aqui após o primeiro envio.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Funcionários</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Maior pontuação</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Maior pontuação e evolução das pontuações em todas as tentativas concluídas.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>Endereço IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Nenhuma submissão encontrada.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Nenhuma submissão ainda</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Abra o registro cronológico completo de submissões.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Taxa de aprovação</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Desempenho</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Histórico de pontuações</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Envios</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Data de Envio</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Enviado</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Usuário</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visualizar</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Ver detalhes</value>

@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>مجهول</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>محاولة</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>المحاولات</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>عودة إلى التفاصيل</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>العودة إلى الامتحان</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>العودة إلى الاستطلاع</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>سجل المحاولات التفصيلي</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>موظف</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>أداء الموظف</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>نتائج الموظفين</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>ستظهر درجات الموظفين هنا بعد إرسالهم أول إجابة.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>الموظفون</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>أعلى درجة</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>أعلى درجة وتطور الدرجات عبر جميع المحاولات المكتملة.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>عنوان IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>لم يتم العثور على أي تقديمات.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>لا توجد إقرارات بعد</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>افتح السجل الزمني الكامل للإرسالات.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>معدل النجاح</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>ناجح</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>الأداء</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>الدرجة</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>سجل الدرجات</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>المشاركات</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>وقت الإرسال</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>مُقدَّم</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>المستخدم</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>عرض التفاصيل</value>

@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>إضافة خيار</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>خيارات الإجابة</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>نوع الإجابة</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>العودة إلى الاختبار</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>العودة إلى الاستطلاع</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>إجابة صحيحة</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>تعديل السؤال</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>تحتفظ المحاولات الحالية بنسخها الأصلية. تُستخدم هذه الإصدار للمحاولات المستقبلية.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>الشرح</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>تبقى السجل كما هو</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>حدد كل خيار صحيح. يمكن عشوائية ترتيب عرضهم أثناء المحاولة.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>نص الخيار</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>أخرى</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>منشئ الأسئلة</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>نص السؤال</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>إعدادات السؤال</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>حسّن النص والخيارات والإرشادات التعليمية.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>إزالة الخيار</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>تتطلب إجابة قبل الإرسال.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>مطلوب</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>حفظ</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>حفظ السؤال</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>يُعرض فقط عندما لا تكون إجابة الموظف صحيحة بالكامل.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>نصيحة: يتيح تحديد &quot;آخر&quot; للمصوت تقديم معلومات نصية إضافية.</value>

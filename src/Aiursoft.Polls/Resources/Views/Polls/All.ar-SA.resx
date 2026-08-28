@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>الصلاحيات</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>الإجراء</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>الإجراءات</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>الإدارة</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>جميع الاختبارات</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>جميع الاستطلاعات</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>الجمهور</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>تم النسخ!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>إنشاء استبيان جديد</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>إنشاء اختبار</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>المُنشِئ</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>التفاصيل</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>الاختبار</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>الاختبارات</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>تم نسخ الرابط إلى الحافظة!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>لم يتم العثور على امتحانات</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>لم يتم العثور على استطلاعات في النظام.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>امتحانات المؤسسة</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>ستظهر اختبارات المؤسسة هنا.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>المالك</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>أسئلة</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>راجع جميع التقييمات في جميع أنحاء المؤسسة.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>الحالة</value>

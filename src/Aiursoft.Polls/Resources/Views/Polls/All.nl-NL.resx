@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Toegang</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Actie</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Acties</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Beheer</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Alle examens</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Alle polls</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Doelgroep</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Gekopieerd!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Een nieuwe enquête maken</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Examen aanmaken</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Maker</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Details</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Examen</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>examens</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link gekopieerd naar het klembord!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Geen examens gevonden</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Geen peilingen gevonden in het systeem.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Organisatie-examens</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Organisatie-examens verschijnen hier.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Eigenaar</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>vragen</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Beoordeel alle assessments binnen de organisatie.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anoniem</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Poging</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Pogingen</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Terug naar details</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Terug naar het examen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Terug naar de enquête</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Gedetailleerd pogingslogboek</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Medewerker</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Prestaties van medewerkers</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Resultaten werknemers</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Scores van medewerkers verschijnen hier na hun eerste inzending.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Medewerkers</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Hoogste score</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Hoogste score en scoreontwikkeling over alle voltooide pogingen.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-adres</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Geen inzendingen gevonden.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Nog geen inzendingen</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Open het volledige chronologische inzendingenregister.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Slagingspercentage</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Geslaagd</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Prestaties</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Scoregeschiedenis</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Inschrijvingen</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Indientijdstip</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Ingediend</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Bekijken</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Details bekijken</value>

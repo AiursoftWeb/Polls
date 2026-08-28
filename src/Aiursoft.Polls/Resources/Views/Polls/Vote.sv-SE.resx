@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Alla ändringar sparade</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonym omröstning:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>besvarad</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Besvarade frågor visas i grön färg.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Svaren sparas automatiskt.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Tillbaka</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Slutför</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Flerval</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; den slutliga inlämningen kommer att göras på nytt.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Tjänstgörande licensbedömning</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Vänligen ange...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Frågebläddrare</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Frågor</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Redo att skicka in?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Sparningen misslyckades; den slutliga inlämningen kommer att försöka igen.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Sparar…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Välj alla som stämmer</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Enskilt val</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Skicka in provet</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Skickas...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Skickar…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Tid kvar</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Du kan fortfarande granska och ändra svar innan du skickar in.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Din identitet, IP-adress och webbläsarfingeravtryck kommer INTE att sparas. Din röst är helt privat.</value>

@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Optie toevoegen</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Antwoordopties</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Antwoordtype</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Terug naar de exam</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Terug naar de enquête</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Correct antwoord</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Vraag bewerken</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Bestaande pogingen behouden hun originele momentopname. Deze versie wordt gebruikt voor toekomstige pogingen.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Uitleg</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Geschiedenis blijft intact</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Markeer alle juiste opties. De weergegeven volgorde kan tijdens een poging willekeurig worden gerangschikt.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Optietekst</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Andere</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Vraagmaker</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Vraagstelling</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Vraaginstellingen</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Verfijn de vraagtekst, antwoordopties en leidinggevende instructies.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Optie verwijderen</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Een antwoord is verplicht vóór het indienen.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Verplicht</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Opslaan</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Vraag opslaan</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Alleen zichtbaar wanneer de medewerker niet volledig correct is.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Tip: Door &apos;Andere&apos; te selecteren kan de kiezer aanvullende tekstinformatie indienen.</value>

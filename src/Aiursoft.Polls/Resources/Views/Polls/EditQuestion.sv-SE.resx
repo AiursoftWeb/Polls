@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Lägg till alternativ</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Svarsalternativ</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Svartyp</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tillbaka till provet</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tillbaka till omröstningen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Rätt svar</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Redigera fråga</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Befintliga försök behåller sin ursprungliga ögonblicksbild. Denna version används för framtida försök.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Förklaring</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Historiken förblir oförändrad</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Markera alla korrekta alternativ. Deras visningsordning kan slumpas under ett försök.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Alternativtext</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Annat</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Frågebyggare</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Frågeformulering</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Frågeställning</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Förfina frågan, svarsalternativen och lärandestödet.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Ta bort alternativ</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Kräv ett svar innan inlämning.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Obligatorisk</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Spara</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Spara fråga</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Visas endast när medarbetaren inte har rätt på alla frågor.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Tips: Att kryssa i &apos;Andra&apos; tillåter väljaren att skicka in ytterligare textinformation.</value>

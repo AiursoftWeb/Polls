@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>Toegangstype</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Geavanceerde opties</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>Maak na het aanmaken van de examen meerkeuzevragen, markeer de juiste antwoorden, controleer de scoreinstellingen en publiceer vervolgens.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Sta een nieuwe poging toe.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Toegestane rollen</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonieme enquête (database slaat geen gebruikersgegevens op)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Elke niet-lege juiste deelverzameling krijgt dezelfde deelscore. Het selecteren van een onjuiste optie resulteert in de onjuiste-optiescore.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Wijs de examen rechtstreeks toe aan medewerkers, rollen of beide.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Toewijzingen</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Pogingsgedrag</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Essentiële instellingen</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Terug naar de examens</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Terug naar peilingen</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Correct deelverzameling</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>Aanmaken</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>Maken en vragen toevoegen</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>Concept maken</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Examen maken</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Poll maken</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>Deadline</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Medewerkers</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Elke medewerker met een geselecteerde rol kan de examen maken.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Examidentiteit</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>Leg het doel, de reikwijdte en de voorbereiding uit die medewerkers moeten doorlopen.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Foutmelding</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Volledig correct</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>Geef medewerkers voldoende context om te begrijpen waar deze beoordeling voor bedoeld is.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Bevat een onjuiste optie</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>Nieuwe toets</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>On-call licentie-evaluatie</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Bericht bij slagen</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Slagingsgrens</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Vragen per poging</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Wissel de opties onafhankelijk van elkaar om.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Willekeurig de volgorde van de getrokken vragen shuffelen.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Resultatzichtbaarheid</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Resultaten en feedback</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Scoremodel</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Scoring, randomisatie, zichtbaarheid van resultaten en feedbackberichten.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>Begin met de basis. Vragen worden toegevoegd nadat de examen is aangemaakt.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>Het examen blijft privé en bewerkbaar totdat u het publiceert.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>De instellingen die medewerkers moeten begrijpen voordat ze starten.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Tijdlimiet</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Gebruik 0 om alle vragen op te nemen.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>Wat er hierna gebeurt</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Wie kan deze examen afleggen</value>
   </data>
 
 </root>

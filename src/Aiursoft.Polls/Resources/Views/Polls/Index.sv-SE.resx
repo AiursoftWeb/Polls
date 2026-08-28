@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Åtgärder</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Bedömningscentrum</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopierad!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Kopiera länk</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Skapa en ny omröstning</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Skapa prov</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Skapa din första anställdsbetygning, lägg till frågor och tilldela den sedan till personer eller roller.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Skapa, tilldela och granska anställdas bedömningar från en och samma plats.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Slutdatum</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Detaljer</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Examina</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Länk kopierad till urklipp!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Mina omröstningar</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Inga prov än</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Öppna provet</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>De undersökningar jag hanterar</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Hantering av omröstningar</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>frågor</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

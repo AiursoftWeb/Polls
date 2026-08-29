@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Усі зміни збережено</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Анонімне опитування:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Відповідені питання відображаються зеленим кольором.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Відповіді зберігаються автоматично.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Attempt</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Назад</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Завершити</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>хвилин</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Кілька варіантів</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Немає підключення до мережі; під час остаточного надсилання буде виконано повторну спробу.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Оцінювання ліцензії чергового</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Будь ласка, вкажіть...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Навігатор запитань</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Питання</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Готові до відправлення?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Збереження не вдалося; при фінальному надсиланні буде повторна спроба.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Збереження…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Виберіть усі, що підходять</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Один варіант</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Надіслати іспит</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Відправляється...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Надсилається…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Залишився час</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Ви все ще можете переглянути та змінити відповіді перед відправкою.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Ваша особистість, IP-адреса та відбиток браузера НЕ будуть записані. Ваше голосування повністю конфіденційне.</value>

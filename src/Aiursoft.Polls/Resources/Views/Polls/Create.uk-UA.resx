@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>Тип доступу</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Розширені параметри</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>Після створення іспиту додайте запитання з варіантами відповідей, позначте правильні відповіді, перевірте налаштування оцінювання, а потім опублікуйте.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Дозволити ще одну спробу.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Дозволені ролі</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Анонімний опитування (база даних не зберігатиме інформацію про користувачів)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Будь-яка непорожня правильна підмножина отримує однаковий частковий бал. Вибір будь-якої неправильної опції використовує бал за неправильну опцію.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Призначте іспит безпосередньо співробітникам, ролям або обома.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Призначення</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Поведінка під час спроби</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Основні параметри спроби</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Назад до іспитів</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Назад до опитувань</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Правильна підмножина</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>Створити</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>Створити та додати запитання</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>Створити чернетку</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Створити іспит</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Створити опитування</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>Дедлайн</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Співробітники</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Кожен працівник зі обраної ролі може пройти іспит.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Ідентифікація іспиту</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>Опишіть мету, обсяг та будь-яку підготовку, яку мають завершити співробітники.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Повідомлення про невдачу</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Повністю правильна</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>Надайте співробітникам достатній контекст, щоб зрозуміти, для чого призначено цю оцінку.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Містить неправильний варіант</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>хв</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>Нова оцінка</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Оцінка ліцензії чергового режиму</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Повідомлення про успішне складання</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Бальний бал</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Питань на спробу</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Випадковий порядок варіантів відповідей.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Випадково перемішувати порядок вибраних запитань.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Видимість результатів</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Результати та зворотний зв&apos;язок</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Ролі</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Модель оцінювання</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Оцінювання, рандомізація, видимість результатів та повідомлення зворотного зв&apos;язку.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>Почніть з основ. Питання додаються після створення іспиту.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>Екзамен залишається приватним і доступним для редагування, доки ви його не опублікуєте.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>Налаштування, які співробітники мають зрозуміти перед початком.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Часовий ліміт</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Використайте 0, щоб включити всі питання.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>Що далі</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Хто може складати цей іспит</value>
   </data>
 
 </root>

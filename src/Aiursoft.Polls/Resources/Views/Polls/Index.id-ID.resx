@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Aksi</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Pusat Penilaian</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Terkopi!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Salin tautan</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Buat jajak pendapat baru</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Buat ujian</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Buat penilaian karyawan pertama Anda, tambahkan pertanyaan, lalu tetapkan ke orang atau peran.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Buat, tetapkan, dan tinjau penilaian karyawan dari satu tempat.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Batas Waktu</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Rincian</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Ujian</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Tautan disalin ke papan klip!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Poll Saya</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Belum ada ujian</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Buka ujian</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Polls yang Saya Kelola</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Manajemen Polls</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pertanyaan</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

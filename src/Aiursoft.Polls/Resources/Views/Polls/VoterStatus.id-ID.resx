@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>Penilaian anonim</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>Pemberitahuan Jajak Pendapat Anonim:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>Kembali ke detail</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Kembali ke Polling</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Selesai</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Memenuhi Syarat</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Karyawan</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Karyawan</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>Identitas tidak dicatat, sehingga penyelesaian peserta tidak dapat dilacak secara akurat.</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>Pengajuan terakhir</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Status Peserta</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Partisipasi</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Menunggu</value>

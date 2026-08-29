@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Tillad tilpasset tekst</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Svarmuligheder</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Svartype</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Stil ét præcist spørgsmål...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Tip til opstilling</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Undgå henvisninger baseret på svarenes længde eller formulering. Hold hvert svar parallelt og entydigt.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tilbage til eksamen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tilbage til afstemningen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Korrekt svar</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Forklar ræsonnementet og den operationelle princip bag svaret...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Forklaring</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Markér alle korrekte valgmuligheder. Deres visningsrækkefølge kan tilfældiggøres under et forsøg.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Indstillingstekst</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Andet</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Spørgsmålsopretter</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Spørgsmålstekst</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Spørgsmålsindstillinger</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Fjern svarmulighed</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Kræver et svar før indsendelse.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Påkrævet</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Vises kun, når medarbejderen ikke er helt korrekt.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Tip: Ved at markere &apos;Andet&apos; kan vælgere indtaste yderligere tekstinformation.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Skriv en klar opgave, marker de korrekte valgmuligheder og tilføj vejledning til forkerte svar.</value>
   </data>
 
 </root>

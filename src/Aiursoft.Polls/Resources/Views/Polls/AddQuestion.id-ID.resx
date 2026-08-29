@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Izinkan teks kustom</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Opsi Jawaban</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Jenis jawaban</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Ajukan satu pertanyaan yang spesifik...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Tips pembuatan</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Hindari petunjuk yang didasarkan pada panjang atau pilihan kata opsi. Pastikan setiap opsi paralel dan tidak ambigu.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Kembali ke Poll</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Batal</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Jawaban benar</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Jelaskan alasan dan prinsip operasional di balik jawaban...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Penjelasan</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Tandai semua opsi yang benar. Urutan tampilannya dapat diacak selama percobaan.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Teks opsi</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Lain</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Pembuat pertanyaan</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Pertanyaan</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Pengaturan Pertanyaan</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Hapus opsi</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Wajib menjawab sebelum pengajuan.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Wajib</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Hanya ditampilkan ketika karyawan tidak sepenuhnya benar.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Tip: Mencentang &apos;Lain&apos; memungkinkan pemilih untuk mengirimkan informasi teks tambahan.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Tulis prompt yang jelas, tandai pilihan yang benar, dan tambahkan panduan untuk jawaban yang salah.</value>
   </data>
 
 </root>

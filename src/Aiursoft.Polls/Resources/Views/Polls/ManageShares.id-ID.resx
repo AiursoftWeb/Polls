@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="active shares" xml:space="preserve">
+    <value>bagian aktif</value>
+  </data>
+  <data name="Add collaborator" xml:space="preserve">
+    <value>Tambahkan kolaborator</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
+  </data>
+  <data name="Collaboration" xml:space="preserve">
+    <value>Kolaborasi</value>
+  </data>
+  <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
+    <value>Kolaborator dapat meninjau atau mengedit ujian. Karyawan yang ditugaskan untuk mengerjakannya tidak pernah menerima akses jawaban atau manajemen skor.</value>
+  </data>
+  <data name="Current collaborators" xml:space="preserve">
+    <value>Kolaborator saat ini</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Karyawan</value>
+  </data>
+  <data name="No collaborators" xml:space="preserve">
+    <value>Tidak ada kolaborator</value>
+  </data>
+  <data name="Only you can manage this exam right now." xml:space="preserve">
+    <value>Hanya Anda yang dapat mengelola ujian ini saat ini.</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Izin</value>
+  </data>
+  <data name="Read-only can inspect results. Editable can also change exam settings and questions." xml:space="preserve">
+    <value>Akses hanya baca dapat melihat hasil. Akses edit juga dapat mengubah pengaturan dan pertanyaan ujian.</value>
+  </data>
+  <data name="Recipient type" xml:space="preserve">
+    <value>Jenis penerima</value>
+  </data>
+  <data name="Remove access" xml:space="preserve">
+    <value>Hapus akses</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Peran</value>
+  </data>
+  <data name="Select a role..." xml:space="preserve">
+    <value>Pilih peran...</value>
+  </data>
+  <data name="Select an employee..." xml:space="preserve">
+    <value>Pilih karyawan...</value>
+  </data>
+  <data name="Share exam" xml:space="preserve">
+    <value>Bagikan ujian</value>
+  </data>
+  <data name="Share with one employee or one role at a time." xml:space="preserve">
+    <value>Bagikan dengan satu karyawan atau satu peran pada satu waktu.</value>
+  </data>
+  <data name="Sharing is separate from assignment" xml:space="preserve">
+    <value>Berbagi berbeda dari penugasan</value>
+  </data>
+
+</root>

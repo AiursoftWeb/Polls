@@ -24,11 +24,35 @@
   <data name="Access Type" xml:space="preserve">
     <value>Adgangstype</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Avancerede indstillinger</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Tillad en ny prøve.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Tilladte roller</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Anonym poll (Databasen registrerer ikke brugeroplysninger)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>ethvert ikke-tomt korrekt delmængde modtager den samme delvis score. Vælger man forkerte muligheder, anvendes forkert-valg-scoren.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Tildel eksamen direkte til medarbejdere, roller eller begge dele.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Tildelinger</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Prøveadfærd</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Prøvekrav</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tilbage til eksamen</value>
   </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tilbage til afstemning</value>
@@ -36,17 +60,104 @@
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
   </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>Afsluttede forsøg bevarer deres oprindelige spørgsmål og bedømmelsessnapshots.</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>Kerne regler vist for alle medarbejdere.</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Korrekt delmængde</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Frist</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Rediger eksamen</value>
   </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Rediger afstemning</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Medarbejdere</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Alle ansatte i en valgt rolle kan aflege eksamen.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Eksamensidentitet</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Fejlbesked</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Helt korrekt</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Inkluderer et forkert svar</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>Sørg for, at medarbejdernes oplevelse forbliver fokuseret, samtidig med at du bibeholder præcis kontrol over pointgivingen.</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Beståelsesbesked</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Beståelseskrævende</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Spørgsmål pr. forsøg</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Tilfældiggør valgmulighederne uafhængigt.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Randomisér rækkefølgen af de udvalgte spørgsmål.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Resultatsynlighed</value>
   </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Resultater og feedback</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>Gennemgå målgruppe og bedømmelse grundigt, før du offentliggør eller fortsætter med en aktiv eksamen.</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
   <data name="Save" xml:space="preserve">
     <value>Gem</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Gem ændringer</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>Ændringer i pointgivningen påvirker fremtidige forsøg</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Bedømmelsesmodel</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Pointgivning, tilfældiggørelse, resultatvisning og feedbackbeskeder.</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>Titlen og konteksten, som medarbejderne ser, før de starter.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Tidsgrænse</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Brug 0 for at inkludere alle spørgsmål.</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Hvem kan tage denne eksamen</value>
   </data>
 
 </root>

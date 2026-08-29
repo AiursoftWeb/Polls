@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Akses</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Tindakan</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Tindakan</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administrasi</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Semua ujian</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Semua Polls</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Audiens</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Terkopi!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Buat jajak pendapat baru</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Buat ujian</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Pembuat</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Rincian</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Ujian</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>ujian</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Tautan disalin ke papan klip!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Tidak ada ujian ditemukan</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Tidak ada jajak pendapat yang ditemukan dalam sistem.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Ujian organisasi</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Ujian organisasi akan muncul di sini.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Pemilik</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pertanyaan</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Tinjau setiap penilaian di seluruh organisasi.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

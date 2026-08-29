@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Deneme</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Denemeler</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Detaylara geri dön</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınav&apos;a dön</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Anket&apos;e Dön</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Ayrıntılı deneme kaydı</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Çalışan</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Çalışan performansı</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Çalışan sonuçları</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Çalışan puanları, ilk gönderimlerinden sonra burada görünecektir.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Çalışanlar</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>En yüksek puan</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Tüm tamamlanan denemelerdeki en yüksek puan ve puan ilerlemesi.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP Adresi</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Gönderim bulunamadı.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Henüz gönderim yok</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Tam kronolojik gönderim kaydını açın.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Geçme oranı</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Geçti</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Puan</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Puan geçmişi</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Gönderiler</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Gönderme Zamanı</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Gönderildi</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Kullanıcı</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Görüntüle</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Detayları Gör</value>

@@ -24,8 +24,23 @@
   <data name="Access:" xml:space="preserve">
     <value>Dostęp:</value>
   </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>Dziennik aktywności</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>Dodaj i sprawdź pytania, a następnie opublikuj, gdy egzamin będzie gotowy.</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>Dodaj pierwsze pytanie</value>
+  </data>
   <data name="Add Question" xml:space="preserve">
     <value>Dodaj pytanie</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administracja</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>Zaawansowane punktowanie i losowanie</value>
   </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonimowy</value>
@@ -35,6 +50,9 @@
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>Anonymous: Tożsamość i adres IP nie zostaną zarejestrowane.</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>Wyjaśnienie odpowiedzi</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Czy na pewno chcesz usunąć tę ankietę? Jest to usunięcie miękkie.</value>
@@ -48,14 +66,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>Czy na pewno chcesz zakończyć tę ankietę?</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Próba</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Wróć do egzaminów</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>Powrót do listy</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Wróć do ankiet</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>Zbuduj egzamin, dodając pierwsze pytanie z wyborem odpowiedzi.</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anuluj</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>Wybierz nowy termin i zezwól pracownikom na rozpoczęcie nowych prób.</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>Współpracownicy</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>Potwierdź akcję</value>
@@ -66,11 +99,23 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Kopiuj link</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>Skopiuj link uczestnika</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>Poprawna</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Poprawny podzbiór</value>
+  </data>
   <data name="Created By" xml:space="preserve">
     <value>Stworzone przez</value>
   </data>
   <data name="Created By:" xml:space="preserve">
     <value>Stworzony przez:</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>Bieżący termin</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Strefa Niebezpieczeństwa</value>
@@ -84,8 +129,20 @@
   <data name="Delete" xml:space="preserve">
     <value>Usuń</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>Usuń egzamin</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Edytuj</value>
+  </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>Edytuj pytanie</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Uprawnieni</value>
   </data>
   <data name="Eligible Voters" xml:space="preserve">
     <value>Kwalifikujący się do głosowania</value>
@@ -93,11 +150,38 @@
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Uprawnieni wyborcy:</value>
   </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Wyniki pracowników</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>Pracownicy mogą rozpocząć nową próbę z limitem czasowym do wyznaczonego terminu.</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>Przegląd egzaminu</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>Egzamin opublikowany</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>Ustawienia egzaminu</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Eksportuj oczekujących pracowników</value>
+  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Eksportuj oczekujących użytkowników</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>Rozszerz</value>
+  </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>Przedłuż termin</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>Pełna odpowiedź</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>Ukryj egzamin z widoków standardowych. Jest to usunięcie miękkie.</value>
   </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Unieważnij</value>
@@ -105,14 +189,35 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link skopiowany do schowka!</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>Zarządzaj dostępnością i cyklem życia egzaminu.</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>Zarządzanie</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Maksymalna</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Więcej</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>Więcej narzędzi do zarządzania uczestnictwem</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>Więcej działań z pytaniem</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>Przenieś w dół</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Przesuń w górę</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>Nowe próby nie są obecnie dostępne.</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>Brak opisu.</value>
@@ -123,11 +228,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>Brak pytań dodanych do tej ankiety.</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>Brak pytań</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>Powiadom pracowników, którzy nie ukończyli egzaminu.</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>Otwórz ten egzamin dla przypisanych pracowników.</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>Log operacji</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>Inne</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Właściciel</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Status uczestników</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Udział</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Wynik zaliczenia</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Oczekujące</value>
   </data>
   <data name="Pending Voters" xml:space="preserve">
     <value>Oczekujący głosujący</value>
@@ -147,14 +276,26 @@
   <data name="Publish" xml:space="preserve">
     <value>Opublikuj</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>Opublikuj egzamin</value>
+  </data>
   <data name="Q:" xml:space="preserve">
     <value>Pytanie:</value>
   </data>
   <data name="Questions" xml:space="preserve">
     <value>Pytania</value>
   </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>pytania w tym egzaminie</value>
+  </data>
   <data name="Remind" xml:space="preserve">
     <value>Pamiętaj</value>
+  </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>Wznów egzamin</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>Powtórzone próby</value>
   </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Widoczność wyników</value>
@@ -162,17 +303,50 @@
   <data name="Result Visibility:" xml:space="preserve">
     <value>Widoczność wyników:</value>
   </data>
+  <data name="Results" xml:space="preserve">
+    <value>Wyniki</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>Przeglądaj próbę</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>Przegląd ustawień</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>wybieranych na próbę</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>Wyślij przypomnienie</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Losuj opcje</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Losuj pytania</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Status:</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>Zatrzymaj nowe próby, zachowując egzamin i jego wyniki.</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>Zakończ</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>Zakończ egzamin</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>Dziękujemy za udział! Zgłosiłeś swoją odpowiedź.</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>Te działania blokują dostęp lub usuwają egzamin ze standardowych widoków.</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>Nie można opublikować egzaminu</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>Wyświetl wyniki</value>
@@ -186,11 +360,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>Głosuj teraz</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>Wybrano nieprawidłową opcję</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>Tak</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Głosowałeś</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>Twoja ostatnia ocena</value>
   </data>
 
 </root>

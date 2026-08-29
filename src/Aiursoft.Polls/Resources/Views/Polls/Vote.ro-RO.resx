@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Toate modificările au fost salvate</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Sondaj anonim:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>raspuns</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Întrebările răspunse sunt afișate în verde.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Răspunsurile sunt salvate automat.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Încercare</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Înapoi</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Finalizare</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Alegeri multiple</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; trimiterea finală va fi reîncercată.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Evaluarea licenței pentru serviciul de gardă</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Specificați...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Navigator de întrebări</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Întrebări</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Sunteți gata să trimiteți?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Salvarea a eșuat; trimiterea finală va fi reîncercată.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Se salvează…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Select all that apply</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Răspuns unic</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Trimite examenul</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Se trimite...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Se trimite…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Timp rămas</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Încă poți verifica și modifica răspunsurile înainte de trimitere.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identitatea ta, adresa IP și amprenta browserului NU vor fi înregistrate. Votul tău este complet privat.</value>

@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>Evaluare anonimă</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>Notă pentru sondaj anonim:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>Înapoi la detalii</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Înapoi la examen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Înapoi la sondaj</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completat</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Eligibili</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>Email</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Angajat</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Angajați</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>Identitatea nu este înregistrată, astfel încât finalizarea de către participanți nu poate fi urmărită cu acuratețe.</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>Ultima submitere</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Starea participanților</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Participare</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>În așteptare</value>

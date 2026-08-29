@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Tüm değişiklikler kaydedildi</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonim Anket:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>yanıtlandı</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Cevaplanan sorular yeşil olarak gösterilir.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Cevaplar otomatik olarak kaydedilir.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Deneme</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Geri</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Bitir</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Çoklu Seçim</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Çevrimdışı; son gönderim yeniden denenecek.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Nöbetçi lisans değerlendirmesi</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Lütfen belirtin...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Soru navigasyonu</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Sorular</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Göndermeye hazır mısınız?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Kaydedilemedi; son gönderim yeniden denenecek.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Kaydediliyor…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Uygulananları seçin</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Tekli Seçim</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Sınavı Gönder</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Gönderiliyor...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Gönderiliyor…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Kalan süre</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>toplam</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Göndermeden önce hâlâ yanıtları inceleyebilir ve değiştirebilirsiniz.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Kimliğiniz, IP adresiniz ve tarayıcı parmak iziniz KAYDEDİLECEK DEĞİLDİR. Oylamanız tamamen gizlidir.</value>

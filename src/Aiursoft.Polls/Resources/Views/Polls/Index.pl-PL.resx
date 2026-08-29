@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Akcje</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Centrum oceny</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Skopiowano!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Kopiuj link</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Utwórz nową ankietę</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Utwórz egzamin</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Utwórz swoją pierwszą ocenę pracownika, dodaj pytania, a następnie przypisz ją do osób lub ról.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Twórz, przypisuj i przeglądaj oceny pracowników w jednym miejscu.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Termin</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Szczegóły</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Egzaminy</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link skopiowany do schowka!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Moje ankiety</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Brak egzaminów</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Otwórz egzamin</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Prowadzone przeze mnie ankiety</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Zarządzanie ankietami</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pytań</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

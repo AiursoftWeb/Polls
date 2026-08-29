@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Seçenek Ekle</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Cevap seçenekleri</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Cevap türü</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınav sayfasına dön</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Ankete Geri Dön</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Doğru cevap</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Soruyu Düzenle</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Mevcut denemeler orijinal anlık görüntülerini korur. Bu sürüm, gelecek denemeler için kullanılır.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Geçmiş korunur</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Tüm doğru seçenekleri işaretleyin. Deneme sırasında bunların görüntüleme sırası rastgeleleştirilebilir.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Seçenek metni</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Diğer</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Soru oluşturucu</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Soru metni</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Soru ayarları</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Soru kökünü, cevap seçeneklerini ve öğrenme yönlendirmesini inceleyin.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Seçeneği kaldır</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Gönderimden önce bir cevap gerektirir.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Zorunlu</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Kaydet</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Soruyu kaydet</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Yalnızca çalışan tam olarak doğru cevap vermediğinde gösterilir.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>İpucu: &apos;Diğer&apos; seçeneğini işaretlemek, seçmenin ek metin bilgisi göndermesine olanak tanır.</value>

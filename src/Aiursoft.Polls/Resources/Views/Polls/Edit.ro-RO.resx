@@ -24,11 +24,35 @@
   <data name="Access Type" xml:space="preserve">
     <value>Tip acces</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Opțiuni avansate</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Permiteți o altă încercare nouă.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Roluri permise</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Sondaj anonim (Baza de date nu va înregistra informații despre utilizator)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Orice submulțime corectă nenulă primește același scor parțial. Selectarea oricărei opțiuni greșite folosește scorul pentru opțiunea greșită.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Atribuiți examenul direct angajaților, rolurilor sau ambelor.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Atribuiri</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Comportament la încercare</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Elemente esențiale ale încercării</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Înapoi la examen</value>
   </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Înapoi la sondaj</value>
@@ -36,17 +60,104 @@
   <data name="Cancel" xml:space="preserve">
     <value>Anulare</value>
   </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>Încercările finalizată își păstrează instantaneele originale de întrebări și de punctaj.</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>Regulile de bază afișate tuturor angajaților.</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Submulțime corectă</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Termen limită</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Editează examenul</value>
   </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Editează sondajul</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Angajați</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Orice angajat dintr-un rol selectat poate susține examenul.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Identitatea examenului</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Mesaj de eșec</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Complet corect</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Include o opțiune incorectă</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>Mențineți experiența angajatului concentrată, păstrând în același timp un control precis al evaluării.</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Mesaj de reușită</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Nota de promovare</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Întrebări per încercare</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Amestecă opțiunile independent.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Amestecă ordinea întrebărilor selectate.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Vizualizarea rezultatelor</value>
   </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Rezultate și feedback</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>Verificați cu atenție publicul țintă și sistemul de evaluare înainte de a publica sau de a continua un examen activ.</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roluri</value>
+  </data>
   <data name="Save" xml:space="preserve">
     <value>Salvare</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Salvează modificările</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>Modificările privind punctajul afectează încercările viitoare</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Modelul de scorare</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Scorare, randomizare, vizibilitatea rezultatelor și mesajele de feedback.</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>Titlul și contextul pe care angajații le văd înainte de a începe.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Limită de timp</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Folosiți 0 pentru a include toate întrebările.</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Cine poate susține acest examen</value>
   </data>
 
 </root>

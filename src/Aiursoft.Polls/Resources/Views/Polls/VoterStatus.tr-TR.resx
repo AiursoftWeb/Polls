@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>Anonim değerlendirme</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>Anonim Anket Bilgilendirmesi:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>Detaylara geri dön</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınava dön</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Ankete Dön</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Tamamlandı</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Uygun</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>E-posta</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Çalışan</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Çalışanlar</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>Kimlik kaydedilmediğinden, katılımcı tamamlama durumu doğru bir şekilde takip edilemez.</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>En son gönderim</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Katılımcı durumu</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Katılım</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Bekliyor</value>

@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Încercare</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Încercări</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Înapoi la detalii</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Înapoi la examen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Înapoi la sondaj</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Jurnal detaliat al încercărilor</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Angajat</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Performanța angajaților</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Rezultatele angajaților</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Notele angajaților vor apărea aici după prima lor predare.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Angajați</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Punctaj maxim</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Cel mai mare scor și progresia scorului în fiecare încercare finalizată.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>Adresă IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Nu s-au găsit nicio prezentare.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Nicio trimitere până acum</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Deschide registrul complet cronologic al trimiterilor.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Rată de reușită</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Reușit</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performanță</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Punctaj</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Istoricul scorurilor</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stare</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Trimiteri</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Ora submitării</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Trimis</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Utilizator</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vizualizare</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Vezi detalii</value>

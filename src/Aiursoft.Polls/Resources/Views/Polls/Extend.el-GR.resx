@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to Poll" xml:space="preserve">
+      <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
+  </data>
+  <data name="Back to Poll" xml:space="preserve">
     <value>Επιστροφή στην ψηφοφορία</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>Τρέχουσα προθεσμία</value>
   </data>
   <data name="Current deadline:" xml:space="preserve">
     <value>Τρέχουσα προθεσμία:</value>
@@ -36,8 +42,14 @@
   <data name="Extending deadline for poll:" xml:space="preserve">
     <value>Παρατείνεται η προθεσμία για την ψηφοφορία:</value>
   </data>
+  <data name="New availability" xml:space="preserve">
+    <value>Νέα διαθεσιμότητα</value>
+  </data>
   <data name="New Deadline" xml:space="preserve">
     <value>Νέα Προθεσμία</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Προγραμματισμός</value>
   </data>
 
 </root>

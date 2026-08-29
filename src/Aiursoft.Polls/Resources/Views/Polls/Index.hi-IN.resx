@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>क्रियाएँ</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>मूल्यांकन केंद्र</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>कॉपी किया गया!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>लिंक कॉपी करें</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>नया सर्वेक्षण बनाएं</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>परीक्षा बनाएँ</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>अपनी पहली कर्मचारी मूल्यांकन बनाएं, प्रश्न जोड़ें, फिर इसे लोगों या भूमिकाओं को सौंपें।</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>एक ही स्थान से कर्मचारियों के आकलन तैयार करें, सौंपें और उनकी समीक्षा करें।</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>समाप्ति तिथि</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>विवरण</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>परीक्षाएँ</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>लिंक क्लिपबोर्ड में कॉपी हो गया!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>मेरी सर्वेक्षिकाएँ</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>अभी तक कोई परीक्षा नहीं</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>परीक्षा खोलें</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>मेरे द्वारा प्रबंधित सर्वेक्षण</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>पोल प्रबंधन</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>प्रश्न</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>स्थिति</value>

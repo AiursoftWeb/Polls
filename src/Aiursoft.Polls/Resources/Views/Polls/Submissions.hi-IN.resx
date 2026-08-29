@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>अनाम</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>प्रयास</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>प्रयास</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>विवरण पर वापस</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>परीक्षा पर वापस जाएँ</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>मतदान पर वापस</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>विस्तृत प्रयास लॉग</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>कर्मचारी</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>कर्मचारी प्रदर्शन</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>कर्मचारी परिणाम</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>कर्मचारियों के अंक उनकी पहली जमा के बाद यहाँ दिखाई देंगे।</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>कर्मचारी</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>सर्वोच्च स्कोर</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>हर पूर्ण प्रयास में उच्चतम स्कोर और स्कोर प्रगति।</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP पता</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>कोई जमा नहीं मिले।</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>अभी तक कोई जमा नहीं किया गया है</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>पूरा कालक्रमबद्ध जमावह रजिस्टर खोलें।</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>उत्तीर्ण दर</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>उत्तीर्ण</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>प्रदर्शन</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>अंक</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>स्कोर इतिहास</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>प्रस्तुतियाँ</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>समय सबमिट करें</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>सबमिट किया गया</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>उपयोगकर्ता</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>देखें</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>विवरण देखें</value>

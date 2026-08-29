@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>गुमनाम मूल्यांकन</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>गोपनीय सर्वेक्षण सूचना:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>विस्तार पर वापस</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>परीक्षा पर वापस जाएँ</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>पोल पर वापस जाएँ</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>पूर्ण</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>पात्र</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>ईमेल</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>कर्मचारी</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>कर्मचारी</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>पहचान दर्ज नहीं की जाती, इसलिए प्रतिभागियों के पूरा करने की स्थिति को सटीक रूप से ट्रैक नहीं किया जा सकता।</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>ताज़ा जमावटी</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>भागीदार स्थिति</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>भागीदारी</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>लंबित</value>

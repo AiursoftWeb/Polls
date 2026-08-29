@@ -18,17 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Πρόσβαση</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Πρόσβαση:</value>
+  </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>Καταγραφή δραστηριοτήτων</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>Προσθέστε και ελέγξτε τις ερωτήσεις και, στη συνέχεια, δημοσιεύστε την εξέταση όταν είναι έτοιμη.</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>Προσθήκη πρώτου ερωτήματος</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Προσθήκη Ερώτησης</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>Προηγμένη βαθμολόγηση και τυχαία κατάταξη</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Ανώνυμος:</value>
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>Ανώνυμα: Ταυτότητα και IP δεν θα καταγραφούν.</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>Επεξήγηση απάντησης</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το ερωτηματολόγιο; Αυτή είναι μια διαγραφή με την έννοια της αναστολής.</value>
@@ -42,14 +63,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να τερματίσετε αυτή την ψηφοφορία;</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Προσπάθεια</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Επιστροφή στις εξετάσεις</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>Επιστροφή στη λίστα</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Επιστροφή στις Δημοσκοπήσεις</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>Δημιουργήστε το εξεταστικό δοκίμιο προσθέτοντας την πρώτη ερώτηση πολλαπλής επιλογής.</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>Επιλέξτε μια νέα προθεσμία και επιτρέψτε στους υπαλλήλους να ξεκινήσουν νέες προσπάθειες.</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>Συνεργάτες</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>Επιβεβαίωση Δράσης</value>
@@ -60,8 +96,20 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Αντιγραφή Συνδέσμου</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>Αντιγραφή συνδέσμου συμμετέχοντα</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>Σωστό</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Σωστό υποσύνολο</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Δημιουργήθηκε από:</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>Τρέχον θητ</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Επικίνδυνη Ζώνη</value>
@@ -72,11 +120,41 @@
   <data name="Delete" xml:space="preserve">
     <value>Διαγραφή</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>Διαγραφή εξετάσεων</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Διάρκεια</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Επεξεργασία</value>
   </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>Επεξεργασία ερωτήματος</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Επιλέξιμοι</value>
+  </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Είκοσι Εκλογείς:</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Αποτελέσματα υπαλλήλων</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>Οι υπάλληλοι μπορούν να ξεκινήσουν μια νέα προσπάθεια με χρονικό όριο έως τη λήξη του χρόνου.</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>Επισκόπηση εξετάσεων</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>Εξεταστικό δημοσιεύτηκε</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>Ρύθμιση εξετάσεων</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Εξαγωγή αναρτ. υπαλλήλων</value>
   </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Εξαγωγή εκκρεμών χρηστών</value>
@@ -84,20 +162,50 @@
   <data name="Extend" xml:space="preserve">
     <value>Επέκταση</value>
   </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>Επέκταση προθεσμίας</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>Σωστή απάντηση</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>Απόκρυψη του εξετάστου από τις κανονικές προβολές. Πρόκειται για μια απαλή διαγραφή.</value>
+  </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Το σύνδεσμο αντιγράφηκε στο πρόχειρο!</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>Διαχειριστείτε τη διαθεσιμότητα και τον κύκλο ζωής του εξετάσεων.</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>Διαχείριση</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Μέγιστο</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Περισσότερα</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>Περισσότερα εργαλεία συμμετοχής</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>Περισσότερες ενέργειες ερώτησης</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>Μετακίνηση προς τα κάτω</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Μετακίνηση προς τα πάνω</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>Οι νέες προσπάθειες δεν είναι διαθέσιμες αυτή τη στιγμή.</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>Δεν παρέχεται περιγραφή.</value>
@@ -108,11 +216,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>Δεν έχουν προστεθεί ερωτήσεις σε αυτό το δημοσκόπιο ακόμα.</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>Δεν υπάρχουν ερωτήσεις ακόμα</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>Επιβεβαιώστε στους υπαλλήλους που δεν έχουν ολοκληρώσει το εξεταστικό.</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>Ενεργοποιήστε αυτό το εξεταστικό για τους ανατεθειμένους υπαλλήλους.</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>Καταγραφή Λειτουργιών</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>Άλλο</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Κατάσταση συμμετεχόντων</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Συμμετοχή</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Βαθμός επιτυχίας</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Εκκρεμείς</value>
   </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Περίμενοντες Ψηφοφόροι:</value>
@@ -129,23 +261,68 @@
   <data name="Publish" xml:space="preserve">
     <value>Δημοσίευση</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>Δημοσίευση εξετάσης</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Ερωτήσεις</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>ερωτήσεις σε αυτό το εξεταστικό</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Υπενθύμιση</value>
   </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>Επανεκκίνηση εξετάσεων</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>Επαναλαμβανόμενες προσπάθειες</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Ορατότητα αποτελεσμάτων:</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Αποτελέσματα</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>Επισκόπηση προσπάθειας</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>Επιθεώρηση ρυθμίσεων</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>ερωτήσεις ανά προσπαθεία</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>Αποστολή υπενθύμισης</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Μετατροπή επιλογών</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Μετακίνηση ερωτήσεων</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Κατάσταση:</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>Διακόψτε τις νέες προσπάθειες διατηρώντας το εξεταστικό τεστ και τα αποτελέσματά του.</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>Διακοπή</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>Τερματισμός εξετάσεων</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>Σας ευχαριστούμε για τη συμμετοχή σας! Έχετε υποβάλει την απάντησή σας.</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>Αυτές οι ενέργειες σταματούν την πρόσβαση ή αφαιρούν το εξεταστικό από τις κανονικές προβολές.</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>Αδυναμία δημοσίευσης εξετάσεων</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>Προβολή Αποτελεσμάτων</value>
@@ -159,11 +336,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>Ψηφίστε Τώρα</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>Επιλέχθηκε λανθασμένη επιλογή</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>Ναι</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Ψηφίσατε</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>Ο τελευταίος σας βαθμός</value>
   </data>
 
 </root>

@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonyymi</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Yritys</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Yritykset</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Takaisin tietoihin</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Takaisin kokeeseen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Takaisin kyselyyn</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Yksityiskohtainen yrityspäiväkirja</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Työntekijä</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Henkilöstön suorituskyky</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Työntekijöiden tulokset</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Työntekijöiden pisteet näkyvät täällä heidän ensimmäisen jättämisensä jälkeen.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Työntekijät</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Korkein pistemäärä</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Korkein pistemäärä ja pistemäärän kehitys kaikissa suoritetuissa yrityksissä.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-osoite</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Ei löytynyt lähetyksiä.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Ei lähetettyjä vastaavia</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Avaa täydellinen aikajärjestyksessä oleva lähetysrekisteri.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Hyväksymisprosentti</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Hyväksytty</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Suorituskyky</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Pisteiden historia</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Tila</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Lähetetyt vastaukset</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Jättämisaika</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Lähetetty</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Käyttäjä</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Näytä</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Näytä tiedot</value>

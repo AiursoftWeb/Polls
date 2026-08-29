@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>प्रवेश</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>कार्रवाई</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>क्रियाएँ</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>प्रशासन</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>सभी परीक्षाएँ</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>सभी सर्वेक्षण</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>श्रोता</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>कॉपी हो गया!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>नया सर्वेक्षण बनाएं</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>परीक्षा बनाएं</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>निर्माता</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>विवरण</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>परीक्षा</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>परीक्षाएँ</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>लिंक क्लिपबोर्ड में कॉपी हो गया!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>कोई परीक्षा नहीं मिली</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>सिस्टम में कोई सर्वेक्षण नहीं मिला।</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>खोलें</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>संस्था परीक्षाएँ</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>संस्था के परीक्षण यहाँ प्रदर्शित होंगे।</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>मालिक</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>प्रश्न</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>संस्था के भीतर हर मूल्यांकन की समीक्षा करें।</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>स्थिति</value>

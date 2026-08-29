@@ -18,17 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll Notice:" xml:space="preserve">
+      <data name="Anonymous assessment" xml:space="preserve">
+    <value>Ανώνυμη αξιολόγηση</value>
+  </data>
+  <data name="Anonymous Poll Notice:" xml:space="preserve">
     <value>Σημείωση για ανώνυμη ψηφοφορία:</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>Πίσω στις λεπτομέρειες</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Επιστροφή στην Ψηφοφορία</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Ολοκληρώθηκε</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Επιλέξιμοι</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>Ηλεκτρονικό ταχυδρομείο</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Υπάλληλος</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Υπάλληλοι</value>
+  </data>
+  <data name="Identity is not recorded, so participant completion cannot be tracked accurately." xml:space="preserve">
+    <value>Η ταυτότητα δεν καταγράφεται, οπότε η ολοκλήρωση των συμμετεχόντων δεν μπορεί να παρακολουθείται με ακρίβεια.</value>
+  </data>
+  <data name="Latest submission" xml:space="preserve">
+    <value>Τελευταία υποβολή</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Κατάσταση συμμετεχόντων</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Συμμετοχή</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Σε εκκρεμότητα</value>

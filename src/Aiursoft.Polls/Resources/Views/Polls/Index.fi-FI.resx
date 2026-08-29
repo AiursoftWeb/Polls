@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Toimet</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Arviointikeskus</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopioitu!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Kopioi linkki</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Luo uusi äänestys</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Luo koe</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Luo ensimmäinen työntekijäarvio, lisää kysymyksiä ja liitä se henkilöihin tai rooleihin.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Luo, jaa ja tarkista työntekijöiden arviot yhdessä paikassa.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Viimeinen päivä</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Yksityiskohdat</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Kokeet</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Linkki kopioitu leikepöydälle!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Omat kyselyni</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Ei vielä kokeita</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Avaa koe</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Minut hallinnoimat kyselyt</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Kyselyiden hallinta</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>kysymystä</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Tila</value>

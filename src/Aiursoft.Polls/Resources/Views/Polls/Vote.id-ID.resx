@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Semua perubahan disimpan</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Survei Anonim:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Pertanyaan yang telah dijawab ditampilkan dalam warna hijau.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Jawaban disimpan secara otomatis.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Percobaan</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Kembali</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Selesai</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Pilihan Ganda</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; pengiriman akhir akan dicoba lagi.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Penilaian lisensi on-call</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Silakan tentukan...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Navigasi soal</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Pertanyaan</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Siap untuk mengirim?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Penyimpanan gagal; pengiriman akhir akan dicoba lagi.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Menyimpan…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Pilih semua yang berlaku</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Pilihan Ganda</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Kirim ujian</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Mengirim...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Mengirim…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Sisa waktu</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Anda masih dapat meninjau dan mengubah jawaban sebelum mengirim.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identitas, alamat IP, dan sidik jari browser Anda TIDAK akan dicatat. Suara Anda sepenuhnya privat.</value>

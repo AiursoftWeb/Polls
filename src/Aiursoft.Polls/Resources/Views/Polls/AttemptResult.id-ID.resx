@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Answer review" xml:space="preserve">
+    <value>Tinjauan jawaban</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Percobaan</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>Ringkasan Ujian</value>
+  </data>
+  <data name="Exam result" xml:space="preserve">
+    <value>Hasil ujian</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Penjelasan</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Nilai kelulusan</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>poin</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pertanyaan</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Tinjauan</value>
+  </data>
+  <data name="Take again" xml:space="preserve">
+    <value>Kerjakan Ulang</value>
+  </data>
+  <data name="Your choice" xml:space="preserve">
+    <value>Pilihan Anda</value>
+  </data>
+
+</root>

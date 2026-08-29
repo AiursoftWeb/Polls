@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Käyttöoikeus</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Toiminto</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Toimet</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Hallinto</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Kaikki tentit</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Kaikki kyselyt</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Kohdeyleisö</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopioitu!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Luo uusi äänestys</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Luo koe</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Tekijä</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Yksityiskohdat</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Tentti</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>tutkintoja</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Linkki kopioitu leikepöydälle!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Ei tutintoita löytynyt</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Älä löytynyt äänestyksiä järjestelmästä.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Avaa</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Organisaation kokeet</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Organisaation kokeet näkyvät täällä.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Omistaja</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>kysymystä</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Tarkista kaikki organisaation arviot.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Tila</value>

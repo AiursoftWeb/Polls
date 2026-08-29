@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Alle ændringer er gemt</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonym poll:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>besvaret</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Besvarede spørgsmål vises i grøn.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Svarene gemmes automatisk.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Forsøg</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Tilbage</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Færdig</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutter</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Flervalg</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; den endelige indsendelse gentages.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Vagtlicensvurdering</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Angiv venligst...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Spørgsmålsnavigering</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Spørgsmål</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Er du klar til at indsende?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Gemning mislykkedes; den endelige indsendelse vil prøve igen.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Gemmer…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Vælg alle, der gælder</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Enkeltvalg</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Aflever eksamen</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Senderer...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Indsender…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Tid tilbage</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Du kan stadig gennemse og ændre svar, før du indsender.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Din identitet, IP-adresse og browserfingeraftryk vil IKKE blive registreret. Dit svar er fuldstændig privat.</value>

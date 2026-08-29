@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Tilføj mulighed</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Svarmuligheder</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Svartype</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tilbage til eksamen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tilbage til afstemning</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Korrekt svar</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Rediger spørgsmål</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Eksisterende forsøg beholder deres oprindelige snapshot. Denne version bruges til fremtidige forsøg.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Forklaring</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Historikken forbliver uændret</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Marker alle korrekte svarmuligheder. Deres visningsrækkefølge kan tilfældiggøres under et forsøg.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Vælg et svar</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Andet</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Spørgsmålsopbygger</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Spørgsmålsformulering</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Spørgselsindstillinger</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Finjustér spørgsmålsteksten, svarmulighederne og læringsvejledningen.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Fjern valgmulighed</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Krav på et svar før indsendelse.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Påkrævet</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Gem</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Gem spørgsmål</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Vises kun, når medarbejderen ikke har svaret helt korrekt.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Tip: Hvis du markerer &apos;Andet&apos;, kan vælgere indtaste yderligere tekstinformation.</value>

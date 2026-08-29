@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Анонімний</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Спроба</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Спроби</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Повернутися до деталей</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Назад до іспиту</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад до опитування</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Детальний журнал спроб</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Працівник</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Робота співробітників</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Результати співробітників</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Бали співробітників з’являться тут після їхньої першої відправки.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Співробітники</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Найвищий бал</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Найвищий бал та динаміка балів за всі завершених спроби.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-адреса</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Повідомлень не знайдено.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Ще немає подань</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Відкрийте повний хронологічний журнал подань.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Рівень проходження</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Здано</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Результати</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Бал</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Історія балів</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Відгуки</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Час подання</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Подано</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Користувач</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Перегляд</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Переглянути деталі</value>

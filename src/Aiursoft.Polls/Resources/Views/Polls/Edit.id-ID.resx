@@ -24,11 +24,35 @@
   <data name="Access Type" xml:space="preserve">
     <value>Jenis Akses</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Opsi lanjutan</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Izinkan percobaan baru lainnya.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Peran yang Diizinkan</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Survei Anonim (Database tidak akan merekam informasi pengguna)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Setiap subhimpunan jawaban benar yang tidak kosong menerima skor parsial yang sama. Memilih opsi yang salah mana pun menggunakan skor opsi salah.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Tetapkan ujian secara langsung kepada karyawan, peran, atau keduanya.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Penugasan</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Perilaku percobaan</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Esensial Percobaan</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
   </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Kembali ke Polling</value>
@@ -36,17 +60,104 @@
   <data name="Cancel" xml:space="preserve">
     <value>Batal</value>
   </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>Percobaan yang telah selesai mempertahankan snapshot pertanyaan dan penilaian aslinya.</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>Aturan inti yang ditampilkan kepada setiap karyawan.</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Subhimpunan yang benar</value>
+  </data>
   <data name="Deadline" xml:space="preserve">
     <value>Batas waktu</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Edit ujian</value>
   </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Edit Poll</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Karyawan</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Setiap karyawan dalam peran yang dipilih dapat mengikuti ujian.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Identitas Ujian</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Pesan gagal</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Sepenuhnya benar</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Termasuk opsi yang salah</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>Jaga agar pengalaman karyawan tetap fokus sambil mempertahankan kontrol penilaian yang presisi.</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Pesan lulus</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Nilai kelulusan</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Pertanyaan per percobaan</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Acak pilihan secara independen.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Acak urutan soal yang diambil.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Visibilitas Hasil</value>
   </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Hasil dan umpan balik</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>Periksa audiens dan penilaian dengan cermat sebelum menerbitkan atau melanjutkan ujian yang sedang aktif.</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Peran</value>
+  </data>
   <data name="Save" xml:space="preserve">
     <value>Simpan</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Simpan perubahan</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>Perubahan penilaian memengaruhi percobaan berikutnya</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Model Penilaian</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Penilaian, randomisasi, visibilitas hasil, dan pesan umpan balik.</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>Judul dan konteks yang dilihat karyawan sebelum memulai.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Batas waktu</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Gunakan 0 untuk menyertakan semua pertanyaan.</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Siapa yang dapat mengikuti ujian ini</value>
   </data>
 
 </root>

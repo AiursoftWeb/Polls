@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Додати варіант</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Варіанти відповідей</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Тип відповіді</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Повернутися до іспиту</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад до опитування</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Правильна відповідь</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Редагувати запитання</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Існуючі спроби зберігають свій початковий знімок. Ця версія використовується для майбутніх спроб.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Пояснення</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Історія зберігається</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Позначте всі правильні варіанти. Їхній порядок відображення може бути випадковим під час спроби.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Текст варіанту</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Інше</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Конструктор питань</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Формулювання запитання</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Налаштування питання</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Вдосконаліть формулювання, варіанти відповідей та навчальні вказівки.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Видалити варіант</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Вимагати відповіді перед надсиланням.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Обов&apos;язкове</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Зберегти</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Зберегти запитання</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Відображається лише тоді, коли відповідь працівника не є повністю правильною.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Порада: Увімкнення «Інше» дозволяє виборцю надіслати додаткову текстову інформацію.</value>

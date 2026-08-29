@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Adgang</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Handling</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Handling</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Alle eksaminer</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Alle afstemninger</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Målgruppe</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopieret!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Opret en ny afstemning</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Opret eksamen</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Oprettet af</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Detaljer</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Eksamen</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>prøver</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link kopieret til udklipsholderen!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutter</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Ingen eksaminer fundet</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Ingen afstemninger fundet i systemet.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Åbn</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Organisationseksamener</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Organisationsprøver vises her.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Ejer</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>spørgsmål</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Gennemgå alle vurderinger i hele organisationen.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

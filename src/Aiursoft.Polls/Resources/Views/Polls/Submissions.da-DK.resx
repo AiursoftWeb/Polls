@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Forsøg</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Forsøg</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Tilbage til detaljer</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tilbage til eksamen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tilbage til afstemning</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Detaljeret forsøgslog</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Medarbejder</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Medarbejderydelse</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Medarbejderresultater</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Medarbejderpointum vil fremgå her efter deres første indsendelse.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Medarbejdere</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Højeste score</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Højeste score og scoreudvikling over alle gennemførte forsøg.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-adresse</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Ingen indsendelser fundet.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Ingen indleveringer endnu</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Åbn den fuldstændige kronologiske indsendelseslog.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Beståelsesrate</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Bestået</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Præstation</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Poenghistorik</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Indsendelser</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Indsendelsestidspunkt</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Indsendt</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Bruger</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vis</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Se detaljer</value>

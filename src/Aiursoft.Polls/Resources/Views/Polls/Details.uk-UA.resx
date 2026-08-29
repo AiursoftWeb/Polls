@@ -18,17 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access:" xml:space="preserve">
+      <data name="Access" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="Access:" xml:space="preserve">
     <value>Доступ:</value>
+  </data>
+  <data name="Activity log" xml:space="preserve">
+    <value>Журнал активності</value>
+  </data>
+  <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
+    <value>Додайте та перегляньте запитання, а потім опублікуйте, коли іспит буде готовий.</value>
+  </data>
+  <data name="Add first question" xml:space="preserve">
+    <value>Додати перше питання</value>
   </data>
   <data name="Add Question" xml:space="preserve">
     <value>Додати запитання</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Адміністрування</value>
+  </data>
+  <data name="Advanced scoring and randomization" xml:space="preserve">
+    <value>Розширене оцінювання та рандомізація</value>
   </data>
   <data name="Anonymous:" xml:space="preserve">
     <value>Анонімність:</value>
   </data>
   <data name="Anonymous: Identity and IP will NOT be recorded." xml:space="preserve">
     <value>Анонімно: особисті дані та IP-адреса НЕ будуть записані.</value>
+  </data>
+  <data name="Answer explanation" xml:space="preserve">
+    <value>Пояснення до відповіді</value>
   </data>
   <data name="Are you sure you want to delete this poll? This is a soft delete." xml:space="preserve">
     <value>Ви впевнені, що хочете видалити цей опитування? Це м&apos;яке видалення.</value>
@@ -42,14 +63,29 @@
   <data name="Are you sure you want to terminate this poll?" xml:space="preserve">
     <value>Ви впевнені, що хочете припинити цей опитування?</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Спроба</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Назад до іспитів</value>
+  </data>
   <data name="Back to list" xml:space="preserve">
     <value>Повернутися до списку</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Назад до опитувань</value>
   </data>
+  <data name="Build the exam by adding the first choice question." xml:space="preserve">
+    <value>Створіть іспит, додавши перше запитання з варіантами відповідей.</value>
+  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
+  </data>
+  <data name="Choose a new deadline and allow employees to start new attempts." xml:space="preserve">
+    <value>Виберіть новий крайній термін і дозвольте працівникам розпочати нові спроби.</value>
+  </data>
+  <data name="Collaborators" xml:space="preserve">
+    <value>Співробітники</value>
   </data>
   <data name="Confirm Action" xml:space="preserve">
     <value>Підтвердити дію</value>
@@ -60,8 +96,20 @@
   <data name="Copy Link" xml:space="preserve">
     <value>Копіювати посилання</value>
   </data>
+  <data name="Copy participant link" xml:space="preserve">
+    <value>Скопіювати посилання учасника</value>
+  </data>
+  <data name="Correct" xml:space="preserve">
+    <value>Правильно</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Частково правильна відповідь</value>
+  </data>
   <data name="Created By:" xml:space="preserve">
     <value>Створено:</value>
+  </data>
+  <data name="Current deadline" xml:space="preserve">
+    <value>Поточний дедлайн</value>
   </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Небезпечна зона</value>
@@ -72,11 +120,41 @@
   <data name="Delete" xml:space="preserve">
     <value>Видалити</value>
   </data>
+  <data name="Delete exam" xml:space="preserve">
+    <value>Видалити іспит</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Тривалість</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Редагувати</value>
   </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>Редагувати питання</value>
+  </data>
+  <data name="Eligible" xml:space="preserve">
+    <value>Допущені</value>
+  </data>
   <data name="Eligible Voters:" xml:space="preserve">
     <value>Кваліфіковані виборці:</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Результати співробітників</value>
+  </data>
+  <data name="Employees can start a new timed attempt until the deadline." xml:space="preserve">
+    <value>Співробітники можуть розпочати нову спробу з обмеженням часу до закінчення терміну.</value>
+  </data>
+  <data name="Exam overview" xml:space="preserve">
+    <value>Огляд іспиту</value>
+  </data>
+  <data name="Exam published" xml:space="preserve">
+    <value>Екзамен опубліковано</value>
+  </data>
+  <data name="Exam setup" xml:space="preserve">
+    <value>Налаштування іспиту</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Експортувати очікуючих працівників</value>
   </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Експортувати очікуючих користувачів</value>
@@ -84,20 +162,50 @@
   <data name="Extend" xml:space="preserve">
     <value>Розширити</value>
   </data>
+  <data name="Extend deadline" xml:space="preserve">
+    <value>Подовжити строк</value>
+  </data>
+  <data name="Full answer" xml:space="preserve">
+    <value>Повна відповідь</value>
+  </data>
+  <data name="Hide the exam from normal views. This is a soft delete." xml:space="preserve">
+    <value>Приховати іспит із звичайних переглядів. Це м&apos;яке видалення.</value>
+  </data>
   <data name="Invalidate" xml:space="preserve">
     <value>Скасувати</value>
   </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Посилання скопійовано до буфера обміну!</value>
   </data>
+  <data name="Manage availability and the exam lifecycle." xml:space="preserve">
+    <value>Керуйте доступністю та життєвим циклом іспиту.</value>
+  </data>
   <data name="Management" xml:space="preserve">
     <value>Управління</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>хв</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Більше</value>
+  </data>
+  <data name="More participation tools" xml:space="preserve">
+    <value>Додаткові інструменти участі</value>
+  </data>
+  <data name="More question actions" xml:space="preserve">
+    <value>Додаткові дії з питанням</value>
   </data>
   <data name="Move Down" xml:space="preserve">
     <value>Перемістити вниз</value>
   </data>
   <data name="Move Up" xml:space="preserve">
     <value>Підняти вгору</value>
+  </data>
+  <data name="New attempts are not currently available." xml:space="preserve">
+    <value>Нові спроби наразі недоступні.</value>
   </data>
   <data name="No description provided." xml:space="preserve">
     <value>Опис не надано.</value>
@@ -108,11 +216,35 @@
   <data name="No questions have been added to this poll yet." xml:space="preserve">
     <value>До цього опитування ще не додано жодного питання.</value>
   </data>
+  <data name="No questions yet" xml:space="preserve">
+    <value>Ще немає питань</value>
+  </data>
+  <data name="Notify employees who have not completed the exam." xml:space="preserve">
+    <value>Повідомте співробітників, які не завершили іспит.</value>
+  </data>
+  <data name="Open this exam for assigned employees." xml:space="preserve">
+    <value>Відкрийте цей іспит для призначених співробітників.</value>
+  </data>
   <data name="Operation Log" xml:space="preserve">
     <value>Журнал операцій</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>Інше</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Власник</value>
+  </data>
+  <data name="Participant status" xml:space="preserve">
+    <value>Статус учасника</value>
+  </data>
+  <data name="Participation" xml:space="preserve">
+    <value>Участь</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Пройдений бал</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Очікує</value>
   </data>
   <data name="Pending Voters:" xml:space="preserve">
     <value>Очікуючі виборці:</value>
@@ -129,23 +261,68 @@
   <data name="Publish" xml:space="preserve">
     <value>Опублікувати</value>
   </data>
+  <data name="Publish exam" xml:space="preserve">
+    <value>Опублікувати іспит</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Питання</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>питань у цьому іспиті</value>
   </data>
   <data name="Remind" xml:space="preserve">
     <value>Нагадати</value>
   </data>
+  <data name="Reopen exam" xml:space="preserve">
+    <value>Відкрити іспит</value>
+  </data>
+  <data name="Repeated attempts" xml:space="preserve">
+    <value>Повторні спроби</value>
+  </data>
   <data name="Result Visibility:" xml:space="preserve">
     <value>Видимість результатів:</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Результати</value>
+  </data>
+  <data name="Review attempt" xml:space="preserve">
+    <value>Переглянути спробу</value>
+  </data>
+  <data name="Review settings" xml:space="preserve">
+    <value>Переглянути налаштування</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>вибірково на спробу</value>
+  </data>
+  <data name="Send reminder" xml:space="preserve">
+    <value>Надіслати нагадування</value>
+  </data>
+  <data name="Shuffle options" xml:space="preserve">
+    <value>Перемішати варіанти</value>
+  </data>
+  <data name="Shuffle questions" xml:space="preserve">
+    <value>Перемішати питання</value>
   </data>
   <data name="Status:" xml:space="preserve">
     <value>Стан:</value>
   </data>
+  <data name="Stop new attempts while keeping the exam and its results." xml:space="preserve">
+    <value>Припиніть нові спроби, зберігши іспит та його результати.</value>
+  </data>
   <data name="Terminate" xml:space="preserve">
     <value>Завершити</value>
   </data>
+  <data name="Terminate exam" xml:space="preserve">
+    <value>Завершити іспит</value>
+  </data>
   <data name="Thanks for participating! You submitted your response." xml:space="preserve">
     <value>Дякуємо за участь! Ви надіслали свою відповідь.</value>
+  </data>
+  <data name="These actions stop access or remove the exam from normal views." xml:space="preserve">
+    <value>Ці дії припиняють доступ або видаляють іспит зі звичайних переглядів.</value>
+  </data>
+  <data name="Unable to publish exam" xml:space="preserve">
+    <value>Не вдалося опублікувати іспит</value>
   </data>
   <data name="View Results" xml:space="preserve">
     <value>Переглянути результати</value>
@@ -159,11 +336,17 @@
   <data name="Vote Now" xml:space="preserve">
     <value>Голосувати зараз</value>
   </data>
+  <data name="Wrong option selected" xml:space="preserve">
+    <value>Обрано неправильний варіант</value>
+  </data>
   <data name="Yes" xml:space="preserve">
     <value>Так</value>
   </data>
   <data name="You Voted" xml:space="preserve">
     <value>Ви проголосували</value>
+  </data>
+  <data name="Your latest score" xml:space="preserve">
+    <value>Ваш останній результат</value>
   </data>
 
 </root>

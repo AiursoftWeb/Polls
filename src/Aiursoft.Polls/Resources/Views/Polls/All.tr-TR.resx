@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Erişim</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>İşlem</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>İşlemler</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Yönetim</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Tüm sınavlar</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Tüm Anketler</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Hedef Kitle</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopyalandı!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Yeni anket oluştur</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Sınav Oluştur</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Yaratıcı</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Detaylar</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Sınav</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>sınavlar</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Bağlantı panoya kopyalandı!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Sınav bulunamadı</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Sistemde anket bulunamadı.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Örgüt sınavları</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Kuruluş sınavları burada görünecektir.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Sahip</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>soru</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Kurum genelindeki tüm değerlendirmeleri gözden geçirin.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Durum</value>

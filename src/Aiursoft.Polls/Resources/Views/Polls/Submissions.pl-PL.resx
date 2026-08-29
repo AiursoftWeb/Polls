@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonimowy</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Próba</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Próby</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Powrót do szczegółów</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Wróć do egzaminu</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Powrót do ankiety</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Szczegółowy dziennik prób</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Pracownik</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Wynik pracownika</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Wyniki pracowników</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Wyniki pracowników pojawią się tutaj po ich pierwszym przesłaniu.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Pracownicy</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Najwyższy wynik</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Najwyższy wynik i przebieg wyników we wszystkich ukończonych próbach.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>Adres IP</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Nie znaleziono żadnych zgłoszeń.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Brak nadesłań</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Otwórz kompletny chronologiczny rejestr zgłoszeń.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Współczynnik zdawalności</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Zdani</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Wyniki</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Wynik</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Historia wyników</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Zgłoszenia</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Czas zgłoszenia</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Złożono</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Użytkownik</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Podgląd</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Zobacz szczegóły</value>

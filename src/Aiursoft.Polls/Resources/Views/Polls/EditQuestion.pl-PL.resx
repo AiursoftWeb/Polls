@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Dodaj opcję</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Opcje odpowiedzi</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Typ odpowiedzi</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Powrót do egzaminu</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Wróć do ankiety</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anuluj</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Poprawna odpowiedź</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Edytuj pytanie</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Istniejące próby zachowują swój pierwotny stan. Ta wersja będzie używana w przyszłych próbach.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Wyjaśnienie</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Historia pozostaje nienaruszona</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Zaznacz wszystkie poprawne odpowiedzi. Ich kolejność wyświetlania może być losowa podczas podejścia.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Tekst opcji</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Inna</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Tworzenie pytań</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Treść pytania</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Ustawienia pytania</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Dopracuj treść pytania, warianty odpowiedzi oraz wskazówki edukacyjne.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Usuń opcję</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Wymagaj odpowiedzi przed wysłaniem.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Wymagane</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Zapisz</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Zapisz pytanie</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Wyświetlane tylko wtedy, gdy pracownik nie odpowiedział w pełni poprawnie.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Wskazówka: Zaznaczenie opcji „Inne&quot; pozwala wyborcy na przesłanie dodatkowych informacji tekstowych.</value>

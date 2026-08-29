@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Permiteți text personalizat</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Opțiuni de răspuns</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Tip răspuns</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Puneți o întrebare precisă...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Sfat de redactare</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Evită indiciile bazate pe lungimea sau formularea opțiunilor. Menține fiecare opțiune paralelă și neambiguă.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Înapoi la examen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Înapoi la sondaj</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anulare</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Răspuns corect</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Explicați raționamentul și principiul de funcționare din spatele răspunsului...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Explicație</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Bifează fiecare variantă corectă. Ordinea în care sunt afișate poate fi aleatorizată în timpul unei încercări.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Textul opțiunii</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Altele</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Editor de întrebări</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Enunțul întrebării</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Setări întrebare</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Șterge opțiunea</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Solicită un răspuns înainte de trimitere.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Obligatoriu</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Afișat numai atunci când angajatul nu răspunde corect în totalitate.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Sfat: Bifarea opțiunii „Altele&quot; permite votantului să trimită informații suplimentare sub formă de text.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Scrie o cerință clară, marchează opțiunile corecte și adaugă îndrumări pentru răspunsurile incorecte.</value>
   </data>
 
 </root>

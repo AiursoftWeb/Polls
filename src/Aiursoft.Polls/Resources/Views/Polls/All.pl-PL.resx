@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Dostęp</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Akcja</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Akcje</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administracja</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Wszystkie egzaminy</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Wszystkie ankiety</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Odbiorcy</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Skopiowano!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Utwórz nową ankietę</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Utwórz egzamin</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Twórca</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Szczegóły</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Egzamin</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>egzaminów</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link skopiowany do schowka!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Nie znaleziono egzaminów</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Nie znaleziono ankiet w systemie.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Egzaminy organizacyjne</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Tutaj pojawią się egzaminy organizacyjne.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Właściciel</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pytań</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Przeglądaj wszystkie oceny w całej organizacji.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>

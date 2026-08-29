@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Wszystkie zmiany zapisane</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonimowa ankieta:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Pytania, na które udzielono odpowiedzi, są wyświetlane na zielono.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Odpowiedzi są zapisywane automatycznie.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Próba</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Wróć</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Zakończ</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Wybór wielokrotny</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Offline; ostateczna wysyłka zostanie ponowiona.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Ocena licencji dyżurowej</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Proszę podać...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Nawigacja po pytaniach</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Pytania</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Gotowe do wysłania?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Zapis nie powiódł się; ostateczna wysyłka zostanie ponowiona.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Zapisywanie…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Wybierz wszystkie pasujące</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Wybór pojedynczy</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Złóż egzamin</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Przetwarzanie...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Przesyłanie…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Pozostały czas</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>total</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Możesz nadal przeglądać i zmieniać odpowiedzi przed przesłaniem.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Twoja tożsamość, adres IP i odcisk przeglądarki nie zostaną zarejestrowane. Twoja głos jest całkowicie prywatny.</value>

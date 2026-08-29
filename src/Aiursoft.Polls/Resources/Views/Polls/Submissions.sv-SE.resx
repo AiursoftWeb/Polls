@@ -24,11 +24,44 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
   </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Försök</value>
+  </data>
+  <data name="Attempts" xml:space="preserve">
+    <value>Försök</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Tillbaka till detaljer</value>
   </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tillbaka till provet</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tillbaka till omröstning</value>
+  </data>
+  <data name="Detailed attempt log" xml:space="preserve">
+    <value>Detaljerad försökslogg</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Anställd</value>
+  </data>
+  <data name="Employee performance" xml:space="preserve">
+    <value>Anställdas prestanda</value>
+  </data>
+  <data name="Employee results" xml:space="preserve">
+    <value>Anställdas resultat</value>
+  </data>
+  <data name="Employee scores will appear here after their first submission." xml:space="preserve">
+    <value>Medarbetarnas resultat visas här efter deras första inlämning.</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Highest score" xml:space="preserve">
+    <value>Högsta poäng</value>
+  </data>
+  <data name="Highest score and score progression across every completed attempt." xml:space="preserve">
+    <value>Högsta poäng och poängutveckling över alla slutförda försök.</value>
   </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP-adress</value>
@@ -36,14 +69,44 @@
   <data name="No submissions found." xml:space="preserve">
     <value>Inga inlämningar hittades.</value>
   </data>
+  <data name="No submissions yet" xml:space="preserve">
+    <value>Inga inlämningar ännu</value>
+  </data>
+  <data name="Open the complete chronological submission ledger." xml:space="preserve">
+    <value>Öppna den fullständiga kronologiska inlämningslogg.</value>
+  </data>
+  <data name="Pass rate" xml:space="preserve">
+    <value>Genomgångsgrad</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Godkänd</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Poäng</value>
+  </data>
+  <data name="Score history" xml:space="preserve">
+    <value>Poänghistorik</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="Submissions" xml:space="preserve">
     <value>Inlämningar</value>
   </data>
   <data name="Submit Time" xml:space="preserve">
     <value>Inlämnad tid</value>
   </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Inlämnad</value>
+  </data>
   <data name="User" xml:space="preserve">
     <value>Användare</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visa</value>
   </data>
   <data name="View Details" xml:space="preserve">
     <value>Visa detaljer</value>

@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>Προσθήκη Επιλογής</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Επιλογές απαντήσεων</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Τύπος απάντησης</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Πίσω στη δημοσκόπηση</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Σωστή απάντηση</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>Επεξεργασία Ερώτησης</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Οι υπάρχουσες προσπάθειες διατηρούν το αρχικό τους στιγμιότυπο. Αυτή η έκδοση χρησιμοποιείται για τις μελλοντικές προσπάθειες.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Επεξήγηση</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Το ιστορικό παραμένει αμετάβλητο</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Σημειώστε κάθε σωστή επιλογή. Η σειρά εμφάνισής τους μπορεί να τυχαίνει κατά τη διάρκεια μιας προσπάθειας.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Κείμενο επιλογής</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>Άλλο</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Δημιουργός ερωτήσεων</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Διατύπωση ερώτησης</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Ρυθμίσεις ερωτήματος</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Βελτιώστε την εκφώνηση, τις επιλογές απάντησης και τις οδηγίες μάθησης.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Αφαίρεση επιλογής</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Απαιτείται απάντηση πριν την υποβολή.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Απαιτούμενο</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Αποθήκευση</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Αποθήκευση ερωτήματος</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Εμφανίζεται μόνο όταν ο υπάλληλος δεν είναι πλήρως σωστός.</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Συμβουλή: Η επιλογή του &apos;Άλλο&apos; επιτρέπει στον ψηφοφόρο να υποβάλει επιπλέον κείμενο.</value>

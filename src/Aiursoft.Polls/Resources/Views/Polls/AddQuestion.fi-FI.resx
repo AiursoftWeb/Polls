@@ -27,11 +27,41 @@
   <data name="Allow custom text" xml:space="preserve">
     <value>Salli mukautettu teksti</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Vastausvaihtoehdot</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Vastaustyyppi</value>
+  </data>
+  <data name="Ask one precise question..." xml:space="preserve">
+    <value>Kysy yksi tarkka kysymys...</value>
+  </data>
+  <data name="Authoring tip" xml:space="preserve">
+    <value>Vinkki kysymyksen laatijalle</value>
+  </data>
+  <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
+    <value>Vältä vihjeitä, jotka perustuvat vaihtoehtojen pituuteen tai sanavalintoihin. Pidä jokainen vaihtoehto tasapainoisena ja yksiselitteisenä.</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Takaisin kokeeseen</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Takaisin äänestykseen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Oikea vastaus</value>
+  </data>
+  <data name="Explain the reasoning and the operational principle behind the answer..." xml:space="preserve">
+    <value>Selitä perustelut ja vastauksen taustalla oleva toimintaperiaate...</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Selitys</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Merkitse kaikki oikeat vaihtoehdot. Näytettävä järjestys voi satunnaistua yrityksen aikana.</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>Vaihtoehdon teksti</value>
@@ -42,11 +72,32 @@
   <data name="Other" xml:space="preserve">
     <value>Muu</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Kysymysten luoja</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Kysymyksen teksti</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Kysymyksen asetukset</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Poista vaihtoehto</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Vastaus vaaditaan ennen lähettämistä.</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Pakollinen</value>
   </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Näytetään vain, jos työntekijän vastaus ei ole täysin oikein.</value>
+  </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>Vinkki: Kun &apos;Muu&apos; on valittuna, äänestäjä voi toimittaa lisätekstityöstä.</value>
+  </data>
+  <data name="Write a clear prompt, mark the correct choices, and add guidance for incorrect answers." xml:space="preserve">
+    <value>Kirjaa selkeä kysymys, merkitse oikeat vastaukset ja lisää ohjeet virheellisiin vastauksiin.</value>
   </data>
 
 </root>

@@ -21,14 +21,38 @@
       <data name="Add Option" xml:space="preserve">
     <value>विकल्प जोड़ें</value>
   </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>उत्तर विकल्प</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>उत्तर प्रकार</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>परीक्षा पर वापस जाएँ</value>
+  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>वापस मतदान पर</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
   </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>सही उत्तर</value>
+  </data>
   <data name="Edit Question" xml:space="preserve">
     <value>प्रश्न संपादित करें</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>मौजूदा प्रयास अपनी मूल स्नैपशॉट को बनाए रखते हैं। भविष्य के प्रयासों के लिए इस संस्करण का उपयोग किया जाता है।</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>व्याख्या</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>इतिहास अपरिवर्तित रहता है</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>प्रत्येक सही विकल्प को चिह्नित करें। प्रयास के दौरान उनके प्रदर्शन का क्रम यादृच्छिक हो सकता है।</value>
   </data>
   <data name="Option text" xml:space="preserve">
     <value>विकल्प का पाठ</value>
@@ -39,11 +63,35 @@
   <data name="Other" xml:space="preserve">
     <value>अन्य</value>
   </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>प्रश्न निर्माता</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>प्रश्न प्रॉम्प्ट</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>प्रश्न सेटिंग्स</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>प्रॉम्प्ट, उत्तर विकल्पों और सीखने संबंधी मार्गदर्शन को बेहतर बनाएं।</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>विकल्प हटाएँ</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>जमा करने से पहले उत्तर आवश्यक है।</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>आवश्यक</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>सहेजें</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>प्रश्न सहेजें</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>केवल तब दिखाया जाता है जब कर्मचारी पूर्ण रूप से सही उत्तर नहीं देता है।</value>
   </data>
   <data name="Tip: Checking &apos;Other&apos; allows the voter to submit additional text information." xml:space="preserve">
     <value>सुझाव: &apos;अन्य&apos; का चयन करने से मतदाता को अतिरिक्त पाठ जानकारी प्रस्तुत करने की अनुमति मिलती है।</value>

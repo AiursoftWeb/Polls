@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>सभी परिवर्तन सहेजे गए</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>गुमनाम सर्वेक्षण:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>उत्तर दिया गया</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>उत्तर दिए गए प्रश्न हरे रंग में दिखाए जाते हैं।</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>उत्तर स्वतः सेव् हो जाते हैं।</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>प्रयास</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>पिछला</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>समाप्त करें</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>बहु-विकल्पीय</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>ऑफ़लाइन; अंतिम सबमिशन दोबारा प्रयास करेगा।</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>ऑन-कॉल लाइसेंस मूल्यांकन</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>कृपया निर्दिष्ट करें...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>प्रश्न नेविगेटर</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>प्रश्न</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>जमा करने के लिए तैयार हैं?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>सेव विफल; अंतिम जमाई पुनः प्रयास करेगी।</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>सेव हो रहा है…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>सभी का चयन करें जो लागू होता है</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>एकल चयन</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>परीक्षा जमा करें</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>सबमिट किया जा रहा है...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>जमा हो रहा है…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>शेष समय</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>कुल</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>आप अभी भी जमा करने से पहले उत्तरों की समीक्षा और उनमें बदलाव कर सकते हैं।</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>आपकी पहचान, IP पता और ब्राउज़र फिंगरप्रिंट को रिकॉर्ड नहीं किया जाएगा। आपका वोट पूरी तरह से निजी है।</value>

@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Kaikki muutokset tallennettu</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonyymi kysely:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>vastattu</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Vastatut kysymykset näkyvät vihreinä.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Vastaukset tallennetaan automaattisesti.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Yritys</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Takaisin</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Lopeta</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Usea valinta</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Poissa verkosta; lopullinen lähetys yritetään uudelleen.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Virkavalvovalisenssin arviointi</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Ole hyvä ja täsmennä...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Kysymysten navigointi</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Kysymykset</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Valmis lähettämään?</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Tallennus epäonnistui; lopullista lähetystä yritetään uudelleen.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Tallennetaan…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Valitse kaikki, jotka koskevat</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Yksivaihtoehtoinen</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Lähetä tentti</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Lähetetään...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Lähetetään…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Jäljellä oleva aika</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>yhteensä</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Voit edelleen tarkistaa ja muuttaa vastauksia ennen lähettämistä.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identiteettiäsi, IP-osoitettasi ja selaimen sormenjälkeäsi EI tallenneta. Äänestys on täysin yksityinen.</value>

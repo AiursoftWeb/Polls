@@ -18,8 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous Poll:" xml:space="preserve">
+      <data name="All changes saved" xml:space="preserve">
+    <value>Όλες οι αλλαγές αποθηκεύτηκαν</value>
+  </data>
+  <data name="Anonymous Poll:" xml:space="preserve">
     <value>Ανώνυμη ψηφοφορία:</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>απαντημένη</value>
+  </data>
+  <data name="Answered questions are shown in green." xml:space="preserve">
+    <value>Οι ερωτήσεις που έχουν απαντηθεί εμφανίζονται με πράσινο χρώμα.</value>
+  </data>
+  <data name="Answers are saved automatically." xml:space="preserve">
+    <value>Οι απαντήσεις αποθηκεύονται αυτόματα.</value>
+  </data>
+  <data name="Attempt" xml:space="preserve">
+    <value>Προσπάθεια</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Πίσω</value>
@@ -33,14 +48,35 @@
   <data name="Finish" xml:space="preserve">
     <value>Τέλος</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Πολλαπλές επιλογές</value>
+  </data>
+  <data name="Offline; final submission will retry." xml:space="preserve">
+    <value>Εκτός σύνδεσης; η τελική υποβολή θα ξαναδοκιμάσει.</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Εκτίμηση άδειας σε καθεστώς on-call</value>
   </data>
   <data name="Please specify..." xml:space="preserve">
     <value>Παρακαλώ διευκρινίστε...</value>
   </data>
+  <data name="Question navigator" xml:space="preserve">
+    <value>Πλοηγός ερωτήσεων</value>
+  </data>
   <data name="Questions" xml:space="preserve">
     <value>Ερωτήσεις</value>
+  </data>
+  <data name="Ready to submit?" xml:space="preserve">
+    <value>Είστε έτοιμοι να υποβάλετε;</value>
+  </data>
+  <data name="Save failed; final submission will retry." xml:space="preserve">
+    <value>Η αποθήκευση απέτυχε. Η τελική υποβολή θα ξαναδοκιμαστεί.</value>
+  </data>
+  <data name="Saving…" xml:space="preserve">
+    <value>Αποθήκευση…</value>
   </data>
   <data name="Select all that apply" xml:space="preserve">
     <value>Επιλέξτε όλα όσα ισχύουν</value>
@@ -51,11 +87,23 @@
   <data name="Single Choice" xml:space="preserve">
     <value>Ατομική Επιλογή</value>
   </data>
+  <data name="Submit exam" xml:space="preserve">
+    <value>Υποβολή εξετάσεων</value>
+  </data>
   <data name="Submitting..." xml:space="preserve">
     <value>Υποβολή...</value>
   </data>
+  <data name="Submitting…" xml:space="preserve">
+    <value>Υποβολή…</value>
+  </data>
+  <data name="Time remaining" xml:space="preserve">
+    <value>Προσέγγιση</value>
+  </data>
   <data name="total" xml:space="preserve">
     <value>σύνολο</value>
+  </data>
+  <data name="You can still review and change answers before submitting." xml:space="preserve">
+    <value>Μπορείτε ακόμα να εξετάσετε και να αλλάξετε τις απαντήσεις πριν από την υποβολή.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Η ταυτότητά σας, η διεύθυνση IP και το αποτύπωμα του browser σας ΔΕΝ θα καταγραφούν. Η ψήφος σας είναι απολύτως ιδιωτική.</value>

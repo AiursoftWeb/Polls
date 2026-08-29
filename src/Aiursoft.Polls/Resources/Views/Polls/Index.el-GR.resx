@@ -24,11 +24,26 @@
   <data name="Actions" xml:space="preserve">
     <value>Ενέργειες</value>
   </data>
+  <data name="Assessment center" xml:space="preserve">
+    <value>Κέντρο Αξιολόγησης</value>
+  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Αντιγράφηκε!</value>
   </data>
+  <data name="Copy link" xml:space="preserve">
+    <value>Αντιγραφή συνδέσμου</value>
+  </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Δημιουργία νέας δημοσκόπησης</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Δημιουργία εξετάσεων</value>
+  </data>
+  <data name="Create your first employee assessment, add questions, then assign it to people or roles." xml:space="preserve">
+    <value>Δημιουργήστε την πρώτη σας αξιολόγηση υπαλλήλου, προσθέστε ερωτήσεις και στη συνέχεια αναθέστε την σε άτομα ή ρόλους.</value>
+  </data>
+  <data name="Create, assign and review employee assessments from one place." xml:space="preserve">
+    <value>Δημιουργήστε, αναθέστε και αξιολογήστε τις εκθέσεις των εργαζομένων από ένα μόνο σημείο.</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Προθεσμία</value>
@@ -36,17 +51,32 @@
   <data name="Details" xml:space="preserve">
     <value>Λεπτομέρειες</value>
   </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Εξετάσεις</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Το σύνδεσμο αντιγράψατε στο πρόχειρο!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Οι Έρευνές μου</value>
+  </data>
+  <data name="No exams yet" xml:space="preserve">
+    <value>Δεν υπάρχουν εξετάσεις ακόμα</value>
+  </data>
+  <data name="Open exam" xml:space="preserve">
+    <value>Άνοιγμα εξετάσης</value>
   </data>
   <data name="Polls I Manage" xml:space="preserve">
     <value>Ψήφοι που διαχειρίζομαι</value>
   </data>
   <data name="Polls Management" xml:space="preserve">
     <value>Διαχείριση Ερωτηματολογίων</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>ερωτήσεις</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Κατάσταση</value>

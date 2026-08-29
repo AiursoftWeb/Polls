@@ -21,17 +21,32 @@
       <data name="Access" xml:space="preserve">
     <value>Πρόσβαση</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Ενέργεια</value>
+  </data>
   <data name="Actions" xml:space="preserve">
     <value>Δράσεις</value>
   </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Όλα τα εξετάσεις</value>
+  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Όλες οι δημοσκοπήσεις</value>
+  </data>
+  <data name="Audience" xml:space="preserve">
+    <value>Κοινό</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Αντιγράφηκε!</value>
   </data>
   <data name="Create a new poll" xml:space="preserve">
     <value>Δημιουργία νέου δημοσκόπησης</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Δημιουργία εξετάσεων</value>
   </data>
   <data name="Creator" xml:space="preserve">
     <value>Δημιουργός</value>
@@ -42,11 +57,41 @@
   <data name="Details" xml:space="preserve">
     <value>Λεπτομέρειες</value>
   </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Εξεταστική</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>εξετάσεις</value>
+  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Σύνδεσμος αντιγράφτηκε στο πρόχειρο!</value>
   </data>
+  <data name="minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="No exams found" xml:space="preserve">
+    <value>Δεν βρέθηκαν εξετάσεις</value>
+  </data>
   <data name="No polls found in the system." xml:space="preserve">
     <value>Δεν βρέθηκαν δημοσκοπήσεις στο σύστημα.</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Ανοίγμα</value>
+  </data>
+  <data name="Organization exams" xml:space="preserve">
+    <value>Εξετάσεις Οργανισμού</value>
+  </data>
+  <data name="Organization exams will appear here." xml:space="preserve">
+    <value>Εδώ θα εμφανίζονται τα εξετάσεις του οργανισμού.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>ερωτήματα</value>
+  </data>
+  <data name="Review every assessment across the organization." xml:space="preserve">
+    <value>Ελέγξτε κάθε αξιολόγηση σε ολόκληρο τον οργανισμό.</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Κατάσταση</value>

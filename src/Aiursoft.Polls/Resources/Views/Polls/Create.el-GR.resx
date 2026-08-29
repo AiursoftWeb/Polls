@@ -24,11 +24,38 @@
   <data name="Access Type" xml:space="preserve">
     <value>Τύπος Πρόσβασης</value>
   </data>
+  <data name="Advanced options" xml:space="preserve">
+    <value>Προηγμένες επιλογές</value>
+  </data>
+  <data name="After creating the exam, add choice questions, mark correct answers, review the scoring setup, then publish." xml:space="preserve">
+    <value>Μετά τη δημιουργία του εξεταστικού, προσθέστε ερωτήσεις επιλογής, επισημάνετε τις σωστές απαντήσεις, ελέγξτε τη ρύθμιση βαθμολόγησης και στη συνέχεια δημοσιεύστε το.</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Επιτρέπεται ένα άλλο νέο προσπάθεια.</value>
+  </data>
   <data name="Allowed Roles" xml:space="preserve">
     <value>Επιτρεπόμενοι Ρόλοι</value>
   </data>
   <data name="Anonymous Poll (Database will not record user information)" xml:space="preserve">
     <value>Ανώνυμη ψηφοφορία (η βάση δεδομένων δεν θα καταγράφει πληροφορίες χρηστών)</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Κάθε μη κενό σωστό υποσύνολο λαμβάνει τον ίδιο μερικό βαθμό. Η επιλογή οποιουδήποτε λανθασμένου επιλογής χρησιμοποιεί τον βαθμό λανθασμένης επιλογής.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Αναθέστε το εξεταστικό άμεσα σε υπαλλήλους, ρόλους ή και τα δύο.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Αναθέσεις</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Συμπεριφορά δοκιμών</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Βασικά στοιχεία δοκιμής</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Επιστροφή στις εξετάσεις</value>
   </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Πίσω στις Δημοσκοπήσεις</value>
@@ -36,8 +63,20 @@
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Σωστό υποσύνολο</value>
+  </data>
   <data name="Create" xml:space="preserve">
     <value>Δημιουργία</value>
+  </data>
+  <data name="Create and add questions" xml:space="preserve">
+    <value>Δημιουργία και προσθήκη ερωτήσεων</value>
+  </data>
+  <data name="Create draft" xml:space="preserve">
+    <value>Δημιουργία προσκόμισης</value>
+  </data>
+  <data name="Create exam" xml:space="preserve">
+    <value>Δημιουργία εξετάσης</value>
   </data>
   <data name="Create Poll" xml:space="preserve">
     <value>Δημιουργία Ψηφοφορίας</value>
@@ -45,8 +84,89 @@
   <data name="Deadline" xml:space="preserve">
     <value>Προθεσμία</value>
   </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Υπάλληλοι</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Κάθε υπάλληλος σε επιλεγμένο ρόλο μπορεί να παρακολουθήσει το εξεταστικό.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Ταυτότητα εξετάσης</value>
+  </data>
+  <data name="Explain the purpose, scope and any preparation employees should complete." xml:space="preserve">
+    <value>Εξηγήστε τον σκοπό, το πεδίο εφαρμογής και τις τυχόν προετοιμασίες που πρέπει να ολοκληρώσουν οι υπάλληλοι.</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Μήλος αποτυχίας</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>Σωστά</value>
+  </data>
+  <data name="Give employees enough context to understand what this assessment is for." xml:space="preserve">
+    <value>Δώστε στους υπαλλήλους αρκετό πλαίσιο για να κατανοήσουν το σκοπό αυτής της αξιολόγησης.</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Περιλαμβάνει λάθος επιλογή</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>λεπ</value>
+  </data>
+  <data name="New assessment" xml:space="preserve">
+    <value>Νέα αξιολόγηση</value>
+  </data>
+  <data name="On-call license assessment" xml:space="preserve">
+    <value>Αξιολόγηση άδειας κατόχου καθεστώτος on-call</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Μήνυμα επιτυχίας</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Βαθμός αποδοχής</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Ερωτήσεις ανά προσπάθεια</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Τυχαιοποιήστε τις επιλογές ανεξάρτητα.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Τυχαία διαταξία των ερωτήσεων του δείγματος.</value>
+  </data>
   <data name="Result Visibility" xml:space="preserve">
     <value>Ορατότητα Αποτελεσμάτων</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Αποτελέσματα και ανατροφοδότηση</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Ρόλοι</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Μοντέλο βαθμολόγησης</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Βαθμολόγηση, τυποποίηση, ορατότητα αποτελεσμάτων και μηνύματα ανατροφοδότησης.</value>
+  </data>
+  <data name="Start with the essentials. Questions are added after the exam is created." xml:space="preserve">
+    <value>Ξεκινήστε με τα βασικά. Οι ερωτήσεις προστίθενται μετά τη δημιουργία του εξετάσεων.</value>
+  </data>
+  <data name="The exam remains private and editable until you publish it." xml:space="preserve">
+    <value>Το τεστ παραμένει ιδιωτικό και επεξεργάσιμο μέχρι να το δημοσιεύσετε.</value>
+  </data>
+  <data name="The settings employees need to understand before starting." xml:space="preserve">
+    <value>Οι ρυθμίσεις που οι υπάλληλοι πρέπει να κατανοήσουν πριν ξεκινήσουν.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Χρονικό όριο</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Χρησιμοποιήστε 0 για να συμπεριλάβετε κάθε ερώτηση.</value>
+  </data>
+  <data name="What happens next" xml:space="preserve">
+    <value>Τι συμβαίνει στη συνέχεια</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Ποιος μπορεί να παρακολουθήσει αυτό το εξεταστικό</value>
   </data>
 
 </root>

@@ -2,7 +2,6 @@ using System.Net;
 using Aiursoft.DbTools;
 using Aiursoft.Polls.Entities;
 using Microsoft.AspNetCore.Identity;
-using Aiursoft.CSTools.Tools;
 using static Aiursoft.WebTools.Extends;
 
 namespace Aiursoft.Polls.Tests.IntegrationTests;
@@ -17,7 +16,8 @@ public class SpecialAccountTests
     [TestInitialize]
     public async Task Setup()
     {
-        _port = Network.GetAvailablePort();
+        using var reservation = new TestPortReservation();
+        _port = reservation.Port;
         var cookieContainer = new CookieContainer();
         var handler = new HttpClientHandler
         {
@@ -33,14 +33,23 @@ public class SpecialAccountTests
         Environment.SetEnvironmentVariable("AppSettings__DefaultRole", "Administrators");
         
         _server = await AppAsync<Startup>([], port: _port);
-        using (var scope = _server.Services.CreateScope())
+        try
         {
-            var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
-            await db.Database.EnsureDeletedAsync();
+            reservation.ConfigureServer(_server);
+            using (var scope = _server.Services.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+                await db.Database.EnsureDeletedAsync();
+            }
+            await _server.UpdateDbAsync<TemplateDbContext>();
+            await _server.SeedAsync();
+            await _server.StartAsync();
         }
-        await _server.UpdateDbAsync<TemplateDbContext>();
-        await _server.SeedAsync();
-        await _server.StartAsync();
+        catch
+        {
+            _server.Dispose();
+            throw;
+        }
     }
 
     [TestCleanup]

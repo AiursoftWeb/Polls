@@ -1,3 +1,5 @@
+using System.Globalization;
+using System.Text.RegularExpressions;
 using Aiursoft.Polls.Entities;
 using Aiursoft.Polls.Services;
 using Aiursoft.Polls.Services.BackgroundJobs;
@@ -64,6 +66,26 @@ public class ExamAttemptIntegrationTests : TestBase
         Assert.AreEqual(8m, first.MaxScore);
         Assert.AreEqual(1, first.AttemptNumber);
         Assert.IsTrue(first.ExpiresAt > first.StartedAt);
+
+        // Relational timestamp columns do not preserve DateTime.Kind.
+        first.ExpiresAt = DateTime.SpecifyKind(first.ExpiresAt, DateTimeKind.Unspecified);
+        await context.SaveChangesAsync();
+
+        // Reloading an ongoing exam must preserve its UTC countdown deadline.
+        for (var reload = 0; reload < 2; reload++)
+        {
+            var voteResponse = await Http.GetAsync($"/Polls/Vote/{poll.Id}");
+            voteResponse.EnsureSuccessStatusCode();
+            var voteHtml = await voteResponse.Content.ReadAsStringAsync();
+            foreach (var (name, expected) in new[] { ("expiresAt", first.ExpiresAt), ("startedAt", first.StartedAt) })
+            {
+                var timestamp = Regex.Match(voteHtml, $"const {name} = new Date\\('([^']+)'\\)");
+                Assert.IsTrue(timestamp.Success, $"Missing {name} in the exam countdown.");
+                var value = timestamp.Groups[1].Value;
+                Assert.EndsWith("Z", value, "Countdown timestamps must carry an explicit UTC zone.");
+                Assert.AreEqual(expected, DateTimeOffset.Parse(value, CultureInfo.InvariantCulture).UtcDateTime);
+            }
+        }
 
         var snapshots = first.AttemptQuestions!.OrderBy(q => q.DisplayOrder).ToList();
         var q1Correct = snapshots[0].Options!.Where(o => o.IsCorrect).ToList();

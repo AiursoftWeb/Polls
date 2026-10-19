@@ -61,7 +61,8 @@
                             </div>
                             <div class="col-md-6">
                                 <label asp-for="Deadline" class="form-label"></label>
-                                <input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
+                                <input data-utc-input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
+<partial name="_UtcInput" />
                                 <span asp-validation-for="Deadline" class="text-danger small"></span>
                             </div>
                             <div class="col-md-6">

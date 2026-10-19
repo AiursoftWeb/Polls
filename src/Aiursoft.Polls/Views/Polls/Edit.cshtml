@@ -36,7 +36,8 @@
                             <div class="col-md-4"><label asp-for="QuestionsPerAttempt" class="form-label">@Localizer["Questions per attempt"]</label><div class="input-group"><span class="input-group-text"><i data-lucide="list-checks"></i></span><input asp-for="QuestionsPerAttempt" class="form-control" /></div><div class="form-text">@Localizer["Use 0 to include every question."]</div></div>
                             <div class="col-md-4"><label asp-for="DurationMinutes" class="form-label">@Localizer["Time limit"]</label><div class="input-group"><span class="input-group-text"><i data-lucide="timer"></i></span><input asp-for="DurationMinutes" class="form-control" /><span class="input-group-text">@Localizer["min"]</span></div></div>
                             <div class="col-md-4"><label asp-for="PassingScore" class="form-label">@Localizer["Passing score"]</label><div class="input-group"><span class="input-group-text"><i data-lucide="trophy"></i></span><input asp-for="PassingScore" class="form-control" /></div></div>
-                            <div class="col-md-6"><label asp-for="Deadline" class="form-label"></label><input asp-for="Deadline" type="datetime-local" step="1" class="form-control" /><span asp-validation-for="Deadline" class="text-danger small"></span></div>
+                            <div class="col-md-6"><label asp-for="Deadline" class="form-label"></label><input data-utc-input asp-for="Deadline" type="datetime-local" step="1" class="form-control" />
+<partial name="_UtcInput" /><span asp-validation-for="Deadline" class="text-danger small"></span></div>
                             <div class="col-md-6"><label asp-for="AccessType" class="form-label">@Localizer["Who can take this exam"]</label><select asp-for="AccessType" asp-items="Html.GetEnumSelectList<AccessType>()" class="form-select" id="accessTypeSelect"></select></div>
                         </div>
                     </div>

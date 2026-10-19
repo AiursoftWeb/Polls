@@ -8,6 +8,33 @@ namespace Aiursoft.Polls.Tests.IntegrationTests;
 public class PollsTests : TestBase
 {
     [TestMethod]
+    public async Task DeadlineAndExtensionStoreUtcInstants()
+    {
+        await LoginAsAdmin();
+        var response = await PostForm("/Polls/Create", new Dictionary<string, string>
+        {
+            { "Title", "UTC deadline" }, { "Deadline", "2030-07-01T09:30:00+08:00" }
+        });
+        Assert.AreEqual(HttpStatusCode.Found, response.StatusCode);
+        var id = Guid.Parse(response.Headers.Location!.OriginalString.Split('/').Last());
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+        var poll = await db.Polls.AsNoTracking().SingleAsync(p => p.Id == id);
+        Assert.AreEqual(new DateTime(2030, 7, 1, 1, 30, 0, DateTimeKind.Utc), poll.Deadline);
+        var editHtml = await Http.GetStringAsync($"/Polls/Edit/{id}");
+        Assert.Contains("data-utc-input", editHtml);
+        Assert.Contains("utc-input.js", editHtml);
+        response = await PostForm($"/Polls/Extend/{id}", new Dictionary<string, string>
+        {
+            { "PollId", id.ToString() }, { "NewDeadline", "2030-07-02T09:30:00-04:00" }
+        });
+        Assert.AreEqual(HttpStatusCode.Found, response.StatusCode);
+        poll = await db.Polls.AsNoTracking().SingleAsync(p => p.Id == id);
+        Assert.AreEqual(new DateTime(2030, 7, 2, 13, 30, 0, DateTimeKind.Utc), poll.Deadline);
+    }
+
+
+    [TestMethod]
     public async Task TestReorderQuestions()
     {
         // 1. Login as Admin

@@ -68,7 +68,7 @@ public class ExamAttemptIntegrationTests : TestBase
         Assert.IsTrue(first.ExpiresAt > first.StartedAt);
 
         // Relational timestamp columns do not preserve DateTime.Kind.
-        first.ExpiresAt = DateTime.SpecifyKind(first.ExpiresAt, DateTimeKind.Unspecified);
+        first.ExpiresAt = DateTime.SpecifyKind(first.ExpiresAt.AddMinutes(1), DateTimeKind.Unspecified);
         await context.SaveChangesAsync();
 
         // Reloading an ongoing exam must preserve its UTC countdown deadline.

@@ -2,6 +2,8 @@
 @model Aiursoft.Polls.Models.PollsViewModels.VoteViewModel
 @{
     Layout = null;
+    var expiresAt = Model.Attempt == null ? null : DateTime.SpecifyKind(Model.Attempt.ExpiresAt, DateTimeKind.Utc).ToString("O");
+    var startedAt = Model.Attempt == null ? null : DateTime.SpecifyKind(Model.Attempt.StartedAt, DateTimeKind.Utc).ToString("O");
     var questions = Model.Attempt?.AttemptQuestions?.OrderBy(q => q.DisplayOrder).ToList() ?? [];
 }
 <!doctype html>
@@ -169,8 +171,8 @@
     <script>
         (() => {
             const form = document.getElementById('examForm');
-            const expiresAt = new Date('@Model.Attempt?.ExpiresAt.ToString("O")').getTime();
-            const startedAt = new Date('@Model.Attempt?.StartedAt.ToString("O")').getTime();
+            const expiresAt = new Date('@expiresAt').getTime();
+            const startedAt = new Date('@startedAt').getTime();
             const total = expiresAt - startedAt;
             const saveState = document.getElementById('saveState');
             let submitting = false;

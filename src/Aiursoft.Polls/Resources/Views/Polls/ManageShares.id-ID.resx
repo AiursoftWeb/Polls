@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} dan {1} pengguna lainnya</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} dan {1} pengguna lainnya</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} dapat mengedit.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} dapat melihat.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>Peran {0}</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} peran</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} pengguna</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} pengguna</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>Tentang akses</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>bagian aktif</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>Kembali ke ujian</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>Dapat mengedit</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>Dapat melihat</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>Akses lihat memungkinkan peninjauan hasil ujian. Akses edit juga memungkinkan perubahan pengaturan dan soal ujian.</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>Kolaborasi</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>Kolaborator dapat meninjau atau mengedit ujian. Karyawan yang ditugaskan untuk mengerjakannya tidak pernah menerima akses jawaban atau manajemen skor.</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>Perubahan tidak dapat dikonfirmasi. Masukan Anda tetap tersimpan. Coba lagi, atau muat ulang untuk memeriksa status yang tersimpan.</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>Tidak dapat menyalin. Pilih dan salin tautan di atas.</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>Akses saat ini</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>Kolaborator saat ini</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>Karyawan</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>Kolaborasi ujian:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>Tautan disalin.</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>Tidak ada kolaborator</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>Tidak ada kolaborator yang ditambahkan.</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>Pengguna tidak ditemukan. Coba nama atau email lain.</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>Belum ada pengguna atau peran yang ditambahkan.</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>Hanya Anda yang dapat mengelola ujian ini saat ini.</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>Jenis penerima</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>Hapus akses</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>Hapus berbagi ini? Akses lain mungkin masih berlaku.</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>Peran</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>Peran {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>Peran {0} dan {1} peran lainnya</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>Peran {0} dan {1} peran lainnya</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>Pencarian gagal. Ubah teks pencarian untuk mencoba lagi.</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>Mencari...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>Pilih peran...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>Pilih pengguna...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>Pilih karyawan...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>Bagikan ujian</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>Bagikan dengan</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>Bagikan dengan satu karyawan atau satu peran pada satu waktu.</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>Berbagi berbeda dari penugasan</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>Berbagi berbeda dari penugasan.</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>Pemilik dan administrator berbagi yang berwenang dapat mengelola akses. Akses berdasarkan peran berlaku bagi anggota peran tersebut; izin dari peran lain atau berbagi langsung tetap berlaku setelah satu akses berbagi dihapus.</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>Pengguna atau peran ini sudah memiliki akses.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Pengguna</value>
   </data>
 
 </root>

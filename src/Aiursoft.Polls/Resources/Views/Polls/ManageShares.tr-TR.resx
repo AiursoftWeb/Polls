@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} ve {1} diğer kullanıcı</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} ve {1} diğer kullanıcı</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} düzenleyebilir.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} görüntüleyebilir.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} rol</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} rol</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} kullanıcı</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} kullanıcı</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>Erişim hakkında</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>aktif paylaşımlar</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>Sınava dön</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>Düzenleyebilir</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>Görüntüleyebilir</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>Görüntüleme izni sınav sonuçlarını incelemeyi sağlar. Düzenleme izni ayrıca sınav ayarlarını ve sorularını değiştirmeyi de sağlar.</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>İş Birliği</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>İş birlikçiler sınavı inceleyebilir veya düzenleyebilir. Sınava atanmış çalışanlar, asla cevap veya puan yönetimi erişimi almaz.</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>Değişiklik doğrulanamadı. Girdiniz korundu. Tekrar deneyin veya kaydedilen durumu kontrol etmek için sayfayı yeniden yükleyin.</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>Kopyalanamadı. Yukarıdaki bağlantıyı seçip kopyalayın.</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>Mevcut erişim</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>Mevcut iş birliği yapanlar</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>Çalışan</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>Sınav iş birliği:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>Bağlantı kopyalandı.</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>Ortak yok</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>İş birliği yapan kişi eklenmedi.</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>Kullanıcı bulunamadı. Başka bir ad veya e-posta deneyin.</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>Kullanıcı veya rol eklenmedi.</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>Şu anda bu sınavı yalnızca siz yönetebilirsiniz.</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>Alıcı türü</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>Erişimi kaldır</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>Bu paylaşım kaldırılsın mı? Diğer erişimler geçerli olmaya devam edebilir.</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>Rol</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>Rol {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>{0} rolü ve {1} diğer rol</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>Rol {0} ve {1} diğer rol</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>Arama başarısız oldu. Tekrar denemek için arama metnini değiştirin.</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>Aranıyor...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>Bir rol seçin...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>Bir kullanıcı seçin...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>Bir çalışan seçin...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>Sınavı Paylaş</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>Şunlarla paylaş</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>Tek seferde bir çalışanla veya bir rolle paylaşın.</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>Paylaşım, atamadan ayrıdır</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>Paylaşım, atamadan bağımsızdır.</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>Erişim, sahip ve paylaşım yetkisi bulunan yöneticiler tarafından yönetilebilir. Rol erişimi, rolün üyeleri için geçerlidir; bir paylaşım kaldırıldıktan sonra diğer rollerden veya doğrudan paylaşımlardan gelen izinler geçerliliğini korur.</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>Bu kullanıcı veya role zaten erişim izni verildi.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Kullanıcı</value>
   </data>
 
 </root>

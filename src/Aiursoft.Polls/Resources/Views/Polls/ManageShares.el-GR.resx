@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} και {1} ακόμη χρήστης</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} και {1} ακόμη χρήστες</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>Ο/Η {0} μπορεί να επεξεργαστεί.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>Ο/Η {0} μπορεί να προβάλει.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>Ρόλος {0}</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} ρόλοι</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} χρήστης</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} χρήστες</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>Σχετικά με την πρόσβαση</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>ενεργές κοινοποιήσεις</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>Επιστροφή στο εξεταστικό</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>Έχει δυνατότητα επεξεργασίας</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>Μπορεί να προβάλει</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>Η δυνατότητα προβολής επιτρέπει την εξέταση των αποτελεσμάτων της εξέτασης. Η δυνατότητα επεξεργασίας επιτρέπει επίσης την αλλαγή των ρυθμίσεων και των ερωτήσεων της εξέτασης.</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>Συνεργασία</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>Οι συνεργάτες μπορούν να αναθεωρήσουν ή να επεξεργαστούν το τεστ. Οι υπάλληλοι που έχουν οριστεί να το περάσουν δεν αποκτούν ποτέ πρόσβαση στις απαντήσεις ή στη διαχείριση των βαθμολογιών.</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>Δεν ήταν δυνατή η επιβεβαίωση της αλλαγής. Η καταχώρισή σας διατηρείται. Δοκιμάστε ξανά ή φορτώστε ξανά τη σελίδα για να ελέγξετε την αποθηκευμένη κατάσταση.</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αντιγραφή. Επιλέξτε και αντιγράψτε τον παραπάνω σύνδεσμο.</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>Τρέχουσα πρόσβαση</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>Τρέχοντες συνεργάτες</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>Υπάλληλος</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>Συνεργασία στις εξετάσεις:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>Ο σύνδεσμος αντιγράφηκε.</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>Καμία συνεργασία</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>Δεν έχουν προστεθεί συνεργάτες.</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>Δεν βρέθηκαν χρήστες. Δοκιμάστε με άλλο όνομα ή email.</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>Δεν έχουν προστεθεί χρήστες ή ρόλοι.</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>Μόνο εσείς μπορείτε να διαχειριστείτε αυτό το εξεταστικό τη στιγμή αυτή.</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>Τύπος παραλήπτη</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>Κατάργηση πρόσβασης</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>Να καταργηθεί αυτή η κοινή χρήση; Ενδέχεται να εξακολουθούν να ισχύουν άλλα δικαιώματα πρόσβασης.</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>Ρόλος</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>Ρόλος {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>Ρόλος {0} και {1} ακόμη ρόλος</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>Ρόλος {0} και {1} ακόμη ρόλοι</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>Η αναζήτηση απέτυχε. Αλλάξτε το κείμενο αναζήτησης για να δοκιμάσετε ξανά.</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>Αναζήτηση...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>Επιλέξτε ρόλο...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>Επιλέξτε έναν χρήστη...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>Επιλέξτε υπάλληλο...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>Κοινοποίηση εξετάσεων</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>Κοινοποίηση με</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>Μοιραστείτε με έναν υπάλληλο ή έναν ρόλο τη φορά.</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>Η κοινή χρήση είναι ξεχωριστή από την αποστολή</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>Η κοινοποίηση είναι ξεχωριστή από την ανάθεση.</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>Ο ιδιοκτήτης και οι εξουσιοδοτημένοι διαχειριστές κοινής χρήσης μπορούν να διαχειρίζονται την πρόσβαση. Η πρόσβαση μέσω ρόλου ισχύει για τα μέλη του· τα δικαιώματα από άλλους ρόλους ή απευθείας κοινοποιήσεις εξακολουθούν να ισχύουν μετά την κατάργηση μιας κοινοποίησης.</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>Αυτός ο χρήστης ή ο ρόλος έχει ήδη πρόσβαση.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Χρήστης</value>
   </data>
 
 </root>

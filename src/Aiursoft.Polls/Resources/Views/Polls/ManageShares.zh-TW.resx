@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} 及其他 {1} 位使用者</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0}及其他{1}位使用者</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} 可以編輯。</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} 可以檢視。</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} 個角色</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} 個角色</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} 位使用者</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} 位使用者</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}、{1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>關於存取權限</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>有效分享</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>返回考試</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>可編輯</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>可檢視</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>「可檢視」權限可查看考試結果；「可編輯」權限還可變更考試設定和題目。</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>協作</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>協作者可以檢視或編輯考試。被指派參加考試的員工永遠不會獲得答案或成績管理權限。</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>無法確認變更。已保留您輸入的內容。請再試一次，或重新載入以確認儲存的狀態。</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>無法複製。請選取並複製上方的連結。</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>目前的存取權限</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>目前的協作者</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>員工</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>考試協作：</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>已複製連結。</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>沒有協作者</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>尚未新增協作者。</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>找不到使用者。請嘗試其他姓名或電子郵件地址。</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>尚未新增任何使用者或角色。</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>目前只有您可以管理此考試。</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>收件者類型</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>移除存取權限</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>要移除此共用項目嗎？其他存取權限可能仍然有效。</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>角色</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>角色 {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>角色 {0}及另外 {1} 個角色</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>角色 {0}及另外 {1} 個角色</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>搜尋失敗。請變更搜尋文字後再試一次。</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>搜尋中...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>選擇一個角色...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>請選擇使用者...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>選擇員工...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>分享考試</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>分享對象</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>一次只能與一名員工或一個角色共用。</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>分享與指派是相互獨立的</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>分享與指派是分開的。</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>擁有者和經授權的分享管理員可以管理存取權限。角色存取權限適用於該角色的成員；移除某項分享後，其他角色或直接分享所授予的權限仍然有效。</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>此使用者或角色已擁有存取權。</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>使用者</value>
   </data>
 
 </root>

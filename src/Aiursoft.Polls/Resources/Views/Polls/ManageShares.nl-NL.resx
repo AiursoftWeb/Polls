@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} en nog {1} andere gebruiker</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} en {1} andere gebruikers</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} kan be bewerken.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} kan bekijken.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} rol</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} rollen</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} gebruiker</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} gebruikers</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>Over de toegang</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>actieve shares</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>Terug naar de examen</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>Kan bewerken</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>Kan bekijken</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>&apos;Kan bekijken&apos; staat toe om examenresultaten te controleren. &apos;Kan bewerken&apos; staat ook toe om exameninstellingen en vragen te wijzigen.</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>Samenwerking</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>Medewerkers kunnen de examens bekijken of bewerken. Werknemers die aan dit examen worden toegewezen, krijgen nooit toegang tot antwoorden of scorebeheer.</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>De wijziging kon niet worden bevestigd. Je invoer is behouden. Probeer het opnieuw of laad de pagina opnieuw om te controleren of de wijziging is opgeslagen.</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>Kopiëren is niet gelukt. Selecteer de link hierboven en kopieer deze.</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>Huidige toegang</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>Huidige samenwerkingspartners</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>Medewerker</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>Samenwerking aan het examen:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>Link gekopieerd.</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>Geen medebeheerders</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>Geen medewerkers toegevoegd.</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>Geen gebruikers gevonden. Probeer een andere naam of een ander e-mailadres.</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>Geen gebruikers of rollen toegevoegd.</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>Alleen jij kunt dit examen voorlopig beheren.</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>Ontvangsttype</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>Toegang verwijderen</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>Deze toegang verwijderen? Andere toegang kan nog steeds van toepassing zijn.</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>Rol</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>Rol {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>Rol {0} en {1} andere rol</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>Rol {0} en {1} andere rollen</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>Zoeken mislukt. Wijzig de zoektekst en probeer het opnieuw.</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>Zoeken...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>Selecteer een rol...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>Selecteer een gebruiker...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>Selecteer een medewerker...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>Examen delen</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>Delen met</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>Deel met één medewerker of één rol tegelijk.</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>Delen is losgekoppeld van toewijzing</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>Delen staat los van toewijzing.</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>De eigenaar en bevoegde beheerders voor het delen kunnen de toegang beheren. Toegang via een rol geldt voor de leden ervan; machtigingen vanuit andere rollen of rechtstreekse deelacties blijven van kracht nadat een deelactie is verwijderd.</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>Deze gebruiker of rol heeft al toegang.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gebruiker</value>
   </data>
 
 </root>

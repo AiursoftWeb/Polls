@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} और {1} अन्य उपयोगकर्ता</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} और {1} अन्य उपयोगकर्ता</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} संपादन कर सकते हैं।</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} देख सकते हैं।</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} भूमिका</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} भूमिकाएँ</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} उपयोगकर्ता</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} उपयोगकर्ता</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>ऐक्सेस के बारे में</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>सक्रिय शेयर</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>परीक्षा पर वापस जाएँ</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>संपादन कर सकते हैं</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>देख सकते हैं</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>देखने की अनुमति से परीक्षा के परिणामों की समीक्षा की जा सकती है। संपादन की अनुमति से परीक्षा की सेटिंग और प्रश्न भी बदले जा सकते हैं।</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>सहयोग</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>सहयोगी परीक्षा की समीक्षा या संपादन कर सकते हैं। जिन्हें इसे लेने के लिए नियुक्त किया गया है, उन्हें कभी भी उत्तर या स्कोर प्रबंधन का अधिकार प्राप्त नहीं होता है।</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>बदलाव की पुष्टि नहीं हो सकी। आपका इनपुट सुरक्षित है। फिर से प्रयास करें, या सहेजी गई स्थिति देखने के लिए पृष्ठ पुनः लोड करें।</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>कॉपी नहीं हो सका। ऊपर दिए गए लिंक को चुनें और कॉपी करें।</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>वर्तमान एक्सेस</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>वर्तमान सहयोगी</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>कर्मचारी</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>परीक्षा में सहयोग:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>लिंक कॉपी हो गया।</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>कोई सहयोगी नहीं</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>कोई सहयोगी नहीं जोड़ा गया है।</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>कोई उपयोगकर्ता नहीं मिला। कोई दूसरा नाम या ईमेल आज़माएँ।</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>कोई उपयोगकर्ता या भूमिका नहीं जोड़ी गई है।</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>अभी केवल आप ही इस परीक्षा को प्रबंधित कर सकते हैं।</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>प्राप्तकर्ता प्रकार</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>पहुँच हटाएं</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>यह शेयर हटाएँ? अन्य पहुँच अधिकार फिर भी लागू हो सकते हैं।</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>भूमिका</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>भूमिका {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>भूमिका {0} और {1} अन्य भूमिका</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>भूमिका {0} और {1} अन्य भूमिकाएँ</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>खोज विफल हुई। फिर से प्रयास करने के लिए खोज टेक्स्ट बदलें।</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>खोज जारी है...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>भूमिका चुनें...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>एक उपयोगकर्ता चुनें...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>कर्मचारी चुनें...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>परीक्षा साझा करें</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>साझा करें</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>एक बार में एक कर्मचारी या एक भूमिका के साथ साझा करें।</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>साझा करना असाइनमेंट से अलग है</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>साझा करना, सौंपे जाने से अलग है।</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>स्वामी और अधिकृत साझाकरण प्रशासक पहुँच प्रबंधित कर सकते हैं। भूमिका-आधारित पहुँच उसके सदस्यों पर लागू होती है; एक साझा पहुँच हटाने के बाद भी अन्य भूमिकाओं या सीधे साझा करने से मिले अनुमतियाँ लागू रहती हैं।</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>इस उपयोगकर्ता या भूमिका को पहले से ही एक्सेस प्राप्त है।</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>उपयोगकर्ता</value>
   </data>
 
 </root>

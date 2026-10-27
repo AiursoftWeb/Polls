@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} ومستخدم آخر واحد</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} و{1} من المستخدمين الآخرين</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>يمكن لـ {0} التعديل.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>يمكن لـ {0} العرض.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>دور {0}</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} أدوار</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} مستخدم</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} مستخدمون</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}، {1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>حول صلاحيات الوصول</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>مشاركات نشطة</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>العودة إلى الاختبار</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>يمكنه التعديل</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>يمكنه العرض</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>يتيح &quot;عرض&quot; مراجعة نتائج الامتحان. ويتيح &quot;تعديل&quot; أيضًا تغيير إعدادات الامتحان وأسئلته.</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>التعاون</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>يمكن للمشاركين مراجعة الامتحان أو تحريره. ولا يحصل الموظفون المُكلَّفون بأدائه أبدًا على وصول لإدارة الإجابات أو الدرجات.</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>تعذّر تأكيد التغيير. تم الاحتفاظ بإدخالك. حاول مرة أخرى، أو أعد تحميل الصفحة للتحقق من الحالة المحفوظة.</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>تعذّر النسخ. حدّد الرابط أعلاه وانسخه.</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>إمكانية الوصول الحالية</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>المساهمون الحاليون</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>الموظف</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>التعاون في الاختبار:</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>تم نسخ الرابط.</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>لا يوجد مشاركون</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>لم تتم إضافة أي متعاونين.</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>لم يتم العثور على مستخدمين. جرّب اسمًا أو بريدًا إلكترونيًا آخر.</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>لم تتم إضافة أي مستخدمين أو أدوار.</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>أنت فقط من يمكنه إدارة هذا الامتحان حاليًا.</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>نوع المستلم</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>إزالة الوصول</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>هل تريد إزالة هذه المشاركة؟ قد يظل الوصول متاحًا بطرق أخرى.</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>الدور</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>الدور {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>الدور {0} ودور آخر واحد ({1})</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>الدور {0} و{1} أدوار أخرى</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>فشل البحث. غيّر نص البحث وحاول مرة أخرى.</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>جارٍ البحث...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>اختر دوراً...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>اختر مستخدمًا...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>اختر موظفًا...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>مشاركة الامتحان</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>مشاركة مع</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>شارك مع موظف واحد أو دور واحد في كل مرة.</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>المشاركة منفصلة عن التكليف</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>المشاركة منفصلة عن إسناد الاختبار.</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>يمكن للمالك ومسؤولي المشاركة المخوّلين إدارة صلاحيات الوصول. تنطبق صلاحيات الدور على أعضائه؛ وتظل الصلاحيات الممنوحة من أدوار أخرى أو عبر مشاركات مباشرة سارية بعد إزالة إحدى المشاركات.</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>هذا المستخدم أو الدور لديه صلاحية وصول بالفعل.</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>مستخدم</value>
   </data>
 
 </root>

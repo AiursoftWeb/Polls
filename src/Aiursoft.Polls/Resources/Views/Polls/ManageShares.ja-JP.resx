@@ -18,7 +18,37 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="active shares" xml:space="preserve">
+      <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0}、ほか{1}人のユーザー</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0}さんと他{1}人のユーザー</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} は編集できます。</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0}は閲覧できます。</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} 個のロール</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} 個のロール</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>ユーザー{0}人</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} 人のユーザー</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}、{1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
+    <value>アクセスについて</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
     <value>アクティブな共有</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
@@ -27,11 +57,29 @@
   <data name="Back to exam" xml:space="preserve">
     <value>試験に戻る</value>
   </data>
+  <data name="Can edit" xml:space="preserve">
+    <value>編集可能</value>
+  </data>
+  <data name="Can view" xml:space="preserve">
+    <value>閲覧可能</value>
+  </data>
+  <data name="Can view allows reviewing exam results. Can edit also allows changing exam settings and questions." xml:space="preserve">
+    <value>閲覧権限では試験結果を確認できます。編集権限では、試験の設定や問題を変更することもできます。</value>
+  </data>
   <data name="Collaboration" xml:space="preserve">
     <value>共同作業</value>
   </data>
   <data name="Collaborators can review or edit the exam. Employees assigned to take it never receive answer or score-management access." xml:space="preserve">
     <value>共同作業者は試験をレビューまたは編集できます。受験が割り当てられた従業員は、解答やスコア管理へのアクセスを一切受け取ることはありません。</value>
+  </data>
+  <data name="Could not confirm the change. Your input is kept. Try again, or reload to check the saved state." xml:space="preserve">
+    <value>変更を確認できませんでした。入力内容は保持されています。もう一度お試しいただくか、再読み込みして保存状態をご確認ください。</value>
+  </data>
+  <data name="Could not copy. Select and copy the link above." xml:space="preserve">
+    <value>コピーできませんでした。上のリンクを選択してコピーしてください。</value>
+  </data>
+  <data name="Current access" xml:space="preserve">
+    <value>現在のアクセス</value>
   </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>現在の共同作業メンバー</value>
@@ -39,8 +87,23 @@
   <data name="Employee" xml:space="preserve">
     <value>従業員</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>試験の共同利用：</value>
+  </data>
+  <data name="Link copied." xml:space="preserve">
+    <value>リンクをコピーしました。</value>
+  </data>
   <data name="No collaborators" xml:space="preserve">
     <value>共同編集者はいません</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>共同作業者は追加されていません。</value>
+  </data>
+  <data name="No users found. Try another name or email." xml:space="preserve">
+    <value>ユーザーが見つかりません。別の名前またはメールアドレスをお試しください。</value>
+  </data>
+  <data name="No users or roles added." xml:space="preserve">
+    <value>ユーザーまたはロールが追加されていません。</value>
   </data>
   <data name="Only you can manage this exam right now." xml:space="preserve">
     <value>現在、この試験を管理できるのはあなただけです。</value>
@@ -54,14 +117,38 @@
   <data name="Recipient type" xml:space="preserve">
     <value>受信者のタイプ</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
   <data name="Remove access" xml:space="preserve">
     <value>アクセス権を削除</value>
+  </data>
+  <data name="Remove this share? Other access may still apply." xml:space="preserve">
+    <value>この共有を削除しますか？ほかのアクセス権が引き続き適用される場合があります。</value>
   </data>
   <data name="Role" xml:space="preserve">
     <value>ロール</value>
   </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>ロール {0}</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>ロール {0}とほか{1}件のロール</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>ロール「{0}」とその他{1}件のロール</value>
+  </data>
+  <data name="Search failed. Change the search text to try again." xml:space="preserve">
+    <value>検索に失敗しました。検索テキストを変更して、もう一度お試しください。</value>
+  </data>
+  <data name="Searching..." xml:space="preserve">
+    <value>検索中...</value>
+  </data>
   <data name="Select a role..." xml:space="preserve">
     <value>ロールを選択...</value>
+  </data>
+  <data name="Select a user..." xml:space="preserve">
+    <value>ユーザーを選択...</value>
   </data>
   <data name="Select an employee..." xml:space="preserve">
     <value>従業員を選択...</value>
@@ -69,11 +156,26 @@
   <data name="Share exam" xml:space="preserve">
     <value>試験を共有</value>
   </data>
+  <data name="Share with" xml:space="preserve">
+    <value>共有先</value>
+  </data>
   <data name="Share with one employee or one role at a time." xml:space="preserve">
     <value>一度に1人の従業員または1つの役割と共有します。</value>
   </data>
   <data name="Sharing is separate from assignment" xml:space="preserve">
     <value>共有は割り当てとは別物です</value>
+  </data>
+  <data name="Sharing is separate from assignment." xml:space="preserve">
+    <value>共有と割り当ては別々に管理されます。</value>
+  </data>
+  <data name="The owner and authorized sharing administrators can manage access. Role access applies to its members; permissions from other roles or direct shares still apply after removing one share." xml:space="preserve">
+    <value>所有者および共有を許可された管理者は、アクセス権を管理できます。ロールによるアクセス権はそのロールのメンバーに適用されます。共有を1つ削除しても、他のロールや個別共有による権限は引き続き適用されます。</value>
+  </data>
+  <data name="This user or role already has access." xml:space="preserve">
+    <value>このユーザーまたはロールにはすでにアクセス権があります。</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ユーザー</value>
   </data>
 
 </root>

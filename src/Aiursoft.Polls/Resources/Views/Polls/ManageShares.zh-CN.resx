@@ -18,7 +18,25 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="About access" xml:space="preserve">
+      <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0}和另外{1}位用户</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} 可以编辑。</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0}可以查看。</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} 个角色</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} 位用户</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="About access" xml:space="preserve">
     <value>关于访问权限</value>
   </data>
   <data name="active shares" xml:space="preserve">
@@ -51,17 +69,26 @@
   <data name="Could not copy. Select and copy the link above." xml:space="preserve">
     <value>无法复制。请选中并复制上方的链接。</value>
   </data>
+  <data name="Current access" xml:space="preserve">
+    <value>当前访问权限</value>
+  </data>
   <data name="Current collaborators" xml:space="preserve">
     <value>当前协作者</value>
   </data>
   <data name="Employee" xml:space="preserve">
     <value>员工</value>
   </data>
+  <data name="Exam collaboration:" xml:space="preserve">
+    <value>考试协作：</value>
+  </data>
   <data name="Link copied." xml:space="preserve">
     <value>链接已复制。</value>
   </data>
   <data name="No collaborators" xml:space="preserve">
     <value>暂无协作者</value>
+  </data>
+  <data name="No collaborators added." xml:space="preserve">
+    <value>尚未添加协作者。</value>
   </data>
   <data name="No users found. Try another name or email." xml:space="preserve">
     <value>未找到用户。请尝试其他姓名或电子邮件地址。</value>
@@ -95,6 +122,12 @@
   </data>
   <data name="Role" xml:space="preserve">
     <value>角色</value>
+  </data>
+  <data name="Role {0}" xml:space="preserve">
+    <value>角色 {0}</value>
+  </data>
+  <data name="Role {0} and {1} other roles" xml:space="preserve">
+    <value>角色 {0} 及其他 {1} 个角色</value>
   </data>
   <data name="Search failed. Change the search text to try again." xml:space="preserve">
     <value>搜索失败。请更改搜索内容后重试。</value>
@@ -139,4 +172,16 @@
     <value>用户</value>
   </data>
 
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} 个角色</value>
+  </data>
+  <data name="Role {0} and {1} other role" xml:space="preserve">
+    <value>角色 {0} 及其他 {1} 个角色</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} 个用户</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0}及另外{1}位用户</value>
+  </data>
 </root>

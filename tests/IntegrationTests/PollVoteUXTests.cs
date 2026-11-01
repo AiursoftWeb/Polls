@@ -126,7 +126,7 @@ public class PollVoteUXTests : TestBase
         Assert.AreEqual(HttpStatusCode.OK, voteResponse.StatusCode);
         var voteHtml = await voteResponse.Content.ReadAsStringAsync();
         Assert.Contains("Attempt #2", voteHtml);
-        Assert.Contains("Answers are saved automatically.", voteHtml);
+        Assert.Contains("All changes saved", voteHtml);
     }
 
     [TestMethod]

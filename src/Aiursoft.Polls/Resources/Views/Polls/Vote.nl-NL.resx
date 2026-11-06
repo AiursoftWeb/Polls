@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Klaar om in te dienen?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Opnieuw proberen</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Opslaan mislukt; bij de definitieve verzending wordt het opnieuw geprobeerd.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Enkele keuze</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Sommige antwoorden zijn niet opgeslagen.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Examen indienen</value>

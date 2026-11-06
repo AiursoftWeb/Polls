@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Готові до відправлення?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Повторити</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Збереження не вдалося; при фінальному надсиланні буде повторна спроба.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Один варіант</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Деякі відповіді не збережено.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Надіслати іспит</value>

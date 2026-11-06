@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Siap untuk mengirim?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Ulangi</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Penyimpanan gagal; pengiriman akhir akan dicoba lagi.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Pilihan Ganda</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Beberapa jawaban belum disimpan.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Kirim ujian</value>

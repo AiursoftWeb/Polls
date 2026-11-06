@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Er du klar til at indsende?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Prøv igen</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Gemning mislykkedes; den endelige indsendelse vil prøve igen.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Enkeltvalg</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Nogle svar er ikke gemt.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Aflever eksamen</value>

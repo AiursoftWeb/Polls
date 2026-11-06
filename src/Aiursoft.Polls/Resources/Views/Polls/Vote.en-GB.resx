@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Ready to submit?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Save failed; final submission will retry.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Single Choice</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Some answers are not saved.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Submit exam</value>

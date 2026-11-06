@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Göndermeye hazır mısınız?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Tekrar dene</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Kaydedilemedi; son gönderim yeniden denenecek.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Tekli Seçim</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Bazı cevaplar kaydedilmedi.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Sınavı Gönder</value>

@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Είστε έτοιμοι να υποβάλετε;</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Επαναλάβετε</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Η αποθήκευση απέτυχε. Η τελική υποβολή θα ξαναδοκιμαστεί.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Ατομική Επιλογή</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Ορισμένες απαντήσεις δεν έχουν αποθηκευτεί.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Υποβολή εξετάσεων</value>

@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>Pronto per inviare?</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Riprova</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>Salvataggio non riuscito; il tentativo finale di invio verrà riprovato.</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>Scelta singola</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>Alcune risposte non sono state salvate.</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>Invia l&apos;esame</value>

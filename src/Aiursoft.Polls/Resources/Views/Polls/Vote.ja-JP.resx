@@ -72,6 +72,9 @@
   <data name="Ready to submit?" xml:space="preserve">
     <value>提出しますか？</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>再試行</value>
+  </data>
   <data name="Save failed; final submission will retry." xml:space="preserve">
     <value>保存に失敗しました。最終送信時に再試行します。</value>
   </data>
@@ -86,6 +89,9 @@
   </data>
   <data name="Single Choice" xml:space="preserve">
     <value>単一選択</value>
+  </data>
+  <data name="Some answers are not saved." xml:space="preserve">
+    <value>一部の回答が保存されていません。</value>
   </data>
   <data name="Submit exam" xml:space="preserve">
     <value>試験を提出</value>

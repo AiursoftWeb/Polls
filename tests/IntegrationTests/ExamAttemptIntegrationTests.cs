@@ -77,9 +77,9 @@ public class ExamAttemptIntegrationTests : TestBase
             var voteResponse = await Http.GetAsync($"/Polls/Vote/{poll.Id}");
             voteResponse.EnsureSuccessStatusCode();
             var voteHtml = await voteResponse.Content.ReadAsStringAsync();
-            foreach (var (name, expected) in new[] { ("expiresAt", first.ExpiresAt), ("startedAt", first.StartedAt) })
+            foreach (var (name, expected) in new[] { ("expires-at", first.ExpiresAt), ("started-at", first.StartedAt) })
             {
-                var timestamp = Regex.Match(voteHtml, $"const {name} = new Date\\('([^']+)'\\)");
+                var timestamp = Regex.Match(voteHtml, $"data-{name}=\"([^\"]+)\"");
                 Assert.IsTrue(timestamp.Success, $"Missing {name} in the exam countdown.");
                 var value = timestamp.Groups[1].Value;
                 Assert.EndsWith("Z", value, "Countdown timestamps must carry an explicit UTC zone.");

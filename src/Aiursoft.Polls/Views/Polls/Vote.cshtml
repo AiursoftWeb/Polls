@@ -48,6 +48,10 @@
             <div class="progress mt-2" style="height: 5px;">
                 <div class="progress-bar" id="timeProgress" role="progressbar" style="width: 100%;"></div>
             </div>
+            <div class="d-flex flex-wrap align-items-center gap-2 mt-2 small">
+                <span id="saveState" role="status" aria-live="polite">@Localizer["All changes saved"]</span>
+                <button type="button" id="retrySave" class="btn btn-outline-secondary btn-sm" hidden>@Localizer["Retry"]</button>
+            </div>
         </div>
     </header>
 
@@ -57,7 +61,7 @@
             <div class="alert-message d-flex flex-wrap align-items-center justify-content-between gap-2">
                 <div>
                     <strong>@Localizer["Attempt"] #@Model.Attempt?.AttemptNumber</strong>
-                    <span class="d-block small text-muted">@questions.Count @Localizer["questions"] · @Model.Poll?.DurationMinutes @Localizer["minutes"] · @Localizer["Answers are saved automatically."]</span>
+                    <span class="d-block small text-muted">@questions.Count @Localizer["questions"] · @Model.Poll?.DurationMinutes @Localizer["minutes"]</span>
                 </div>
                 <div class="small"><strong id="answeredCount">0</strong> / @questions.Count @Localizer["answered"]</div>
             </div>
@@ -75,7 +79,9 @@
             </div>
         </details>
 
-        <form asp-action="Vote" method="post" id="examForm">
+        <form asp-action="Vote" method="post" id="examForm"
+              data-expires-at="@expiresAt" data-started-at="@startedAt"
+              data-attempt-id="@Model.AttemptId" data-save-url="@Url.Action("SaveAttemptAnswer", "Polls")">
             <input type="hidden" asp-for="PollId" />
             <input type="hidden" asp-for="AttemptId" />
 
@@ -96,10 +102,7 @@
                                     <a href="#question-@questions[i].Id" class="exam-number-link" data-nav-question="@questions[i].Id">@(i + 1)</a>
                                 }
                             </div>
-                            <div class="border-top mt-3 pt-3 small text-muted" id="saveState">
-                                <i class="align-middle me-1" data-lucide="cloud-check"></i>
-                                @Localizer["All changes saved"]
-                            </div>
+
                         </div>
                     </div>
                 </aside>
@@ -168,86 +171,12 @@
     </main>
 
     <script src="/UIStack/dist/js/app.js"></script>
-    <script>
-        (() => {
-            const form = document.getElementById('examForm');
-            const expiresAt = new Date('@expiresAt').getTime();
-            const startedAt = new Date('@startedAt').getTime();
-            const total = expiresAt - startedAt;
-            const saveState = document.getElementById('saveState');
-            let submitting = false;
-
-            function updateAnsweredState() {
-                let answered = 0;
-                document.querySelectorAll('.question-card').forEach(card => {
-                    const hasAnswer = card.querySelectorAll('.answer-input:checked').length > 0;
-                    document.querySelectorAll(`[data-nav-question="${card.dataset.questionId}"]`).forEach(link => link.classList.toggle('answered', hasAnswer));
-                    if (hasAnswer) answered++;
-                });
-                document.getElementById('answeredCount').textContent = answered;
-            }
-
-            function updateTimer() {
-                const remaining = Math.max(0, expiresAt - Date.now());
-                const seconds = Math.floor(remaining / 1000);
-                const hours = Math.floor(seconds / 3600);
-                const minutes = Math.floor((seconds % 3600) / 60);
-                const secs = seconds % 60;
-                document.getElementById('countdown').textContent =
-                    (hours ? String(hours).padStart(2, '0') + ':' : '') +
-                    String(minutes).padStart(2, '0') + ':' +
-                    String(secs).padStart(2, '0');
-                document.getElementById('timeProgress').style.width = Math.max(0, remaining / total * 100) + '%';
-                if (remaining <= 0 && !submitting) {
-                    submitting = true;
-                    form.submit();
-                }
-            }
-
-            updateTimer();
-            updateAnsweredState();
-            setInterval(updateTimer, 1000);
-
-            document.querySelectorAll('.answer-input').forEach(input => input.addEventListener('change', async event => {
-                const card = event.target.closest('.question-card');
-                const selected = [...card.querySelectorAll('.answer-input:checked')].map(x => Number(x.value));
-                card.querySelector('.selection-value').value = selected.join(',');
-                updateAnsweredState();
-                if (saveState) saveState.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>@Localizer["Saving…"]';
-                try {
-                    const response = await fetch('@Url.Action("SaveAttemptAnswer", "Polls")', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'RequestVerificationToken': form.querySelector('input[name="__RequestVerificationToken"]').value
-                        },
-                        body: JSON.stringify({
-                            attemptId: @Model.AttemptId,
-                            attemptQuestionId: Number(card.dataset.questionId),
-                            optionIds: selected
-                        })
-                    });
-                    if (response.status === 409) {
-                        submitting = true;
-                        form.submit();
-                        return;
-                    }
-                    if (saveState) saveState.innerHTML = response.ok
-                        ? '<i class="align-middle me-1" data-lucide="cloud-check"></i>@Localizer["All changes saved"]'
-                        : '<i class="align-middle me-1 text-warning" data-lucide="cloud-alert"></i>@Localizer["Save failed; final submission will retry."]';
-                    if (window.lucide) window.lucide.createIcons();
-                } catch {
-                    if (saveState) saveState.textContent = '@Localizer["Offline; final submission will retry."]';
-                }
-            }));
-
-            form.addEventListener('submit', () => {
-                submitting = true;
-                const button = document.getElementById('submitButton');
-                button.disabled = true;
-                button.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>@Localizer["Submitting…"]';
-            });
-        })();
-    </script>
+    <div id="exam-loc" hidden>
+        <span data-key="saved">@Localizer["All changes saved"]</span>
+        <span data-key="saving">@Localizer["Saving…"]</span>
+        <span data-key="failed">@Localizer["Some answers are not saved."]</span>
+        <span data-key="submitting">@Localizer["Submitting…"]</span>
+    </div>
+    <script src="~/scripts/exam.js" asp-append-version="true"></script>
 </body>
 </html>

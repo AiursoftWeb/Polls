@@ -86,7 +86,7 @@
                     @if (isActive)
                     {
                         <li><hr class="dropdown-divider" /></li>
-                        <li><button type="button" class="dropdown-item" onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = Model.Poll.Id }, Context.Request.Scheme)')"><i class="align-middle me-2" data-lucide="link"></i>@Localizer["Copy participant link"]</button></li>
+                        <li><button type="button" class="dropdown-item" data-copy-participant-link="@Url.Action("Vote", "Polls", new { id = Model.Poll.Id }, Context.Request.Scheme)"><i class="align-middle me-2" data-lucide="link"></i>@Localizer["Copy participant link"]</button></li>
                     }
                 </ul>
             </div>
@@ -443,18 +443,13 @@
     </div>
 </div>
 
+@await Html.PartialAsync("_ParticipantLinkFeedback")
+
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script src="~/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="~/scripts/participant-link.js" asp-append-version="true" defer></script>
     <script>
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function () {
-                if (typeof window.Swal !== 'undefined') {
-                    window.Swal.fire({ title: '@Localizer["Copied!"]', text: '@Localizer["Link copied to clipboard!"]', icon: 'success', timer: 1800, showConfirmButton: false });
-                }
-            });
-        }
-
         function confirmAction(event, message) {
             if (typeof window.Swal === 'undefined') {
                 return window.confirm(message);

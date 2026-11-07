@@ -78,7 +78,7 @@
                             {
                                 <button type="button" class="btn btn-outline-secondary btn-sm"
                                         title="@Localizer["Copy link"]"
-                                        onclick="copyToClipboard('@Url.Action("Vote", "Polls", new { id = poll.Id }, Context.Request.Scheme)')">
+                                        data-copy-participant-link="@Url.Action("Vote", "Polls", new { id = poll.Id }, Context.Request.Scheme)">
                                     <i class="align-middle" data-lucide="copy"></i>
                                 </button>
                             }
@@ -103,21 +103,11 @@
     }
 </div>
 
+@await Html.PartialAsync("_ParticipantLinkFeedback")
+
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script src="~/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
-    <script>
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function () {
-                if (typeof window.Swal === 'undefined') return;
-                window.Swal.fire({
-                    title: '@Localizer["Copied!"]',
-                    text: '@Localizer["Link copied to clipboard!"]',
-                    icon: 'success',
-                    timer: 1800,
-                    showConfirmButton: false
-                });
-            });
-        }
-    </script>
+    <script src="~/scripts/participant-link.js" asp-append-version="true" defer></script>
+
 }

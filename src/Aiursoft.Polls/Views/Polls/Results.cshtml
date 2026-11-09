@@ -161,6 +161,7 @@ else
     @if (Model.IsAuthorized)
     {
         <script src="~/node_modules/echarts/dist/echarts.min.js" asp-append-version="true"></script>
+        <script src="~/node_modules/echarts/theme/v5.js" asp-append-version="true"></script>
         <script>
             $(function () {
                 @foreach (var qr in Model.QuestionResults.Where(q => q.TotalAnswers > 0))
@@ -169,7 +170,7 @@ else
                     (function () {
                         var chartDom = document.getElementById('chart-@qr.Question.Id');
                         if (!chartDom) return;
-                        var myChart = echarts.init(chartDom);
+                        var myChart = echarts.init(chartDom, 'v5');
                         var option;
 
                         @if (qr.Question.Type == QuestionType.SingleChoice)

@@ -6,13 +6,14 @@
   "license": "MIT",
   "dependencies": {
     "dropify": "^0.2.2",
-    "echarts": "5.5.0",
+    "echarts": "6.1.0",
     "sweetalert2": "^11.10.7"
   },
   "keep": {
     "dropify": "dist",
     "echarts": "dist",
-    "sweetalert2": "dist"
+    "sweetalert2": "dist",
+    "echarts/theme": "v5.js"
   },
   "scripts": {
     "build": "node build.mjs"

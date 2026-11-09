@@ -7,7 +7,7 @@
   "dependencies": {
     "dropify": "^0.2.2",
     "echarts": "6.1.0",
-    "sweetalert2": "^11.10.7"
+    "sweetalert2": "^11.26.25"
   },
   "keep": {
     "dropify": "dist",

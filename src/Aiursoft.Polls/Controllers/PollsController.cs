@@ -1474,7 +1474,7 @@ public class PollsController(
                 AttemptCount = group.Count(),
                 HighestScore = group.Max(s => s.Score),
                 Attempts = group.OrderBy(s => s.AttemptNumber).ToList()
-            }).OrderBy(s => s.User?.DisplayName).ToList();
+            }).OrderBy(s => s.User?.DisplayName, StringComparer.CurrentCulture).ToList();
 
         return this.StackView(new SubmissionsViewModel
         {

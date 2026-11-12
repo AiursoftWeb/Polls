@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using Aiursoft.Polls.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -208,7 +209,7 @@ public class PollVoteUXTests : TestBase
         var reopenResponse = await PostForm("/Polls/Extend", new Dictionary<string, string>
         {
             { "PollId", pollId.ToString() },
-            { "NewDeadline", DateTime.UtcNow.AddDays(3).ToString("yyyy-MM-ddTHH:mm:ss") }
+            { "NewDeadline", DateTime.UtcNow.AddDays(3).ToString("yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture) }
         }, tokenUrl: $"/Polls/Extend/{pollId}");
         AssertRedirect(reopenResponse, $"/Polls/Details/{pollId}");
 
@@ -242,7 +243,7 @@ public class PollVoteUXTests : TestBase
             { "AccessType", ((int)AccessType.Public).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
             { "PassingScore", "4" },
-            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss") }
+            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture) }
         });
         
         Guid pollId;

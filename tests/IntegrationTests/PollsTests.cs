@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using Aiursoft.Polls.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -48,7 +49,7 @@ public class PollsTests : TestBase
             { "Description", "Testing question reordering" },
             { "AccessType", ((int)AccessType.Public).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
-            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss") }
+            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture) }
         });
         
         // Assert redirect to Details

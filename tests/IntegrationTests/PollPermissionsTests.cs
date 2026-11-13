@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using Aiursoft.Polls.Authorization;
 using Aiursoft.Polls.Entities;
@@ -27,7 +28,7 @@ public class PollPermissionsTests : TestBase
             { "Description", "Testing permissions" },
             { "AccessType", ((int)AccessType.Public).ToString() },
             { "Visibility", ((int)ResultVisibility.Public).ToString() },
-            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss") }
+            { "Deadline", DateTime.UtcNow.AddDays(7).ToString("yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture) }
         });
         
         Assert.AreEqual(HttpStatusCode.Found, createResponse.StatusCode);

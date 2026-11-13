@@ -34,7 +34,7 @@
             <table class="table table-hover align-middle mb-0">
                 <thead><tr><th class="ps-4">@Localizer["Employee"]</th><th>@Localizer["Email"]</th><th>@Localizer["Status"]</th><th class="pe-4">@Localizer["Latest submission"]</th></tr></thead>
                 <tbody>
-                @foreach (var userStatus in Model.Users.OrderBy(u => u.HasVoted).ThenBy(u => u.User?.DisplayName))
+                @foreach (var userStatus in Model.Users.OrderBy(u => u.HasVoted).ThenBy(u => u.User?.DisplayName, StringComparer.CurrentCulture))
                 {
                     <tr>
                         <td class="ps-4"><div class="d-flex align-items-center gap-2"><img src="@StorageService.RelativePathToInternetUrl(userStatus.User?.AvatarRelativePath ?? Aiursoft.Polls.Entities.User.DefaultAvatarPath)?w=72&square=true" alt="@userStatus.User?.DisplayName" class="rounded-circle" width="36" height="36" /><span class="fw-semibold">@userStatus.User?.DisplayName</span></div></td>

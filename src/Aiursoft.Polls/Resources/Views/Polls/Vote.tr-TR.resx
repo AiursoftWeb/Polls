@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonim Anket:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>yanıtlandı</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Cevaplanan sorular yeşil olarak gösterilir.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Bitir</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>dakika</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Çoklu Seçim</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Kalan süre</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>toplam</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Göndermeden önce hâlâ yanıtları inceleyebilir ve değiştirebilirsiniz.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Kimliğiniz, IP adresiniz ve tarayıcı parmak iziniz KAYDEDİLECEK DEĞİLDİR. Oylamanız tamamen gizlidir.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>yanıtlandı</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>toplam</value>
   </data>
 
 </root>

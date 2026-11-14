@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>प्रयास की आवश्यकताएं</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>परीक्षाओं पर वापस जाएँ</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>मतदान पर वापस</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>परीक्षाओं पर वापस जाएँ</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>बनाएं</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>पOLL बनाएं</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>प्रश्न बनाएं और जोड़ें</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>परीक्षा बनाएं</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>पOLL बनाएं</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>समय सीमा</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>गलत विकल्प शामिल है</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>मिनट</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>नई मूल्यांकन</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>यह परीक्षा कौन दे सकता है</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>मिनट</value>
   </data>
 
 </root>

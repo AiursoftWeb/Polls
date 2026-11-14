@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Уникайте підказок, заснованих на довжині варіантів або формулюванні. Зберігайте кожен варіант паралельним і однозначним.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Назад до іспиту</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад до опитування</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Назад до іспиту</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>

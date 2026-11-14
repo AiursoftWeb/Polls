@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Punctul de trecere</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>puncte</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>întrebări</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Recenzare</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Alegerea ta</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>puncte</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>întrebări</value>
   </data>
 
 </root>

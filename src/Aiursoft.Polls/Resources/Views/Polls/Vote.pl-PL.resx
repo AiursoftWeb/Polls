@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonimowa ankieta:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>answered</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Pytania, na które udzielono odpowiedzi, są wyświetlane na zielono.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Zakończ</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minut</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Wybór wielokrotny</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Pozostały czas</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Możesz nadal przeglądać i zmieniać odpowiedzi przed przesłaniem.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Twoja tożsamość, adres IP i odcisk przeglądarki nie zostaną zarejestrowane. Twoja głos jest całkowicie prywatny.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>total</value>
   </data>
 
 </root>

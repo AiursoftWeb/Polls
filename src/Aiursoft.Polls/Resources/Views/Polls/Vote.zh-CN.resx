@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>匿名投票：</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>已回答</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>已回答的问题以绿色显示。</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>完成</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>分钟</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>多项选择</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>剩余时间</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>总计</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>提交前，您仍可以检查并修改答案。</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>您的身份信息、IP 地址和浏览器指纹均不会被记录。您的投票完全保密。</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>已回答</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>总计</value>
   </data>
 
 </root>

@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>アクティビティログ</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>質問を追加</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>問題を追加・確認し、試験が準備できたら公開してください。</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>最初の質問を追加</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>質問を追加</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>管理</value>
@@ -69,14 +69,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>挑戦</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>アンケート一覧へ戻る</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>試験一覧に戻る</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>リストに戻る</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>アンケート一覧へ戻る</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>最初の選択式問題を追加して試験を作成してください。</value>
@@ -165,11 +165,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>試験設定</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>保留中の従業員をエクスポート</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>保留中のユーザーをエクスポート</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>保留中の従業員をエクスポート</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>期限延長</value>
@@ -197,9 +197,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>最大</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>その他</value>
@@ -285,9 +282,6 @@
   <data name="Questions" xml:space="preserve">
     <value>質問</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>本試験の問題</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>リマインダー</value>
   </data>
@@ -311,9 +305,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>設定を確認</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>1回の試行あたり無作為に選択</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>リマインダーを送信</value>
@@ -371,6 +362,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>最新のスコア</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>本試験の問題</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>1回の試行あたり無作為に選択</value>
   </data>
 
 </root>

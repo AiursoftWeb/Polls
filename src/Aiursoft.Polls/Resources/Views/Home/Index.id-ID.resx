@@ -39,23 +39,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Sebuah fondasi yang modern, kaya fitur, dan sangat dapat diperluas untuk aplikasi web Anda berikutnya.</value>
   </data>
-  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
-    <value>Tentu saja. Anda dapat mengatur jajak pendapat agar bersifat publik, hanya untuk pengguna terdaftar, atau dibatasi untuk peran tertentu yang disinkronkan dari penyedia identitas Anda.</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Raih lebih banyak dengan Aiursoft Template</value>
-  </data>
   <data name="ACID Ready" xml:space="preserve">
     <value>Siap ACID</value>
-  </data>
-  <data name="Active Directory Integration" xml:space="preserve">
-    <value>Integrasi Direktori Aktif</value>
-  </data>
-  <data name="Admin site included" xml:space="preserve">
-    <value>Situs admin disertakan</value>
-  </data>
-  <data name="Advanced Question Types" xml:space="preserve">
-    <value>Jenis Pertanyaan Lanjutan</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Terjemahan Berbasis AI</value>
@@ -65,6 +50,21 @@
   </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Terjemahan Berbasis AI</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Tentu saja. Anda dapat mengatur jajak pendapat agar bersifat publik, hanya untuk pengguna terdaftar, atau dibatasi untuk peran tertentu yang disinkronkan dari penyedia identitas Anda.</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Raih lebih banyak dengan Aiursoft Template</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Integrasi Direktori Aktif</value>
+  </data>
+  <data name="Admin site included" xml:space="preserve">
+    <value>Situs admin disertakan</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Jenis Pertanyaan Lanjutan</value>
   </data>
   <data name="Aiursoft Polls" xml:space="preserve">
     <value>Aiursoft Polls</value>
@@ -111,11 +111,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>Kompresi otomatis dan privasi</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>Penyebaran Otomatis</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>Kompresi otomatis dan privasi</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>Terjemahan AI otomatis ke dalam 28 bahasa.</value>
@@ -125,9 +125,6 @@
   </data>
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Injeksi Dependensi Otomatis</value>
-  </data>
-  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
-    <value>Penyesuaian navigasi otomatis berdasarkan izin manajemen Anda.</value>
   </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Sinkronisasi Peran Otomatis</value>
@@ -140,6 +137,9 @@
   </data>
   <data name="Automatic UTC/Local conversion" xml:space="preserve">
     <value>Konversi UTC/Lokal Otomatis</value>
+  </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Penyesuaian navigasi otomatis berdasarkan izin manajemen Anda.</value>
   </data>
   <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
     <value>Terjemahan otomatis berbasis AI ke dalam 28 bahasa untuk jangkauan global.</value>
@@ -183,20 +183,17 @@
   <data name="Built with Aiursoft Template" xml:space="preserve">
     <value>Dibangun dengan Template Aiursoft</value>
   </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>Dibangun dengan inti UTC, memastikan waktu akhir jajak pendapat konsisten di semua zona waktu.</value>
+  </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Dibangun dengan C# native tingkat perusahaan namun mudah dipelajari.</value>
   </data>
   <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
     <value>Dibangun dengan aturan validasi ketat untuk memastikan setiap suara valid dan aman.</value>
   </data>
-  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
-    <value>Dibangun dengan inti UTC, memastikan waktu akhir jajak pendapat konsisten di semua zona waktu.</value>
-  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Bawaan</value>
-  </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>Panel administrasi bawaan</value>
   </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>Otentikasi Bawaan</value>
@@ -209,6 +206,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Manajemen Pengguna Bawaan</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>Panel administrasi bawaan</value>
   </data>
   <data name="Can I restrict who can vote?" xml:space="preserve">
     <value>Apakah saya dapat membatasi siapa yang dapat memilih?</value>
@@ -261,20 +261,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>Multi-Platform</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Domain Kustom</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>Pengembangan khusus diperlukan</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Pengembangan kustom diperlukan</value>
   </data>
-  <data name="Custom Domain" xml:space="preserve">
-    <value>Domain Kustom</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Situs Web Dashboard</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dasbor untuk tugas latar belakang</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Situs Web Dashboard</value>
   </data>
   <data name="Data Export" xml:space="preserve">
     <value>Ekspor Data</value>
@@ -312,14 +312,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>Native DevOps</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Kembangkan secara eksklusif dalam UTC sementara sistem secara otomatis mengonversi dan menampilkan tanggal dalam zona waktu lokal pengguna.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>Pengalaman Pengembang</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>Native DevOps</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Halaman Diskusi</value>
@@ -369,17 +369,17 @@
   <data name="Enterprise Grade" xml:space="preserve">
     <value>Kelas Perusahaan</value>
   </data>
-  <data name="Enterprise plan only" xml:space="preserve">
-    <value>Hanya untuk paket Enterprise</value>
-  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Siap untuk Perusahaan</value>
+  </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>SSO Perusahaan</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Keamanan Perusahaan</value>
   </data>
-  <data name="Enterprise SSO" xml:space="preserve">
-    <value>SSO Perusahaan</value>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Hanya untuk paket Enterprise</value>
   </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core disertakan</value>
@@ -392,9 +392,6 @@
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>FAQ</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>lebih cepat</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Fitur</value>
@@ -417,9 +414,6 @@
   <data name="Flexible Management" xml:space="preserve">
     <value>Manajemen Fleksibel</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>untuk pertanyaan apa pun atau untuk melaporkan masalah.</value>
-  </data>
   <data name="For Everyone." xml:space="preserve">
     <value>Untuk Semua Orang.</value>
   </data>
@@ -432,11 +426,11 @@
   <data name="Free" xml:space="preserve">
     <value>Gratis</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>Gratis untuk Penggunaan Komersial</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>Perangkat Lunak Bebas</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Gratis untuk Penggunaan Komersial</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Pertanyaan yang Sering Diajukan</value>
@@ -444,17 +438,17 @@
   <data name="From the Architect" xml:space="preserve">
     <value>Dari Arsitek</value>
   </data>
-  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
-    <value>Jejak audit lengkap untuk modifikasi dan tindakan manajemen polling.</value>
-  </data>
-  <data name="Full control" xml:space="preserve">
-    <value>Kontrol penuh</value>
-  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>RBAC Lengkap</value>
   </data>
   <data name="Full Stack Open Source" xml:space="preserve">
     <value>Full Stack Open Source</value>
+  </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Jejak audit lengkap untuk modifikasi dan tindakan manajemen polling.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Kontrol penuh</value>
   </data>
   <data name="Full stack open source. Completely free software, no paid features. Built entirely on open standards." xml:space="preserve">
     <value>Full stack sumber terbuka. Perangkat lunak sepenuhnya gratis, tanpa fitur berbayar. Dibangun sepenuhnya berdasarkan standar terbuka.</value>
@@ -462,20 +456,20 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Sepenuhnya Offline</value>
   </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>Mematuhi GDPR sejak awal. Anda memiliki database.</value>
+  </data>
   <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
     <value>Kumpulkan umpan balik kualitatif dengan pertanyaan teks terbuka untuk jawaban yang mendetail.</value>
   </data>
   <data name="Gather the right data, every time." xml:space="preserve">
     <value>Kumpulkan data yang tepat, setiap saat.</value>
   </data>
-  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
-    <value>Mematuhi GDPR sejak awal. Anda memiliki database.</value>
+  <data name="Generic Dockerfile only" xml:space="preserve">
+    <value>Hanya Dockerfile Umum</value>
   </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Konfigurasi Generik</value>
-  </data>
-  <data name="Generic Dockerfile only" xml:space="preserve">
-    <value>Hanya Dockerfile Umum</value>
   </data>
   <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
     <value>Alat survei generik sering kali terlalu mahal dan mengambil data Anda. Aiursoft Polls menyediakan alternatif yang bersih, cepat, dan pribadi yang dapat Anda host sendiri. Kami berfokus pada kesederhanaan dan keamanan, sehingga Anda dapat fokus pada pertanyaan Anda.</value>
@@ -555,11 +549,11 @@
   <data name="Included" xml:space="preserve">
     <value>Termasuk</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Termasuk dokumentasi yang luas dan contoh praktis untuk memulai dengan cepat.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Termasuk Tutorial</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Termasuk dokumentasi yang luas dan contoh praktis untuk memulai dengan cepat.</value>
   </data>
   <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
     <value>Implementasi standar industri. Tanpa lock-in.</value>
@@ -572,9 +566,6 @@
   </data>
   <data name="Interoperability" xml:space="preserve">
     <value>Interoperabilitas</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>adalah Perangkat Lunak Bebas</value>
   </data>
   <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
     <value>Apakah gratis untuk menggunakan Aiursoft Polls?</value>
@@ -609,6 +600,12 @@
   <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
     <value>Login via OpenID Connect termasuk Azure AD dan Okta.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Lisensi MIT</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
   <data name="Maintain Data Integrity" xml:space="preserve">
     <value>Pertahankan Integritas Data</value>
   </data>
@@ -620,12 +617,6 @@
   </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown ke HTML</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Lisensi MIT</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT License</value>
   </data>
   <data name="Mobile First" xml:space="preserve">
     <value>Pertama Mobile</value>
@@ -666,12 +657,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>Memerlukan Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>Membutuhkan logika autentikasi yang kompleks</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>Memerlukan konfigurasi/plugin</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>Memerlukan pengaturan ESLint/Prettier</value>
   </data>
@@ -680,9 +665,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>Membutuhkan Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>Memerlukan konfigurasi manual</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>Membutuhkan Medialibrary</value>
@@ -696,17 +678,26 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>Membutuhkan konfigurasi Spring Security</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>Membutuhkan plugin pihak ketiga</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Memerlukan TypeORM atau sejenisnya</value>
   </data>
-  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
-    <value>Tidak ada ketergantungan pada penyedia cloud apa pun. Jalankan di mana saja, kapan saja.</value>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>Membutuhkan logika autentikasi yang kompleks</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>Memerlukan konfigurasi/plugin</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>Memerlukan konfigurasi manual</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>Membutuhkan plugin pihak ketiga</value>
   </data>
   <data name="No Fake Votes" xml:space="preserve">
     <value>Tidak ada suara palsu</value>
+  </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
+    <value>Tidak ada ketergantungan pada penyedia cloud apa pun. Jalankan di mana saja, kapan saja.</value>
   </data>
   <data name="Not available" xml:space="preserve">
     <value>Tidak tersedia</value>
@@ -714,11 +705,14 @@
   <data name="Not supported" xml:space="preserve">
     <value>Tidak didukung</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>Dapat Berjalan Secara Offline</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM &amp; Migrasi</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>Dapat Berjalan Secara Offline</value>
   </data>
   <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
     <value>Setelah pengguna mengirimkan respons mereka, respons tersebut dikunci untuk memastikan integritas data dan mencegah pemungutan suara ganda.</value>
@@ -726,11 +720,11 @@
   <data name="One Click Start" xml:space="preserve">
     <value>Satu Klik Mulai</value>
   </data>
-  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
-    <value>Buka atau tutup jajak pendapat kapan saja, kelola pertanyaan dan opsi, serta ekspor data hasil pengiriman mentah.</value>
-  </data>
   <data name="Open Source" xml:space="preserve">
     <value>Sumber Terbuka</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Buka atau tutup jajak pendapat kapan saja, kelola pertanyaan dan opsi, serta ekspor data hasil pengiriman mentah.</value>
   </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integrasi OpenID Connect</value>
@@ -747,9 +741,6 @@
   <data name="Organization Friendly" xml:space="preserve">
     <value>Ramah Organisasi</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM &amp; Migrasi</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Siap Pakai</value>
   </data>
@@ -762,11 +753,11 @@
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Penemuan dan sinkronisasi izin</value>
   </data>
-  <data name="Poll anywhere, in any language." xml:space="preserve">
-    <value>Berpartisipasi dalam jajak pendapat di mana saja, dalam bahasa apa saja.</value>
-  </data>
   <data name="Poll Features" xml:space="preserve">
     <value>Fitur Poll</value>
+  </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Berpartisipasi dalam jajak pendapat di mana saja, dalam bahasa apa saja.</value>
   </data>
   <data name="Polls vs. Surveys" xml:space="preserve">
     <value>Polls vs. Surveys</value>
@@ -774,14 +765,14 @@
   <data name="Powerful Polling." xml:space="preserve">
     <value>Polling yang Kuat.</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>Prakonfigurasi dan teruji</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
     <value>Pipeline CI/CD yang sudah dikonfigurasi sebelumnya untuk pengujian otomatis.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Pipeline CI/CD yang sudah dikonfigurasi sebelumnya secara khusus untuk GitLab.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>Prakonfigurasi dan teruji</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Pipa yang dikonfigurasi sebelumnya untuk dev/prod</value>
@@ -900,20 +891,17 @@
   <data name="Smart Configuration Overrides" xml:space="preserve">
     <value>Opsi Pengaturan Cerdas</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>UI pintar yang secara otomatis menyesuaikan dengan preferensi mode gelap/terang sistem pengguna.</value>
+  </data>
   <data name="Smart dark mode that adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Mode gelap cerdas yang menyesuaikan dengan pengaturan sistem pengguna.</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Mode gelap cerdas yang secara otomatis menyesuaikan dengan pengaturan sistem pengguna.</value>
   </data>
-  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
-    <value>UI pintar yang secara otomatis menyesuaikan dengan preferensi mode gelap/terang sistem pengguna.</value>
-  </data>
   <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
     <value>Tentukan secara tepat peran mana yang dapat berpartisipasi dalam setiap jajak pendapat.</value>
-  </data>
-  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
-    <value>Implementasi standar. Ganti penyedia tanpa kompilasi.</value>
   </data>
   <data name="Standard OIDC" xml:space="preserve">
     <value>OIDC Standar</value>
@@ -921,11 +909,14 @@
   <data name="Standard OpenID" xml:space="preserve">
     <value>OpenID Standar</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Mulai proyek baru</value>
+  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
+    <value>Implementasi standar. Ganti penyedia tanpa kompilasi.</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Mulai Kirim Nilai</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Mulai proyek baru</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>Mulai dengan satu perintah &apos;docker run&apos; saja.</value>
@@ -939,6 +930,12 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>Aturan Lint yang Ketat</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>Pengujian Unit Ketat</value>
+  </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Validasi Ketat</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>Aturan linting yang ketat dan nol peringatan secara default.</value>
   </data>
@@ -947,12 +944,6 @@
   </data>
   <data name="Strict server-side validation for every single response." xml:space="preserve">
     <value>Validasi ketat di sisi server untuk setiap respons tunggal.</value>
-  </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>Pengujian Unit Ketat</value>
-  </data>
-  <data name="Strict Validation" xml:space="preserve">
-    <value>Validasi Ketat</value>
   </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Pemeriksaan Kode yang Konsisten Secara Kuat</value>
@@ -969,11 +960,11 @@
   <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
     <value>Mendukung 28 bahasa secara langsung untuk audiens yang benar-benar global.</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>Mendukung kedua variabel lingkungan dan pengaturan berbasis database, dengan prioritas otomatis diberikan kepada variabel lingkungan untuk pembaruan yang mulus.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>Mendukung JetBrains Rider untuk perbaikan gaya kode yang mudah.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>Mendukung kedua variabel lingkungan dan pengaturan berbasis database, dengan prioritas otomatis diberikan kepada variabel lingkungan untuk pembaruan yang mulus.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>Task Runner</value>
@@ -984,6 +975,9 @@
   <data name="Text Response" xml:space="preserve">
     <value>Respon Teks</value>
   </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>Filsafat</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Dasar perusahaan .NET yang pasti dan telah teruji dalam pertempuran. Dari Otentikasi hingga Kecerdasan Buatan, kami telah menyelesaikan bagian-bagian sulit sehingga Anda tidak perlu melakukannya.</value>
   </data>
@@ -992,9 +986,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bilah navigasi secara otomatis menyesuaikan berdasarkan peran dan izin pengguna.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>Filsafat</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Template ini dibangun untuk kemudahan penerapan. Template ini mencakup dukungan Docker penuh, sehingga Anda dapat meng-container-kan aplikasi Anda dan menjalankannya di mana saja. Anda juga dapat menerapkannya langsung ke IIS, Azure App Service, atau server apa pun yang mendukung ASP.NET Core.</value>
@@ -1020,6 +1011,9 @@
   <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
     <value>Dipercaya oleh Ekosistem Aiursoft</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
   <data name="Under Your Control" xml:space="preserve">
     <value>Di bawah kendali Anda</value>
   </data>
@@ -1034,9 +1028,6 @@
   </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Gunakan sebagai fondasi untuk SaaS Anda, backend untuk aplikasi seluler Anda, situs web perusahaan, atau blog pribadi. Kemungkinannya tidak terbatas.</value>
-  </data>
-  <data name="UTC Core" xml:space="preserve">
-    <value>UTC Core</value>
   </data>
   <data name="Verified Identity" xml:space="preserve">
     <value>Identitas Terverifikasi</value>
@@ -1115,6 +1106,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>Linter Tanpa Toleransi</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>lebih cepat</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>untuk pertanyaan apa pun atau untuk melaporkan masalah.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>adalah Perangkat Lunak Bebas</value>
   </data>
 
 </root>

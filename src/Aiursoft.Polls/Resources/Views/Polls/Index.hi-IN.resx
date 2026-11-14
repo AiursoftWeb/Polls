@@ -57,9 +57,6 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>लिंक क्लिपबोर्ड में कॉपी हो गया!</value>
   </data>
-  <data name="minutes" xml:space="preserve">
-    <value>मिनट</value>
-  </data>
   <data name="My Polls" xml:space="preserve">
     <value>मेरी सर्वेक्षिकाएँ</value>
   </data>
@@ -75,9 +72,6 @@
   <data name="Polls Management" xml:space="preserve">
     <value>पोल प्रबंधन</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>प्रश्न</value>
-  </data>
   <data name="Status" xml:space="preserve">
     <value>स्थिति</value>
   </data>
@@ -86,6 +80,12 @@
   </data>
   <data name="You don&apos;t manage any polls." xml:space="preserve">
     <value>आप किसी भी सर्वेक्षण का प्रबंधन नहीं कर रहे हैं।</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>प्रश्न</value>
   </data>
 
 </root>

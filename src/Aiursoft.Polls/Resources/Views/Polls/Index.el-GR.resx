@@ -57,9 +57,6 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Το σύνδεσμο αντιγράψατε στο πρόχειρο!</value>
   </data>
-  <data name="minutes" xml:space="preserve">
-    <value>λεπτά</value>
-  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Οι Έρευνές μου</value>
   </data>
@@ -75,9 +72,6 @@
   <data name="Polls Management" xml:space="preserve">
     <value>Διαχείριση Ερωτηματολογίων</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>ερωτήσεις</value>
-  </data>
   <data name="Status" xml:space="preserve">
     <value>Κατάσταση</value>
   </data>
@@ -86,6 +80,12 @@
   </data>
   <data name="You don&apos;t manage any polls." xml:space="preserve">
     <value>Δεν διαχειρίζεστε κανένα δημοσίευμα.</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>ερωτήσεις</value>
   </data>
 
 </root>

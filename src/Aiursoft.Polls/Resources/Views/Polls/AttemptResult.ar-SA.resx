@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>الدرجة الممررة</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>نقاط</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>أسئلة</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>مراجعة</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>اختيارك</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>نقاط</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>أسئلة</value>
   </data>
 
 </root>

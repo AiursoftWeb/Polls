@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Ανώνυμη ψηφοφορία:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>απαντημένη</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Οι ερωτήσεις που έχουν απαντηθεί εμφανίζονται με πράσινο χρώμα.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Τέλος</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>λεπτά</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Πολλαπλές επιλογές</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Προσέγγιση</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>σύνολο</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Μπορείτε ακόμα να εξετάσετε και να αλλάξετε τις απαντήσεις πριν από την υποβολή.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Η ταυτότητά σας, η διεύθυνση IP και το αποτύπωμα του browser σας ΔΕΝ θα καταγραφούν. Η ψήφος σας είναι απολύτως ιδιωτική.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>απαντημένη</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>λεπτά</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>σύνολο</value>
   </data>
 
 </root>

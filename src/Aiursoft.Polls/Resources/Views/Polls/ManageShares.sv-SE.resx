@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0} och {1} annan användare</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0} och {1} andra användare</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} kan redigera.</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0} kan visa.</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} roll</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} roller</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>{0} användare</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} användare</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}, {1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>Om åtkomst</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>aktiva delningar</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>Lägg till medarbetare</value>
@@ -176,6 +146,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>Användare</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>aktiva delningar</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} och {1} annan användare</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} och {1} andra användare</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} kan redigera.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} kan visa.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} roll</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} roller</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} användare</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} användare</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
   </data>
 
 </root>

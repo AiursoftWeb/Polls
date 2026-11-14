@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>คะแนนผ่าน</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>คะแนน</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>ข้อคำถาม</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>ทบทวน</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>ตัวเลือกของคุณ</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>คะแนน</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>ข้อคำถาม</value>
   </data>
 
 </root>

@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Hindari petunjuk yang didasarkan pada panjang atau pilihan kata opsi. Pastikan setiap opsi paralel dan tidak ambigu.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Kembali ke ujian</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Kembali ke Poll</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Batal</value>

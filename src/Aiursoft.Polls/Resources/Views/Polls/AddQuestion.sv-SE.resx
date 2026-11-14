@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Undvik ledtrådar baserade på alternativens längd eller formulering. Håll varje alternativ parallellt och entydigt.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Tillbaka till provet</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tillbaka till omröstningen</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tillbaka till provet</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>

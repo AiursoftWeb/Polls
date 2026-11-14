@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Deneme Temelleri</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Sınav sayfasına dön</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Ankete Dön</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınav sayfasına dön</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Son Tarih</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Sınavı Düzenle</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Anketi Düzenle</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Sınavı Düzenle</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Çalışanlar</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Çalışan deneyimini odaklı tutarken hassas puanlama kontrolünü koruyun.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>dk</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Başarım mesajı</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Bu sınavı kimler görebilir</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>dk</value>
   </data>
 
 </root>

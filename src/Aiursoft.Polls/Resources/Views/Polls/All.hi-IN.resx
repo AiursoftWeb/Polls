@@ -30,11 +30,11 @@
   <data name="Administration" xml:space="preserve">
     <value>प्रशासन</value>
   </data>
-  <data name="All exams" xml:space="preserve">
-    <value>सभी परीक्षाएँ</value>
-  </data>
   <data name="All Polls" xml:space="preserve">
     <value>सभी सर्वेक्षण</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>सभी परीक्षाएँ</value>
   </data>
   <data name="Audience" xml:space="preserve">
     <value>श्रोता</value>
@@ -60,14 +60,8 @@
   <data name="Exam" xml:space="preserve">
     <value>परीक्षा</value>
   </data>
-  <data name="exams" xml:space="preserve">
-    <value>परीक्षाएँ</value>
-  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>लिंक क्लिपबोर्ड में कॉपी हो गया!</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>मिनट</value>
   </data>
   <data name="No exams found" xml:space="preserve">
     <value>कोई परीक्षा नहीं मिली</value>
@@ -87,9 +81,6 @@
   <data name="Owner" xml:space="preserve">
     <value>मालिक</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>प्रश्न</value>
-  </data>
   <data name="Review every assessment across the organization." xml:space="preserve">
     <value>संस्था के भीतर हर मूल्यांकन की समीक्षा करें।</value>
   </data>
@@ -101,6 +92,15 @@
   </data>
   <data name="Title" xml:space="preserve">
     <value>शीर्षक</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>परीक्षाएँ</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>प्रश्न</value>
   </data>
 
 </root>

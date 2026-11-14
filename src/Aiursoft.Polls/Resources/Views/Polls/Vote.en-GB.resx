@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonymous Poll:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>answered</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Answered questions are shown in green.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Finish</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minutes</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Multiple Choice</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Time remaining</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>You can still review and change your answers before submitting.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>total</value>
   </data>
 
 </root>

@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Βαθμολογία επιτυχίας</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>βαθμοί</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>ερωτήματα</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Επαναληπτικός έλεγχος</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Η επιλογή σας</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>βαθμοί</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>ερωτήματα</value>
   </data>
 
 </root>

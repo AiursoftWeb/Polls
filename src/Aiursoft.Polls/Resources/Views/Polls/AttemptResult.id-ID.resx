@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Nilai kelulusan</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>poin</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>pertanyaan</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Tinjauan</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Pilihan Anda</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>poin</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pertanyaan</value>
   </data>
 
 </root>

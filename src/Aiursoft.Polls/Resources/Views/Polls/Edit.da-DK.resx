@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Prøvekrav</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Tilbage til eksamen</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tilbage til afstemning</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tilbage til eksamen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuller</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Frist</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Rediger eksamen</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Rediger afstemning</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Rediger eksamen</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Medarbejdere</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Sørg for, at medarbejdernes oplevelse forbliver fokuseret, samtidig med at du bibeholder præcis kontrol over pointgivingen.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Beståelsesbesked</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Hvem kan tage denne eksamen</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

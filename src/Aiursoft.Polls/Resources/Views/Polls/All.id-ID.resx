@@ -30,11 +30,11 @@
   <data name="Administration" xml:space="preserve">
     <value>Administrasi</value>
   </data>
-  <data name="All exams" xml:space="preserve">
-    <value>Semua ujian</value>
-  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Semua Polls</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Semua ujian</value>
   </data>
   <data name="Audience" xml:space="preserve">
     <value>Audiens</value>
@@ -60,14 +60,8 @@
   <data name="Exam" xml:space="preserve">
     <value>Ujian</value>
   </data>
-  <data name="exams" xml:space="preserve">
-    <value>ujian</value>
-  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Tautan disalin ke papan klip!</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>menit</value>
   </data>
   <data name="No exams found" xml:space="preserve">
     <value>Tidak ada ujian ditemukan</value>
@@ -87,9 +81,6 @@
   <data name="Owner" xml:space="preserve">
     <value>Pemilik</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>pertanyaan</value>
-  </data>
   <data name="Review every assessment across the organization." xml:space="preserve">
     <value>Tinjau setiap penilaian di seluruh organisasi.</value>
   </data>
@@ -101,6 +92,15 @@
   </data>
   <data name="Title" xml:space="preserve">
     <value>Judul</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>ujian</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pertanyaan</value>
   </data>
 
 </root>

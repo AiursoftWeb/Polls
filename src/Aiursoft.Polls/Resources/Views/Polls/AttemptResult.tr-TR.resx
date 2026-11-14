@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Başarı notu</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>puan</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>soru</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>İnceleme</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Seçiminiz</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>puan</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>soru</value>
   </data>
 
 </root>

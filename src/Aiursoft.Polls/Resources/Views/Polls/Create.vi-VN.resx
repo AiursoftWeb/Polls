@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Cấu hình thi thử</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Quay lại bài thi</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Quay lại bài thi</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Tạo</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Tạo cuộc thăm dò</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Tạo và thêm câu hỏi</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Tạo bài kiểm tra</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Tạo cuộc thăm dò</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Chứa phương án sai</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>phút</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Bài đánh giá mới</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Ai có thể làm bài thi này</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>phút</value>
   </data>
 
 </root>

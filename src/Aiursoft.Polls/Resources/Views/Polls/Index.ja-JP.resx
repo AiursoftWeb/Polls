@@ -57,9 +57,6 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>リンクがクリップボードにコピーされました！</value>
   </data>
-  <data name="minutes" xml:space="preserve">
-    <value>分</value>
-  </data>
   <data name="My Polls" xml:space="preserve">
     <value>マイ投票</value>
   </data>
@@ -75,9 +72,6 @@
   <data name="Polls Management" xml:space="preserve">
     <value>投票管理</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>問</value>
-  </data>
   <data name="Status" xml:space="preserve">
     <value>ステータス</value>
   </data>
@@ -86,6 +80,12 @@
   </data>
   <data name="You don&apos;t manage any polls." xml:space="preserve">
     <value>管理している投票はありません。</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>問</value>
   </data>
 
 </root>

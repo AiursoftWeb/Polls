@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Βασικά στοιχεία δοκιμής</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Επιστροφή στις εξετάσεις</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Πίσω στις Δημοσκοπήσεις</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Επιστροφή στις εξετάσεις</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Δημιουργία</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Δημιουργία Ψηφοφορίας</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Δημιουργία και προσθήκη ερωτήσεων</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Δημιουργία εξετάσης</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Δημιουργία Ψηφοφορίας</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Προθεσμία</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Περιλαμβάνει λάθος επιλογή</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>λεπ</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Νέα αξιολόγηση</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Ποιος μπορεί να παρακολουθήσει αυτό το εξεταστικό</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>λεπ</value>
   </data>
 
 </root>

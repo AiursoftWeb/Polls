@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>옵션의 길이나 표현에 기반한 단서를 피하세요. 각 옵션을 평행하고 모호하지 않게 작성하세요.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>시험으로 돌아가기</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>투표로 돌아가기</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>

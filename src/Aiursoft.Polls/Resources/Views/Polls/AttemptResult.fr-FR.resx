@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Score minimum</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>points</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>questions</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Revue</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Votre choix</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>points</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>questions</value>
   </data>
 
 </root>

@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Grundläggande inställningar för försök</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Tillbaka till examinationen</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Tillbaka till omröstningen</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Tillbaka till examinationen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Avbryt</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Inlösningsdag</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Redigera prov</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Redigera omröstning</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Redigera prov</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Anställda</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Håll medarbetarupplevelsen fokuserad samtidigt som du bibehåller exakt poängkontroll.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Betygsmeddelande</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Vem kan ta denna examen</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

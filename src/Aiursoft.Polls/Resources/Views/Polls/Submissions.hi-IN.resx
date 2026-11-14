@@ -30,14 +30,14 @@
   <data name="Attempts" xml:space="preserve">
     <value>प्रयास</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>मतदान पर वापस</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>विवरण पर वापस</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>परीक्षा पर वापस जाएँ</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>मतदान पर वापस</value>
   </data>
   <data name="Detailed attempt log" xml:space="preserve">
     <value>विस्तृत प्रयास लॉग</value>

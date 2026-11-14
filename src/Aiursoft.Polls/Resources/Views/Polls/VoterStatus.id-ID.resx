@@ -18,20 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Anonymous assessment" xml:space="preserve">
+      <data name="Anonymous Poll Notice:" xml:space="preserve">
+    <value>Pemberitahuan Jajak Pendapat Anonim:</value>
+  </data>
+  <data name="Anonymous assessment" xml:space="preserve">
     <value>Penilaian anonim</value>
   </data>
-  <data name="Anonymous Poll Notice:" xml:space="preserve">
-    <value>Pemberitahuan Jajak Pendapat Anonim:</value>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Kembali ke Polling</value>
   </data>
   <data name="Back to details" xml:space="preserve">
     <value>Kembali ke detail</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>Kembali ke ujian</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>Kembali ke Polling</value>
   </data>
   <data name="Completed" xml:space="preserve">
     <value>Selesai</value>

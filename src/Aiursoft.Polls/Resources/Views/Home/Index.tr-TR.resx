@@ -39,23 +39,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Modern, zengin özelliklere sahip ve bir sonraki web uygulamanız için oldukça genişletilebilir bir temel.</value>
   </data>
-  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
-    <value>Kesinlikle. Anketleri herkese açık, sadece kayıtlı kullanıcılara özel veya kimlik sağlayıcınızdan senkronize edilen belirli rollere kısıtlı olarak ayarlayabilirsiniz.</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template ile daha fazlasını başarın</value>
-  </data>
   <data name="ACID Ready" xml:space="preserve">
     <value>ACID Ready</value>
-  </data>
-  <data name="Active Directory Integration" xml:space="preserve">
-    <value>Active Directory Entegrasyonu</value>
-  </data>
-  <data name="Admin site included" xml:space="preserve">
-    <value>Yönetim sitesi dahil</value>
-  </data>
-  <data name="Advanced Question Types" xml:space="preserve">
-    <value>Gelişmiş Soru Türleri</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Yapay Zeka Destekli Çeviri</value>
@@ -65,6 +50,21 @@
   </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Yapay Zeka Destekli Çeviriler</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>Kesinlikle. Anketleri herkese açık, sadece kayıtlı kullanıcılara özel veya kimlik sağlayıcınızdan senkronize edilen belirli rollere kısıtlı olarak ayarlayabilirsiniz.</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Template ile daha fazlasını başarın</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Active Directory Entegrasyonu</value>
+  </data>
+  <data name="Admin site included" xml:space="preserve">
+    <value>Yönetim sitesi dahil</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>Gelişmiş Soru Türleri</value>
   </data>
   <data name="Aiursoft Polls" xml:space="preserve">
     <value>Aiursoft Polls</value>
@@ -111,11 +111,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>Otomatik sıkıştırma ve gizlilik</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>Otomatik Dağıtım</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>Otomatik sıkıştırma ve gizlilik</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>28 dilde otomatik yapay zeka çevirisi.</value>
@@ -125,9 +125,6 @@
   </data>
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>Otomatik Bağımlılık Enjeksiyonu</value>
-  </data>
-  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
-    <value>Yönetim izinlerinize dayalı otomatik navigasyon ayarlamaları.</value>
   </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>Otomatik Rol Senkronizasyonu</value>
@@ -140,6 +137,9 @@
   </data>
   <data name="Automatic UTC/Local conversion" xml:space="preserve">
     <value>Otomatik UTC/Yerel dönüştürme</value>
+  </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>Yönetim izinlerinize dayalı otomatik navigasyon ayarlamaları.</value>
   </data>
   <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
     <value>Küresel erişim için 28 dile otomatik, yapay zeka destekli çeviri.</value>
@@ -183,20 +183,17 @@
   <data name="Built with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Şablonu ile oluşturuldu</value>
   </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>UTC çekirdeğiyle oluşturuldu, oylama bitiş saatlerinin tüm zaman dilimlerinde tutarlı olmasını sağlar.</value>
+  </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Kurumsal düzeyde ancak kolay öğrenilebilir yerel C# ile oluşturuldu.</value>
   </data>
   <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
     <value>Her oyun geçerli ve güvenli olması için sıkı doğrulama kurallarıyla oluşturulmuştur.</value>
   </data>
-  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
-    <value>UTC çekirdeğiyle oluşturuldu, oylama bitiş saatlerinin tüm zaman dilimlerinde tutarlı olmasını sağlar.</value>
-  </data>
   <data name="Built-in" xml:space="preserve">
     <value>Gömülü</value>
-  </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>Yerleşik yönetim paneli</value>
   </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>Gömülü Kimlik Doğrulama</value>
@@ -209,6 +206,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Dahili Kullanıcı Yönetimi</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>Yerleşik yönetim paneli</value>
   </data>
   <data name="Can I restrict who can vote?" xml:space="preserve">
     <value>Oylama yapacak kişileri kısıtlayabilir miyim?</value>
@@ -261,20 +261,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>Çapraz Platform</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>Özel Alan Adı</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>Özel geliştirme gerekli</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Özel geliştirme gereklidir</value>
   </data>
-  <data name="Custom Domain" xml:space="preserve">
-    <value>Özel Alan Adı</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Kontrol Paneli Web Sitesi</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Arka plan görevleri için kontrol paneli</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Kontrol Paneli Web Sitesi</value>
   </data>
   <data name="Data Export" xml:space="preserve">
     <value>Veri Dışa Aktarma</value>
@@ -312,14 +312,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Geliştirme &amp; Üretim</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>DevOps Uyumlu</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>UTC&apos;de özel olarak geliştirin, sistem tarihleri otomatik olarak kullanıcıya özel saat diliminde dönüştürür ve görüntüler.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>Geliştirici Deneyimi</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>DevOps Uyumlu</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Tartışmalar sayfası</value>
@@ -369,17 +369,17 @@
   <data name="Enterprise Grade" xml:space="preserve">
     <value>Kurumsal Seviye</value>
   </data>
-  <data name="Enterprise plan only" xml:space="preserve">
-    <value>Sadece Kurumsal Plan</value>
-  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>Kurumsal Hazır</value>
+  </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>Kurumsal SSO</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>Kurumsal Güvenlik</value>
   </data>
-  <data name="Enterprise SSO" xml:space="preserve">
-    <value>Kurumsal SSO</value>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>Sadece Kurumsal Plan</value>
   </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core dahil</value>
@@ -392,9 +392,6 @@
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>SSS</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>daha hızlı</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Özellikler</value>
@@ -417,9 +414,6 @@
   <data name="Flexible Management" xml:space="preserve">
     <value>Esnek Yönetim</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>her türlü soru veya sorun bildirimi için.</value>
-  </data>
   <data name="For Everyone." xml:space="preserve">
     <value>Herkes için.</value>
   </data>
@@ -432,11 +426,11 @@
   <data name="Free" xml:space="preserve">
     <value>Ücretsiz</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>Ticari Kullanım İçin Ücretsiz</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>Serbest Yazılım</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Ticari Kullanım İçin Ücretsiz</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Sıkça Sorulan Sorular</value>
@@ -444,17 +438,17 @@
   <data name="From the Architect" xml:space="preserve">
     <value>Mimarın Söyledikleri</value>
   </data>
-  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
-    <value>Anket değişiklikleri ve yönetim işlemleri için tam denetim izi.</value>
-  </data>
-  <data name="Full control" xml:space="preserve">
-    <value>Tam kontrol</value>
-  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>Tam RBAC</value>
   </data>
   <data name="Full Stack Open Source" xml:space="preserve">
     <value>Tam Yığın Açık Kaynak</value>
+  </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>Anket değişiklikleri ve yönetim işlemleri için tam denetim izi.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>Tam kontrol</value>
   </data>
   <data name="Full stack open source. Completely free software, no paid features. Built entirely on open standards." xml:space="preserve">
     <value>Tam yığın açık kaynak. Tamamen ücretsiz yazılım, ücretli özellik yok. Tamamen açık standartlara dayalı.</value>
@@ -462,20 +456,20 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Tamamen Çevrimdışı</value>
   </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>Tasarım aşamasında GDPR uyumlu. Veritabanı size aittir.</value>
+  </data>
   <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
     <value>Detaylı yanıtlar için açık uçlu metin soruları aracılığıyla niteliksel geri bildirim toplayın.</value>
   </data>
   <data name="Gather the right data, every time." xml:space="preserve">
     <value>Her zaman doğru veriyi toplayın.</value>
   </data>
-  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
-    <value>Tasarım aşamasında GDPR uyumlu. Veritabanı size aittir.</value>
+  <data name="Generic Dockerfile only" xml:space="preserve">
+    <value>Sadece Genel Dockerfile</value>
   </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Genel yapılandırma</value>
-  </data>
-  <data name="Generic Dockerfile only" xml:space="preserve">
-    <value>Sadece Genel Dockerfile</value>
   </data>
   <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
     <value>Genel anket araçları genellikle pahalıdır ve verilerinizi toplar. Aiursoft Polls, kendiniz barındırabileceğiniz temiz, hızlı ve özel bir alternatif sunar. Basitliğe ve güvenliğe odaklanıyoruz, böylece siz de sorularınıza odaklanabilirsiniz.</value>
@@ -555,11 +549,11 @@
   <data name="Included" xml:space="preserve">
     <value>Dahil</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Kapsamlı belgeler ve hızlı bir şekilde başlamanızı sağlayacak pratik örnekler içerir.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Kılavuzlar Dahil</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Kapsamlı belgeler ve hızlı bir şekilde başlamanızı sağlayacak pratik örnekler içerir.</value>
   </data>
   <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
     <value>Endüstri standardı uygulaması. Sıfır kilitlenme.</value>
@@ -572,9 +566,6 @@
   </data>
   <data name="Interoperability" xml:space="preserve">
     <value>Uyumluluk</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>Ücretsiz Yazılımdır</value>
   </data>
   <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
     <value>Aiursoft Polls&apos;ü kullanmak ücretsiz mi?</value>
@@ -609,6 +600,12 @@
   <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
     <value>OpenID Connect ile Azure AD ve Okta dahilinde giriş yapın.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
   <data name="Maintain Data Integrity" xml:space="preserve">
     <value>Veri Bütünlüğünü Koruyun</value>
   </data>
@@ -620,12 +617,6 @@
   </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown&apos;dan HTML&apos;e</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT Lisansı</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT Lisansı</value>
   </data>
   <data name="Mobile First" xml:space="preserve">
     <value>Mobil Öncelikli</value>
@@ -666,12 +657,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>Celery + Flower gerektirir</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>Karmaşık kimlik doğrulama mantığı gerektirir</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>Yapılandırma/eklenti gerektirir</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>ESLint/Prettier kurulumu gerekli</value>
   </data>
@@ -680,9 +665,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>Laravel Sail Gerektirir</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>Manuel yapılandırma gerektirir</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>Medialibrary Gerekli</value>
@@ -696,17 +678,26 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>Spring Security yapılandırması gerektirir</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>Üçüncü taraf eklentiler gerektirir</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>TypeORM veya benzeri gerektirir</value>
   </data>
-  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
-    <value>Herhangi bir bulut sağlayıcısına bağımlılık yok. Her yerde, her zaman çalıştırılabilir.</value>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>Karmaşık kimlik doğrulama mantığı gerektirir</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>Yapılandırma/eklenti gerektirir</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>Manuel yapılandırma gerektirir</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>Üçüncü taraf eklentiler gerektirir</value>
   </data>
   <data name="No Fake Votes" xml:space="preserve">
     <value>Sahte Oy Yok</value>
+  </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
+    <value>Herhangi bir bulut sağlayıcısına bağımlılık yok. Her yerde, her zaman çalıştırılabilir.</value>
   </data>
   <data name="Not available" xml:space="preserve">
     <value>Mevcut değil</value>
@@ -714,11 +705,14 @@
   <data name="Not supported" xml:space="preserve">
     <value>Desteklenmiyor</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>Çevrimdışı Kullanım Destekli</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM ve Göçler</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>Çevrimdışı Kullanım Destekli</value>
   </data>
   <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
     <value>Bir kullanıcı yanıtını gönderdikten sonra, veri bütünlüğünü sağlamak ve çift oy verme önlemek amacıyla kilitlenir.</value>
@@ -726,11 +720,11 @@
   <data name="One Click Start" xml:space="preserve">
     <value>Bir Tıkla Başlat</value>
   </data>
-  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
-    <value>Anketleri istediğiniz zaman açın veya kapatın, soruları ve seçenekleri yönetin ve ham başvuru verilerini dışa aktarın.</value>
-  </data>
   <data name="Open Source" xml:space="preserve">
     <value>Açık Kaynak</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>Anketleri istediğiniz zaman açın veya kapatın, soruları ve seçenekleri yönetin ve ham başvuru verilerini dışa aktarın.</value>
   </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect Entegrasyonu</value>
@@ -747,9 +741,6 @@
   <data name="Organization Friendly" xml:space="preserve">
     <value>Kurumsal Dostu</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM ve Göçler</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Kutudan çıkmış</value>
   </data>
@@ -762,11 +753,11 @@
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>İzin keşfi ve senkronizasyonu</value>
   </data>
-  <data name="Poll anywhere, in any language." xml:space="preserve">
-    <value>Anketi istediğiniz yerde, istediğiniz dilde yapın.</value>
-  </data>
   <data name="Poll Features" xml:space="preserve">
     <value>Anket Özellikleri</value>
+  </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>Anketi istediğiniz yerde, istediğiniz dilde yapın.</value>
   </data>
   <data name="Polls vs. Surveys" xml:space="preserve">
     <value>Anketler vs. Anketler</value>
@@ -774,14 +765,14 @@
   <data name="Powerful Polling." xml:space="preserve">
     <value>Güçlü Anketleme.</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>Ön yapılandırılmış ve test edilmiş</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
     <value>Otomatik testler için önceden yapılandırılmış CI/CD boru hatları.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>GitLab için özel olarak önceden yapılandırılmış CI/CD boruları.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>Ön yapılandırılmış ve test edilmiş</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Geliştirme/üretim için önceden yapılandırılmış boru hatları</value>
@@ -900,20 +891,17 @@
   <data name="Smart Configuration Overrides" xml:space="preserve">
     <value>Akıllı Yapılandırma Geçersiz Kılma</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>Kullanıcının sistem karanlık/açık tercihlerine otomatik olarak adapte olan akıllı UI.</value>
+  </data>
   <data name="Smart dark mode that adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Kullanıcının sistem ayarlarına uyum sağlayabilen akıllı karanlık mod.</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Kullanıcının sistem ayarlarına otomatik olarak uyum sağlayan akıllı karanlık mod.</value>
   </data>
-  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
-    <value>Kullanıcının sistem karanlık/açık tercihlerine otomatik olarak adapte olan akıllı UI.</value>
-  </data>
   <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
     <value>Her anket için tam olarak hangi rollerin katılabileceğini belirtin.</value>
-  </data>
-  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
-    <value>Standart uygulama. Derleme yapmadan sağlayıcıları değiştirin.</value>
   </data>
   <data name="Standard OIDC" xml:space="preserve">
     <value>Standart OIDC</value>
@@ -921,11 +909,14 @@
   <data name="Standard OpenID" xml:space="preserve">
     <value>Standart OpenID</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Yeni bir proje başlat</value>
+  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
+    <value>Standart uygulama. Derleme yapmadan sağlayıcıları değiştirin.</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Değer Göndermeye Başla.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Yeni bir proje başlat</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>Tek bir &apos;docker run&apos; komutuyla başlayın.</value>
@@ -939,6 +930,12 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>Katı Lint Kuralları</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>Katı Birim Testi</value>
+  </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>Katı Doğrulama</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>Varsayılan olarak katı kod kontrol kuralları ve sıfır uyarı.</value>
   </data>
@@ -947,12 +944,6 @@
   </data>
   <data name="Strict server-side validation for every single response." xml:space="preserve">
     <value>Her tek yanıt için sıkı sunucu tarafı doğrulama.</value>
-  </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>Katı Birim Testi</value>
-  </data>
-  <data name="Strict Validation" xml:space="preserve">
-    <value>Katı Doğrulama</value>
   </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Kesin ve Tutulu Linting</value>
@@ -969,11 +960,11 @@
   <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
     <value>28 dili kutu dışından destekler, gerçekten küresel bir kitle için.</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>Ortam değişkenleri ve veritabanı tabanlı ayarlar destekler, sorunsuz geçişler için ortam değişkenlerine otomatik öncelik verilir.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>JetBrains Rider destekler, kolay kod stili düzeltmeleri için.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>Ortam değişkenleri ve veritabanı tabanlı ayarlar destekler, sorunsuz geçişler için ortam değişkenlerine otomatik öncelik verilir.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>Görev Çalıştırıcı</value>
@@ -984,6 +975,9 @@
   <data name="Text Response" xml:space="preserve">
     <value>Metin Yanıtı</value>
   </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>Felsefe</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Kesin, savaştan sıyrılmış .NET enterprise temeli. Kimlik doğrulamadan yapay zekâya kadar, zor kısımları çözdük, sizin için yapmanıza gerek kalmadı.</value>
   </data>
@@ -992,9 +986,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Gezinme çubuğu, kullanıcı rollerine ve izinlerine göre otomatik olarak ayarlanır.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>Felsefe</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Şablon, kolay dağıtım için oluşturulmuştur. Tam Docker desteği içerir, böylece uygulamanızı konteynerleştirip her yerde çalıştırabilirsiniz. Ayrıca doğrudan IIS, Azure App Service veya ASP.NET Core destekleyen herhangi bir sunucuya dağıtabilirsiniz.</value>
@@ -1020,6 +1011,9 @@
   <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
     <value>Aiursoft Ekosistemi tarafından güveniliyor</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
   <data name="Under Your Control" xml:space="preserve">
     <value>Sizin Kontrolünüzde</value>
   </data>
@@ -1034,9 +1028,6 @@
   </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Onu SaaS&apos;ınız için bir temel, mobil uygulamanız için bir arka uç, bir kurumsal web sitesi veya kişisel bir blog olarak kullanın. Olanaklar sonsuzdur.</value>
-  </data>
-  <data name="UTC Core" xml:space="preserve">
-    <value>UTC Core</value>
   </data>
   <data name="Verified Identity" xml:space="preserve">
     <value>Doğrulanmış Kimlik</value>
@@ -1115,6 +1106,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>Sıfır Toleranslı Lint</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>daha hızlı</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>her türlü soru veya sorun bildirimi için.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>Ücretsiz Yazılımdır</value>
   </data>
 
 </root>

@@ -27,11 +27,11 @@
   <data name="Answer type" xml:space="preserve">
     <value>Τύπος απάντησης</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Επιστροφή στο εξεταστικό</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Πίσω στη δημοσκόπηση</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>

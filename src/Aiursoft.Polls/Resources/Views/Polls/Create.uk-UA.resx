@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Основні параметри спроби</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Назад до іспитів</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Назад до опитувань</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Назад до іспитів</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Створити</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Створити опитування</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Створити та додати запитання</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Створити іспит</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Створити опитування</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Дедлайн</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Містить неправильний варіант</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>хв</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Нова оцінка</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Хто може складати цей іспит</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>хв</value>
   </data>
 
 </root>

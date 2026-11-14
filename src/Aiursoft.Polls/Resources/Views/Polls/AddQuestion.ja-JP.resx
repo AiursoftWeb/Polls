@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>選択肢の長さや表現に基づく手がかりを避けましょう。各選択肢を並列的で曖昧でないものにしてください。</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>試験に戻る</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>投票に戻る</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>試験に戻る</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>

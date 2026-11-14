@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>活動記錄</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>新增問題</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>新增並檢視題目，考試準備就緒後即可發佈。</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>新增第一題</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>新增問題</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>管理</value>
@@ -69,14 +69,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>試作</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>返回考試</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>返回列表</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>返回投票</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>添加第一道選擇題以建立考試。</value>
@@ -165,11 +165,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>考試設定</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>匯出待處理員工</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>匯出待處理用戶</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>匯出待處理員工</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>延長</value>
@@ -197,9 +197,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>最高分</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>更多</value>
@@ -285,9 +282,6 @@
   <data name="Questions" xml:space="preserve">
     <value>問題</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>本次考試的問題</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>提醒</value>
   </data>
@@ -311,9 +305,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>檢視設定</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>每次試答隨機抽取</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>發送提醒</value>
@@ -371,6 +362,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>你嘅最新分數</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>本次考試的問題</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>每次試答隨機抽取</value>
   </data>
 
 </root>

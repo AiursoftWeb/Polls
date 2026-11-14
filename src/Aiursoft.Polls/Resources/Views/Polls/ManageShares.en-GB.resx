@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0} and {1} other user</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0} and {1} other users</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} can edit.</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0} can view.</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} role</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} roles</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>{0} user</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} users</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}, {1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>About access</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>active shares</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>Add collaborator</value>
@@ -176,6 +146,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>User</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>active shares</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} and {1} other user</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} and {1} other users</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} can edit.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} can view.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} role</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} roles</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} user</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} users</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
   </data>
 
 </root>

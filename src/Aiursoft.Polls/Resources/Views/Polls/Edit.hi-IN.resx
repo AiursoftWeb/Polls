@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>प्रयास की आवश्यकताएं</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>परीक्षा पर वापस जाएँ</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>पोल पर वापस</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>परीक्षा पर वापस जाएँ</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>समय सीमा</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>परीक्षा संपादित करें</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>पोल संपादित करें</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>परीक्षा संपादित करें</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>कर्मचारी</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>कर्मचारियों के अनुभव को केंद्रित रखें, जबकि सटीक स्कोरिंग नियंत्रण बनाए रखें।</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>मिनट</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>उत्तीर्ण संदेश</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>कौन यह परीक्षा दे सकता है</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>मिनट</value>
   </data>
 
 </root>

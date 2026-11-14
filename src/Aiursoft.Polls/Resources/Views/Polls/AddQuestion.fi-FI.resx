@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Vältä vihjeitä, jotka perustuvat vaihtoehtojen pituuteen tai sanavalintoihin. Pidä jokainen vaihtoehto tasapainoisena ja yksiselitteisenä.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Takaisin kokeeseen</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Takaisin äänestykseen</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Takaisin kokeeseen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>

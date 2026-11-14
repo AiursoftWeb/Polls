@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Datos esenciales del intento</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Volver a los exámenes</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Volver a las encuestas</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Volver a los exámenes</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Crear</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Crear encuesta</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Crear y añadir preguntas</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Crear examen</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Crear encuesta</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Fecha límite</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Incluye una opción incorrecta</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Nueva evaluación</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Quién puede realizar este examen</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

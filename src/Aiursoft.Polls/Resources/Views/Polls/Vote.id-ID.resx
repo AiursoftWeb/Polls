@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Survei Anonim:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>answered</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Pertanyaan yang telah dijawab ditampilkan dalam warna hijau.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Selesai</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>menit</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Pilihan Ganda</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Sisa waktu</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Anda masih dapat meninjau dan mengubah jawaban sebelum mengirim.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identitas, alamat IP, dan sidik jari browser Anda TIDAK akan dicatat. Suara Anda sepenuhnya privat.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>total</value>
   </data>
 
 </root>

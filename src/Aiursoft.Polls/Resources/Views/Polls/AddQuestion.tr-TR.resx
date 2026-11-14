@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Seçeneklerin uzunluğuna veya ifade biçimine dayalı ipuçlarından kaçının. Tüm seçenekleri aynı yapıda ve açıkça anlaşılır tutun.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Sınava geri dön</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Ankete dön</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınava geri dön</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>

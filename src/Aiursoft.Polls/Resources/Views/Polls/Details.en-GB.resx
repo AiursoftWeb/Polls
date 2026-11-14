@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>Activity log</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>Add and review questions, then publish when the exam is ready.</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>Add first question</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>Add Question</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>Administration</value>
@@ -69,14 +69,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>Attempt</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Back to Polls</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>Back to exams</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>Back to list</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>Back to Polls</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>Build the exam by adding the first multiple-choice question.</value>
@@ -165,11 +165,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>Exam setup</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>Export pending employees</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Export Pending Users</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Export pending employees</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>Extend</value>
@@ -194,9 +194,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>Maximum</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>More</value>
@@ -282,9 +279,6 @@
   <data name="Questions" xml:space="preserve">
     <value>Questions</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>questions in this exam</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>Remind</value>
   </data>
@@ -308,9 +302,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>Review settings</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>sampled per attempt</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>Send reminder</value>
@@ -368,6 +359,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>Your latest score</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>questions in this exam</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>sampled per attempt</value>
   </data>
 
 </root>

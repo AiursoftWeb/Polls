@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonieme peiling:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>beantwoord</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Beantwoorde vragen worden in het groen weergegeven.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Voltooien</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minuten</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Meerdere keuzes</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Resterende tijd</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>totaal</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Je kunt de antwoorden nog steeds controleren en wijzigen voordat je ze indient.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Uw identiteit, IP-adres en browservingerafdruk worden NIET geregistreerd. Uw stem is volledig privé.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>beantwoord</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>totaal</value>
   </data>
 
 </root>

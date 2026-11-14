@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>응시 기본 사항</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>시험 목록으로 돌아가기</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>설문 목록으로 돌아가기</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>시험 목록으로 돌아가기</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>생성</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>투표 생성</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>문제 생성 및 추가</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>시험 만들기</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>투표 생성</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>마감일</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>오답 선택지 포함</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>분</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>새 평가</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>이 시험에 응시할 수 있는 대상</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>분</value>
   </data>
 
 </root>

@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Điểm đạt</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>điểm</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>câu hỏi</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Xem lại</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Lựa chọn của bạn</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>điểm</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>câu hỏi</value>
   </data>
 
 </root>

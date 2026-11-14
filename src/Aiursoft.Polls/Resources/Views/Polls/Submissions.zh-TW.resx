@@ -30,14 +30,14 @@
   <data name="Attempts" xml:space="preserve">
     <value>嘗試次數</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>返回投票</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>返回詳情</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>返回測驗</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>返回投票</value>
   </data>
   <data name="Detailed attempt log" xml:space="preserve">
     <value>詳細嘗試記錄</value>

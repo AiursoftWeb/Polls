@@ -57,9 +57,6 @@
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link skopiowany do schowka!</value>
   </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minut</value>
-  </data>
   <data name="My Polls" xml:space="preserve">
     <value>Moje ankiety</value>
   </data>
@@ -75,9 +72,6 @@
   <data name="Polls Management" xml:space="preserve">
     <value>Zarządzanie ankietami</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>pytań</value>
-  </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
@@ -86,6 +80,12 @@
   </data>
   <data name="You don&apos;t manage any polls." xml:space="preserve">
     <value>Nie zarządzasz żadnymi ankietami.</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>pytań</value>
   </data>
 
 </root>

@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>गतिविधि लॉग</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>प्रश्न जोड़ें</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>प्रश्न जोड़ें और समीक्षा करें, फिर परीक्षा तैयार होने पर प्रकाशित करें।</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>पहला प्रश्न जोड़ें</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>प्रश्न जोड़ें</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>प्रशासन</value>
@@ -66,14 +66,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>प्रयास</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>पोल्स पर वापस जाएं</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>परीक्षाओं पर वापस जाएँ</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>सूची पर वापस जाएं</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>पोल्स पर वापस जाएं</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>प्रथम बहुविकल्पीय प्रश्न जोड़कर परीक्षण बनाएं।</value>
@@ -153,11 +153,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>परीक्षा सेटअप</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>लंबित कर्मचारियों को निर्यात करें</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>पेंडिंग उपयोगकर्ताओं को निर्यात करें</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>लंबित कर्मचारियों को निर्यात करें</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>विस्तार</value>
@@ -185,9 +185,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>अधिकतम</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>और</value>
@@ -267,9 +264,6 @@
   <data name="Questions" xml:space="preserve">
     <value>प्रश्न</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>इस परीक्षा के प्रश्न</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>सूचना भेजें</value>
   </data>
@@ -290,9 +284,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>सेटिंग्स की समीक्षा करें</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>प्रति प्रयास नमूना</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>अनुस्मारक भेजें</value>
@@ -347,6 +338,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>आपका नवीनतम स्कोर</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>इस परीक्षा के प्रश्न</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>प्रति प्रयास नमूना</value>
   </data>
 
 </root>

@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>Журнал активності</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Додати запитання</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>Додайте та перегляньте запитання, а потім опублікуйте, коли іспит буде готовий.</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>Додати перше питання</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>Додати запитання</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>Адміністрування</value>
@@ -66,14 +66,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>Спроба</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Назад до опитувань</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>Назад до іспитів</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>Повернутися до списку</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>Назад до опитувань</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>Створіть іспит, додавши перше запитання з варіантами відповідей.</value>
@@ -153,11 +153,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>Налаштування іспиту</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>Експортувати очікуючих працівників</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Експортувати очікуючих користувачів</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Експортувати очікуючих працівників</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>Розширити</value>
@@ -185,9 +185,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>Максимум</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>хв</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>Більше</value>
@@ -267,9 +264,6 @@
   <data name="Questions" xml:space="preserve">
     <value>Питання</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>питань у цьому іспиті</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>Нагадати</value>
   </data>
@@ -290,9 +284,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>Переглянути налаштування</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>вибірково на спробу</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>Надіслати нагадування</value>
@@ -347,6 +338,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>Ваш останній результат</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>хв</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>питань у цьому іспиті</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>вибірково на спробу</value>
   </data>
 
 </root>

@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Deneme Temelleri</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Sınavlara dön</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Anketlere Dön</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Sınavlara dön</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Oluştur</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Anket Oluştur</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Oluştur ve sorular ekle</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Sınav Oluştur</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Anket Oluştur</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Son tarih</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Yanlış seçenek içerir</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>dk</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Yeni değerlendirme</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Bu sınavı kimler girebilir</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>dk</value>
   </data>
 
 </root>

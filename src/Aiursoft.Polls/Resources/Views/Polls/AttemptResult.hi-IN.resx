@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>उत्तीर्णता अंक</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>अंक</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>प्रश्न</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>समीक्षा</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>आपका विकल्प</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>अंक</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>प्रश्न</value>
   </data>
 
 </root>

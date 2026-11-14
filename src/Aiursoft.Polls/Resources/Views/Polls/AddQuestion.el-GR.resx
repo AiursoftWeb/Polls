@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Αποφύγετε ενδείξεις που βασίζονται στο μήκος ή τη διατύπωση των επιλογών. Βεβαιωθείτε ότι όλες οι επιλογές έχουν παράλληλη δομή και είναι σαφείς.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Επιστροφή στο εξεταστικό</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Πίσω στην Ψηφοφορία</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>

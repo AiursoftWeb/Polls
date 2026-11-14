@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>응시 필수 설정</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>시험으로 돌아가기</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>설명으로 돌아가기</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>시험으로 돌아가기</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>마감일</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>시험 편집</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>투표 수정</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>시험 편집</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>직원</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>직원 경험을 집중적으로 유지하면서 정밀한 점수 산정 기능을 그대로 유지하세요.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>분</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>합격 메시지</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>이 시험을 볼 수 있는 대상</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>분</value>
   </data>
 
 </root>

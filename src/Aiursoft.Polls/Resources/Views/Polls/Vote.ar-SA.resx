@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>تصويت مجهول:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>مُجيب</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>تظهر الأسئلة المُجاب عنها باللون الأخضر.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>إنهاء</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>دقائق</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>اختيار متعدد</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>الوقت المتبقي</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>إجمالي</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>لا يزال بإمكانك مراجعة الإجابات وتغييرها قبل الإرسال.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>لن يتم تسجيل هويتك، عنوان IP، وبصمة المتصفح الخاص بك. تصويتك خاص تماماً.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>مُجيب</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>إجمالي</value>
   </data>
 
 </root>

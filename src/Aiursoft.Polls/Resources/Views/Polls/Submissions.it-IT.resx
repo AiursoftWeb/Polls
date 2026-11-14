@@ -30,14 +30,14 @@
   <data name="Attempts" xml:space="preserve">
     <value>Tentativi</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Torna al sondaggio</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Torna ai dettagli</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>Torna all&apos;esame</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>Torna al sondaggio</value>
   </data>
   <data name="Detailed attempt log" xml:space="preserve">
     <value>Registro dettagliato dei tentativi</value>

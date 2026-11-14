@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Voto di sufficienza</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>punti</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>domande</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Revisione</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>La tua scelta</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>punti</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>domande</value>
   </data>
 
 </root>

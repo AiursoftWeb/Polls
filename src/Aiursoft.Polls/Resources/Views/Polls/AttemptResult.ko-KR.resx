@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>합격 점수</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>점</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>문제</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>검토</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>선택한 항목</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>점</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>문제</value>
   </data>
 
 </root>

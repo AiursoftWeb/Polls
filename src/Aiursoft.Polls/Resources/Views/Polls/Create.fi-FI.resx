@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Yrityksen perustiedot</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Takaisin tentteihin</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Takaisin kyselyihin</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Takaisin tentteihin</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Luo</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Luo kysely</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Luo ja lisää kysymyksiä</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Luo koe</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Luo kysely</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Määräaika</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Sisältää virheellisen vaihtoehdon</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Uusi arviointi</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Kuka voi suorittaa tämän kokeen</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

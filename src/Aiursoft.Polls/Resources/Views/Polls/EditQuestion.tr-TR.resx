@@ -27,11 +27,11 @@
   <data name="Answer type" xml:space="preserve">
     <value>Cevap türü</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Sınav sayfasına dön</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Ankete Geri Dön</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Sınav sayfasına dön</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>İptal</value>

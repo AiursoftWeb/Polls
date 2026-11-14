@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>Tránh các manh mối dựa trên độ dài hoặc cách diễn đạt của các lựa chọn. Giữ cho mỗi lựa chọn song song và không gây mơ hồ.</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Quay lại bài thi</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Quay lại bài thi</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>

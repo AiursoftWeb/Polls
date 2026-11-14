@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>作答要點</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>返回考試</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>返回投票</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>返回考試</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>建立</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>建立投票</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>建立並新增問題</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>建立考試</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>建立投票</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>包含錯誤選項</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>分鐘</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>新評核</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>誰可以參加此考試</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分鐘</value>
   </data>
 
 </root>

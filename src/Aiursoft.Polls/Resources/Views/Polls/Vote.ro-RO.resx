@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Sondaj anonim:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>raspuns</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Întrebările răspunse sunt afișate în verde.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Finalizare</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minute</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Alegeri multiple</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Timp rămas</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Încă poți verifica și modifica răspunsurile înainte de trimitere.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identitatea ta, adresa IP și amprenta browserului NU vor fi înregistrate. Votul tău este complet privat.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>raspuns</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>total</value>
   </data>
 
 </root>

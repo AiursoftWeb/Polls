@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Пороговый балл</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>баллов</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>вопросы</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Просмотр</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Ваш выбор</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>баллов</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>вопросы</value>
   </data>
 
 </root>

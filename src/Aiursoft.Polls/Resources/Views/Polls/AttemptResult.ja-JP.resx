@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>合格点</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>点</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>問題</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>レビュー</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>あなたの選択</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>問題</value>
   </data>
 
 </root>

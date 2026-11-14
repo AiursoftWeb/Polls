@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>操作日志</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>添加问题</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>添加并审阅题目，待考试准备就绪后发布。</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>添加第一个问题</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>添加问题</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>管理</value>
@@ -66,14 +66,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>尝试</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>返回投票列表</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>返回考试列表</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>返回列表</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>返回投票列表</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>添加第一道选择题来创建考试。</value>
@@ -162,11 +162,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>考试设置</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>导出待处理员工</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>导出待处理用户</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>导出待处理员工</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>延长</value>
@@ -191,9 +191,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>最高分</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>最小</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>更多</value>
@@ -279,9 +276,6 @@
   <data name="Questions" xml:space="preserve">
     <value>问题</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>本场考试中的题目</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>提醒</value>
   </data>
@@ -305,9 +299,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>检查设置</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>每次抽取</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>发送提醒</value>
@@ -365,6 +356,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>你的最新得分</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>本场考试中的题目</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>每次抽取</value>
   </data>
 
 </root>

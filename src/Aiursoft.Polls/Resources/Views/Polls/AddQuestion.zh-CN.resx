@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>避免根据选项长度或措辞提供提示。保持每个选项结构平行且含义明确。</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>返回考试</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>返回投票</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>返回考试</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>

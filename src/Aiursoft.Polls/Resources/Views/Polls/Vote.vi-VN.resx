@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Khảo sát ẩn danh:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>answered</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Các câu hỏi đã trả lời được hiển thị bằng màu xanh lá cây.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Hoàn thành</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>phút</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Chọn nhiều</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Thời gian còn lại</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>tổng số</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Bạn vẫn có thể xem lại và thay đổi câu trả lời trước khi nộp bài.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Bản sắc, địa chỉ IP và dấu vân tay trình duyệt của bạn sẽ KHÔNG được ghi lại. Lá phiếu của bạn hoàn toàn riêng tư.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>tổng số</value>
   </data>
 
 </root>

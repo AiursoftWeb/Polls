@@ -30,11 +30,11 @@
   <data name="Administration" xml:space="preserve">
     <value>Amministrazione</value>
   </data>
-  <data name="All exams" xml:space="preserve">
-    <value>Tutti gli esami</value>
-  </data>
   <data name="All Polls" xml:space="preserve">
     <value>Tutti i sondaggi</value>
+  </data>
+  <data name="All exams" xml:space="preserve">
+    <value>Tutti gli esami</value>
   </data>
   <data name="Audience" xml:space="preserve">
     <value>Destinatari</value>
@@ -60,14 +60,8 @@
   <data name="Exam" xml:space="preserve">
     <value>Esame</value>
   </data>
-  <data name="exams" xml:space="preserve">
-    <value>esami</value>
-  </data>
   <data name="Link copied to clipboard!" xml:space="preserve">
     <value>Link copiato negli appunti!</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minuti</value>
   </data>
   <data name="No exams found" xml:space="preserve">
     <value>Nessun esame trovato</value>
@@ -87,9 +81,6 @@
   <data name="Owner" xml:space="preserve">
     <value>Proprietario</value>
   </data>
-  <data name="questions" xml:space="preserve">
-    <value>domande</value>
-  </data>
   <data name="Review every assessment across the organization." xml:space="preserve">
     <value>Rivedi tutte le valutazioni in tutta l&apos;organizzazione.</value>
   </data>
@@ -101,6 +92,15 @@
   </data>
   <data name="Title" xml:space="preserve">
     <value>Titolo</value>
+  </data>
+  <data name="exams" xml:space="preserve">
+    <value>esami</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuti</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>domande</value>
   </data>
 
 </root>

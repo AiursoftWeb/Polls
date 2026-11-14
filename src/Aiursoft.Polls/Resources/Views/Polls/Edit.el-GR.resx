@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Βασικά στοιχεία δοκιμής</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Επιστροφή στο εξεταστικό</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Πίσω στη Δημοσκόπηση</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Επιστροφή στο εξεταστικό</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Προθεσμία</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Επεξεργασία εξετάσεων</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Επεξεργασία Ψηφοφορίας</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Επεξεργασία εξετάσεων</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Εργαζόμενοι</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Διατηρήστε την εμπειρία των υπαλλήλων εστιασμένη, διατηρώντας ταυτόχρονα ακριβή έλεγχο της βαθμολόγησης.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>λεπ</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Μήνυμα επιτυχίας</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Ποιος μπορεί να παρακολουθήσει αυτό το εξετάστιμο</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>λεπ</value>
   </data>
 
 </root>

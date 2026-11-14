@@ -42,11 +42,11 @@
   <data name="Avoid clues based on option length or wording. Keep each option parallel and unambiguous." xml:space="preserve">
     <value>หลีกเลี่ยงเบาะแสที่มาจากความยาวหรือถ้อยคำของตัวเลือก ให้แต่ละตัวเลือกมีความสอดคล้องและไม่มีความกำกวม</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>กลับไปที่การสอบ</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>กลับไปยังแบบสำรวจ</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>กลับไปที่การสอบ</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>

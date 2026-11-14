@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonym omröstning:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>besvarad</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Besvarade frågor visas i grön färg.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Slutför</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minuter</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Flerval</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Tid kvar</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Du kan fortfarande granska och ändra svar innan du skickar in.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Din identitet, IP-adress och webbläsarfingeravtryck kommer INTE att sparas. Din röst är helt privat.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>besvarad</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>total</value>
   </data>
 
 </root>

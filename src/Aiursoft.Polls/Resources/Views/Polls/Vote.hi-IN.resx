@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>गुमनाम सर्वेक्षण:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>उत्तर दिया गया</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>उत्तर दिए गए प्रश्न हरे रंग में दिखाए जाते हैं।</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>समाप्त करें</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>मिनट</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>बहु-विकल्पीय</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>शेष समय</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>कुल</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>आप अभी भी जमा करने से पहले उत्तरों की समीक्षा और उनमें बदलाव कर सकते हैं।</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>आपकी पहचान, IP पता और ब्राउज़र फिंगरप्रिंट को रिकॉर्ड नहीं किया जाएगा। आपका वोट पूरी तरह से निजी है।</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>उत्तर दिया गया</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>कुल</value>
   </data>
 
 </root>

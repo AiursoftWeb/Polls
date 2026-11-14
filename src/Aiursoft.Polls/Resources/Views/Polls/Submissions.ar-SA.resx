@@ -30,14 +30,14 @@
   <data name="Attempts" xml:space="preserve">
     <value>المحاولات</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>العودة إلى الاستطلاع</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>عودة إلى التفاصيل</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>العودة إلى الامتحان</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>العودة إلى الاستطلاع</value>
   </data>
   <data name="Detailed attempt log" xml:space="preserve">
     <value>سجل المحاولات التفصيلي</value>

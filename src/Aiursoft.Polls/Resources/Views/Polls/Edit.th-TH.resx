@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>ข้อมูลสำคัญสำหรับการทำข้อสอบ</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>กลับไปที่การสอบ</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>กลับไปยังแบบสำรวจ</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>กลับไปที่การสอบ</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>กำหนดเวลา</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>แก้ไขข้อสอบ</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>แก้ไขโพล</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>แก้ไขข้อสอบ</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>พนักงาน</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>รักษาประสบการณ์ของพนักงานให้จดจ่อพร้อมควบคุมการให้คะแนนอย่างแม่นยำ</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>นาที</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>ข้อความเมื่อผ่าน</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>ใครสามารถทำข้อสอบนี้ได้</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>นาที</value>
   </data>
 
 </root>

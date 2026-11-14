@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0}、ほか{1}人のユーザー</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0}さんと他{1}人のユーザー</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} は編集できます。</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0}は閲覧できます。</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} 個のロール</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} 個のロール</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>ユーザー{0}人</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} 人のユーザー</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}、{1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>アクセスについて</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>アクティブな共有</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>協作者を追加</value>
@@ -176,6 +146,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>ユーザー</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>アクティブな共有</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0}、ほか{1}人のユーザー</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0}さんと他{1}人のユーザー</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} は編集できます。</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0}は閲覧できます。</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} 個のロール</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} 個のロール</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>ユーザー{0}人</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} 人のユーザー</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}、{1}</value>
   </data>
 
 </root>

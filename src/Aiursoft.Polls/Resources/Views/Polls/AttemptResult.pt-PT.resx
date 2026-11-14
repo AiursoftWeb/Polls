@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Nota de aprovação</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>pontos</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>perguntas</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Revisão</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>A sua escolha</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>pontos</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>perguntas</value>
   </data>
 
 </root>

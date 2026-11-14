@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>受験設定</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>試験一覧へ戻る</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>アンケート一覧に戻る</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>試験一覧へ戻る</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>作成</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>投票を作成</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>作成して問題を追加</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>試験を作成</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>投票を作成</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>締切</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>誤った選択肢を含む場合</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>分</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>新しい評価</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>この試験を受けられる対象</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分</value>
   </data>
 
 </root>

@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>及格分數</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>分</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>題</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>檢視</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>您的選擇</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>題</value>
   </data>
 
 </root>

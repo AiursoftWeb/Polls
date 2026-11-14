@@ -39,23 +39,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>أساس حديث، غني بالميزات، وقابل للتوسعة بدرجة كبيرة لتطبيق الويب القادم الخاص بك.</value>
   </data>
-  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
-    <value>بالتأكيد. يمكنك إعداد الاستطلاعات لتكون عامة، مخصصة للمستخدمين المسجلين فقط، أو مقيدة بأدوار محددة يتم مزامنتها من مزود هويتك.</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>احقق المزيد مع قالب Aiursoft</value>
-  </data>
   <data name="ACID Ready" xml:space="preserve">
     <value>جاهزة لـ ACID</value>
-  </data>
-  <data name="Active Directory Integration" xml:space="preserve">
-    <value>تكامل دليل نشط</value>
-  </data>
-  <data name="Admin site included" xml:space="preserve">
-    <value>موقع الإدارة مضمن</value>
-  </data>
-  <data name="Advanced Question Types" xml:space="preserve">
-    <value>أنواع الأسئلة المتقدمة</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>الترجمة المدعومة بالذكاء الاصطناعي</value>
@@ -65,6 +50,21 @@
   </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>الترجمات المدعومة بالذكاء الاصطناعي</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>بالتأكيد. يمكنك إعداد الاستطلاعات لتكون عامة، مخصصة للمستخدمين المسجلين فقط، أو مقيدة بأدوار محددة يتم مزامنتها من مزود هويتك.</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>احقق المزيد مع قالب Aiursoft</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>تكامل دليل نشط</value>
+  </data>
+  <data name="Admin site included" xml:space="preserve">
+    <value>موقع الإدارة مضمن</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>أنواع الأسئلة المتقدمة</value>
   </data>
   <data name="Aiursoft Polls" xml:space="preserve">
     <value>Aiursoft Polls</value>
@@ -111,11 +111,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>الضغط التلقائي والخصوصية</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>النشر التلقائي</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>الضغط التلقائي والخصوصية</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>ترجمة ذكاء اصطناعي تلقائية إلى 28 لغة.</value>
@@ -125,9 +125,6 @@
   </data>
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>حقن التبعيات التلقائي</value>
-  </data>
-  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
-    <value>تعديلات التنقل التلقائية بناءً على صلاحيات الإدارة الخاصة بك.</value>
   </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>مزامنة الأدوار تلقائيًا</value>
@@ -140,6 +137,9 @@
   </data>
   <data name="Automatic UTC/Local conversion" xml:space="preserve">
     <value>التحويل التلقائي بين توقيت UTC والمحلي</value>
+  </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>تعديلات التنقل التلقائية بناءً على صلاحيات الإدارة الخاصة بك.</value>
   </data>
   <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
     <value>ترجمة آلية مدعومة بالذكاء الاصطناعي إلى 28 لغة للوصول إلى جمهور عالمي.</value>
@@ -183,20 +183,17 @@
   <data name="Built with Aiursoft Template" xml:space="preserve">
     <value>مُبنى باستخدام قوالب Aiursoft</value>
   </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>مبني على نواة UTC، مما يضمن اتساق أوقات انتهاء الاستطلاعات عبر جميع المناطق الزمنية.</value>
+  </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>مُصمم بجودة عالية للشركات مع سهولة التعلم في لغة C# الأصلية</value>
   </data>
   <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
     <value>تم بناؤه باستخدام قواعد تحقق صارمة لضمان صحة كل صوت وأمانه.</value>
   </data>
-  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
-    <value>مبني على نواة UTC، مما يضمن اتساق أوقات انتهاء الاستطلاعات عبر جميع المناطق الزمنية.</value>
-  </data>
   <data name="Built-in" xml:space="preserve">
     <value>مدمج</value>
-  </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>لوحة تحكم مدمجة للإدارة</value>
   </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>مصادقة مدمجة</value>
@@ -209,6 +206,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>إدارة المستخدمين المدمجة</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>لوحة تحكم مدمجة للإدارة</value>
   </data>
   <data name="Can I restrict who can vote?" xml:space="preserve">
     <value>هل يمكنني تقييد من يمكنه التصويت؟</value>
@@ -261,20 +261,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>متعدد المنصات</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>نطاق مخصص</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>يتطلب تطويرًا مخصصًا</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>يتطلب تطويرًا مخصصًا</value>
   </data>
-  <data name="Custom Domain" xml:space="preserve">
-    <value>نطاق مخصص</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>موقع لوحة التحكم</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>لوحة تحكم للمهام الخلفية</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>موقع لوحة التحكم</value>
   </data>
   <data name="Data Export" xml:space="preserve">
     <value>تصدير البيانات</value>
@@ -312,14 +312,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>مطوّر وانتاج</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>مُصمم لبيئة DevOps</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>قم بتطوير النظام بشكل حصري باستخدام التوقيت العالمي الموحد (UTC) بينما يقوم النظام تلقائيًا بتحويل التواريخ وعرضها بتوقيت المستخدم المحلي.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>تجربة المطور</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>مُصمم لبيئة DevOps</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>صفحة المناقشات</value>
@@ -369,17 +369,17 @@
   <data name="Enterprise Grade" xml:space="preserve">
     <value>جودة مؤسسية</value>
   </data>
-  <data name="Enterprise plan only" xml:space="preserve">
-    <value>متاح فقط في خطة المؤسسة</value>
-  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>جاهز للشركات</value>
+  </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>تسجيل الدخول المؤسسي</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>الأمان المؤسسي</value>
   </data>
-  <data name="Enterprise SSO" xml:space="preserve">
-    <value>تسجيل الدخول المؤسسي</value>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>متاح فقط في خطة المؤسسة</value>
   </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>مضمن إطار عمل Entity Framework Core</value>
@@ -392,9 +392,6 @@
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>الأسئلة الشائعة</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>بسرعة أكبر</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>الميزات</value>
@@ -417,9 +414,6 @@
   <data name="Flexible Management" xml:space="preserve">
     <value>إدارة مرنة</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>للاستفسارات أو الإبلاغ عن المشكلات.</value>
-  </data>
   <data name="For Everyone." xml:space="preserve">
     <value>للجميع.</value>
   </data>
@@ -432,11 +426,11 @@
   <data name="Free" xml:space="preserve">
     <value>مجاني</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>مجاني للاستخدام التجاري</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>برمجيات مجانية</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>مجاني للاستخدام التجاري</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>الأسئلة الشائعة</value>
@@ -444,17 +438,17 @@
   <data name="From the Architect" xml:space="preserve">
     <value>من المصمم</value>
   </data>
-  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
-    <value>سجل تدقيق كامل لتعديلات الاستطلاعات وإجراءات الإدارة.</value>
-  </data>
-  <data name="Full control" xml:space="preserve">
-    <value>تحكم كامل</value>
-  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>التحكم بالوصول القائم على الصلاحيات الكامل</value>
   </data>
   <data name="Full Stack Open Source" xml:space="preserve">
     <value>مفتوح المصدر متكامل المكونات</value>
+  </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>سجل تدقيق كامل لتعديلات الاستطلاعات وإجراءات الإدارة.</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>تحكم كامل</value>
   </data>
   <data name="Full stack open source. Completely free software, no paid features. Built entirely on open standards." xml:space="preserve">
     <value>مصدر مفتوح كامل المدى. برنامج مجاني تمامًا، بدون ميزات مدفوعة. مبني بالكامل على المعايير المفتوحة.</value>
@@ -462,20 +456,20 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>كاملة بدون اتصال</value>
   </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>متوافق مع اللائحة العامة لحماية البيانات (GDPR) منذ التصميم. أنت تملك قاعدة البيانات.</value>
+  </data>
   <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
     <value>احصل على تعليقات نوعية من خلال أسئلة نصية مفتوحة للحصول على إجابات مفصلة.</value>
   </data>
   <data name="Gather the right data, every time." xml:space="preserve">
     <value>احصل على البيانات الصحيحة، في كل مرة.</value>
   </data>
-  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
-    <value>متوافق مع اللائحة العامة لحماية البيانات (GDPR) منذ التصميم. أنت تملك قاعدة البيانات.</value>
+  <data name="Generic Dockerfile only" xml:space="preserve">
+    <value>ملف Docker عام فقط</value>
   </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>إعداد عام</value>
-  </data>
-  <data name="Generic Dockerfile only" xml:space="preserve">
-    <value>ملف Docker عام فقط</value>
   </data>
   <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
     <value>غالبًا ما تكون أدوات الاستبيان العامة باهظة الثمن وتجمع بياناتك. توفر Aiursoft Polls بديلاً نظيفًا وسريعًا وخصوصيًا يمكنك استضافته بنفسك. نحن نركز على البساطة والأمان، حتى تتمكن من التركيز على أسئلتك.</value>
@@ -555,11 +549,11 @@
   <data name="Included" xml:space="preserve">
     <value>مُضمن</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>يشمل وثائق شاملة وأمثلة عملية لمساعدتك على البدء بسرعة.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>يحتوي على دروس تدريبية</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>يشمل وثائق شاملة وأمثلة عملية لمساعدتك على البدء بسرعة.</value>
   </data>
   <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
     <value>تنفيذ معياري صناعي. بدون قيود.</value>
@@ -572,9 +566,6 @@
   </data>
   <data name="Interoperability" xml:space="preserve">
     <value>التداخلية</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>هو برنامج مجاني</value>
   </data>
   <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
     <value>هل استخدام Aiursoft Polls مجاني؟</value>
@@ -609,6 +600,12 @@
   <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
     <value>تسجيل الدخول عبر OpenID Connect بما في ذلك Azure AD و Okta.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>رخصة MIT</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>رخصة MIT</value>
+  </data>
   <data name="Maintain Data Integrity" xml:space="preserve">
     <value>الحفاظ على سلامة البيانات</value>
   </data>
@@ -620,12 +617,6 @@
   </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>تحويل Markdown إلى HTML</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>رخصة MIT</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>رخصة MIT</value>
   </data>
   <data name="Mobile First" xml:space="preserve">
     <value>أولوية الهاتف المحمول</value>
@@ -666,12 +657,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>يتطلب Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>يتطلب منطق مصادقة معقد</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>يتطلب إعداد/إضافات</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>يتطلب إعداد ESLint/Prettier</value>
   </data>
@@ -680,9 +665,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>يتطلب Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>يتطلب تكوينًا يدويًا</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>يتطلب Medialibrary</value>
@@ -696,17 +678,26 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>يتطلب إعداد Spring Security</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>يتطلب إضافات من جهات خارجية</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>يتطلب TypeORM أو ما شابه</value>
   </data>
-  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
-    <value>لا يعتمد على أي مزود سحابي. شغّل في أي مكان وفي أي وقت.</value>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>يتطلب منطق مصادقة معقد</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>يتطلب إعداد/إضافات</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>يتطلب تكوينًا يدويًا</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>يتطلب إضافات من جهات خارجية</value>
   </data>
   <data name="No Fake Votes" xml:space="preserve">
     <value>لا تصويت مزيف</value>
+  </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
+    <value>لا يعتمد على أي مزود سحابي. شغّل في أي مكان وفي أي وقت.</value>
   </data>
   <data name="Not available" xml:space="preserve">
     <value>غير متوفر</value>
@@ -714,11 +705,14 @@
   <data name="Not supported" xml:space="preserve">
     <value>غير مدعوم</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>قادر على العمل دون اتصال</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>نموذج علاقة الكائنات والهجرات</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>قادر على العمل دون اتصال</value>
   </data>
   <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
     <value>بمجرد تقديم المستخدم لاستجابته، يتم قفلها لضمان سلامة البيانات ومنع التصويت المزدوج.</value>
@@ -726,11 +720,11 @@
   <data name="One Click Start" xml:space="preserve">
     <value>ابدأ بنقرة واحدة</value>
   </data>
-  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
-    <value>افتح أو أغلق الاستطلاعات في أي وقت، وأدرِ الأسئلة والخيارات، وقم بتصدير بيانات الإرسال الخام.</value>
-  </data>
   <data name="Open Source" xml:space="preserve">
     <value>مفتوح المصدر</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>افتح أو أغلق الاستطلاعات في أي وقت، وأدرِ الأسئلة والخيارات، وقم بتصدير بيانات الإرسال الخام.</value>
   </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>دمج OpenID Connect</value>
@@ -747,9 +741,6 @@
   <data name="Organization Friendly" xml:space="preserve">
     <value>صديق للمنظمة</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>نموذج علاقة الكائنات والهجرات</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>جاهز للاستخدام فوراً</value>
   </data>
@@ -762,11 +753,11 @@
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>اكتشاف الصلاحيات والمزامنة</value>
   </data>
-  <data name="Poll anywhere, in any language." xml:space="preserve">
-    <value>تصويت في أي مكان، بأي لغة.</value>
-  </data>
   <data name="Poll Features" xml:space="preserve">
     <value>ميزات الاستبيان</value>
+  </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>تصويت في أي مكان، بأي لغة.</value>
   </data>
   <data name="Polls vs. Surveys" xml:space="preserve">
     <value>استطلاعات الرأي مقابل الاستبيانات</value>
@@ -774,14 +765,14 @@
   <data name="Powerful Polling." xml:space="preserve">
     <value>استطلاعات قوية.</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>مُعد مسبقًا ومُختبر</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
     <value>خطوط أنابيب CI/CD مُعدّة مسبقًا للاختبار الآلي.</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>ممرات CI/CD المُهيأة مسبقًا بشكل خاص لـ GitLab.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>مُعد مسبقًا ومُختبر</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>خطوط أنابيب مُهيأة مسبقًا للتطوير/الإنتاج</value>
@@ -900,20 +891,17 @@
   <data name="Smart Configuration Overrides" xml:space="preserve">
     <value>تجاوزات الإعداد الذكية</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>واجهة مستخدم ذكية تتكيف تلقائيًا مع تفضيلات النظام المظلم/الفاتح للمستخدم.</value>
+  </data>
   <data name="Smart dark mode that adapts to the user&apos;s system settings." xml:space="preserve">
     <value>وضع الظلام الذكي الذي يتكيف مع إعدادات نظام المستخدم.</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>وضع الظلام الذكي الذي يتكيف تلقائيًا مع إعدادات نظام المستخدم.</value>
   </data>
-  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
-    <value>واجهة مستخدم ذكية تتكيف تلقائيًا مع تفضيلات النظام المظلم/الفاتح للمستخدم.</value>
-  </data>
   <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
     <value>حدد بدقة أي الأدوار يمكنها المشاركة في كل استبيان.</value>
-  </data>
-  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
-    <value>التنفيذ القياسي. تبديل المزودين دون إعادة التجميع.</value>
   </data>
   <data name="Standard OIDC" xml:space="preserve">
     <value>معيار OIDC</value>
@@ -921,11 +909,14 @@
   <data name="Standard OpenID" xml:space="preserve">
     <value>OpenID القياسي</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>بدء مشروع جديد</value>
+  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
+    <value>التنفيذ القياسي. تبديل المزودين دون إعادة التجميع.</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>ابدأ في توصيل القيمة.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>بدء مشروع جديد</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>ابدأ بتنفيذ أمر واحد فقط هو &apos;docker run&apos;.</value>
@@ -939,6 +930,12 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>قواعد التحقق الصارمة</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>اختبارات الوحدة الصارمة</value>
+  </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>التحقق الصارم</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>قواعد صارمة لفحص الكود وصفر تنبيهات افتراضيًا.</value>
   </data>
@@ -947,12 +944,6 @@
   </data>
   <data name="Strict server-side validation for every single response." xml:space="preserve">
     <value>التحقق الصارم من جانب الخادم لكل استجابة على حدة.</value>
-  </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>اختبارات الوحدة الصارمة</value>
-  </data>
-  <data name="Strict Validation" xml:space="preserve">
-    <value>التحقق الصارم</value>
   </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>تصحيح صارم ومتزامن</value>
@@ -969,11 +960,11 @@
   <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
     <value>يدعم 28 لغة جاهزة للاستخدام لجمهور عالمي حقًا.</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>يدعم كلًا من متغيرات البيئة والإعدادات المخزنة في قاعدة البيانات، مع إعطاء الأولوية التلقائية لمتغيرات البيئة لضمان التفادي السلس.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>يدعم JetBrains Rider لتصحيح أنماط الكود بسهولة.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>يدعم كلًا من متغيرات البيئة والإعدادات المخزنة في قاعدة البيانات، مع إعطاء الأولوية التلقائية لمتغيرات البيئة لضمان التفادي السلس.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>مُنَفِّذ المهام</value>
@@ -984,6 +975,9 @@
   <data name="Text Response" xml:space="preserve">
     <value>استجابة نصية</value>
   </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>الفلسفة</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>الأساس المؤسسي المتميز، المختبر في الميدان، لمنصة .NET المؤسسية. من المصادقة إلى الذكاء الاصطناعي، فقد حللنا الجزء الصعب حتى لا يتعين عليك ذلك.</value>
   </data>
@@ -992,9 +986,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>يتم تعديل شريط التنقل تلقائيًا بناءً على أدوار المستخدمين وأذوناتهم.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>الفلسفة</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>تم بناء القالب لتسهيل النشر. وهو يتضمن دعمًا كاملاً لـ Docker، حتى تتمكن من تحويل تطبيقك إلى حاوية وتشغيله في أي مكان. يمكنك أيضًا نشره مباشرةً على IIS، أو Azure App Service، أو أي خادم يدعم ASP.NET Core.</value>
@@ -1020,6 +1011,9 @@
   <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
     <value>موثوق به من قبل نظام آيورسوفت البيئي</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
   <data name="Under Your Control" xml:space="preserve">
     <value>تحت سيطرتك</value>
   </data>
@@ -1034,9 +1028,6 @@
   </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>استخدمه كأساس لخدماتك السحابية (SaaS)، أو كخلفية لتطبيقك المحمول، أو كموقع مؤسسي، أو مدونة شخصية. الإمكانيات لا حدود لها.</value>
-  </data>
-  <data name="UTC Core" xml:space="preserve">
-    <value>UTC Core</value>
   </data>
   <data name="Verified Identity" xml:space="preserve">
     <value>هوية موثقة</value>
@@ -1115,6 +1106,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>تحقق صارم من الأكواد</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>بسرعة أكبر</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>للاستفسارات أو الإبلاغ عن المشكلات.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>هو برنامج مجاني</value>
   </data>
 
 </root>

@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>匿名アンケート：</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>回答済み</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>回答済みの問題は緑色で表示されます。</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>完了</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>分</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>複数選択</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>残り時間</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>合計</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>提出前に回答を確認・変更することができます。</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>あなたの身元、IP アドレス、およびブラウザの指紋は記録されません。あなたの投票は完全にプライバシーが守られます。</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>回答済み</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>合計</value>
   </data>
 
 </root>

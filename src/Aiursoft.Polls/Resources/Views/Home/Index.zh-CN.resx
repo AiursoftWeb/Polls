@@ -39,23 +39,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>一个现代化、功能丰富且高度可扩展的基础框架，为您的下一个Web应用程序提供强大支持。</value>
   </data>
-  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
-    <value>当然可以。您可以将投票设置为公开、仅限注册用户，或限制为仅同步自身份提供程序中的特定角色。</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>借助 Aiursoft Template 成就更多可能</value>
-  </data>
   <data name="ACID Ready" xml:space="preserve">
     <value>ACID Ready</value>
-  </data>
-  <data name="Active Directory Integration" xml:space="preserve">
-    <value>Active Directory 集成</value>
-  </data>
-  <data name="Admin site included" xml:space="preserve">
-    <value>包含管理站点</value>
-  </data>
-  <data name="Advanced Question Types" xml:space="preserve">
-    <value>高级题型</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI 驱动的翻译</value>
@@ -65,6 +50,21 @@
   </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI 驱动翻译</value>
+  </data>
+  <data name="Absolutely. You can set polls to be public, registered-users-only, or restricted to specific roles synchronized from your identity provider." xml:space="preserve">
+    <value>当然可以。您可以将投票设置为公开、仅限注册用户，或限制为仅同步自身份提供程序中的特定角色。</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>借助 Aiursoft Template 成就更多可能</value>
+  </data>
+  <data name="Active Directory Integration" xml:space="preserve">
+    <value>Active Directory 集成</value>
+  </data>
+  <data name="Admin site included" xml:space="preserve">
+    <value>包含管理站点</value>
+  </data>
+  <data name="Advanced Question Types" xml:space="preserve">
+    <value>高级题型</value>
   </data>
   <data name="Aiursoft Polls" xml:space="preserve">
     <value>Aiursoft Polls</value>
@@ -111,11 +111,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>自动压缩与隐私保护</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>自动部署</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>自动压缩与隐私保护</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>自动 AI 翻译至 28 种语言。</value>
@@ -125,9 +125,6 @@
   </data>
   <data name="Automatic Dependency Injection" xml:space="preserve">
     <value>自动依赖注入</value>
-  </data>
-  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
-    <value>根据您的管理权限自动调整导航。</value>
   </data>
   <data name="Automatic Role Sync" xml:space="preserve">
     <value>自动角色同步</value>
@@ -140,6 +137,9 @@
   </data>
   <data name="Automatic UTC/Local conversion" xml:space="preserve">
     <value>自动 UTC/本地时间转换</value>
+  </data>
+  <data name="Automatic navigation adjustments based on your management permissions." xml:space="preserve">
+    <value>根据您的管理权限自动调整导航。</value>
   </data>
   <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
     <value>支持28种语言的自动AI驱动翻译，助力实现全球覆盖。</value>
@@ -183,20 +183,17 @@
   <data name="Built with Aiursoft Template" xml:space="preserve">
     <value>基于 Aiursoft 模板构建</value>
   </data>
+  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
+    <value>采用 UTC 核心构建，确保所有时区的投票结束时间保持一致。</value>
+  </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>使用企业级但易于学习的原生 C# 构建。</value>
   </data>
   <data name="Built with strict validation rules to ensure every vote is valid and secure." xml:space="preserve">
     <value>采用严格的验证规则构建，确保每一票都有效且安全。</value>
   </data>
-  <data name="Built with UTC core, ensuring that poll end times are consistent across all time zones." xml:space="preserve">
-    <value>采用 UTC 核心构建，确保所有时区的投票结束时间保持一致。</value>
-  </data>
   <data name="Built-in" xml:space="preserve">
     <value>内置</value>
-  </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>内置管理面板</value>
   </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>内置认证</value>
@@ -209,6 +206,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>内置用户管理</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>内置管理面板</value>
   </data>
   <data name="Can I restrict who can vote?" xml:space="preserve">
     <value>我可以限制谁能投票吗？</value>
@@ -261,20 +261,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>跨平台</value>
   </data>
+  <data name="Custom Domain" xml:space="preserve">
+    <value>自定义域名</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>需要定制开发</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>需要定制开发</value>
   </data>
-  <data name="Custom Domain" xml:space="preserve">
-    <value>自定义域名</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>仪表板网站</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>后台任务仪表盘</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>仪表板网站</value>
   </data>
   <data name="Data Export" xml:space="preserve">
     <value>数据导出</value>
@@ -312,14 +312,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>开发与生产</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>DevOps 原生</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>在 UTC 中进行开发，而系统会自动将日期转换并显示为用户的本地时区。</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>开发者体验</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>DevOps 原生</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>讨论页面</value>
@@ -369,17 +369,17 @@
   <data name="Enterprise Grade" xml:space="preserve">
     <value>企业级</value>
   </data>
-  <data name="Enterprise plan only" xml:space="preserve">
-    <value>仅限企业版</value>
-  </data>
   <data name="Enterprise Ready" xml:space="preserve">
     <value>企业级就绪</value>
+  </data>
+  <data name="Enterprise SSO" xml:space="preserve">
+    <value>企业单点登录</value>
   </data>
   <data name="Enterprise Security" xml:space="preserve">
     <value>企业安全</value>
   </data>
-  <data name="Enterprise SSO" xml:space="preserve">
-    <value>企业单点登录</value>
+  <data name="Enterprise plan only" xml:space="preserve">
+    <value>仅限企业版</value>
   </data>
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>包含 Entity Framework Core</value>
@@ -392,9 +392,6 @@
   </data>
   <data name="FAQ" xml:space="preserve">
     <value>常见问题解答</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>更快</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>功能特性</value>
@@ -417,9 +414,6 @@
   <data name="Flexible Management" xml:space="preserve">
     <value>灵活管理</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>如有任何疑问或报告问题。</value>
-  </data>
   <data name="For Everyone." xml:space="preserve">
     <value>为每个人。</value>
   </data>
@@ -432,11 +426,11 @@
   <data name="Free" xml:space="preserve">
     <value>免费</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>商业用途免费</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>自由软件</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>商业用途免费</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>常见问题</value>
@@ -444,17 +438,17 @@
   <data name="From the Architect" xml:space="preserve">
     <value>来自架构师</value>
   </data>
-  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
-    <value>完整的投票修改和管理操作审计追踪记录。</value>
-  </data>
-  <data name="Full control" xml:space="preserve">
-    <value>完全控制</value>
-  </data>
   <data name="Full RBAC" xml:space="preserve">
     <value>完整 RBAC</value>
   </data>
   <data name="Full Stack Open Source" xml:space="preserve">
     <value>全栈开源</value>
+  </data>
+  <data name="Full audit trail for poll modifications and management actions." xml:space="preserve">
+    <value>完整的投票修改和管理操作审计追踪记录。</value>
+  </data>
+  <data name="Full control" xml:space="preserve">
+    <value>完全控制</value>
   </data>
   <data name="Full stack open source. Completely free software, no paid features. Built entirely on open standards." xml:space="preserve">
     <value>全栈开源。完全免费的软件，无付费功能。完全基于开放标准构建。</value>
@@ -462,20 +456,20 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>完全离线</value>
   </data>
+  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
+    <value>GDPR 合规，设计如此。您拥有数据库。</value>
+  </data>
   <data name="Gather qualitative feedback with open-ended text questions for detailed answers." xml:space="preserve">
     <value>通过开放式文本题目收集定性反馈，以获取详细回答。</value>
   </data>
   <data name="Gather the right data, every time." xml:space="preserve">
     <value>每次都能收集到正确的数据。</value>
   </data>
-  <data name="GDPR compliant by design. You own the database." xml:space="preserve">
-    <value>GDPR 合规，设计如此。您拥有数据库。</value>
+  <data name="Generic Dockerfile only" xml:space="preserve">
+    <value>仅提供通用 Dockerfile</value>
   </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>通用配置</value>
-  </data>
-  <data name="Generic Dockerfile only" xml:space="preserve">
-    <value>仅提供通用 Dockerfile</value>
   </data>
   <data name="Generic survey tools are often overpriced and harvest your data. Aiursoft Polls provides a clean, fast, and private alternative that you can host yourself. We focus on simplicity and security, so you can focus on your questions." xml:space="preserve">
     <value>通用调查工具往往价格过高且会收集您的数据。Aiursoft Polls 提供了一个简洁、快速且私有的替代方案，您可以自行托管。我们专注于简化操作和安全性，让您能专注于您的提问。</value>
@@ -555,11 +549,11 @@
   <data name="Included" xml:space="preserve">
     <value>包含</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>包含详尽的文档和实用示例，助您快速上手。</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>包含教程</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>包含详尽的文档和实用示例，助您快速上手。</value>
   </data>
   <data name="Industry standard implementation. Zero lock-in." xml:space="preserve">
     <value>行业标准实现，零锁定。</value>
@@ -572,9 +566,6 @@
   </data>
   <data name="Interoperability" xml:space="preserve">
     <value>互操作性</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>是自由软件</value>
   </data>
   <data name="Is it free to use Aiursoft Polls?" xml:space="preserve">
     <value>使用 Aiursoft Polls 免费吗？</value>
@@ -609,6 +600,12 @@
   <data name="Login via OpenID Connect including Azure AD and Okta." xml:space="preserve">
     <value>通过 OpenID Connect 登录，包括 Azure AD 和 Okta。</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT 许可证</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT 许可证</value>
+  </data>
   <data name="Maintain Data Integrity" xml:space="preserve">
     <value>确保数据完整性</value>
   </data>
@@ -620,12 +617,6 @@
   </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown 转 HTML</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT 许可证</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT 许可证</value>
   </data>
   <data name="Mobile First" xml:space="preserve">
     <value>移动端优先</value>
@@ -666,12 +657,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>需要 Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>需要复杂的身份验证逻辑</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>需要配置/插件</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>需要配置 ESLint/Prettier</value>
   </data>
@@ -680,9 +665,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>需要 Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>需要手动配置</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>需要 Medialibrary</value>
@@ -696,17 +678,26 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>需要 Spring Security 配置</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>需要第三方插件</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>需要 TypeORM 或类似库</value>
   </data>
-  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
-    <value>无需依赖任何云服务提供商。随时随地运行。</value>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>需要复杂的身份验证逻辑</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>需要配置/插件</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>需要手动配置</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>需要第三方插件</value>
   </data>
   <data name="No Fake Votes" xml:space="preserve">
     <value>无虚假投票</value>
+  </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
+    <value>无需依赖任何云服务提供商。随时随地运行。</value>
   </data>
   <data name="Not available" xml:space="preserve">
     <value>不可用</value>
@@ -714,11 +705,14 @@
   <data name="Not supported" xml:space="preserve">
     <value>不支持</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>离线可用</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM 与迁移</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>离线可用</value>
   </data>
   <data name="Once a user submits their response, it&apos;s locked to ensure data integrity and prevent double voting." xml:space="preserve">
     <value>用户提交回复后，该回复将被锁定，以确保数据完整性并防止重复投票。</value>
@@ -726,11 +720,11 @@
   <data name="One Click Start" xml:space="preserve">
     <value>一键启动</value>
   </data>
-  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
-    <value>随时开启或关闭投票，管理问题和选项，并导出原始提交数据。</value>
-  </data>
   <data name="Open Source" xml:space="preserve">
     <value>开源</value>
+  </data>
+  <data name="Open or close polls at any time, manage questions and options, and export raw submission data." xml:space="preserve">
+    <value>随时开启或关闭投票，管理问题和选项，并导出原始提交数据。</value>
   </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect 集成</value>
@@ -747,9 +741,6 @@
   <data name="Organization Friendly" xml:space="preserve">
     <value>适合组织使用</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM 与迁移</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>开箱即用</value>
   </data>
@@ -762,11 +753,11 @@
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>权限发现与同步</value>
   </data>
-  <data name="Poll anywhere, in any language." xml:space="preserve">
-    <value>随时随地使用任何语言进行投票</value>
-  </data>
   <data name="Poll Features" xml:space="preserve">
     <value>投票功能</value>
+  </data>
+  <data name="Poll anywhere, in any language." xml:space="preserve">
+    <value>随时随地使用任何语言进行投票</value>
   </data>
   <data name="Polls vs. Surveys" xml:space="preserve">
     <value>投票与调查</value>
@@ -774,14 +765,14 @@
   <data name="Powerful Polling." xml:space="preserve">
     <value>强大的投票功能。</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>预配置并经过测试</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines for automated testing." xml:space="preserve">
     <value>预配置的 CI/CD 流水线，用于自动化测试。</value>
   </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>为 GitLab 专门预配置的 CI/CD 流水线</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>预配置并经过测试</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>预配置的开发/生产流水线</value>
@@ -900,20 +891,17 @@
   <data name="Smart Configuration Overrides" xml:space="preserve">
     <value>智能配置优先级</value>
   </data>
+  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
+    <value>智能用户界面，可自动适配用户系统的深色/浅色偏好。</value>
+  </data>
   <data name="Smart dark mode that adapts to the user&apos;s system settings." xml:space="preserve">
     <value>智能暗黑模式可自动适配用户的系统设置。</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>智能深色模式，可自动适应用户的系统设置。</value>
   </data>
-  <data name="Smart UI that adapts to user&apos;s system dark/light preferences automatically." xml:space="preserve">
-    <value>智能用户界面，可自动适配用户系统的深色/浅色偏好。</value>
-  </data>
   <data name="Specify exactly which roles can participate in each poll." xml:space="preserve">
     <value>指定每个投票中哪些角色可以参与。</value>
-  </data>
-  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
-    <value>标准实现。无需重新编译即可切换提供者。</value>
   </data>
   <data name="Standard OIDC" xml:space="preserve">
     <value>标准 OIDC</value>
@@ -921,11 +909,14 @@
   <data name="Standard OpenID" xml:space="preserve">
     <value>标准 OpenID</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>开始新项目</value>
+  <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
+    <value>标准实现。无需重新编译即可切换提供者。</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>专注于核心价值交付。</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>开始新项目</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>从一个单一的 &apos;docker run&apos; 命令开始。</value>
@@ -939,6 +930,12 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>严格代码检查规则</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>严格单元测试</value>
+  </data>
+  <data name="Strict Validation" xml:space="preserve">
+    <value>严格验证</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>实施严格的 Lint 规则，默认项目必须达到 0 警告 (Zero Warnings) 标准。</value>
   </data>
@@ -947,12 +944,6 @@
   </data>
   <data name="Strict server-side validation for every single response." xml:space="preserve">
     <value>对所有响应实施严格的服务器端验证。</value>
-  </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>严格单元测试</value>
-  </data>
-  <data name="Strict Validation" xml:space="preserve">
-    <value>严格验证</value>
   </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>零容忍代码检查</value>
@@ -969,11 +960,11 @@
   <data name="Supports 28 languages out of the box for a truly global audience." xml:space="preserve">
     <value>开箱即支持 28 种语言，真正面向全球受众。</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>支持环境变量与数据库配置双重驱动，环境变量自动拥有更高优先级，实现无缝覆盖。</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>支持 JetBrains Rider，轻松修复代码样式。</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>支持环境变量与数据库配置双重驱动，环境变量自动拥有更高优先级，实现无缝覆盖。</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>任务运行器</value>
@@ -984,6 +975,9 @@
   <data name="Text Response" xml:space="preserve">
     <value>文本回复</value>
   </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>哲学</value>
+  </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>权威的、经过实战检验的 .NET 企业级开发基座。从身份认证到 AI 集成，我们已为您扫清基础设施障碍，助您开箱即用。</value>
   </data>
@@ -992,9 +986,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>导航栏会根据用户角色和权限自动调整显示内容。</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>哲学</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>该模板专为简化部署而设计，内置完整的Docker支持，您可以将应用容器化后随处运行。也可直接部署到IIS、Azure应用服务或任何支持ASP.NET Core的服务器。</value>
@@ -1020,6 +1011,9 @@
   <data name="Trusted by the Aiursoft Ecosystem" xml:space="preserve">
     <value>受 Aiursoft 生态系统信赖</value>
   </data>
+  <data name="UTC Core" xml:space="preserve">
+    <value>UTC Core</value>
+  </data>
   <data name="Under Your Control" xml:space="preserve">
     <value>由您掌控</value>
   </data>
@@ -1034,9 +1028,6 @@
   </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>无论是作为SaaS应用的基础、移动应用的后端、企业官网还是个人博客，它都能胜任。无限可能，任您探索。</value>
-  </data>
-  <data name="UTC Core" xml:space="preserve">
-    <value>UTC Core</value>
   </data>
   <data name="Verified Identity" xml:space="preserve">
     <value>已验证身份</value>
@@ -1115,6 +1106,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>零容忍代码检查</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>更快</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>如有任何疑问或报告问题。</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>是自由软件</value>
   </data>
 
 </root>

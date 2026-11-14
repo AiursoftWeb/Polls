@@ -27,11 +27,11 @@
   <data name="Answer type" xml:space="preserve">
     <value>Тип відповіді</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Повернутися до іспиту</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Назад до опитування</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Повернутися до іспиту</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>

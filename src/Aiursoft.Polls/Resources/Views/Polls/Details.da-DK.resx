@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>Aktivitetslog</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>Tilføj spørgsmål</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>Tilføj og gennemgå spørgsmål, og udgiv derefter, når eksamen er klar.</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>Tilføj første spørgsmål</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>Tilføj spørgsmål</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>Administration</value>
@@ -66,14 +66,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>Forsøg</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>Tilbage til afstemninger</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>Tilbage til eksaminer</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>Tilbage til liste</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>Tilbage til afstemninger</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>Byg eksamenen ved at tilføje det første flervalgsspørgsmål.</value>
@@ -153,11 +153,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>Eksamen opsætning</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>Eksportér ventende ansatte</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>Eksporter ventende brugere</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>Eksportér ventende ansatte</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>Fornye</value>
@@ -185,9 +185,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>Maksimum</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>Mere</value>
@@ -267,9 +264,6 @@
   <data name="Questions" xml:space="preserve">
     <value>Spørgsmål</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>spørgsmål i denne eksamen</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>Påmind</value>
   </data>
@@ -290,9 +284,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>Gennemgå indstillinger</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>udvalgt pr. forsøg</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>Send påmindelse</value>
@@ -347,6 +338,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>Din seneste score</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>spørgsmål i denne eksamen</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>udvalgt pr. forsøg</value>
   </data>
 
 </root>

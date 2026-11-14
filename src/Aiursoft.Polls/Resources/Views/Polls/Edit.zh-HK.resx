@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>考試基本設定</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>返回考試</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>返回投票</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>返回考試</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>截止日期</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>編輯考試</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>編輯投票</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>編輯考試</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>員工</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>保持員工體驗專注，同時保留精確的計分控制。</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>分鐘</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>通過訊息</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>邊個可以參加呢場考試</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分鐘</value>
   </data>
 
 </root>

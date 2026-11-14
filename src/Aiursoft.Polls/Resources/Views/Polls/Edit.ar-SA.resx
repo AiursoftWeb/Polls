@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>أساسيات المحاولة</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>العودة إلى الاختبار</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>العودة إلى الاستطلاع</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>العودة إلى الاختبار</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>الموعد النهائي</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>تعديل الاختبار</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>تعديل الاستطلاع</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>تعديل الاختبار</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>الموظفون</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>حافظ على تركيز تجربة الموظف مع الاحتفاظ بالتحكم الدقيق في التقييم.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>دقيقة</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>رسالة النجاح</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>من يمكنه أداء هذا الاختبار</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>دقيقة</value>
   </data>
 
 </root>

@@ -30,14 +30,14 @@
   <data name="Attempts" xml:space="preserve">
     <value>Yritykset</value>
   </data>
+  <data name="Back to Poll" xml:space="preserve">
+    <value>Takaisin kyselyyn</value>
+  </data>
   <data name="Back to details" xml:space="preserve">
     <value>Takaisin tietoihin</value>
   </data>
   <data name="Back to exam" xml:space="preserve">
     <value>Takaisin kokeeseen</value>
-  </data>
-  <data name="Back to Poll" xml:space="preserve">
-    <value>Takaisin kyselyyn</value>
   </data>
   <data name="Detailed attempt log" xml:space="preserve">
     <value>Yksityiskohtainen yrityspäiväkirja</value>

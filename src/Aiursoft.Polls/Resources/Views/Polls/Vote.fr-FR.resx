@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Sondage anonyme :</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>answered</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Les questions répondues sont affichées en vert.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Terminer</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minutes</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Choix multiple</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Temps restant</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>au total</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Vous pouvez encore vérifier et modifier vos réponses avant de valider.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Votre identité, votre adresse IP et votre empreinte numérique ne seront PAS enregistrées. Votre vote est totalement confidentiel.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>answered</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>au total</value>
   </data>
 
 </root>

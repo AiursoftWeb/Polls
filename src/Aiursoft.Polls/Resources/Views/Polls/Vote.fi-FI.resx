@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>Anonyymi kysely:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>vastattu</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>Vastatut kysymykset näkyvät vihreinä.</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>Lopeta</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>minuuttia</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>Usea valinta</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>Jäljellä oleva aika</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>yhteensä</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>Voit edelleen tarkistaa ja muuttaa vastauksia ennen lähettämistä.</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>Identiteettiäsi, IP-osoitettasi ja selaimen sormenjälkeäsi EI tallenneta. Äänestys on täysin yksityinen.</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>vastattu</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>yhteensä</value>
   </data>
 
 </root>

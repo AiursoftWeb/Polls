@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Godkänd poäng</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>poäng</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>frågor</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Granskning</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Ditt val</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>poäng</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>frågor</value>
   </data>
 
 </root>

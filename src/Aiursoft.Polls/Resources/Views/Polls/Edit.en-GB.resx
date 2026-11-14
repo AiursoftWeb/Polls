@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Attempt essentials</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Back to exam</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Back to Poll</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Back to exam</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancel</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Deadline</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Edit exam</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Edit Poll</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Edit exam</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Employees</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Keep the employee experience focused while retaining precise scoring control.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Pass message</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Who can take this exam</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

@@ -24,9 +24,6 @@
   <data name="Anonymous Poll:" xml:space="preserve">
     <value>การสำรวจแบบไม่ระบุชื่อ:</value>
   </data>
-  <data name="answered" xml:space="preserve">
-    <value>ตอบแล้ว</value>
-  </data>
   <data name="Answered questions are shown in green." xml:space="preserve">
     <value>คำถามที่ตอบแล้วจะแสดงเป็นสีเขียว</value>
   </data>
@@ -47,9 +44,6 @@
   </data>
   <data name="Finish" xml:space="preserve">
     <value>เสร็จสิ้น</value>
-  </data>
-  <data name="minutes" xml:space="preserve">
-    <value>นาที</value>
   </data>
   <data name="Multiple Choice" xml:space="preserve">
     <value>เลือกได้หลายข้อ</value>
@@ -105,14 +99,20 @@
   <data name="Time remaining" xml:space="preserve">
     <value>เวลาที่เหลือ</value>
   </data>
-  <data name="total" xml:space="preserve">
-    <value>ทั้งหมด</value>
-  </data>
   <data name="You can still review and change answers before submitting." xml:space="preserve">
     <value>คุณยังสามารถตรวจทานและเปลี่ยนแปลงคำตอบได้ก่อนส่งคำตอบ</value>
   </data>
   <data name="Your identity, IP address, and browser fingerprint will NOT be recorded. Your vote is completely private." xml:space="preserve">
     <value>ตัวตน, ที่อยู่ IP, และลายนิ้วมือเบราว์เซอร์ของคุณจะไม่ถูกบันทึก การลงคะแนนของคุณเป็นความส่วนตัวอย่างสมบูรณ์</value>
+  </data>
+  <data name="answered" xml:space="preserve">
+    <value>ตอบแล้ว</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>นาที</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>ทั้งหมด</value>
   </data>
 
 </root>

@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0} e un altro utente</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0} e {1} altro utente</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} può modificare.</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0} può visualizzare.</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} ruolo</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} ruoli</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>{0} utente</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} utenti</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}, {1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>Informazioni sull’accesso</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>condivisioni attive</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>Aggiungi collaboratore</value>
@@ -176,6 +146,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>Utente</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>condivisioni attive</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} e un altro utente</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} e {1} altro utente</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} può modificare.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} può visualizzare.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} ruolo</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} ruoli</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} utente</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} utenti</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
   </data>
 
 </root>

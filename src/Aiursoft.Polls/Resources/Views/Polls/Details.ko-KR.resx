@@ -27,14 +27,14 @@
   <data name="Activity log" xml:space="preserve">
     <value>활동 로그</value>
   </data>
+  <data name="Add Question" xml:space="preserve">
+    <value>질문 추가</value>
+  </data>
   <data name="Add and review questions, then publish when the exam is ready." xml:space="preserve">
     <value>문제를 추가하고 검토한 후, 시험이 준비되면 게시하세요.</value>
   </data>
   <data name="Add first question" xml:space="preserve">
     <value>첫 번째 질문 추가</value>
-  </data>
-  <data name="Add Question" xml:space="preserve">
-    <value>질문 추가</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>관리</value>
@@ -69,14 +69,14 @@
   <data name="Attempt" xml:space="preserve">
     <value>시도</value>
   </data>
+  <data name="Back to Polls" xml:space="preserve">
+    <value>투표 목록으로 돌아가기</value>
+  </data>
   <data name="Back to exams" xml:space="preserve">
     <value>시험 목록으로 돌아가기</value>
   </data>
   <data name="Back to list" xml:space="preserve">
     <value>목록으로 돌아가기</value>
-  </data>
-  <data name="Back to Polls" xml:space="preserve">
-    <value>투표 목록으로 돌아가기</value>
   </data>
   <data name="Build the exam by adding the first choice question." xml:space="preserve">
     <value>첫 번째 선택형 질문을 추가하여 시험을 구성하세요.</value>
@@ -165,11 +165,11 @@
   <data name="Exam setup" xml:space="preserve">
     <value>시험 설정</value>
   </data>
-  <data name="Export pending employees" xml:space="preserve">
-    <value>미참여 직원 내보내기</value>
-  </data>
   <data name="Export Pending Users" xml:space="preserve">
     <value>대기 중인 사용자 내보내기</value>
+  </data>
+  <data name="Export pending employees" xml:space="preserve">
+    <value>미참여 직원 내보내기</value>
   </data>
   <data name="Extend" xml:space="preserve">
     <value>연장</value>
@@ -197,9 +197,6 @@
   </data>
   <data name="Maximum" xml:space="preserve">
     <value>최대 점수</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="More" xml:space="preserve">
     <value>더 보기</value>
@@ -285,9 +282,6 @@
   <data name="Questions" xml:space="preserve">
     <value>질문</value>
   </data>
-  <data name="questions in this exam" xml:space="preserve">
-    <value>이 시험의 문제</value>
-  </data>
   <data name="Remind" xml:space="preserve">
     <value>알림 보내기</value>
   </data>
@@ -311,9 +305,6 @@
   </data>
   <data name="Review settings" xml:space="preserve">
     <value>설정 검토</value>
-  </data>
-  <data name="sampled per attempt" xml:space="preserve">
-    <value>응시당 출제</value>
   </data>
   <data name="Send reminder" xml:space="preserve">
     <value>리마인드 보내기</value>
@@ -371,6 +362,15 @@
   </data>
   <data name="Your latest score" xml:space="preserve">
     <value>최근 점수</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="questions in this exam" xml:space="preserve">
+    <value>이 시험의 문제</value>
+  </data>
+  <data name="sampled per attempt" xml:space="preserve">
+    <value>응시당 출제</value>
   </data>
 
 </root>

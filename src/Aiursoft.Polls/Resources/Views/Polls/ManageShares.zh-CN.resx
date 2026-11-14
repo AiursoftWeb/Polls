@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0}及另外{1}位用户</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0}和另外{1}位用户</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} 可以编辑。</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0}可以查看。</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} 个角色</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} 个角色</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>{0} 个用户</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} 位用户</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}，{1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>关于访问权限</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>活跃共享</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>添加协作者</value>
@@ -182,6 +152,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>用户</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>活跃共享</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0}及另外{1}位用户</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0}和另外{1}位用户</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} 可以编辑。</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0}可以查看。</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} 个角色</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} 个角色</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} 个用户</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} 位用户</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}，{1}</value>
   </data>
 
 </root>

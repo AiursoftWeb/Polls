@@ -18,38 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="{0} and {1} other user" xml:space="preserve">
-    <value>{0} en nog {1} andere gebruiker</value>
-  </data>
-  <data name="{0} and {1} other users" xml:space="preserve">
-    <value>{0} en {1} andere gebruikers</value>
-  </data>
-  <data name="{0} can edit." xml:space="preserve">
-    <value>{0} kan be bewerken.</value>
-  </data>
-  <data name="{0} can view." xml:space="preserve">
-    <value>{0} kan bekijken.</value>
-  </data>
-  <data name="{0} role" xml:space="preserve">
-    <value>{0} rol</value>
-  </data>
-  <data name="{0} roles" xml:space="preserve">
-    <value>{0} rollen</value>
-  </data>
-  <data name="{0} user" xml:space="preserve">
-    <value>{0} gebruiker</value>
-  </data>
-  <data name="{0} users" xml:space="preserve">
-    <value>{0} gebruikers</value>
-  </data>
-  <data name="{0}, {1}" xml:space="preserve">
-    <value>{0}, {1}</value>
-  </data>
-  <data name="About access" xml:space="preserve">
+      <data name="About access" xml:space="preserve">
     <value>Over de toegang</value>
-  </data>
-  <data name="active shares" xml:space="preserve">
-    <value>actieve shares</value>
   </data>
   <data name="Add collaborator" xml:space="preserve">
     <value>Medewerker toevoegen</value>
@@ -176,6 +146,36 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>
+  </data>
+  <data name="active shares" xml:space="preserve">
+    <value>actieve shares</value>
+  </data>
+  <data name="{0} and {1} other user" xml:space="preserve">
+    <value>{0} en nog {1} andere gebruiker</value>
+  </data>
+  <data name="{0} and {1} other users" xml:space="preserve">
+    <value>{0} en {1} andere gebruikers</value>
+  </data>
+  <data name="{0} can edit." xml:space="preserve">
+    <value>{0} kan be bewerken.</value>
+  </data>
+  <data name="{0} can view." xml:space="preserve">
+    <value>{0} kan bekijken.</value>
+  </data>
+  <data name="{0} role" xml:space="preserve">
+    <value>{0} rol</value>
+  </data>
+  <data name="{0} roles" xml:space="preserve">
+    <value>{0} rollen</value>
+  </data>
+  <data name="{0} user" xml:space="preserve">
+    <value>{0} gebruiker</value>
+  </data>
+  <data name="{0} users" xml:space="preserve">
+    <value>{0} gebruikers</value>
+  </data>
+  <data name="{0}, {1}" xml:space="preserve">
+    <value>{0}, {1}</value>
   </data>
 
 </root>

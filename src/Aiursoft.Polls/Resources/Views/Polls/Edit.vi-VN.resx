@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Các thiết lập cơ bản cho lần làm bài</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Quay lại bài kiểm tra</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Quay lại Bỏ phiếu</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Quay lại bài kiểm tra</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Hủy</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Hạn chót</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Chỉnh sửa bài thi</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Chỉnh sửa khảo sát</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Chỉnh sửa bài thi</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Nhân viên</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Giữ trải nghiệm của nhân viên luôn tập trung, đồng thời duy trì khả năng kiểm soát chấm điểm chính xác.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>phút</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Thông báo đạt yêu cầu</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Ai có thể tham gia kỳ thi này</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>phút</value>
   </data>
 
 </root>

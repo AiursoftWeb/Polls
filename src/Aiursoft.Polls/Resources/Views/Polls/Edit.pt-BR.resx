@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Configurações essenciais da tentativa</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Voltar para a prova</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Voltar à Enquete</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Voltar para a prova</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Prazo</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Editar prova</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Editar Enquete</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Editar prova</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Funcionários</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Mantenha a experiência do colaborador focada, mantendo o controle preciso da pontuação.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Mensagem de aprovação</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Quem pode fazer esta prova</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

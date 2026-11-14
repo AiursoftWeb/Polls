@@ -39,12 +39,6 @@
   <data name="Passing score" xml:space="preserve">
     <value>Мінімальний бал</value>
   </data>
-  <data name="points" xml:space="preserve">
-    <value>балів</value>
-  </data>
-  <data name="questions" xml:space="preserve">
-    <value>питань</value>
-  </data>
   <data name="Review" xml:space="preserve">
     <value>Огляд</value>
   </data>
@@ -53,6 +47,12 @@
   </data>
   <data name="Your choice" xml:space="preserve">
     <value>Ваш вибір</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>балів</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>питань</value>
   </data>
 
 </root>

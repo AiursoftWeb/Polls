@@ -54,11 +54,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Elemente de bază pentru tentativă</value>
   </data>
-  <data name="Back to exams" xml:space="preserve">
-    <value>Înapoi la examene</value>
-  </data>
   <data name="Back to Polls" xml:space="preserve">
     <value>Înapoi la sondaje</value>
+  </data>
+  <data name="Back to exams" xml:space="preserve">
+    <value>Înapoi la examene</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Anulare</value>
@@ -69,6 +69,9 @@
   <data name="Create" xml:space="preserve">
     <value>Creează</value>
   </data>
+  <data name="Create Poll" xml:space="preserve">
+    <value>Creează sondaj</value>
+  </data>
   <data name="Create and add questions" xml:space="preserve">
     <value>Creați și adăugați întrebări</value>
   </data>
@@ -77,9 +80,6 @@
   </data>
   <data name="Create exam" xml:space="preserve">
     <value>Creează examen</value>
-  </data>
-  <data name="Create Poll" xml:space="preserve">
-    <value>Creează sondaj</value>
   </data>
   <data name="Deadline" xml:space="preserve">
     <value>Termen limită</value>
@@ -107,9 +107,6 @@
   </data>
   <data name="Includes a wrong option" xml:space="preserve">
     <value>Include o opțiune greșită</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="New assessment" xml:space="preserve">
     <value>Evaluare nouă</value>
@@ -167,6 +164,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Cine poate susține acest examen</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

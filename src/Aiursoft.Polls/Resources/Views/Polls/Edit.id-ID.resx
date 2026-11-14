@@ -51,11 +51,11 @@
   <data name="Attempt essentials" xml:space="preserve">
     <value>Esensial Percobaan</value>
   </data>
-  <data name="Back to exam" xml:space="preserve">
-    <value>Kembali ke ujian</value>
-  </data>
   <data name="Back to Poll" xml:space="preserve">
     <value>Kembali ke Polling</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Kembali ke ujian</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Batal</value>
@@ -75,11 +75,11 @@
   <data name="Deadline" xml:space="preserve">
     <value>Batas waktu</value>
   </data>
-  <data name="Edit exam" xml:space="preserve">
-    <value>Edit ujian</value>
-  </data>
   <data name="Edit Poll" xml:space="preserve">
     <value>Edit Poll</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Edit ujian</value>
   </data>
   <data name="Employees" xml:space="preserve">
     <value>Karyawan</value>
@@ -101,9 +101,6 @@
   </data>
   <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
     <value>Jaga agar pengalaman karyawan tetap fokus sambil mempertahankan kontrol penilaian yang presisi.</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>menit</value>
   </data>
   <data name="Pass message" xml:space="preserve">
     <value>Pesan lulus</value>
@@ -158,6 +155,9 @@
   </data>
   <data name="Who can take this exam" xml:space="preserve">
     <value>Siapa yang dapat mengikuti ujian ini</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>menit</value>
   </data>
 
 </root>

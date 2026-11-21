@@ -6,8 +6,14 @@
         if (!$) return;
 
         $(() => fields.forEach(input => {
+            if (!$(input.form).data('validator')) return;
+            const field = $(input);
             // jQuery Validate cannot apply its numeric step rule to datetime-local.
-            if ($(input.form).data('validator')) $(input).rules('add', { step: false });
+            field.rules('add', { step: false });
+            input.addEventListener('input', () => {
+                // Clear a stale server error when the date is edited, before blur moves the submit button.
+                if (input.validity.valid && field.hasClass('input-validation-error')) field.valid();
+            });
         }));
     });
 

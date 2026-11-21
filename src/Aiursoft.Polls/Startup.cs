@@ -7,7 +7,6 @@ using Aiursoft.Polls.InMemory;
 using Aiursoft.Polls.MySql;
 using Aiursoft.Polls.Services.Authentication;
 using Aiursoft.Polls.Sqlite;
-using Aiursoft.UiStack;
 using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
 using Microsoft.AspNetCore.Mvc.Razor;

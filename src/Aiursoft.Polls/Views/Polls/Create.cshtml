@@ -1,3 +1,4 @@
+@using Aiursoft.Polls.Services
 @using Aiursoft.Polls.Entities
 @model Aiursoft.Polls.Models.PollsViewModels.CreateViewModel
 
@@ -61,7 +62,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label asp-for="Deadline" class="form-label"></label>
-                                <input data-utc-input asp-for="Deadline" type="datetime-local" step="1" data-rule-step="false" class="form-control" />
+                                <input data-utc-input asp-for="Deadline" type="datetime-local" step="1" value="@Model.Deadline.ToUtcInputValue()" required class="form-control" />
 <partial name="_UtcInput" />
                                 <span asp-validation-for="Deadline" class="text-danger small"></span>
                             </div>

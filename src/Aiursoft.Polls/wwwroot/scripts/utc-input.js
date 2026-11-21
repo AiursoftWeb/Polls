@@ -1,5 +1,22 @@
 // The server renders UTC values. Only marked instant fields use browser-local editing.
 (() => {
+    const fields = document.querySelectorAll('input[data-utc-input]');
+    document.addEventListener('DOMContentLoaded', () => {
+        const $ = window.jQuery;
+        if (!$) return;
+
+        $(() => fields.forEach(input => {
+            if (!$(input.form).data('validator')) return;
+            const field = $(input);
+            // jQuery Validate cannot apply its numeric step rule to datetime-local.
+            field.rules('add', { step: false });
+            input.addEventListener('input', () => {
+                // Clear a stale server error when the date is edited, before blur moves the submit button.
+                if (input.validity.valid && field.hasClass('input-validation-error')) field.valid();
+            });
+        }));
+    });
+
     if (!('FormDataEvent' in window)) return;
     const pad = value => String(value).padStart(2, '0');
     const format = date => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}T${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
@@ -7,11 +24,8 @@
     const invalidTime = document.querySelector('[data-key="invalid-local-time"]')?.textContent
         ?? 'This local time does not exist because the clocks change. Choose another time.';
 
-    document.querySelectorAll('input[data-utc-input]').forEach(input => {
-        // Read the attribute too: on validation failure MVC may render an ISO value
-        // with Z/offset, which datetime-local cannot retain in its value property.
-        const source = input.getAttribute('value') || '';
-        const utc = source ? new Date(/[zZ]$|[+-]\d{2}:\d{2}$/.test(source) ? source : source + 'Z') : null;
+    fields.forEach(input => {
+        const utc = input.value ? new Date(input.value + 'Z') : null;
         if (utc && !isNaN(utc.getTime())) {
             input.value = format(utc);
         }
@@ -25,6 +39,11 @@
         };
         input.addEventListener('input', validate);
         input.addEventListener('change', validate);
+        input.form?.addEventListener('submit', event => {
+            // The form's JavaScript validator disables automatic native validation.
+            validate();
+            if (!input.reportValidity()) event.preventDefault();
+        });
         input.form?.addEventListener('formdata', event => {
             if (!input.name || input.disabled) return;
             if (!input.value) {

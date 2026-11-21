@@ -10,6 +10,8 @@
 @section styles {
     <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
     <style>
+        /* Let the sticky exam header follow the viewport on mobile. */
+        .wrapper > .main { overflow: visible; }
         .exam-focus-page { min-height: 100vh; background: #f4f6f9; }
         .exam-focus-header { background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(14px); }
         .exam-focus-shell { max-width: 1180px; margin: 0 auto; padding: 1.5rem 1rem 5rem; }

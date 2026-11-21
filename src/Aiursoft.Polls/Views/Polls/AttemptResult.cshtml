@@ -1,20 +1,15 @@
 @model Aiursoft.Polls.Models.PollsViewModels.AttemptResultViewModel
 @{
-    Layout = null;
+    Model.PageTitle = Localizer["Exam result"].Value + " · " + Model.Poll.Title;
     var resultClass = Model.Attempt.Passed ? "success" : "danger";
 }
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>@Localizer["Exam result"] · @Model.Poll.Title</title>
-    <link rel="icon" type="image/svg+xml" href="~/favicon.svg" asp-append-version="true" />
-    <link rel="stylesheet" href="@Url.Content("~/node_modules/@aiursoft/uistack/dist/css/app.css")" />
-    <link rel="stylesheet" href="/styles/exam.css" />
-</head>
-<body class="exam-ui bg-light">
-    <main class="container py-4 py-lg-5" style="max-width: 960px;">
+
+@section styles {
+    <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
+}
+
+<div class="exam-ui bg-light min-vh-100">
+    <div class="container py-4 py-lg-5" style="max-width: 960px;">
         <div class="d-flex align-items-center justify-content-between mb-4">
             <a asp-action="Details" asp-route-id="@Model.Poll.Id" class="exam-back-link mb-0">
                 <i data-lucide="arrow-left"></i> @Localizer["Back to exam"]
@@ -120,7 +115,5 @@
                 </section>
             }
         </div>
-    </main>
-    <script src="@Url.Content("~/node_modules/@aiursoft/uistack/dist/js/app.js")"></script>
-</body>
-</html>
+    </div>
+</div>

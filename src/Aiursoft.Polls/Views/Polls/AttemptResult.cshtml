@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@Localizer["Exam result"] · @Model.Poll.Title</title>
-    <link rel="stylesheet" href="/UIStack/dist/css/app.css" />
+    <link rel="stylesheet" href="@Url.Content("~/node_modules/@aiursoft/uistack/dist/css/app.css")" />
     <link rel="stylesheet" href="/styles/exam.css" />
 </head>
 <body class="exam-ui bg-light">
@@ -120,6 +120,6 @@
             }
         </div>
     </main>
-    <script src="/UIStack/dist/js/app.js"></script>
+    <script src="@Url.Content("~/node_modules/@aiursoft/uistack/dist/js/app.js")"></script>
 </body>
 </html>

@@ -93,7 +93,7 @@ public class PollVoteUXTests : TestBase
         var startResponse = await Http.GetAsync($"/Polls/Vote/{pollId}");
         Assert.AreEqual(HttpStatusCode.OK, startResponse.StatusCode);
         var startHtml = await startResponse.Content.ReadAsStringAsync();
-        Assert.Contains("/UIStack/dist/css/app.css", startHtml);
+        Assert.Contains("/node_modules/@aiursoft/uistack/dist/css/app.css", startHtml);
         Assert.Contains("exam-number-grid", startHtml);
         Assert.Contains("answeredCount", startHtml);
         Assert.Contains("timeProgress", startHtml);

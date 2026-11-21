@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@Model.Poll?.Title</title>
-    <link rel="stylesheet" href="/UIStack/dist/css/app.css" />
+    <link rel="stylesheet" href="@Url.Content("~/node_modules/@aiursoft/uistack/dist/css/app.css")" />
     <link rel="stylesheet" href="/styles/exam.css" />
     <style>
         body { background: #f4f6f9; }
@@ -170,7 +170,7 @@
         </form>
     </main>
 
-    <script src="/UIStack/dist/js/app.js"></script>
+    <script src="@Url.Content("~/node_modules/@aiursoft/uistack/dist/js/app.js")"></script>
     <div id="exam-loc" hidden>
         <span data-key="saved">@Localizer["All changes saved"]</span>
         <span data-key="saving">@Localizer["Saving…"]</span>

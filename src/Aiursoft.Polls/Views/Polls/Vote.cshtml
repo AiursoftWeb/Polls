@@ -7,6 +7,7 @@
     var questions = Model.Attempt?.AttemptQuestions?.OrderBy(q => q.DisplayOrder).ToList() ?? [];
 }
 
+@* ReSharper disable once Razor.SectionNotResolved *@
 @section styles {
     <link rel="stylesheet" href="~/styles/exam.css" asp-append-version="true" />
     <style>
@@ -176,6 +177,7 @@
     </div>
 </div>
 
+@* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
     <script src="~/scripts/exam.js" asp-append-version="true"></script>
 }

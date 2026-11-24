@@ -912,6 +912,7 @@ public class PollsController(
     // ==================== Vote ====================
 
     // ReSharper disable once UnusedMember.Local
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     [AllowAnonymous]
     private async Task<IActionResult> LegacyVote(Guid? id)
     {
@@ -969,6 +970,8 @@ public class PollsController(
         return this.SimpleView(new VoteViewModel { PollId = poll.Id, Poll = poll });
     }
 
+    // ReSharper disable once UnusedMember.Local
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     [AllowAnonymous]
     [HttpPost]
     [ValidateAntiForgeryToken]

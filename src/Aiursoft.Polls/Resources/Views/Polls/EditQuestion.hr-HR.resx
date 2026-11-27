@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Add option" xml:space="preserve">
+    <value>Dodaj opciju</value>
+  </data>
+  <data name="Answer options" xml:space="preserve">
+    <value>Opcije odgovora</value>
+  </data>
+  <data name="Answer type" xml:space="preserve">
+    <value>Vrsta odgovora</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Natrag na ispit</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Correct answer" xml:space="preserve">
+    <value>Točan odgovor</value>
+  </data>
+  <data name="Edit question" xml:space="preserve">
+    <value>Uredi pitanje</value>
+  </data>
+  <data name="Existing attempts keep their original snapshot. This version is used for future attempts." xml:space="preserve">
+    <value>Postojeći pokušaji zadržavaju svoj izvorni snimak. Ova verzija se koristi za buduće pokušaje.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Objašnjenje</value>
+  </data>
+  <data name="History stays intact" xml:space="preserve">
+    <value>Povijest ostaje netaknuta</value>
+  </data>
+  <data name="Mark every correct option. Their displayed order can be randomized during an attempt." xml:space="preserve">
+    <value>Označite svaku točnu opciju. Njihov prikazani redoslijed može biti nasumičan tijekom pokušaja.</value>
+  </data>
+  <data name="Option text" xml:space="preserve">
+    <value>Tekst opcije</value>
+  </data>
+  <data name="Question builder" xml:space="preserve">
+    <value>Građar pitanja</value>
+  </data>
+  <data name="Question prompt" xml:space="preserve">
+    <value>Tekst pitanja</value>
+  </data>
+  <data name="Question settings" xml:space="preserve">
+    <value>Postavke pitanja</value>
+  </data>
+  <data name="Refine the prompt, answer choices and learning guidance." xml:space="preserve">
+    <value>Unaprijedite pitanje, ponuđene odgovore i smjernice za učenje.</value>
+  </data>
+  <data name="Remove option" xml:space="preserve">
+    <value>Ukloni opciju</value>
+  </data>
+  <data name="Require an answer before submission." xml:space="preserve">
+    <value>Zatraži odgovor prije slanja.</value>
+  </data>
+  <data name="Save question" xml:space="preserve">
+    <value>Spremi pitanje</value>
+  </data>
+  <data name="Shown only when the employee is not fully correct." xml:space="preserve">
+    <value>Prikazuje se samo kada zaposlenik nije potpuno točan.</value>
+  </data>
+
+</root>

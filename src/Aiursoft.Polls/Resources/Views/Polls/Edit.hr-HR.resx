@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Advanced options" xml:space="preserve">
+    <value>Napredne opcije</value>
+  </data>
+  <data name="Allow another fresh attempt." xml:space="preserve">
+    <value>Dozvolite novi pokušaj.</value>
+  </data>
+  <data name="Allowed roles" xml:space="preserve">
+    <value>Dopuštene uloge</value>
+  </data>
+  <data name="Any non-empty correct subset receives the same partial score. Selecting any wrong option uses the wrong-option score." xml:space="preserve">
+    <value>Svaki isprazan ispravan podskup dobiva isti djelomični bod. Odabir bilo koje pogrešne opcije koristi bod za pogrešnu opciju.</value>
+  </data>
+  <data name="Assign the exam directly to employees, roles, or both." xml:space="preserve">
+    <value>Dodelite ispit izravno zaposlenicima, ulogama ili oboma.</value>
+  </data>
+  <data name="Assignments" xml:space="preserve">
+    <value>Dodele</value>
+  </data>
+  <data name="Attempt behavior" xml:space="preserve">
+    <value>Ponašanje pri pokušaju</value>
+  </data>
+  <data name="Attempt essentials" xml:space="preserve">
+    <value>Osnovne postavke pokušaja</value>
+  </data>
+  <data name="Back to exam" xml:space="preserve">
+    <value>Natrag na ispit</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Completed attempts retain their original question and scoring snapshots." xml:space="preserve">
+    <value>Završeni pokušaji zadržavaju svoje izvorne snimke pitanja i bodovanja.</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="Core rules shown to every employee." xml:space="preserve">
+    <value>Osnovna pravila prikazana svakom zaposleniku.</value>
+  </data>
+  <data name="Correct subset" xml:space="preserve">
+    <value>Točan podskup</value>
+  </data>
+  <data name="Edit exam" xml:space="preserve">
+    <value>Uredi ispit</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Zaposlenici</value>
+  </data>
+  <data name="Every employee in a selected role can take the exam." xml:space="preserve">
+    <value>Svaki zaposlenik u odabranoj ulozi može polagati ispit.</value>
+  </data>
+  <data name="Exam identity" xml:space="preserve">
+    <value>Identitet ispita</value>
+  </data>
+  <data name="Fail message" xml:space="preserve">
+    <value>Poruka o neuspjehu</value>
+  </data>
+  <data name="Fully correct" xml:space="preserve">
+    <value>U potpunosti točno</value>
+  </data>
+  <data name="Includes a wrong option" xml:space="preserve">
+    <value>Uključuje netočnu opciju</value>
+  </data>
+  <data name="Keep the employee experience focused while retaining precise scoring control." xml:space="preserve">
+    <value>Očuvajte fokusirano korisničko iskustvo zaposlenika uz zadržavanje precizne kontrole bodovanja.</value>
+  </data>
+  <data name="Pass message" xml:space="preserve">
+    <value>Poruka o prolazu</value>
+  </data>
+  <data name="Passing score" xml:space="preserve">
+    <value>Uspješan rezultat</value>
+  </data>
+  <data name="Questions per attempt" xml:space="preserve">
+    <value>Pitanja po pokušaju</value>
+  </data>
+  <data name="Randomize choices independently." xml:space="preserve">
+    <value>Nasumično promiješaj odabire nezavisno.</value>
+  </data>
+  <data name="Randomize sampled question order." xml:space="preserve">
+    <value>Nasumično promijeni redoslijed odabranih pitanja.</value>
+  </data>
+  <data name="Results and feedback" xml:space="preserve">
+    <value>Rezultati i povratne informacije</value>
+  </data>
+  <data name="Review audience and scoring carefully before publishing or continuing an active exam." xml:space="preserve">
+    <value>Pажно pažljivo pregledati publiku i bodovanje prije objave ili nastavka aktivnog ispita.</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Uloge</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Spremi promjene</value>
+  </data>
+  <data name="Scoring changes affect future attempts" xml:space="preserve">
+    <value>Promjene u bodovanju utječu na buduće pokušaje</value>
+  </data>
+  <data name="Scoring model" xml:space="preserve">
+    <value>Model bodovanja</value>
+  </data>
+  <data name="Scoring, randomization, result visibility and feedback messages." xml:space="preserve">
+    <value>Ocjena, randomizacija, vidljivost rezultata i poruke povratne informacije.</value>
+  </data>
+  <data name="The title and context employees see before starting." xml:space="preserve">
+    <value>Naslov i kontekst koje zaposlenici vide prije početka.</value>
+  </data>
+  <data name="Time limit" xml:space="preserve">
+    <value>Vremensko ograničenje</value>
+  </data>
+  <data name="Use 0 to include every question." xml:space="preserve">
+    <value>Koristite 0 za uključivanje svih pitanja.</value>
+  </data>
+  <data name="Who can take this exam" xml:space="preserve">
+    <value>Tko može položiti ovaj ispit</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+
+</root>

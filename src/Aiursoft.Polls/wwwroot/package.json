@@ -5,10 +5,10 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
-    "@aiursoft/uistack": "^2.0.30",
+    "@aiursoft/uistack": "^2.0.41",
     "dropify": "^0.2.2",
     "echarts": "6.1.0",
-    "sweetalert2": "^11.26.25"
+    "sweetalert2": "^11.26.26"
   },
   "keep": {
     "@aiursoft/uistack": "dist",
